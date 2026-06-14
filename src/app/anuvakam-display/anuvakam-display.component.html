@@ -1,0 +1,58 @@
+<nav class="toc">
+  <h2 class="toc-heading">अनुवाकसूची</h2>
+  <ol class="toc-list">
+    <li *ngFor="let anuvakam of anuvakams">
+      <a (click)="scrollToAnuvakam(anuvakam.anuvakam)" href="javascript:void(0)" class="toc-link">
+        {{ anuvakam.title }}
+      </a>
+    </li>
+  </ol>
+</nav>
+
+<div *ngFor="let anuvakam of anuvakams" [id]="'anuvakam-' + anuvakam.anuvakam" class="anuvakam-section">
+  <h2 class="anuvakam-title">{{ anuvakam.title }}</h2>
+
+  <div class="tabs">
+    <button
+      class="tab-btn"
+      [class.active]="activeTab[anuvakam.anuvakam] === 'samhita'"
+      (click)="setActiveTab(anuvakam.anuvakam, 'samhita')">
+      संहिता
+    </button>
+    <button
+      class="tab-btn"
+      [class.active]="activeTab[anuvakam.anuvakam] === 'pada'"
+      (click)="setActiveTab(anuvakam.anuvakam, 'pada')">
+      पद
+    </button>
+    <button
+      class="tab-btn"
+      [class.active]="activeTab[anuvakam.anuvakam] === 'krama'"
+      (click)="setActiveTab(anuvakam.anuvakam, 'krama')">
+      क्रम
+    </button>
+  </div>
+
+  <div class="tab-content">
+    <div *ngIf="activeTab[anuvakam.anuvakam] === 'samhita'" class="mantras">
+      <div *ngFor="let mantra of anuvakam.mantras" class="mantra">
+        <span class="mantra-id">{{ mantra.id }}.</span>
+        <span class="mantra-text">{{ mantra.samhita }}</span>
+      </div>
+    </div>
+
+    <div *ngIf="activeTab[anuvakam.anuvakam] === 'pada'" class="mantras">
+      <div *ngFor="let mantra of anuvakam.mantras" class="mantra">
+        <span class="mantra-id">{{ mantra.id }}.</span>
+        <span class="mantra-text">{{ mantra.pada }}</span>
+      </div>
+    </div>
+
+    <div *ngIf="activeTab[anuvakam.anuvakam] === 'krama'" class="mantras">
+      <div *ngFor="let mantra of anuvakam.mantras" class="mantra">
+        <span class="mantra-id">{{ mantra.id }}.</span>
+        <span class="mantra-text">{{ mantra.krama }}</span>
+      </div>
+    </div>
+  </div>
+</div>

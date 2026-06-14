@@ -1,0 +1,26 @@
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.page-header {
+  text-align: center;
+  padding: 30px 20px 10px;
+  border-bottom: 2px solid #d4a96a;
+  margin-bottom: 10px;
+}
+
+.page-title {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 2em;
+  color: #6b2f0e;
+  margin: 0 0 6px 0;
+}
+
+.page-subtitle {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.1em;
+  color: #8b6040;
+  margin: 0;
+}

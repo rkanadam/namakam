@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Siddhanta';
+  src: url('siddhanta.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Siddhanta', sans-serif;
+  background: #fdf6ee;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
