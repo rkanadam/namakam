@@ -1,0 +1,213 @@
+{
+  "id": 5,
+  "words": [
+    144,
+    148,
+    213,
+    214,
+    215
+  ],
+  "samhita": "नमो॑ निचे॒रवे॑ परिच॒रायार॑ण्याना॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमो॑ । नि-चे॒रवे᳚ । प॒रि॒-च॒राय॑ । अर॑ण्यानाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नमो॑ निचे॒रवे॑ । निचे॒रवे॑ परिच॒राय॑ । परिच॒रायार॑ण्यानाम् । अर॑ण्याणां॒ पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निचे॒रवे॑",
+      "word_ids": [
+        213
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परिच॒रायार॑ण्याना॒",
+      "word_ids": [
+        214
+      ]
+    },
+    {
+      "text": "-",
+      "word_ids": []
+    },
+    {
+      "text": "म्पत॑ये॒",
+      "word_ids": [
+        215,
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नि-चे॒रवे᳚",
+      "word_ids": [
+        213
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒रि॒-च॒राय॑",
+      "word_ids": [
+        214
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अर॑ण्यानाम्",
+      "word_ids": [
+        215
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ निचे॒रवे॑",
+      "word_ids": [
+        144,
+        213
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "निचे॒रवे॑ परिच॒राय॑",
+      "word_ids": [
+        213,
+        214
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "परिच॒रायार॑ण्यानाम्",
+      "word_ids": [
+        214
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अर॑ण्याणां॒ पत॑ये",
+      "word_ids": [
+        214,
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒ नमो॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | nicherave | paricharaya | iti | pari-charaya | aranyanam | pataye | namah || 5 ||\n\nSayana's Commentary: 'Nichera' is one who has the nature of moving about (charana-shila) constantly and carefully within the Master's house itself with the intention \"when shall I steal?\". 'Parichara' is one who has the nature of moving about in marketplaces, streets, gardens, etc., with the intention of stealing. Salutation to him in both those forms. 'Aranyas' are thieves who stay constantly in the forest to harass travelers on the path by stealing their wealth; salutation be to their protector. (5)\n\nBhatta-Bhaskara-Bhashya: 'Namo nicherave'—to him whose nature is to move about (charana-shila) secretly or constantly. [Grammatical note].\n..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n                    श्रीरुद्रभाष्यम् ।                    ८९\n---\n\nनमो वञ्चते परिवञ्चते स्तायूनां पतये\nनमः ॥\n\nअथ चतुर्थः— नमो वञ्चत इति । ये स्वकीया एव\nभूत्वा अन्येर्ज्ञाताः सन्तः द्रव्यमपहरन्ति, ते स्तायवः,\nतेषां स्वामिने नमः । देवस्य स्तायुस्वामित्वमुपापादितुं\nवञ्चते परिवञ्चत इति विशेषणे; स्वामिन भाष्ये भूत्वा\nतद्दीयद्रव्यक्रयविक्रयादिव्यवहारेषु यत्र कुत्रापि यत्किञ्चित्-\nनापहारी वञ्चश्रितेत्युच्यते, सर्वेष्वपि व्यवहारेषु अपह्नव-\nकृत् परिवञ्चश्रितेत्युच्यते, तदरूपायेत्यर्थः । इति चतुर्थः ॥\n\nनमो  निचेरवे  परिचरायारण्यानां\nपतये नमः ॥\n\nअथ पञ्चमः— नमो निचेरव इति । अरण्येषु वर्तमा-\nनात्मोरा आरण्याः, तेषां स्वामिने नमः; एतदेवोपापाव-\nशति— नमो निचेरवे परिचरायेति । आरण्यकचोरा-\nपेक्षायाप्यपहारविषये नितरां संचरणशीलो निचेरुः, एवं\nतदपेक्षया परितोऽपहरितुं संचरणशीलः परिचरः, ताद्श-\nत्य तेषु श्रेष्ठत्वातत्तस्वामित्वं युक्तमिति भावः । इति\nपञ्चमः ॥",
+      "english": "---\n90                    Sri Rudra Bhashyam\n---\n\n[Mantra 6:]\nObeisance to those who protect themselves with a srkava (a mechanical device), to those who desire to kill, to the Lord of grain-thieves (sushnatam) — obeisance.\n\nNow the sixth [commentary]: — \"Namah srkavibhya\" (Obeisance to those with the srkava). \"Srkavinah\" means those who protect themselves with a mechanical device called srkava; \"jighamsamtah\" means those who desire to kill living beings; obeisance to the one of both these forms; \"sushnatam\" means the Lord of grain-thieves who steal grain from fields (kedara) and the like — obeisance. Here also the two qualifying epithets [serve to establish the reason for lordship over grain-thieves]: the lordship of a [person over] grain-thieves at a certain time belongs to one who is both skilled in protecting grain and who desires to oppose [thieves]. The plural [form] is Vedic usage (chandasa); otherwise there would be no [grammatical] relation between the qualifying words and what they qualify. The same applies to the next mantra also. Thus ends the sixth.\n\n[Mantra 7:]\nObeisance to those with swords, to the night-wanderers, to the Lord of predatory thieves (prakuntanah) — obeisance.\n\nNow the seventh [commentary]: — \"Namo'simanjya\" (Obeisance to the sword-bearers). \"Asimantas\" means sword-bearers (those carrying swords); \"naktamcharantah\" means night-wanderers (those who roam at night) — night-robbers; obeisance to such a form. \"Prakuntah\" means thieves who steal while [fleeing] — obeisance to their Lord. Here the two qualifying epithets [are given] to show the form appropriate to lordship over predatory thieves. Thus ends the seventh.\n\n[Mantra 8:]\nObeisance to the turban-wearer (ushnishthin), to the mountain-roamer, to the Lord of land-thieves (kulunjchas) — obeisance."
+    }
+  }
+}

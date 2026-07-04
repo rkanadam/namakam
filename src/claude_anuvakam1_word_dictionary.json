@@ -1,0 +1,2454 @@
+{
+  "anuvakam": 1,
+  "title": "प्रथमोनुवाकः — Word Dictionary",
+  "source": "Claude analysis of pada-pāṭha word splitting with references from Nirukta, Nighantu, Pāṇini Aṣṭādhyāyī, Amara Kosha, and Vedāntic commentaries",
+  "structure": "Global dictionary of unique base words (lemmas), followed by per-mantra word sequences with pada positions referencing the dictionary",
+
+  "dictionary": {
+    "namaḥ": {
+      "word": "नमः",
+      "transliteration": "namaḥ",
+      "root": "√nam (to bow, to bend, to submit)",
+      "grammar": {
+        "base": "नमस् (namas)",
+        "form": "nominative/accusative singular, neuter",
+        "type": "action noun (bhāvavācaka)",
+        "panini": [
+          "√नम् + असुन् (Uṇādi 4.188) → नमस् — the asun-pratyaya forms the abstract noun",
+          "P 8.3.34 — visarjanīya (ḥ) at pada-end before pause (avasāna)",
+          "P 8.3.15 — visarjanīya rules for s → ḥ in sentence-final position"
+        ]
+      },
+      "meanings": {
+        "english": "Salutation; obeisance; reverential bowing; surrender; homage",
+        "nighantu": "Nighantu 3.18 — listed among karmavācaka words (action-denoting terms). Naighaṇṭuka-kāṇḍa groups it with acts of reverence and worship.",
+        "nirukta": "Yāska (Nirukta 3.16 and 10.3) derives from √nam — 'namati praṇamati' (one bows down, prostrates). The visarga form namaḥ indicates the completed act of submission. Some nairuktikas parse as 'na + maḥ' — 'not mine', indicating relinquishment of ego, though Yāska himself favors the verbal derivation.",
+        "amara_kosha": "Amarakośa 3.3.213 — नमः listed as an avyaya (indeclinable) meaning 'praṇāma' (prostration). Amara classifies it among common liturgical expressions.",
+        "vedantic": "In Advaita, 'namaḥ' is parsed as 'na mama' (not mine) — a surrender of kartṛtva and bhoktṛtva (doership and enjoyership). Śaṅkara in his bhāṣya treats namaḥ as complete effacement of ahaṅkāra before the Supreme. In Śaiva Siddhānta, it represents prapatti (total surrender) to Rudra-Śiva. The Śvetāśvatara Upaniṣad (4.22) uses 'namaḥ' in the same spirit when addressing Rudra."
+      }
+    },
+
+    "te": {
+      "word": "ते",
+      "transliteration": "te",
+      "root": "युष्मद् (yuṣmad — second person pronoun)",
+      "grammar": {
+        "base": "त्वम् (tvam — you)",
+        "form": "enclitic dative singular 'tubhyam' or genitive singular 'tava'",
+        "type": "pronoun (sarvanāman)",
+        "panini": [
+          "P 8.1.22 — te, me, etc. are treated as enclitic (anudātta) forms that cannot begin a sentence (pragraha rules)",
+          "P 8.1.28 — te is an ādeśa (replacement) of tubhyam/tava in non-initial positions",
+          "P 7.2.97 — the dative singular replacement for yuṣmad-śabda"
+        ]
+      },
+      "meanings": {
+        "english": "To you; your; of you; for you",
+        "nighantu": "Not separately listed; pronouns are treated as structural words (nipāta-varga) in the Nighantu tradition.",
+        "nirukta": "Nirukta 1.4 discusses pronoun forms. The enclitic 'te' is the natural conversational form of address in Vedic, more intimate than the full 'tubhyam' — it implies direct, personal communion with the deity.",
+        "vedantic": "Here 'te' addresses Rudra as the Supreme Being directly. The repeated use throughout Śrī Rudram establishes the devotee's continuous awareness of the divine 'You' — the eternal subject who is never an object. In Vedāntic reading, 'te' points to the Ātman-Brahman that is the true 'You' of all beings (cf. 'tat tvam asi')."
+      }
+    },
+
+    "rudra": {
+      "word": "रुद्र",
+      "transliteration": "rudra",
+      "root": "√rud (to cry, to howl) + ra (agent suffix); or √ru (to break, to dissolve) + dra (one who drives/runs)",
+      "grammar": {
+        "base": "रुद्र (rudra)",
+        "form": "vocative singular, masculine (also nom. sg. in other contexts)",
+        "type": "proper noun / adjective",
+        "panini": [
+          "√रुद् + रक् (Uṇādi 2.22) → रुद्र — agent noun formation",
+          "P 2.4.62 — Rudra as a proper noun (saṃjñā-śabda) retains its form in compounds",
+          "P 1.2.38 — as a name of a deity, it follows devata-specific accent rules"
+        ]
+      },
+      "meanings": {
+        "english": "The Howler; the Terrible; the Remover of sorrow; the one who drives away suffering; the Red/Shining one",
+        "nighantu": "Nighantu 5.3 (Daivata-kāṇḍa) — listed among the names of deities of the middle region (antarikṣa-sthāna-devatā). Also appears in the enumeration of Ādityas and in storm-deity lists.",
+        "nirukta": "Yāska (Nirukta 10.3) gives multiple etymologies: (1) 'rodayati iti rudraḥ' — He who makes enemies weep; (2) 'rut dravayati iti rudraḥ' — He who drives away suffering (rut = duḥkha, dravayati = causes to flow away); (3) 'raudīti yaḥ sa rudraḥ' — He who roars/howls. The Śatapatha Brāhmaṇa (6.1.3.7) derives from 'arudat' — the crying of Prajāpati's offspring who demanded a name. Nirukta also notes the interpretation 'rut + dra' where rut = disease/sorrow.",
+        "amara_kosha": "Amarakośa 1.1.29 (Svargavarga, Śiva-nāma) — रुद्रः listed among the principal names of Śiva: 'śambhurīśaḥ paśupatiḥ śivaḥ śūlī maheśvaraḥ / īśvaraḥ sarva īśānaḥ śaṅkaraś candraśekharaḥ' — Rudra is one of the 27 synonyms of Śiva given by Amara.",
+        "vedantic": "In Advaita, Rudra is Brahman in the aspect of cosmic dissolution (saṃhāra-mūrti). Sāyaṇa glosses Rudra as 'duḥkhaṃ rut tad drāvayati iti rudraḥ'. In Śrī Rudra Bhāṣya attributed to Śaṅkara, Rudra is identified with the Supreme Ātman. Abhinavagupta reads Rudra as primal consciousness that dissolves duality. The Śvetāśvatara Upaniṣad (3.2) declares 'eko hi rudro na dvitīyāya tasthur' — Rudra alone exists, there is no second."
+      }
+    },
+
+    "manyu": {
+      "word": "मन्यु",
+      "transliteration": "manyu",
+      "root": "√man (to think, to be incensed, to be passionate, to conceive)",
+      "grammar": {
+        "base": "मन्यु (manyu — wrath, passion, spirit, zeal)",
+        "form": "appears as मन्यवे (manyave, dative sg.) in mantra 1",
+        "type": "noun, masculine",
+        "panini": [
+          "√मन् + युच् (P 3.1.144) → मन्यु — the yuc-pratyaya forms action/result nouns",
+          "P 7.1.13 — dative singular of yu-anta words: मन्यु + ए → मन्यवे (y → v intervocalically)"
+        ]
+      },
+      "meanings": {
+        "english": "Wrath; fierce passion; zealous spirit; high spirit; indignation; the force of divine will",
+        "nighantu": "Nighantu 2.3 — listed among krodha-vācaka words (anger-denoting terms). Also appears in Nighantu 1.8 among terms for mental states (manas-vṛtti).",
+        "nirukta": "Yāska derives manyu from √man — 'manyate krodham iti manyuḥ' (that which is conceived as fury). Also connected to 'manas' — the intense activity of mind. Manyu is not mere anger but concentrated force of will — divine fury that upholds ṛta. Cf. RV 10.83-84 (Manyu Sūkta) where Manyu is itself invoked as a deity: 'yaste manyo'vidhad vajra sāyaka' — O Manyu, you whose bolt is unfailing.",
+        "amara_kosha": "Amarakośa 1.7.25 (Krodha-varga) — मन्युः listed as a synonym of krodha (anger): 'manyuḥ krodhāmarṣaṇau roṣakopau pratighāv ubhau' — Amara lists manyu alongside krodha, amarṣa, roṣa, kopa, and pratigha as words for anger.",
+        "vedantic": "Sāyaṇa glosses manyave as 'krodhāya'. Vedāntic commentators note Rudra's manyu is not tāmasic anger but sāttvic fury that destroys adharma and ignorance — the same force Kṛṣṇa displays on the battlefield. The salutation to manyu acknowledges that even divine wrath serves a liberating purpose."
+      }
+    },
+
+    "uta": {
+      "word": "उत",
+      "transliteration": "uta",
+      "root": "indeclinable particle (avyaya / nipāta)",
+      "grammar": {
+        "base": "उत (uta)",
+        "form": "indeclinable conjunction",
+        "type": "particle (nipāta)",
+        "panini": [
+          "P 1.1.37 — classified as a nipāta (particle), which by P 1.1.38 are sarvadā anudāttāḥ (always anudātta) except when specifically accented by Vedic usage",
+          "P 2.2.29 — uta as a samuccaya (cumulative conjunction) in dvandva-like constructions"
+        ]
+      },
+      "meanings": {
+        "english": "And; also; moreover; as well as; further",
+        "nighantu": "Nighantu 3.29 — listed among samuccayārthaka avyayas (conjunctive particles). The Nighantu tradition recognizes its use in both additive and emphatic senses.",
+        "nirukta": "Nirukta 1.9 — Yāska classifies uta among the upamārthīya and samuccayārthīya particles. In doubled form 'utota' (uta+uta), it emphasizes cumulative addition — 'and further also'. The Nirukta notes that nipātas modify the meaning of adjacent words without independent denotation.",
+        "vedantic": "The repeated 'uta' extends the salutation to every aspect of Rudra — not just to Rudra himself but also to his instruments. This reveals the Vedic insight that the divine pervades every aspect, even the weapons that cause fear."
+      }
+    },
+
+    "iṣu": {
+      "word": "इषु",
+      "transliteration": "iṣu",
+      "root": "√iṣ (to send forth, to propel, to impel, to seek)",
+      "grammar": {
+        "base": "इषु (iṣu — arrow, missile)",
+        "form": "appears as इषवे (iṣave, dat. sg.), इषुः (iṣuḥ, nom. sg.), इषुम् (iṣum, acc. sg.), इषवः (iṣavaḥ, nom. pl.) across mantras",
+        "type": "noun, masculine/feminine",
+        "panini": [
+          "√इष् + उ (Uṇādi 1.1) → इषु — the u-pratyaya forms the substantive noun",
+          "P 7.1.73 — declension follows u-kārānta (u-stem) paradigm: nom. इषुः, dat. इषवे, acc. इषुम्, nom.pl. इषवः",
+          "P 6.1.77 — sandhi rule for iṣu + e → iṣave"
+        ]
+      },
+      "meanings": {
+        "english": "Arrow; missile; shaft; projectile",
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names) alongside śara, bāṇa, sāyaka.",
+        "nirukta": "Yāska derives iṣu from √iṣ — 'iṣyate kṣipyate iti iṣuḥ' (that which is sent forth / hurled). The root √iṣ carries the dual sense of 'impelling/seeking' and 'desiring' — an arrow is that which is directed with intention toward its target. Nirukta 9.11 discusses arrow-related vocabulary.",
+        "amara_kosha": "Amarakośa 2.8.86 (Kṣatriya-varga, Āyudha) — इषुः listed as a synonym of arrow: 'iṣuḥ śaraś ca bāṇaś ca' — iṣu, śara, and bāṇa are synonyms for arrow.",
+        "vedantic": "The arrow symbolizes Rudra's targeted grace or punishment — it never misses. In the Muṇḍaka Upaniṣad (2.2.4): 'śaram hy upāsā-niśitam sandhayīta' — the arrow (jīvātman) is sharpened by meditation and aimed at Brahman. Saluting the arrow acknowledges that even what strikes us is an instrument of divine purpose."
+      }
+    },
+
+    "as_verb": {
+      "word": "अस्तु / असत्",
+      "transliteration": "astu / asat",
+      "root": "√अस् (to be, to exist) — bhvādi, parasmaipada",
+      "grammar": {
+        "base": "अस् (as — to be)",
+        "forms": "अस्तु (astu, 3rd sg. imperative 'may it be'), असत् (asat, 3rd sg. optative/conditional 'would be')",
+        "type": "verb",
+        "panini": [
+          "P 2.4.52 — √अस् is replaced by भू in certain lakaras (bhū-ādeśa)",
+          "P 3.4.86 — loṭ lakāra (imperative) formation → अस् + तु → अस्तु",
+          "P 7.1.35 — the tu-ending for 3rd person imperative",
+          "P 3.4.113 — liṅ lakāra (optative): अस् + ईत् → स्यात् / असत् (Vedic conditional)"
+        ]
+      },
+      "meanings": {
+        "english": "May it be; let it be; let there be; would be; may it become",
+        "nirukta": "The imperative of √as. Expresses a benedictory wish — 'let this salutation exist, let it come into being.' The imperative mood elevates the salutation from description to performative speech act.",
+        "vedantic": "'Astu' transforms the salutation into a prayer — not merely stating 'salutation to you' but earnestly invoking 'may my salutation reach you.' This reflects the Vedic understanding that mantra efficacy depends on sankalpa (intention). In mantra 5, 'asat' (optative 'may it be') expresses the wish for the world to be free of disease."
+      }
+    },
+
+    "dhanvan": {
+      "word": "धन्वन् / धनुस्",
+      "transliteration": "dhanvan / dhanus",
+      "root": "√धन् (to sound, to resonate) or √धन्व् (to move in a curve, to run)",
+      "grammar": {
+        "base": "धन्वन् (dhanvan) / धनुस् (dhanus) — both stems mean 'bow'",
+        "forms": "धन्वने (dhanvane, dat. sg.), धनुः (dhanuḥ, nom. sg.), धन्वनः (dhanvanaḥ, gen./abl. sg.)",
+        "type": "noun, neuter",
+        "panini": [
+          "√धन् + वनिप् (Uṇādi 4.113) → धन्वन् — vanip-pratyaya forms the n-stem noun",
+          "P 7.1.75 — an-anta (n-stem) declension paradigm: nom. धनुः (with P 8.2.7 n → anusvāra → ḥ), dat. धन्वने",
+          "P 6.4.8 — sarvanāmasthāna rules for the alternation between dhanvan-/dhanus- stems",
+          "P 8.2.7 — conversion of final n to visarjanīya in nom. sg.: dhanvans → dhanuḥ"
+        ]
+      },
+      "meanings": {
+        "english": "Bow; the arc-shaped weapon",
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names). The Naighaṇṭuka tradition pairs it with iṣu as the primary weapon-set.",
+        "nirukta": "Yāska connects dhanvan to √dhan (to produce sound) — the bow is characterized by its resonant twang when released. Also related to √dhanv (to curve/run) — its arc shape. Nirukta 9.11 notes the relationship between the bow's curve and the concept of all-pervading reach.",
+        "amara_kosha": "Amarakośa 2.8.85 (Kṣatriya-varga, Āyudha) — 'dhanuḥ koḍaṇḍam' — dhanus and koḍaṇḍa are synonyms for bow. Also 'cāpaḥ śarāsanam' as further synonyms.",
+        "vedantic": "Muṇḍaka Upaniṣad (2.2.4): 'dhanur gṛhītvā aupaniṣadaṃ mahāstram' — 'Taking up the great weapon, the bow of the Upaniṣads' — the bow is Oṃkāra (Praṇava). It is both the vehicle of destruction and liberation. In Śrī Rudram context, saluting the bow acknowledges the instrument through which divine will operates."
+      }
+    },
+
+    "bāhu": {
+      "word": "बाहु",
+      "transliteration": "bāhu",
+      "root": "√बाह् / √बंह् (to grow, to increase, to be strong, to extend)",
+      "grammar": {
+        "base": "बाहु (bāhu — arm, forearm)",
+        "forms": "बाहुभ्याम् (bāhubhyām, dat./instr. dual)",
+        "type": "noun, masculine",
+        "panini": [
+          "√बंह् + उ (Uṇādi 1.22) → बाहु — u-pratyaya with vṛddhi of root vowel",
+          "P 7.1.73 — u-kārānta (u-stem) declension: dual dat./instr. बाहुभ्याम्",
+          "P 7.3.113 — dual case ending -bhyām applies directly to u-stem"
+        ]
+      },
+      "meanings": {
+        "english": "Arm; forearm; the upper limb from shoulder to hand",
+        "nighantu": "Nighantu 2.4 — listed among aṅga-nāmāni (body-part names) in the Naighaṇṭuka-kāṇḍa.",
+        "nirukta": "Yāska connects bāhu to √baṃh — 'baṃhate vardhate iti bāhuḥ' (that which grows strong / extends). The dual form refers specifically to Rudra's two arms as distinct instruments of power.",
+        "amara_kosha": "Amarakośa 2.6.73 (Manuṣya-varga, Aṅga) — बाहुः listed among arm-names: 'bāhur dorbhujau' — bāhu, dos, and bhuja are synonyms for arm.",
+        "vedantic": "The two arms represent Rudra's dual function — protection (abhaya) and discipline (daṇḍa). Saluting the arms separately from the weapons shows the Vedic seer's comprehensive vision — every limb of the divine merits reverence. The dual form hints at the pairs of opposites (dvandva) that Rudra transcends."
+      }
+    },
+
+    "yad": {
+      "word": "यद्",
+      "transliteration": "yad",
+      "root": "यद् (yad — relative pronoun: who, which, what)",
+      "grammar": {
+        "base": "यद् (yad)",
+        "forms": "या (yā, fem. nom. sg.), याम् (yām, fem. acc. sg.), यः (yaḥ, masc. nom. sg.), ये (ye, masc. nom. pl.), याः (yāḥ, fem. nom. pl.)",
+        "type": "pronoun (sarvanāman), relative",
+        "panini": [
+          "P 1.1.27 — yad is classified as a sarvanāman (pronoun)",
+          "P 7.2.102-105 — declension paradigm for yad-śabda across genders",
+          "P 8.1.36 — ya-forms can be accent-bearing or enclitic depending on position"
+        ]
+      },
+      "meanings": {
+        "english": "Who; which; what; that which (relative pronoun forming correlative clauses)",
+        "nirukta": "Yāska classifies yad among relative-correlative constructions fundamental to Vedic syntax. The relative clause structure 'yā te iṣuḥ ... tayā naḥ mṛḍaya' (which arrow of yours ... by that, be gracious to us) is a defining pattern of Vedic prayer — naming the fearsome and asking for its transformation.",
+        "vedantic": "The relative pronoun 'yā/yad' in Vedic prayer introduces the item of fear which the devotee then asks the deity to make auspicious. This rhetorical structure embodies surrender — not denying the terrible but asking it to become gracious."
+      }
+    },
+
+    "śiva": {
+      "word": "शिव",
+      "transliteration": "śiva",
+      "root": "√śī (to lie, to rest, to bring peace) + va (suffix); or from √śiv (to be auspicious)",
+      "grammar": {
+        "base": "शिव (śiva — auspicious, benign, gracious)",
+        "forms": "शिवतमा (śivatamā, fem. superl. nom. sg.), शिवम् (śivam, neut. nom/acc. sg.), शिवा (śivā, fem. nom. sg.), शिवाम् (śivām, fem. acc. sg.), शिवेन (śivena, masc./neut. instr. sg.), शिवः (śivaḥ, masc. nom. sg.)",
+        "type": "adjective / proper noun",
+        "panini": [
+          "P 5.3.55 — tamac-pratyaya for superlative: शिव + तम → शिवतम (most auspicious), fem. शिवतमा",
+          "P 4.1.4 — fem. ā-ending for adjectives: śiva → śivā",
+          "P 2.4.62 — as a proper name (Śiva), retains form in compounds"
+        ]
+      },
+      "meanings": {
+        "english": "Auspicious; benign; gracious; kind; peaceful; propitious; the one who brings well-being",
+        "nighantu": "Nighantu 3.19 — listed among kalyāṇa-vācaka words (auspiciousness-denoting terms). Also in Nighantu 5.3 among deity-epithets.",
+        "nirukta": "Yāska derives śiva from √śī — 'śete sukham yasmin sa śivaḥ' (in whom/which one rests in comfort). Also parsed as 'śam + iva' — 'like peace itself'. The Nirukta tradition emphasizes that śiva is fundamentally a quality-word (guṇa-vācaka) before becoming a proper name — it describes the benign aspect of the same deity whose terrible form is 'Rudra'.",
+        "amara_kosha": "Amarakośa 1.1.29 — शिवः listed as one of the 27 names of the deity: 'śambhurīśaḥ paśupatiḥ śivaḥ'. Also Amarakośa 3.3.97 — śiva as an adjective meaning maṅgala (auspicious): 'śivaḥ śaṅkare cāpi kalyāṇe ca'.",
+        "vedantic": "The transition from 'Rudra' to 'Śiva' is the central theological movement of the Śrī Rudram — the terrible is asked to become auspicious. In Advaita, Śiva represents the nirguṇa Brahman beyond attributes, whose nature is inherently śānta (peaceful). Rudra's weapons becoming 'śiva' symbolizes the transformation of worldly suffering into spiritual awakening."
+      }
+    },
+
+    "bhū": {
+      "word": "भू",
+      "transliteration": "bhū",
+      "root": "√भू (to be, to become, to arise, to exist) — bhvādi, parasmaipada",
+      "grammar": {
+        "base": "भू (bhū)",
+        "forms": "बभूव (babhūva, 3rd sg. perfect 'has become'), भव (bhava, 2nd sg. imperative 'be!'), भूतानि (bhūtāni, neut. nom. pl. 'beings')",
+        "type": "verb / noun (as bhūta)",
+        "panini": [
+          "P 3.2.115 — liṭ lakāra (perfect): भू → ब + भू + व → बभूव (with reduplication per P 6.1.8)",
+          "P 3.4.87 — loṭ lakāra (imperative): भू + हि → भव (with guṇa per P 7.3.84)",
+          "P 3.2.107 — past participle: भू + क्त → भूत",
+          "P 3.3.18 — verbal noun formation: भू + क्तिन् → भूतिः (prosperity)"
+        ]
+      },
+      "meanings": {
+        "english": "To become; to be; to arise; to exist; to happen",
+        "nighantu": "Nighantu 1.1 — √bhū listed among the most fundamental sattā-vācaka dhātus (existence-denoting roots).",
+        "nirukta": "Nirukta 2.1 — Yāska establishes √bhū as the root of all becoming. 'Bhavati' denotes coming-into-being, while 'babhūva' (perfect) indicates accomplished/established existence. The Nirukta treats bhū as the most productive root in the language.",
+        "amara_kosha": "Amarakośa 3.3.213 — भूतम् (past participle) listed meaning 'prāpta' (obtained) and 'jāta' (born). भूतानि as 'beings' appears in Amarakośa 1.1.7.",
+        "vedantic": "In Vedānta, √bhū represents the principle of manifestation — Brahman becoming the world. 'Babhūva te dhanuḥ' — 'your bow has become [auspicious]' — represents the transformation of the terrible into the benign through prayer."
+      }
+    },
+
+    "śaravyā": {
+      "word": "शरव्या",
+      "transliteration": "śaravyā",
+      "root": "शर (śara — arrow) + व्यच् (vyac — suffix indicating container/holder), or शर + वय (that which bears arrows)",
+      "grammar": {
+        "base": "शरव्या (śaravyā — quiver; volley of arrows; that which relates to arrows)",
+        "form": "nominative singular, feminine",
+        "type": "noun, feminine",
+        "panini": [
+          "P 4.2.49 — yat-pratyaya for 'belonging to / relating to': शर + य → शरव्य, fem. शरव्या",
+          "P 4.1.4 — feminine ā-ending (ṭāp)"
+        ]
+      },
+      "meanings": {
+        "english": "Quiver; arrow-case; the bundle/volley of arrows; that which pertains to arrows",
+        "nighantu": "Nighantu 2.20 — grouped with āyudha-nāmāni (weapon names).",
+        "nirukta": "Derived from śara (arrow) — 'śarāṇām samūhaḥ / ādhāraḥ' (a collection of arrows / their container). Sāyaṇa glosses as 'bāṇa-samūha' (arrow-collection) or 'tūṇīra' (quiver).",
+        "amara_kosha": "Amarakośa 2.8.86 — related terms: 'tūṇīraḥ iṣudhiḥ niṣaṅgaḥ' are listed as quiver-synonyms.",
+        "vedantic": "The quiver holds potential arrows — representing latent destructive capacity. Asking for the quiver to be śivā means asking that even the reservoir of Rudra's power be turned to benevolence."
+      }
+    },
+
+    "tava": {
+      "word": "तव",
+      "transliteration": "tava",
+      "root": "युष्मद् (yuṣmad — second person pronoun)",
+      "grammar": {
+        "base": "त्वम् (tvam — you)",
+        "form": "genitive singular — 'your, of you' (full/non-enclitic form, unlike 'te')",
+        "type": "pronoun (sarvanāman)",
+        "panini": [
+          "P 8.1.22 — unlike 'te', 'tava' is the full (pragṛhya) genitive form that can begin a sentence",
+          "P 7.2.97 — genitive singular formation of yuṣmad-śabda"
+        ]
+      },
+      "meanings": {
+        "english": "Your; of you; belonging to you",
+        "nirukta": "The full genitive form 'tava' is used when emphasis or sentence-initial position requires the stressed pronoun form, as opposed to the enclitic 'te'.",
+        "vedantic": "Same referent as 'te' — addresses Rudra directly. The full form 'tava' carries greater emphasis — 'yours specifically, O Rudra'."
+      }
+    },
+
+    "tad": {
+      "word": "तद्",
+      "transliteration": "tad",
+      "root": "तद् (tad — demonstrative pronoun: that, he/she/it)",
+      "grammar": {
+        "base": "तद् (tad)",
+        "forms": "तया (tayā, fem. instr. sg. 'by that'), ताम् (tām, fem. acc. sg. 'that'), ताः (tāḥ, fem. nom/acc. pl.), तम् (tam, masc. acc. sg.), सः (saḥ, masc. nom. sg. — suppletion), तेभ्यः (tebhyaḥ, dat. pl.)",
+        "type": "pronoun (sarvanāman), demonstrative",
+        "panini": [
+          "P 1.1.27 — tad classified as sarvanāman",
+          "P 7.2.102 — declension paradigm for tad-śabda",
+          "P 7.1.25 — suppletion: nom. sg. masc. becomes saḥ (not tadaḥ)"
+        ]
+      },
+      "meanings": {
+        "english": "That; by that; him/her/it (demonstrative/correlative pronoun)",
+        "nirukta": "Functions as the correlative partner to yad (relative pronoun). The construction 'yā te iṣuḥ ... tayā naḥ mṛḍaya' uses yā...tayā as relative-correlative pair.",
+        "vedantic": "In Vedāntic usage, 'tad' famously refers to Brahman — 'tat tvam asi' (Chāndogya 6.8.7). The correlative use here points to the identity between the terrible and the auspicious."
+      }
+    },
+
+    "asmad": {
+      "word": "अस्मद्",
+      "transliteration": "asmad",
+      "root": "अस्मद् (asmad — first person pronoun: we, us)",
+      "grammar": {
+        "base": "अस्मद् (asmad — we/us)",
+        "forms": "नः (naḥ, enclitic acc./dat./gen. 'us/to us/our'), अस्मान् (asmān, acc. pl. 'us'), अस्मत् (asmat, abl. 'from us')",
+        "type": "pronoun (sarvanāman)",
+        "panini": [
+          "P 8.1.22 — नः is the enclitic form, governed by same pragraha rules as ते",
+          "P 7.2.97 — accusative plural: अस्मान्",
+          "P 7.2.86 — ablative: अस्मत्"
+        ]
+      },
+      "meanings": {
+        "english": "Us; to us; our; from us (first person plural)",
+        "nirukta": "The first person plural establishes the communal nature of Vedic prayer — the ṛṣi speaks not for himself alone but for the community.",
+        "vedantic": "The shift from 'te' (you) to 'naḥ' (us) establishes the devotee-deity relationship. In Advaita, the apparent duality of 'you' and 'us' is ultimately resolved in the identity of Ātman and Brahman."
+      }
+    },
+
+    "mṛḍ": {
+      "word": "मृड्",
+      "transliteration": "mṛḍ",
+      "root": "√मृड् (to be gracious, to show mercy, to have compassion, to make happy) — tud-ādi or cur-ādi",
+      "grammar": {
+        "base": "मृड् (mṛḍ)",
+        "forms": "मृडय (mṛḍaya, 2nd sg. imperative causative 'be gracious! have mercy!'), मृडयाति (mṛḍayāti, 3rd sg. present causative 'he shows mercy')",
+        "type": "verb",
+        "panini": [
+          "P 3.1.26 — causative (ṇic) formation: मृड् + णिच् → मृडय (with guṇa)",
+          "P 3.4.87 — loṭ (imperative): मृडय + हि → मृडय (hi dropped after aya per Vedic usage)"
+        ]
+      },
+      "meanings": {
+        "english": "Be gracious; show mercy; have compassion; make happy; delight us",
+        "nighantu": "Nighantu 3.13 — listed among sukha-vācaka (happiness-denoting) roots.",
+        "nirukta": "Yāska connects mṛḍ to the idea of 'softening' — 'mṛdnāti duḥkham' (grinds away suffering). Related to mṛdu (soft, gentle). The causative form mṛḍaya means 'cause to be happy/gentle' — a direct plea for Rudra to exercise his gracious nature.",
+        "amara_kosha": "Amarakośa 3.1.32 — मृडयति listed as a kriyā (verb) meaning 'sukhayati' (to make happy).",
+        "vedantic": "Mṛḍaya is the central prayer of Śrī Rudram — asking Rudra to be gracious. In the Śaiva tradition, mṛḍa is itself an epithet of Śiva (Mṛḍa = the gracious one). The plea transforms the hymn from a litany of fearsome attributes into a loving petition."
+      }
+    },
+
+    "tanū": {
+      "word": "तनू",
+      "transliteration": "tanū",
+      "root": "√तन् (to stretch, to extend, to spread) + ऊ (suffix)",
+      "grammar": {
+        "base": "तनू (tanū — body, form, self, person)",
+        "forms": "तनूः (tanūḥ, nom. sg. 'body/form'), तनुवा (tanuvā, instr. sg. 'by/with that form')",
+        "type": "noun, feminine",
+        "panini": [
+          "√तन् + ऊ (Uṇādi 1.67) → तनू",
+          "P 7.1.73 — ū-kārānta declension: nom. तनूः, instr. तनुवा (with v-insertion per P 6.1.79)"
+        ]
+      },
+      "meanings": {
+        "english": "Body; form; self; person; embodiment",
+        "nighantu": "Nighantu 2.4 — listed among śarīra-vācaka (body-denoting) words and also among ātman-vācaka (self-denoting) words.",
+        "nirukta": "Yāska derives from √tan — 'tanyate vistarayate iti tanuḥ' (that which is spread out/extended). The body is the 'extension' of the self into physical form. In Vedic usage, tanū often means 'self' (ātman) rather than just physical body.",
+        "amara_kosha": "Amarakośa 2.6.71 — तनूः listed in the śarīra-varga (body section): 'śarīraṃ vapuḥ tanuḥ' — body, form, and tanu are synonyms.",
+        "vedantic": "In mantra 3, 'yā te śivā tanūḥ' — 'which auspicious form of yours' — tanū refers to a particular aspect or manifestation of Rudra. The Vedāntic reading sees tanū as the 'extension' of the formless Brahman into the realm of name and form. The prayer asks for Rudra's benign form (śivā tanūḥ) to be the one that faces us."
+      }
+    },
+
+    "aghorā": {
+      "word": "अघोरा",
+      "transliteration": "aghorā",
+      "root": "अ (not) + घोर (terrible, dreadful) — from √ghur / √ghuṣ (to sound terribly)",
+      "grammar": {
+        "base": "अघोर (aghora — not terrible, benign)",
+        "form": "feminine nominative singular — अघोरा",
+        "type": "adjective (bahuvrīhi-type negative compound)",
+        "panini": [
+          "P 6.2.155 — nañ-tatpuruṣa (negative compound): a + ghora → aghora",
+          "P 2.2.6 — nañ (negative particle) precedes the adjective in compound",
+          "P 4.1.4 — feminine ā-ending: aghorā"
+        ]
+      },
+      "meanings": {
+        "english": "Not terrible; benign; gentle; free from horror; mild",
+        "nirukta": "Compound of nañ (negative) + ghora (terrible). Ghora is derived from √ghuṣ/ghur — 'ghorayati bhāyayati iti ghoram' (that which causes fear). A-ghora is the deliberate negation of Rudra's terrifying aspect. The Nirukta tradition reads negation-compounds as more than simple absence — a-ghora implies active gentleness, not mere lack of terror.",
+        "amara_kosha": "Amarakośa 3.1.49 — घोरम् listed as a synonym of 'bhayānaka' (terrifying). Aghora is its antonym by nañ-samāsa.",
+        "vedantic": "Aghorā is one of the Pañcabrahma-mantras (Taittirīya Āraṇyaka 10.43-47) — 'Aghora' faces south and represents the dissolution aspect that is simultaneously benign. In Kāśmīra Śaivism, Aghora is the face of Śiva that makes the terrifying non-terrifying — transcending fear itself."
+      }
+    },
+
+    "apāpakāśinī": {
+      "word": "अपापकाशिनी",
+      "transliteration": "apāpakāśinī",
+      "root": "अ (not) + पाप (sin/evil) + काशिनी (revealing/shining) — from √काश् (to shine, to appear, to be visible)",
+      "grammar": {
+        "base": "अपापकाशिन् (apāpakāśin — not revealing evil, manifesting purity)",
+        "form": "feminine nominative singular — अपापकाशिनी",
+        "type": "compound adjective (nañ-tatpuruṣa + upapada)",
+        "panini": [
+          "P 3.2.142 — the ini-pratyaya from √काश् forms the agent adjective: kāśin (one who shines/reveals)",
+          "P 2.2.6 — nañ-compound: a + pāpakāśin → apāpakāśin",
+          "P 4.1.5 — feminine ṅīṣ-pratyaya: apāpakāśin + ī → apāpakāśinī"
+        ]
+      },
+      "meanings": {
+        "english": "Not revealing sin; manifesting purity; not making evil visible; shining without malevolence",
+        "nirukta": "Compound of a + pāpa + kāśinī. Sāyaṇa parses: 'pāpam akāśayantī' — 'not making sin visible/manifest'. Alternatively: 'apāpam kāśayantī' — 'causing non-sin (purity) to shine forth'. Both readings are grammatically valid, and the Nirukta tradition embraces such productive ambiguity.",
+        "vedantic": "This epithet describes Rudra's form that does not project evil or cause harmful manifestation. In Advaita, it suggests the nirguṇa Brahman that is beyond the categories of pāpa and puṇya. The form that is 'apāpakāśinī' is the svarūpa — the intrinsic nature that is pure consciousness without the projection of māyā."
+      }
+    },
+
+    "śam": {
+      "word": "शम्",
+      "transliteration": "śam",
+      "root": "√शम् (to be calm, to be peaceful, to be auspicious) or शम् as an avyaya meaning 'peace/welfare'",
+      "grammar": {
+        "base": "शम् (śam — peace, welfare, auspiciousness)",
+        "forms": "शन्तमया (śantamayā, superl. instr. sg. 'by the most peaceful'), शन्त (śanta, adj. 'peaceful' in compounds like गिरिशन्त)",
+        "type": "noun/adjective",
+        "panini": [
+          "P 5.3.55 — tamac-pratyaya for superlative: शम् + तम → शन्तम (most peaceful)",
+          "P 3.2.141 — śānta from √śam + kta (past participle)"
+        ]
+      },
+      "meanings": {
+        "english": "Peace; welfare; happiness; auspiciousness; tranquility",
+        "nighantu": "Nighantu 3.19 — listed among sukha-vācaka (happiness-denoting) words.",
+        "nirukta": "Yāska derives from √śam — 'śāmyati upaśāmyati iti śam' (that by which one becomes calm/tranquil). The superlative śantama means 'most peaceful of all'.",
+        "vedantic": "Śam is one of the fundamental Vedic blessings — 'śaṃ no astu dvipade śaṃ catuṣpade' (may there be peace for two-footed and four-footed). In the context of Śrī Rudram, asking to be seen by Rudra's 'śantamā tanū' (most peaceful form) is asking for the vision of Brahman that liberates."
+      }
+    },
+
+    "giriśanta": {
+      "word": "गिरिशन्त",
+      "transliteration": "giriśanta",
+      "root": "गिरि (giri — mountain) + √शम् (śam — to be peaceful/dwell) — one who dwells peacefully on the mountain",
+      "grammar": {
+        "base": "गिरिशन्त (giriśanta — mountain-dweller; O peaceful one of the mountain)",
+        "form": "vocative singular, masculine",
+        "type": "compound noun (tatpuruṣa / bahuvrīhi)",
+        "panini": [
+          "P 2.1.32 — tatpuruṣa compound: giri + śanta (dwelling on the mountain)",
+          "P 3.2.37 — śanta as a verbal adjective from √śam in upapada compound"
+        ]
+      },
+      "meanings": {
+        "english": "O dweller of the mountain; O mountain-lord; one who rests on the mountain",
+        "nighantu": "Nighantu 5.3 — compound deity-epithet. 'Giri' is listed among pṛthivī-vācaka (earth/terrain-denoting) words in Nighantu 1.1.",
+        "nirukta": "Compound of giri (mountain) + śanta (from √śam, dwelling/at peace). Sāyaṇa explains: 'girau śāmyati nivasati iti giriśantaḥ' — one who dwells/reposes on the mountain. The mountain represents both the physical Kailāsa and the immovable stability of the Supreme.",
+        "amara_kosha": "Related: Amarakośa 1.1.29 lists 'girīśa' among Śiva's names. गिरि in Amarakośa 2.3.2 (Bhūmi-varga): 'adriḥ giriḥ śailaḥ' — mountain synonyms.",
+        "vedantic": "The mountain symbolizes the immovable, eternal nature of Brahman. Giriśanta is Rudra as the one established in the unshakable ground of being — 'acala' (immovable). The Kena Upaniṣad (3.12) places the divine revelation on a mountain — Umā Haimavatī appears on the Himālaya, connecting mountain-dwelling with supreme knowledge."
+      }
+    },
+
+    "giritra": {
+      "word": "गिरित्र",
+      "transliteration": "giritra",
+      "root": "गिरि (giri — mountain) + √त्रा (trā — to protect)",
+      "grammar": {
+        "base": "गिरित्र (giritra — mountain-protector)",
+        "form": "vocative singular, masculine",
+        "type": "compound noun (upapada-tatpuruṣa)",
+        "panini": [
+          "P 3.2.183 — tra-pratyaya from √trā (to protect) in upapada compound: giri + tra → giritra"
+        ]
+      },
+      "meanings": {
+        "english": "O protector of the mountain; O mountain-guardian",
+        "nirukta": "Compound: giri + tra (from √trā 'to protect'). 'Girim trāyate iti giritraḥ' — one who protects the mountain. Alternatively, 'girau trāyate' — one who protects [beings] on the mountain. Sāyaṇa glosses as 'parvatānām pālaka' (guardian of mountains).",
+        "vedantic": "Giritra is Rudra in his role as cosmic protector. The mountain represents the manifest world (jagat), and its protector is the sustaining aspect of Brahman (sthiti-kāraka). The vocative address shifts from 'giriśanta' (dweller) to 'giritra' (protector) — escalating the plea from recognition to active guardianship."
+      }
+    },
+
+    "giriśa": {
+      "word": "गिरिश",
+      "transliteration": "giriśa",
+      "root": "गिरि (giri — mountain) + √शी (śī — to lie, to sleep, to rest)",
+      "grammar": {
+        "base": "गिरिश (giriśa — mountain-lord; one who reclines on the mountain)",
+        "form": "vocative singular, masculine",
+        "type": "compound noun (upapada-tatpuruṣa)",
+        "panini": [
+          "P 3.2.15 — śa-pratyaya from √śī in upapada compound: giri + śa → giriśa",
+          "P 6.4.20 — dropping of ī before the suffix"
+        ]
+      },
+      "meanings": {
+        "english": "O mountain-lord; one who reclines/resides on the mountain; lord of Kailāsa",
+        "nirukta": "Compound: giri + śa (from √śī 'to recline/sleep/rest'). 'Girau śete iti giriśaḥ' — one who reclines on the mountain. The epithet conveys sovereignty — the lord who rests upon the mountain as his throne.",
+        "amara_kosha": "Amarakośa 1.1.29 — गिरीशः listed explicitly among Śiva's names: 'giriśaḥ girīśaḥ'.",
+        "vedantic": "Giriśa connotes lordship over the earth/material world (pṛthivī-tattva). The mountain as throne represents sovereignty over all material existence. In mantra 5, the devotees address Rudra as Giriśa while declaring they speak to him with auspicious words — approaching the lord with śivena vacasā."
+      }
+    },
+
+    "abhi": {
+      "word": "अभि",
+      "transliteration": "abhi",
+      "root": "अभि (abhi — preverb/prefix: towards, over, upon, in the direction of)",
+      "grammar": {
+        "base": "अभि (abhi)",
+        "form": "preverb (upasarga) / indeclinable",
+        "type": "prefix (upasarga)",
+        "panini": [
+          "P 1.4.58 — abhi classified as an upasarga (preverb) when prefixed to a verbal root",
+          "P 1.4.59 — upasargas modify the meaning of the verb they attach to"
+        ]
+      },
+      "meanings": {
+        "english": "Towards; upon; over; facing; in the direction of",
+        "nighantu": "Nighantu 3.29 — listed among upasargas (preverbs) in the particle list.",
+        "nirukta": "Nirukta 1.3 — Yāska discusses how upasargas like abhi modify verbal meaning. Abhi adds the sense of 'directed towards' or 'facing'. In 'abhicākashīhi' it intensifies — 'shine upon us, face us with your benign form'.",
+        "vedantic": "Abhi as 'towards' establishes the directionality of divine grace — the devotee asks Rudra to turn his benign aspect towards them."
+      }
+    },
+
+    "cakāśīhi": {
+      "word": "चकशीहि",
+      "transliteration": "cakāśīhi",
+      "root": "√काश् (kāś — to shine, to be visible, to appear, to look) — intensive/frequentative (yaṅanta)",
+      "grammar": {
+        "base": "चकाश् (cakāś — intensive of √kāś: to shine brightly, to look intently)",
+        "form": "2nd singular imperative intensive (yaṅanta loṭ) — 'shine forth! look upon us!'",
+        "type": "verb (intensive/frequentative)",
+        "panini": [
+          "P 3.1.22 — yaṅ-pratyaya for intensive (frequentative): काश् → चाकाश्/चकाश् (with reduplication per P 6.1.9)",
+          "P 3.4.87 — imperative hi: चकाश् + हि → चकशीहि"
+        ]
+      },
+      "meanings": {
+        "english": "Shine upon us; look upon us with radiance; appear before us benevolently; gaze upon us",
+        "nirukta": "The intensive (yaṅanta) of √kāś intensifies the basic meaning 'to shine' into 'to shine forth brilliantly / to gaze intently'. With abhi-prefix: 'abhicākashīhi' — 'shine upon us, turn your radiant gaze toward us'. Sāyaṇa glosses: 'asmān prati prakāśasva dṛśyasva vā' — 'shine toward us or become visible to us'.",
+        "vedantic": "The intensive form conveys urgency — not merely 'look' but 'look intently, continuously'. This is the devotee's prayer for darśana — the divine vision. In Vedāntic terms, it is asking the Supreme to reveal its true (śiva, aghora) nature to the devotee. The act of the divine 'looking upon' the devotee is itself liberation — 'sa dṛṣṭo mṛḍayāti naḥ' (mantra 8)."
+      }
+    },
+
+    "hasta": {
+      "word": "हस्त",
+      "transliteration": "hasta",
+      "root": "√हस् (has — to seize, to grasp) + त (ta — suffix)",
+      "grammar": {
+        "base": "हस्त (hasta — hand)",
+        "forms": "हस्ते (haste, loc. sg. 'in the hand')",
+        "type": "noun, masculine",
+        "panini": [
+          "√हस् + त (Uṇādi 3.86) → हस्त",
+          "P 7.3.102 — locative singular of a-stem: hasta + i → haste"
+        ]
+      },
+      "meanings": {
+        "english": "Hand; grasp; the instrument of holding and wielding",
+        "nighantu": "Nighantu 2.4 — listed among aṅga-nāmāni (body-part names): hasta, kara, pāṇi.",
+        "nirukta": "Derived from √has — 'hasati gṛhṇāti iti hastaḥ' (that which grasps/seizes). The hand is the fundamental instrument of action.",
+        "amara_kosha": "Amarakośa 2.6.73 (Aṅga-varga) — 'hastaḥ pāṇiḥ karaḥ' — hasta, pāṇi, and kara are synonyms for hand.",
+        "vedantic": "Rudra's hand holds the arrow — 'haste bibharṣi' (you bear in hand). The hand represents kartṛtva (agency). In mantra 13, 'haste babhūva te dhanuḥ' — the weapon has come to rest in his hand. The prayer asks for that hand's action to be transformed from destruction to protection."
+      }
+    },
+
+    "bhṛ": {
+      "word": "भृ",
+      "transliteration": "bhṛ",
+      "root": "√भृ (bhṛ — to bear, to carry, to support, to maintain) — juhotyādi, ubhayapada",
+      "grammar": {
+        "base": "भृ (bhṛ)",
+        "forms": "बिभर्षि (bibharṣi, 2nd sg. present reduplicative 'you bear/carry')",
+        "type": "verb",
+        "panini": [
+          "P 3.1.1 — juhotyādi-gaṇa (3rd class) verbs reduplicate: भृ → बिभृ",
+          "P 7.2.76 — reduplication rules: भृ → बिभर् (with i for reduplicant vowel)",
+          "P 6.1.190 — bibhar + si → bibharṣi (ṣ-change per P 8.3.59)"
+        ]
+      },
+      "meanings": {
+        "english": "You bear; you carry; you hold; you support",
+        "nirukta": "√bhṛ means 'to carry, to sustain'. 'Bibharṣi' (reduplicative present) emphasizes continuous bearing — 'you continually hold [the arrow]'. The reduplication indicates habitual or characterizing action — Rudra is defined by his weapon-bearing.",
+        "amara_kosha": "Amarakośa 3.1.26 — √bhṛ listed among dhāraṇa-vācaka (carrying/supporting) verbs.",
+        "vedantic": "The bearing of the weapon is not merely physical but ontological — Rudra sustains the cosmic order through his martial readiness. The prayer asks him to transform the arrow he bears from threatening to protective."
+      }
+    },
+
+    "astave": {
+      "word": "अस्तवे",
+      "transliteration": "astave",
+      "root": "√अस् (as — to throw, to hurl, to shoot) — divādi, parasmaipada (distinct from √अस् 'to be')",
+      "grammar": {
+        "base": "अस्तु (astu — throwing, hurling)",
+        "form": "dative infinitive — 'for hurling, for the purpose of shooting'",
+        "type": "verb (infinitive/dative purpose)",
+        "panini": [
+          "P 3.4.9 — tumun-pratyaya or Vedic dative infinitive in -tave: अस् + तवे → अस्तवे",
+          "P 3.3.10 — Vedic infinitive formations in -tave (parallel to -tum in classical Sanskrit)"
+        ]
+      },
+      "meanings": {
+        "english": "For hurling; for the purpose of throwing/shooting",
+        "nirukta": "The Vedic dative infinitive from √as (to throw). 'Iṣum haste bibharṣi astave' — 'you bear the arrow in hand for the purpose of hurling'. The infinitive expresses intention — the arrow is held ready to be shot.",
+        "vedantic": "The prayer acknowledges Rudra's readiness to strike — the arrow is held 'for hurling'. By acknowledging the intent, the devotee then asks for that intent to be made śiva (auspicious) — transforming the purpose from destruction to protection."
+      }
+    },
+
+    "kṛ": {
+      "word": "कृ",
+      "transliteration": "kṛ",
+      "root": "√कृ (kṛ — to do, to make, to perform) — tanādi, ubhayapada",
+      "grammar": {
+        "base": "कृ (kṛ)",
+        "forms": "कुरु (kuru, 2nd sg. imperative 'make! do!'), अकरम् (akaram, 1st sg. imperfect 'I did/made')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.87 — loṭ (imperative): कृ + हि → कुरु (with special stem per P 6.1.59)",
+          "P 3.2.111 — laṅ (imperfect): अ + कृ + अम् → अकरम्"
+        ]
+      },
+      "meanings": {
+        "english": "Make; do; render; perform",
+        "nirukta": "The most fundamental action-verb. In mantra 4: 'śivāṃ giritra tāṃ kuru' — 'O mountain-protector, make that [arrow] auspicious'. The imperative 'kuru' is a direct petition.",
+        "vedantic": "The prayer 'tāṃ kuru śivām' asks Rudra to transform his arrow's nature — this is the Vedic understanding that the divine can alter the fundamental character of reality through will. In Vedāntic terms, it is asking the cosmic agent to exercise his freedom (svātantrya) benevolently."
+      }
+    },
+
+    "mā_particle": {
+      "word": "मा",
+      "transliteration": "mā",
+      "root": "मा (mā — prohibitive particle: 'do not')",
+      "grammar": {
+        "base": "मा (mā)",
+        "form": "prohibitive particle used with injunctive or aorist",
+        "type": "nipāta (particle)",
+        "panini": [
+          "P 3.3.175 — मा used with liṅ (optative) or luṅ (aorist) for prohibition",
+          "P 8.1.29 — mā is a pragṛhya (accented) particle, unlike most nipātas"
+        ]
+      },
+      "meanings": {
+        "english": "Do not; may [you] not; refrain from",
+        "nighantu": "Nighantu 3.29 — listed among niṣedhārthaka avyayas (prohibitive particles).",
+        "nirukta": "Nirukta 1.4 — mā is the Vedic particle of negation specific to commands/wishes. Unlike 'na' (factual negation), 'mā' is volitional — 'may you not, I implore you not to'. In 'mā hiṃsīḥ' — 'do not harm'.",
+        "vedantic": "The prohibitive 'mā' in prayer is not a command to the divine but a humble entreaty — 'please, do not'. It presupposes Rudra's power to harm and asks for voluntary restraint. In Vedānta, this is the recognition that grace is freely given, not demanded."
+      }
+    },
+
+    "hiṃs": {
+      "word": "हिंस्",
+      "transliteration": "hiṃs",
+      "root": "√हिंस् (hiṃs — to hurt, to harm, to injure, to kill) — derived from √हन् (han — to strike) with sa-pratyaya",
+      "grammar": {
+        "base": "हिंस् (hiṃs)",
+        "forms": "हिंसीः (hiṃsīḥ, 2nd sg. aorist injunctive 'may you harm/do not harm')",
+        "type": "verb",
+        "panini": [
+          "P 3.1.6 — desiderative-like sa-formation from √हन्: han → hiṃsa (P 7.4.54 for nasal insertion)",
+          "P 3.3.175 — with मा, the aorist/injunctive expresses prohibition: मा हिंसीः = 'do not harm'"
+        ]
+      },
+      "meanings": {
+        "english": "To hurt; to harm; to injure; to kill",
+        "nirukta": "Derived from √han (to strike/kill) with intensifying sa-suffix. The Nirukta tradition reads hiṃs as more comprehensive than han — it includes all forms of injury, not just killing.",
+        "amara_kosha": "Amarakośa 3.1.18 — हिंसा listed meaning 'pīḍā' (pain, torment): 'hiṃsā pīḍā'.",
+        "vedantic": "The plea 'mā hiṃsīḥ puruṣaṃ jagat' — 'do not harm man or the living world' — is one of the foundational prayers for ahiṃsā (non-violence) in Vedic literature. It recognizes that Rudra has the power to destroy but asks him to restrain that power. In Advaita, the 'puruṣa' and 'jagat' are both manifestations of Brahman — to harm them would be for Brahman to harm itself."
+      }
+    },
+
+    "puruṣa": {
+      "word": "पुरुष",
+      "transliteration": "puruṣa",
+      "root": "पुरि शेते इति पुरुषः (one who dwells in the city [of the body]); or from √pṝ (to fill)",
+      "grammar": {
+        "base": "पुरुष (puruṣa — man, person, being, the cosmic Person)",
+        "forms": "पुरुषम् (puruṣam, acc. sg.)",
+        "type": "noun, masculine",
+        "panini": [
+          "P 6.3.137 — puruṣa as a prātipadika (nominal stem)",
+          "P 1.4.103 — puruṣa in grammatical sense: prathama/madhyama/uttama puruṣa (third/second/first person)"
+        ]
+      },
+      "meanings": {
+        "english": "Man; person; being; the cosmic Person; spirit; soul; individual self",
+        "nighantu": "Nighantu 2.3 — listed among manuṣya-vācaka (man-denoting) words.",
+        "nirukta": "Nirukta 2.3 — Yāska gives: 'puri śayānāt puruṣaḥ' or 'puri sadanāt' — one who dwells/lies in the pura (city, i.e., the body). Also from √pṝ — 'pūrayati iti puruṣaḥ' (one who fills/pervades). The Puruṣa Sūkta (RV 10.90) establishes Puruṣa as the cosmic being from whom all creation emanates.",
+        "amara_kosha": "Amarakośa 2.6.1 — पुरुषः listed as primary word for 'man': 'puruṣaḥ pumān manuṣyaḥ mānavaḥ manujah naraḥ' — man-synonyms.",
+        "vedantic": "In Sāṅkhya-Vedānta, Puruṣa is the conscious principle distinct from Prakṛti. In Advaita, the jīva-puruṣa is ultimately identical with Brahman. The prayer 'mā hiṃsīḥ puruṣam' protects both the individual and the cosmic Person — Rudra is asked not to harm his own manifestation."
+      }
+    },
+
+    "jagat": {
+      "word": "जगत्",
+      "transliteration": "jagat",
+      "root": "√गम् (gam — to go, to move) with reduplication — 'that which moves/lives'",
+      "grammar": {
+        "base": "जगत् (jagat — the moving world, living beings, the universe)",
+        "form": "nominative/accusative singular, neuter",
+        "type": "noun, neuter (also used as adjective: 'moving')",
+        "panini": [
+          "P 3.2.178 — reduplicative formation from √gam: ga + gam + at → jagat (with P 6.1.9 reduplication rules)",
+          "P 7.1.70 — t-stem declension: nom./acc. sg. jagat"
+        ]
+      },
+      "meanings": {
+        "english": "The world; the moving universe; living beings; all that moves and lives",
+        "nighantu": "Nighantu 1.1 — listed among loka-vācaka (world-denoting) and gati-vācaka (motion-denoting) words.",
+        "nirukta": "Nirukta 2.1 — Yāska: 'gacchati iti jagat' (that which moves/goes — hence the world of living beings). The reduplication (ja-gat from √gam) indicates continuous motion — the world is perpetually in flux. Contrasted with 'sthāvara' (the stationary).",
+        "amara_kosha": "Amarakośa 1.1.7 — जगत् listed meaning 'viśva' (universe): 'lokaḥ jagat viśvam'.",
+        "vedantic": "In Vedānta, jagat is the empirical world of name and form (nāma-rūpa) — real from the vyāvahārika (practical) standpoint, ultimately mithyā (apparent) from the pāramārthika (absolute) standpoint. The prayer protects both puruṣa (conscious beings) and jagat (the entire phenomenal world) — nothing should be excluded from Rudra's grace."
+      }
+    },
+
+    "vacas": {
+      "word": "वचस्",
+      "transliteration": "vacas",
+      "root": "√वच् (vac — to speak, to say, to tell)",
+      "grammar": {
+        "base": "वचस् (vacas — speech, word, voice)",
+        "forms": "वचसा (vacasā, instr. sg. 'with/by speech')",
+        "type": "noun, neuter",
+        "panini": [
+          "√वच् + असुन् (Uṇādi 4.188) → वचस्",
+          "P 7.1.75 — s-stem (asanta) declension: instr. sg. वचसा"
+        ]
+      },
+      "meanings": {
+        "english": "Speech; word; voice; utterance; what is spoken",
+        "nighantu": "Nighantu 1.11 — listed among vāk-vācaka (speech-denoting) words: vacas, vāk, gir, uktha.",
+        "nirukta": "Derived from √vac — 'ucyate iti vacaḥ' (that which is spoken). In mantra 5: 'śivena vacasā' — 'with auspicious speech'. The instrumental case indicates the medium through which the devotees approach Rudra.",
+        "amara_kosha": "Amarakośa 1.6.1 — वचः listed in the Vāk-varga (speech section): 'vacaḥ vāṇī vāk gīḥ' — speech synonyms.",
+        "vedantic": "In Vedic theology, speech (vāc) is a divine power — Vāk Devī. 'Śivena vacasā' means approaching the divine with words that are themselves transformed into auspiciousness. The power of mantra lies in the word itself being a carrier of the sacred."
+      }
+    },
+
+    "tvam": {
+      "word": "त्वम्",
+      "transliteration": "tvam",
+      "root": "युष्मद् (yuṣmad — second person pronoun)",
+      "grammar": {
+        "base": "त्वम् (tvam — you)",
+        "forms": "त्वम् (tvam, nom. sg.), त्वा (tvā, enclitic acc. sg. 'you' as object)",
+        "type": "pronoun (sarvanāman)",
+        "panini": [
+          "P 8.1.22 — त्वा is the enclitic accusative form",
+          "P 7.2.97 — nominative singular tvam"
+        ]
+      },
+      "meanings": {
+        "english": "You (nominative); you (accusative, as tvā)",
+        "nirukta": "The full nominative form 'tvam' is emphatic — 'you yourself'. In mantra 5: 'tvā giriśācchā vadāmasi' — 'we speak to you, O Giriśa, towards [you]'.",
+        "vedantic": "The pronoun 'tvam' in 'tat tvam asi' (Chāndogya 6.8.7) is the jīvātman. Here it addresses Rudra directly, establishing the intimate I-Thou relationship of devotion."
+      }
+    },
+
+    "accha": {
+      "word": "अच्छ",
+      "transliteration": "accha",
+      "root": "अच्छ (accha — towards, in the direction of) — Vedic adverb/postposition",
+      "grammar": {
+        "base": "अच्छ (accha)",
+        "form": "indeclinable adverb",
+        "type": "karmapravacanīya (directional particle)",
+        "panini": [
+          "P 1.4.74 — accha classified among karmapravacanīya words that govern accusative",
+          "P 1.4.84 — accha as a gati (directional element) with verbs of motion/speech"
+        ]
+      },
+      "meanings": {
+        "english": "Towards; in the direction of; facing",
+        "nighantu": "Nighantu 3.29 — listed among gati-vācaka avyayas (directional particles).",
+        "nirukta": "Nirukta 1.9 — accha is a Vedic directional particle meaning 'towards, facing'. Used with verbs of speaking: 'acchā vadāmasi' = 'we speak towards [you]'. Rare in classical Sanskrit, common in Vedic.",
+        "vedantic": "The directional particle emphasizes that the prayer is aimed at Rudra — not a general invocation but a focused, directed address."
+      }
+    },
+
+    "vad": {
+      "word": "वद्",
+      "transliteration": "vad",
+      "root": "√वद् (vad — to speak, to say, to utter, to address) — bhvādi, parasmaipada",
+      "grammar": {
+        "base": "वद् (vad)",
+        "forms": "वदामसि (vadāmasi, 1st pl. present 'we speak/address')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.78 — laṭ (present tense), uttama puruṣa (1st person), bahu-vacana (plural): वद् + मस् → वदामसि"
+        ]
+      },
+      "meanings": {
+        "english": "We speak; we address; we utter; we declare",
+        "nirukta": "√vad — to speak. 'Vadāmasi' = 'we address/declare'. The first person plural includes the entire worshipping community.",
+        "amara_kosha": "Amarakośa 3.1.33 — √वद् listed meaning 'bhāṣate' (to speak).",
+        "vedantic": "In mantra 5: 'śivena vacasā tvā giriśācchā vadāmasi' — 'with auspicious speech we address you, O Giriśa'. The act of Vedic recitation is itself a form of worship — the words, properly chanted, become the offering."
+      }
+    },
+
+    "yathā": {
+      "word": "यथा",
+      "transliteration": "yathā",
+      "root": "यद् (yad — relative pronoun) + था (thā — manner suffix)",
+      "grammar": {
+        "base": "यथा (yathā — in order that, so that, as, like)",
+        "form": "indeclinable adverb / conjunction",
+        "type": "avyaya",
+        "panini": [
+          "P 5.3.23 — thāl-pratyaya from yad: yad + thā → yathā (in which manner, so that)"
+        ]
+      },
+      "meanings": {
+        "english": "In order that; so that; as; in such a way that",
+        "nirukta": "Yāska treats yathā as expressing purpose or manner. In mantra 5: 'yathā naḥ sarvam ij jagat ayakṣmaṃ sumanā asat' — 'so that all this world of ours may be free from disease and of good mind'.",
+        "vedantic": "Yathā introduces the desired outcome of the prayer — establishing the causal link between approaching Rudra with auspicious speech and the world becoming free of disease."
+      }
+    },
+
+    "sarva": {
+      "word": "सर्व",
+      "transliteration": "sarva",
+      "root": "सर्व (sarva — all, every, entire, whole)",
+      "grammar": {
+        "base": "सर्व (sarva)",
+        "forms": "सर्वम् (sarvam, neut. nom/acc. sg. 'all/everything'), सर्वान् (sarvān, masc. acc. pl. 'all [of them]')",
+        "type": "adjective / pronoun (sarvanāman)",
+        "panini": [
+          "P 1.1.27 — sarva is classified as a sarvanāman (pronoun), hence takes pronominal declension",
+          "P 7.1.14 — sarva declines like a pronoun, not a regular adjective"
+        ]
+      },
+      "meanings": {
+        "english": "All; every; entire; whole; complete",
+        "nighantu": "Nighantu 3.1 — listed among words denoting totality/completeness.",
+        "nirukta": "Nirukta treats sarva as expressing comprehensive inclusion — nothing is left out.",
+        "amara_kosha": "Amarakośa 3.1.1 — सर्वः listed as a sarvanāman: 'sarvaḥ viśvaḥ ubhau' — sarva, viśva, and ubha are words for 'all'.",
+        "vedantic": "In mantra 5: 'sarvam ij jagat' — 'the entire world indeed'. The use of sarva with the emphatic particle it/id underscores that the prayer encompasses all of creation without exception."
+      }
+    },
+
+    "id": {
+      "word": "इत्",
+      "transliteration": "it / id",
+      "root": "इद् (id — emphatic particle: indeed, verily, just)",
+      "grammar": {
+        "base": "इद् (id)",
+        "form": "indeclinable emphatic particle",
+        "type": "nipāta (particle)",
+        "panini": [
+          "P 1.1.37 — classified as nipāta",
+          "P 8.3.15 — final d → t/ḥ in pause (id → it before consonants)"
+        ]
+      },
+      "meanings": {
+        "english": "Indeed; verily; just; exactly; precisely (emphatic particle)",
+        "nighantu": "Nighantu 3.29 — listed among avadharaṇārthaka avyayas (emphatic particles).",
+        "nirukta": "Nirukta 1.4 — Yāska classifies id as an avadhāraṇa-nipāta (restrictive/emphatic particle). In 'sarvam it jagat' it emphasizes: 'the entire world, indeed — without exception'.",
+        "vedantic": "The particle id/it adds emphasis to sarva — 'all this world, truly all of it' should be free from disease. No part of creation is excluded from the prayer's scope."
+      }
+    },
+
+    "ayakṣma": {
+      "word": "अयक्ष्म",
+      "transliteration": "ayakṣma",
+      "root": "अ (not) + यक्ष्म (yakṣma — disease, consumption, wasting illness)",
+      "grammar": {
+        "base": "अयक्ष्म (ayakṣma — free from disease, healthy)",
+        "forms": "अयक्ष्मम् (ayakṣmam, neut. acc. sg.), अयक्ष्मया (ayakṣmayā, fem. instr. sg.)",
+        "type": "adjective (nañ-tatpuruṣa compound)",
+        "panini": [
+          "P 6.2.155 — nañ-tatpuruṣa: a + yakṣma → ayakṣma",
+          "P 2.2.6 — negative compound formation"
+        ]
+      },
+      "meanings": {
+        "english": "Free from disease; healthy; without consumption/wasting; without affliction",
+        "nighantu": "Nighantu 2.9 — yakṣma listed among roga-vācaka (disease-denoting) words. Ayakṣma is its negation.",
+        "nirukta": "Yakṣma is a general term for wasting disease (consumption/tuberculosis in later medical texts). Ayakṣma = absence of such disease. In Vedic context, yakṣma encompasses all debilitating illness — 'yat kṣīṇaṃ bhavati tat yakṣma' (that which causes wasting is yakṣma).",
+        "vedantic": "In mantra 5: 'ayakṣmaṃ sumanā asat' — 'may [the world] be free from disease and of good mind'. Health of body (ayakṣma) and mind (sumanās) together constitute well-being. In Vedānta, the ultimate yakṣma is avidyā (ignorance) — freedom from spiritual disease is mokṣa."
+      }
+    },
+
+    "sumanas": {
+      "word": "सुमनस्",
+      "transliteration": "sumanas",
+      "root": "सु (su — good, well) + मनस् (manas — mind)",
+      "grammar": {
+        "base": "सुमनस् (sumanas — of good mind, well-disposed, cheerful)",
+        "forms": "सुमनाः (sumanāḥ, nom. sg. masc./neut.)",
+        "type": "adjective (bahuvrīhi compound)",
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: su + manas → sumanas (one whose mind is good)",
+          "P 7.1.75 — s-stem declension: nom. sg. sumanāḥ"
+        ]
+      },
+      "meanings": {
+        "english": "Of good mind; well-disposed; cheerful; benevolent; happy-minded",
+        "nighantu": "Nighantu 3.19 — su- prefix words listed among kalyāṇa-vācaka terms.",
+        "nirukta": "Compound: su (good/auspicious) + manas (mind). One whose mind (manas) is good (su) — cheerful, benevolent, well-intentioned.",
+        "amara_kosha": "Amarakośa 3.1.5 — सुमनस् as adjective meaning 'prasanna-citta' (clear/cheerful-minded). Also Amarakośa 2.4.75 — सुमनस् as noun meaning 'puṣpa' (flower) — flowers are 'of good mind/disposition' because they give pleasure.",
+        "vedantic": "In mantras 5 and 11: the world and Rudra himself are asked to be sumanās — of good mind/disposition. This pairs with ayakṣma — health of body and mind together. In Vedānta, sumanas is the state of a mind free from kleśas (afflictions) — the prerequisite for self-knowledge."
+      }
+    },
+
+    "adhi_vac": {
+      "word": "अधिवक्ता / अवोचत्",
+      "transliteration": "adhivaktā / avocat",
+      "root": "अधि + √वच् (adhi + vac — to speak on behalf of, to advocate, to intercede)",
+      "grammar": {
+        "base": "अधि√वच् (adhivac)",
+        "forms": "अध्यवोचत् (adhyavocat, 3rd sg. imperfect/aorist 'he spoke forth'), अधिवक्ता (adhivaktā, nom. sg. agent noun 'the advocate/intercessor')",
+        "type": "verb / agent noun",
+        "panini": [
+          "P 3.2.1 — agent noun formation: अधि + √वच् + तृच् → अधिवक्तृ, nom. अधिवक्ता",
+          "P 3.2.111 — luṅ (aorist): अ + अधि + वच् + त् → अध्यवोचत् (with vriddhi per P 7.2.3)"
+        ]
+      },
+      "meanings": {
+        "english": "He spoke forth; he declared/advocated; the intercessor; the one who speaks on behalf of",
+        "nirukta": "Compound verb: adhi (over/on behalf of) + √vac (to speak). Adhivaktā = one who speaks on behalf of others, an advocate/patron. Sāyaṇa: 'adhikṛtya vaktā' — one who speaks with authority. In mantra 6, Rudra is 'prathamaḥ daivyaḥ bhiṣak adhivaktā' — the first divine physician and advocate.",
+        "vedantic": "Rudra as adhivaktā is the divine advocate who intercedes on behalf of the suffering. As the first (prathama) divine physician (daivyo bhiṣak), he is the primal healer — establishing that healing is a divine function, not merely human."
+      }
+    },
+
+    "prathama": {
+      "word": "प्रथम",
+      "transliteration": "prathama",
+      "root": "प्र (pra — forth, first) + थम (superlative suffix) — from √prath (to extend, to spread)",
+      "grammar": {
+        "base": "प्रथम (prathama — first, foremost, primordial)",
+        "forms": "प्रथमः (prathamaḥ, nom. sg. masc.)",
+        "type": "ordinal adjective",
+        "panini": [
+          "P 5.2.51 — thamac-pratyaya for ordinal: pra + thama → prathama",
+          "P 2.2.11 — ordinals in compounds"
+        ]
+      },
+      "meanings": {
+        "english": "First; foremost; primordial; chief; the original",
+        "nirukta": "From √prath (to extend/spread) — 'prathate iti prathamaḥ' (that which extends first, the foremost). Establishes temporal and hierarchical priority.",
+        "amara_kosha": "Amarakośa 3.3.167 — प्रथमः listed meaning 'ādi' (beginning, first): 'prathamaḥ ādyaḥ pūrvaḥ'.",
+        "vedantic": "In mantra 6: Rudra is 'prathamaḥ daivyo bhiṣak' — the first/primordial divine physician. This establishes Rudra-Śiva as the origin of healing — all medicine traces back to the divine healer. In the Śaiva tradition, Śiva is the Ādi-vaidya (primordial doctor) who cures the disease of saṃsāra."
+      }
+    },
+
+    "daivya": {
+      "word": "दैव्य",
+      "transliteration": "daivya",
+      "root": "देव (deva — god, shining one) + य (secondary derivation suffix)",
+      "grammar": {
+        "base": "दैव्य (daivya — divine, belonging to the gods, celestial)",
+        "forms": "दैव्यः (daivyaḥ, nom. sg. masc.)",
+        "type": "adjective (taddhita)",
+        "panini": [
+          "P 4.2.48 — yat-pratyaya with vṛddhi: देव → दैव → दैव्य (relating to/belonging to the devas)"
+        ]
+      },
+      "meanings": {
+        "english": "Divine; celestial; belonging to the gods; of divine origin",
+        "nighantu": "Related: Nighantu 5.1-5 (Daivata-kāṇḍa) — extensive listing of deva-names, establishing the category 'daivya'.",
+        "nirukta": "From deva — 'devānām ayam iti daivyaḥ' (belonging to the devas). The vṛddhi suffix (-ya with āi) indicates derivation/belonging.",
+        "amara_kosha": "Amarakośa 3.3.127 — दैव्यः listed meaning 'devata-sambandhi' (relating to deity).",
+        "vedantic": "Qualifies bhiṣak (physician) — the healing is not worldly but divine in nature. This is not human medicine but cosmic restoration."
+      }
+    },
+
+    "bhiṣaj": {
+      "word": "भिषज्",
+      "transliteration": "bhiṣaj",
+      "root": "√भिष् (bhiṣ — to heal, to cure) + अच् (ac — suffix)",
+      "grammar": {
+        "base": "भिषज् (bhiṣaj — physician, healer)",
+        "forms": "भिषक् (bhiṣak, nom. sg. with k-ending per P 8.2.36)",
+        "type": "noun, masculine",
+        "panini": [
+          "√भिष् + अच् (P 3.1.134) → भिषज्",
+          "P 8.2.36 — final j → k in pause: bhiṣaj → bhiṣak"
+        ]
+      },
+      "meanings": {
+        "english": "Physician; healer; doctor; one who cures",
+        "nighantu": "Nighantu 3.13 — listed among cikitsaka-vācaka (healer-denoting) words.",
+        "nirukta": "From √bhiṣ — 'bhiṣajyati cikitsati iti bhiṣak' (one who heals/treats). Yāska connects it to the concept of restoring wholeness.",
+        "amara_kosha": "Amarakośa 2.9.1 — भिषक् listed as synonym of vaidya: 'bhiṣak vaidyaḥ cikitsakaḥ' — physician synonyms.",
+        "vedantic": "Rudra as the primordial physician heals not just bodily disease but spiritual affliction. The Śvetāśvatara Upaniṣad presents Rudra-Śiva as the ultimate healer of the disease of transmigration (bhava-roga). The Ayurvedic tradition traces its origin to Lord Śiva through Dhanvantari."
+      }
+    },
+
+    "ahi": {
+      "word": "अहि",
+      "transliteration": "ahi",
+      "root": "अहि (ahi — serpent, snake; also a class of demons/diseases)",
+      "grammar": {
+        "base": "अहि (ahi — snake, serpent)",
+        "forms": "अहीन् (ahīn, acc. pl. masc. 'the serpents/serpent-demons')",
+        "type": "noun, masculine",
+        "panini": [
+          "P 7.1.73 — i-stem declension: acc. pl. अहीन् (i → ī before n-ending)"
+        ]
+      },
+      "meanings": {
+        "english": "Serpent; snake; a class of serpent-demons; also metaphorically: diseases, afflictions",
+        "nighantu": "Nighantu 1.9 — listed among sarpa-vācaka (serpent-denoting) words: ahi, sarpa, nāga.",
+        "nirukta": "Nirukta 4.23 — 'ahīn sambhajayati' — related to supernatural serpent-beings. In Vedic, 'ahi' can mean both literal serpents and metaphorical forces of obstruction (cf. Vṛtra as the arch-ahi in Ṛgveda).",
+        "amara_kosha": "Amarakośa 1.8.6 — अहिः listed among sarpa-names: 'sarpaḥ pṛdākuḥ bhujagaḥ bhujaṅgaḥ ahiḥ' — serpent synonyms.",
+        "vedantic": "In mantra 6, Rudra destroys 'ahīn' (serpent-demons) — representing forces of evil and disease. In Vedāntic symbolism, the serpent represents saṃsāra's coiling bondage — Rudra as divine physician destroys these binding forces."
+      }
+    },
+
+    "ca": {
+      "word": "च",
+      "transliteration": "ca",
+      "root": "च (ca — and, also, both) — indeclinable conjunction",
+      "grammar": {
+        "base": "च (ca)",
+        "form": "indeclinable conjunction (always follows the word it connects)",
+        "type": "nipāta / samuccaya (conjunctive particle)",
+        "panini": [
+          "P 1.1.37 — classified as nipāta",
+          "P 2.2.29 — ca as coordinator in dvandva compounds and serial constructions",
+          "P 8.1.63 — ca is always enclitic (anudātta)"
+        ]
+      },
+      "meanings": {
+        "english": "And; also; both; as well as",
+        "nighantu": "Nighantu 3.29 — listed among samuccayārthaka nipātas (conjunctive particles).",
+        "nirukta": "Nirukta 1.4 — ca is the primary samuccaya (additive) particle. Unlike 'uta' which has emphatic force, 'ca' is neutral conjunction.",
+        "vedantic": "In Vedic syntax, ca typically follows the word it connects (postpositive). In mantra 6: 'ahīṃśca sarvān jambhayan sarvāṃśca yātudhānyaḥ' — 'destroying both all serpent-demons and all sorcerers'."
+      }
+    },
+
+    "jambh": {
+      "word": "जम्भ्",
+      "transliteration": "jambh",
+      "root": "√जम्भ् (jambh / jambh — to crush, to destroy, to snap/bite) — bhvādi",
+      "grammar": {
+        "base": "जम्भ् (jambh)",
+        "forms": "जम्भयन् (jambhayan, present participle causative nom. sg. 'crushing/destroying')",
+        "type": "verb",
+        "panini": [
+          "P 3.1.26 — causative (ṇic): जम्भ् + णिच् → जम्भय",
+          "P 3.2.124 — present participle (śatṛ): जम्भय + शतृ → जम्भयन्"
+        ]
+      },
+      "meanings": {
+        "english": "Crushing; destroying; snapping with jaws; devouring",
+        "nirukta": "√jambh — 'jambhayati nāśayati' (to crush, to destroy with teeth/jaws). The causative form intensifies — 'causing destruction'. Related to jambha (jaw/tooth). Sāyaṇa glosses: 'nāśayan' (destroying).",
+        "vedantic": "Rudra as the divine physician 'crushes' diseases and sorceries. The verb jambhayan (present participle) indicates ongoing action — Rudra continuously destroys evil forces, not just once but perpetually."
+      }
+    },
+
+    "yātudhānī": {
+      "word": "यातुधानी",
+      "transliteration": "yātudhānī",
+      "root": "यातु (yātu — sorcery, black magic) + √धा (dhā — to hold, to possess) + ई (feminine suffix)",
+      "grammar": {
+        "base": "यातुधान (yātudhāna — sorcerer, one who possesses sorcery); fem. यातुधानी",
+        "forms": "यातुधान्यः (yātudhānyaḥ, fem. acc. pl. 'the sorceresses')",
+        "type": "noun, feminine",
+        "panini": [
+          "P 3.2.103 — upapada compound: yātu + √dhā + āna → yātudhāna",
+          "P 4.1.5 — feminine ṅīṣ: yātudhānī",
+          "P 7.1.20 — acc. pl. fem.: yātudhānyaḥ"
+        ]
+      },
+      "meanings": {
+        "english": "Sorceresses; female sorcerers; those who wield black magic; demonesses",
+        "nighantu": "Related to the rākṣasa/piśāca category in Vedic demonology. Nighantu 2.17 — yātu listed among abhicāra-vācaka (sorcery-denoting) words.",
+        "nirukta": "Compound: yātu (sorcery/witchcraft) + dhāna (possessing/wielding). 'Yātum dhārayati iti yātudhānaḥ' — one who wields sorcery. The feminine plural in mantra 6 refers to an entire class of malevolent beings.",
+        "amara_kosha": "Amarakośa 1.1.62 — related: rākṣasa terms in the asura-varga.",
+        "vedantic": "Yātudhānī represents the forces of māyā in its malevolent form — the sorceries that delude and harm. Rudra as divine physician destroys not just physical disease (ahi) but also supernatural malevolence (yātudhānī). In Vedānta, these represent the vāsanās (subtle impressions) that perpetuate bondage."
+      }
+    },
+
+    "adas": {
+      "word": "अदस्",
+      "transliteration": "adas",
+      "root": "अदस् (adas — that yonder, the distant one) — remote demonstrative pronoun",
+      "grammar": {
+        "base": "अदस् (adas)",
+        "forms": "असौ (asau, masc. nom. sg. 'that one yonder')",
+        "type": "pronoun (sarvanāman), remote demonstrative",
+        "panini": [
+          "P 1.1.27 — adas classified as sarvanāman",
+          "P 7.2.107 — special suppletion: adas → asau (nom. sg. masc.)",
+          "P 7.2.102 — remote demonstrative declension paradigm"
+        ]
+      },
+      "meanings": {
+        "english": "That one yonder; the one over there (pointing to something distant/visible but removed)",
+        "nirukta": "Adas is the remote demonstrative — pointing to what is visible but distant. In mantras 7-8: 'asau yaḥ' — 'that one yonder who [is coppery, ruddy...]' — pointing to the visible sun, which is identified with Rudra.",
+        "vedantic": "The remote demonstrative 'asau' in mantras 7-8 points to the sun — identifying the visible solar deity with Rudra. This is the Vedic technique of adhyātma-upāsana: using the visible (sun) as a gateway to contemplate the invisible (Brahman/Rudra). The Bṛhadāraṇyaka Upaniṣad uses similar pointing language for Brahman."
+      }
+    },
+
+    "tāmra": {
+      "word": "ताम्र",
+      "transliteration": "tāmra",
+      "root": "ताम्र (tāmra — coppery, copper-red, reddish)",
+      "grammar": {
+        "base": "ताम्र (tāmra)",
+        "forms": "ताम्रः (tāmraḥ, nom. sg. masc.)",
+        "type": "adjective",
+        "panini": [
+          "P 4.2.2 — tāmra as a color adjective derived from the material tāmra (copper)"
+        ]
+      },
+      "meanings": {
+        "english": "Copper-colored; coppery; reddish; the color of copper",
+        "nighantu": "Related: Nighantu 1.5 — color terms. Tāmra among lohita-vācaka (red-denoting) words.",
+        "nirukta": "Named after the metal tāmra (copper) for its characteristic reddish hue. Describes Rudra in his solar form — the rising sun has a copper/red tinge.",
+        "amara_kosha": "Amarakośa 2.9.97 — ताम्रम् listed as a metal: 'tāmraṃ śulbam' (copper). As color: applied to objects of copper hue.",
+        "vedantic": "In mantra 7, Rudra is described as tāmra (coppery), aruṇa (ruddy), and babhru (tawny) — the colors of the sun at different phases. This solar identification connects Rudra to the Āditya-principle (consciousness that illuminates). The Chāndogya Upaniṣad (1.6.6) describes the puruṣa in the sun as 'golden-bearded, golden all over' — Rudra's coppery hue is this same solar radiance."
+      }
+    },
+
+    "aruṇa": {
+      "word": "अरुण",
+      "transliteration": "aruṇa",
+      "root": "√ṛ / √ar (to go, to move, to rise) + uṇa (suffix) — the ruddy dawn light",
+      "grammar": {
+        "base": "अरुण (aruṇa — ruddy, reddish-brown, dawn-colored)",
+        "forms": "अरुणः (aruṇaḥ, nom. sg. masc.)",
+        "type": "adjective / proper noun",
+        "panini": [
+          "Uṇādi 3.53 — √ṛ + uṇa → aruṇa"
+        ]
+      },
+      "meanings": {
+        "english": "Ruddy; reddish-brown; dawn-colored; the color of the rising sun",
+        "nighantu": "Nighantu 1.5 — listed among lohita-vācaka (red-denoting) words and also among sūrya-nāmāni (sun-names) in Nighantu 1.4.",
+        "nirukta": "Nirukta 12.16 — from √ṛ/ar — 'iyarti gacchati iti aruṇaḥ' (that which moves/rises). Refers to the ruddy glow of dawn/sunrise. Also the name of the charioteer of the sun (Sūrya).",
+        "amara_kosha": "Amarakośa 1.3.28 — अरुणः listed as a name for the dawn and the sun's charioteer: 'aruṇo'nūruḥ kāśyapaḥ'.",
+        "vedantic": "The dawn-color describes Rudra in his benevolent solar aspect — the sun that brings light after darkness. In Vedāntic meditation, the aruṇa-varṇa (dawn-colored) puruṣa in the sun is a form for upāsana of Brahman."
+      }
+    },
+
+    "babhru": {
+      "word": "बभ्रु",
+      "transliteration": "babhru",
+      "root": "√भृ (bhṛ — to bear) with reduplication, or from babhru as a color-word (tawny, brown-golden)",
+      "grammar": {
+        "base": "बभ्रु (babhru — tawny, brown, golden-brown)",
+        "forms": "बभ्रुः (babhruḥ, nom. sg. masc.)",
+        "type": "adjective",
+        "panini": [
+          "Uṇādi 1.22 — reduplicative formation → babhru (u-stem)"
+        ]
+      },
+      "meanings": {
+        "english": "Tawny; brown; golden-brown; the color of a brown cow or dark honey",
+        "nighantu": "Nighantu 1.5 — listed among color-denoting words, specifically in the lohita/piṅgala (reddish-brown) category.",
+        "nirukta": "A Vedic color term for the warm brown-gold spectrum. Often applied to Soma, cattle, and solar deities. Related to √bhṛ — 'that which bears/carries [warmth/color]'.",
+        "amara_kosha": "Amarakośa 1.5.13 — बभ्रुः listed meaning 'kapilavarṇa' (tawny/brown color).",
+        "vedantic": "The three colors — tāmra, aruṇa, babhru — describe the solar Rudra through his full color range from copper-red through ruddy to golden-brown. This threefold description mirrors the three states (avasthā-traya) or three guṇas manifest in the visible sun."
+      }
+    },
+
+    "sumaṅgala": {
+      "word": "सुमङ्गल",
+      "transliteration": "sumaṅgala",
+      "root": "सु (su — good, excellent) + मङ्गल (maṅgala — auspiciousness, blessing)",
+      "grammar": {
+        "base": "सुमङ्गल (sumaṅgala — very auspicious, supremely blessed)",
+        "forms": "सुमङ्गलः (sumaṅgalaḥ, nom. sg. masc.)",
+        "type": "adjective (karmadhāraya compound)",
+        "panini": [
+          "P 2.1.60 — karmadhāraya: su + maṅgala → sumaṅgala"
+        ]
+      },
+      "meanings": {
+        "english": "Very auspicious; most blessed; supremely propitious; embodiment of good fortune",
+        "nighantu": "Nighantu 3.19 — maṅgala listed among kalyāṇa-vācaka words. The su- prefix intensifies.",
+        "nirukta": "Compound: su (exceedingly) + maṅgala (auspiciousness). 'Suṣṭhu maṅgalam yasya saḥ' — one in whom auspiciousness abounds.",
+        "amara_kosha": "Amarakośa 1.4.25 — मङ्गलम् listed meaning 'puṇya' (merit/auspiciousness). Sumaṅgala is its intensified form.",
+        "vedantic": "After describing Rudra's fearsome colors (tāmra, aruṇa, babhru), the verse pivots to 'sumaṅgalaḥ' — supremely auspicious. This juxtaposition is the theological core: the terrible IS the auspicious. The colors of the setting/rising sun, which might seem fierce, are declared to be sumaṅgala."
+      }
+    },
+
+    "idam": {
+      "word": "इदम्",
+      "transliteration": "idam",
+      "root": "इदम् (idam — this, this here) — proximate demonstrative pronoun",
+      "grammar": {
+        "base": "इदम् (idam)",
+        "forms": "इमाम् (imām, fem. acc. sg. 'this'), एनम् (enam, masc. acc. sg. 'him/this one' — special anaphoric form)",
+        "type": "pronoun (sarvanāman), proximate demonstrative",
+        "panini": [
+          "P 1.1.27 — idam classified as sarvanāman",
+          "P 7.2.108-109 — special suppletion forms: idam → imam/imām",
+          "P 7.2.85 — enad-ādeśa: idam → enam/enām (anaphoric replacement)"
+        ]
+      },
+      "meanings": {
+        "english": "This; this here; this very (proximate demonstrative pointing to something nearby)",
+        "nirukta": "Idam points to what is immediate and present, contrasted with adas (remote). In mantra 7: 'imāṃ rudrāḥ' — 'these Rudras here [in all directions]'.",
+        "vedantic": "The proximate 'idam' (this) vs remote 'adas' (that) establishes a spatial theology — Rudra is both 'asau' (that one yonder — the transcendent sun) and manifest 'here' (imāṃ — in all directions through the Rudras). This is the saguṇa-nirguṇa polarity."
+      }
+    },
+
+    "abhitas": {
+      "word": "अभितः",
+      "transliteration": "abhitaḥ",
+      "root": "अभि (abhi — towards) + तस् (tas — directional suffix: from/on all sides)",
+      "grammar": {
+        "base": "अभितः (abhitaḥ — on all sides, all around, from every direction)",
+        "form": "indeclinable adverb",
+        "type": "avyaya",
+        "panini": [
+          "P 5.3.7 — tasil-pratyaya from abhi: abhi + tas → abhitas (from/on all sides)"
+        ]
+      },
+      "meanings": {
+        "english": "On all sides; all around; from every direction; everywhere around",
+        "nirukta": "From abhi + tas-suffix meaning 'from the direction of'. Abhitaḥ = 'from all directions'. In mantra 7: Rudras are 'abhito dikṣu śritāḥ' — 'stationed in the directions all around'.",
+        "vedantic": "The Rudras pervade all directions (dikṣu) — this omnipresence reflects Brahman's sarvagatatva (all-pervasiveness). Nothing and nowhere is outside Rudra's presence."
+      }
+    },
+
+    "diś": {
+      "word": "दिश्",
+      "transliteration": "diś",
+      "root": "√दिश् (diś — to point, to show, to direct)",
+      "grammar": {
+        "base": "दिश् (diś — direction, quarter, cardinal point)",
+        "forms": "दिक्षु (dikṣu, loc. pl. 'in the directions')",
+        "type": "noun, feminine",
+        "panini": [
+          "P 8.2.36 — final ś → k in certain environments (before ṣu): diś → dik before ṣu",
+          "P 7.1.20 — loc. pl. of consonant-stem: diś + su → dikṣu"
+        ]
+      },
+      "meanings": {
+        "english": "Direction; quarter; cardinal point; the compass directions",
+        "nighantu": "Nighantu 1.7 — listed among deśa-vācaka (space/place-denoting) words.",
+        "nirukta": "From √diś — 'diśati darśayati iti diś' (that which points/shows). The directions are 'pointed out' by the sun's movement.",
+        "amara_kosha": "Amarakośa 1.2.1 — दिक् listed with directional terms: 'diś kakubh āśā' — direction synonyms.",
+        "vedantic": "The Rudras stationed in all directions represent the omnipresence of the divine. The Bṛhadāraṇyaka Upaniṣad (3.9.4) associates directions with specific deities — here all directions belong to Rudra."
+      }
+    },
+
+    "śri": {
+      "word": "श्रि",
+      "transliteration": "śri",
+      "root": "√श्रि (śri — to resort to, to depend on, to be stationed, to lean upon) — bhvādi, ubhayapada",
+      "grammar": {
+        "base": "श्रि (śri)",
+        "forms": "श्रिताः (śritāḥ, past participle nom. pl. masc. 'stationed, having resorted to')",
+        "type": "verb / past participle",
+        "panini": [
+          "P 3.2.102 — past participle (kta): श्रि + त → श्रित",
+          "P 7.1.17 — nom. pl. masc.: śritāḥ"
+        ]
+      },
+      "meanings": {
+        "english": "Stationed; resorted to; dependent upon; leaning on; established in",
+        "nirukta": "√śri — 'śrayati āśrayati' (to resort to, to be established in). 'Dikṣu śritāḥ' — stationed in the directions. The past participle indicates established presence — the Rudras are permanently stationed, not merely passing through.",
+        "vedantic": "The Rudras 'stationed in the directions' (dikṣu śritāḥ) represent the cosmic guardians — Rudra's presence is not confined to one location but pervades the entire spatial framework."
+      }
+    },
+
+    "sahasraśas": {
+      "word": "सहस्रशस्",
+      "transliteration": "sahasraśas",
+      "root": "सहस्र (sahasra — thousand) + शस् (śas — distributive suffix: 'by the thousands')",
+      "grammar": {
+        "base": "सहस्रशस् (sahasraśas — by the thousands, in thousands)",
+        "forms": "सहस्रशः (sahasraśaḥ, nom. form)",
+        "type": "indeclinable adverb",
+        "panini": [
+          "P 5.4.42 — śas-pratyaya for distributive/multiplicative: sahasra + śas → sahasraśas (by thousands)"
+        ]
+      },
+      "meanings": {
+        "english": "By the thousands; in thousands; thousandfold",
+        "nirukta": "From sahasra (thousand) + śas (distributive). Indicates the innumerable multitude of Rudras — they are not one but thousands, pervading all space.",
+        "vedantic": "The 'thousands' of Rudras reflect the infinite manifestations of the one Brahman. Though Rudra is one ('eko hi rudro na dvitīyāya tasthur' — Śvet. Up. 3.2), his manifestations are countless. This is the Vedāntic teaching of the one appearing as many."
+      }
+    },
+
+    "ava_heda": {
+      "word": "अव + हेडः",
+      "transliteration": "ava + heḍas",
+      "root": "अव (ava — down, away) + हेडस् (heḍas — wrath, anger, hostility) from √हीड् (hīḍ — to be angry)",
+      "grammar": {
+        "base_verb": "√ईम् (īm — to pray, to request) — ava + heḍaḥ + √īm",
+        "forms": "अवैषां हेडः ईमहे (avaiṣāṃ hedaḥ īmahe — 'we pray away their wrath')",
+        "type": "verb + noun construction",
+        "panini": [
+          "P 3.4.78 — laṭ ātmanepada 1st pl.: √ईम् + महिन् → ईमहे",
+          "हेडस्: √हीड् + असुन् (Uṇādi 4.188) → हेडस् (wrath)"
+        ]
+      },
+      "meanings": {
+        "english": "We propitiate away their anger; we pray to avert their wrath; we seek to pacify their hostility",
+        "nighantu": "Nighantu 3.12 — heḍas listed among krodha-vācaka (anger-denoting) words.",
+        "nirukta": "Heḍas from √hīḍ — 'hīḍyate kopayate' (to be angry with). 'Ava... īmahe' = 'we pray downward/away'. The compound construction means 'we pray to propitiate their anger away from us'.",
+        "vedantic": "The prayer to avert the Rudras' heḍas (wrath) is a plea for the transformation of divine anger into grace. In Vedānta, this 'wrath' is the karmic consequence of ignorance — propitiating it is seeking liberation from the fruits of past actions."
+      }
+    },
+
+    "avasarpati": {
+      "word": "अवसर्पति",
+      "transliteration": "avasarpati",
+      "root": "अव (ava — down) + √सृप् (sṛp — to creep, to glide, to move)",
+      "grammar": {
+        "base": "अव√सृप् (avasṛp — to descend, to glide down, to move downward)",
+        "forms": "अवसर्पति (avasarpati, 3rd sg. present 'he descends/glides down')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.78 — laṭ: अव + सृप् + ति → अवसर्पति (with guṇa per P 7.3.84)"
+        ]
+      },
+      "meanings": {
+        "english": "He descends; he glides down; he moves downward (said of the sun setting or moving through the sky)",
+        "nirukta": "Compound verb: ava (downward) + √sṛp (to creep/glide). Describes the sun's movement across the sky — gliding/traveling downward. Sāyaṇa: 'avagatim prāpnoti' — 'attains downward movement'.",
+        "vedantic": "In mantra 8: 'asau yo'vasarpati' — 'that one yonder who descends/traverses' — describes Rudra as the sun moving through the sky. The descending sun is identified with Rudra — even in 'going down' the divine maintains sovereignty. In Vedānta, this descent parallels the avaroha (descent) of Brahman into manifestation."
+      }
+    },
+
+    "nīlagrīva": {
+      "word": "नीलग्रीव",
+      "transliteration": "nīlagrīva",
+      "root": "नील (nīla — blue, dark blue) + ग्रीवा (grīvā — neck, throat)",
+      "grammar": {
+        "base": "नीलग्रीव (nīlagrīva — blue-necked, blue-throated)",
+        "forms": "नीलग्रीवः (nīlagrīvaḥ, nom. sg.), नीलग्रीवाय (nīlagrīvāya, dat. sg.)",
+        "type": "adjective / epithet (bahuvrīhi compound)",
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: nīla + grīvā → nīlagrīva (one whose neck is blue)",
+          "P 2.2.35 — the compound takes masculine gender matching the person described, not the final member"
+        ]
+      },
+      "meanings": {
+        "english": "Blue-necked; blue-throated (epithet of Śiva/Rudra referring to his swallowing of the hālāhala poison)",
+        "nighantu": "Component: Nighantu 2.4 — grīvā listed among aṅga-nāmāni (body-part names). Nīla among varṇa-vācaka (color-denoting) words.",
+        "nirukta": "Bahuvrīhi: 'nīlā grīvā yasya saḥ' — one whose throat is blue/dark. The blue neck is explained by the Purāṇic narrative of Śiva swallowing the hālāhala (cosmic poison) during samudra-manthana (churning of the ocean) — his throat turned blue from holding the poison.",
+        "amara_kosha": "Amarakośa 1.1.29 — नीलकण्ठः (nīlakaṇṭha — blue-throated) listed as one of Śiva's names. Grīvā/Kaṇṭha are synonyms: Amarakośa 2.6.92 — 'grīvā kaṇṭhaḥ' — neck synonyms.",
+        "vedantic": "The blue neck symbolizes Rudra's capacity to absorb the world's poison (suffering/evil) without being destroyed by it. In Vedānta, this represents the jñānī (knower of Brahman) who remains untouched by the world's afflictions even while present within it — like a lotus in water."
+      }
+    },
+
+    "vilohita": {
+      "word": "विलोहित",
+      "transliteration": "vilohita",
+      "root": "वि (vi — intensifier/special) + लोहित (lohita — red, blood-red)",
+      "grammar": {
+        "base": "विलोहित (vilohita — intensely red, very red, blood-red)",
+        "forms": "विलोहितः (vilohitaḥ, nom. sg. masc.)",
+        "type": "adjective (upapada compound)",
+        "panini": [
+          "P 2.2.18 — vi as an intensifying prefix with adjectives"
+        ]
+      },
+      "meanings": {
+        "english": "Intensely red; very red; blood-red; crimson",
+        "nighantu": "Nighantu 1.5 — lohita listed among rakta-vācaka (red-denoting) words.",
+        "nirukta": "Vi- intensifies lohita (red): 'viśeṣeṇa lohitaḥ' — specially/intensely red. Describes the deep crimson of the setting sun or of Rudra's form. Lohita from √ruh/loh — related to 'rudhira' (blood).",
+        "amara_kosha": "Amarakośa 1.5.13 — लोहितः listed as a color: 'lohitaḥ raktaḥ' — red synonyms.",
+        "vedantic": "Vi-lohita (intensely red) describes Rudra-as-sun in full crimson glory. The vivid redness contrasts with the nīla (blue) of the neck — the deity encompasses the full spectrum. In Vedāntic symbolism, red represents rajas (activity/passion), blue represents sattva (purity) — Rudra transcends both while manifesting through both."
+      }
+    },
+
+    "gopa": {
+      "word": "गोप",
+      "transliteration": "gopa",
+      "root": "गो (go — cow, earth) + √पा (pā — to protect, to guard)",
+      "grammar": {
+        "base": "गोप (gopa — cowherd, guardian, protector)",
+        "forms": "गोपाः (gopāḥ, nom. pl. masc. 'the cowherds')",
+        "type": "noun, masculine",
+        "panini": [
+          "P 3.2.4 — upapada compound: go + √pā + ka → gopa (protector of cows)"
+        ]
+      },
+      "meanings": {
+        "english": "Cowherd; cattle-keeper; guardian; one who tends and protects",
+        "nighantu": "Related: Nighantu 1.1 — go listed among pṛthivī-vācaka and dhana-vācaka words. Gopa as compound.",
+        "nirukta": "Compound: go (cattle/earth/rays) + pa (from √pā, to protect). 'Gāḥ pālayati iti gopaḥ' — one who protects cattle. In Vedic usage, gopāḥ can mean 'protectors' in general.",
+        "amara_kosha": "Amarakośa 2.9.56 — गोपालः listed as synonym: 'gopālaḥ gopaḥ' — cowherd terms.",
+        "vedantic": "In mantra 8: 'gopā adṛśan' — 'the cowherds saw [him]'. The cowherds represent ordinary people who perceive the divine in nature (the sun). This democratizes the vision — Rudra reveals himself not just to sages but to common herders. In Vaiṣṇava-Śaiva synthesis, the gopa theme connects to Kṛṣṇa-Gopāla."
+      }
+    },
+
+    "dṛś": {
+      "word": "दृश्",
+      "transliteration": "dṛś",
+      "root": "√दृश् (dṛś — to see, to behold, to perceive) — bhvādi/tudādi, parasmaipada",
+      "grammar": {
+        "base": "दृश् (dṛś)",
+        "forms": "अदृशन् (adṛśan, 3rd pl. imperfect 'they saw'), दृष्टः (dṛṣṭaḥ, past participle nom. sg. 'having been seen')",
+        "type": "verb / past participle",
+        "panini": [
+          "P 3.2.111 — laṅ (imperfect): अ + दृश् + अन् → अदृशन् (Vedic form without guṇa)",
+          "P 3.2.102 — past participle: दृश् + क्त → दृष्ट (with ṣ per P 8.2.36)"
+        ]
+      },
+      "meanings": {
+        "english": "To see; to behold; to perceive; to have the vision of",
+        "nirukta": "√dṛś — 'paśyati darśayati' (to see, to show). In mantra 8: 'adṛśan' (they saw) is repeated — first by cowherds, then by water-bearers. The past participle 'dṛṣṭaḥ' means 'having been seen/perceived'.",
+        "amara_kosha": "Amarakośa 3.1.36 — √दृश् listed meaning 'paśyati' (to see). दृष्टिः (vision) in Amarakośa 2.6.54.",
+        "vedantic": "In mantra 8: 'sa dṛṣṭo mṛḍayāti naḥ' — 'he, having been seen, shows mercy to us'. The act of seeing (darśana) Rudra is itself salvific — his being perceived triggers his grace. This is the Vedāntic principle that the divine reveals itself (sākṣātkāra) and that revelation itself is liberating. Cf. Brahma Sūtra 1.1.2: 'janmādy asya yataḥ' — Brahman is known by its effects."
+      }
+    },
+
+    "udahārya": {
+      "word": "उदहार्य",
+      "transliteration": "udahārya",
+      "root": "उद (ud — up) + अहार्य (from उदक/अप् — water) — or उद + √हृ (to carry) with ya suffix — water-carriers; water-maidens",
+      "grammar": {
+        "base": "उदहार्य (udahārya — water-carriers, those who carry water)",
+        "forms": "उदहार्यः (udahāryaḥ, nom. pl.)",
+        "type": "noun",
+        "panini": [
+          "P 3.1.118 — ṇyat-pratyaya: udaka + √hṛ + ya → udahārya (one who should carry water / water-carrier)"
+        ]
+      },
+      "meanings": {
+        "english": "Water-carriers; those who draw/carry water; water-bearers",
+        "nirukta": "From udaka (water) + √hṛ (to carry). 'Udakam harantīti udahāryaḥ' — those who carry water. Sāyaṇa identifies them as women going to fetch water from rivers — ordinary people encountering the divine in daily life.",
+        "vedantic": "The water-carriers, like the cowherds, represent the common people who see Rudra (the sun) in their daily activities. The divine is not hidden from the ordinary — Rudra reveals himself to all, not just to the ritually initiated."
+      }
+    },
+
+    "viśva": {
+      "word": "विश्व",
+      "transliteration": "viśva",
+      "root": "√विश् (viś — to enter, to pervade) + va (suffix)",
+      "grammar": {
+        "base": "विश्व (viśva — all, entire, universal, every)",
+        "forms": "विश्वा (viśvā, neut. nom. pl. 'all'), विश्वतः (viśvataḥ, adverb 'from all sides/everywhere')",
+        "type": "adjective / pronoun (sarvanāman)",
+        "panini": [
+          "P 1.1.27 — viśva classified as sarvanāman",
+          "P 5.3.7 — tasil-pratyaya: viśva + tas → viśvatas (from all sides)"
+        ]
+      },
+      "meanings": {
+        "english": "All; entire; universal; every; the whole; from all sides (as viśvataḥ)",
+        "nighantu": "Nighantu 3.1 — listed among words denoting 'sarva' (totality/completeness).",
+        "nirukta": "From √viś — 'viśati prāpnoti sarvam iti viśvam' (that which enters/pervades everything). Viśva denotes totality in an all-pervading sense.",
+        "amara_kosha": "Amarakośa 3.1.1 — विश्वम् listed as synonym of sarva: 'sarvaḥ viśvaḥ'.",
+        "vedantic": "In mantra 8: 'viśvā bhūtāni' — 'all beings'. The entire manifest creation sees Rudra-as-sun. Viśvataḥ (from all sides) in mantras 13 and 15 emphasizes comprehensive protection — Rudra's grace covers all directions."
+      }
+    },
+
+    "bhūta": {
+      "word": "भूत",
+      "transliteration": "bhūta",
+      "root": "√भू (bhū — to be, to become) + त (kta — past participle suffix)",
+      "grammar": {
+        "base": "भूत (bhūta — being, creature, element; that which has come into being)",
+        "forms": "भूतानि (bhūtāni, neut. nom. pl. 'beings/creatures')",
+        "type": "noun, neuter (substantivized past participle)",
+        "panini": [
+          "P 3.2.102 — kta-pratyaya: भू + त → भूत",
+          "P 7.1.20 — neut. nom. pl.: bhūtāni"
+        ]
+      },
+      "meanings": {
+        "english": "Beings; creatures; living entities; elements; that which has come into existence",
+        "nighantu": "Related: Nighantu 1.1 — bhūta related terms among prāṇi-vācaka (living-being-denoting) words.",
+        "nirukta": "From √bhū — 'bhūtam = jātam prāptam' (that which has been born/come into being). Encompasses all living creatures.",
+        "amara_kosha": "Amarakośa 1.1.7 — bhūtam listed in dual sense: (1) prāṇī (living being), (2) mahābhūta (the five great elements: earth, water, fire, air, ether).",
+        "vedantic": "In Vedānta, 'bhūta' refers to both living beings and the five elements (pañca-mahābhūta) from which the world is composed. 'Viśvā bhūtāni' — all beings/entities without exception perceive Rudra."
+      }
+    },
+
+    "sahasrākṣa": {
+      "word": "सहस्राक्ष",
+      "transliteration": "sahasrākṣa",
+      "root": "सहस्र (sahasra — thousand) + अक्ष (akṣa — eye, from √अक्ष् — to see)",
+      "grammar": {
+        "base": "सहस्राक्ष (sahasrākṣa — thousand-eyed)",
+        "forms": "सहस्राक्षाय (sahasrākṣāya, dat. sg.), सहस्राक्ष (sahasrākṣa, voc. sg.)",
+        "type": "adjective / epithet (bahuvrīhi compound)",
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: sahasra + akṣa → sahasrākṣa (one who has a thousand eyes)",
+          "P 6.1.87 — savarna-dīrgha sandhi: a + a → ā: sahasra + akṣa → sahasrākṣa"
+        ]
+      },
+      "meanings": {
+        "english": "Thousand-eyed; omniscient; all-seeing; one who sees everything",
+        "nighantu": "Components: Nighantu 2.4 — akṣi/akṣa listed among netra-vācaka (eye-denoting) words.",
+        "nirukta": "Bahuvrīhi: 'sahasram akṣāṇi yasya saḥ' — one who has a thousand eyes. 'Thousand' is Vedic idiom for 'countless/infinite'. The compound signifies omniscience — the ability to see all things simultaneously.",
+        "amara_kosha": "Amarakośa 1.1.42 — सहस्राक्षः listed as an epithet of Indra. In Śiva context, it indicates the omniscience shared by all supreme deities.",
+        "vedantic": "The thousand eyes represent sarva-jñatva (omniscience) — one of the essential attributes of Brahman (Brahma Sūtra 1.1.2). In the Puruṣa Sūkta (RV 10.90.1): 'sahasrākṣaḥ sahasrapāt' — the cosmic Puruṣa has a thousand eyes and a thousand feet. Rudra as sahasrākṣa is identified with this cosmic Puruṣa."
+      }
+    },
+
+    "mīḍhuṣa": {
+      "word": "मीढुष",
+      "transliteration": "mīḍhuṣa",
+      "root": "√मिह् (mih — to rain, to sprinkle, to be bountiful, to shed) + kvasu suffix",
+      "grammar": {
+        "base": "मीढ्वस् (mīḍhvas — bountiful, generous, one who rains gifts)",
+        "forms": "मीढुषे (mīḍhuṣe, dat. sg. 'to the bountiful one'), मीढुष्टम (mīḍhuṣṭama, superl. voc. 'O most bountiful')",
+        "type": "adjective / noun (perfect participle)",
+        "panini": [
+          "P 3.2.107 — kvasu-pratyaya (perfect participle): मिह् + क्वसु → मीढ्वस् (with cerebral ḍh per P 8.2.32)",
+          "P 5.3.55 — superlative: mīḍhuṣ + tama → mīḍhuṣṭama (most bountiful)"
+        ]
+      },
+      "meanings": {
+        "english": "The bountiful one; the generous giver; one who rains down gifts; the munificent",
+        "nighantu": "Related: Nighantu 2.7 — words for dāna (giving/generosity).",
+        "nirukta": "From √mih — originally 'to rain/sprinkle'. Extended meaning: 'to shower gifts'. 'Mīḍhvān = dātā' — one who gives bountifully. The perfect participle form suggests one who has abundantly given — an established giver. Sāyaṇa: 'kāmānāṃ varṣitā' — one who rains desired things.",
+        "vedantic": "Rudra as mīḍhuṣa transforms from the terrifying to the bountiful — the same deity who wields arrows also showers blessings. In mantra 13, the superlative 'mīḍhuṣṭama' (O most bountiful) is the climactic address — the peak of praising Rudra's generosity."
+      }
+    },
+
+    "atho": {
+      "word": "अथो",
+      "transliteration": "atho",
+      "root": "अथ (atha — now, then, moreover) + उ (u — emphatic particle)",
+      "grammar": {
+        "base": "अथो (atho — and moreover, and further, and also)",
+        "form": "indeclinable conjunction (sandhi of atha + u)",
+        "type": "avyaya (nipāta)",
+        "panini": [
+          "P 6.1.96 — sandhi: atha + u → atho (a + u → o)"
+        ]
+      },
+      "meanings": {
+        "english": "And moreover; and further; and also; furthermore",
+        "nirukta": "Compound particle: atha (now/then/moreover) + u (emphatic). Introduces an additional thought — 'and furthermore'. In mantra 9: 'atho ye asya satvānaḥ' — 'and moreover, those who are his attendants'.",
+        "vedantic": "Atho transitions from praising Rudra directly to acknowledging his retinue (gaṇas/attendants). This expansion from the one to the many is a hallmark of Vedic theology."
+      }
+    },
+
+    "satvān": {
+      "word": "सत्वान्",
+      "transliteration": "satvān",
+      "root": "सत्व (satva — being, existence, warrior) + possessive suffix, or from √सत् (sat — to be) with van suffix",
+      "grammar": {
+        "base": "सत्वन् (satvan — warrior, attendant, strong being, companion)",
+        "forms": "सत्वानः (satvānaḥ, nom. pl. masc. 'the attendants/warriors')",
+        "type": "noun, masculine",
+        "panini": [
+          "P 3.2.130 — vanip-pratyaya: sat + van → satvan (one who possesses being/strength)"
+        ]
+      },
+      "meanings": {
+        "english": "Attendants; warriors; companions; strong beings; Rudra's retinue (gaṇas)",
+        "nirukta": "From sat (being/warrior) + van (possessive). 'Sattvaṃ balam yasya' — one who possesses strength/being. Sāyaṇa glosses: 'anucarāḥ' (attendants, followers). Refers to Rudra's gaṇas — the host of beings that accompany the Lord.",
+        "vedantic": "In mantra 9: 'ye asya satvānaḥ' — 'those who are his attendants'. The devotee offers salutation not just to Rudra but to his entire retinue. In Śaiva theology, the gaṇas (attendants) represent the various forces and beings that serve the cosmic will of Śiva-Rudra."
+      }
+    },
+
+    "aham": {
+      "word": "अहम्",
+      "transliteration": "aham",
+      "root": "अस्मद् (asmad — first person pronoun)",
+      "grammar": {
+        "base": "अस्मद् (asmad)",
+        "form": "nominative singular — 'I'",
+        "type": "pronoun (sarvanāman), first person",
+        "panini": [
+          "P 7.2.86 — nominative singular suppletion: asmad → aham"
+        ]
+      },
+      "meanings": {
+        "english": "I (first person singular nominative)",
+        "nirukta": "The emphatic first-person pronoun. In mantra 9: 'ahaṃ tebhyo'karaṃ namaḥ' — 'I made salutation to them'. The shift from plural 'we' (naḥ) to singular 'I' (aham) is significant — the individual devotee personally commits to honoring Rudra's attendants.",
+        "vedantic": "In Vedānta, 'aham' is analyzed extensively — it is the locus of ahaṅkāra (ego) but also of the Ātman. 'Aham brahmāsmi' (Bṛhadāraṇyaka 1.4.10). Here the devotee uses 'aham' in the act of surrender — the 'I' that bows is simultaneously transcended by the act of bowing."
+      }
+    },
+
+    "pra_muc": {
+      "word": "प्रमुञ्च",
+      "transliteration": "pramuc",
+      "root": "प्र (pra — forth, away) + √मुच् (muc — to release, to set free, to loosen)",
+      "grammar": {
+        "base": "प्र√मुच् (pramuc — to release, to loosen, to untie)",
+        "forms": "प्रमुञ्च (pramuñca, 2nd sg. imperative 'release! loosen!')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.87 — loṭ (imperative): प्र + मुच् + हि → प्रमुञ्च (with nasal per P 7.1.59)"
+        ]
+      },
+      "meanings": {
+        "english": "Release; loosen; set free; unstring (the bow)",
+        "nirukta": "Compound verb: pra (forth/away) + √muc (to release). 'Pramuñca dhanvanaḥ jyām' — 'release/unstring the bowstring'. The imperative is a direct petition to Rudra to disarm.",
+        "amara_kosha": "Amarakośa 3.1.18 — √मुच् listed meaning 'mokṣaṇa' (releasing).",
+        "vedantic": "The prayer to 'release the bowstring' asks Rudra to disarm — to set aside his destructive capacity. In Vedāntic terms, 'release' (mokṣa) is the ultimate prayer — pramuc contains the seed of 'pramukti' (liberation). Asking Rudra to release his weapon is simultaneously asking for our own release from bondage."
+      }
+    },
+
+    "ārtnī": {
+      "word": "आर्त्नि",
+      "transliteration": "ārtnī",
+      "root": "आ + √ṛt (to fasten) + ni — the tip/end of the bow where the string is fastened",
+      "grammar": {
+        "base": "आर्त्नि (ārtnī — the tip of the bow; the end where the bowstring is tied)",
+        "forms": "आर्त्नियोः (ārtniyoḥ, gen./loc. dual 'of/at the two bow-tips')",
+        "type": "noun, feminine",
+        "panini": [
+          "P 7.3.112 — dual case forms for i-stem: ārtnī + oḥ → ārtniyoḥ"
+        ]
+      },
+      "meanings": {
+        "english": "The tip/end of the bow where the string is tied; the two extremities of the bow",
+        "nirukta": "From ā + √ṛt (to fasten/fix) — 'ṛtyate yasyāṃ sā ārtnī' (that at which [the string] is fastened). The dual 'ubhayoḥ ārtniyoḥ' — from both tips of the bow. Sāyaṇa: 'dhanuṣaḥ ubhayoḥ koṭyoḥ' (both ends of the bow).",
+        "vedantic": "The technical specificity — asking for the bowstring to be released from both tips — reflects the Vedic precision in prayer. Nothing is left to chance; the request is complete and specific."
+      }
+    },
+
+    "jyā": {
+      "word": "ज्या",
+      "transliteration": "jyā",
+      "root": "√ज्या (jyā — to overpower, to overwhelm; also: the bowstring)",
+      "grammar": {
+        "base": "ज्या (jyā — bowstring, string)",
+        "forms": "ज्याम् (jyām, acc. sg. 'the bowstring')",
+        "type": "noun, feminine",
+        "panini": [
+          "P 7.1.18 — ā-stem feminine: acc. sg. ज्याम्"
+        ]
+      },
+      "meanings": {
+        "english": "Bowstring; string of the bow; that which overpowers",
+        "nighantu": "Nighantu 2.20 — grouped with āyudha-related terms.",
+        "nirukta": "√jyā — 'jyāyate balam dadāti' (that which gives force/power). The bowstring is what propels the arrow — it is the source of the bow's destructive power. Also connected to 'jyāyas' (superior/overpowering).",
+        "amara_kosha": "Amarakośa 2.8.85 — ज्या listed as bowstring: 'jyā guṇaḥ' — jyā and guṇa are synonyms for bowstring (notable: guṇa = quality/string — a rich double meaning).",
+        "vedantic": "Releasing the bowstring (jyā) renders the bow inoperative. In Muṇḍaka Upaniṣad terms, if the bow (Oṃkāra) is for launching the arrow (jīva) at Brahman, then releasing the string suggests the cessation of the outward-projecting force — the return to stillness."
+      }
+    },
+
+    "bhagavat": {
+      "word": "भगवत्",
+      "transliteration": "bhagavat",
+      "root": "भग (bhaga — fortune, glory, power, splendor) + वत् (vat — possessive suffix)",
+      "grammar": {
+        "base": "भगवत् (bhagavat — fortunate, glorious, divine, the blessed one)",
+        "forms": "भगवः (bhagavaḥ, voc. sg. 'O Blessed One')",
+        "type": "adjective / noun (possessive compound)",
+        "panini": [
+          "P 5.2.94 — matup-pratyaya: bhaga + vat → bhagavat (possessing bhaga/glory)",
+          "P 7.1.87 — vocative: bhagavat → bhagavaḥ (with s → ḥ)"
+        ]
+      },
+      "meanings": {
+        "english": "O Blessed One; O Glorious One; the Fortunate/Divine Lord; possessing all excellences",
+        "nighantu": "Related: Nighantu 2.7 — bhaga listed among aiśvarya-vācaka (prosperity-denoting) words.",
+        "nirukta": "From bhaga — 'bhajyate sevyate iti bhagaḥ' (that which is worshipped/served). Bhagavat = one who possesses bhaga. Viṣṇu Purāṇa (6.5.74) defines bhaga as possessing six qualities: aiśvarya (sovereignty), vīrya (valor), yaśas (glory), śrī (prosperity), jñāna (knowledge), and vairāgya (dispassion).",
+        "amara_kosha": "Amarakośa 3.3.186 — भगवान् listed as a form of respectful address to the divine.",
+        "vedantic": "In mantra 10: 'parā tā bhagavo vapa' — 'cast those [arrows] away, O Blessed One'. Bhagavaḥ as vocative elevates the address to the highest honorific — acknowledging Rudra's supreme status. In Vedānta, 'Bhagavān' is a term for the Supreme Being possessing all six divine attributes."
+      }
+    },
+
+    "vap": {
+      "word": "वप्",
+      "transliteration": "vap",
+      "root": "√वप् (vap — to scatter, to throw, to cast away, to sow) — bhvādi, ubhayapada",
+      "grammar": {
+        "base": "वप् (vap)",
+        "forms": "वप (vapa, 2nd sg. imperative 'scatter! cast away!')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.87 — loṭ: वप् + हि → वप (hi dropped after short-vowel stem)"
+        ]
+      },
+      "meanings": {
+        "english": "Cast away; scatter; throw away; disperse; sow",
+        "nirukta": "√vap — 'vapati kṣipati' (to scatter/throw). In mantra 10: 'parā tā bhagavo vapa' — 'scatter/cast away those [arrows], O Blessed One'. The imperative asks Rudra to throw his arrows far from the devotees.",
+        "vedantic": "The prayer to 'cast away' the arrows combines with the earlier plea to 'release the bowstring'. Together they form a complete disarmament: unstring the bow, then throw the arrows far away. This is the devotee's strategy of total petition."
+      }
+    },
+
+    "avatat": {
+      "word": "अवतत्य",
+      "transliteration": "avatatya",
+      "root": "अव (ava — down, away) + √तन् (tan — to stretch, to extend) — absolutive: 'having unstrung'",
+      "grammar": {
+        "base": "अव√तन् (avatan — to unstring, to loosen by stretching down)",
+        "forms": "अवतत्य (avatatya, absolutive/gerund 'having unstrung')",
+        "type": "verb (absolutive/gerund)",
+        "panini": [
+          "P 3.4.21 — lyap-pratyaya for absolutive with prefix: अव + तन् + ल्यप् → अवतत्य"
+        ]
+      },
+      "meanings": {
+        "english": "Having unstrung; having loosened; having taken down (the bowstring)",
+        "nirukta": "Compound verb: ava (down) + √tan (to stretch). 'Avatatya dhanuḥ' — 'having unstrung the bow'. The absolutive indicates a prior action — 'after unstringing the bow, [then] be gracious'.",
+        "vedantic": "The sequence of disarmament continues in mantra 11 — first unstring the bow (avatatya dhanuḥ), then blunt the arrow-tips (niśīrya śalyānāṃ mukhā), then be benevolent (śivo naḥ sumanā bhava). Each step removes a layer of threat."
+      }
+    },
+
+    "śateṣudhi": {
+      "word": "शतेषुधि",
+      "transliteration": "śateṣudhi",
+      "root": "शत (śata — hundred) + इषुधि (iṣudhi — quiver, from इषु + √धा)",
+      "grammar": {
+        "base": "शतेषुधि (śateṣudhi — possessing a hundred quivers; having a quiver of a hundred arrows)",
+        "forms": "शतेषुधे (śateṣudhe, voc. sg.)",
+        "type": "adjective / epithet (bahuvrīhi compound)",
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: śata + iṣudhi → śateṣudhi (one who has a hundred quivers)",
+          "P 6.1.87 — sandhi: a + i → e: śata + iṣudhi → śateṣudhi"
+        ]
+      },
+      "meanings": {
+        "english": "O possessor of a hundred quivers; one whose quiver holds a hundred arrows; the infinitely armed",
+        "nighantu": "Components: iṣu (Nighantu 2.20 — weapon names), śata — Vedic idiom for 'very many'.",
+        "nirukta": "Compound: śata (hundred) + iṣudhi (quiver, from iṣu 'arrow' + √dhā 'to hold'). 'Śataṃ iṣudhayaḥ yasya saḥ' — one who has a hundred quivers. Like sahasra, śata means 'innumerable' — Rudra's arsenal is inexhaustible.",
+        "vedantic": "The epithet underscores the paradox of the prayer: Rudra possesses unlimited weapons yet is asked to lay them down. The power to destroy is fully acknowledged before asking for mercy — true surrender is surrendering to one who is supremely powerful."
+      }
+    },
+
+    "niśīrya": {
+      "word": "निशीर्य",
+      "transliteration": "niśīrya",
+      "root": "नि (ni — down) + √शॄ (śṝ — to crush, to break, to tear apart)",
+      "grammar": {
+        "base": "नि√शॄ (niśṝ — to break down, to blunt, to shatter)",
+        "forms": "निशीर्य (niśīrya, absolutive 'having blunted/shattered')",
+        "type": "verb (absolutive/gerund)",
+        "panini": [
+          "P 3.4.21 — lyap: नि + शॄ + ल्यप् → निशीर्य"
+        ]
+      },
+      "meanings": {
+        "english": "Having blunted; having shattered; having broken off; having crushed down",
+        "nirukta": "Compound verb: ni (down) + √śṝ (to crush/break). 'Niśīrya śalyānāṃ mukhā' — 'having blunted the points of the arrows'. The absolutive describes rendering the arrows harmless by breaking their tips.",
+        "vedantic": "The systematic disarmament prayer: unstring the bow (avatatya), blunt the arrow-tips (niśīrya mukhā), then be benevolent. This represents the Vedic devotee's practical theology — not just asking for mercy in the abstract but specifying exactly how the threat should be neutralized."
+      }
+    },
+
+    "śalya": {
+      "word": "शल्य",
+      "transliteration": "śalya",
+      "root": "√शल् (śal — to move, to go) + ya suffix — the point/barb of an arrow; a thorn",
+      "grammar": {
+        "base": "शल्य (śalya — arrowhead, barb, thorn, the wounding point)",
+        "forms": "शल्यानाम् (śalyānām, gen. pl. 'of the arrowheads')",
+        "type": "noun, neuter/masculine",
+        "panini": [
+          "√शल् + य (Uṇādi) → शल्य"
+        ]
+      },
+      "meanings": {
+        "english": "Arrowhead; arrow-point; barb; thorn; the sharp wounding part",
+        "nirukta": "From √śal — 'śalati gatim prāpnoti iti śalyam' (that which moves/penetrates). The wounding point of the arrow — what actually causes harm.",
+        "amara_kosha": "Amarakośa 2.8.86 — शल्यम् listed meaning 'bāṇāgra' (arrow-tip). Also used in Ayurveda: śalya-tantra = surgery (the science of extracting foreign objects from the body).",
+        "vedantic": "Asking for the śalyas (arrowheads) to be blunted goes beyond merely unstringing the bow — even if the arrows were somehow launched, they would be harmless. The prayer layers redundant protections, reflecting complete dependence on divine mercy."
+      }
+    },
+
+    "mukha": {
+      "word": "मुख",
+      "transliteration": "mukha",
+      "root": "√मुख् (mukh — to face) or मुख (mukha — face, mouth, tip, opening, point)",
+      "grammar": {
+        "base": "मुख (mukha — face, mouth, point, tip, opening)",
+        "forms": "मुखा (mukhā, neut. nom. pl. 'the points/tips')",
+        "type": "noun, neuter",
+        "panini": [
+          "P 7.1.20 — neut. nom. pl.: mukha + ani → mukhāni (but Vedic mukhā)"
+        ]
+      },
+      "meanings": {
+        "english": "Face; mouth; tip; point; opening; front part",
+        "nighantu": "Nighantu 2.4 — listed among aṅga-nāmāni (body-part names) and also among agra-vācaka (tip/front-denoting) words.",
+        "nirukta": "From √mukh — 'mukhayati āsyam iti mukham' (that which faces/opens). In the context of arrows: mukha = the tip/point. 'Śalyānāṃ mukhā' = 'the points/faces of the arrowheads'.",
+        "amara_kosha": "Amarakośa 2.6.86 — मुखम् listed among face/front terms: 'mukham āsyam ānanam vadanam'.",
+        "vedantic": "Mukha as 'point/tip' of the arrow — the part that pierces. Blunting the mukha renders the weapon non-lethal. In broader Vedāntic usage, mukha (face/opening) represents the point of contact between the divine and the manifest — Rudra's face turned toward us should be śiva."
+      }
+    },
+
+    "kapardin": {
+      "word": "कपर्दिन्",
+      "transliteration": "kapardin",
+      "root": "कपर्द (kaparda — matted hair, braided lock, cowrie shell) + इन् (in — possessive suffix)",
+      "grammar": {
+        "base": "कपर्दिन् (kapardin — one with matted/braided hair)",
+        "forms": "कपर्दिनः (kapardinaḥ, gen. sg. 'of the matted-haired one')",
+        "type": "adjective / epithet",
+        "panini": [
+          "P 5.2.109 — ini-pratyaya (possessive): kaparda + in → kapardin (possessing kaparda)"
+        ]
+      },
+      "meanings": {
+        "english": "The matted-haired one; one who wears braided locks; the one with twisted locks (like a cowrie shell)",
+        "nirukta": "From kaparda — 'kapardaḥ keśa-bandhaḥ' (bound/twisted hair). 'Kapardo'sya asti iti kapardī' — one who possesses kaparda. The matted/twisted locks are a signature characteristic of Rudra-Śiva, representing asceticism (tapas).",
+        "amara_kosha": "Amarakośa 1.1.29 — कपर्दी / कपालमाली listed among Śiva's epithets. Kaparda also means cowrie shell — Amarakośa 2.10.30.",
+        "vedantic": "The matted hair (jaṭā) of Rudra symbolizes tapas (austerity) and the containment of cosmic energy. Śiva as kapardin is the supreme ascetic whose very hair holds the Gaṅgā (divine knowledge). In mantra 12: 'vijyaṃ dhanuḥ kapardinaḥ' — 'stringless be the bow of the matted-haired one'."
+      }
+    },
+
+    "viśalya": {
+      "word": "विशल्य",
+      "transliteration": "viśalya",
+      "root": "वि (vi — without, freed from) + शल्य (śalya — arrowhead, thorn)",
+      "grammar": {
+        "base": "विशल्य (viśalya — freed from arrowheads, without barbs, pointless)",
+        "forms": "विशल्यः (viśalyaḥ, nom. sg. masc.)",
+        "type": "adjective (nañ/vi-tatpuruṣa compound)",
+        "panini": [
+          "P 2.2.6 — vi-prefix in privative sense: vi + śalya → viśalya (without śalya)"
+        ]
+      },
+      "meanings": {
+        "english": "Without arrowheads; freed from barbs; pointless (rendered harmless); with arrows extracted",
+        "nirukta": "Vi (privative) + śalya (arrowhead). The arrows are described as having their barbs removed — rendered completely harmless. 'Vigatāni śalyāni yasya saḥ' — one whose arrows have lost their points.",
+        "vedantic": "In mantra 12: 'viśalyo bāṇavān' — 'may his arrows be without points'. The prayer doesn't ask for the arrows to disappear — they remain, but are harmless. This is the Vedāntic insight that the world (jagat) need not be destroyed, only its harmful aspect removed."
+      }
+    },
+
+    "bāṇa": {
+      "word": "बाण",
+      "transliteration": "bāṇa",
+      "root": "√बण् (baṇ — to sound) or from √वन् (van — to seek/send)",
+      "grammar": {
+        "base": "बाण (bāṇa — arrow, reed-shaft)",
+        "forms": "बाणवान् (bāṇavān, nom. sg. 'possessing arrows, the arrow-bearer')",
+        "type": "noun, masculine",
+        "panini": [
+          "P 5.2.94 — matup-pratyaya: bāṇa + vat → bāṇavat, nom. bāṇavān (possessing arrows)"
+        ]
+      },
+      "meanings": {
+        "english": "Arrow; reed-shaft; missile",
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni alongside iṣu and śara.",
+        "nirukta": "From √baṇ — 'baṇati śabdam karoti' (that which makes a sound) — the whistling arrow. Or from vaṇa (reed) — arrows were traditionally made from reeds.",
+        "amara_kosha": "Amarakośa 2.8.86 — बाणः listed as arrow-synonym: 'iṣuḥ śaraḥ bāṇaḥ'.",
+        "vedantic": "In mantra 12: 'viśalyo bāṇavān' — Rudra still possesses (vān) arrows (bāṇa) but they are without points (viśalya). The prayer preserves Rudra's identity as warrior while neutralizing the threat."
+      }
+    },
+
+    "aneśan": {
+      "word": "अनेशन्",
+      "transliteration": "aneśan",
+      "root": "अ (not) + √ईश् (īś — to rule, to be able, to have power over) — or √इष् (iṣ — to seek, to move)",
+      "grammar": {
+        "base": "अनेशत् / अनीशत् (not ruling/powerless, or: not reaching/not attaining)",
+        "forms": "अनेशन् (aneśan, 3rd pl. aorist/imperfect 'they became powerless/harmless')",
+        "type": "verb (with negative prefix)",
+        "panini": [
+          "P 3.3.175 — negated verbal form: a + neś/nīś + an"
+        ]
+      },
+      "meanings": {
+        "english": "They became powerless; they lost their ability; they became harmless; they could not reach [us]",
+        "nirukta": "Negated verb: a + √īś (to be powerful/able). 'Aneśan' = 'they became unable/powerless'. Sāyaṇa: 'na prabhavanti' (they do not have power). Applied to Rudra's arrows — they became incapable of harm.",
+        "vedantic": "In mantra 12: 'aneśan asya iṣavaḥ' — 'his arrows became powerless'. The prayer envisions a state where Rudra's weapons retain their form but lose their capacity to harm — transformation without destruction."
+      }
+    },
+
+    "niṣaṅga": {
+      "word": "निषङ्ग",
+      "transliteration": "niṣaṅga",
+      "root": "नि (ni — down/into) + √सञ्ज् (sañj — to attach, to cling)",
+      "grammar": {
+        "base": "निषङ्ग (niṣaṅga — quiver; sword-scabbard; a container that clings to the body)",
+        "forms": "निषङ्गइथिः (niṣaṅga-ithiḥ, nom. sg. 'the quiver' — with archaic ithiḥ suffix)",
+        "type": "noun, masculine",
+        "panini": [
+          "P 6.1.63 — ni + saṅga → niṣaṅga (with ṣatva/cerebral change per P 8.3.59)"
+        ]
+      },
+      "meanings": {
+        "english": "Quiver; scabbard; a container fastened to the body for carrying arrows or sword",
+        "nighantu": "Nighantu 2.20 — listed among āyudha-related terms.",
+        "nirukta": "From ni + √sañj — 'nisajyate dehe yena saḥ' (that which is fastened/attached to the body). The quiver clings to the warrior's body — it is the portable arsenal.",
+        "amara_kosha": "Amarakośa 2.8.86 — निषङ्गः listed as quiver: 'tūṇīraḥ iṣudhiḥ niṣaṅgaḥ' — three synonyms for quiver.",
+        "vedantic": "In mantra 12: even the quiver (niṣaṅga-ithiḥ) is rendered harmless — the container of potential harm is neutralized. The prayer covers every element of Rudra's armament: bow, string, arrows, arrowheads, and quiver."
+      }
+    },
+
+    "heti": {
+      "word": "हेति",
+      "transliteration": "heti",
+      "root": "√हि (hi — to impel, to send forth) + ति (ti — action noun suffix)",
+      "grammar": {
+        "base": "हेति (heti — missile, weapon, flame, stroke)",
+        "forms": "हेतिः (hetiḥ, nom. sg.), हेतिम् (hetim, acc. sg.)",
+        "type": "noun, feminine",
+        "panini": [
+          "√हि + क्तिन् (P 3.3.94) → हेति (with guṇa: i → e)"
+        ]
+      },
+      "meanings": {
+        "english": "Missile; weapon; stroke; flame; any instrument of striking",
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names). Also used for 'flame/fire-weapon' in other Vedic contexts.",
+        "nirukta": "From √hi — 'hiyate preṣyate iti hetiḥ' (that which is impelled/sent forth). A more general term than iṣu — covers any weapon or missile. In mantra 13: 'yā te hetiḥ' — 'which weapon of yours'.",
+        "amara_kosha": "Amarakośa 2.8.82 — हेतिः listed meaning 'āyudha' (weapon) in general sense.",
+        "vedantic": "In mantras 13 and 15, heti refers to Rudra's general weaponry — broader than the specific bow-and-arrow. 'Pari te dhanvano hetiḥ asmān vṛṇaktu viśvataḥ' — 'may the weapon of your bow avoid us from all sides'."
+      }
+    },
+
+    "paribhuj": {
+      "word": "परिभुज",
+      "transliteration": "paribhuj",
+      "root": "परि (pari — around, completely) + √भुज् (bhuj — to protect, to bend, to embrace)",
+      "grammar": {
+        "base": "परि√भुज् (paribhuj — to protect all around, to embrace, to shelter)",
+        "forms": "परिभुज (paribhuja, 2nd sg. imperative 'protect us all around!')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.87 — loṭ: परि + भुज् + हि → परिभुज"
+        ]
+      },
+      "meanings": {
+        "english": "Protect all around; embrace; shelter on every side; wrap around protectively",
+        "nirukta": "Compound verb: pari (all around) + √bhuj (to protect/bend). 'Pari-bhuja' = 'shelter us on all sides'. Sāyaṇa: 'sarvataḥ pālaya' (protect from every direction). In mantra 13: 'ayakṣmayā pari bhuja' — 'with [your] disease-free [grace], protect us all around'.",
+        "vedantic": "The final plea in mantra 13 asks for complete, all-encompassing protection (pari = all around). The adverb viśvataḥ (from all sides) reinforces this. Rudra's protection is not partial but total — the devotee is wrapped in divine grace from every direction."
+      }
+    },
+
+    "āyudha": {
+      "word": "आयुध",
+      "transliteration": "āyudha",
+      "root": "आ (ā — towards) + √युध् (yudh — to fight, to wage war) + अ (a — suffix)",
+      "grammar": {
+        "base": "आयुध (āyudha — weapon, armament, instrument of war)",
+        "forms": "आयुधाय (āyudhāya, dat. sg. 'to the weapon')",
+        "type": "noun, neuter",
+        "panini": [
+          "P 3.3.122 — ghañ-pratyaya: ā + yudh + a → āyudha (instrument of fighting)"
+        ]
+      },
+      "meanings": {
+        "english": "Weapon; armament; instrument of war; the means of fighting",
+        "nighantu": "Nighantu 2.20 — listed as the generic term for weapon (āyudha-nāmāni: the weapon-names section is named after this word).",
+        "nirukta": "From ā + √yudh — 'āyudhyate yena tat āyudham' (that by which one fights). The generic term for any weapon.",
+        "amara_kosha": "Amarakośa 2.8.81 — आयुधम् as the primary entry: 'āyudhaṃ praharaṇam śastram' — āyudha, praharaṇa, and śastra are weapon-synonyms.",
+        "vedantic": "In mantra 14: 'namaḥ te astu āyudhāya' — salutation to the weapon itself. The weapon is honored as a manifestation of divine power. In Vedāntic terms, even the instrument of fear is worthy of worship because it belongs to Brahman."
+      }
+    },
+
+    "anātata": {
+      "word": "अनातत",
+      "transliteration": "anātata",
+      "root": "अन् (an — not) + आ (ā — fully) + √तन् (tan — to stretch) + त (kta — past participle)",
+      "grammar": {
+        "base": "अनातत (anātata — unstrung, not stretched, relaxed)",
+        "forms": "अनाततय (anātatāya, dat. sg. 'to the unstrung [bow/weapon]')",
+        "type": "adjective (negative past participle)",
+        "panini": [
+          "P 6.2.155 — nañ-compound: an + ātata → anātata (not stretched/strung)",
+          "P 3.2.102 — ātata: ā + √tan + kta → ātata (stretched/strung)"
+        ]
+      },
+      "meanings": {
+        "english": "Unstrung; not stretched; relaxed; at rest (said of a bow not drawn)",
+        "nirukta": "Negative past participle: an + ātata (strung/stretched). 'Na ātataṃ yasya tat anātatam' — that which is not strung. In mantra 14: 'āyudhāya anātatāya' — 'to the weapon that is unstrung/at rest'. The prayer salutes the weapon in its peaceful state.",
+        "vedantic": "Saluting the unstrung weapon is saluting Rudra in his peaceful aspect — the warrior at rest. The compound 'anātata' represents the cessation of the threat — the bow exists but is not drawn, the power exists but is not exercised destructively."
+      }
+    },
+
+    "dhṛṣṇu": {
+      "word": "धृष्णु",
+      "transliteration": "dhṛṣṇu",
+      "root": "√धृष् (dhṛṣ — to dare, to be bold, to be courageous) + णु (ṇu — agent suffix)",
+      "grammar": {
+        "base": "धृष्णु (dhṛṣṇu — bold, daring, courageous, audacious)",
+        "forms": "धृष्णवे (dhṛṣṇave, dat. sg. 'to the bold/daring one')",
+        "type": "adjective",
+        "panini": [
+          "P 3.2.140 — ṇu-pratyaya (Uṇādi): dhṛṣ + ṇu → dhṛṣṇu"
+        ]
+      },
+      "meanings": {
+        "english": "Bold; daring; courageous; audacious; the one who dares",
+        "nirukta": "From √dhṛṣ — 'dhṛṣṇoti sāhase vartate' (one who acts with daring/boldness). The ṇu-suffix forms agent adjectives. Sāyaṇa: 'dhīra' (brave) and 'pratāpī' (one of splendor).",
+        "vedantic": "In mantra 14: 'dhṛṣṇave namaḥ' — salutation to the bold/daring one. This acknowledges Rudra's fearless nature. In Vedānta, boldness (dhārṣṭya) in the divine context is the supreme confidence of Brahman — the fearless one (abhayaṅkara)."
+      }
+    },
+
+    "ubha": {
+      "word": "उभ",
+      "transliteration": "ubha",
+      "root": "उभ (ubha — both, the two)",
+      "grammar": {
+        "base": "उभ (ubha)",
+        "forms": "उभाभ्याम् (ubhābhyām, dat./instr. dual 'to/by both'), उभयोः (ubhayoḥ, gen./loc. dual 'of both')",
+        "type": "pronoun (sarvanāman), dual only",
+        "panini": [
+          "P 1.1.27 — ubha classified as sarvanāman",
+          "P 7.1.55 — ubha used only in dual forms"
+        ]
+      },
+      "meanings": {
+        "english": "Both; the two (always dual)",
+        "nirukta": "Ubha denotes 'both together' — always used in dual. In mantra 14: 'ubhābhyām uta te namaḥ' — 'to both [arms], and to you, salutation'. In mantra 10: 'ubhayoḥ ārtniyoḥ' — 'from both bow-tips'.",
+        "vedantic": "The dual 'both' emphasizes the completeness of the salutation — both arms, both ends of the bow. Nothing is left unacknowledged."
+      }
+    },
+
+    "pari": {
+      "word": "परि",
+      "transliteration": "pari",
+      "root": "परि (pari — around, fully, completely) — preverb/prefix",
+      "grammar": {
+        "base": "परि (pari)",
+        "form": "preverb (upasarga) / indeclinable",
+        "type": "prefix (upasarga)",
+        "panini": [
+          "P 1.4.58 — pari classified as an upasarga",
+          "P 1.4.59 — modifies verbal meaning to add 'around/completely'"
+        ]
+      },
+      "meanings": {
+        "english": "Around; fully; completely; on all sides; away from",
+        "nighantu": "Nighantu 3.29 — listed among upasargas.",
+        "nirukta": "Nirukta 1.3 — pari adds the sense of 'surrounding, encompassing, going around'. In mantra 15: 'pari te dhanvano hetiḥ asmān vṛṇaktu viśvataḥ' — 'may the weapon of your bow go around us [miss us] from all sides'.",
+        "vedantic": "Pari (around/away) in the protective context means 'let the weapon go around us, avoiding us'. The prayer creates a shield of divine grace that the weapon itself respects."
+      }
+    },
+
+    "vṛj": {
+      "word": "वृज्",
+      "transliteration": "vṛj",
+      "root": "√वृज् (vṛj — to avoid, to turn aside, to exclude, to keep away) — tudādi",
+      "grammar": {
+        "base": "वृज् (vṛj)",
+        "forms": "वृणक्तु (vṛṇaktu, 3rd sg. imperative 'may it avoid/turn aside from')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.86 — loṭ 3rd sg.: वृज् + तु → वृणक्तु (with nasal infix per P 7.1.58 for tudādi)"
+        ]
+      },
+      "meanings": {
+        "english": "May it avoid; may it turn aside from; may it keep away; may it exclude",
+        "nirukta": "√vṛj — 'varjayati tyajati pariharati' (to avoid, to abandon, to go around). 'Asmān vṛṇaktu' — 'may it avoid us'. The imperative is addressed to the weapon itself — 'may the weapon turn aside from us'.",
+        "vedantic": "In mantra 15: the prayer asks the weapon itself to exercise avoidance — personifying the heti (weapon) as an agent capable of choice. In Vedānta, all instruments of the divine partake of consciousness — even the weapon responds to prayer."
+      }
+    },
+
+    "iṣudhi": {
+      "word": "इषुधि",
+      "transliteration": "iṣudhi",
+      "root": "इषु (iṣu — arrow) + √धा (dhā — to hold, to place) — container of arrows",
+      "grammar": {
+        "base": "इषुधि (iṣudhi — quiver, arrow-holder)",
+        "forms": "इषुधिः (iṣudhiḥ, nom. sg.)",
+        "type": "noun, masculine",
+        "panini": [
+          "P 3.2.68 — upapada compound with √dhā: iṣu + dhi → iṣudhi"
+        ]
+      },
+      "meanings": {
+        "english": "Quiver; arrow-holder; the receptacle for arrows",
+        "nighantu": "Related to Nighantu 2.20 — āyudha terms.",
+        "nirukta": "From iṣu (arrow) + √dhā (to hold/contain). 'Iṣūn dadhāti yaḥ saḥ' — that which holds arrows. Synonym of niṣaṅga and tūṇīra.",
+        "amara_kosha": "Amarakośa 2.8.86 — इषुधिः listed as quiver-synonym: 'tūṇīraḥ iṣudhiḥ niṣaṅgaḥ'.",
+        "vedantic": "In mantra 15: 'yo iṣudhiḥ tava āre asmat ni dhehi tam' — 'that quiver of yours, place it far from us'. The prayer asks for the entire arsenal to be placed at a distance — physical separation as metaphor for safety."
+      }
+    },
+
+    "āre": {
+      "word": "आरे",
+      "transliteration": "āre",
+      "root": "आरे (āre — far, at a distance, far away) — Vedic adverb",
+      "grammar": {
+        "base": "आरे (āre)",
+        "form": "indeclinable adverb",
+        "type": "avyaya",
+        "panini": [
+          "P 5.3.38 — āre as an archaic adverb of distance (Vedic usage)"
+        ]
+      },
+      "meanings": {
+        "english": "Far away; at a distance; remote from",
+        "nighantu": "Nighantu 3.28 — listed among dūra-vācaka (distance-denoting) words.",
+        "nirukta": "Nirukta 4.2 — āre is a Vedic adverb meaning 'at a distance from'. With ablative: 'āre asmat' — 'far from us'. Rare in classical Sanskrit, characteristic of Vedic.",
+        "vedantic": "The spatial imagery — placing the quiver far away — represents creating distance between the devotee and the source of harm. In Vedānta, this distance is the spiritual distance between the jīva and the binding effects of karma."
+      }
+    },
+
+    "nidhā": {
+      "word": "निधा",
+      "transliteration": "nidhā",
+      "root": "नि (ni — down, into) + √धा (dhā — to place, to put, to set down)",
+      "grammar": {
+        "base": "नि√धा (nidhā — to place down, to deposit, to set aside)",
+        "forms": "निधेहि (nidhehi, 2nd sg. imperative 'place down! set aside!')",
+        "type": "verb",
+        "panini": [
+          "P 3.4.87 — loṭ: नि + धा + हि → निधेहि (with guṇa per P 7.3.84)"
+        ]
+      },
+      "meanings": {
+        "english": "Place down; set aside; deposit; lay down (the quiver)",
+        "nirukta": "Compound verb: ni (down) + √dhā (to place). 'Āre asmat nidhehi tam' — 'place it [the quiver] down far from us'. The imperative asks Rudra to physically set down his arsenal at a distance.",
+        "vedantic": "The final mantra (15) ends with this plea — 'place your quiver far from us'. The entire first anuvāka traces an arc from salutation (namaḥ) through acknowledgment of Rudra's terrible power to the concluding prayer for disarmament and distance. In Vedānta, 'nidhehi' (place down) suggests Rudra placing aside his cosmic function of destruction for the devotee's sake."
+      }
+    }
+  },
+
+  "mantras": [
+    {
+      "mantra_id": 1,
+      "samhita": "नम॑स्ते रुद्र म॒न्यव॑ उ॒तोत॒ इष॑वे॒ नमः॑ । नम॑स्ते अस्तु॒ धन्व॑ने बा॒हुभ्या॑मु॒त ते॒ नमः॑ ॥",
+      "pada": "नमः॑ । ते॒ । रु॒द्र॒ । म॒न्यवे᳚ । उ॒तो इति॑ । उ॒त । इष॑वे । नमः॑ । नमः॑ । ते॒ । अ॒स्तु॒ । धन्व॑ने । बा॒हुभ्या᳚म् । उ॒त । ते॒ । नमः॑ ॥",
+      "word_sequence": [
+        {"ref": "namaḥ", "pada_position": 1, "form": "नमः", "context": "Opening salutation"},
+        {"ref": "te", "pada_position": 2, "form": "ते", "role": "dative — to you"},
+        {"ref": "rudra", "pada_position": 3, "form": "रुद्र", "role": "vocative — O Rudra"},
+        {"ref": "manyu", "pada_position": 4, "form": "मन्यवे", "role": "dative — to [your] wrath"},
+        {"ref": "uta", "pada_position": "5-6", "form": "उतो उत", "role": "conjunction — and also"},
+        {"ref": "iṣu", "pada_position": 7, "form": "इषवे", "role": "dative — to [your] arrow"},
+        {"ref": "namaḥ", "pada_position": 8, "form": "नमः", "context": "Closing salutation of first half"},
+        {"ref": "namaḥ", "pada_position": 9, "form": "नमः", "context": "Opening of second half"},
+        {"ref": "te", "pada_position": 10, "form": "ते", "role": "dative — to you"},
+        {"ref": "as_verb", "pada_position": 11, "form": "अस्तु", "role": "imperative — may it be"},
+        {"ref": "dhanvan", "pada_position": 12, "form": "धन्वने", "role": "dative — to [your] bow"},
+        {"ref": "bāhu", "pada_position": 13, "form": "बाहुभ्याम्", "role": "dual dative — to [your] two arms"},
+        {"ref": "uta", "pada_position": 14, "form": "उत", "role": "conjunction — and also"},
+        {"ref": "te", "pada_position": 15, "form": "ते", "role": "dative — to you"},
+        {"ref": "namaḥ", "pada_position": 16, "form": "नमः", "context": "Final salutation"}
+      ],
+      "translation": "Salutation to you, O Rudra, to your wrath, and also to your arrow — salutation! May salutation be to you, to your bow, to your two arms — and to you, salutation!"
+    },
+    {
+      "mantra_id": 2,
+      "samhita": "या त॒ इषुः॑ शि॒वत॑मा शि॒व-म्ब॒भूव॑ ते॒ धनुः॑ । शि॒वा श॑र॒व्या॑ या तव॒ तया॑ नो रुद्र मृडय ॥",
+      "pada": "या । ते॒ । इषुः॑ । शि॒व॒-तमा॑ । शि॒वम् । ब॒भूव॑ । ते॒ । धनुः॑ । शि॒वा । श॒र॒व्या॑ । या । तव॑ । तया॑ । नः॒ । रु॒द्र॒ । मृ॒ड॒य॒ ॥",
+      "word_sequence": [
+        {"ref": "yad", "pada_position": 1, "form": "या", "role": "fem. nom. sg. relative — which"},
+        {"ref": "te", "pada_position": 2, "form": "ते", "role": "genitive — your"},
+        {"ref": "iṣu", "pada_position": 3, "form": "इषुः", "role": "nom. sg. — arrow"},
+        {"ref": "śiva", "pada_position": 4, "form": "शिवतमा", "role": "fem. superl. — most auspicious"},
+        {"ref": "śiva", "pada_position": 5, "form": "शिवम्", "role": "neut. nom/acc. — auspicious"},
+        {"ref": "bhū", "pada_position": 6, "form": "बभूव", "role": "perfect 3rd sg. — has become"},
+        {"ref": "te", "pada_position": 7, "form": "ते", "role": "genitive — your"},
+        {"ref": "dhanvan", "pada_position": 8, "form": "धनुः", "role": "nom. sg. — bow"},
+        {"ref": "śiva", "pada_position": 9, "form": "शिवा", "role": "fem. nom. sg. — auspicious"},
+        {"ref": "śaravyā", "pada_position": 10, "form": "शरव्या", "role": "nom. sg. — quiver/volley"},
+        {"ref": "yad", "pada_position": 11, "form": "या", "role": "fem. nom. sg. relative — which"},
+        {"ref": "tava", "pada_position": 12, "form": "तव", "role": "genitive — your (emphatic)"},
+        {"ref": "tad", "pada_position": 13, "form": "तया", "role": "fem. instr. sg. — by that"},
+        {"ref": "asmad", "pada_position": 14, "form": "नः", "role": "enclitic acc. — us"},
+        {"ref": "rudra", "pada_position": 15, "form": "रुद्र", "role": "vocative — O Rudra"},
+        {"ref": "mṛḍ", "pada_position": 16, "form": "मृडय", "role": "imperative — be gracious"}
+      ],
+      "translation": "Which arrow of yours is the most auspicious, [which] bow of yours has become auspicious, [which] quiver of yours is auspicious — by that, O Rudra, be gracious to us."
+    },
+    {
+      "mantra_id": 3,
+      "samhita": "या ते॑ रुद्र शि॒वा त॒नूरघो॒रा-ऽपा॑पकाशिनी । तया॑ नस्त॒नुवा॒ शन्त॑मया॒ गिरि॑शन्ता॒भिचा॑कशीहि ॥",
+      "pada": "या । ते॒ । रु॒द्र॒ । शि॒वा । त॒नूः । अ॒घो॒रा । अ॒पा॑प-काशिनी । तया॑ । नः॒ । त॒नुवा॑ । शन्तः॑-मया । गिरि॑-शन्त । अ॒भि । च॒क॒शी॒हि॒ ॥",
+      "word_sequence": [
+        {"ref": "yad", "pada_position": 1, "form": "या", "role": "fem. nom. sg. relative — which"},
+        {"ref": "te", "pada_position": 2, "form": "ते", "role": "genitive — your"},
+        {"ref": "rudra", "pada_position": 3, "form": "रुद्र", "role": "vocative — O Rudra"},
+        {"ref": "śiva", "pada_position": 4, "form": "शिवा", "role": "fem. nom. sg. — auspicious"},
+        {"ref": "tanū", "pada_position": 5, "form": "तनूः", "role": "nom. sg. — body/form"},
+        {"ref": "aghorā", "pada_position": 6, "form": "अघोरा", "role": "fem. nom. — not terrible"},
+        {"ref": "apāpakāśinī", "pada_position": 7, "form": "अपापकाशिनी", "role": "fem. nom. — not revealing evil"},
+        {"ref": "tad", "pada_position": 8, "form": "तया", "role": "fem. instr. — by that"},
+        {"ref": "asmad", "pada_position": 9, "form": "नः", "role": "enclitic dat. — to us"},
+        {"ref": "tanū", "pada_position": 10, "form": "तनुवा", "role": "instr. sg. — with that form"},
+        {"ref": "śam", "pada_position": 11, "form": "शन्तमया", "role": "superl. instr. — most peaceful"},
+        {"ref": "giriśanta", "pada_position": 12, "form": "गिरिशन्त", "role": "vocative — O mountain-dweller"},
+        {"ref": "abhi", "pada_position": 13, "form": "अभि", "role": "preverb — towards"},
+        {"ref": "cakāśīhi", "pada_position": 14, "form": "चकशीहि", "role": "imperative intensive — shine upon us"}
+      ],
+      "translation": "Which form of yours, O Rudra, is auspicious, not terrible, revealing no evil — with that most peaceful form, O dweller of the mountain, shine upon us."
+    },
+    {
+      "mantra_id": 4,
+      "samhita": "यामिषु॑-ङ्गिरिशन्त॒ हस्ते॒ बिभ॒र्​ष्यस्त॑वे । शि॒वा-ङ्गि॑रित्र॒ ता-ङ्कु॑रु॒ मा हिग्ं॑सीः॒ पुरु॑ष॒-ञ्जग॑त् ॥",
+      "pada": "याम् । इषु॑म् । गि॒रि॒-श॒न्त॒ । हस्ते॑ । बिभ॑र्षि । अस्त॑वे । शि॒वाम् । गि॒रि॒-त्र॒ । ताम् । कु॒रु॒ । मा । हि॒ग्ं॒सीः॒ । पुरु॑षम् । जग॑त् ॥",
+      "word_sequence": [
+        {"ref": "yad", "pada_position": 1, "form": "याम्", "role": "fem. acc. sg. — which (arrow)"},
+        {"ref": "iṣu", "pada_position": 2, "form": "इषुम्", "role": "acc. sg. — arrow"},
+        {"ref": "giriśanta", "pada_position": 3, "form": "गिरिशन्त", "role": "vocative — O mountain-dweller"},
+        {"ref": "hasta", "pada_position": 4, "form": "हस्ते", "role": "loc. sg. — in [your] hand"},
+        {"ref": "bhṛ", "pada_position": 5, "form": "बिभर्षि", "role": "2nd sg. present — you bear"},
+        {"ref": "astave", "pada_position": 6, "form": "अस्तवे", "role": "dative infinitive — for hurling"},
+        {"ref": "śiva", "pada_position": 7, "form": "शिवाम्", "role": "fem. acc. — auspicious"},
+        {"ref": "giritra", "pada_position": 8, "form": "गिरित्र", "role": "vocative — O mountain-protector"},
+        {"ref": "tad", "pada_position": 9, "form": "ताम्", "role": "fem. acc. — that (arrow)"},
+        {"ref": "kṛ", "pada_position": 10, "form": "कुरु", "role": "imperative — make/render"},
+        {"ref": "mā_particle", "pada_position": 11, "form": "मा", "role": "prohibitive — do not"},
+        {"ref": "hiṃs", "pada_position": 12, "form": "हिंसीः", "role": "aorist prohib. — harm"},
+        {"ref": "puruṣa", "pada_position": 13, "form": "पुरुषम्", "role": "acc. sg. — man/person"},
+        {"ref": "jagat", "pada_position": 14, "form": "जगत्", "role": "acc. sg. — the living world"}
+      ],
+      "translation": "That arrow which you bear in hand, O mountain-dweller, for hurling — make it auspicious, O mountain-protector. Do not harm man or the living world."
+    },
+    {
+      "mantra_id": 5,
+      "samhita": "शि॒वेन॒ वच॑सा त्वा॒ गिरि॒शाच्छा॑ वदामसि । यथा॑ न॒-स्सर्व॒मिज्जग॑दय॒क्ष्मग्ं सु॒मना॒ अस॑त् ॥",
+      "pada": "शि॒वेन॑ । वच॑सा । त्वा॒ । गि॒रि॒-श॒ । अच्छ॑ । व॒दा॒म॒सि॒ । यथा॑ । नः॒ । सर्व॑म् । इत् । जग॑त् । अ॒य॒क्ष्मम् । सु॒-मनाः॑ । अस॑त् ॥",
+      "word_sequence": [
+        {"ref": "śiva", "pada_position": 1, "form": "शिवेन", "role": "masc. instr. — with auspicious"},
+        {"ref": "vacas", "pada_position": 2, "form": "वचसा", "role": "instr. sg. — with speech"},
+        {"ref": "tvam", "pada_position": 3, "form": "त्वा", "role": "enclitic acc. — you"},
+        {"ref": "giriśa", "pada_position": 4, "form": "गिरिश", "role": "vocative — O mountain-lord"},
+        {"ref": "accha", "pada_position": 5, "form": "अच्छ", "role": "adverb — towards"},
+        {"ref": "vad", "pada_position": 6, "form": "वदामसि", "role": "1st pl. present — we speak/address"},
+        {"ref": "yathā", "pada_position": 7, "form": "यथा", "role": "conjunction — so that"},
+        {"ref": "asmad", "pada_position": 8, "form": "नः", "role": "enclitic gen. — our"},
+        {"ref": "sarva", "pada_position": 9, "form": "सर्वम्", "role": "neut. nom/acc. — all/entire"},
+        {"ref": "id", "pada_position": 10, "form": "इत्", "role": "emphatic particle — indeed"},
+        {"ref": "jagat", "pada_position": 11, "form": "जगत्", "role": "nom/acc. — world"},
+        {"ref": "ayakṣma", "pada_position": 12, "form": "अयक्ष्मम्", "role": "neut. acc. — free from disease"},
+        {"ref": "sumanas", "pada_position": 13, "form": "सुमनाः", "role": "nom. — of good mind"},
+        {"ref": "as_verb", "pada_position": 14, "form": "असत्", "role": "optative — may it be"}
+      ],
+      "translation": "With auspicious speech we address you, O mountain-lord, towards [you] — so that all this world of ours may be free from disease and of good mind."
+    },
+    {
+      "mantra_id": 6,
+      "samhita": "अध्य॑वोचदधिव॒क्ता प्र॑थ॒मो दैव्यो॑ भि॒षक् । अहीग्॑श्च॒ सर्वा᳚ञ्ज॒म्भय॒न्-थ्सर्वा᳚श्च यातुधा॒न्यः॑ ॥",
+      "pada": "अधि॑ । अ॒वो॒च॒त् । अ॒धि॒-व॒क्ता । प्र॒थ॒मः । दैव्यः॑ । भि॒षक् । अही॑न् । च॒ । सर्वा᳚न् । ज॒म्भय॑न् । सर्वा᳚न् । च॒ । या॒तु॒-धा॒न्यः॑ ॥",
+      "word_sequence": [
+        {"ref": "adhi_vac", "pada_position": "1-2", "form": "अधि अवोचत्", "role": "preverb + aorist 3rd sg. — he spoke forth"},
+        {"ref": "adhi_vac", "pada_position": 3, "form": "अधिवक्ता", "role": "nom. sg. agent — the advocate"},
+        {"ref": "prathama", "pada_position": 4, "form": "प्रथमः", "role": "nom. sg. — first/foremost"},
+        {"ref": "daivya", "pada_position": 5, "form": "दैव्यः", "role": "nom. sg. — divine"},
+        {"ref": "bhiṣaj", "pada_position": 6, "form": "भिषक्", "role": "nom. sg. — physician"},
+        {"ref": "ahi", "pada_position": 7, "form": "अहीन्", "role": "acc. pl. — serpent-demons"},
+        {"ref": "ca", "pada_position": 8, "form": "च", "role": "conjunction — and"},
+        {"ref": "sarva", "pada_position": 9, "form": "सर्वान्", "role": "acc. pl. — all"},
+        {"ref": "jambh", "pada_position": 10, "form": "जम्भयन्", "role": "pres. participle — crushing"},
+        {"ref": "sarva", "pada_position": 11, "form": "सर्वान्", "role": "acc. pl. — all (second instance, modifying yātudhānyaḥ)"},
+        {"ref": "ca", "pada_position": 12, "form": "च", "role": "conjunction — and"},
+        {"ref": "yātudhānī", "pada_position": 13, "form": "यातुधान्यः", "role": "acc. pl. — sorceresses"}
+      ],
+      "translation": "He spoke forth — the advocate, the first divine physician — crushing all serpent-demons and all sorceresses."
+    },
+    {
+      "mantra_id": 7,
+      "samhita": "अ॒सौ यस्ता॒म्रो अ॑रु॒ण उ॒त ब॒भ्रुस्सु॑म॒ङ्गलः॑ । ये चे॒माग्ं रु॒द्रा अ॒भितो॑ दि॒क्षु श्रि॒ता-स्स॑हस्र॒शो-ऽवै॑षा॒ग्ं॒ हेड॑ ईमहे ॥",
+      "pada": "अ॒सौ । यः । ता॒म्रः । अ॒रु॒णः । उ॒त । ब॒भ्रुः । सु॒-म॒ङ्गलः॑ । ये । च॒ । इ॒माम् । रु॒द्राः । अ॒भितः॑ । दि॒क्षु । श्रि॒ताः । स॒ह॒स्र॒शः । अव॑ । ए॒षा॒म् । हेडः॑ । ई॒म॒हे॒ ॥",
+      "word_sequence": [
+        {"ref": "adas", "pada_position": 1, "form": "असौ", "role": "masc. nom. sg. — that one yonder"},
+        {"ref": "yad", "pada_position": 2, "form": "यः", "role": "masc. nom. sg. relative — who"},
+        {"ref": "tāmra", "pada_position": 3, "form": "ताम्रः", "role": "nom. sg. — coppery"},
+        {"ref": "aruṇa", "pada_position": 4, "form": "अरुणः", "role": "nom. sg. — ruddy"},
+        {"ref": "uta", "pada_position": 5, "form": "उत", "role": "conjunction — and also"},
+        {"ref": "babhru", "pada_position": 6, "form": "बभ्रुः", "role": "nom. sg. — tawny"},
+        {"ref": "sumaṅgala", "pada_position": 7, "form": "सुमङ्गलः", "role": "nom. sg. — most auspicious"},
+        {"ref": "yad", "pada_position": 8, "form": "ये", "role": "masc. nom. pl. — who/which"},
+        {"ref": "ca", "pada_position": 9, "form": "च", "role": "conjunction — and"},
+        {"ref": "idam", "pada_position": 10, "form": "इमाम्", "role": "fem. acc. — this (earth)"},
+        {"ref": "rudra", "pada_position": 11, "form": "रुद्राः", "role": "nom. pl. — the Rudras"},
+        {"ref": "abhitas", "pada_position": 12, "form": "अभितः", "role": "adverb — on all sides"},
+        {"ref": "diś", "pada_position": 13, "form": "दिक्षु", "role": "loc. pl. — in the directions"},
+        {"ref": "śri", "pada_position": 14, "form": "श्रिताः", "role": "past part. nom. pl. — stationed"},
+        {"ref": "sahasraśas", "pada_position": 15, "form": "सहस्रशः", "role": "adverb — by the thousands"},
+        {"ref": "ava_heda", "pada_position": "16-19", "form": "अव एषाम् हेडः ईमहे", "role": "we propitiate away their wrath"}
+      ],
+      "translation": "That one yonder who is coppery, ruddy, and tawny — the most auspicious — and those Rudras who are stationed in the directions all around by the thousands — we propitiate away their wrath."
+    },
+    {
+      "mantra_id": 8,
+      "samhita": "अ॒सौ यो॑-ऽव॒सर्प॑ति॒ नील॑ग्रीवो॒ विलो॑हितः । उ॒तैन॑-ङ्गो॒पा अ॑दृश॒न्नदृ॑शन्नुदहा॒र्यः॑ । उ॒तैनं॒-विँश्वा॑ भू॒तानि॒ स दृ॒ष्टो मृ॑डयाति नः ॥",
+      "pada": "अ॒सौ । यः । अ॒व॒-सर्प॑ति । नील॑-ग्रीवः । वि-लो॑हितः । उ॒त । ए॒नम् । गो॒पाः । अ॒दृ॒श॒न् । अ॒दृ॒श॒न् । उ॒द॒-हा॒र्यः॑ । उ॒त । ए॒नम् । विश्वा॑ । भू॒तानि॑ । सः । दृ॒ष्टः । मृ॒ड॒या॒ति॒ । नः॒ ॥",
+      "word_sequence": [
+        {"ref": "adas", "pada_position": 1, "form": "असौ", "role": "masc. nom. sg. — that one yonder"},
+        {"ref": "yad", "pada_position": 2, "form": "यः", "role": "masc. nom. sg. relative — who"},
+        {"ref": "avasarpati", "pada_position": 3, "form": "अवसर्पति", "role": "3rd sg. present — descends/traverses"},
+        {"ref": "nīlagrīva", "pada_position": 4, "form": "नीलग्रीवः", "role": "nom. sg. — blue-necked"},
+        {"ref": "vilohita", "pada_position": 5, "form": "विलोहितः", "role": "nom. sg. — intensely red"},
+        {"ref": "uta", "pada_position": 6, "form": "उत", "role": "conjunction — and"},
+        {"ref": "idam", "pada_position": 7, "form": "एनम्", "role": "anaphoric acc. — him"},
+        {"ref": "gopa", "pada_position": 8, "form": "गोपाः", "role": "nom. pl. — cowherds"},
+        {"ref": "dṛś", "pada_position": 9, "form": "अदृशन्", "role": "3rd pl. imperfect — they saw"},
+        {"ref": "dṛś", "pada_position": 10, "form": "अदृशन्", "role": "3rd pl. imperfect — they saw (repeated)"},
+        {"ref": "udahārya", "pada_position": 11, "form": "उदहार्यः", "role": "nom. pl. — water-carriers"},
+        {"ref": "uta", "pada_position": 12, "form": "उत", "role": "conjunction — and"},
+        {"ref": "idam", "pada_position": 13, "form": "एनम्", "role": "anaphoric acc. — him"},
+        {"ref": "viśva", "pada_position": 14, "form": "विश्वा", "role": "neut. nom. pl. — all"},
+        {"ref": "bhūta", "pada_position": 15, "form": "भूतानि", "role": "neut. nom. pl. — beings"},
+        {"ref": "tad", "pada_position": 16, "form": "सः", "role": "masc. nom. sg. — he"},
+        {"ref": "dṛś", "pada_position": 17, "form": "दृष्टः", "role": "past participle — having been seen"},
+        {"ref": "mṛḍ", "pada_position": 18, "form": "मृडयाति", "role": "3rd sg. present causative — shows mercy"},
+        {"ref": "asmad", "pada_position": 19, "form": "नः", "role": "enclitic dat. — to us"}
+      ],
+      "translation": "That one yonder who descends — the blue-necked, the intensely red — him the cowherds saw, the water-carriers saw, and all beings [saw] him. He, having been seen, shows mercy to us."
+    },
+    {
+      "mantra_id": 9,
+      "samhita": "नमो॑ अस्तु॒ नील॑ग्रीवाय सहस्रा॒क्षाय॑ मी॒ढुषे᳚ । अथो॒ ये अ॑स्य॒ सत्वा॑नो॒-ऽह-न्तेभ्यो॑-ऽकर॒न्नमः॑ ॥",
+      "pada": "नमः॑ । अ॒स्तु॒ । नील॑-ग्रीवाय । स॒ह॒स्र॒-अ॒क्षाय॑ । मी॒ढुषे᳚ । अथो॒ इति॑ । ये । अ॒स्य॒ । सत्वा॑नः । अ॒हम् । तेभ्यः॑ । अ॒क॒र॒म् । नमः॑ ॥",
+      "word_sequence": [
+        {"ref": "namaḥ", "pada_position": 1, "form": "नमः", "role": "nom. — salutation"},
+        {"ref": "as_verb", "pada_position": 2, "form": "अस्तु", "role": "imperative — may it be"},
+        {"ref": "nīlagrīva", "pada_position": 3, "form": "नीलग्रीवाय", "role": "dat. sg. — to the blue-necked"},
+        {"ref": "sahasrākṣa", "pada_position": 4, "form": "सहस्राक्षाय", "role": "dat. sg. — to the thousand-eyed"},
+        {"ref": "mīḍhuṣa", "pada_position": 5, "form": "मीढुषे", "role": "dat. sg. — to the bountiful"},
+        {"ref": "atho", "pada_position": 6, "form": "अथो", "role": "conjunction — and moreover"},
+        {"ref": "yad", "pada_position": 7, "form": "ये", "role": "masc. nom. pl. relative — who"},
+        {"ref": "idam", "pada_position": 8, "form": "अस्य", "role": "gen. sg. — his/of this one"},
+        {"ref": "satvān", "pada_position": 9, "form": "सत्वानः", "role": "nom. pl. — attendants"},
+        {"ref": "aham", "pada_position": 10, "form": "अहम्", "role": "nom. sg. — I"},
+        {"ref": "tad", "pada_position": 11, "form": "तेभ्यः", "role": "dat. pl. — to them"},
+        {"ref": "kṛ", "pada_position": 12, "form": "अकरम्", "role": "1st sg. imperfect — I made/offered"},
+        {"ref": "namaḥ", "pada_position": 13, "form": "नमः", "role": "acc. — salutation"}
+      ],
+      "translation": "May salutation be to the blue-necked, the thousand-eyed, the bountiful one. And moreover, those who are his attendants — I made salutation to them."
+    },
+    {
+      "mantra_id": 10,
+      "samhita": "प्रमु॑ञ्च॒ धन्व॑न॒स्त्वमु॒भयो॒रार्त्नि॑ यो॒र्ज्याम् । याश्च॑ ते॒ हस्त॒ इष॑वः॒ परा॒ ता भ॑गवो वप ॥",
+      "pada": "प्र । मु॒ञ्च॒ । धन्व॑नः । त्वम् । उ॒भयोः॑ । आर्त्नि॑योः । ज्याम् । याः । च॒ । ते॒ । हस्ते॑ । इष॑वः । परा॑ । ताः । भ॒ग॒वः॒ । व॒प॒ ॥",
+      "word_sequence": [
+        {"ref": "pra_muc", "pada_position": "1-2", "form": "प्र मुञ्च", "role": "preverb + imperative — release/unstring"},
+        {"ref": "dhanvan", "pada_position": 3, "form": "धन्वनः", "role": "gen./abl. sg. — from the bow"},
+        {"ref": "tvam", "pada_position": 4, "form": "त्वम्", "role": "nom. sg. — you"},
+        {"ref": "ubha", "pada_position": 5, "form": "उभयोः", "role": "gen. dual — of both"},
+        {"ref": "ārtnī", "pada_position": 6, "form": "आर्त्नियोः", "role": "gen./loc. dual — at the two bow-tips"},
+        {"ref": "jyā", "pada_position": 7, "form": "ज्याम्", "role": "acc. sg. — the bowstring"},
+        {"ref": "yad", "pada_position": 8, "form": "याः", "role": "fem. nom. pl. relative — which"},
+        {"ref": "ca", "pada_position": 9, "form": "च", "role": "conjunction — and"},
+        {"ref": "te", "pada_position": 10, "form": "ते", "role": "genitive — your"},
+        {"ref": "hasta", "pada_position": 11, "form": "हस्ते", "role": "loc. sg. — in hand"},
+        {"ref": "iṣu", "pada_position": 12, "form": "इषवः", "role": "nom. pl. — arrows"},
+        {"ref": "pari", "pada_position": 13, "form": "परा", "role": "adverb — away"},
+        {"ref": "tad", "pada_position": 14, "form": "ताः", "role": "fem. acc. pl. — those"},
+        {"ref": "bhagavat", "pada_position": 15, "form": "भगवः", "role": "vocative — O Blessed One"},
+        {"ref": "vap", "pada_position": 16, "form": "वप", "role": "imperative — cast away/scatter"}
+      ],
+      "translation": "Release the bowstring from both tips of the bow, O you. And those arrows in your hand — cast them far away, O Blessed One."
+    },
+    {
+      "mantra_id": 11,
+      "samhita": "अ॒व॒तत्य॒ धनु॒स्त्वग्ं सह॑स्राक्ष॒ शते॑षुधे । नि॒शीर्य॑ श॒ल्याना॒-म्मुखा॑ शि॒वो नः॑ सु॒मना॑ भव ॥",
+      "pada": "अ॒व॒-तत्य॑ । धनुः॑ । त्वम् । स॒ह॒स्र॒-अ॒क्ष॒ । शते॑-इषुधे । नि-शीर्य॑ । श॒ल्याना॑म् । मुखा॑ । शि॒वः । नः॒ । सु॒-मनाः॑ । भ॒व॒ ॥",
+      "word_sequence": [
+        {"ref": "avatat", "pada_position": 1, "form": "अवतत्य", "role": "absolutive — having unstrung"},
+        {"ref": "dhanvan", "pada_position": 2, "form": "धनुः", "role": "acc. sg. — the bow"},
+        {"ref": "tvam", "pada_position": 3, "form": "त्वम्", "role": "nom. sg. — you"},
+        {"ref": "sahasrākṣa", "pada_position": 4, "form": "सहस्राक्ष", "role": "vocative — O thousand-eyed"},
+        {"ref": "śateṣudhi", "pada_position": 5, "form": "शतेषुधे", "role": "vocative — O hundred-quivered"},
+        {"ref": "niśīrya", "pada_position": 6, "form": "निशीर्य", "role": "absolutive — having blunted"},
+        {"ref": "śalya", "pada_position": 7, "form": "शल्यानाम्", "role": "gen. pl. — of the arrowheads"},
+        {"ref": "mukha", "pada_position": 8, "form": "मुखा", "role": "neut. nom. pl. — the points/tips"},
+        {"ref": "śiva", "pada_position": 9, "form": "शिवः", "role": "nom. sg. masc. — auspicious/benevolent"},
+        {"ref": "asmad", "pada_position": 10, "form": "नः", "role": "dat. — to us"},
+        {"ref": "sumanas", "pada_position": 11, "form": "सुमनाः", "role": "nom. sg. — of good mind"},
+        {"ref": "bhū", "pada_position": 12, "form": "भव", "role": "imperative — be!"}
+      ],
+      "translation": "Having unstrung the bow, O thousand-eyed, O hundred-quivered, having blunted the points of the arrowheads — be auspicious to us, be of good mind!"
+    },
+    {
+      "mantra_id": 12,
+      "samhita": "विज्य॒-न्धनुः॑ कप॒र्दिनो॒ विश॑ल्यो॒ बाण॑वाग्ं उ॒त । अने॑शन्न॒स्येष॑व आ॒भुर॑स्य निष॒ङ्गथिः॑ ॥",
+      "pada": "वि-ज्य॑म् । धनुः॑ । क॒प॒र्दिनः॑ । वि-श॑ल्यः । बाण॑-वान् । उ॒त । अ॒ने॒श॒न् । अ॒स्य॒ । इष॑वः । आ॒भुः । अ॒स्य॒ । नि॒ष॒ङ्ग॒-इथिः॑ ॥",
+      "word_sequence": [
+        {"ref": "jyā", "pada_position": 1, "form": "विज्यम्", "role": "neut. acc. — stringless (vi+jyā: without bowstring)"},
+        {"ref": "dhanvan", "pada_position": 2, "form": "धनुः", "role": "nom. sg. — bow"},
+        {"ref": "kapardin", "pada_position": 3, "form": "कपर्दिनः", "role": "gen. sg. — of the matted-haired one"},
+        {"ref": "viśalya", "pada_position": 4, "form": "विशल्यः", "role": "nom. sg. — without arrowheads"},
+        {"ref": "bāṇa", "pada_position": 5, "form": "बाणवान्", "role": "nom. sg. — arrow-bearer (but pointless arrows)"},
+        {"ref": "uta", "pada_position": 6, "form": "उत", "role": "conjunction — and"},
+        {"ref": "aneśan", "pada_position": 7, "form": "अनेशन्", "role": "3rd pl. aorist — they became powerless"},
+        {"ref": "idam", "pada_position": 8, "form": "अस्य", "role": "gen. sg. — his"},
+        {"ref": "iṣu", "pada_position": 9, "form": "इषवः", "role": "nom. pl. — arrows"},
+        {"ref": "bhū", "pada_position": 10, "form": "आभुः", "role": "3rd pl. perfect — they became (ā + bhū)"},
+        {"ref": "idam", "pada_position": 11, "form": "अस्य", "role": "gen. sg. — his"},
+        {"ref": "niṣaṅga", "pada_position": 12, "form": "निषङ्गइथिः", "role": "nom. sg. — quiver (with archaic suffix)"}
+      ],
+      "translation": "Stringless be the bow of the matted-haired one, pointless his arrows. And his arrows became powerless — harmless became his quiver."
+    },
+    {
+      "mantra_id": 13,
+      "samhita": "या ते॑ हे॒तिर्मी॑डुष्टम॒ हस्ते॑ ब॒भूव॑ ते॒ धनुः॑ । तया॒-ऽस्मान्, वि॒श्वत॒स्त्वम॑य॒क्ष्मया॒ परि॑ब्भुज ॥",
+      "pada": "या । ते॒ । हे॒तिः । मी॒ढुः॒-त॒म॒ । हस्ते॑ । ब॒भूव॑ । ते॒ । धनुः॑ । तया॑ । अ॒स्मान् । वि॒श्वतः॑ । त्वम् । अ॒य॒क्ष्मया॑ । परि॑ । भु॒ज॒ ॥",
+      "word_sequence": [
+        {"ref": "yad", "pada_position": 1, "form": "या", "role": "fem. nom. sg. relative — which"},
+        {"ref": "te", "pada_position": 2, "form": "ते", "role": "genitive — your"},
+        {"ref": "heti", "pada_position": 3, "form": "हेतिः", "role": "nom. sg. — weapon/missile"},
+        {"ref": "mīḍhuṣa", "pada_position": 4, "form": "मीढुष्टम", "role": "vocative superl. — O most bountiful"},
+        {"ref": "hasta", "pada_position": 5, "form": "हस्ते", "role": "loc. sg. — in hand"},
+        {"ref": "bhū", "pada_position": 6, "form": "बभूव", "role": "perfect — has come to be"},
+        {"ref": "te", "pada_position": 7, "form": "ते", "role": "genitive — your"},
+        {"ref": "dhanvan", "pada_position": 8, "form": "धनुः", "role": "nom. sg. — bow"},
+        {"ref": "tad", "pada_position": 9, "form": "तया", "role": "fem. instr. — by that"},
+        {"ref": "asmad", "pada_position": 10, "form": "अस्मान्", "role": "acc. pl. — us"},
+        {"ref": "viśva", "pada_position": 11, "form": "विश्वतः", "role": "adverb — from all sides"},
+        {"ref": "tvam", "pada_position": 12, "form": "त्वम्", "role": "nom. — you"},
+        {"ref": "ayakṣma", "pada_position": 13, "form": "अयक्ष्मया", "role": "fem. instr. — with disease-free [grace]"},
+        {"ref": "paribhuj", "pada_position": "14-15", "form": "परि भुज", "role": "preverb + imperative — protect all around"}
+      ],
+      "translation": "Which weapon of yours, O most bountiful, [and which] bow has come to be in your hand — by that, from all sides, with disease-free [grace], protect us all around."
+    },
+    {
+      "mantra_id": 14,
+      "samhita": "नम॑स्ते अ॒स्त्वायु॑धा॒याना॑तताय धृ॒ष्णवे᳚ । उ॒भाभ्या॑मु॒त ते॒ नमो॑ बा॒हुभ्या॒-न्तव॒ धन्व॑ने ॥",
+      "pada": "नमः॑ । ते॒ । अ॒स्तु॒ । आयु॑धाय । अना॑तताय । धृ॒ष्णवे᳚ । उ॒भाभ्या᳚म् । उ॒त । ते॒ । नमः॑ । बा॒हुभ्या᳚म् । तव॑ । धन्व॑ने ॥",
+      "word_sequence": [
+        {"ref": "namaḥ", "pada_position": 1, "form": "नमः", "role": "nom. — salutation"},
+        {"ref": "te", "pada_position": 2, "form": "ते", "role": "dative — to you"},
+        {"ref": "as_verb", "pada_position": 3, "form": "अस्तु", "role": "imperative — may it be"},
+        {"ref": "āyudha", "pada_position": 4, "form": "आयुधाय", "role": "dat. sg. — to the weapon"},
+        {"ref": "anātata", "pada_position": 5, "form": "अनाततय", "role": "dat. sg. — to the unstrung [bow]"},
+        {"ref": "dhṛṣṇu", "pada_position": 6, "form": "धृष्णवे", "role": "dat. sg. — to the bold one"},
+        {"ref": "ubha", "pada_position": 7, "form": "उभाभ्याम्", "role": "dat. dual — to both"},
+        {"ref": "uta", "pada_position": 8, "form": "उत", "role": "conjunction — and also"},
+        {"ref": "te", "pada_position": 9, "form": "ते", "role": "dative — to you"},
+        {"ref": "namaḥ", "pada_position": 10, "form": "नमः", "role": "nom. — salutation"},
+        {"ref": "bāhu", "pada_position": 11, "form": "बाहुभ्याम्", "role": "dat. dual — to the two arms"},
+        {"ref": "tava", "pada_position": 12, "form": "तव", "role": "genitive — your"},
+        {"ref": "dhanvan", "pada_position": 13, "form": "धन्वने", "role": "dat. sg. — to [your] bow"}
+      ],
+      "translation": "May salutation be to you, to your weapon, to [your] unstrung [bow], to the bold one. To both [arms] and also to you — salutation; to [your] two arms, to your bow."
+    },
+    {
+      "mantra_id": 15,
+      "samhita": "परि॑ ते॒ धन्व॑नो हे॒तिर॒स्मान् वृ॑णक्तु वि॒श्वतः॑ । अथो॒ य इ॑षु॒धिस्तवा॒रे अ॒स्मन्निधे॑हि॒ तम् ॥",
+      "pada": "परि॑ । ते॒ । धन्व॑नः । हे॒तिः । अ॒स्मान् । वृ॒ण॒क्तु॒ । वि॒श्वतः॑ । अथो॒ इति॑ । यः । इ॒षु॒-धिः । तव॑ । आ॒रे । अ॒स्मत् । नि । धे॒हि॒ । तम् ॥",
+      "word_sequence": [
+        {"ref": "pari", "pada_position": 1, "form": "परि", "role": "preverb — around/away"},
+        {"ref": "te", "pada_position": 2, "form": "ते", "role": "genitive — your"},
+        {"ref": "dhanvan", "pada_position": 3, "form": "धन्वनः", "role": "gen./abl. sg. — of/from the bow"},
+        {"ref": "heti", "pada_position": 4, "form": "हेतिः", "role": "nom. sg. — weapon/missile"},
+        {"ref": "asmad", "pada_position": 5, "form": "अस्मान्", "role": "acc. — us"},
+        {"ref": "vṛj", "pada_position": 6, "form": "वृणक्तु", "role": "imperative 3rd sg. — may it avoid"},
+        {"ref": "viśva", "pada_position": 7, "form": "विश्वतः", "role": "adverb — from all sides"},
+        {"ref": "atho", "pada_position": 8, "form": "अथो", "role": "conjunction — and moreover"},
+        {"ref": "yad", "pada_position": 9, "form": "यः", "role": "masc. nom. sg. relative — which"},
+        {"ref": "iṣudhi", "pada_position": 10, "form": "इषुधिः", "role": "nom. sg. — quiver"},
+        {"ref": "tava", "pada_position": 11, "form": "तव", "role": "genitive — your"},
+        {"ref": "āre", "pada_position": 12, "form": "आरे", "role": "adverb — far away"},
+        {"ref": "asmad", "pada_position": 13, "form": "अस्मत्", "role": "ablative — from us"},
+        {"ref": "nidhā", "pada_position": "14-15", "form": "नि धेहि", "role": "preverb + imperative — place down"},
+        {"ref": "tad", "pada_position": 16, "form": "तम्", "role": "masc. acc. sg. — that (quiver)"}
+      ],
+      "translation": "May the weapon of your bow avoid us from all sides. And moreover, that quiver of yours — place it down far from us."
+    }
+  ]
+}

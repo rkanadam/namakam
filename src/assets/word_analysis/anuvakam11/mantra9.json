@@ -1,0 +1,619 @@
+{
+  "id": 9,
+  "samhita": "य ए॒ताव॑न्तश्च॒ भूयाग्ं॑सश्च॒ दिशो॑ रु॒द्रा वि॑तस्थि॒रे । तेषाग्ं॑ सहस्रयोज॒ने-ऽव॒धन्वानि तन्मसि ॥",
+  "pada": "ये । ए॒ताव॑न्तः । च॒ । भूयाग्ं॑सः । च॒ । दिशः॑ । रु॒द्राः । वि-त॑स्थि॒रे । तेषाम् । स॒हस्र॒-योज॒ने । अव॑ । धन्वा॑नि । त॒न्म॒सि॒ ॥",
+  "krama": "य ए॒ताव॑न्तः । ए॒ताव॑न्तश्च । च भूयाग्ं॑सः । भूयाग्ं॑सश्च । च दिशः॑ । दिशो॑ रु॒द्राः । रु॒द्रा वि॑तस्थि॒रे । वितस्थि॒र इति॑ वि-तस्थिरे । तेषाग्ं॑ सहस्रयोज॒ने । सहस्रयोज॒ने-ऽव॑ । अव॑ धन्वा॑नि । धन्वा॑नि तन्मसि । तन्म॒सीति॑ तन्मसि ॥",
+  "samhita_tokens": [
+    {
+      "text": "य",
+      "word_ids": [
+        117,
+        576,
+        442
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒ताव॑न्तश्च॒",
+      "word_ids": [
+        575,
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भूयाग्ं॑सश्च॒",
+      "word_ids": [
+        19,
+        576,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दिशो॑",
+      "word_ids": [
+        577
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रा",
+      "word_ids": [
+        119
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॑तस्थि॒रे",
+      "word_ids": [
+        578
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तेषाग्ं॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्रयोज॒ने-ऽव॒धन्वानि",
+      "word_ids": [
+        442,
+        443
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तन्मसि",
+      "word_ids": [
+        444
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒ताव॑न्तः",
+      "word_ids": [
+        575
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भूयाग्ं॑सः",
+      "word_ids": [
+        576
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दिशः॑",
+      "word_ids": [
+        577
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्राः",
+      "word_ids": [
+        119
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-त॑स्थि॒रे",
+      "word_ids": [
+        578
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तेषाम्",
+      "word_ids": [
+        441
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒हस्र॒-योज॒ने",
+      "word_ids": [
+        442
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अव॑",
+      "word_ids": [
+        124
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्वा॑नि",
+      "word_ids": [
+        443
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒न्म॒सि॒",
+      "word_ids": [
+        444
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "य",
+      "word_ids": [
+        117,
+        576,
+        442
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒ताव॑न्तः",
+      "word_ids": [
+        575
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒ताव॑न्तश्च",
+      "word_ids": [
+        575,
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भूयाग्ं॑सः",
+      "word_ids": [
+        576
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भूयाग्ं॑सश्च",
+      "word_ids": [
+        19,
+        576,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दिशः॑",
+      "word_ids": [
+        577
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दिशो॑",
+      "word_ids": [
+        577
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्राः",
+      "word_ids": [
+        119
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रा",
+      "word_ids": [
+        119
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॑तस्थि॒रे",
+      "word_ids": [
+        578
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वितस्थि॒र",
+      "word_ids": [
+        578
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-तस्थिरे",
+      "word_ids": [
+        578
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तेषाग्ं॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्रयोज॒ने",
+      "word_ids": [
+        442
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्रयोज॒ने-ऽव॑",
+      "word_ids": [
+        442
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अव॑",
+      "word_ids": [
+        124
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्वा॑नि",
+      "word_ids": [
+        443
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्वा॑नि",
+      "word_ids": [
+        443
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तन्मसि",
+      "word_ids": [
+        444
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तन्म॒सीति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तन्मसि",
+      "word_ids": [
+        444
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    117,
+    119,
+    124,
+    441,
+    442,
+    443,
+    444,
+    575,
+    576,
+    577,
+    578
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. E. A.] Rudradhyaya | 119\n\nThose who roam in the holy places (tirthani) like Kashi, Prayaga, etc., to protect them. What kind of Rudras? 'Srikavanta': 'Srika' is a sharp-pointed weapon like a knife held in the hand. Others are 'Nishangina', holding swords. (The rest as before). || 9 ||\n\nBhatta Bhaskara Bhashya: The ninth. Those Rudras who roam in the holy places to grant the fruit of pilgrimage to some and block others. Holding weapons (srikavanta) and swords (nishangina). (Grammatical notes). || 9 ||\n\n[Purashcharana for these two (8 and 9)]: Having performed a Kricchra penance, chant the mantra 5,000 times to complete the Purashcharana. On the day of intended conception (ritu-gamana), sacrifice 8,000 offerings of cow-milk mixed with ghee in the fire; then perform the act. A learned and lineage-continuing son will be born. For going to a great pilgrimage, sacrifice 10,000 offerings of pure rice smeared with ghee. If one cannot reach the pilgrimage, having bathed and come back, worship the fire and keep silence; he obtains the fruit of the pilgrimage. Meditation etc. as before.\n\nHe states the tenth Rik:\n\nThose Rudras who are so many, and even more, who have pervaded all directions... || 10 ||\n\nSayanacharya Bhashya: Those Rudras who are 'etavantah'—as many as mentioned in the previous Riks—and 'bhuyansah'—even more than that—who have pervaded (vitasthire) all directions. (The rest as before). Thus the ten Riks are stated. || 10 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "---\n१५६                    श्रीरुद्रभाष्यम् ।\n---\n\nपञ्चसहस्रजपातुरञ्चरणसिद्धिः । अन्यतस्सर्वेम् 'सहस्राणि\nसहस्रशः' इत्येकोक्तम् ॥\n\n    य ग्तावन्तश्च सूर्याꣳसश्च दिशो\nरुद्रा वितस्थिरे । तेषाꣳ सहस्रयोजनेऽव\nधन्वानि तन्मसि ॥\n\n    अथ दशमः— य एतावन्त इति । 'सहस्राणि सह-\nस्रशः' इत्यारभ्य यावन्तोऽमी रुद्रा उक्ताः एतावन्तश्च, इतो-\nऽपि सूर्यासः बहुतराः इयत्तामवीळ्य वर्तमानाः ये रुद्राः\nदिशो रुद्रा वितस्थिरे सर्वां दिशो व्याप्य स्थिताः, तेषां\nसहस्रयोजनेऽव धन्वानि तन्मसीति । अत्र ऋष्यादिकं\nपूर्ववत् ॥\n\n    नमो रुद्रेभ्यो ये पृथिव्यां येऽन्तरिक्षे\nये दिवि येषामन्नं वातो वर्षिमषवस्ते-\nभ्यो दश प्राचींदेश दक्षिणा दश प्रती-\nचींदेशोदीचींदेशोध्वाꣳस्तेभ्यो नमस्ते नो\nमृडयन्तु ते यं भिऋमो यञ्च नो देछि तं\nवो जन्मे द्धामि ॥\n\n    अथ 'नमो रुद्रेभ्यो ये पृथिव्यां' इत्यादिभिर्मन्त्रैः\nपृथिव्यन्तरिक्षुलोकास्थितान् रुद्राञ्मस्कृत्य स्वस्य सुखं क्षे-\nविषणां दु:खं च प्रार्थयते । अग्रेऽथं मन्त्रत्रयविभागः— 'नमो\nरुद्रेभ्यो ये पृथिव्यां येषामन्निषवः तेभ्यो दश प्राचींदे-\nश....द्धामि' इत्येको मन्त्रः । 'नमो रुद्रेभ्यो ये अन्तरिक्षे\nयेषां बात इषवः तेभ्यो दश प्राचींदेश....द्धामि' इति द्वि-\nतीयो मन्त्रः । 'नमो रुद्रेभ्यो ये दिवि येषां वर्षिमषवः\nतेभ्यो दश प्राचींदेश....द्धामि' इत्येको मन्त्रः । तत्र\nप्रथमखायसर्थः— नमो रुद्रेभ्यो अस्तु ये पृथिव्यां वर्त-\nन्ते, येषां च अन्नम् इषवः इषुस्तानीयं हिंसायाचवनम्;\nअपध्यानभक्षणम् अतिमात्राशनं च कारयित्वा तेन रोगा-\nतुल्तय काञ्चिद्धाघन्ते, काञ्चिद्धनविघातेन क्षुधमुल्तय पीड-\nयन्ति, काञ्चिद्धनार्थे चौर्यादि कारयित्वा वधाधिकं प्राणयन्ति;\nएवं पापिष्ठहिंसायाम् अञ्चम् निमित्तामिति तदेव एषामिषवः ।\nतेभ्यो रुद्रेभ्यो दश भाचीः प्राञ्जुखाखिलरूपा अञ्जुलीः\nकरोमि । प्राञ्जुखत्वेन अञ्जलीकरणे हि दशाञ्जुलयः प्रागभा-\nभवन्ति । एवं दक्षिणाभुभ्वान्तेषु दृष्टव्याः । ईदशाखिलोरू-\nपाञ्जुल्युपलाखिताञ्जमस्कारान्करोमील्यर्थः । अनेन कायकन-\nमस्कारो दर्शितः, तेभ्यो नम इति मानसः, नमो रुद्रेभ्यो",
+      "english": "---\n156                    Sri Rudra Bhashyam\n---\n\n— the \"namaḥ\" (salutation) at the beginning of the mantra is the verbal salutation (vācika). Thus we who bow with all three faculties (body, mind, and speech) — that which we hate (yaṃ dviṣmaḥ) and that which hates us (yaś ca no dveṣṭi) — that enemy, who embodies our sinful deeds and their fruits and the instruments thereof — O Rudras, into your open mouth (jaghme, the open jaws) we place (dadhāmi) him — meaning: destroy him. The same connection applies to the second and third mantras. The Rudras who dwell in the atmosphere (antarikṣe) — whose arrows are wind (vāta, their arrow being a weapon of affliction): they afflict sinners by producing various diseases through wind-disorders, and through generating violent storms and the like — this is the meaning. The Rudras who dwell in the heavens (divi) — whose arrows are rain (varṣima, rain-related) — by excessive rainfall, drought, and the like they afflict sinners — the rest is to be understood everywhere as it pleases. The entire collection of yajus (Yajurvedic verses) beginning with \"namo rudrabhyaḥ\" forms a single mantra. Here the deity and seer are both Rudra. The meditation verse is the same as what was stated under \"sahasrāṇi sahasraśaḥ\" — that is to be used here as well. This mantra is primarily for warding off evil influences and harmful acts (añcamasya-di-prada). The method of puraścaraṇa (ritual practice for mantra-perfection), the variations in the results such as neutralizing hostile acts (kṛtyotpādana), pacification (śānti), subjugation (stambhana), and the like — these are to be found elaborated in the Rudra-Kalpa and other texts.\n\n    tryambakaṃ yajāmahe sugandhinṃ puṣṭi-vardhe-\n    nam | urvārukam iva bandhanān mṛtyor mukṣīya\n    mā 'mṛtāt | yo rudro agnau yo apsu ya\n    oṣadhīṣu yo rudro viśvā bhuvanā viveśa\n    tasmai rudrāya namo astu | tasmai stuhi yaḥ khi-"
+    }
+  }
+}

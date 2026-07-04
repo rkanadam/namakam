@@ -1,0 +1,222 @@
+{
+  "id": 3,
+  "words": [
+    144,
+    148,
+    206,
+    208,
+    209
+  ],
+  "samhita": "नमो॑ निष॒ङ्गिण॑ इषुधि॒मते॒ तस्क॑राणा॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमो॑ । नि॒-ष॒ङ्गिणे᳚ । इ॒षु॒धि-म॑ते । तस्क॑राणाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नमो॑ निष॒ङ्गिण॑ । निष॒ङ्गिण॑ इषुधि॒मते॑ । इषुधि॒मते॒ तस्क॑राणाम् । तस्क॑राणां॒ पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निष॒ङ्गिण॑",
+      "word_ids": [
+        206
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इषुधि॒मते॒",
+      "word_ids": [
+        208
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तस्क॑राणा॒",
+      "word_ids": [
+        209
+      ]
+    },
+    {
+      "text": "-",
+      "word_ids": []
+    },
+    {
+      "text": "म्पत॑ये॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नि॒-ष॒ङ्गिणे᳚",
+      "word_ids": [
+        206
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इ॒षु॒धि-म॑ते",
+      "word_ids": [
+        208
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तस्क॑राणाम्",
+      "word_ids": [
+        209
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ निष॒ङ्गिण॑",
+      "word_ids": [
+        144,
+        206
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "निष॒ङ्गिण॑ इषुधि॒मते॑",
+      "word_ids": [
+        206,
+        208
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इषुधि॒मते॒ तस्क॑राणाम्",
+      "word_ids": [
+        208,
+        209
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तस्क॑राणां॒ पत॑ये",
+      "word_ids": [
+        209,
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒ नमो॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | nishangine | ishudhimate | iti | ishu-dhi-mate | taskaranam | pataye | namah || 3 ||\n\nSayana's Commentary: 'Nishanga' is an arrow held in the hand to be placed on the bow. 'Ishudhi' is the container of arrows bound on the back. Salutation to him who has both. 'Taskarah' are manifest (open) thieves; salutation to their protector. (3)\n\nBhatta-Bhaskara-Bhashya: 'Namo nishangine'—to the one having constant attachment (sakti) to his devotees. 'Ishudhimate'—'nishanga' and 'ishudhi' have been explained; to him who has both. The word 'nishangi' is mentioned again to establish the possession of both. Or: 'nishanga' is extreme attachment. Carrying the desire for theft and the quiver. 'Taskaranam pataye namah'—those who reside in forests etc. and steal openly, like those who rob caravans, etc., are 'taskaras'. [Grammatical note on 'taskara']. (3)\n..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n८८                    श्रीरुद्रभाष्यम् ।\n---\n\nस्यापरिहार्यत्वादिल्याशङ्कथ, भक्तापराधसह्नस्वभावे भगवति\nनेयं शङ्केत्याह— सहमानायेति । इति प्रथमः ॥\n\nनमः ककुभाय निषङ्गिणे स्तेनानां पत-\nये नमः ॥\n\nअथ द्वितीयः— नमः ककुभायेति । ककुभाय महते,\nनिषङ्गिणे खड्गवते, स्तेनानां गुप्तचोराणां स्वामिने नमः ।\nअत्र ककुभशब्दवाच्यमहत्त्वस्य प्रतियोग्याकाङ्कायाम्, स्व-\nवाक्योपात्तस्तेनानासमेव तत्प्रतियोगित्वेलसान्वयः; तथा च स्ते-\nनेषु महत्त्वं स्वेनस्वामित्वे हेतुः ककुभाय इत्यनेन चोच्यते ।\nनिषङ्गिणे इत्यनेन स्तेनकियापेक्षितोपकरणसंपत्तिः प्रदर्श्य-\nते । इति द्वितीयः ॥\n\nनमो निषङ्गिण इषुधिमते तस्कराणां\nपतये नमः ॥\n\nअथ तृतीयः— नमो निषङ्गिण इति । धनुषि संबाहुं\nहस्ते धृतो बाणः निषङ्गः, पृष्ठे बद्धो वाणाधारः इषुधिः,\nतदुभययुक्ताय; तस्कराणां प्रकाशचोराणां स्वामिते नमः ।\nअत्र तस्कराधिपत्सानुगुणरूपप्रदर्शनार्थत्वेन विशेषणं संगय-\nयितव्ये । इति तृतीयः ॥",
+      "english": "---\n                    Sri Rudra Bhashyam                    88\n---\n\n[Mantra 4:]\nObeisance to the one who deceives, to the one who thoroughly deceives, to the Lord of sneaky pilferers (stayus) — obeisance.\n\nNow the fourth [commentary]: — \"Namo vanchata\" (Obeisance to the deceiver). Those who, while being considered as one's own people, having gained the trust of others, steal their goods — they are the stayavah (sneaky pilferers); obeisance to their Lord. In order to establish the Lord's lordship over sneaky pilferers, the two qualifying epithets \"vanchate\" (deceiver) and \"parivanchate\" (thorough deceiver) are given: one who, while appearing as a trustworthy person in others' affairs and in transactions of buying and selling of goods belonging to others, steals something here and there — he is called a \"vanchashrita\" (partial deceiver); one who commits deception in all transactions is called a \"parivanchashrita\" (complete deceiver); [the Lord appears in] such forms — this is the meaning. Thus ends the fourth.\n\n[Mantra 5:]\nObeisance to the one who roams quietly, to the one who roams on all sides, to the Lord of forest-dwellers (aranyanas) — obeisance.\n\nNow the fifth [commentary]: — \"Namo nicerava\" (Obeisance to the quiet roamer). Those who live in forests are the aranyavasi (forest-dwellers), and of these aranyanahs, obeisance to their Lord — this is what is being established. [The text] supports this very point with: \"Namo nicerave paricara\" — one who by nature roams quietly (nicerava) [in forests], surpassing [in stealth] even the forest-dwelling thieves; and \"paricara\" — one who roams in all directions to steal [more than them]; the idea being that since He is supreme among them by virtue of being a more skilled roamer than even those [forest thieves], it is fitting that He be their lord. Thus ends the fifth."
+    }
+  }
+}

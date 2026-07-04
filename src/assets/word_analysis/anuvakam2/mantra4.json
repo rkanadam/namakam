@@ -1,0 +1,253 @@
+{
+  "anuvakam": 2,
+  "title": "द्वितीयोनुवाकः",
+  "id": 4,
+  "samhita": "नमो॑ बभ्लु॒शाय॑ विव्या॒धिने-ऽन्ना॑ना॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमो॑ । ब॒भ्लु॒शाय॑ । वि॒-व्या॒धिने᳚ । अन्ना॑नाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नमो॑ बभ्लु॒शाय॑ । बभ्लु॒शाय॑ विव्या॒धिने᳚ । विव्या॒धिने-ऽन्ना॑नाम् । अन्ना॑ना॒-म्पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "text": "",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva's universal form (Vaishvarupya).",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on the golden-armed Lord.",
+      "text": "",
+      "sanskrit": ""
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बभ्लु॒शाय॑",
+      "word_ids": [
+        167
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विव्या॒धिने-ऽन्ना॑ना॒-म्पत॑ये॒",
+      "word_ids": [
+        168,
+        169,
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ब॒भ्लु॒शाय॑",
+      "word_ids": [
+        167
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒-व्या॒धिने᳚",
+      "word_ids": [
+        168,
+        169
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ना॑नाम्",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बभ्लु॒शाय॑",
+      "word_ids": [
+        167
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बभ्लु॒शाय॑",
+      "word_ids": [
+        167
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विव्या॒धिने᳚",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "विव्या॒धिने-ऽन्ना॑नाम्",
+      "word_ids": [
+        144,
+        169
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ना॑ना॒-म्पत॑ये",
+      "word_ids": [
+        169,
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        169
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        169
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        169
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    144,
+    148,
+    167,
+    168,
+    169
+  ]
+}

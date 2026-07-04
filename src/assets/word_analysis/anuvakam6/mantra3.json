@@ -1,0 +1,190 @@
+{
+  "id": 3,
+  "samhita": "नमो॑ मध्य॒माय॑ चापग॒ल्भाय॑ च॒",
+  "pada": "नमो॑ । म॒ध्य॒माय॑ । च॒ । अ॒प॒-ग॒ल्भाय॑ । च॒ ॥",
+  "krama": "नमो॑ मध्य॒माय॑ । मध्य॒माय॑ च । चापग॒ल्भाय॑ । अ॒पग॒ल्भाय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मध्य॒माय॑",
+      "word_ids": [
+        304
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चापग॒ल्भाय॑",
+      "word_ids": [
+        19,
+        305
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒ध्य॒माय॑",
+      "word_ids": [
+        304
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒प॒-ग॒ल्भाय॑",
+      "word_ids": [
+        305
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ मध्य॒माय॑",
+      "word_ids": [
+        144,
+        304
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मध्य॒माय॑ च",
+      "word_ids": [
+        304,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चापग॒ल्भाय॑",
+      "word_ids": [
+        19,
+        305
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒पग॒ल्भाय॑ च",
+      "word_ids": [
+        305,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    304,
+    305
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "षष्ठोऽनुवाकः ॥\n\n                         ———\n\n      नमो ज्येष्ठाय च कनिष्ठाय च नमः\n      पूर्वजाय चापरजाय च नमो मध्यमाय\n      चापगल्भाय च नमो जघन्याय च बुध्ि-\n      याय च नमः सोभ्याय च प्रतिसर्याय\n      च नमो याम्याय च क्षेमन्याय च नम-\n      उर्वर्याय च खल्याय च नमः श्रोकयाय\n      चावसान्याय च नमो वन्याय च कक्ष्याय\n      च नमः श्रवाय च प्रतिश्रवाय च नम\n      आशुषेणाय चाशुरथाय च नमः शूराय\n      चाविभिन्दते च नमो धर्मिणे च वर्रूथिने\n      च नमो बिल्मिने च कवचिने च नमः\n      श्रुताय च श्रुतसेनाय च ॥\n\n      पञ्चमे विविधमहिह्मोपेतत्वेन भगवान्नमस्कृतः, षष्ठे तु\nसर्वात्मकत्वसर्वान्तयोमित्वाभ्यां नमस्किर्यते—— नमो ज्येष्ठे-",
+      "english": "Sixth Anuvāka (ṣaṣṭho'nuvākaḥ)\n\n                         ———\n\n      Homage to Jyeṣṭha and to Kaniṣṭha; homage\n      to Pūrvaja and to Aparaja; homage to Madhyama\n      and to Apagalbha; homage to Jaghanya and to Budhnya;\n      homage to Sobhya and to Pratisarya;\n      homage to Yāmya and to Kṣemya; homage\n      to Urvaryā and to Khalya; homage to Śrokya\n      and to Avasānya; homage to Vanya and to Kakṣya;\n      homage to Śrava and to Pratiśrava; homage\n      to Āśuṣeṇa and to Āśuratha; homage to Śūra\n      and to Avabhindat; homage to Dharmiṇe and to Varūthine;\n      homage to Bilmine and to Kavacine; homage\n      to Śruta and to Śrutasena.\n\n      In the fifth anuvāka, the Lord was saluted as the possessor of diverse glories; in the sixth, He is saluted by virtue of His being the Soul of all (sarvātmakatva) and His inner presence in all things (sarvāntaryāmitva) — \"Namo jyeṣṭhā-"
+    }
+  }
+}

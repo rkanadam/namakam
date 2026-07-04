@@ -1,0 +1,224 @@
+{
+  "id": 4,
+  "words": [
+    144,
+    148,
+    210,
+    211,
+    212
+  ],
+  "samhita": "नमो॒ वञ्च॑ते परि॒वञ्च॑ते स्तायू॒ना-म्पत॑ये॒ नमो॒",
+  "pada": "नमो॒ । वञ्च॑ते । प॒रि॒-वञ्च॑ते । स्ता॒यू॒नाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नमो॒ वञ्च॑ते । वञ्च॑ते परिवञ्च॑ते । परि॒वञ्च॑ते स्तायू॒नाम् । स्तायू॒नां॒ पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वञ्च॑ते",
+      "word_ids": [
+        210
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॒वञ्च॑ते",
+      "word_ids": [
+        211
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स्तायू॒ना",
+      "word_ids": [
+        212
+      ]
+    },
+    {
+      "text": "-",
+      "word_ids": []
+    },
+    {
+      "text": "म्पत॑ये॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वञ्च॑ते",
+      "word_ids": [
+        210
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒रि॒-वञ्च॑ते",
+      "word_ids": [
+        211
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स्ता॒यू॒नाम्",
+      "word_ids": [
+        212
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॒ वञ्च॑ते",
+      "word_ids": [
+        144,
+        210,
+        211
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वञ्च॑ते परिवञ्च॑ते",
+      "word_ids": [
+        210,
+        211
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॒वञ्च॑ते स्तायू॒नाम्",
+      "word_ids": [
+        210,
+        211,
+        212
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स्तायू॒नां॒ पत॑ये",
+      "word_ids": [
+        211,
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒ नमो॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | vanchate | pari-vanchate | stayunam | pataye | namah || 4 ||\n\nSayana's Commentary: Having become a trusted person of the Master, and in his dealings like buying and selling, stealing some wealth whenever possible—this is 'vanchana' (cheating). Deception in all dealings is 'parivanchana'. Salutation to the one in both those forms. Secret thieves are of two types: those who come from a distance and steal wealth by opening doors at night without being known are 'stenas'; those who are known to the owner (insiders) and steal either at night or by day are 'stayavah' (stayus). Salutation to the protector of those 'stayus'. (4)\n\nBhatta-Bhaskara-Bhashya: 'Namo vanchate'—to the one whose nature is to deceive or cheat. 'Parivanchate'—to him who goes everywhere deceiving and is not obstructed by anyone. 'Stayunam pataye namah'—'stayus' are those who walk in disguise and steal wealth, such as those in the guise of false holy men. As seen in: \"He gave it to him and not to the thief (taya).\" [Grammatical note on the word 'stayu'].\n\nHe speaks the fifth Yajus:\nSalutation to the one who moves about secretly, to the one who moves about in public, salutation to the lord of forest-thieves."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n                    श्रीरुद्रभाष्यम् ।                    ८९\n---\n\nनमो वञ्चते परिवञ्चते स्तायूनां पतये\nनमः ॥\n\nअथ चतुर्थः— नमो वञ्चत इति । ये स्वकीया एव\nभूत्वा अन्येर्ज्ञाताः सन्तः द्रव्यमपहरन्ति, ते स्तायवः,\nतेषां स्वामिने नमः । देवस्य स्तायुस्वामित्वमुपापादितुं\nवञ्चते परिवञ्चत इति विशेषणे; स्वामिन भाष्ये भूत्वा\nतद्दीयद्रव्यक्रयविक्रयादिव्यवहारेषु यत्र कुत्रापि यत्किञ्चित्-\nनापहारी वञ्चश्रितेत्युच्यते, सर्वेष्वपि व्यवहारेषु अपह्नव-\nकृत् परिवञ्चश्रितेत्युच्यते, तदरूपायेत्यर्थः । इति चतुर्थः ॥\n\nनमो  निचेरवे  परिचरायारण्यानां\nपतये नमः ॥\n\nअथ पञ्चमः— नमो निचेरव इति । अरण्येषु वर्तमा-\nनात्मोरा आरण्याः, तेषां स्वामिने नमः; एतदेवोपापाव-\nशति— नमो निचेरवे परिचरायेति । आरण्यकचोरा-\nपेक्षायाप्यपहारविषये नितरां संचरणशीलो निचेरुः, एवं\nतदपेक्षया परितोऽपहरितुं संचरणशीलः परिचरः, ताद्श-\nत्य तेषु श्रेष्ठत्वातत्तस्वामित्वं युक्तमिति भावः । इति\nपञ्चमः ॥",
+      "english": "---\n90                    Sri Rudra Bhashyam\n---\n\n[Mantra 6:]\nObeisance to those who protect themselves with a srkava (a mechanical device), to those who desire to kill, to the Lord of grain-thieves (sushnatam) — obeisance.\n\nNow the sixth [commentary]: — \"Namah srkavibhya\" (Obeisance to those with the srkava). \"Srkavinah\" means those who protect themselves with a mechanical device called srkava; \"jighamsamtah\" means those who desire to kill living beings; obeisance to the one of both these forms; \"sushnatam\" means the Lord of grain-thieves who steal grain from fields (kedara) and the like — obeisance. Here also the two qualifying epithets [serve to establish the reason for lordship over grain-thieves]: the lordship of a [person over] grain-thieves at a certain time belongs to one who is both skilled in protecting grain and who desires to oppose [thieves]. The plural [form] is Vedic usage (chandasa); otherwise there would be no [grammatical] relation between the qualifying words and what they qualify. The same applies to the next mantra also. Thus ends the sixth.\n\n[Mantra 7:]\nObeisance to those with swords, to the night-wanderers, to the Lord of predatory thieves (prakuntanah) — obeisance.\n\nNow the seventh [commentary]: — \"Namo'simanjya\" (Obeisance to the sword-bearers). \"Asimantas\" means sword-bearers (those carrying swords); \"naktamcharantah\" means night-wanderers (those who roam at night) — night-robbers; obeisance to such a form. \"Prakuntah\" means thieves who steal while [fleeing] — obeisance to their Lord. Here the two qualifying epithets [are given] to show the form appropriate to lordship over predatory thieves. Thus ends the seventh.\n\n[Mantra 8:]\nObeisance to the turban-wearer (ushnishthin), to the mountain-roamer, to the Lord of land-thieves (kulunjchas) — obeisance."
+    }
+  }
+}

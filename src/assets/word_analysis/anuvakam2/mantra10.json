@@ -1,0 +1,271 @@
+{
+  "anuvakam": 2,
+  "title": "द्वितीयोनुवाकः",
+  "id": 10,
+  "samhita": "नमो॑ म॒न्त्रिणे॑ वाणि॒जाय॒ कक्षा॑णा॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमो॑ । म॒न्त्रिणे॑ । वा॒णि॒जाय॑ । कक्षा॑णाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नमो॑ म॒न्त्रिणे॑ । म॒न्त्रिणे॑ वाणि॒जाय॑ । वाणि॒जाय॒ कक्षा॑णाम् । कक्षा॑णा॒-म्पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "text": "'Mantri' is one skilled in deliberation/counsel (mantra-alochana) in the royal assembly. He is 'vanijah' as he exists in the form of the master of merchants. Salutation be to that Rudra. To the protector of thickets (kaksha), which are bushes etc. found in the forest. (10)\n\nBhatta-Bhaskara-Bhashya: 'Namo mantrine'—possessing the 'mantras' which are the five Brahmans. Or: 'mantra' is secret speech...\n...",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva's universal form (Vaishvarupya).",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on the golden-armed Lord.",
+      "text": "---\n82                    Sri Rudra Bhashyam\n---\n\n[Mantra 9:]\nObeisance to Rohita (the red-colored one), to the Sthapati (the lord-who-stands), to the Lord of trees — obeisance.\n\nNow the ninth [commentary]: — \"Namo rohitaya\" (Obeisance to Rohita). \"Rohita\" means the one of red (lohita) color; \"sthapati\" means the lord who both stands (sthata) and protects (pata) — [this is] a word of the prshodaradi class (a grammatical class of irregularly formed words). Obeisance to such a one who is the Lord and master of trees — this is the meaning. Here the word \"sthapati\" conveys the reason for His lordship over trees: it is fitting that He who dwells within trees and protects them should be their lord. The word \"rohita\" (red) befits the Supreme Lord as the presiding deity of trees, for it will be stated later: \"They who in trees are yellow-green, blue-necked, and deep red.\" Thus ends the ninth.\n\n[Mantra 10:]\nObeisance to the wise counsellor (mantrin), to the merchant (vanija), to the Lord of thickets — obeisance.\n\nNow the tenth [commentary]: — \"Mantrine\" (to the wise counsellor). The dense growths of forest-shrubs and the like are called \"kakshas\" (thickets); obeisance to their Lord — this is the primary meaning. But [one might object]: How can the Lord exercise sovereignty over what is exceedingly dense and impenetrable? Addressing this doubt about the impenetrability [of thickets], the text specifies with the word \"vanijaya\" (to the merchant): A body of merchants is called \"vanija\"; just as a merchant comprehends and makes clear all the dealings of a country, so too this [Lord] comprehends all things — nothing is impenetrable to Him — such is the intent. Another reason for His lordship over thickets is given",
+      "sanskrit": "---\n८२                    श्रीरुद्रभाष्यम् ।\n---\n\nनमो रोहिताय स्थपतये वृक्षाणां पतये\nनमः ॥\n\nअथ नवमः— नमो रोहितायेति । लोहितवर्णो रो-\nहितः, स्थाता चाक्षो पाता चेति स्थपतिः, पृषोदरादिः;\nएवंभूताय वृक्षाणां पतये स्वामिने नमः इत्यर्थः । अत्र\nस्थपतिशब्देन वृक्षस्वामित्वे हेतुरुच्यते, वृक्षेषु स्थित्वा\nवृक्षान्पालयतस्तत्स्वामित्वौचित्यात् । रोहितशब्देन वृक्षाधि-\nष्ठातुः परमेश्वरस्य स्वरूपयुक्तं भवति, 'ये वृक्षेषु सस्पिञ्जरा\nनीलाग्रीवा विलोहिताः' इति हि वक्ष्यते । इति नवमः ॥\n\nनमो मन्त्रिणे वाणिजाय कक्षाणां प-\nतये नमः ॥\n\nअथ दशमः— मन्त्रिण इति । वनगुल्मादयोऽतिगहन-\nपदार्थाः कक्षाः तेषां स्वामी कक्षाणां पतिः, तस्मै नमः इति\nप्रथममन्वयः; नतु अतिगहनेषु कथमीश्वरस्याधिपत्यं स्या-\nत्? दुरवगाह्त्वादित्याशङ्कय विशिनष्टि— वाणिजायेति।\nवणिजां समूहो वाणिजः, यथा वणिक् सर्वजनपद्व्यवहारा-\nन्परिच्छिद्य विशदीकरोति, तथा अयमपि सकलवस्तुजाव-\nमिति, नास्य किञ्चिदुरवगाहमस्तीति भावः । केषुवि-"
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        149
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒न्त्रिणे॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वाणि॒जाय॒",
+      "word_ids": [
+        150
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कक्षा॑णा॒-म्पत॑ये॒",
+      "word_ids": [
+        151,
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        149
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒न्त्रिणे॑",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वा॒णि॒जाय॑",
+      "word_ids": [
+        150
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कक्षा॑णाम्",
+      "word_ids": [
+        151
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        149
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒न्त्रिणे॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒न्त्रिणे॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वाणि॒जाय॑",
+      "word_ids": [
+        150
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वाणि॒जाय॒",
+      "word_ids": [
+        150
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कक्षा॑णाम्",
+      "word_ids": [
+        149
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कक्षा॑णा॒-म्पत॑ये",
+      "word_ids": [
+        149,
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    144,
+    148,
+    149,
+    150,
+    151
+  ]
+}

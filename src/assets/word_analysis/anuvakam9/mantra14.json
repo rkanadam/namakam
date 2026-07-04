@@ -1,0 +1,279 @@
+{
+  "id": 14,
+  "samhita": "नम॑ आख्खिद॒ते च॑ प्रख्खिद॒ते च॒",
+  "pada": "नमः॑ । आ-ख्खि॒द॒ते । च॒ । प्र-ख्खि॒द॒ते । च॒ ॥",
+  "krama": "नम॑ आख्खिद॒ते । आख्खिद॒ते च । च प्रख्खिद॒ते । प्रख्खिद॒ते च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आख्खिद॒ते",
+      "word_ids": [
+        386
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॑",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रख्खिद॒ते",
+      "word_ids": [
+        387
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19,
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ-ख्खि॒द॒ते",
+      "word_ids": [
+        386
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र-ख्खि॒द॒ते",
+      "word_ids": [
+        387
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आख्खिद॒ते",
+      "word_ids": [
+        386
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आख्खिद॒ते",
+      "word_ids": [
+        386
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रख्खिद॒ते",
+      "word_ids": [
+        387
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रख्खिद॒ते",
+      "word_ids": [
+        387
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    386,
+    387
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

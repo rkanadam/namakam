@@ -1,0 +1,182 @@
+{
+  "id": 13,
+  "samhita": "नमः॑ पा॒र्या॑य चावा॒र्या॑य च॒",
+  "pada": "नमः॑ । पा॒र्या॑य । च॒ । अ॒वा॒र्या॑य । च॒ ॥",
+  "krama": "नमः॑ पा॒र्या॑य । पा॒र्या॑य च । चावा॒र्या॑य । अवा॒र्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पा॒र्या॑य",
+      "word_ids": [
+        354
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चावा॒र्या॑य",
+      "word_ids": [
+        19,
+        355
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पा॒र्या॑य",
+      "word_ids": [
+        354
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒वा॒र्या॑य",
+      "word_ids": [
+        355
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ पा॒र्या॑य",
+      "word_ids": [
+        1,
+        354
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पा॒र्या॑य च",
+      "word_ids": [
+        354,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चावा॒र्या॑य",
+      "word_ids": [
+        19,
+        355
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अवा॒र्या॑य च",
+      "word_ids": [
+        355,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    354,
+    355
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Paryah'—he who exists on the far shore (para-tire) of the ocean of worldly existence (Samsara), as the object of meditation for those seeking liberation. 'Avaryah'—he who exists on the near shore (avara-tire), in the midst of Samsara, as the granter of desired fruits. (13)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah paryaya cha'—to him existing on the far shore (para-tire) of rivers etc. [Grammatical note]. 'Avaryaya cha'—to him existing on the near shore (avara-tire). Someone says: \"Tirthas and the like are with respect to Samsara.\" Tirthas are the holy assemblies (samavayas) like the Shaivas etc.; he exists in those. Staying there, he graces the world. To him existing on the banks, during times (of transition) etc. The far shore (para) is pure; the near shore (avara) is impure. (13)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

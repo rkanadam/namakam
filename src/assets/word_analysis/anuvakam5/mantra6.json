@@ -1,0 +1,199 @@
+{
+  "id": 6,
+  "samhita": "नमो॑ गिरि॒शाय॑ च शिपिवि॒ष्टाय॑ च॒",
+  "pada": "नमो॑ । गि॒रि॒-शाय॑ । च॒ । शि॒पि॒-वि॒ष्टाय॑ । च॒ ॥",
+  "krama": "नमो॑ गिरि॒शाय॑ । गिरि॒शाय॑ च । च शिपिवि॒ष्टाय॑ । शिपिवि॒ष्टाय च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गिरि॒शाय॑",
+      "word_ids": [
+        280
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शिपिवि॒ष्टाय॑",
+      "word_ids": [
+        281
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गि॒रि॒-शाय॑",
+      "word_ids": [
+        280
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒पि॒-वि॒ष्टाय॑",
+      "word_ids": [
+        281
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ गिरि॒शाय॑",
+      "word_ids": [
+        144,
+        280
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गिरि॒शाय॑ च",
+      "word_ids": [
+        280,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च शिपिवि॒ष्टाय॑",
+      "word_ids": [
+        19,
+        281
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शिपिवि॒ष्टाय च",
+      "word_ids": [
+        281,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    280,
+    281
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Girishah' is he who resides (shete) on the mountain Kailasa. 'Shipivishtah' is he who wears the form of Vishnu; for the Shruti says, \"Vishnu is indeed Shipivishta.\""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "'Namo girishaya cha'—already explained. 'Shipivishtaya cha'—to him who has cast off the remainder (nirveshtita-sheshaya), always in places like Deodar forests. Or: to the one who is the self of the Sun. As stated in the Skanda Purana:\n\"Water is called 'shiti' because of coldness or its connection with resting (shayana). Because of drinking or protecting that, rays (rashmayah) are known as 'shipayah'. The Sun who has entered into them is then called 'Shipivishta'.\"\nOr: 'shipayah' means cattle. For the Shruti says: \"Sacrifice is indeed Vishnu, cattle are 'shipi'.\" The meaning is: to him who has entered into all beings as the Inner Ruler (Antaryami). (6)\n\nSalutation to the most bountiful and to the one with arrows."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "धन्वा, 'स तथोक्ततथेत्युक्त्वा विष्णुं कृत्वा शरोत्तमम् ।\nशाल्यमत्रं तथा कृत्वा धनुर्मेहमकारयत् ॥ कृत्वा च धनुरो-\nकारं साविरी ज्यां महेश्वरः' इत्यादिभारतोक्तवेद्मणवमेरु-\nपिनाकाद्यनेकधनुर्युक्तायेत्यर्थे। अनेन 'तेषामसुराणां त्रिः\nपुर आसन्' इति श्रुतिप्रसिद्धत्रिपुरसंहारमहिह्मा दर्शितः ॥\n\n      नमो गिरिशाय च शिपिविष्टाय च\n            नमो मीढुष्टमाय चेषुमते च ॥\n\n      अथ द्वाभ्यां त्रिमूर्त्यात्मकत्वम्, विश्वाधिकत्वं च दर्शयति\n— नमो गिरिशायेति । गिरिः कैलाशः, सोऽस्यास्तीति\nगिरिशः, लोमादित्वान्मत्वर्थीयः शः, तद्रूपाय इत्यर्थे ।\nशिपिविष्टः विष्णुः, 'विष्णुः शिपिविष्टः' इति श्रुवेः;\nविष्णुरूपायेत्यर्थे। मीढुष्टमः अतिशयेन वीर्येणेषच्छकः जग-\nत्वष्टा हिरण्यगर्भः, तद्रूपायेत्यर्थे। अनेन 'स ब्रह्मा च\nहरिः सेन्द्रः सोऽक्षरः परमः खरात्' इत्यादिश्रुतिप्रसिद्धत्रि-\nमूर्त्यात्मकत्वमुक्तं भवति। प्रशस्तः इषुरस्यास्तीति इषुपान्,\nप्रशंसायां मतुप् ; प्राशस्त्यं च इषोः 'स इषुक् समस्कु-\nवेताभिप्रमनीक^ सोमं^ शल्यं विष्णुं तेजनम्' इत्यादिश्रु-\nत्युक्तं द्रष्टव्यम् । तेन च सर्वदेवानामपि त्रिपुरसंहारीयं भ-",
+      "english": "dhānvan (the hundred-bowed one). As the Mahābhārata describes: \"Having said 'so be it' to Viṣṇu and made Him the supreme arrow, having fashioned the salt-mountain (śālya) as the arrowhead, the Great Lord crafted the bow of the syllable Om; and the Great God made the Gāyatrī as the bowstring\" — indicating the Lord who is equipped with many bows such as the cosmic Meru, Pināka, and others. Through this name, the glory of the destruction of the Triple Cities (tripura-saṃhāra) is indicated, well-attested in the Śruti: \"There were three cities of those demons.\"\n\n      Homage to Giriśa and to Śipiviṣṭa;\n      homage to Mīḍhuṣṭama and to Iṣumat.\n\n      Now with two [mantras], the commentator shows the Lord's nature as the Trinity (trimūrti) and His supremacy over the universe. \"Namo giriśāya\" — the mountain (giri) is Kailāsa; he who possesses it [as his abode] is Giriśa, with the suffix śa in the sense of \"possessing\" in the class of derivatives known as lomādi (a Pāṇinian class); the meaning is: \"to Him who is of that form [i.e., the one who dwells on Kailāsa].\" Śipiviṣṭa is Viṣṇu — \"Viṣṇu is Śipiviṣṭa,\" says the Śruti — meaning: \"to Him in the form of Viṣṇu.\" Mīḍhuṣṭama is Hiraṇyagarbha, the creator of the universe, who is supreme in virility (vīrya) and is possessed of a slightly lesser degree of that power; the meaning is: \"to Him in the form of Hiraṇyagarbha.\" Through this, the nature of the Lord as the Trinity — \"He is Brahmā, He is Hari, He is Indra, He is the Imperishable Supreme\" — as declared by the Śruti, is affirmed.\n\n      He who possesses excellent arrows (iṣavaḥ) is Iṣumat (the arrow-possessor), with the suffix matuP in the sense of distinction (praśaṃsā); and the excellence of the arrow is stated in the Śruti: \"That arrow he fashioned, aimed it at the demons, Soma as the shaft, Viṣṇu as the point\" — and so forth. Through this, the participation of all the gods themselves as accessories in the Lord's campaign of Tripura-destruction is acknowledged, and thereby"
+    }
+  }
+}

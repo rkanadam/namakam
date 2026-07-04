@@ -1,0 +1,203 @@
+{
+  "id": 15,
+  "samhita": "नमः॑ श्रु॒ताय॑ च श्रुतसे॒नाय॑ च ॥",
+  "pada": "नमः॑ । श्रु॒ताय॑ । च॒ । श्रु॒त-से॒नाय॑ । च॒ ॥",
+  "krama": "नमः॑ श्रु॒ताय॑ । श्रु॒ताय॑ च । च श्रुतसे॒नाय॑ । श्रुतसे॒नाय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श्रु॒ताय॑",
+      "word_ids": [
+        300
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श्रुतसे॒नाय॑",
+      "word_ids": [
+        301
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्रु॒ताय॑",
+      "word_ids": [
+        300
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्रु॒त-से॒नाय॑",
+      "word_ids": [
+        301
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ श्रु॒ताय॑",
+      "word_ids": [
+        1,
+        300
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्रु॒ताय॑ च",
+      "word_ids": [
+        300,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च श्रुतसे॒नाय॑",
+      "word_ids": [
+        19,
+        301
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्रुतसे॒नाय॑ च",
+      "word_ids": [
+        301,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    300,
+    301
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Shrutah'—renowned in the Vedas. 'Shrutasenah'—one whose army (sena) is famous among the panegyrists. (15)\n\n|| Thus in the Vedartha-prakasha, the commentary on the Yajur-samhita composed by Sayanacharya-Madhava, in the fourth Kanda, fifth Prapathaka, the commentary on the Sri Rudram, ends the Sixth Anuvaka. ||"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "",
+      "english": "'Namah shrutaya cha'—to the renowned, or to him famous in the Shrutis (Vedas). As it is said: \"You are the Overlord of the universe, the Presider over the universe, the Form of the universe.\" The idea is that the Shrutis alone are the authority for this. 'Shrutasenaya cha'—to him with a famous army, or an army famous in the Shrutis. Those weapons of yours that were mentioned, like arrows etc., are also famous in the Shrutis. [Grammatical note].\n\nNow for the Purashcharana of these two anuvakas (5th and 6th): having eaten charu for three nights, one should chant continuously thereafter. Within eleven days, one becomes a perfected practitioner. Then the specific rituals are told: for royal prosperity (rajya-shri), one should throw white lotuses on top of the Linga for each salutation eleven times for a month. Prosperity will be obtained. One should feed eleven Brahmins in the presence of the God Dakshinamurti. On the King's birthday, one should offer twenty-one thousand Ashvattha sticks soaked in ghee into the King's fire or a churned fire. Eleven thousand for each of the two (anuvakas). When this is done, the King's victory and longevity increase. For the sake of victory, one should chant a hundred thousand (lakh) times month after month. With these two, when war is near, having offered eleven times for each salutation cooked food from the King's kitchen along with side dishes, curd, honey, and ghee, one should place the remainder on the ground, take it back mixed with water, and throw it toward the enemy army. That army will be destroyed before long. Having offered pure rice soaked in ghee into the fire with these two, one should throw the remainder towards the enemy; he perishes. With these two, having touched all the King's weapons, one should consecrate them a thousand times; their brilliance increases. With these two alone, one should throw (objects) toward the enemy army; that army will be destroyed for a long time.\n..."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "षष्ठोऽनुवाकः ॥\n\n                         ———\n\n      नमो ज्येष्ठाय च कनिष्ठाय च नमः\n      पूर्वजाय चापरजाय च नमो मध्यमाय\n      चापगल्भाय च नमो जघन्याय च बुध्ि-\n      याय च नमः सोभ्याय च प्रतिसर्याय\n      च नमो याम्याय च क्षेमन्याय च नम-\n      उर्वर्याय च खल्याय च नमः श्रोकयाय\n      चावसान्याय च नमो वन्याय च कक्ष्याय\n      च नमः श्रवाय च प्रतिश्रवाय च नम\n      आशुषेणाय चाशुरथाय च नमः शूराय\n      चाविभिन्दते च नमो धर्मिणे च वर्रूथिने\n      च नमो बिल्मिने च कवचिने च नमः\n      श्रुताय च श्रुतसेनाय च ॥\n\n      पञ्चमे विविधमहिह्मोपेतत्वेन भगवान्नमस्कृतः, षष्ठे तु\nसर्वात्मकत्वसर्वान्तयोमित्वाभ्यां नमस्किर्यते—— नमो ज्येष्ठे-",
+      "english": "Sixth Anuvāka (ṣaṣṭho'nuvākaḥ)\n\n                         ———\n\n      Homage to Jyeṣṭha and to Kaniṣṭha; homage\n      to Pūrvaja and to Aparaja; homage to Madhyama\n      and to Apagalbha; homage to Jaghanya and to Budhnya;\n      homage to Sobhya and to Pratisarya;\n      homage to Yāmya and to Kṣemya; homage\n      to Urvaryā and to Khalya; homage to Śrokya\n      and to Avasānya; homage to Vanya and to Kakṣya;\n      homage to Śrava and to Pratiśrava; homage\n      to Āśuṣeṇa and to Āśuratha; homage to Śūra\n      and to Avabhindat; homage to Dharmiṇe and to Varūthine;\n      homage to Bilmine and to Kavacine; homage\n      to Śruta and to Śrutasena.\n\n      In the fifth anuvāka, the Lord was saluted as the possessor of diverse glories; in the sixth, He is saluted by virtue of His being the Soul of all (sarvātmakatva) and His inner presence in all things (sarvāntaryāmitva) — \"Namo jyeṣṭhā-"
+    }
+  }
+}

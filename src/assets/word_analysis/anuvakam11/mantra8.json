@@ -1,0 +1,281 @@
+{
+  "id": 8,
+  "samhita": "ये ती॒र्थानि॑ प्र॒चर॑न्ति सृ॒काव॑न्तो निष॒ङ्गिणः॑ ।",
+  "pada": "ये । ती॒र्थानि॑ । प्र-च॒र॑न्ति । सृ॒का-व॑न्तः । नि॒-ष॒ङ्गिणः॑ ॥",
+  "krama": "ये ती॒र्थानि॑ । ती॒र्थानि॑ प्र॒चर॑न्ति । प्र॒चर॑न्ति सृ॒काव॑न्तः । सृ॒काव॑न्तो निष॒ङ्गिणः॑ । निष॒ङ्गिण॒ इति॑ नि-षङ्गिणः ॥",
+  "samhita_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ती॒र्थानि॑",
+      "word_ids": [
+        571
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒चर॑न्ति",
+      "word_ids": [
+        572
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सृ॒काव॑न्तो",
+      "word_ids": [
+        573
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निष॒ङ्गिणः॑",
+      "word_ids": [
+        574
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ती॒र्थानि॑",
+      "word_ids": [
+        571
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र-च॒र॑न्ति",
+      "word_ids": [
+        572
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सृ॒का-व॑न्तः",
+      "word_ids": [
+        573
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नि॒-ष॒ङ्गिणः॑",
+      "word_ids": [
+        574
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ती॒र्थानि॑",
+      "word_ids": [
+        571
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ती॒र्थानि॑",
+      "word_ids": [
+        571
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒चर॑न्ति",
+      "word_ids": [
+        572
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒चर॑न्ति",
+      "word_ids": [
+        572
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सृ॒काव॑न्तः",
+      "word_ids": [
+        573
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सृ॒काव॑न्तो",
+      "word_ids": [
+        573
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निष॒ङ्गिणः॑",
+      "word_ids": [
+        574
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निष॒ङ्गिण॒",
+      "word_ids": [
+        574
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नि-षङ्गिणः",
+      "word_ids": [
+        574
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    117,
+    571,
+    572,
+    573,
+    574
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. E. A.] Rudradhyaya | 119\n\nThose who roam in the holy places (tirthani) like Kashi, Prayaga, etc., to protect them. What kind of Rudras? 'Srikavanta': 'Srika' is a sharp-pointed weapon like a knife held in the hand. Others are 'Nishangina', holding swords. (The rest as before). || 9 ||\n\nBhatta Bhaskara Bhashya: The ninth. Those Rudras who roam in the holy places to grant the fruit of pilgrimage to some and block others. Holding weapons (srikavanta) and swords (nishangina). (Grammatical notes). || 9 ||\n\n[Purashcharana for these two (8 and 9)]: Having performed a Kricchra penance, chant the mantra 5,000 times to complete the Purashcharana. On the day of intended conception (ritu-gamana), sacrifice 8,000 offerings of cow-milk mixed with ghee in the fire; then perform the act. A learned and lineage-continuing son will be born. For going to a great pilgrimage, sacrifice 10,000 offerings of pure rice smeared with ghee. If one cannot reach the pilgrimage, having bathed and come back, worship the fire and keep silence; he obtains the fruit of the pilgrimage. Meditation etc. as before.\n\nHe states the tenth Rik:\n\nThose Rudras who are so many, and even more, who have pervaded all directions... || 10 ||\n\nSayanacharya Bhashya: Those Rudras who are 'etavantah'—as many as mentioned in the previous Riks—and 'bhuyansah'—even more than that—who have pervaded (vitasthire) all directions. (The rest as before). Thus the ten Riks are stated. || 10 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "---\nश्रीरुद्रभाष्यम् ।                    १५५\n---\n\nलौकिकवैदिकमार्गरक्षका इत्यर्थः । एवदेव रक्षकत्वं\nविशेषण्द्वयेनोपपादयति— ऐलबुदा यव्युघ इति । इ-\nशाशब्दोऽश्वाची, इराणां समूहे ऐरम्, येरमेव ऐलम्, तद्वि-\nभ्रतीति ऐलवृतः; ते एव ऐलवृदाः; भकारस्य बकारः त-\nकारस्य द्त्वम् अकारस्य वीर्घश्चान्दसः अन्नदाता इत्यर्थः ।\nयविति मिश्रीसवित पापेनेति यः पापिष्ठः, युमिर्युष्यन्तीति\nयव्युघः, पूर्वेवदेव छान्दसी रूपनिष्पत्तिः । पापिष्ठानां निरो-\nद्धार इत्यर्थः । एवं च लौकिकवैदिकमार्गरक्षकत्वं नाम सत्पु-\nदषाम् तेषु मार्गेषु प्रवळ्ये तेषां तत्कलेरञ्चाचेः संयोजनम्,\nपापिष्ठानां तत्र निरोधनमित्येवंरूपमिति भावः । एताटशा\nये रुद्राः, तेषाम् ॥\n\n    ये तीर्थानि प्रचरन्ति सृकावन्तो नि-\nषङ्गिणः ॥\n\n    अथ नवमः—ये तीर्थानीति । सृकावन्तः सृक्वाण्यु-\nभवन्तः दीर्घेश्चान्दसः, निषङ्गिणः खड्गवन्तश्च ये रुद्राः,\nतीर्थानि गङ्गादीनि रक्षितुं प्रचरन्ति केषांचित्तीर्थफलं दातुं\nकेषांचित्तनिरोधं च, तेषाम् । अत्र ये 'पथां ये तीर्थानीति\nक्रद्वयमेको मन्त्रः । अस्य देवञ्च ऋषिः । अनुष्टुप्च्छन्दः ।\nरुद्रो देवता । सुघ्नफलप्रदोऽयं मन्त्रः । कुच्छ्राचरणपूर्वेकं",
+      "english": "---\nSri Rudra Bhashyam                    155\n---\n\n    namo rudrabhyo ye pṛthivyāṃ ye 'ntarikṣe\n    ye divi yeṣām annaṃ vāto varṣim aṣavas te-\n    bhyo daśa prācīṃ dik dakṣiṇā daśa pratī-\n    cīṃ diśo udīcīṃ diśo dhvāṃs tebhyo namas te no\n    mṛḍayantu te yaṃ dviṣmo yaśca no dveṣṭi taṃ\n    vo jagme dadhāmi ||\n\n    Salutation to the Rudras who [dwell] on earth, in the atmosphere,\n    in the heavens — whose arrows are food, wind, and rain.\n    To them, ten [salutations] toward the east, ten toward the south,\n    ten toward the west, ten toward the north, ten upward —\n    salutation to them! May they bring joy to us.\n    That which we hate and that which hates us —\n    that I place into your open mouth, O Rudras.\n\nNow, by these mantras beginning \"namo rudrabhyo ye pṛthivyām\" — having bowed to the Rudras stationed in earth, atmosphere, and the heavenly worlds — the devotee prays for his own happiness and for the suffering of his enemies. The mantra is to be divided into three: \"namo rudrabhyo ye pṛthivyāṃ yeṣām anniṣavaḥ tebhyo daśa prācīṃ dik ... dadhāmi\" is the first mantra. \"Namo rudrabhyo ye 'ntarikṣe yeṣāṃ vāta iṣavaḥ tebhyo daśa prācīṃ dik ... dadhāmi\" is the second mantra. \"Namo rudrabhyo ye divi yeṣāṃ varṣim aṣavaḥ tebhyo daśa prācīṃ dik ... dadhāmi\" is the third mantra.\n\nThe meaning of the first verse: Salutation (namaḥ) be to the Rudras who dwell on the earth — whose arrows (iṣavaḥ, instruments of smiting) are food (annam). [The meaning of] \"arrows being food\" is this: by causing heedless eating (apradhyāna-bhakṣaṇa) and excessive eating (atimātrāśana), they afflict some with disease; they torment others by destroying their wealth and causing hunger; they cause others yet to commit theft and such crimes for the sake of wealth, leading to punishment including death — thus food is their arrow, the instrument of their harm against sinners. To those Rudras, I make ten folded-hand salutations (añjalīḥ) facing the east (prācīḥ, eastward-facing salutations) — with all ten fingers spread out together. In making añjalīs (cupped-hand salutations) while facing east, ten such salutations come from facing east. The same is to be understood for [salutations facing] the south and the other directions. Thus I perform salutations in all directions with full folded hands — this is the meaning. By this, the bodily salutation (kāya-namaskāra) is shown; \"tebhyo namaḥ\" (salutation to them) shows the mental salutation; and \"namo rudrabhyo\" —"
+    }
+  }
+}

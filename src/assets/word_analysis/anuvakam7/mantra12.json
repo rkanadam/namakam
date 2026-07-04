@@ -1,0 +1,171 @@
+{
+  "id": 12,
+  "samhita": "नमो॒ वर्​ष्या॑य चाव॒र्​ष्याय॑ च॒",
+  "pada": "नमो॒ । वर्​ष्या॑य । च॒ । अ॒-वर्​ष्याय॑ । च॒ ॥",
+  "krama": "नमो॒ वर्​ष्या॑य । वर्​ष्या॑य च । चाव॒र्​ष्याय॑ । अ॒व॒र्​ष्याय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वर्​ष्या॑य",
+      "word_ids": [
+        324
+      ]
+    },
+    {
+      "text": " चाव॒र्​ष्याय॑ ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वर्​ष्या॑य",
+      "word_ids": [
+        324
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒-वर्​ष्याय॑",
+      "word_ids": [
+        325
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॒ वर्​ष्या॑य",
+      "word_ids": [
+        144,
+        324
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वर्​ष्या॑य च",
+      "word_ids": [
+        324,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चाव॒र्​ष्याय॑",
+      "word_ids": [
+        19,
+        325
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒व॒र्​ष्याय॑ च",
+      "word_ids": [
+        325,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    324,
+    325
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "anuvakam": 1,
+  "title": "प्रथमोनुवाकः",
+  "id": 10,
+  "samhita": "प्रमु॑ञ्च॒ धन्व॑न॒स्त्वमु॒भयो॒रार्त्नि॑ यो॒र्ज्याम् । याश्च॑ ते॒ हस्त॒ इष॑वः॒ परा॒ ता भ॑गवो वप ॥",
+  "pada": "प्र । मु॒ञ्च॒ । धन्व॑नः । त्वम् । उ॒भयोः॑ । आर्त्नि॑योः । ज्याम् । याः । च॒ । ते॒ । हस्ते॑ । इष॑वः । परा॑ । ताः । भ॒ग॒वः॒ । व॒प॒ ॥",
+  "krama": "प्रमु॑ञ्च । मु॒ञ्च॒ धन्व॑नः । धन्व॑न॒स्त्वम् । त्वमु॒भयोः॑ । उ॒भयो॒रार्त्नि॑योः । आर्त्नि॑यो॒र्ज्याम् । ज्यामिति॑ ज्याम् । याश्च । च ते । ते हस्ते । हस्ते इष॑वः । इष॑वः परा । परा ताः । ता भ॑गवः । भ॒ग॒वो वप । व॒पेति॑ वप ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "text": "18  Sayanacharya—Bhatta-Bhaskara-Bhashya-Sahita— [Na. Pa. Am.]\n\n...thus he says. There, he begins to show the God's favors to the worlds as he sets. The cowherds see this venerable God setting. While waiting for the time when the cattle return to the village and town, the water-carriers also see him and think, \"The Lord is setting, oh, we are released from this (work).\" Or, they see that the drawing of water must be done before sunset, as it is prohibited once he has set. What more? All beings see him setting, as the going to shelters of deer, birds, boars, etc., is dependent on that. The twice-born also wait for the venerable one to set, being desirous of the time for Agnihotra and Sandhyavandana. Everyone indeed sees this God setting. And that is prohibited:\n\n\"One should never look at the Sun while he is rising, nor while he is setting.\"\n\nThe mention of cowherds etc. is to show that he is seen by those of such names. In that, even if seen during a prohibited time by oversight, or during the time of worship (upasthana), may he look upon us and make us happy (mridayati). Even if he is seen due to oversight etc., having removed that sin and given the fruit of worship, may he make us happy.\n\nNow for the Purashcharana of these two (mantras 7 and 8): having performed one Krichhra penance, one should chant continuously for sixteen days. With these two, when there is no rain, one should act for the sake of rain. Either during the Ardra constellation or ending with it. Having invited five perfected Brahmins, it should be performed by them. One should give them turbans, clothes, earrings, necklaces, bracelets, etc. One should offer a lakh (100,000) of the prepared offering material—sesame, rice, and barley smeared with curd, honey, and ghee. Similarly, one should offer vetasa-wood sticks soaked in milk. Among those five, one should chant and four should offer for eleven days of initiation; on the final day, one should worship with eight thousand red lotuses (rakta-tamarasa) for each. Having chanted once, at the time of the ritual, one should sit having touched the tiger-skin and looking at it; otherwise, he becomes subject to atonement. Fire-protection must be done until the completion. On the final day, the Lord Aditya releases a great rain. If one offers ten thousand vetasa flowers, Savitar grants a boon. One should worship the rising and setting Sun with these two. Standing in neck-deep water, one should throw water filled in both hands toward the Sun while chanting these two. Doing this eight thousand times each day for nine days, Savitar then grants the heart's desire within a year. If one offers twenty-one thousand hibiscus (japa) flowers smeared with honey, by the grace of Savitar he attains the memory of previous births (jatis-maratva) and is born in a family of the four Vedas.\n\nMeditation (Dhyanam):\n\"One should meditate on the Golden One residing within the solar disc, with a shining body and a pure smile, of fierce rays and unbroken brilliance, who is served by thousands of sages.\" (8)\n\n|| He speaks the ninth verse ||\n\nSalutation be to the blue-throated one, the thousand-eyed, the bountiful;\nAnd those who are his attendants—to them also I make salutation. (9)\n...",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva as detailed in standard commentaries.",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "dhyana": "Meditation on Lord Maheshvara with resplendent Goddess.",
+      "text": "",
+      "sanskrit": ""
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "प्रमु॑ञ्च॒",
+      "word_ids": [
+        11,
+        12
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्व॑न॒स्त्वमु॒भयो॒रार्त्नि॑",
+      "word_ids": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यो॒र्ज्याम्",
+      "word_ids": [
+        17,
+        18
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "याश्च॑",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्त॒",
+      "word_ids": [
+        20
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वः॒",
+      "word_ids": [
+        21
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परा॒",
+      "word_ids": [
+        22
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ता",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॑गवो",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वप",
+      "word_ids": []
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "प्र",
+      "word_ids": [
+        11
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मु॒ञ्च॒",
+      "word_ids": [
+        12
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्व॑नः",
+      "word_ids": [
+        13
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वम्",
+      "word_ids": [
+        14
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒भयोः॑",
+      "word_ids": [
+        15
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आर्त्नि॑योः",
+      "word_ids": [
+        16
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ज्याम्",
+      "word_ids": [
+        17,
+        18
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "याः",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॑",
+      "word_ids": [
+        20
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वः",
+      "word_ids": [
+        21
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "परा॑",
+      "word_ids": [
+        22
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ताः",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒ग॒वः॒",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒प॒",
+      "word_ids": []
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "प्रमु॑ञ्च",
+      "word_ids": [
+        11,
+        12
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मु॒ञ्च॒",
+      "word_ids": [
+        12
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्व॑नः",
+      "word_ids": [
+        13
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्व॑न॒स्त्वम्",
+      "word_ids": [
+        12
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वमु॒भयोः॑",
+      "word_ids": [
+        12,
+        15
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒भयो॒रार्त्नि॑योः",
+      "word_ids": [
+        14,
+        18
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आर्त्नि॑यो॒र्ज्याम्",
+      "word_ids": [
+        17,
+        18
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ज्यामिति॑",
+      "word_ids": [
+        17,
+        18,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ज्याम्",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "याश्च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वः",
+      "word_ids": [
+        21
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वः",
+      "word_ids": [
+        21
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परा",
+      "word_ids": [
+        22
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "परा",
+      "word_ids": [
+        22
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ताः",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ता",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॑गवः",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒ग॒वो",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वप",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒पेति॑",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वप",
+      "word_ids": [
+        22
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    2,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ]
+}

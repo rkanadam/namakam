@@ -1,0 +1,190 @@
+{
+  "id": 13,
+  "samhita": "नम॒-श्शीघ्रि॑याय च॒ शीभ्या॑य च॒",
+  "pada": "नमः॑ । शीघ्रि॑याय । च॒ । शीभ्या॑य । च॒ ॥",
+  "krama": "नम॒-श्शीघ्रि॑याय । शीघ्रि॑याय च । च शीभ्या॑य । शीभ्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॒-श्शीघ्रि॑याय",
+      "word_ids": [
+        1,
+        268
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शीभ्या॑य",
+      "word_ids": [
+        269
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शीघ्रि॑याय",
+      "word_ids": [
+        268
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शीभ्या॑य",
+      "word_ids": [
+        269
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॒-श्शीघ्रि॑याय",
+      "word_ids": [
+        1,
+        268
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शीघ्रि॑याय च",
+      "word_ids": [
+        268,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च शीभ्या॑य",
+      "word_ids": [
+        19,
+        269
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शीभ्या॑य च",
+      "word_ids": [
+        269,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    268,
+    269
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

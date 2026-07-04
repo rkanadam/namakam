@@ -1,0 +1,191 @@
+{
+  "id": 15,
+  "samhita": "नमो॒ वात्या॑य च॒ रेष्मि॑याय च॒",
+  "pada": "नमो॒ । वात्या॑य । च॒ । रेष्मि॑याय । च॒ ॥",
+  "krama": "नमो॒ वात्या॑य । वात्या॑य च । च रेष्मि॑याय । रेष्मि॑याय च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वात्या॑य",
+      "word_ids": [
+        330
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रेष्मि॑याय",
+      "word_ids": [
+        331
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वात्या॑य",
+      "word_ids": [
+        330
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रेष्मि॑याय",
+      "word_ids": [
+        331
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॒ वात्या॑य",
+      "word_ids": [
+        144,
+        330
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वात्या॑य च",
+      "word_ids": [
+        330,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च रेष्मि॑याय",
+      "word_ids": [
+        19,
+        331
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रेष्मि॑याय च",
+      "word_ids": [
+        331,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    330,
+    331
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Vatyah'—one seen along with the wind (vata). 'Reshma' is the time of dissolution (pralaya) where beings perish (rishyanti); he who exists there in the form of a specific type of rainwater mixed with gravel, stones, etc., is 'reshmiyah'. (15)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah vatyaya cha'—to him existing in rains produced by the wind. 'Reshmiyaya cha'—'reshma' is the end of an age (yuganta) when a wind named Samvarta blows, raining stones and gravel; that is 'reshma'. Some say it refers to the summer season. Others say 'reshma' are the dust clouds raised by the wind. To him existing there. [Grammatical note]. (15)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

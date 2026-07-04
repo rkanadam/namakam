@@ -1,0 +1,281 @@
+{
+  "id": 4,
+  "samhita": "ये वृ॒क्षेषु॑ स॒स्पिञ्ज॑रा॒ नील॑ग्रीवा विलो॑हिताः ।",
+  "pada": "ये । वृ॒क्षेषु॑ । स॒स्पिञ्ज॑राः । नील॑-ग्रीवाः । वि-लो॑हिताः ॥",
+  "krama": "ये वृ॒क्षेषु॑ । वृ॒क्षेषु॑ स॒स्पिञ्ज॑राः । स॒स्पिञ्ज॑रा॒ नील॑ग्रीवाः । नील॑ग्रीवा विलो॑हिताः । विलो॑हिता॒ इति॑ वि-लोहिताः ॥",
+  "samhita_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्षेषु॑",
+      "word_ids": [
+        556
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑रा॒",
+      "word_ids": [
+        557
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीवा",
+      "word_ids": [
+        549
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विलो॑हिताः",
+      "word_ids": [
+        558
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्षेषु॑",
+      "word_ids": [
+        556
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑राः",
+      "word_ids": [
+        557
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑-ग्रीवाः",
+      "word_ids": [
+        549
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-लो॑हिताः",
+      "word_ids": [
+        558
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्षेषु॑",
+      "word_ids": [
+        556
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्षेषु॑",
+      "word_ids": [
+        556
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑राः",
+      "word_ids": [
+        557
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑रा॒",
+      "word_ids": [
+        557
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीवाः",
+      "word_ids": [
+        549
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीवा",
+      "word_ids": [
+        549
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विलो॑हिताः",
+      "word_ids": [
+        558
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विलो॑हिता॒",
+      "word_ids": [
+        558
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-लोहिताः",
+      "word_ids": [
+        558
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    117,
+    549,
+    556,
+    557,
+    558
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "112 Sayanacharya—along with Bhatta Bhaskara Bhashya— [Na. E. A.]\n\n[Purashcharana for these four Mantras]: Having performed a Chandrayana penance, chant the mantra 5,000 times to purify the body. This completes the Purashcharana. One should perform black magic rituals (Abhichara) with these mantras. A king should have the Homa performed by Brahmins born in his own country. Sacrifice 100,000 sticks of Shalmali, Sala, Vetra, and Benu, wrapped in a single thread and smeared with blood. Here, having made an image of the enemy out of smooth flour, having invoked life into it, then cutting it in order, sacrifice 8,000 offerings. Then sacrifice 8,000 bundles (kurcha) smeared with blood. By these rituals, enemies perish. Countering black magic with these same mantras: sacrifice 5,000 Durva grasses smeared with curd, honey, and ghee. The defects of black magic affecting the king or the performer will perish. Meditation:\n\n\"Meditate on the one with a fierce fanged face, with blazing fire as hair, holding a trident and a lamp, and adorned with snakes.\"\n\nHe states the fifth Rik:\n\nThose who are in the trees, golden-yellow like young grass, blue-necked and red... || 5 ||\n\nSayanacharya Bhashya: Just as Rudras are situated in the worlds, they are also situated in the trees. Some of them are 'saspinjarah', having the golden-yellow color of young grass. 'Nilagrivah', having blue-colored necks. Some have blue color in the neck region. Others are 'vilohitah', especially red in color. Those who are of this nature (the rest is as before). || 5 ||\n\nBhatta Bhaskara Bhashya: The fifth mantra. Those Rudras who are in the trees—either in the trees themselves or in all moving and stationary beings. Yellow like young grass. Those who age/destroy the tormentors of the world. Blue-necked. Specially red or free from impurity. Those who are superior as owners and protectors. (The rest is as before). || 5 ||\n\nHe states the sixth Rik:\n\nThose who are the lords of spirits, shaven-headed or with matted hair... || 6 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "---\n८२                    श्रीरुद्रभाष्यम् ।\n---\n\nनमो रोहिताय स्थपतये वृक्षाणां पतये\nनमः ॥\n\nअथ नवमः— नमो रोहितायेति । लोहितवर्णो रो-\nहितः, स्थाता चाक्षो पाता चेति स्थपतिः, पृषोदरादिः;\nएवंभूताय वृक्षाणां पतये स्वामिने नमः इत्यर्थः । अत्र\nस्थपतिशब्देन वृक्षस्वामित्वे हेतुरुच्यते, वृक्षेषु स्थित्वा\nवृक्षान्पालयतस्तत्स्वामित्वौचित्यात् । रोहितशब्देन वृक्षाधि-\nष्ठातुः परमेश्वरस्य स्वरूपयुक्तं भवति, 'ये वृक्षेषु सस्पिञ्जरा\nनीलाग्रीवा विलोहिताः' इति हि वक्ष्यते । इति नवमः ॥\n\nनमो मन्त्रिणे वाणिजाय कक्षाणां प-\nतये नमः ॥\n\nअथ दशमः— मन्त्रिण इति । वनगुल्मादयोऽतिगहन-\nपदार्थाः कक्षाः तेषां स्वामी कक्षाणां पतिः, तस्मै नमः इति\nप्रथममन्वयः; नतु अतिगहनेषु कथमीश्वरस्याधिपत्यं स्या-\nत्? दुरवगाह्त्वादित्याशङ्कय विशिनष्टि— वाणिजायेति।\nवणिजां समूहो वाणिजः, यथा वणिक् सर्वजनपद्व्यवहारा-\nन्परिच्छिद्य विशदीकरोति, तथा अयमपि सकलवस्तुजाव-\nमिति, नास्य किञ्चिदुरवगाहमस्तीति भावः । केषुवि-",
+      "english": "---\n82                    Sri Rudra Bhashyam\n---\n\n[Mantra 9:]\nObeisance to Rohita (the red-colored one), to the Sthapati (the lord-who-stands), to the Lord of trees — obeisance.\n\nNow the ninth [commentary]: — \"Namo rohitaya\" (Obeisance to Rohita). \"Rohita\" means the one of red (lohita) color; \"sthapati\" means the lord who both stands (sthata) and protects (pata) — [this is] a word of the prshodaradi class (a grammatical class of irregularly formed words). Obeisance to such a one who is the Lord and master of trees — this is the meaning. Here the word \"sthapati\" conveys the reason for His lordship over trees: it is fitting that He who dwells within trees and protects them should be their lord. The word \"rohita\" (red) befits the Supreme Lord as the presiding deity of trees, for it will be stated later: \"They who in trees are yellow-green, blue-necked, and deep red.\" Thus ends the ninth.\n\n[Mantra 10:]\nObeisance to the wise counsellor (mantrin), to the merchant (vanija), to the Lord of thickets — obeisance.\n\nNow the tenth [commentary]: — \"Mantrine\" (to the wise counsellor). The dense growths of forest-shrubs and the like are called \"kakshas\" (thickets); obeisance to their Lord — this is the primary meaning. But [one might object]: How can the Lord exercise sovereignty over what is exceedingly dense and impenetrable? Addressing this doubt about the impenetrability [of thickets], the text specifies with the word \"vanijaya\" (to the merchant): A body of merchants is called \"vanija\"; just as a merchant comprehends and makes clear all the dealings of a country, so too this [Lord] comprehends all things — nothing is impenetrable to Him — such is the intent. Another reason for His lordship over thickets is given"
+    }
+  }
+}

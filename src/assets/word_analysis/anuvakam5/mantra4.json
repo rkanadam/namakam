@@ -1,0 +1,199 @@
+{
+  "id": 4,
+  "samhita": "नमः॑ कप॒र्दिने॑ च॒ व्यु॑प्तकेशाय च॒",
+  "pada": "नमः॑ । क॒प॒र्दिने᳚ । च॒ । व्यु॑प्त-केशाय । च॒ ॥",
+  "krama": "नमः॑ कप॒र्दिने॑ । कप॒र्दिने॑ च । च व्यु॑प्तकेशाय । व्यु॑प्तकेशाय च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कप॒र्दिने॑",
+      "word_ids": [
+        277
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "व्यु॑प्तकेशाय",
+      "word_ids": [
+        278
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "क॒प॒र्दिने᳚",
+      "word_ids": [
+        277
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व्यु॑प्त-केशाय",
+      "word_ids": [
+        278
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ कप॒र्दिने॑",
+      "word_ids": [
+        1,
+        277
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कप॒र्दिने॑ च",
+      "word_ids": [
+        277,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च व्यु॑प्तकेशाय",
+      "word_ids": [
+        19,
+        278
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व्यु॑प्तकेशाय च",
+      "word_ids": [
+        278,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    277,
+    278
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Kapardi' is he who has matted hair (kaparda). 'Vyuptakeshah' is he whose hair is shaven (munidita). The matted hair refers to the guise of a Pashupata ascetic. Shaven hair refers to the guise of a Sannyasi (yati)."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "'Namah kapardine cha'—clear. 'Vyuptakeshaya cha'—to the shaven-headed one, in his form as the Sacrificer (Yajamana). Others say 'vyuptakesha' means half-shaven hair. [Grammatical note]. (4)\n\nSalutation to the thousand-eyed one and to the one with a hundred bows."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "श्रुतिप्रसिद्धं मोक्षहेतुत्वमुक्तम् । श्रृणावि हिनस्ति सर्वमिति\nशर्वः, अनेन 'तस्मा उपसंहर्तें महामासाय नमः' इत्यादि-\nश्रुतिप्रसिद्धं जगत्संहर्तृत्वमुक्तम् । पशुपतिशब्देन बन्धस्थि-\nतिहेतुत्वमुच्यते, पशुशब्देन संसारबन्धस्य पतिशब्देन तद्र-\nक्षणस्य भोक्तेः ; तथा च 'संसारमोक्षस्थितिबन्धहेतुः' इति\nश्रुतिप्रसिद्धं जगत्स्थितिबन्धहेतुत्वमुक्तं भवतीत्याह्य पशुकु-\nक्षहेतुत्वेन भगवन्नमस्कारो मन्त्रद्वयार्थः । अत्र नमःशब्द-\nल प्रत्येकं चतुष्पर्यन्तपदाभ्यामन्वयं दर्शियितुं समुच्चयार्थौ च-\nकारौ फलितौ । तेन भवाय च नमः शर्वाय च नमः इत्य-\nन्वयो भवति । एवममेऽपि सर्वत्र द्रष्टव्यम् ॥\n\n      नमो नीलग्रीवाय च शितिकण्ठाय च ॥\n\n      अथ तृतीयः:—— नमो नीलग्रीवायेति । काळकूटमसनेन\nनीला ग्रीवा कण्ठो यस्य, स नीलग्रीवः, तद्वृषनात्पूर्वे\nस्थितः धवलः कण्ठो यस्य, सः शितिकण्ठः । अनेन स्व-\nशेत धवलकण्ठे काळकूटप्रयुक्तं नैसर्ग्य दोषमविगण्यम जगदे-\nकरक्षणाय विषं कबलितवतो भगवतः सर्वलोकदयालुत्वम्\n'अहीमिदं दयसे विश्वम्' इत्यादिश्रुतिप्रसिद्धं प्रदशिवम् ॥\n\n      नमः कपर्दिने च ब्युस्केशाय च ॥",
+      "english": "The well-known Śruti passage establishes His role as the bestower of liberation (mokṣahetutva). \"He who destroys (śṛṇāti hinaṣti) everything is Śarva\"; through this name, the role of Śarva as the destroyer of the universe (jagat-saṃhartṛtva) is stated, as attested in the Śruti: \"To that great Time who gathers all in — salutation.\" By the word Paśupati (lord of souls/beasts), the role of the Lord as the cause of bondage and sustenance is stated: the word paśu (animal, bound soul) refers to the bondage of saṃsāra, and the word pati (lord) refers to protection and enjoyment of that. Accordingly, the Śruti — \"He is the cause of saṃsāra-liberation, sustenance, and bondage\" — affirms that He is the cause of world-sustenance and bondage; hence, it is concluded that the meaning of these two mantras is homage to the Lord as the cause of the five cosmic functions relating to the herd of souls. Here, to show that the word namaḥ connects individually with each of the four sets of paired names, the conjunctive particles \"ca\" (and) serve to indicate coordination. Thus the connection runs: \"namaḥ bhavāya ca\" and \"namaḥ śarvāya ca.\" The same should be understood for all the other pairs throughout.\n\n      Homage to Nīlagrīva and to Śitikaṇṭha.\n\n      Now the third [mantra]: \"Namo nīlagrīvāya\" — He whose throat and neck (grīvā, kaṇṭha) are blue from drinking the Kālakūṭa poison is Nīlagrīva (the blue-throated one); He whose throat was white (dhavala) before the event of the poison-drinking is Śitikaṇṭha (the white-throated one). By this mantra, the Lord's compassion for all worlds is indicated — His compassion that moved Him, disregarding the natural defect inflicted on His otherwise fair throat by the Kālakūṭa poison, to swallow the venom for the single purpose of protecting the world. This is well-attested in the Śruti: \"You have compassion upon this entire world\" — and similar passages.\n\n      Homage to Kapardī and to Vyuṣkeśa."
+    }
+  }
+}

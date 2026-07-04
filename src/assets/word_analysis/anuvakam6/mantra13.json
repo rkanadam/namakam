@@ -1,0 +1,199 @@
+{
+  "id": 13,
+  "samhita": "नमो॑ व॒र्मिणे॑ च वरू॒थिने॑ च॒",
+  "pada": "नमो॑ । व॒र्मिणे॑ । च॒ । व॒रू॒थिने॑ । च॒ ॥",
+  "krama": "नमो॑ व॒र्मिणे॑ । व॒र्मिणे॑ च । च वरू॒थिने॑ । वरू॒थिने॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒र्मिणे॑",
+      "word_ids": [
+        296
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वरू॒थिने॑",
+      "word_ids": [
+        297
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒र्मिणे॑",
+      "word_ids": [
+        296
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒रू॒थिने॑",
+      "word_ids": [
+        297
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ व॒र्मिणे॑",
+      "word_ids": [
+        144,
+        296
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒र्मिणे॑ च",
+      "word_ids": [
+        296,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वरू॒थिने॑",
+      "word_ids": [
+        19,
+        297
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वरू॒थिने॑ च",
+      "word_ids": [
+        297,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    296,
+    297
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Varmi'—equipped with a breastplate (kanchuka). 'Varuthi'—equipped with a house/shelter."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "",
+      "english": "'Namo varmine cha'—to the wearer of a breastplate. [Grammatical note]. 'Varuthine cha'—to him who possesses a 'varutha'—a secret place of protection for the charioteer. Or: to him with a special house. (13)\n\nSalutation to the one with a helmet and to the one with armor."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": 1,
+  "samhita": "अ॒स्मिन्-म॑ह॒त्य॑र्ण॒वे-ऽन्तरि॑क्षे भ॒वा अधि॑ ।",
+  "pada": "अ॒स्मिन् । म॒ह॒ति । अ॒र्ण॒वे । अ॒न्तरि॑क्षे । भ॒वाः । अधि॑ ॥",
+  "krama": "अ॒स्मिन्-म॑ह॒ति । म॒ह॒त्य॑र्ण॒वे । अर्ण॒वे-ऽन्तरि॑क्षे । अ॒न्तरि॑क्षे भ॒वाः । भ॒वा अधि॑ । अधि॒त्यधि॑ ॥",
+  "samhita_tokens": [
+    {
+      "text": "अ॒स्मिन्-म॑ह॒त्य॑र्ण॒वे-ऽन्तरि॑क्षे",
+      "word_ids": [
+        460
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒वा",
+      "word_ids": [
+        528
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "अ॒स्मिन्",
+      "word_ids": [
+        460
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒ह॒ति",
+      "word_ids": [
+        525
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒र्ण॒वे",
+      "word_ids": [
+        526
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒न्तरि॑क्षे",
+      "word_ids": [
+        527
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒वाः",
+      "word_ids": [
+        528
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "अ॒स्मिन्-म॑ह॒ति",
+      "word_ids": [
+        460,
+        525
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒ह॒त्य॑र्ण॒वे",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अर्ण॒वे-ऽन्तरि॑क्षे",
+      "word_ids": [
+        526
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒न्तरि॑क्षे",
+      "word_ids": [
+        527
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒वाः",
+      "word_ids": [
+        528
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒वा",
+      "word_ids": [
+        528
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॒त्यधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    103,
+    460,
+    525,
+    526,
+    527,
+    528
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                   ६७\n\nउभाभ्यामिति पुनर्नेमीति । तथा तव धन्वने नमोऽस्तु\nइति। इति चतुर्दश: ॥\n\n    परि ते धन्वनो हेतिरस्मान्वृणक्तु वि-\nश्वत: । अथो य इषुधिस्तवारे अस्मिन्-\nधेहि तम् ॥\n\n   अथ नमस्कृत्य पुन: प्राथ्यते— परि ते धन्वन इति ।\nहे भगवन् ते धन्वन: धनुष: संबन्धिनी, धनुष्यारोपितेति\nभावत्; पतादृशी या हेति: बाणरूपायुधम्, सा हेति:\nअस्मान् विश्वत: सर्वेस्मादुपद्र्वात्, परिवृणक्तु परिविजि-\nतान् करोतु, रक्षित्वित्यर्थ: । कथं पुन: पापराशौ विद्यमाने\nतव उपद्र्वपरिहार: स्यात्? तत्राह— अथो अपि च, य:\nतव हेषिधि: यत्र लक्ष्णा हेषवस्तिष्ठन्ति, तमू अस्मत् अस्माकं\nसंबन्घिनि, आरे अरीणां समूहे, पापराशौ, निधेहि स्थापय,\nनाशयेत्यर्थ: । इति पञ्चदशो मन्त्र: । अत्र या ते हेतिर-\nत्यादिध्यूचस्य अनुष्टुप्छन्द:, ऋषिर्देवता च भगवानेव। 'प्रण-\nमदमरसंघमौलिमाळाकुसुमरजोरुणपाद्पद्मयुगसम् । अनवर-\nतमनुस्मरेद्रवान्या सह जगतां पितरं पिनाकपाणिम्' ।\nशत्रुनाशप्रघानोऽयं मन्त्र: ॥",
+      "english": "Śrī Rudra Bhāṣyam                   67\n\n---\n\n[continuing the fourteenth mantra commentary]\n\nand repeating \"ubhābhyām\" (to both) — \"and also salutation to your bow (dhanvane).\" Thus [ends] the fourteenth [mantra].\n\n    \"Let the weapon launched from your bow protect us from all sides. And that quiver of yours — place it here, far away from us, in the midst of our enemies.\"\n\nNow, after offering salutation, [the devotee] again prays: \"Pari te dhanvana iti\" — O Blessed Lord, the weapon (heti) — meaning an arrow — belonging to your bow (dhanvanaḥ), and [thus] understood as having been placed upon the bow — let such a weapon (heti) protect us from all distress (viśvataḥ — from all sides), making us well-guarded. But how, when there is a mass of sins present, can protection from distress [caused] by you come about? That is addressed: \"Atho — and also, your quiver (iṣudhi) in which your arrows rest — place that (tam dhehī) in our enemies' quarter (āre — in the multitude of adversaries), in the mass of our sins, and destroy [them there].\" Thus [ends] the fifteenth mantra. For the pair of verses beginning \"Yā te heti\" and so forth, the metre is Anuṣṭup; the seer and deity are the Blessed Lord himself. [The dhyāna-śloka is:] \"May one perpetually meditate upon the Father of the worlds, the holder of the Pināka (bow), whose lotus feet are reddened with the pollen of the garlands of flowers worn on the crowns of the hosts of prostrating immortals, seated with his consort.\" This mantra is primarily [efficacious] for the destruction of enemies."
+    }
+  }
+}

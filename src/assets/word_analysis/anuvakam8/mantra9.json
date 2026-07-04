@@ -1,0 +1,182 @@
+{
+  "id": 9,
+  "samhita": "नम॑श्श॒म्भवे॑ च मयो॒भवे॑ च॒",
+  "pada": "नमः॑ । श॒म्-भवे॑ । च॒ । म॒यः॒-भवे॑ । च॒ ॥",
+  "krama": "नम॑श्श॒म्भवे॑ । श॒म्भवे॑ च । च मयो॒भवे॑ । मयो॒भवे॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑श्श॒म्भवे॑",
+      "word_ids": [
+        1,
+        374
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मयो॒भवे॑",
+      "word_ids": [
+        375
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒म्-भवे॑",
+      "word_ids": [
+        374
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒यः॒-भवे॑",
+      "word_ids": [
+        375
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑श्श॒म्भवे॑",
+      "word_ids": [
+        1,
+        374
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒म्भवे॑ च",
+      "word_ids": [
+        374,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च मयो॒भवे॑",
+      "word_ids": [
+        19,
+        375
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मयो॒भवे॑ च",
+      "word_ids": [
+        375,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    374,
+    375
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

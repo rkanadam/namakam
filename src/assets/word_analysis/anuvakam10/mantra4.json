@@ -1,0 +1,1129 @@
+{
+  "id": 4,
+  "samhita": "मृ॒डा नो॑ रुद्रो॒त नो॒ मय॑स्कृधि क्ष॒यद्वी॑राय॒ नम॑सा विधेम ते । यच्छ-ञ्च॒ योश्च॒ मनु॑राय॒जे पि॒ता तद॑श्याम॒ तव॑ रुद्र॒ प्रणी॑तौ ॥",
+  "pada": "मृ॒डा । नः॒ । रु॒द्र॒ । उ॒त । नः॒ । मयः॑ । कृ॒धि॒ । क्ष॒यत्-वी॑राय । नम॑सा । वि॒धे॒म॒ । ते॒ । यत् । शम् । च॒ । यः । च॒ । मनुः॑ । आ॒-य॒जे । पि॒ता । तत् । अ॒श्या॒म॒ । तव॑ । रु॒द्र॒ । प्र-नी॑तौ ॥",
+  "krama": "मृ॒डा नः॑ । नः॒ रु॒द्र॒ । रु॒द्रो॒त । उ॒त नः॑ । नः॒ मयः॑ । मय॑स्कृधि । कृ॒धि॒ क्ष॒यद्वी॑राय । क्ष॒यद्वी॑राय॒ नम॑सा । नम॑सा विधेम । वि॒धेम॑ ते । ते इति॑ ते । यच्छम् । शञ्च॑ । च योः । योश्च॑ । च मनुः॑ । मनु॑राय॒जे । आ॒यजे पि॒ता । पि॒ता तत् । तद॑श्याम । अ॒श्या॒म॒ तव॑ । तव॑ रुद्र । रु॒द्र प्रणी॑तौ । प्रणी॑ता॒विति॑ प्र-नीतौ ॥",
+  "samhita_tokens": [
+    {
+      "text": "मृ॒डा",
+      "word_ids": [
+        462
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो॑",
+      "word_ids": [
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रुद्रो॒त",
+      "word_ids": [
+        3,
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो॒",
+      "word_ids": [
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मय॑स्कृधि",
+      "word_ids": [
+        463,
+        464,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॒यद्वी॑राय॒",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑सा",
+      "word_ids": [
+        33,
+        33,
+        465
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विधेम",
+      "word_ids": [
+        466
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यच्छ-ञ्च॒",
+      "word_ids": [
+        19,
+        60,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "योश्च॒",
+      "word_ids": [
+        19,
+        60,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मनु॑राय॒जे",
+      "word_ids": [
+        33,
+        33,
+        60,
+        468
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒ता",
+      "word_ids": [
+        470
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तद॑श्याम॒",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तव॑",
+      "word_ids": [
+        57
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रुद्र॒",
+      "word_ids": [
+        3,
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रणी॑तौ",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "मृ॒डा",
+      "word_ids": [
+        462
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र॒",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मयः॑",
+      "word_ids": [
+        463
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कृ॒धि॒",
+      "word_ids": [
+        464
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॒यत्-वी॑राय",
+      "word_ids": [
+        451
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑सा",
+      "word_ids": [
+        465
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒धे॒म॒",
+      "word_ids": [
+        466
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "यत्",
+      "word_ids": [
+        467
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शम्",
+      "word_ids": [
+        454
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "यः",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मनुः॑",
+      "word_ids": [
+        468
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ॒-य॒जे",
+      "word_ids": [
+        469
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒ता",
+      "word_ids": [
+        470
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तत्",
+      "word_ids": [
+        471
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒श्या॒म॒",
+      "word_ids": [
+        472
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तव॑",
+      "word_ids": [
+        57
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र॒",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र-नी॑तौ",
+      "word_ids": [
+        473
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "मृ॒डा",
+      "word_ids": [
+        462
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        33,
+        465,
+        468,
+        473
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        33,
+        465,
+        468,
+        473
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र॒",
+      "word_ids": [
+        3,
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रो॒त",
+      "word_ids": [
+        3,
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        33,
+        465,
+        468,
+        473
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        33,
+        465,
+        468,
+        473
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मयः॑",
+      "word_ids": [
+        463,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मय॑स्कृधि",
+      "word_ids": [
+        463,
+        464,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कृ॒धि॒",
+      "word_ids": [
+        464
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॒यद्वी॑राय",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॒यद्वी॑राय॒",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑सा",
+      "word_ids": [
+        33,
+        33,
+        465
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑सा",
+      "word_ids": [
+        33,
+        33,
+        465
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विधेम",
+      "word_ids": [
+        466
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒धेम॑",
+      "word_ids": [
+        466
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यच्छम्",
+      "word_ids": [
+        19,
+        60,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शञ्च॑",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "योः",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "योश्च॑",
+      "word_ids": [
+        19,
+        60,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मनुः॑",
+      "word_ids": [
+        33,
+        33,
+        468
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मनु॑राय॒जे",
+      "word_ids": [
+        33,
+        33,
+        60,
+        468
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आ॒यजे",
+      "word_ids": [
+        60,
+        469
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒ता",
+      "word_ids": [
+        470
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒ता",
+      "word_ids": [
+        470
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तत्",
+      "word_ids": [
+        471
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तद॑श्याम",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒श्या॒म॒",
+      "word_ids": [
+        60,
+        472
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तव॑",
+      "word_ids": [
+        57
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तव॑",
+      "word_ids": [
+        57
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रुद्र",
+      "word_ids": [
+        3,
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र",
+      "word_ids": [
+        3,
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रणी॑तौ",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रणी॑ता॒विति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र-नीतौ",
+      "word_ids": [
+        33,
+        33,
+        473
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    2,
+    3,
+    6,
+    19,
+    33,
+    57,
+    60,
+    451,
+    454,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Da. A.] Rudradhyaya | 91\n\n(Grammatical explanation continued). Now the 'prabharanam' (offering) is qualified: In such a way that by this offering, there may be peace ('sham') for our own bipeds (sons etc.) and quadrupeds (cattle etc.). (Grammatical note on 'ashat'). \"Asmin grame\": In this village where we live, let all living beings—even those that do not belong to us—be well-nourished and healthy. What kind of thought should we offer?\n\nThe Puranic sages say:\n\"In a village or city where a chanter of Rudradhyaya lives, there is no hunger, thirst, famine, or disease.\"\n\nOr, in such a way that in our village, there may be peace for bipeds and quadrupeds, and every object like wealth and grain may be abundant and healthy. || 1 ||\n\nHe states the fourth and fifth [Note: 4th is here]:\n\nO Rudra, make us happy; grant us happiness. We serve you, the destroyer of enemies, with salutations. May we attain that peace and separation from suffering which father Manu sought through sacrifice; may we reach that under your guidance, O Rudra. || 4 ||\n\nSayanacharya Bhashya: O Rudra, make us happy ('mridaya') in this world. And also ('uta') grant us happiness ('mayas') in the next world. We serve ('vidhema') you, the destroyer of our sins, with salutations. Father Manu (Prajapati), the protector, sought peace and happiness and separation from suffering; all that, O Rudra, may we attain under your guidance/love. || 4 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

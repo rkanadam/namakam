@@ -1,0 +1,244 @@
+{
+  "id": 17,
+  "samhita": "नम॑ आनिर् ह॒तेभ्यो॒ नम॑ आमीव॒त्केभ्यः॑ ॥",
+  "pada": "नमः॑ । आ-नि॒र्-ह॒तेभ्यः॑ । नमः॑ । आ-मी॒व॒त्केभ्यः॑ ॥",
+  "krama": "नम॑ आनिर्ह॒तेभ्यः॑ । आनिर्ह॒तेभ्यो॒ नमः॑ । नम॑ आमीव॒त्केभ्यः॑ । आमीव॒त्केभ्य॒ इति॑ आ-मीवत्-केभ्यः ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1,
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आनिर्",
+      "word_ids": [
+        393
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ह॒तेभ्यो॒",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1,
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आमीव॒त्केभ्यः॑",
+      "word_ids": [
+        394
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ-नि॒र्-ह॒तेभ्यः॑",
+      "word_ids": [
+        393
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ-मी॒व॒त्केभ्यः॑",
+      "word_ids": [
+        394
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1,
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आनिर्ह॒तेभ्यः॑",
+      "word_ids": [
+        393
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आनिर्ह॒तेभ्यो॒",
+      "word_ids": [
+        393
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1,
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1,
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आमीव॒त्केभ्यः॑",
+      "word_ids": [
+        394
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आमीव॒त्केभ्य॒",
+      "word_ids": [
+        394
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आ-मीवत्-केभ्यः",
+      "word_ids": [
+        394
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    393,
+    394
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

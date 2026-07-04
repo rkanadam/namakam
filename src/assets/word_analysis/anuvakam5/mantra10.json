@@ -1,0 +1,199 @@
+{
+  "id": 10,
+  "samhita": "नमो॑ वृ॒द्धाय॑ च सं॒​वृँध्व॑ने च॒",
+  "pada": "नमो॑ । वृ॒द्धाय॑ । च॒ । सम्-वृ॒ध्व॑ने । च॒ ॥",
+  "krama": "नमो॑ वृ॒द्धाय॑ । वृ॒द्धाय॑ च । च संवृँध्व॑ने । संवृँध्व॑ने च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒द्धाय॑",
+      "word_ids": [
+        262
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सं॒​वृँध्व॑ने",
+      "word_ids": [
+        263
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒द्धाय॑",
+      "word_ids": [
+        262
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सम्-वृ॒ध्व॑ने",
+      "word_ids": [
+        263
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ वृ॒द्धाय॑",
+      "word_ids": [
+        144,
+        262
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒द्धाय॑ च",
+      "word_ids": [
+        262,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च संवृँध्व॑ने",
+      "word_ids": [
+        19,
+        263
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "संवृँध्व॑ने च",
+      "word_ids": [
+        263,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    262,
+    263
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Vriddhah'—advanced in age. 'Samvridhva'—well-augmented by the hymns (of the Veda)."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "'Namo vriddhaya cha'—great in age. 'Samvridhvane cha'—to the one who is well-grown. It means one who is constantly increased (in glory) by hymns of praise. As it is said: \"May good praises increase you.\" Or: to the one who well-increases his devotees. [Grammatical note]. (10)\n\nSalutation to the foremost and to the first."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "गुणैः सत्रूढो वर्षीयान्, 'अनेन सत्यकामः सत्यसंकल्पः'\n'परास्य शक्तिर्विविधैव श्रूयते स्वाभाविकी ज्ञानवलक्रिया\nच' इत्यादिश्रुत्युक्तिदिव्यगुणमहिह्मा प्रदशितः ॥\n\n      नमो वृद्धाय च संतृध्वने च ॥\n\n      अथ दशमः:—— नमो वृद्धायेति । सर्वापेक्षया वयो-\nऽधिको वृद्धः सर्वैः स्वयं पूज्यः, न तु स्वस्य कश्चित्पूज्यो\nवन्ध्वाऽऽसीत्यर्थे। अत एव खलु पुराणे श्रूयते— 'यस्या-\nहि शिकः स तु वन्दितव्यः स कः करोत्यञ्जलिकां पुरो मे।\nकः पूजितः स्याच्छिशेखरेण नाराधितो भूतपतिस्तु वा\nकैः' इति। अनेन 'यस्मै नमस्त्रिच्छरोधर्मे' इति श्रुति-\nप्रसिद्धं सर्वेनमस्कारविषयत्वमुक्तं भवति । यद्यपि 'यस्मै\nनमस्त्रिच्छरः' इति सामान्येन श्रूयते, तथापि 'त्वं भूतानां\nभेष्ठोऽसि' इति परमेश्वरं प्रस्तुत्य 'सर्वे ते नसः' इत्युपसं-\nहारे सर्वेस्यापि नमस्कारस्य तदीयत्वोक्त्या 'यस्मै नमः'\nइत्युपक्रमेऽपि नमस्कारविषयत्वेन निर्दिष्टः परमेश्वर एवेति\nनिश्चीयते; तस्यैव निजच्छिक्तिरूपशिंशुमाराधाधारत्वेन\nप्रधानतया वञ्छरोरूपप्रधानावयवत्वेन निरूपणीचिह्लात्\nदेवतान्तराणां तदाकृति प्रति मूर्षेहनुहृदयमध्वचरणपुच्छरू-\nपत्वेन स्वस्वनामिभिः पृथङ्निर्दिष्टत्वादित्संयत्र विस्तरः । स-",
+      "english": "He who abounds in divine qualities is Varṣīyas (the supremely excellent). Through this name, the glory of the Lord's divine attributes is indicated, as declared in the Śruti: \"He who is truth-desiring (satya-kāmaḥ) and whose will is truth (satya-saṅkalpaḥ)\" and \"His supreme power is heard of as manifold and various — natural, consisting of knowledge, strength, and action\" — and similar passages.\n\n      Homage to Vṛddha and to Saṃtṛdhvane.\n\n      Now the tenth [mantra]: \"Namo vṛddhāya\" — He who is superior to all in age (vayas) is Vṛddha (the ancient, the eldest); He who is venerable to all and for whom no one is an object of veneration — that is the meaning. Indeed, this is heard in the Purāṇa: \"He whose head should be bowed to — but who would bow before me? Who would fold his hands in reverence before me? Who could be worshipped by one such as Śikhara? Is not the Lord of all beings [already] venerated by all?\" Through this name, the Lord's nature as the object of universal obeisance is affirmed, as well-attested in the Śruti: \"To whom all offer triple salutations\" (yasmai namas triccharodharme). Though the Śruti declares in general terms \"to whom all offer salutations\" (yasmai namaḥ triccharaḥ), yet since the statement \"You are the most excellent of beings\" is made with the Supreme Lord as subject, and the concluding statement is \"all their salutations [belong] to Him,\" the Supreme Lord is indeed the one indicated as the recipient of all salutations in the opening clause \"yasmai namaḥ\" — this is ascertained. The Lord is described primarily as the support of His own power in the form of the cosmic serpent Śiṃśumāra (Delphinus constellation), and the other deities are described as the head, heart, navel, limbs, feet, and tail of that form — each enumerated separately by their own names. Full detail of this is given elsewhere.\n\nHe who receives exclusive and exceptional hymns and salutations from all without exception — with no one superior to render homage to — is Saṃtṛdhvan. Through this name is indicated the well-known truth from Śruti and Purāṇa:"
+    }
+  }
+}

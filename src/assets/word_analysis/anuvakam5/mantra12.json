@@ -1,0 +1,190 @@
+{
+  "id": 12,
+  "samhita": "नम॑ आ॒शवे॑ चाजि॒राय॑ च॒",
+  "pada": "नमः॑ । आ॒शवे॑ । च॒ । अ॒जि॒राय॑ । च॒ ॥",
+  "krama": "नम॑ आ॒शवे॑ । आ॒शवे॑ च । चाजि॒राय॑ । अ॒जि॒राय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आ॒शवे॑",
+      "word_ids": [
+        266
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चाजि॒राय॑",
+      "word_ids": [
+        19,
+        267
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ॒शवे॑",
+      "word_ids": [
+        266
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒जि॒राय॑",
+      "word_ids": [
+        267
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑ आ॒शवे॑",
+      "word_ids": [
+        1,
+        266
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ॒शवे॑ च",
+      "word_ids": [
+        266,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चाजि॒राय॑",
+      "word_ids": [
+        19,
+        267
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒जि॒राय॑ च",
+      "word_ids": [
+        267,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    266,
+    267
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Ashuh'—pervading quickly. 'Ajirah'—skilled in moving."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "'Namah ashave cha'—to the one who pervades rapidly. [Grammatical note]. 'Ajiraya cha'—to the one skilled in movement. From the root 'aj' (to go/throw). [Grammatical note]. (12)\n..."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

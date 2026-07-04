@@ -1,0 +1,279 @@
+{
+  "id": 12,
+  "samhita": "नमः॑ प॒र्ण्या॑य च पर्णश॒द्या॑य च॒",
+  "pada": "नमः॑ । प॒र्ण्या॑य । च॒ । प॒र्ण॒-श॒द्या॑य । च॒ ॥",
+  "krama": "नमः॑ प॒र्ण्या॑य । प॒र्ण्या॑य च । च पर्णश॒द्या॑य । पर्णश॒द्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र्ण्या॑य",
+      "word_ids": [
+        382
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पर्णश॒द्या॑य",
+      "word_ids": [
+        383
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19,
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र्ण्या॑य",
+      "word_ids": [
+        382
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र्ण॒-श॒द्या॑य",
+      "word_ids": [
+        383
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र्ण्या॑य",
+      "word_ids": [
+        382
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र्ण्या॑य",
+      "word_ids": [
+        382
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पर्णश॒द्या॑य",
+      "word_ids": [
+        383
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पर्णश॒द्या॑य",
+      "word_ids": [
+        383
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    382,
+    383
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Na. A.] Rudradhyaya | 79\n\nSalutations to the one on the earth (Urdhyaya) and to the one in the waves (Surmyaya). || 11 ||\n\nSayanacharya Bhashya: 'Urdhyah' is He who exists on the 'urdhya', i.e., the earth. A river having beautiful waves ('urmi') is 'surmi'; He who exists in that is 'surmyah'. || 11 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Urdhyaya'. To the one on the 'urdhya', the earth. (Grammatical note on long vowel). It refers to the entire ground. To 'Surmyaya'. 'Surmi' is a hollow metal image or a flowing stream. Salutations to the one who exists in that. Cites \"Surmim jvalantim...\". || 11 ||\n\nSalutations to the one in the leaves (Parnyaya) and to the one in the heap of dry leaves (Parnashadyaya). || 12 ||\n\nSayanacharya Bhashya: 'Parnyah' is He who exists in leaves (patra). A heap of dry leaves is 'parnashad'; He who exists in that is 'parnashadyah'. || 12 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Parnyaya'. To the one in the leaves. In these three (Urdhya etc.), the initial accent is absent as before. To 'Parnashadyaya'. A heap of dry leaves is 'parnashad'; to the one who is in that. This shows how accessible He is. These are the ways the Lord graces the world. || 12 ||\n\nSalutations to the one who raises weapons (Apaguramanaya) and to the one who strikes (Abhighnate). || 13 ||\n\nSayanacharya Bhashya: 'Apaguramanah' is one with weapons raised. 'Abhighnan' is one who strikes or kills. || 13 ||\n\nBhatta Bhaskara Bhashya: Now He describes how the Lord acts towards the wicked souls who are to be restrained: Salutations to 'Apaguramanaya', the one who raises weapons to strike those to be punished. To 'Abhighnate', the one who strikes or kills the enemies who are in front. || 13 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

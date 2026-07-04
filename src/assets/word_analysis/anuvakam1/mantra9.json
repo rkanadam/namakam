@@ -1,0 +1,521 @@
+{
+  "anuvakam": 1,
+  "title": "प्रथमोनुवाकः",
+  "id": 9,
+  "samhita": "नमो॑ अस्तु॒ नील॑ग्रीवाय सहस्रा॒क्षाय॑ मी॒ढुषे᳚ । अथो॒ ये अ॑स्य॒ सत्वा॑नो॒-ऽह-न्तेभ्यो॑-ऽकर॒न्नमः॑ ॥",
+  "pada": "नमः॑ । अ॒स्तु॒ । नील॑-ग्रीवाय । स॒ह॒स्र॒-अ॒क्षाय॑ । मी॒ढुषे᳚ । अथो॒ इति॑ । ये । अ॒स्य॒ । सत्वा॑नः । अ॒हम् । तेभ्यः॑ । अ॒क॒र॒म् । नमः॑ ॥",
+  "krama": "नमो॑ अस्तु । अ॒स्तु॒ नील॑ग्रीवाय । नील॑ग्रीवाय सहस्रा॒क्षाय॑ । स॒ह॒स्रा॒क्षाय॑ मी॒ढुषे᳚ । मी॒ढुष॒ इति॑ मी॒ढुषे᳚ । अथो॒ ये । ये अ॑स्य । अ॒स्य सत्वा॑नः । सत्वा॑नो॒-ऽहम् । अ॒हन्-तेभ्यः॑ । तेभ्यो॑-ऽकरम् । अ॒क॒र॒न्नमः॑ । नम॒ इति॑ नमः॑ ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "text": "...",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva as detailed in standard commentaries.",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "dhyana": "Meditation on Lord Maheshvara with resplendent Goddess.",
+      "text": "Śrī Rudra Bhāṣyam                   61\n\n---\n\n    \"May there be salutation to the blue-throated one (Nīlagrīva), to the thousand-eyed one (Sahasrākṣa), to the boon-granting one (Mīḍhuṣe). And likewise may I offer salutation to those attendant beings (sattvānaḥ) of his.\"\n\nHaving thus propitiated the solar form through the seventh and eighth [mantras], now through the ninth [mantra] one offers salutation to seek the grace of Śrī Nīlakaṇṭha, who dwells on Mount Kailāsa: \"Namo astu\" — to Nīlagrīva, to the one of the form of the blue-throated one (Nīlakaṇṭhamūrti), may there be salutation. Of what nature [is he]? To Sahasrākṣa — the word \"sahasra\" (thousand) denotes the unlimited, as is known from the Smṛti: \"Viśvam, śatam, sahasram ca — all these are used to mean 'all' or 'the totality'.\" He whose eyes are in the thousands — to him, Sahasrākṣa, meaning one of infinite, unbounded vision. By this [epithet] it is implied: \"Even though you dwell on Kailāsa, my salutation here is within the field of your vision.\" Again, of what nature [is he]? To Mīḍhuṣe — the granter of desires to those who prostrate before him. By this [epithet], the capacity to bestow as the fruit of salutation the fulfilment of all desired objects is indicated. And by [the epithet] Nīlagrīva — meaning \"one who bears the blue throat caused by drinking the Kālakūṭa poison\" — the well-known glory of the Lord is implied: \"The wise one takes credit for the virtue and does not become pained by the fault; he first honours it on his head and then holds the latter at the throat.\" By this, the Lord Supreme, who contains the entire mass of faults (like the kālakūṭa poison) within himself without allowing even a fraction to escape, yet honours every little virtue on his head, is revealed as one who is easy to worship. Having thus saluted the Blessed Lord, [the devotee] now salutes his retinue (pāriṣada): \"Atho ya iti\" — \"And also, those sattvānaḥ (beings of virtuous nature, the close attendants)",
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                   ६१\n\n    नमो अस्तु नीलग्रीवाय सहस्राक्षाय\nमीढुषे । अथो ये अस्य सत्त्वानोऽहं ते-\nभ्योऽकरं नम: ॥\n\n   एवं सप्तमाष्टमाभ्यामादित्यरूपं प्रसाध, नवमेन मूकैला-\nषिनं श्रीनीलकण्ठमूर्तिं प्रसादयितुं नमस्करोति— नमो अ-\nस्त्विति । नीलग्रीवाय नीलकण्ठमूर्तये नमो अस्तु, कीट्-\nशाय? सहस्राक्षाय अपरिमितवाचक: सहस्रशब्द:, 'विश्वं\nशतं सहस्रं च सर्वेमेकशयवाचकम्' इति स्मृते:, सहस्रसमीणि\nयस्य, तस्मै सहस्राक्षाय अपरिच्छिन्नदृष्टये इत्यर्थ: । अनेन\nकैलासवासिनोऽपि तव अत्र मदीयनमस्कार: दृष्टिविषय इ-\nत्युक्तं भवति । पुन: कीदृशाय? मीढुषे प्रणतकामवर्षिणे, अ-\nनेन समस्तेष्टसिद्धिरूपनमस्कारफलप्रदत्वं दर्शितम्; नीलग्रीवा-\nयेलनेन च कालकूटमसनकृतनीलकण्ठत्वशालिने इत्यर्थेन\n'गुणदोषौ बुघो गृह्णाति न्दुःखेठाविभेश्वर: । शिरसा श्राघते\nपूर्वं परं कण्ठे नियच्छति' इति प्रसिद्धो भगवन्महिमा-\nसर्यते । तेन कालकूटविषतुल्यं दोषजालमन्तरेव नियम्य,\nकलामात्रमपि गुणं शिरसा श्राघमान: परमेश्वर: सुखो-\nपास्यो व्यज्यते । एवं भगवन्तं नमस्कुत्य तत्पारिषदानम-\nस्करोति— अथो य इति। अथो अपि च, अस्य नील-"
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्तु॒",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीवाय",
+      "word_ids": [
+        137
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्रा॒क्षाय॑",
+      "word_ids": [
+        138
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मी॒ढुषे᳚",
+      "word_ids": [
+        139
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अथो॒",
+      "word_ids": [
+        59
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॑स्य॒",
+      "word_ids": [
+        41
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सत्वा॑नो॒-ऽह-न्तेभ्यो॑-ऽकर॒न्नमः॑",
+      "word_ids": [
+        140,
+        141,
+        142,
+        143,
+        1
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑-ग्रीवाय",
+      "word_ids": [
+        137
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒ह॒स्र॒-अ॒क्षाय॑",
+      "word_ids": [
+        138
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मी॒ढुषे᳚",
+      "word_ids": [
+        139
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अथो॒",
+      "word_ids": [
+        59
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्य॒",
+      "word_ids": [
+        41
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सत्वा॑नः",
+      "word_ids": [
+        140
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒हम्",
+      "word_ids": [
+        141
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तेभ्यः॑",
+      "word_ids": [
+        142
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒क॒र॒म्",
+      "word_ids": [
+        143
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्तु",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीवाय",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीवाय",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्रा॒क्षाय॑",
+      "word_ids": [
+        8,
+        138
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒ह॒स्रा॒क्षाय॑",
+      "word_ids": [
+        138,
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मी॒ढुषे᳚",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मी॒ढुष॒",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मी॒ढुषे᳚",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अथो॒",
+      "word_ids": [
+        59
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॑स्य",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्य",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सत्वा॑नः",
+      "word_ids": [
+        41
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सत्वा॑नो॒-ऽहम्",
+      "word_ids": [
+        41,
+        141
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒हन्-तेभ्यः॑",
+      "word_ids": [
+        141,
+        142
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तेभ्यो॑-ऽकरम्",
+      "word_ids": [
+        142,
+        143
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒क॒र॒न्नमः॑",
+      "word_ids": [
+        143,
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॒",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    8,
+    41,
+    59,
+    117,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143
+  ]
+}

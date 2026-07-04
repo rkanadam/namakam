@@ -1,0 +1,223 @@
+{
+  "id": 2,
+  "words": [
+    1,
+    144,
+    148,
+    205,
+    206,
+    207
+  ],
+  "samhita": "नमः॑ ककु॒भाय॑ निष॒ङ्गिणे᳚ स्ते॒नाना॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमः॑ । क॒कु॒भाय॑ । नि॒-ष॒ङ्गिणे᳚ । स्ते॒नाना᳚म् । पत॑ये । नमो॒ ॥",
+  "krama": "नमः॑ ककु॒भाय॑ । ककु॒भाय॑ निष॒ङ्गिणे᳚ । निष॒ङ्गिणे᳚ स्ते॒नाना᳚म् । स्ते॒नानां॒ पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ककु॒भाय॑",
+      "word_ids": [
+        205
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निष॒ङ्गिणे᳚",
+      "word_ids": [
+        206
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स्ते॒नाना॒",
+      "word_ids": [
+        207
+      ]
+    },
+    {
+      "text": "-",
+      "word_ids": []
+    },
+    {
+      "text": "म्पत॑ये॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "क॒कु॒भाय॑",
+      "word_ids": [
+        205
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नि॒-ष॒ङ्गिणे᳚",
+      "word_ids": [
+        206
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स्ते॒नाना᳚म्",
+      "word_ids": [
+        207
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ ककु॒भाय॑",
+      "word_ids": [
+        1,
+        205
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ककु॒भाय॑ निष॒ङ्गिणे᳚",
+      "word_ids": [
+        205,
+        206
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "निष॒ङ्गिणे᳚ स्ते॒नाना᳚म्",
+      "word_ids": [
+        206,
+        207
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स्ते॒नानां॒ पत॑ये",
+      "word_ids": [
+        207,
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒ नमो॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | kakubhaya | nishangine | iti | ni-sangine | stenanam | pataye | namah || 2 ||\n\nSayana's Commentary: 'Kakubhaya'—to him who is like a peak (kakubh), meaning the foremost/chief. 'Nishangine'—to him with a sword in his hand. 'Stenanam pataye'—salutation to the protector of 'stenas' (secret thieves). Rudra, like an actor, assumes various roles as a play (leela). Or: because he is the self of the whole world, in whatever form (people) exist anywhere, he is in that very form...\n..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n८८                    श्रीरुद्रभाष्यम् ।\n---\n\nस्यापरिहार्यत्वादिल्याशङ्कथ, भक्तापराधसह्नस्वभावे भगवति\nनेयं शङ्केत्याह— सहमानायेति । इति प्रथमः ॥\n\nनमः ककुभाय निषङ्गिणे स्तेनानां पत-\nये नमः ॥\n\nअथ द्वितीयः— नमः ककुभायेति । ककुभाय महते,\nनिषङ्गिणे खड्गवते, स्तेनानां गुप्तचोराणां स्वामिने नमः ।\nअत्र ककुभशब्दवाच्यमहत्त्वस्य प्रतियोग्याकाङ्कायाम्, स्व-\nवाक्योपात्तस्तेनानासमेव तत्प्रतियोगित्वेलसान्वयः; तथा च स्ते-\nनेषु महत्त्वं स्वेनस्वामित्वे हेतुः ककुभाय इत्यनेन चोच्यते ।\nनिषङ्गिणे इत्यनेन स्तेनकियापेक्षितोपकरणसंपत्तिः प्रदर्श्य-\nते । इति द्वितीयः ॥\n\nनमो निषङ्गिण इषुधिमते तस्कराणां\nपतये नमः ॥\n\nअथ तृतीयः— नमो निषङ्गिण इति । धनुषि संबाहुं\nहस्ते धृतो बाणः निषङ्गः, पृष्ठे बद्धो वाणाधारः इषुधिः,\nतदुभययुक्ताय; तस्कराणां प्रकाशचोराणां स्वामिते नमः ।\nअत्र तस्कराधिपत्सानुगुणरूपप्रदर्शनार्थत्वेन विशेषणं संगय-\nयितव्ये । इति तृतीयः ॥",
+      "english": "---\n                    Sri Rudra Bhashyam                    88\n---\n\n[Mantra 4:]\nObeisance to the one who deceives, to the one who thoroughly deceives, to the Lord of sneaky pilferers (stayus) — obeisance.\n\nNow the fourth [commentary]: — \"Namo vanchata\" (Obeisance to the deceiver). Those who, while being considered as one's own people, having gained the trust of others, steal their goods — they are the stayavah (sneaky pilferers); obeisance to their Lord. In order to establish the Lord's lordship over sneaky pilferers, the two qualifying epithets \"vanchate\" (deceiver) and \"parivanchate\" (thorough deceiver) are given: one who, while appearing as a trustworthy person in others' affairs and in transactions of buying and selling of goods belonging to others, steals something here and there — he is called a \"vanchashrita\" (partial deceiver); one who commits deception in all transactions is called a \"parivanchashrita\" (complete deceiver); [the Lord appears in] such forms — this is the meaning. Thus ends the fourth.\n\n[Mantra 5:]\nObeisance to the one who roams quietly, to the one who roams on all sides, to the Lord of forest-dwellers (aranyanas) — obeisance.\n\nNow the fifth [commentary]: — \"Namo nicerava\" (Obeisance to the quiet roamer). Those who live in forests are the aranyavasi (forest-dwellers), and of these aranyanahs, obeisance to their Lord — this is what is being established. [The text] supports this very point with: \"Namo nicerave paricara\" — one who by nature roams quietly (nicerava) [in forests], surpassing [in stealth] even the forest-dwelling thieves; and \"paricara\" — one who roams in all directions to steal [more than them]; the idea being that since He is supreme among them by virtue of being a more skilled roamer than even those [forest thieves], it is fitting that He be their lord. Thus ends the fifth."
+    }
+  }
+}

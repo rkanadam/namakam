@@ -1,0 +1,223 @@
+{
+  "id": 8,
+  "words": [
+    1,
+    144,
+    148,
+    222,
+    223,
+    224
+  ],
+  "samhita": "नम॑ उष्णी॒षिणे॑ गिरिच॒राय॑ कुलु॒ञ्चाना॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमः॑ । उ॒ष्णी॒षिणे᳚ । गि॒रि॒-च॒राय॑ । कु॒लु॒ञ्चाना᳚म् । पत॑ये । नमो॒ ॥",
+  "krama": "नम॑ उष्णी॒षिणे॑ । उष्णी॒षिणे॑ गिरिच॒राय॑ । गिरिच॒राय॑ कुलु॒ञ्चाना᳚म् । कुलु॒ञ्चानां॒ पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उष्णी॒षिणे॑",
+      "word_ids": [
+        222
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गिरिच॒राय॑",
+      "word_ids": [
+        223
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कुलु॒ञ्चाना॒",
+      "word_ids": [
+        224
+      ]
+    },
+    {
+      "text": "-",
+      "word_ids": []
+    },
+    {
+      "text": "म्पत॑ये॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒ष्णी॒षिणे᳚",
+      "word_ids": [
+        222
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गि॒रि॒-च॒राय॑",
+      "word_ids": [
+        223
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कु॒लु॒ञ्चाना᳚म्",
+      "word_ids": [
+        224
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑ उष्णी॒षिणे॑",
+      "word_ids": [
+        1,
+        222
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उष्णी॒षिणे॑ गिरिच॒राय॑",
+      "word_ids": [
+        222,
+        223
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गिरिच॒राय॑ कुलु॒ञ्चाना᳚म्",
+      "word_ids": [
+        223,
+        224
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कुलु॒ञ्चानां॒ पत॑ये",
+      "word_ids": [
+        224,
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒ नमो॒",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | srikavibhyah | iti | srikavi-bhyah | jighahmsadbhyah | iti | jighahmsat-bhyah | mushnatam | pataye | namah || 6 ||\n\nSayana's Commentary: The word 'srika' refers to the thunderbolt (vajra). Those who protect (avanti) their bodies with that are 'srikavinah'. Thieves who desire to kill (jighahmsantah) living beings. Salutation to the one in both those forms. Those who, while being farmers, steal the master's grain are 'mushnantah'; salutation to their protector. (6)\n\nBhatta-Bhaskara-Bhashya: 'Namah srikavibhyah'. 'Srikam' is a name for the thunderbolt. By that, any weapon is indicated. To those who possess that, or to the attendants of Rudra. [Grammatical note]. Or: to the protectors of weapons like 'srika' etc. [Grammatical note]. Another says: these are special classes of men who live by their skill with specific weapons. 'Jighahmsadbhyah'—to those who desire to kill. Others say these are special classes of men. 'Mushnatam pataye namah'—the taking away of wealth etc. is 'mosha' (theft). From the root 'mush' (to steal). [Grammatical note]. (6)\n\nHe speaks the seventh Yajus:\nSalutation to the sword-bearers who move at night, salutation to the lord of those who kill and steal."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n९०                    श्रीरुद्रभाष्यम् ।\n---\n\nनमः सृकाविभ्यो जिघांसद्भ्यो सु-\nष्णतां पतये नमः ॥\n\nअथ षष्ठः— नमः सृकाविभ्य इति । सृकेण यन्त्रे-\nणात्मानमवन्तीति सृकाविणः, प्राणिनो हन्तुमिच्छन्ते\nजिघांसन्तः, तदुभयरूपाय; सुष्णतां केदारादिषु धान्य-\nचोराणां स्वामिने नमः । अत्रापि सुष्णतां पतित्वं समये त-\nरक्षणचतुरस्य तद्विरोधिनो जिषांसत एव भवतीति विशे-\nषणद्वयम् । बहुवचनं छान्दसम्, अन्यथा विशेषणाविशेष्य-\nभावायोगात् । एवमुत्तरमन्त्रेऽपि । इति षष्ठः ॥\n\nनमोऽसिमञ्ज्यो नक्तञ्च वः प्रकुन्तानां\nपतये नमः ॥\n\nअथ सप्तमः— नमोऽसिमञ्ज्य इति । असिमन्तः\nखड्गधारिणः, नक्तञ्चरन्तः राखिषरा:, तदूपायेत्यर्थः ।\nइलैवापहरन्तश्चोराः प्रकुन्ताः, तेषां स्वामिने नमः । अत्र\nप्रकृन्तस्वामित्वानुगुणरूपप्रदर्शनाय विशेषणद्वयम् । इति\nसप्तमः ॥\n\nनम उर्णिषिणे गिरिचराय कुलुञ्छा-\nनां पतये नमः ॥",
+      "english": "---\n                    Sri Rudra Bhashyam                    89\n---\n\nNow the eighth [commentary]: — \"Ushnishine\" (to the turban-wearer). Those who steal (apahrita) land — such as houses and fields — are called \"kulunjchas\" (land-thieves); obeisance to their Lord. There are two types of kulunjchas: some, who live among the people while wearing turbans (ushnisha) and being [outwardly] reputable, steal fields from wicked people; others, living in mountains and forests as apparently virtuous persons, steal fields and the like from ordinary people. Both of these forms are indicated in order by the two epithets \"ushnishine\" (turban-wearer) and \"girichara\" (mountain-roamer). The idea is that it is fitting that the Lord of such kulunjchas should be of such a form.\n\n[Mantra 9:]\nObeisance to the arrow-bearers and the bow-bearers — obeisance to you all.\n\nThus, through these mantras ending with \"namo hiranyabahave\" (obeisance to the golden-armed one) — each mantra displaying the lordship of the [Lord] over one particular thing — and through the explicit declaration \"jagatam pataye namah\" (obeisance to the Lord of worlds), His lordship over all creation — celebrated in the Shruti as \"This is the Lord of all, this is the ruler of all worlds\" — having been stated, [the text] now begins to describe the Lord's being-the-self-of-everything (sarvatmakatva) in the form of His being the very substance of each thing — beginning with \"nama ishumanjya\" (obeisance to the arrow-bearers) and so on. Those who carry arrows in their hands and bows for striking the worlds — the \"ishumantas\" and \"dhanvavinah\" — all who exist in the world in the form of gods, demons, and humans: obeisance to you, O you who are all these [forms]. Since the aspects (amshas) of the Supreme Lord and those who know Him are the more fierce Rudras in their multitude, and because [the address is] intended as a salutation to them, the plural form is used. And thus among these [Rudras], those who are extremely fierce (ghoratara) are the ones addressed"
+    }
+  }
+}

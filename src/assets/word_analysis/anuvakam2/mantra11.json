@@ -1,0 +1,253 @@
+{
+  "anuvakam": 2,
+  "title": "द्वितीयोनुवाकः",
+  "id": 11,
+  "samhita": "नमो॑ भुव॒न्तये॑ वारिवस्कृ॒ता-यौष॑धीना॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमो॑ । भुव॒न्तये॑ । वा॒रि॒व॒स्-कृ॒ताय॑ । ओष॑धीनाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नमो॑ भुव॒न्तये॑ । भुव॒न्तये॑ वारिवस्कृ॒ताय॑ । वा॒रि॒व॒स्कृ॒ता-यौष॑धीनाम् । ओष॑धीना॒-म्पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "text": "'Bhuvanti' is he who extends (tanoti) the earth (bhuvam). Salutation be to that Rudra. 'Varivah' is wealth; its maker is 'varivaskrita'. Salutation be to that Rudra. Salutation to Rudra who is the protector of medicinal plants (oushadhi), both of the village and the forest. (11)\n\nBhatta-Bhaskara-Bhashya: 'Namo bhuvantaye'. He in whom the universe exists (bhavati) as the material cause, predominating in being, is 'bhuvantah'. Or: he who exists (bhavanti) always and everywhere. [Grammatical note]. Or: 'bhuvanti' is he who extends (tanoti) the earth by being the support for grass, bushes, herbs, and trees. 'Varivaskritaya'—'varivah' is wealth; its maker is 'varivaskara'. [Grammatical note]. Or: he who is connected as a helper to those who earn wealth. Another says: 'varivah' is service/worship; its performers are 'varivaskritah'—the devotees; he is 'varivaskrita' for them. It means he is 'bhakta-vatsala' (fond of his devotees). Or: to him who has made his residence (vasa) in water (vari)—to him in the form of Vishnu or Varuna. [Grammatical note]. Salutation to the Lord of medicinal plants (oushadhi)—to the Master of both village and forest varieties; in the form of Soma (the moon), being the protector of those produced in the form of beings. 'Oshadhayah' are those which grow/stay until they ripen (osha-antam dhiyante). (11)\n...",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva's universal form (Vaishvarupya).",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on the golden-armed Lord.",
+      "text": "",
+      "sanskrit": ""
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भुव॒न्तये॑",
+      "word_ids": [
+        152,
+        153
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वारिवस्कृ॒ता-यौष॑धीना॒-म्पत॑ये॒",
+      "word_ids": [
+        154,
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भुव॒न्तये॑",
+      "word_ids": [
+        152,
+        153
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वा॒रि॒व॒स्-कृ॒ताय॑",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ओष॑धीनाम्",
+      "word_ids": [
+        154
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भुव॒न्तये॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भुव॒न्तये॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वारिवस्कृ॒ताय॑",
+      "word_ids": [
+        153
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वा॒रि॒व॒स्कृ॒ता-यौष॑धीनाम्",
+      "word_ids": [
+        153,
+        154,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ओष॑धीना॒-म्पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    144,
+    148,
+    152,
+    153,
+    154
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "id": 9,
+  "samhita": "प॒रि णो॑ रु॒द्रस्य॑ हे॒तिर्वृ॑णक्तु प॒रि त्वे॒षस्य॑ दुर्म॒तिर॑घा॒योः । अव॑ स्थि॒रा म॒घव॑द्भ्यस्तनुष्व मीढ्व॑स्तो॒काय॒ तन॑याय मृडय ॥",
+  "pada": "परि॑ । नः॒ । रु॒द्रस्य॑ । हे॒तिः । वृ॒ण॒क्तु॒ । परि॑ । त्वे॒षस्य॑ । दुः॒-म॒तिः । अ॒घ॒-योः । अव॑ । स्थि॒रा । म॒घव॑त्-भ्यः । त॒नु॒ष्व॒ । मी॒ढ्वः॒ । तो॒काय॑ । तन॑याय । मृ॒ड॒य॒ ॥",
+  "krama": "प॒रि नः॑ । नः॒ रु॒द्रस्य॑ । रु॒द्रस्य॑ हे॒तिः । हे॒तिर्वृ॑णक्तु । वृ॒ण॒क्तु॒ परि॑ । परि॑ त्वे॒षस्य॑ । त्वे॒षस्य॑ दुर्म॒तिः । दुर्म॒तिर॑घा॒योः । अ॒घा॒योरव॑ । अव॑ स्थि॒रा । स्थि॒रा म॒घव॑द्भ्यः । म॒घव॑द्भ्यस्तनुष्व । त॒नुष्व॑ मीढ्वः । मीढ्व॑स्तो॒काय॑ । तो॒काय॒ तन॑याय । तन॑याय मृडय । मृ॒ड॒येति॑ मृडय ॥",
+  "samhita_tokens": [
+    {
+      "text": "प॒रि",
+      "word_ids": [
+        52,
+        52
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "णो॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिर्वृ॑णक्तु",
+      "word_ids": [
+        45,
+        58
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒रि",
+      "word_ids": [
+        52,
+        52
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वे॒षस्य॑",
+      "word_ids": [
+        516
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दुर्म॒तिर॑घा॒योः",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अव॑",
+      "word_ids": [
+        124
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स्थि॒रा",
+      "word_ids": [
+        519
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒घव॑द्भ्यस्तनुष्व",
+      "word_ids": [
+        33,
+        521
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मीढ्व॑स्तो॒काय॒",
+      "word_ids": [
+        522,
+        523
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तन॑याय",
+      "word_ids": [
+        33,
+        524
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृडय",
+      "word_ids": [
+        71
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "परि॑",
+      "word_ids": [
+        52
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        446
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिः",
+      "word_ids": [
+        45
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒ण॒क्तु॒",
+      "word_ids": [
+        58
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॑",
+      "word_ids": [
+        52
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वे॒षस्य॑",
+      "word_ids": [
+        516
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दुः॒-म॒तिः",
+      "word_ids": [
+        517
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒घ॒-योः",
+      "word_ids": [
+        518
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अव॑",
+      "word_ids": [
+        124
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स्थि॒रा",
+      "word_ids": [
+        519
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒घव॑त्-भ्यः",
+      "word_ids": [
+        520
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नु॒ष्व॒",
+      "word_ids": [
+        521
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मी॒ढ्वः॒",
+      "word_ids": [
+        522
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तो॒काय॑",
+      "word_ids": [
+        523
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तन॑याय",
+      "word_ids": [
+        524
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒य॒",
+      "word_ids": [
+        71
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "प॒रि",
+      "word_ids": [
+        52,
+        52
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        521,
+        524
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        521,
+        524
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिः",
+      "word_ids": [
+        45
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिर्वृ॑णक्तु",
+      "word_ids": [
+        45,
+        58
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒ण॒क्तु॒",
+      "word_ids": [
+        58
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॑",
+      "word_ids": [
+        52,
+        52
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॑",
+      "word_ids": [
+        52,
+        52
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वे॒षस्य॑",
+      "word_ids": [
+        516
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वे॒षस्य॑",
+      "word_ids": [
+        516
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दुर्म॒तिः",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दुर्म॒तिर॑घा॒योः",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒घा॒योरव॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अव॑",
+      "word_ids": [
+        124
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स्थि॒रा",
+      "word_ids": [
+        519
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स्थि॒रा",
+      "word_ids": [
+        519
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒घव॑द्भ्यः",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒घव॑द्भ्यस्तनुष्व",
+      "word_ids": [
+        33,
+        521
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नुष्व॑",
+      "word_ids": [
+        33,
+        521
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मीढ्वः",
+      "word_ids": [
+        522
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मीढ्व॑स्तो॒काय॑",
+      "word_ids": [
+        522,
+        523
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तो॒काय॒",
+      "word_ids": [
+        523
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तन॑याय",
+      "word_ids": [
+        33,
+        524
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तन॑याय",
+      "word_ids": [
+        33,
+        524
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृडय",
+      "word_ids": [
+        71
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒येति॑",
+      "word_ids": [
+        71
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृडय",
+      "word_ids": [
+        71
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    33,
+    45,
+    52,
+    58,
+    71,
+    124,
+    446,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "102 Sayanacharya—along with Bhatta Bhaskara Bhashya— [Na. Da. A.]\n\nHe states the ninth Rik:\n\nMay the weapon of Rudra avoid us. May the ill-will of the fierce and sinful one avoid us. O Bountiful one, unbend your firm bows from us. O Showerer of desires, make our children and grandchildren happy. || 9 ||\n\nSayanacharya Bhashya: 'Hetih' is the weapon by which one strikes. May Rudra's weapon avoid ('pari vrinaktu') us; let it keep away from us. Meaning, let it never strike us. May the ill-will ('durmatih')—the fierce intellect—of Rudra, who is fierce ('tveshasya') and desires sin/suffering ('aghayoh') for those to be punished, also avoid us. Whatever firm bows You have to destroy opponents—O Bountiful one ('maghavan')—unbend them ('avatanushva') from us (the sacrificers). O 'Midhuh' (Showerer of desires), make our son ('tokaya') and his son ('tanayaya') happy. || 9 ||\n\nBhatta Bhaskara Bhashya: The Chhandas of \"Pari no rudrasya\" is Trishtubh. Rishi and Devata are Bhagavan Himself. Here too, because of the fierce form, the first and second halves are indirect and direct respectively.\n\n\"Pari no rudrasya\": 'Hetih' is a weapon. May Rudra's weapon avoid ('pari vrinaktu') us and our sons and grandsons. (Grammatical notes). Furthermore, may the ill-will ('durmatih')—the intellect of punishment—of the Lord who is 'tveshasya' (glowing with anger) and 'aghayoh' (desiring suffering for sinful men) also avoid us. The prayer is: \"May we not be sinful men who are to be punished.\" (Grammatical notes). Furthermore, 'sthira': firm bows. (Grammatical notes). Unbend ('avatanushva') the firm bow, meaning relax the string. Or unbend Your many bows. We pray for safety. 'Maghavadbhyah': For the sake of those having wealth (in the form of Havis). Unbend the bow for them; do not harm them. Who harms a sacrificer? The idea is: \"Just as we, the offerers of Havis, may be fearless worshippers of Yours, for that purpose, unbend the bow.\" Others say: \"The firm intellect is referred to as 'durmatih'; that firm/unwavering ill-will should not be given to us.\" Relax it for the sake of the 'maghavat' (sacrificers). 'Midhuh': O Showerer of desires. Make our son ('tokaya') and his son ('tanayaya') happy. (Grammatical notes). || 9 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "---\nश्रीरुद्रभाष्यम् ।                    १४३\n---\n\nत्रमभयवरदं ध्यायेदुद्रं सुरौघनुतम्' । एकरात्रोपवासपूर्वेकं\nत्रिरात्रसतत्तजपातुरञ्चरणसिद्धिः । शत्रुनाशनप्रदोऽयं मन्त्रः ॥\n\n    परि णो रुद्रस्य हेतिर्घृणक्तु परि त्वे-\nषस्य दुर्मतिरघायोः । अव स्थिरा मघव-\nञ्जस्तनुष्य मृडुस्तोकाथ तनयाय मृडय ॥\n\n    अथ नवमः—परि णो रुद्रस्येति । रुद्रस्य हेतिः आ-\nयुधं नः अस्मान् परिवृणक्तु परिवर्जयतु, कदाचिदपि मा\nविश्यतित्यर्थः । हन्तुः हनेतबुद्धौ सत्यां हेतिपरिवर्जनमश-\nक्यमिति तटुखेः परिवर्जेनं प्रार्थयते— परि त्वेषस्येति ।\nअघायोः अघं पापं कोघसाधनत्वेन इच्छतीति अघायुस्तस्य,\nपरि परितः, त्वेषस्य कोपेन दीप्तस्य रुद्रस्य दुर्मतिः हनन-\nबुद्धिः, साऽप्यस्मान्बृणक्तु । विहिताकरणनिन्दतानुष्ठानरूपा-\nत्पापात्परमेश्वरस्य क्रोधः, ततो हन्तव्यताबुद्धिः, वतस्तु ऐहि-\nकायुष्मेकिविवधतु-खसाघनदेशकाळपुरुषादितानापदार्थरूपैः\nपरमेश्वरायुभैः वेधः, ततो दुःखानुभव इति क्रमः; तदत्र\nपापादिदुःखानुभवान्वं सर्वेभि प्रार्थितं भवति । नतु अमो-\nघा मवीयहेतिमेतिश्च, कथं तत्परिहारः स्यात्? तत्राह—\nअव स्थिरेति । हे मीद्वः प्रणतकामवर्षिणिति हेतुगर्भे शं-",
+      "english": "---\nSri Rudra Bhashyam                    143\n---\n\n— who bestows fearlessness and boons upon the frightened, who is praised by hosts of gods.\" Mantra-siddhi (perfection in the mantra) is attained by three nights of continuous recitation preceded by a one-night fast. This mantra is primarily for the destruction of enemies (śatru-nāśana).\n\n    pari ṇo rudrasya hetir vṛṇaktu pari tveṣasya\n    durmatir aghāyoḥ | ava sthirā maghavan\n    jastanuṣya mṛḍus tokātha tanayāya mṛḍaya ||\n\n    May the weapon (heti) of Rudra pass us by and spare us;\n    may the wicked intent of the blazing one who desires evil (aghāyoḥ) circle away from us.\n    O bountiful one (maghavan), lay down your firm (sthirā) missile.\n    Be gentle toward our offspring (toka) and bring joy to our son (tanaya).\n\nNow the ninth mantra — beginning \"pari ṇo rudrasya\" (may the weapon of Rudra pass us by). May the weapon (hetiḥ, the missile) of Rudra pass us by (parivṛṇaktu) and leave us alone — may it never enter us. But since it seems impossible to deflect the weapon when the destroyer has the intent to destroy, the prayer continues — \"pari tveṣasya\" (may the wicked intent also pass by). Of aghāyoḥ — meaning: one who desires harm (agha, sin) as the instrument of his anger; of the blazing (tveṣasya) Rudra who is inflamed by wrath — may even his \"durmatir\" (wicked intent, the intent to slay) also pass around us. The sequence is: sin arising from non-performance of enjoined acts and from performance of prohibited acts; from that, the anger of the Supreme Lord; from that, the intent to destroy; from that, the infliction of suffering by the Supreme Lord's instruments — in the form of the means of this-worldly and otherworldly suffering, such as time, place, person, etc.; and finally, the experience of pain. Thus the entire cycle from sin to the suffering of its consequences is what is being prayed against here. But the weapon of the Lord is irresistible and unerring — how then can it be averted? To this he answers — \"ava sthirā\" (lay down the firm one). O mīḍvas (you who shower upon those who bow to you — this being a vocative that contains the reason within itself) —"
+    }
+  }
+}

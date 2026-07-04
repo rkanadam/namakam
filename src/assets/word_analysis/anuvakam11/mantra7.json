@@ -1,0 +1,263 @@
+{
+  "id": 7,
+  "samhita": "ये प॒था-म्प॑थि॒रक्ष॑य ऐलबृ॒दा य॒व्युधः॑ ।",
+  "pada": "ये । प॒थाम् । प॒थि-रक्ष॑यः । ऐ॒ल॒-बृ॒दाः । य॒व्युधः॑ ॥",
+  "krama": "ये प॒थाम् । प॒था-म्प॑थि॒रक्ष॑यः । प॒थि॒रक्ष॑य ऐलबृ॒दाः । ऐलबृ॒दा य॒व्युधः॑ । य॒व्युध॒ इति॑ य-व्युधः ॥",
+  "samhita_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒था-म्प॑थि॒रक्ष॑य",
+      "word_ids": [
+        567,
+        568
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ऐलबृ॒दा",
+      "word_ids": [
+        569
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "य॒व्युधः॑",
+      "word_ids": [
+        570
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒थाम्",
+      "word_ids": [
+        567
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒थि-रक्ष॑यः",
+      "word_ids": [
+        568
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ऐ॒ल॒-बृ॒दाः",
+      "word_ids": [
+        569
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "य॒व्युधः॑",
+      "word_ids": [
+        570
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒थाम्",
+      "word_ids": [
+        567
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒था-म्प॑थि॒रक्ष॑यः",
+      "word_ids": [
+        567,
+        568
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒थि॒रक्ष॑य",
+      "word_ids": [
+        568
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ऐलबृ॒दाः",
+      "word_ids": [
+        569
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ऐलबृ॒दा",
+      "word_ids": [
+        569
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "य॒व्युधः॑",
+      "word_ids": [
+        570
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "य॒व्युध॒",
+      "word_ids": [
+        570
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "य-व्युधः",
+      "word_ids": [
+        570
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    117,
+    567,
+    568,
+    569,
+    570
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

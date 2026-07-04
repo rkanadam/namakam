@@ -1,0 +1,199 @@
+{
+  "id": 1,
+  "samhita": "नमो॑ भ॒वाय॑ च रु॒द्राय॑ च॒",
+  "pada": "नमो॑ । भ॒वाय॑ । च॒ । रु॒द्राय॑ । च॒ ॥",
+  "krama": "नमो॑ भ॒वाय॑ । भ॒वाय॑ च । च रु॒द्राय॑ । रु॒द्राय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒वाय॑",
+      "word_ids": [
+        261
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्राय॑",
+      "word_ids": [
+        176
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒वाय॑",
+      "word_ids": [
+        261
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्राय॑",
+      "word_ids": [
+        176
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ भ॒वाय॑",
+      "word_ids": [
+        144,
+        261
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒वाय॑ च",
+      "word_ids": [
+        261,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च रु॒द्राय॑",
+      "word_ids": [
+        19,
+        176
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्राय॑ च",
+      "word_ids": [
+        176,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    176,
+    261
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Bhavah'—because living beings arise (bhavanti) from him. 'Rudrah'—because he melts away (dravayati) the sorrow (rut) which is the cause of weeping."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "For the two anuvakas 'Namo bhavaya cha' and 'Namo jyeshthaya cha' (5th and 6th), the Rishi and Deity are Bhagavan Shambhu Himself. The Metre is Mahavirat. Thus, through the (previous) three anuvakas (2, 3, 4), the God's universal lordship (vishvadhipatyam) was established. From here on, the God is praised according to the distinctions of his eight forms (Ashta-murti). The salutations at both ends are gone. From here on, salutations are at one end. Among those, those with salutation at the beginning: 'Namo bhavaya cha rudraya cha'. He who exists (bhavati) everywhere and at all times is 'Bhavah'. [Grammatical note]. He indeed exists, and never at any time does he not exist. Or: he who manifests (bhavayati) everything, or is contemplated (bhavyate) by all. Or: he in whom everything exists. He is the presiding deity (adhishthata) of Water among the eight forms. 'Rudraya' has been explained. He is the presiding deity of the Sun (Surya). Therefore, he is recited again in the section on presiding deities. (1)\n\nSalutation to the destroyer and to the lord of cattle."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "पञ्चमोऽनुवाकः ॥\n\n                         ———\n\n      नमो भवाय च रुद्राय च नमः श-\n    र्वाय च पशुपतये च ॥\n\n      इत्यं चतुर्थे सर्वात्मकत्वेन भगवान्नमस्कृतः ; इदानीं\nभगवद्साधारणधर्मरूपतन्यमिह्मानुसंघानपूर्वकं तत्नमस्कार-\nमारभते । एतदारभ्य 'द्रापे' इत्येतत्पर्यन्तमन्यतो नमस्-\nकाराः, सर्वैत्र नमस्कारादिरेकैको मन्त्रः ; यथा— 'नमो\nभवाय च रुद्राय च' इत्यादि । एवमन्येऽपि ज्ञेयाः ।\nतत्र प्रथमं द्वाभ्यां मन्त्राभ्यां जगज्जन्मस्थितिसंहारबन्घमो-\nक्षार्थपशुकुलयकारित्वरूपरपरमेश्वरासाधारणमिह्मानसतुसं-\nदधानसतं नमस्करोति— नमो भवाय चेति । भवत्यसा-\nज्जगदिति भवः, अनेन 'सर्वमिदं ब्रह्माविष्णुरुद्रेन्द्रास्ते संप्र-\nसूयन्ते' इत्यादिश्रुतिप्रसिद्धं भगवतो जगज्जन्महेतुत्वं प्रद-\nशितम् । हदं संसारदुःखं द्रावयतीति रुद्रः, अनेन 'यदा\nचमेवदाकाशं वेष्टियिष्यन्ति मानवाः । तदा शिवमिज्ञाय\nदुःखस्यान्तो भविष्यति' 'बद्रस्तारकं ब्रह्म ब्याच्छे' इति",
+      "english": "Fifth Anuvāka (pañcamo'nuvākaḥ)\n\n                         ———\n\n      Homage to Bhava and to Rudra; homage to\n    Śarva and to Paśupati.\n\n      Thus in the fourth anuvāka the Lord was saluted as the Soul of all. Now, keeping in mind the Lord's exclusive distinguishing attributes, the text begins His adoration. From this mantra onward through \"drāpe,\" the salutations are directed toward various aspects of the Lord; each mantra from the opening salutation onward stands as a single unit, as for instance \"namo bhavāya ca rudrāya ca\" and so forth. The same should be understood for the others as well.\n\n      Here, in the first two mantras, homage is offered to the Lord while contemplating His exclusive, unsurpassed glory as the cause of the birth, sustenance, dissolution, bondage, and liberation of all beings — particularly His lordship over the herd of souls (paśukulayakāritva). \"Namo bhavāya ca\" — He from whom this world comes into being is Bhava (bhavaty asmāt jagad iti bhavaḥ); through this name is indicated the Lord's role as the cause of world-creation (jagaj-janmahetutva), well-attested in the Śruti by \"From Him indeed all these — Brahma, Viṣṇu, Rudra, and Indra — are born.\" \"He who drives away (drāvayati) the suffering of saṃsāra (worldly existence) is Rudra\"; through this name, the role of Rudra as the bestower of liberation (mokṣahetutva) is stated, as well-attested in the Śvetāśvatara Upaniṣad: \"When men shall roll up space as though it were a piece of hide, then shall the end of suffering come without knowing Śiva,\" and in \"Rudra is the liberating (tāraka) Brahman who carries [the dying] across.\""
+    }
+  }
+}

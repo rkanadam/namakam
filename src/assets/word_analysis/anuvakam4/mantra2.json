@@ -1,0 +1,213 @@
+{
+  "id": 2,
+  "words": [
+    1,
+    19,
+    144,
+    190,
+    245,
+    246
+  ],
+  "samhita": "नम॒ उग॑णाभ्यस्तृग्ं-ह॒तीभ्य॑श्च वो॒ नमो॒",
+  "pada": "नमः॑ । उग॑णाभ्यः । तृं॒ह॒तीभ्यः॑ । च॒ । वः॒ । नमो॒ ॥",
+  "krama": "नम॒ उग॑णाभ्यः । उग॑णाभ्यस्तृग्ं-ह॒तीभ्यः॑ । तृग्ं-ह॒तीभ्य॑श्च । च वो॒ । वो नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॒",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उग॑णाभ्यस्तृग्ं",
+      "word_ids": [
+        245
+      ]
+    },
+    {
+      "text": "-",
+      "word_ids": []
+    },
+    {
+      "text": "ह॒तीभ्य॑श्च",
+      "word_ids": [
+        246,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वो॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उग॑णाभ्यः",
+      "word_ids": [
+        245
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तृं॒ह॒तीभ्यः॑",
+      "word_ids": [
+        246
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वः॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॒ उग॑णाभ्यः",
+      "word_ids": [
+        1,
+        245
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उग॑णाभ्यस्तृग्ं-ह॒तीभ्यः॑",
+      "word_ids": [
+        245
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तृग्ं-ह॒तीभ्य॑श्च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वो॒",
+      "word_ids": [
+        19,
+        245
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वो नमो॒",
+      "word_ids": [
+        246,
+        246
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | uganabhyah | trimhatibhyah | cha | vah | namah || 2 ||\n\nSayana's Commentary: 'Uganah' are women (female forms) in excellent groups, such as the Seven Mothers (Sapta-Matrikas) and others. 'Trinhatyah' are fierce deities like Durga and others who are capable of killing (injury). Salutation to them. (2)\n\nBhatta-Bhaskara-Bhashya: 'Uganabhyah'—to those in excellent groups (utkrishta-gana). [Grammatical note].\n\"By fives and by multiples, the names in order are: army-front (sena-mukha), bush (gulma), and group (gana).\"—thus the definition of a group.\nThis has been said already. 'Trinhatibhyashcha vo namah'—to those who produce special types of violence/injury. From the root 'trihh' (to kill/strike) of the Rudh-class. [Grammatical note on the word 'trimhatibhyah']. (2)\n\nHe speaks the third Yajus:\nSalutation to the greedy, and to the lords of the greedy, salutation to you."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n                    चतुर्थोऽनुवाकः ॥\n---\n\nनम आव्याधिनीभ्यो विविभ्यन्तीभ्यञ्च वो नमः ॥\n\nअथ चतुर्थोऽनुवाकः— तृतीय इव चतुर्थेऽपि भगवा-\nन्सर्वात्मकत्वेन नमस्क्रियते । तत्र प्रथमः— नम आव्या-\nधिनीभ्य इति । आ समन्ताद्वेदुं शक्ताः शियः आव्याधि-\nन्यः, विविधं वेदुं शक्ताः शियः विविभ्यन्त्यः, ताश्च जग-\nति यावन्यः सन्ति, तावदूपेभ्यो वः नमः इति पूर्ववत् ॥\n\nनम उगणाभ्यस्तृंहतीभ्यञ्च वो नमः ॥\n\nअथ द्वितीयः— नम उगणाभ्य इति । उत्कृष्टगणाः\nउगणाः सप्तमातृकाधाः, तथा हिंसितुं समर्थो दुगांधा बम-\nदेव्वाः हृंहन्त्यः, तदूपेभ्य इति पूर्ववत् ॥\n\nनमो गृत्सेभ्यो गृत्सपतिभ्यञ्च वो\nनमः ॥\n\nअथ तृतीयः—नमो गृत्सेभ्य इति । गर्धनशीला गृत्साः",
+      "english": "---\n                    Sri Rudra Bhashyam                    97\n---\n\n[Mantras 8 through 16 — a continuous group:]\nObeisance to those with chariots, to those without chariots — obeisance to you all.\nObeisance to those in chariots, to the chariot-lords — obeisance to you all.\nObeisance to the armies, to the army-leaders — obeisance to you all.\nObeisance to the chariot-drivers (kshattrih), to those who hold the reins (sangrahitrih) — obeisance to you all.\nObeisance to the carpenters (taksha), to the chariot-makers (rathakara) — obeisance to you all.\nObeisance to the potters (kulala), to the blacksmiths (karmara) — obeisance to you all.\nObeisance to the weavers (punjishtha), to the forest-dwellers (nishada) — obeisance to you all.\nObeisance to the arrow-makers (ishu-krit), to the bow-makers (dhanva-krit) — obeisance to you all.\nObeisance to the hunters (mrigayu), to the dog-keepers (shvani) — obeisance to you all.\nObeisance to the dogs (shvabhyah), to the dog-lords (shvapatibhyah) — obeisance to you all.\n\nNow the eighth [commentary]: — \"Namo rathibhyah\" (Obeisance to those with chariots). \"Rathinah\" means those who have chariots; \"arathah\" means those without chariots. The nine mantras from the ninth onward, ending with \"shvapatibhyah\" (dog-lords), are clear in their meaning. Among these: \"kshattrih\" are the chariot-drivers (sarathi — charioteers); those who hold back and control the chariot are the \"sangrahitarih\"; there is a distinction between these two as subtypes of chariot-controllers; \"karmarah\" are iron-smiths (lohakara); the \"punjishtha\" are those who gather sand-mounds (valuka); \"nishadah\" are forest-hunters; those who carry nets with dogs tied to them are the \"shvan\" (dog-keepers)."
+    }
+  }
+}

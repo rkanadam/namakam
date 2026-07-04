@@ -1,0 +1,1517 @@
+{
+  "id": 5,
+  "samhita": "मा नो॑ म॒हान्त॑मु॒त मा नो॑ अर्भ॒क-म्मा न॒ उक्ष॑न्तमु॒त मा न॑ उक्षि॒तम् । मा नो॑ वधीः पि॒तर॑-म्मोत मा॒तर॑-म्प्रि॒या मा न॑स्त॒नुवो॑ रुद्र रीरिषः ॥",
+  "pada": "मा । नः॒ । म॒हान्त॑म् । उ॒त । मा । नः॒ । अ॒र्भ॒कम् । मा । नः॒ । उक्ष॑न्तम् । उ॒त । मा । नः॒ । उ॒क्षि॒तम् । मा । नः॒ । व॒धीः॒ । पि॒तर॑म् । मा । उ॒त । मा॒तर॑म् । प्रि॒याः । मा । नः॒ । त॒नुवः॑ । रु॒द्र॒ । री॒रि॒ष॒ ॥",
+  "krama": "मा नः॑ । नः॒ म॒हान्त॑म् । म॒हान्त॑मु॒त । उ॒त मा । मा नः॑ । नः॒ अ॒र्भ॒कम् । अ॒र्भ॒क-म्मा । मा नः॑ । नः॒ उक्ष॑न्तम् । उक्ष॑न्तमु॒त । उ॒त मा । मा नः॑ । नः॒ उक्षि॒तम् । उक्षि॒त-म्मा । मा नः॑ । नः॒ व॒धीः॒ । व॒धीः पि॒तर॑म् । पि॒तर॑-म्मोत । मोत मा॒तर॑म् । मा॒तर॑-म्प्रि॒याः । प्रि॒या मा । मा नः॑ । नः॒ त॒नुवः॑ । त॒नुवो॑ रुद्र । रु॒द्र रीरिषः । री॒रि॒ष॒ इति॑ रीरिषः ॥",
+  "samhita_tokens": [
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो॑",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒हान्त॑मु॒त",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो॑",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अर्भ॒क-म्मा",
+      "word_ids": [
+        88,
+        88,
+        475,
+        88,
+        88,
+        88,
+        88,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "न॒",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उक्ष॑न्तमु॒त",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "न॑",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उक्षि॒तम्",
+      "word_ids": [
+        477
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो॑",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वधीः",
+      "word_ids": [
+        478
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒तर॑-म्मोत",
+      "word_ids": [
+        479
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा॒तर॑-म्प्रि॒या",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        481,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "न॑स्त॒नुवो॑",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रुद्र",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रीरिषः",
+      "word_ids": [
+        483
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒हान्त॑म्",
+      "word_ids": [
+        474
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒र्भ॒कम्",
+      "word_ids": [
+        475
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उक्ष॑न्तम्",
+      "word_ids": [
+        476
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒क्षि॒तम्",
+      "word_ids": [
+        477
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒धीः॒",
+      "word_ids": [
+        478
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒तर॑म्",
+      "word_ids": [
+        479
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा॒तर॑म्",
+      "word_ids": [
+        480
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रि॒याः",
+      "word_ids": [
+        481
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नुवः॑",
+      "word_ids": [
+        482
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र॒",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "री॒रि॒ष॒",
+      "word_ids": [
+        483
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒हान्त॑म्",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒हान्त॑मु॒त",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒र्भ॒कम्",
+      "word_ids": [
+        475
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒र्भ॒क-म्मा",
+      "word_ids": [
+        88,
+        88,
+        475,
+        88,
+        88,
+        88,
+        88,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उक्ष॑न्तम्",
+      "word_ids": [
+        33,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उक्ष॑न्तमु॒त",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उक्षि॒तम्",
+      "word_ids": [
+        477
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उक्षि॒त-म्मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        477,
+        88,
+        88,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒धीः॒",
+      "word_ids": [
+        478
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒धीः",
+      "word_ids": [
+        478
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒तर॑म्",
+      "word_ids": [
+        479
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पि॒तर॑-म्मोत",
+      "word_ids": [
+        479
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मोत",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा॒तर॑म्",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा॒तर॑-म्प्रि॒याः",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        481,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रि॒या",
+      "word_ids": [
+        481
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88,
+        88,
+        88,
+        88,
+        88,
+        480,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        474,
+        33,
+        33,
+        476,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नुवः॑",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नुवो॑",
+      "word_ids": [
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        482
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रुद्र",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रीरिषः",
+      "word_ids": [
+        483
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "री॒रि॒ष॒",
+      "word_ids": [
+        483
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रीरिषः",
+      "word_ids": [
+        483
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    3,
+    6,
+    33,
+    88,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Da. A.] Rudradhyaya | 99\n\n(Grammatical note continued). || 1 ||\n\n[Purashcharana for these two (Riks 3 and 4)]: Having performed a Kricchra penance, one should chant the mantra 9,000 times to complete the Purashcharana. On a New Moon day, having lit the fire at a crossroads, sacrifice 10,000 offerings of thick curd (dadhi-sara); there will be peace for cattle etc. For the peace of royal mounts, having touched water, chant the mantra 10,000 times and sprinkle the stable with that water; there will be peace for the mounts. Or mix that water with whatever is to be used for the mounts. To pacify animals, sacrifice 10,000 sesame seeds mixed with ghee. For the peace of others, sacrifice 10,000 Durva grasses. Meditation:\n\n\"Meditate on Soma (the Moon), sitting on a divine throne, being praised by great sages, with a pleased face, wearing a crescent moon.\"\n\nHe states the fifth Rik:\n\nDo not kill our elders, nor our children, nor our young men, nor the unborn. Do not kill our father, nor our mother. O Rudra, do not harm our dear bodies. || 5 ||\n\nSayanacharya Bhashya: O Rudra, do not harm ('ma ririshah') our elderly men (sthavira). And also do not harm our infants (arbhaka). Furthermore, do not harm our young men capable of procreation (ukshantam). And do not harm our unborn/fetal men (ukshitam). Do not kill ('ma vadhih') our father. And also do not kill our mother. Do not harm our dear bodies. || 5 ||\n\nBhatta Bhaskara Bhashya: The Rishi of \"Ma no mahantam\" is Devarata. Chhandas is Jagati. The deity is Rudra in the form of Nandishvara.\n\n\"Ma no mahantam\": O Rudra, do not kill our elder, like a grandfather etc., or an elderly son, or a son worthy of grace having qualities of knowledge and age. Do not kill through diseases etc. And do not kill our infant child. Do not kill our young man capable of procreation, who continues the lineage. And do not kill the unborn (ukshitam), who is even more pitiable in the womb. Father and mother are most venerable; do not kill them. And do not harm our dear bodies, because of their very dearness. Do not afflict them with diseases. The plural is used for wife, sons, etc. Do not harm our dear bodies. || 5 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                    १३७\n\n---\n\nवर्णाश्रमघर्मोपदेशेन प्रजा: पाळिता:; तादृश: श्रुत्यादिप्रसि-\nद्धमहिमा मनु: तव प्रणीतौ प्रणये प्रसाधे सति, यच्छं च\nविषयभोगं च योश्च तु:खपृथगभावेन मोक्षं चेति यावत् ।\nआयजे संपादितवान्, तत्सर्वं वयं हे रुद्र, तव प्रणीतौ\nअभ्याम भशीमहि; त्वत्प्रसादात्मानुयासेत्यर्थे: । अत्र च\n'इमां हद्राय' 'मृडा नो हद्र' इति ऋग्द्वयमेको मन्त्र: ।\nअस्य मन्त्रस्य मार्केण्डेय ऋषि: । जगतीच्छन्द: । हद्रो\nदेवता । 'दिव्यसिंहासनासीनं स्तूयमानं महीभिभि: । प्रसन्न-\nवदनं ध्यायेत्सोमांर्धशेखरम्' । एककृच्छ्रानुष्ठानपूर्वकं\nनवसहस्रजपात्पुरश्चरणसिद्धि: । गोतिर्थगादिशान्तिफलप्रदो-\nऽयं मन्त्र: ॥\n\n           मा नो महान्तमुत मा नो अर्भकं मा\n           न उक्षन्तमुत मा न उक्षितम् । मा नोऽ-\n           वधी: पितरं मोत मातरं प्रिया मा नस्त-\n           नुचो हद्र रीरिष: ॥\n\n   अथ पञ्चम:— मा नो महान्तिमति । हे हद्र, न:\nअस्माकं संबन्धिनं स्थिवरं स्थिवरपुरुषम्, मा रीरिष: रो-\nगादिभिर्मां हिंसी: । उत अपि च, न: अर्भकं बालं मा",
+      "english": "Sri Rudra Bhashyam                    137\n\n---\n\ngrowing child (ukshantam), nor the fully grown one (ukshitam). Do not slay our father, nor our mother (mataram). Do not harm (ma ririshih) what is dear to us (priya), O Rudra — our beloved ones. Nor harm our own bodies (tanucha). This fifth mantra is a prayer for the protection of all family members — young and old, male and female — from affliction, injury and death. The Lord who is Rudra, the remover of all suffering, is petitioned not to bring any harm, whether through disease or destruction, to any among our dear ones. The prayer extends from the eldest to the youngest, from parents to children, encompassing all that is near and precious to the devotee. Such is the meaning intended by this mantra."
+    }
+  }
+}

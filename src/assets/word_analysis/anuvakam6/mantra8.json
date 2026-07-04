@@ -1,0 +1,181 @@
+{
+  "id": 8,
+  "samhita": "नम॒-श्श्लोक्या॑य चा-ऽवसा॒न्या॑य च॒",
+  "pada": "नमः॑ । श्लोक्या॑य । च॒ । अ॒व॒-सा॒न्या॑य । च॒ ॥",
+  "krama": "नम॒-श्श्लोक्या॑य । श्लोक्या॑य च । चावसा॒न्या॑य । अ॒वसा॒न्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॒-श्श्लोक्या॑य",
+      "word_ids": [
+        1,
+        314
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चा-ऽवसा॒न्या॑य",
+      "word_ids": [
+        19,
+        315
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्लोक्या॑य",
+      "word_ids": [
+        314
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒व॒-सा॒न्या॑य",
+      "word_ids": [
+        315
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॒-श्श्लोक्या॑य",
+      "word_ids": [
+        1,
+        314
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्लोक्या॑य च",
+      "word_ids": [
+        314,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चावसा॒न्या॑य",
+      "word_ids": [
+        19,
+        315
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒वसा॒न्या॑य च",
+      "word_ids": [
+        315,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    314,
+    315
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

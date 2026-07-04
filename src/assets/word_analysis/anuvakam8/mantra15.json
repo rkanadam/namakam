@@ -1,0 +1,182 @@
+{
+  "id": 15,
+  "samhita": "नम॑ आता॒र्या॑य चाला॒द्या॑य च॒",
+  "pada": "नमः॑ । आ॒-ता॒र्या॑य । च॒ । आ॒-ला॒द्या॑य । च॒ ॥",
+  "krama": "नम॑ आता॒र्या॑य । आता॒र्या॑य च । चाला॒द्या॑य । आला॒द्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आता॒र्या॑य",
+      "word_ids": [
+        358
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चाला॒द्या॑य",
+      "word_ids": [
+        19,
+        359
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ॒-ता॒र्या॑य",
+      "word_ids": [
+        358
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ॒-ला॒द्या॑य",
+      "word_ids": [
+        359
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑ आता॒र्या॑य",
+      "word_ids": [
+        1,
+        358
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आता॒र्या॑य च",
+      "word_ids": [
+        358,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चाला॒द्या॑य",
+      "word_ids": [
+        19,
+        359
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आला॒द्या॑य च",
+      "word_ids": [
+        359,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    358,
+    359
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | a-taryaya | cha | a-labyaya | cha || 15 ||\n..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "१२६                    श्रीरुद्रभाष्यम् ।\n\n---\n\nकरत्वेनाविष्कृतम् । सोऽयमखिलश्रुतिहारायमाणहृद्रोपनिष-\nद्रायकमणि: महामन्त्र: । यदाहु:— 'विद्यासु श्रुतिशतकुठा-\nह्रद्रेकादिशनी श्रुतौ । तत्र पञ्चाक्षरी तस्यां शिव इत्यक्षर-\nद्वयम्' इति । जीवब्रह्मिति च शिवशब्दस्य आगमेषु व्य-\nवहार: । सर्वाण्येव शिवपुराणवचनानि एतनमाहत्त्यप्रमा-\nणत्वेनोद्धारणीयानीति संक्षेप: ।।\n\n           नमस्तीर्थ्याय च कूल्याय च नम: पा-\n           र्घाय चावार्याय च नम: प्रतरणाय चोत्त-\n           र्णाय च नम आतार्याय चालाद्याय च\n           नम: शष्प्याय च फेन्याय च नम: सिक-\n           त्याय च प्रवाह्याय च ॥\n\n   तदेवम् 'नम: सोमाय' इत्यादिभिरेतदन्तैर्मन्त्रैरखिलो-\nपास्तवधमर्महेतुविशिष्टतया भगवाचमस्कृत: । अधान्तयोमि-\nलेन च नमस्करोति नमस्तीर्थ्यायेत्यादिभि:— तीर्थेषु ग-\nङ्गादिषु भव: तीर्थ्य:, कूलेषु भव: कूल्य:, नद्यादीनां परं\nतीरं पारम्, तत्र भव: पार्य:, अर्वाक्तीरम् अवारम्, तत्र\nभव: अवार्य:, प्रकृष्टेन मार्गेण पापवरणहेतु: प्रतरण:,\nतवोऽप्युत्कृष्टेन ज्ञानमार्गेण अविधातरणहेतु: उत्तरण: इति",
+      "english": "126                    Sri Rudra Bhashyam\n\n---\n\nas shivamkara beyond all — making it fully manifest. This great mantra is the crown jewel of the Rudropanishad (the Upanishad of Rudra), which all the Shrutis (Vedic scriptures) cherish as their innermost essence. As it has been said: \"Among all learning, the one hundred branches of the Shruti are like the axe (in cutting through ignorance); among those, the eleven-syllabled Rudra hymn; within that, the Panchakshara (the five-syllabled mantra, Namah Shivaya); and within that, the two syllables 'Shi-va'.\" In the Agamas (Shaiva scriptural tradition), the word shiva is also used to refer to the individual soul (jiva) and to Brahman (the Absolute). All the passages of the Shivapurana are to be cited as authoritative testimony to this supreme greatness (of Shiva). Such is the summary.\n\n           Namastirthya ya ca kulya ya ca namah pargha ya\n           cavargha ya ca namah pratarana ya cottarna ya ca\n           nama atargha ya caladhya ya ca namah shashpya ya\n           ca phenya ya ca namah sikatya ya ca pravahya ya ca\n\n           (Salutation to Him who dwells in holy fords and on riverbanks;\n           salutation to Him on the far bank and on the near bank;\n           salutation to Him who carries across and who lifts up;\n           salutation to Him at the crossing point and on the shallows;\n           salutation to Him in the tender grass and in the foam;\n           salutation to Him in the sand and in the current)\n\nThus, through the mantras beginning with \"Namah somaya\" and ending with the foregoing, salutation has been offered to the Lord, distinguished by the various reasons why He is worthy of worship by all. Now, through the combined salutation with \"Namastirthya ya\" and the rest, the commentator salutes together both the foregoing and the following mantras. Tirthya means He who abides in holy fords (tirtha) such as the Ganga and others; Kulya means He who abides on riverbanks (kula); Para means the far bank of a river or the like, and Parya means He who abides on the far bank; Avara means the near bank, and Avarya means He who abides on the near bank; Pratarana means He who causes crossing — the means of crossing the ocean of sins through the excellent path; Uttarana means He who causes the crossing upward — the means of crossing over ignorance through the excellent path of knowledge. And"
+    }
+  }
+}

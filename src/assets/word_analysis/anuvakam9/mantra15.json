@@ -1,0 +1,277 @@
+{
+  "id": 15,
+  "samhita": "नमो॑ वः किरि॒केभ्यो॑ दे॒वाना॒ग्॒म्॒ हृद॑येभ्यो॒",
+  "pada": "नमो॑ । वः॒ । कि॒रि॒केभ्यः॑ । दे॒वाना᳚म् । हृद॑येभ्यः ॥",
+  "krama": "नमो॑ वः । वो॑ किरि॒केभ्यः॑ । किरि॒केभ्यो॑ दे॒वाना᳚म् । दे॒वानां॒ हृद॑येभ्यः । हृद॑येभ्य॒ इति॑ हृद॑येभ्यः ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वः",
+      "word_ids": [
+        190,
+        389
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "किरि॒केभ्यो॑",
+      "word_ids": [
+        388
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दे॒वाना॒ग्॒म्॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हृद॑येभ्यो॒",
+      "word_ids": [
+        390
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वः॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कि॒रि॒केभ्यः॑",
+      "word_ids": [
+        388
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दे॒वाना᳚म्",
+      "word_ids": [
+        389
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हृद॑येभ्यः",
+      "word_ids": [
+        390
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वः",
+      "word_ids": [
+        190,
+        389
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वो॑",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "किरि॒केभ्यः॑",
+      "word_ids": [
+        388
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "किरि॒केभ्यो॑",
+      "word_ids": [
+        388
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दे॒वाना᳚म्",
+      "word_ids": [
+        190,
+        389
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दे॒वानां॒",
+      "word_ids": [
+        190,
+        389
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हृद॑येभ्यः",
+      "word_ids": [
+        390
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हृद॑येभ्य॒",
+      "word_ids": [
+        390
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हृद॑येभ्यः",
+      "word_ids": [
+        390
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    144,
+    190,
+    388,
+    389,
+    390
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Na. A.] Rudradhyaya | 81\n\nBy that mark, he should be known as a Rudra-worshipper. Any other king whose hands have that mark should also be known as a Rudra-worshipper. Thus, Rudra-aradhana should be performed every year with 11 Brahmins. Another method is mentioned here: A king desiring the destruction of enemies should have it done by a very powerful Brahmin. Having made an image of the enemy king out of Khadira wood, in a secluded place, invoke the deity in a pot full of water. Having lit the fire nearby, sacrifice 100,000 Shami sticks with thorns and smeared with blood. Cat blood is considered excellent. Then, for each 'Namaskara', drive iron nails into every limb of that image. The king should place his foot on it. During the placement, the Guru should chant. Then the king should feed 100 Brahmins. Then dismiss the deity. By doing this, the enemy king will be distressed for three years. Another method involves a 'Shushthali' image and Homa as before; the enemy king will soon come under the king's control. Another method for control: In the enemy's city, royal agents disguised as Brahmins, Siddhas, or beggars should secretly place iron nails, enchanted 100,000 times, at crossroads, temples, royal courts, and gates. Then sprinkle enchanted ash and water everywhere. By doing this, the city remains distressed for three years. Thorny plants like Khadira will grow there. Then, in the enemy's water bodies, men in disguise should perform penance in neck-deep water facing the sun for 800 days, chanting 800 times daily. During chanting, they should imagine the Halahala poison in their hands. By doing this, those who drink that water (mounts etc.) perish as if bitten by snakes. Wise men should do this secretly; otherwise, fear of the (enemy) king arises. Therefore, it must be done in secret. The dakshina for these performers should be equal to half the kingdom. Then the meditation:\n\n\"One should meditate on the Blue-necked one with matted hair, holding the Pinaka, the Lord of beings, brilliant with the power of the fierce sun and fire, adorned with snakes.\"\n\nSalutations to you, the Kirikas (who shower wealth), who are the hearts of the gods. || 15 ||\n\nSayanacharya Bhashya: 'Kirikah' are the generous incarnations of Rudra who shower ('kiranti') wealth on devotees. They are the hearts of the gods because they are dear to all gods. Salutations to such as you. || 15 ||\n\nBhatta Bhaskara Bhashya: From \"Namo vah kirikebhyah\" until the end of the Anuvaka is one mantra. Its Rishi and Devata are Bhagavan Shambhu. Chhandas is Jagati with six feet. This mantra is direct, due to the use of the word 'yushmat' (you). Thus, the various forms of the Lord's play, distinct in attributes, actions, class, and shape, have been saluted individually."
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

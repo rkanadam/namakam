@@ -1,0 +1,191 @@
+{
+  "id": 4,
+  "samhita": "नम॑ उ॒ग्राय॑ च भी॒माय॑ च॒",
+  "pada": "नमः॑ । उ॒ग्राय॑ । च॒ । भी॒माय॑ । च॒ ॥",
+  "krama": "नम॑ उ॒ग्राय॑ । उ॒ग्राय॑ च । च भी॒माय॑ । भी॒माय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": "॑ ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒ग्राय॑",
+      "word_ids": [
+        367
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भी॒माय॑",
+      "word_ids": [
+        368
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒ग्राय॑",
+      "word_ids": [
+        367
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भी॒माय॑",
+      "word_ids": [
+        368
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑ उ॒ग्राय॑",
+      "word_ids": [
+        1,
+        367
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒ग्राय॑ च",
+      "word_ids": [
+        367,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च भी॒माय॑",
+      "word_ids": [
+        19,
+        368
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भी॒माय॑ च",
+      "word_ids": [
+        368,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    367,
+    368
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Ugrah'—endowed with anger to destroy opponents. 'Bhimah'—the cause of fear to opponents by his mere sight. (4)\n..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                    ११९\n\n---\n\nभाय चारुणाय च' इत्युक्तम् । अहो परमकारुणिकता\nरुद्रोपनिषद: ॥\n\n           नमः शंगाय च पशुपतये च ॥\n\n   अथ खलु सुखप्रदत्वादिपि परमेश्वर एव सर्वेसुखार्थिभि-\nरुपास्य इति दर्शयितुं तृतीय:— नमः शंगायेति । शं\nसुखं गमयित प्रापयतीति शंग:, तत्र हेतु:— पशुपतय\nइति । पशूनां ब्रह्मादिस्थावरान्तानां पति: पाळक: । तथा\nच भगवानेव लोकजालस्य सुखहेतु:, पाळनीयसुखस्य पाळ-\nकाधीनत्वादिति भाव: ॥\n\n           नम उग्राय च भीमाय च ॥\n\n   अथ विश्वाधिकत्वात्परमेश्वर एव विश्वोपास्य इति दर्श-\nयितुं चतुर्थ:— नम उग्रायेति । उम: श्रेष्ठ:, चतुपूर्वार्द्रमे:\nहदृच्छतीयास्मिनर्थे 'कप्रेन्द्राडम्...' इत्यूणादिसूत्रेण रन्त्र-\nथय: । भत एव 'उग्रोऽस्युग्रमोडहं सजातेषु मूयासम्' इति\nमन्त्रे श्रातिश्रेष्ठप्रशंसाविषये खास्मिनूग्रमशब्द: प्रयुक्त: ।\nतत्र श्रेष्ठयसमर्पकस्य सजातपदस्येव ताहशस्य कस्यचिदभा-\nवात्संकोचाभावन्यायेन सर्वश्रेष्ठवरूपं विश्वाधिकत्वं सिध्य-\nति । तत्र हेतु:— भीमायेति । भीम: भयंकर: 'भींषा-",
+      "english": "Sri Rudra Bhashyam                    119\n\n---\n\n\"bhaya ca arunaya ca\" (to the fearsome and to the ruddy one) was declared. How supremely compassionate is this Rudropanishad (the Upanishad pertaining to Rudra)!\n\n           Namah shanghaya ca pashupataye ca\n           (Salutation to the bringer of happiness and to the Lord of all beings)\n\nNow, to show that the Supreme Lord alone is worthy of worship by all who seek happiness, on account of His being the bestower of happiness — this is the third mantra: \"Namah shanghaya\" etc. Shangha means one who leads to or bestows happiness (sham sukham gamayati prapaayatiiti shanghah). The reason for this is stated by the word pashupataye: He is the master and protector (pati, palaka) of all creatures (pashu), from Brahma down to the immovable. Thus the Lord alone is the cause of happiness for the entire world, because whatever happiness belongs to those who are to be nurtured (palaniya) depends upon the one who nurtures (palaka) — such is the meaning.\n\n           Namo ughraya ca bhimaya ca\n           (Salutation to the supreme one and to the terrifying one)\n\nNow, to show that the Supreme Lord alone, being superior to all the worlds, is worthy of worship by all — this is the fourth mantra: \"Namo ughraya\" etc. Ughra means the highest or supreme. By the Unadi grammatical rule \"kaprendradu...\" with the suffix ran, the derivation yields the meaning of one who is supremely excellent. Indeed, in the mantra \"You are ughra (supreme); may I be ughra among my kinsmen,\" the word ughra is employed in the sense of highest praise. Since no other being of that same category (sajata) possessing comparable supremacy exists, by the principle of the absence of restriction (sankocabhava-nyaya), the nature of being supremely above all — namely being superior to the entire universe — is established. The reason for this is stated by: \"bhimaya\" (the terrifying one). Bhima means fearsome, from the Shruti: \"Out of fear of Him, Vata (wind) blows\" — and so forth. Thus, even toward the great Indra, Agni and others, the Lord's fearsome quality establishes His supremacy over all — such is the meaning."
+    }
+  }
+}

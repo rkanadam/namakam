@@ -1,0 +1,749 @@
+{
+  "id": 2,
+  "samhita": "या ते॑ रुद्र शि॒वा त॒नू-श्शि॒वा वि॒श्वाह॑भेषजी । शि॒वा रु॒द्रस्य॑ भेष॒जी तया॑ नो मृड जी॒वसे᳚ ॥",
+  "pada": "या । ते॒ । रु॒द्र॒ । शि॒वा । त॒नूः । शि॒वा । वि॒श्वाह॑-भेषजी । शि॒वा । रु॒द्रस्य॑ । भेष॒जी । तया॑ । नः॒ । मृ॒ड॒ । जी॒वसे᳚ ॥",
+  "krama": "या ते॒ । ते रु॑द्र । रु॒द्र शि॒वा । शि॒वा त॒नूः । त॒नू-श्शि॒वा । शि॒वा वि॒श्वाह॑भेषजी । वि॒श्वाह॑भेषजीति॑ वि॒श्वाह॑-भेषजी । शि॒वा रु॒द्रस्य॑ । रु॒द्रस्य॑ भेष॒जी । भेष॒जी तया॑ । तया॑ नः । नः॒ मृ॒ड॒ । मृ॒ड॒ जी॒वसे᳚ । जी॒वसे॒ इति॑ जी॒वसे᳚ ॥",
+  "samhita_tokens": [
+    {
+      "text": "या",
+      "word_ids": [
+        44,
+        48
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॑",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रुद्र",
+      "word_ids": [
+        3,
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69,
+        69,
+        69
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नू-श्शि॒वा",
+      "word_ids": [
+        69,
+        72,
+        69,
+        69,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वाह॑भेषजी",
+      "word_ids": [
+        445,
+        447
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69,
+        69,
+        69
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        3,
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भेष॒जी",
+      "word_ids": [
+        445,
+        447
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तया॑",
+      "word_ids": [
+        44,
+        48
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृड",
+      "word_ids": [
+        448
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जी॒वसे᳚",
+      "word_ids": [
+        449
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "या",
+      "word_ids": [
+        44
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र॒",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नूः",
+      "word_ids": [
+        72
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वाह॑-भेषजी",
+      "word_ids": [
+        445
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        446
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भेष॒जी",
+      "word_ids": [
+        447
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तया॑",
+      "word_ids": [
+        48
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒",
+      "word_ids": [
+        448
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "जी॒वसे᳚",
+      "word_ids": [
+        449
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "या",
+      "word_ids": [
+        44,
+        48
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॑द्र",
+      "word_ids": [
+        3,
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र",
+      "word_ids": [
+        3,
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69,
+        69,
+        69
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69,
+        69,
+        69
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नूः",
+      "word_ids": [
+        72,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒नू-श्शि॒वा",
+      "word_ids": [
+        69,
+        72,
+        69,
+        69,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69,
+        69,
+        69
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वाह॑भेषजी",
+      "word_ids": [
+        445,
+        447
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वाह॑भेषजीति॑",
+      "word_ids": [
+        445,
+        447
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वाह॑-भेषजी",
+      "word_ids": [
+        445,
+        447
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा",
+      "word_ids": [
+        69,
+        69,
+        69
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        3,
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रस्य॑",
+      "word_ids": [
+        3,
+        446
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भेष॒जी",
+      "word_ids": [
+        445,
+        447
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भेष॒जी",
+      "word_ids": [
+        445,
+        447
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तया॑",
+      "word_ids": [
+        44,
+        48
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तया॑",
+      "word_ids": [
+        44,
+        48
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः",
+      "word_ids": [
+        72,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        72,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒",
+      "word_ids": [
+        448
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒",
+      "word_ids": [
+        448
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जी॒वसे᳚",
+      "word_ids": [
+        449
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जी॒वसे॒",
+      "word_ids": [
+        449
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जी॒वसे᳚",
+      "word_ids": [
+        449
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    2,
+    3,
+    33,
+    44,
+    48,
+    69,
+    72,
+    445,
+    446,
+    447,
+    448,
+    449
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "|| He speaks the third verse ||\n\nO Rudra, that body of yours which is auspicious, non-terrible, and revealing no sin—\nWith that most peaceful body, O dweller on the mountain who grants peace, look upon us."
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                       ४९\n\nशरैव्ये ब्रह्मसंशिता' इति श्रवणात्; यद्रा श्रृणोतेर्हिंसाकर्मेण:\nशप्रलये शरु:, शरव: शरा:, तेभ्यो हिवा शरव्या श्रुधि:;\nतया शरव्यया— उपलक्षणमेतत्— तेन धनुषा, तया इष्वा च\nन: अस्मान्, मृडय मुखय। अस्य मन्त्रस्य आत्रेयकृर्षि:;\nअनुष्टुप्छन्द:, शंभुर्देवता। 'ध्यायेद्देवं सस्मितं स्यन्दनस्थं देव्या\nसार्थे तेजसा दीप्यमानम् । इष्टिवषासालंकृताभ्यां भुजाभ्यां\nशूराकारं स्तूयमानं सुरौघै:' । द्वादशदिनानि नित्यकर्मांवि-\nरोधेन निशिशिथिनांव्यतिरेककाछे निरन्तरजपात्पुरश्चरणसि-\nद्धि:; तत: प्रयोगाहौं भवति। दुर्भिक्षराष्ट्रक्षोभादिपरिहार-\nप्रधानोऽयं मन्त्र: ।।\n\n              या ते रुद्र शिवा तनूर्घोरापापका-\n              शिनी। तया नस्तनुवा शांतमया गिरि-\n              शांताभिचाकशीहि ।।\n\nएवं द्वितीयेन सांसारिकसुखमाशाह्म तृतीयेन मोक्षहेलु-\nज्ञानमाशास्ते— या ते रुद्रेति। हे रुद्र, ते तव, या तनू:\nप्रसिद्धा, श्रूयते हि— 'तस्यैते तनुवौ घोरान्या शिवान्या'\nइति; भारतेऽपि 'द्वे तनू तस्य देवस्य देवज्ञा ब्राह्मणा-\nविदु: । घोरा चान्या शिवा चान्या ते चैव शतधा पुन:'\n                         R. B. 4",
+      "english": "50                    SRI RUDRA BHASHYAM\n\n— That form (tanuh): of what nature is it? It is answered: It is aghora —\nnot terrifying by means of weapons without cause; aghora means not ghora\n(not terrifying). Not only is it the absence of terror, but further it is shiva —\nauspicious, a bestower of happiness. And not merely a giver of worldly\nhappiness; rather, it bestows the knowledge that is the means to liberation\n(moksha), which is the supreme human goal (paramapurusharta) — this is\ndeclared by: \"apapakashini.\" By the word apapa, the knowledge that is opposed\nto sin — that is, the knowledge of Brahman (brahman-jnana, the knowledge of\nthe supreme reality) — is indicated, as per the Shruti: \"tad yathaisika-tulam\nagnau protam praduyeta evam ha va asya sarve papmanah praduyante\" (just as\na reed's tip thrust into fire is burned up, so too all sins of this person are\nburned away); and as the Gita states: \"the fire of knowledge burns all actions\nto ashes.\" Apapa (freedom from sin) + kashini (illuminer) = one who illumines\nfreedom from sin, i.e., a giver of knowledge — such is the meaning. [This is\nconfirmed by] the Shruti: \"atmabuddhi-prakasham\" (the light of Self-knowledge).\n\nSuch being that form of Yours: with that shantamaya (utterly tranquil)\ntanva (form), the form that is of the nature of unclouded bliss — abhichakashihi\n(shine forth upon us, illuminate us on all sides) — illuminate us completely,\nas beings shining on all sides with the non-dual identity of Brahman and the\nSelf. \"May all of this be known when this one thing is known\" — [as the\nShruti says.] The form abhichakashihi, being a yak-tug verb form (an intensive),\nshows the intensification of the verbal action indicating the seeking of complete\nillumination — the meaning being \"bring us to a direct, unmediated\nrealization of Brahman.\" The phrase \"shantamaya abhichakashihi\" shows that\nthe Supreme Lord is of the nature of consciousness-bliss (chidananda).\n\nBut, one might think: \"If you want liberation through mere salutation alone,\n[without] the great efforts of hearing, reflection, and deep meditation\n(shravana, manana, nididhyasana), [why use the term girisha?]\" — so the\nsecond mode of address is used, correcting this misunderstanding:\n\n\"Girisha\" —"
+    }
+  }
+}

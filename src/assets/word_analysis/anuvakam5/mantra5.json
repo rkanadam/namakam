@@ -1,0 +1,199 @@
+{
+  "id": 5,
+  "samhita": "नमः॑ सहस्रा॒क्षाय॑ च श॒तध॑न्वने च॒",
+  "pada": "नमः॑ । स॒ह॒स्र॒-अ॒क्षाय॑ । च॒ । श॒त-ध॑न्वने । च॒ ॥",
+  "krama": "नमः॑ सहस्रा॒क्षाय॑ । सहस्रा॒क्षाय॑ च । च श॒तध॑न्वने । श॒तध॑न्वने च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्रा॒क्षाय॑",
+      "word_ids": [
+        138
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒तध॑न्वने",
+      "word_ids": [
+        279
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒ह॒स्र॒-अ॒क्षाय॑",
+      "word_ids": [
+        138
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒त-ध॑न्वने",
+      "word_ids": [
+        279
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ सहस्रा॒क्षाय॑",
+      "word_ids": [
+        1,
+        138
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्रा॒क्षाय॑ च",
+      "word_ids": [
+        138,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च श॒तध॑न्वने",
+      "word_ids": [
+        19,
+        279
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒तध॑न्वने च",
+      "word_ids": [
+        279,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    138,
+    279
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | sahasra-akshaya | cha | shata-dhanvane | cha || 5 ||\n..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "१०२                    श्रीरुद्रभाष्यम् ।\n\n      अथ चतुर्थः:—— नमः कपर्दिन इति । कपर्दैः परमे-\nश्वरजटाकलापः, तद्वान् कपर्दी, अनेन 'दक्षं सयञ्चं जहि\nवं भटानां त्वमप्रणी हद्रजटांशको मे' इति भागवताद्प्र-\nसिद्धः भगवज्जटांशवीरमद्रमहिह्मा स्मय्यैते । तेन च 'देवा\nवै यञ्चरुद्रमन्तरायन् स यञ्चमविष्यत्' इत्यादिश्रुतिप्रसिद्ध-\nदक्षाध्वरबन्धसमहिह्मा दशिवत: । व्युप्ताः श्रुण्डिताः केशा:\nयस्य, सः व्युष्केशः, परमहंसपरिव्राजकः ; 'अथ परि-\nव्राडेकशाटी शिष्यपरिवृतो मुण्डोदरपात्री' 'ज्ञानिशिक्षिन:\nज्ञानयज्ञोपवीलिन:' इत्यादिश्रुवेः ; तेन दत्तात्रेयदुर्वांसःप्र-\nश्रुतयः जाबालोपनिषदादिप्रसिद्धाः, कलियुगे च 'चतुर्भिः\nसिद्धतः शिष्यैः शंकरोऽवतरिष्यति' 'शंकरः सविताग्नन:'\nइत्यादिपुराणप्रसिद्धपरमेश्वरावतारभावाः शंकराचार्यस्वामि-\nनः, तद्रूपायेत्यर्थे । अनेन 'ब्रह्माधिपतिर्ब्रह्मणोऽधिपतिः'\nइति श्रुतिप्रसिद्धं ब्रह्मविद्यासंप्रदायप्रवर्तकत्वमुक्तम् ॥\n\n      नमः सहस्राक्षाय च शतघन्वने च ॥\n\n      अथ पञ्चमः:——नमः सहस्राक्षायेति । सहस्रम् अनन्ता-\nनि अक्षिणि यस्य, सः सहस्राक्षः, अनेन 'यः सर्वज्ञः'\nइत्यादिश्रुतिप्रसिद्धः सर्वज्ञत्वमहिह्मा दशितः । शतम् अनन्ता-\nनि धन्वानि धनूंषि वेद्मणवमेर्वादिरूपाणि यस्य, सः श्रत-",
+      "english": "102                    Śrī Rudra Bhāṣyam\n\n      Now the fourth [mantra]: \"Namaḥ kapardine\" — Kapardas (matted hair coils) are the Lord's mass of matted locks; the one who possesses them is Kapardī. Through this name, the great glory of the Lord's matted-hair-bearing warrior Vīrabhadra — well-known from the Bhāgavata [Purāṇa] in the verse \"Kill Dakṣa and his sacrifice; the hero of my matted locks shall lead the battle-forces for me\" — is suggested. Thereby is indicated the glory of the destruction of Dakṣa's sacrifice, well-attested in the Śruti: \"The gods were about to perform a sacrifice; Rudra would have destroyed that sacrifice\" — and so forth.\n\n      He whose hair is cut off (vyuptāḥ) and shaven (śuṇḍitāḥ) is Vyuṣkeśa (the shaven-headed one) — referring to the great Paramahaṃsa wandering ascetic (parivrājaka). This is established by the Śruti: \"The wandering renunciant wears one garment, is surrounded by disciples, carries a water-pot and is shaven-headed; those who are knowers through wisdom wear the sacred thread of knowledge (jñānayajñopavītin).\" Accordingly, renowned [forms of the Lord] such as Dattātreya and Durvāsas — well-known from the Jābāla Upaniṣad and similar texts — and in the Kali Age, the Śaṅkarācārya Svāmins — well-known from the Purāṇas as divine incarnations of the Supreme Lord, as stated in \"Śaṅkara will descend with four accomplished disciples\" and \"Śaṅkara is Savitā and Agni\" — are meant by this form. Through this name, the role of the Lord as the initiator of the tradition of Brahma-vidyā (knowledge of Brahman) is indicated, as well-attested in the Śruti: \"He is the lord of the Brahman, the overlord of Brahman\" (brahmadhipatiḥ brahmaṇo'dhipatiḥ).\n\n      Homage to Sahasrākṣa and to Śataghānvane.\n\n      Now the fifth [mantra]: \"Namaḥ sahasrākṣāya\" — He whose eyes are a thousand, i.e., infinite in number, is Sahasrākṣa (the thousand-eyed one). Through this name, the Lord's omniscience (sarvajñatva), well-attested in the Śruti by \"He who is all-knowing,\" is indicated. He who possesses a hundred — i.e., innumerable — bows (dhanūṃṣi), such as the cosmic bow Meru and others, is Śata-"
+    }
+  }
+}

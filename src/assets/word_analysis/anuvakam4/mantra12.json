@@ -1,0 +1,202 @@
+{
+  "id": 12,
+  "words": [
+    1,
+    19,
+    190,
+    233,
+    234
+  ],
+  "samhita": "नम॒स्तक्ष॑भ्यो रथका॒रेभ्य॑श्च वो॒ नमो॒",
+  "pada": "नमः॑ । तक्ष॑-भ्यः । र॒थ॒-का॒रेभ्यः॑ । च॒ । वः॒ । नमः॑ ॥",
+  "krama": "नम॒स्तक्ष॑भ्यः । तक्ष॑भ्यो रथका॒रेभ्यः॑ । रथका॒रेभ्य॑श्च । च वो॒ । वो नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॒स्तक्ष॑भ्यो",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रथका॒रेभ्य॑श्च",
+      "word_ids": [
+        233
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वो॒",
+      "word_ids": [
+        234
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तक्ष॑-भ्यः",
+      "word_ids": [
+        233
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "र॒थ॒-का॒रेभ्यः॑",
+      "word_ids": [
+        234
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वः॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॒स्तक्ष॑भ्यः",
+      "word_ids": [
+        233
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तक्ष॑भ्यो रथका॒रेभ्यः॑",
+      "word_ids": [
+        1,
+        234
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रथका॒रेभ्य॑श्च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वो॒",
+      "word_ids": [
+        19,
+        233
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वो नमो॒",
+      "word_ids": [
+        234,
+        234
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | takshabhyah | rathakarebhyah | iti | ratha-karebhyah | cha | vah | namah || 12 ||\n\nBhatta-Bhaskara-Bhashya: 'Namah takshabhyah'—to the carpenters (vardhaki). All these artisans and specific castes are saluted out of the suspicion that the God resides in them. 'Rathakarebhyashcha vo namah'—to the makers of excellent chariots. (12)\n\nHe speaks the thirteenth Yajus:\nSalutation to the potters and to the blacksmiths, salutation to you."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n                    श्रीरुद्रभाष्यम् ।                    ९७\n---\n\nपेताः महान्तः, तद्रहिताः क्षुल्लकाः ॥\n\nनमो रथिभ्योऽरथेभ्यञ्च वो नमो नमो\nरथेभ्यो  रथपतिभ्यञ्च वो नमो  नमः से-\nनाभ्यः सेनानिभ्यञ्च वो नमो नमः क्षत्तृ-\nभ्यः संग्रहीतृभ्यञ्च वो नमो नमस्तक्ष-\nभ्यो रथकारेभ्यञ्च वो नमो नमः कुला-\nलेभ्यः कर्मारेभ्यञ्च वो नमो नमः पुञ्जि-\nष्टेभ्यो निषादेभ्यञ्च वो नमो नम इषुकृ-\nद्भ्यो धन्वकृद्भ्यञ्च वो नमो नमो मृगयु-\nभ्यः श्वनिभ्यञ्च वो नमो नमः श्वभ्यः\nश्वपतिभ्यञ्च वो नमः ॥\n\nअथाष्टमः— नमो रथिभ्य इति । रथवन्तः रथिनः,\nतद्रहिताः अरथाः; नवमाद्यः श्वपतिभ्य इत्यन्ताः नव\nमन्त्राः स्पष्टार्थाः। तत्र च रथचालकाः सारथयः क्षत्तारः,\nत एव रथं नियच्छन्तः संग्रहीतारः, तश्चरथकारयोरवान्त-\nरभेदाद्वेदः; कर्मारा: लोहकाराः, पिञ्जिपुञ्जानां वालुकाः\nपुञ्जिष्टाः, निषादाः श्वपशाः, शुनकगळबद्धपाशघराः श्व-\n\nR. B. 7",
+      "english": "---\n                    Sri Rudra Bhashyam                    97\n---\n\n[Continuing the fourth anuvaka — eighth commentary, continued:]\n\n...those endowed with greatness through the divine powers such as anima (the power of becoming infinitesimally small); those without such powers are the \"kshullaka\" (small ones).\n\nNow the eighth [commentary]: — \"Namo rathibhyah\" (Obeisance to those with chariots). \"Rathinah\" means those who possess chariots; \"arathah\" means those without chariots. The nine mantras from the ninth [mantra] onward, ending with \"shvapatibhyah\" (dog-lords), are clear in their meanings. Among these: \"kshattrih\" are the chariot-drivers (sarathi — charioteers); those who hold and restrain the chariot are the \"sangrahitarih\"; the distinction between these two subtypes of chariot-controllers is noted; \"karmarah\" are iron-smiths (lohakara — blacksmiths); the \"punjishtha\" are those who collect sand-piles (valuka — sand-workers); \"nishadah\" are forest-dwelling hunters; those who carry loops and leashes tied to dogs are the \"shvani\" (dog-handlers).\n\n[Note on the structure of the fourth anuvaka:]\n\nThe Acharya (commentator) here completes the eighth commentary by briefly glossing the nine self-evident mantras that form a continuous litany, listing various social and occupational groups — chariot-warriors, chariot-less warriors, chariot-riders, chariot-lords, chariot-drivers, rein-holders, carpenters, chariot-makers, potters, blacksmiths, weavers, forest-hunters, arrow-makers, bow-makers, hunters, dog-keepers, dogs, and dog-lords — all of whom are saluted as manifestations of the Supreme Lord.\n\nThe theological principle underlying this section is the doctrine of sarvatmakatva (the Lord being the self of all). Just as the third anuvaka (chapter section) described the Lord in the form of warriors at various stages of combat — stringing bows, placing arrows, drawing bowstrings, releasing arrows, shooting, and piercing targets — the fourth anuvaka extends this vision to encompass all living beings in every condition of existence: seated or lying down, sleeping or waking, standing or running, assembled or leading assemblies, mounted on horses or leading horse-troops. The vision culminates in the comprehensive salutation of all occupational classes, from the noblest warriors to the humblest dog-keepers, affirming that the one Supreme Rudra dwells equally in all."
+    }
+  }
+}

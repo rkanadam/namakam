@@ -1,0 +1,865 @@
+{
+  "id": 1,
+  "samhita": "नम॑स्ते रुद्र म॒न्यव॑ उ॒तोत॒ इष॑वे॒ नमः॑ । नम॑स्ते अस्तु॒ धन्व॑ने बा॒हुभ्या॑मु॒त ते॒ नमः॑ ॥",
+  "pada": "नमः॑ । ते॒ । रु॒द्र॒ । म॒न्यवे᳚ । उ॒तो इति॑ । उ॒त । इष॑वे । नमः॑ । नमः॑ । ते॒ । अ॒स्तु॒ । धन्व॑ने । बा॒हुभ्या᳚म् । उ॒त । ते॒ । नमः॑ ॥",
+  "krama": "नम॑स्ते । ते रु॑द्र । रु॒द्र म॒न्यवे᳚ । म॒न्यव॑ उ॒तो इति॑ । उ॒तो उ॒त । उ॒त इष॑वे । इष॑वे॒ नमः॑ । नम॒ इति॑ नमः॑ । नम॑स्ते । ते अ॑स्तु । अ॒स्तु॒ धन्व॑ने । धन्व॑ने बा॒हुभ्या᳚म् । बा॒हुभ्या॑मु॒त । उ॒त ते॒ । ते नमः॑ । नम॒ इति॑ नमः॑ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑स्ते",
+      "word_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रुद्र",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒न्यव॑",
+      "word_ids": [
+        4
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒तोत॒",
+      "word_ids": [
+        5,
+        6
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वे॒",
+      "word_ids": [
+        7
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑स्ते",
+      "word_ids": [
+        9,
+        10
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्तु॒",
+      "word_ids": [
+        11
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्व॑ने",
+      "word_ids": [
+        12
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बा॒हुभ्या॑मु॒त",
+      "word_ids": [
+        13,
+        14
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        15
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        16
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र॒",
+      "word_ids": [
+        3
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒न्यवे᳚",
+      "word_ids": [
+        4
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒तो इति॑",
+      "word_ids": [
+        5
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वे",
+      "word_ids": [
+        7
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        9
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        10
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒",
+      "word_ids": [
+        11
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्व॑ने",
+      "word_ids": [
+        12
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बा॒हुभ्या᳚म्",
+      "word_ids": [
+        13
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        14
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        15
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        16
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑स्ते",
+      "word_ids": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते रु॑द्र",
+      "word_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्र म॒न्यवे᳚",
+      "word_ids": [
+        3,
+        4
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "म॒न्यव॑ उ॒तो इति॑",
+      "word_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒तो उ॒त",
+      "word_ids": [
+        5,
+        6
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त इष॑वे",
+      "word_ids": [
+        6,
+        7
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वे॒ नमः॑",
+      "word_ids": [
+        7,
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॒ इति॑ नमः॑",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑स्ते",
+      "word_ids": [
+        9,
+        10
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते अ॑स्तु",
+      "word_ids": [
+        10,
+        11
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒ धन्व॑ने",
+      "word_ids": [
+        11,
+        12
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धन्व॑ने बा॒हुभ्या᳚म्",
+      "word_ids": [
+        12,
+        13
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बा॒हुभ्या॑मु॒त",
+      "word_ids": [
+        13,
+        14
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त ते॒",
+      "word_ids": [
+        14,
+        15
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते नमः॑",
+      "word_ids": [
+        15,
+        16
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॒ इति॑ नमः॑",
+      "word_ids": [
+        16
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    {
+      "id": 1,
+      "pada_form": "नमः॑",
+      "samhita_span": {
+        "start": 0,
+        "end": 5,
+        "text": "नम॑स्"
+      },
+      "meanings": {
+        "english": "Salutations / Bowing down / Reverence.",
+        "nirukta": "Derived from the root 'nam' (नम्) meaning 'to bow, bend, or submit'. In Nirukta, 'namas' is defined in the sense of bowing or honoring (namanīya).",
+        "vedantic": "Interpreted as 'Na' (not) + 'mama' (mine) — indicating the complete surrender of the individual ego and the realization that nothing belongs to the limited self, but all belongs to the Supreme consciousness."
+      },
+      "grammatical_references": {
+        "panini": "Derived from the verbal root √nam (नमुँ प्रह्वत्वे शब्दे च, Bhvādi-gaṇa, 1.1030) with the suffix 'asun' (असुन्). Governs the dative case (caturthī vibhakti) by the Aṣṭadhyāyī sūtra: 'Namaḥ-svasti-svāhā-svadhā-alaṃ-vaṣaḍ-yogāc-ca' (2.3.16).",
+        "case_ending": "Avyaya (indeclinable nominal form/noun)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Listed under water synonyms (udaka-nāmāni, Nighaṇṭu 1.12, item 17) and food synonyms (anna-nāmāni, Nighaṇṭu 2.7) due to its Vedic polysemous usage representing nourishment and flow.",
+        "amara_kosha": "Listed in Amarakośa Avyayavarga (3.4.19) as a term indicating bowing, salutation, or reverence.",
+        "abhidhana_ratnamala": "Classified in Anekārtha-kāṇḍa (5.26) under Avyayas, meaning bowing or salutation (namaskāra)."
+      }
+    },
+    {
+      "id": 2,
+      "pada_form": "ते॒",
+      "samhita_span": {
+        "start": 5,
+        "end": 7,
+        "text": "ते"
+      },
+      "meanings": {
+        "english": "To you / Your.",
+        "nirukta": "Dative/genitive singular form of the second-person pronoun 'yushmad' (युष्मद्).",
+        "vedantic": "Refers to the Supreme Brahman or the inner Self (Pratyagatman) addressed directly in the second person ('You') as the ultimate substrate of all experience."
+      },
+      "grammatical_references": {
+        "panini": "Enclitic/substituted form (ādeśa) of the pronoun 'yushmad' (युष्मद्) in the dative case (caturthī-ekavacana) by the Aṣṭādhyāyī sūtra: 'Te-mayāv-ekavacanasya' (8.1.22).",
+        "case_ending": "Dative Singular (Caturthī Vibhakti, Ekavacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Pronouns are generally not classified in Nighaṇṭu glossaries.",
+        "amara_kosha": "Noted in Avyayavarga under pronominal derivatives.",
+        "abhidhana_ratnamala": "Pronouns and enclitics are generally excluded from classical synonym tables."
+      }
+    },
+    {
+      "id": 3,
+      "pada_form": "रु॒द्र॒",
+      "samhita_span": {
+        "start": 8,
+        "end": 13,
+        "text": "रुद्र"
+      },
+      "meanings": {
+        "english": "O Rudra.",
+        "nirukta": "Yāska's Nirukta gives multiple etymologies: (1) 'Rudra rautīti sataḥ' — He who roars/howls (associated with storm/wind); (2) 'Rodayater vā' — He who makes others weep (as the agent of dissolution or correction); (3) Commentators add: 'Rutam (sorrow/ignorance) dravayati (dissolves) iti Rudrah' — He who drives away or dissolves suffering and its causes.",
+        "vedantic": "The destroyer of the primary ignorance (avidya) and worldly suffering (samsara-duhkha). He is the ultimate reality that dissolves the illusion of duality."
+      },
+      "grammatical_references": {
+        "panini": "Derived from the verbal root √rud (रुदिँ अश्रुविमोचने, Adādi-gaṇa, 2.0002) with the Uṇādi suffix 'kran' (रक्) by the Uṇādi-sūtra: 'Rul-rik-sṛp-yup-nami-rudibhyaḥ kran' (Uṇādi 2.22 / 2.24).",
+        "case_ending": "Vocative Singular (Sambodhana-Prathamā, Ekavacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Listed under deities of the atmospheric/middle region (devatā-nāmāni, Nighaṇṭu 5.5).",
+        "amara_kosha": "Listed in Svargavarga (1.1.34) as a major synonym of Lord Śiva: 'rudraḥ sthāṇur umāpatiḥ'.",
+        "abhidhana_ratnamala": "Listed in Svarga-kāṇḍa (1.30-33) as a key name of Lord Shiva: 'rudras-tryambaka-īśānaḥ'."
+      }
+    },
+    {
+      "id": 4,
+      "pada_form": "म॒न्यवे᳚",
+      "samhita_span": {
+        "start": 14,
+        "end": 21,
+        "text": "म॒न्यव॑"
+      },
+      "meanings": {
+        "english": "To your anger / wrath / righteous indignation.",
+        "nirukta": "Derived from the root 'man' (मन्) meaning 'to think, know, or be angry'. In Vedic usage, 'manyu' signifies zeal, determination, wrath, or sacrifice.",
+        "vedantic": "Rudra's anger is not a personal defect, but the divine corrective force of Dharma that dissolves the ego. Bowing to His wrath signifies accepting life's corrective experiences as purifying grace."
+      },
+      "grammatical_references": {
+        "panini": "Derived from the verbal root √man (मनँ ज्ञाने, Divādi-gaṇa, 4.0073 or मनुँ अवबोधने, Tanādi-gaṇa, 8.0009) with the Uṇādi suffix 'yu' (यु) by the Uṇādi sūtra: 'Kru-man-dor-yuḥ' (Uṇādi 3.20). Governed in the dative case by relation to 'namas' (2.3.16).",
+        "case_ending": "Dative Singular (Caturthī Vibhakti, Ekavacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Listed under synonyms for anger (krodha-nāmāni, Nighaṇṭu 2.13) and also intellect/knowledge (prajñā-nāmāni, Nighaṇṭu 3.9).",
+        "amara_kosha": "Listed in Nānārthavarga (3.3.188): 'manyur dainye kratau krudhi' (defining manyu as distress, sacrifice, or anger).",
+        "abhidhana_ratnamala": "Listed in Anekārtha-kāṇḍa (5.82) under polysemous nouns, denoting anger (krodha), grief (śoka), and sacrifice (yajña)."
+      }
+    },
+    {
+      "id": 5,
+      "pada_form": "उ॒तो",
+      "samhita_span": {
+        "start": 22,
+        "end": 26,
+        "text": "उ॒तो"
+      },
+      "meanings": {
+        "english": "And also / Moreover.",
+        "nirukta": "Vedic particle combining 'uta' (and) and 'u' (also), functioning in the sense of conjunction or emphasis (samuccayārtha).",
+        "vedantic": "Highlights the non-dual nature of the Divine, linking the Lord's internal determination (wrath) to His active instruments (arrows/bow)."
+      },
+      "grammatical_references": {
+        "panini": "Vedic compound particle combining 'uta' + 'u' (उत + उ). By the rules of Sandhi, 'a + u' forms 'o'. Since it is a pragṛhya vowel (by 'Nipāta ekājanāṅ', 1.1.14), it does not undergo further sandhi in Vedic texts.",
+        "case_ending": "Avyaya (indeclinable conjunction)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Not explicitly listed; treated as standard Vedic nipāta (particle).",
+        "amara_kosha": "Noted in Avyayavarga under conjunctive and interrogative particles.",
+        "abhidhana_ratnamala": "Vedic particles are generally excluded from classical synonym tables."
+      }
+    },
+    {
+      "id": 6,
+      "pada_form": "उ॒त",
+      "samhita_span": {
+        "start": 26,
+        "end": 28,
+        "text": "त॒"
+      },
+      "meanings": {
+        "english": "And.",
+        "nirukta": "Conjunction meaning 'and' or 'also'.",
+        "vedantic": "Serves to coordinate and unify different aspects and weapons of the Divine as manifestations of a single, indivisible energy."
+      },
+      "grammatical_references": {
+        "panini": "Avyaya (indeclinable conjunction) classified under the Cādi class of particles (cādi-gaṇa).",
+        "case_ending": "Avyaya (indeclinable conjunction)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Treated as a standard Vedic nipāta.",
+        "amara_kosha": "Listed in Avyayavarga (3.4.15) in the sense of addition/coordination: 'utāpy-arthe ca saṃśaye'.",
+        "abhidhana_ratnamala": "Listed in Anekārtha-kāṇḍa under conjunctive particles (avyayas)."
+      }
+    },
+    {
+      "id": 7,
+      "pada_form": "इष॑वे",
+      "samhita_span": {
+        "start": 29,
+        "end": 35,
+        "text": "इष॑वे॒"
+      },
+      "meanings": {
+        "english": "To your arrow.",
+        "nirukta": "Derived from the root 'iṣ' (इष्) meaning 'to speed, go, send, or throw'. Yāska's Nirukta identifies 'iṣu' as 'iṣur iṣateḥ gatikarmaṇaḥ' (that which is propelled).",
+        "vedantic": "The arrow represents the focused mind or sadhana directed toward the Supreme. In the Mundaka Upanishad, the soul is the arrow, and Brahman is the target. It is the power of focused will."
+      },
+      "grammatical_references": {
+        "panini": "Derived from the verbal root √iṣ (इषुँ गत्यौ, Tudādi-gaṇa, 6.0076) with the Uṇādi suffix 'u' (उ) by Uṇādi-sūtra: 'Iṣer-uch' (Uṇādi 1.22). Governed in the dative case by relation to 'namas' (2.3.16).",
+        "case_ending": "Dative Singular (Caturthī Vibhakti, Ekavacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Listed under weapons and thunderbolt synonyms (vajra-nāmāni, Nighaṇṭu 2.17).",
+        "amara_kosha": "Listed in Kṣatriyavarga (2.8.91) as a synonym for arrow: 'bāṇājau khagakāṇāstraviśikhāḥ śarapatrinau ropiṣu... dvayor iṣur' (identifying iṣu as both masculine and feminine).",
+        "abhidhana_ratnamala": "Listed in Sāmānya-kāṇḍa (2.124) under weapons, with synonyms like 'śara', 'bāṇa', and 'viśikha'."
+      }
+    },
+    {
+      "id": 8,
+      "pada_form": "नमः॑",
+      "samhita_span": {
+        "start": 36,
+        "end": 40,
+        "text": "नमः॑"
+      },
+      "meanings": {
+        "english": "Salutations.",
+        "nirukta": "Same as word index 1.",
+        "vedantic": "Reiterates self-surrender and bowing down to the specific weapon (arrow) of the Lord."
+      },
+      "grammatical_references": {
+        "panini": "Same as word index 1.",
+        "case_ending": "Avyaya."
+      },
+      "lexicographical_references": {
+        "nighantu": "Same as word index 1.",
+        "amara_kosha": "Same as word index 1.",
+        "abhidhana_ratnamala": "Same as word index 1."
+      }
+    },
+    {
+      "id": 9,
+      "pada_form": "नमः॑",
+      "samhita_span": {
+        "start": 43,
+        "end": 48,
+        "text": "नम॑स्"
+      },
+      "meanings": {
+        "english": "Salutations.",
+        "nirukta": "Same as word index 1.",
+        "vedantic": "Salutations directed here toward the bow and arms of the Lord, signifying complete surrender of all instruments of action."
+      },
+      "grammatical_references": {
+        "panini": "Same as word index 1.",
+        "case_ending": "Avyaya."
+      },
+      "lexicographical_references": {
+        "nighantu": "Same as word index 1.",
+        "amara_kosha": "Same as word index 1.",
+        "abhidhana_ratnamala": "Same as word index 1."
+      }
+    },
+    {
+      "id": 10,
+      "pada_form": "ते॒",
+      "samhita_span": {
+        "start": 48,
+        "end": 50,
+        "text": "ते"
+      },
+      "meanings": {
+        "english": "To you / Your.",
+        "nirukta": "Same as word index 2.",
+        "vedantic": "Same as word index 2."
+      },
+      "grammatical_references": {
+        "panini": "Same as word index 2.",
+        "case_ending": "Dative Singular (Caturthī Vibhakti, Ekavacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Same as word index 2.",
+        "amara_kosha": "Same as word index 2.",
+        "abhidhana_ratnamala": "Same as word index 2."
+      }
+    },
+    {
+      "id": 11,
+      "pada_form": "अ॒स्तु॒",
+      "samhita_span": {
+        "start": 51,
+        "end": 57,
+        "text": "अस्तु॒"
+      },
+      "meanings": {
+        "english": "Let there be / May there be.",
+        "nirukta": "Imperative 3rd person singular of the root 'as' (अस्) 'to be'.",
+        "vedantic": "Expresses alignment of individual will with the divine law; a willing assent to the Lord's cosmic order."
+      },
+      "grammatical_references": {
+        "panini": "Derived from the verbal root √as (अस् भुवि, Adādi-gaṇa, 2.0060) in the Imperative Mood (loṭ-lakāra, prathama-puruṣa, ekavacana). Suffix 'ti' is replaced by 'tu' (3.4.86).",
+        "case_ending": "Verb (Tiṅanta), 3rd Person Singular, Imperative Mood."
+      },
+      "lexicographical_references": {
+        "nighantu": "Verbal inflections are not listed in Nighaṇṭu.",
+        "amara_kosha": "Listed in Avyayavarga as a particle of permission, command, or existence.",
+        "abhidhana_ratnamala": "Verb-based particle under Avyayas."
+      }
+    },
+    {
+      "id": 12,
+      "pada_form": "धन्व॑ने",
+      "samhita_span": {
+        "start": 58,
+        "end": 65,
+        "text": "धन्व॑ने"
+      },
+      "meanings": {
+        "english": "To your bow.",
+        "nirukta": "Derived from the root 'dhanv' (धन्व्) 'to run, flow, or move'. Nirukta derives 'dhanvan' as 'dhanvanty asmād āpaḥ' (that from which waters run/flow, i.e., the atmosphere). For the bow, it refers to the instrument from which arrows speed.",
+        "vedantic": "The bow represents the sacred Pranava (OM) or the Upanishadic teachings, which support the arrow (soul) in reaching Brahman (as in Mundaka Upanishad: 'pranavo dhanuh...')."
+      },
+      "grammatical_references": {
+        "panini": "Derived from the verbal root √dhanv (धन्विँ गत्यर्थः, Bhvādi-gaṇa, 1.0694) with the Uṇādi suffix 'kanin' (कनिन्) or 'vanip' (वनिप्) by Uṇādi sūtra: 'Dhanver ac' (Uṇādi 1.121) or equivalent base derivation. Governed in the dative case by relation to 'namas' (2.3.16).",
+        "case_ending": "Dative Singular (Caturthī Vibhakti, Ekavacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Listed under synonyms for the atmosphere/sky (antarikṣa-nāmāni, Nighaṇṭu 1.3).",
+        "amara_kosha": "Listed in Kṣatriyavarga (2.8.84) as a synonym for bow: 'धनुश्चापधन्वानि' or 'cāpakārmukakodaṇḍaśarāsanāni dhanus' (with dhanvan as a valid stem).",
+        "abhidhana_ratnamala": "Listed in Sāmānya-kāṇḍa (2.121) under weapons, alongside 'cāpa', 'kārmuka', and 'kodanda'."
+      }
+    },
+    {
+      "id": 13,
+      "pada_form": "बा॒हुभ्या᳚म्",
+      "samhita_span": {
+        "start": 66,
+        "end": 77,
+        "text": "बा॒हुभ्या॑म"
+      },
+      "meanings": {
+        "english": "To your two arms.",
+        "nirukta": "Derived from the root 'bah' (बह्) meaning 'to grow, increase, be strong'. Represents the limbs of action.",
+        "vedantic": "Represents the twin operational powers of Brahman: 'nigraha' (restraint/dissolution of the ego/evil) and 'anugraha' (bestowal of grace/protection). Also symbolizes the all-pervading activity of Brahman."
+      },
+      "grammatical_references": {
+        "panini": "Derived from the verbal root √bah (बहँ वृद्धौ, Bhvādi-gaṇa, 1.0772) with the Uṇādi suffix 'ku' (कु) by Uṇādi sūtra: 'Baher-kuḥ' (Uṇādi 1.28). Governed in the dative case by relation to 'namas' (2.3.16).",
+        "case_ending": "Dative Dual (Caturthī Vibhakti, Dvivacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Listed under synonyms for strength or physical limbs (balam, Nighaṇṭu 2.9).",
+        "amara_kosha": "Listed in Manuṣyavarga (2.6.77) under body parts: 'bāhū prakoṣṭhe... bhujo bāhuḥ praveṣṭo-’strī'.",
+        "abhidhana_ratnamala": "Listed in Samanya-kāṇḍa (2.54) under body parts, with synonyms 'doh' and 'bhuja'."
+      }
+    },
+    {
+      "id": 14,
+      "pada_form": "उ॒त",
+      "samhita_span": {
+        "start": 77,
+        "end": 80,
+        "text": "ु॒त"
+      },
+      "meanings": {
+        "english": "And.",
+        "nirukta": "Conjunction meaning 'and' or 'also'.",
+        "vedantic": "Coordinates the bow, arrow, and arms into a single, cohesive manifestation of divine action."
+      },
+      "grammatical_references": {
+        "panini": "Same as word index 6.",
+        "case_ending": "Avyaya."
+      },
+      "lexicographical_references": {
+        "nighantu": "Same as word index 6.",
+        "amara_kosha": "Same as word index 6.",
+        "abhidhana_ratnamala": "Same as word index 6."
+      }
+    },
+    {
+      "id": 15,
+      "pada_form": "ते॒",
+      "samhita_span": {
+        "start": 81,
+        "end": 84,
+        "text": "ते॒"
+      },
+      "meanings": {
+        "english": "To you / Your.",
+        "nirukta": "Same as word index 2.",
+        "vedantic": "Same as word index 2."
+      },
+      "grammatical_references": {
+        "panini": "Same as word index 2.",
+        "case_ending": "Dative Singular (Caturthī Vibhakti, Ekavacana)."
+      },
+      "lexicographical_references": {
+        "nighantu": "Same as word index 2.",
+        "amara_kosha": "Same as word index 2.",
+        "abhidhana_ratnamala": "Same as word index 2."
+      }
+    },
+    {
+      "id": 16,
+      "pada_form": "नमः॑",
+      "samhita_span": {
+        "start": 85,
+        "end": 89,
+        "text": "नमः॑"
+      },
+      "meanings": {
+        "english": "Salutations.",
+        "nirukta": "Same as word index 1.",
+        "vedantic": "Final salutation reinforcing the attitude of complete self-surrender to the Divine."
+      },
+      "grammatical_references": {
+        "panini": "Same as word index 1.",
+        "case_ending": "Avyaya."
+      },
+      "lexicographical_references": {
+        "nighantu": "Same as word index 1.",
+        "amara_kosha": "Same as word index 1.",
+        "abhidhana_ratnamala": "Same as word index 1."
+      }
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "sanskrit": "हे रुद्र ते त्वदीयो यो मन्युः कोपस्तस्मै नमोऽस्तु । स मन्युरस्मद्वैरिष्वेव प्रसरतु न त्वस्मासु । उतो अपि च ते तवेषवे नमस्त्वदीयाय बाणाय नमोऽस्तु । तथा ते धन्वने त्वदीयाय धनुषे नमोऽस्तु । उतापि च ते वाहुभ्यां त्वदीयाभ्यां धनुर्बाणोपेताभ्यां हस्ताभ्यां नमोऽस्तु । एतत्सर्वं वैरिष्वेव प्रवतेतां न तु मयीत्यभिप्रायः ॥ १ ॥",
+      "english": "O Rudra, let there be salutation to your anger (manyu), your wrath. May that anger spread only among our enemies, not against us. And (uto) also salutations to your arrow (ishu). Similarly, salutations to your bow (dhanvan). And also salutations to your two arms (bahu) which are equipped with the bow and arrow. The intention is: let all these operate only against enemies, not against me."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "dhyana": "One should meditate on Maheshwara, of adorable appearance, accompanied by the Goddess, in the form of a young warrior, placing a shining divine arrow on a bow drawn back to his ear.",
+      "sanskrit": "ॐ नमस्ते रुद्र मन्यव इत्यस्य कश्यप ऋषिः । रुद्रो देवता । अनुष्टुपछन्दः । प्रत्यक्षकृता एतदादयः पञ्च मन्त्राः ॥ ॐ स्वाहा स्वधा वषण्णम इति पञ्च ब्रह्मणो नामानि । वाङ्मनःकायैराराध्याषीनात्मत्वसंपादनं ब्रह्मत्वात् परनामषेयं नमःशब्दार्थः । हे रुद्र तव स्तभूताय मन्यवे क्रोधाय नमोऽस्तु । अस्तिवति वक्ष्यमाणमन्त्राद्नुषज्यते । रोदयति सर्वेमन्तकाल इति रुद्रः । ''रोदें-णिलुक्च '' इति रक्प्रत्ययः । पौराणिकाद्यस्तु बहुधा वदन्ति—रतौ नादानवे द्रवति द्रावयतीति वा रुद्र इति केचित् । पृषोद्रादित्वाद्यथाभिमतप्रत्ययविकारार्थेविशेषळाभः । रुत्या वेद्रूपया धर्मादीनवलोकयति प्रापयतीति वा रुद्र इत्यन्ये । रुत्या वाम्रूपया वाच्यं प्रापयतीति केचित् । रुत्या प्रणवरूपया स्वात्मानं प्रापयतीतीतरे । रुद्रो रौतीति सत्ये रोरूयमाणो द्रवति प्रविशति मत्यांनिति रुद्र इत्यन्ये । यथा—'' त्रिधा बद्धो हृषभो रोरवीति महो देवो मत्यां आविवेश '' इति । अन्ये झ्रुवते—रुक्तेजो लुवकारेकाररेफाश्वेति । भूमि नित्ययोगे वा रप्रत्ययः । वर्णेभ्याहृत्या रुद्रस्तेजस्वीति । यद्वा—रोधिका षनिधका मोहिका वा शक्तिस्तद्वांस्तस्या द्रावयिता वा भक्तेभ्यो रुद्रः । रुदं संसारदुःखं द्रावयतीति रुद्र इति केचित् ॥ यथा––'' अशुमद्रावको रुद्रो यज्ञहार पुनर्भवम् । तस्माच्छिवस्ततो रुद्राञ्बदेनात्राभिधीयते '' इति ॥ रुतिं शब्दं राति ददातांति प्राणो रुद्र इत्यन्ये । रुतिं शब्दं वेदात्मानं ब्रह्मणे ददाति कल्पादाविति रुद्र इत्यपरे । यथा—\"यो वै वेदाश् ध प्रहिणोति तस्मै \" इति । एवं तीर्थेकारैः स्वस्वसपयानुगुगं रुद्रपदं व्युत्पाद्यते । मन्यते-दॉष्टिकर्मणो '' यजिमनिग्रुनिधद्सिजनिभ्यो युः \" इति युमत्ययः । मन्युः क्रोधः क्रोधात्मिका तव शक्तिः शान्तिरूपा भवतु । मा विधष्ट भक्तानिति भक्तविषये तस्योपसंहारं प्रार्थयते । एवमिष्णादिष्वापि वेदितव्यमु॥ उतो उत–उ इति निपातसमाहारोऽयमपि चेत्यस्यार्थे वर्तते । ते तवेषवे शराय नमः । \"त इषुश् समस्कृवेताग्निमनीकश्सोमश्शल्यं विष्णुं तेजनमू\" इत्येवं रूपा वैदिकी देवस्येषुः । शाखान्तरे च—\"तस्या अग्निरनीकमासीत्सोमः शल्यो विष्णुस्ते-जनं वरुणः पर्णानि \" इति ॥ किंच ते धन्वने धनुषे च नमोऽस्तु ॥ '' कनकशैलो देवस्य धनुः \" इति पौराणिकाः ॥ महाभारते तु–'' स कृत्वा धनुरोंकारं सावित्रीं जयां महेश्वरः । हयांश्च चतुरो वेदान्सर्वदेवमयं रथमू \" इत्युक्तमू ॥ धनुःशब्दपयांयो धन्वञ्शब्दः । द्घातेवों वनिपि नुमू हस्वः । उतापि च ते तव बाहुभ्यामपि नमोऽस्तु । मसिद्दौ बाहू । द्विवचनमतञ्रमू । बहवो हि देवस्य बाहवः । भक्तशरशरासनव्यापृतवाहुद्रयाभिमायं वा । अत्र सर्वेषां व्यसनानां मन्युर्मूलमिति तस्य पूर्वे नमस्कारः कुतः । ततः साक्षाध्यसनकारित्वान्मन्युसमनन्तरपिपुनेमस्कृता । तत इषुसमनन्तरं तद्पादानभूताय धनुषे च नमस्कारं मायुङ्क् । ततस्तदुभयव्यापृतौ वाहु नमश्क इति केचित्दाहुः । एते मन्युमृषतयो देवस्य वोधिविशेपाः क्रोधादिकार्यकारित्वाचतचब्रावेन रूप्यन्त इति । इत्थमनेन मन्नेण देवस्य घोरा तनूर्जगदुपसंहारमवृता प्रसाध्यते ॥ अथास्य मन्त्रस्य पुरश्चरणादिकं व्रुमः—कुच्छ्रं द्वादशरात्रं चरित्वैकादशसहस्रमभिहितदिनानि निरन्तरं जपन्कृतपुरश्चरणो भवति । ततोऽनेन पदक्षिणमनमस्कारं च कुयांत् । ततो दक्षिणाषृतिसंनिधावेकादशसहस्रजपादशेषं पापं नश्यति । ततो लक्षजपात्सप्तजन्मकृतं पापं नश्यति । तस्िम्न्नेव दक्षिणाषृतिसंनिधावग्निं निधाय घृतपायसं श्रपयित्वा स्वाग्नौ जुहुयात्साक्षादेवं पश्यति । तस्िम्न्नेव सर्वतोऽरत्निमात्रमग्निकुण्डं कृत्वा स्वाग्नौ काषिलेन घृतेन शतसहस्रं जुहुयाद्राणपत्यं लभते । अथैतयचो राज्ञो वक्ष्यते—राजा पुरश्चरणसिद्धेन ब्राह्मणेन लिङ्गे पूजां कारयेत् । तत्मकारो वक्ष्यते-लिङ्गस्य दक्षिणतोऽग्निकुण्डं विभाय मथितवाऽग्निं निधाय नित्यवदाज्येन दर्वाभिः शुद्धेन तण्डुलेन समीसमिद्धिः प्रत्येकमष्टसहस्रं जुहुयात् । देवस्य संनिधौ जपेदष्टसहस्रम् । देवालयमभितः पदक्षिणमष्टसहस्रम् । ताण्डवं देवस्य संनिधौ । प्रणामनमस्काराव-च्यष्टसहस्रौ । एतैः कर्मभिर्भगवानतिसुप्रसन्नो भवति ॥",
+      "english": "Om. For 'Namaste rudra manyava', the Rishi is Kashyapa. The Deity is Rudra. The Metre is Anushtup. These first five mantras are directly addressed (pratyakshakrita). Om. Svaha, Svadha, Vashat, Namah — these are the five names of Brahman. To achieve selfhood (atmatva) and Brahman-hood through worship with speech, mind, and body...\n\nO Rudra, salutation be to your anger (manyu), which has taken the form of wrath. The word 'be' (astu) is brought in from the mantra to be spoken later. Rudra is he who makes everyone weep (rodayati) at the time of death. The 'rak' suffix is added. Puranic writers and others say many things: some say Rudra is he who runs (dravati) or makes others melt (draavayati) toward the sound (rut). Others say Rudra is he who looks at or grants Dharma etc. through the Veda (rut). Some say he who grants the object of speech through speech (rut). Others say he who grants self-realization through the sound of Pranava (rut). Others say Rudra is the Great God who, roaring (roruyamanah), enters into mortals.\n\nAs it is said: 'Rudra is the melter of impurity, the taker of the sacrifice, the one born again. Therefore he is Shiva, and here he is called by the word Rudra.'\n\n'Manyu' comes from the root 'man' (to think/know); it means anger. May your power which consists of anger become of the form of peace. 'Do not harm the devotees' — thus he prays for its withdrawal regarding devotees. The same should be understood for the arrow etc. 'Uto' is a combination of 'uta' and 'u', meaning 'also'. Salutation to your arrow (ishu). Furthermore, salutation be to your bow (dhanvan). And also (uta-api) salutation be to your two arms (bahu).\n\nSome say: why is the salutation to anger first? Because anger is the root of all afflictions (vyasana). Then, the arrow is saluted immediately after anger, as it is the direct cause of affliction. Then, after the arrow, salutation is directed to the bow, which is its source. Then, salutation is offered to the two arms engaged in both. These — anger, arrow, etc. — are specific manifestations of the God; because they perform actions like anger, they are represented in that form. Thus, by this mantra, the God's fierce body (ghora-tanu), which is engaged in the withdrawal (destruction) of the universe, is pacified.\n\nPurashcharana (ritual completion): Having performed the Krichhra penance for twelve nights, chanting eleven thousand times continuously, one completes the Purashcharana. Then, with this mantra, one should perform circumambulation and salutation. By chanting eleven thousand times near a right-turning (dakshinavriti) shrine, all sins are destroyed. By chanting a lakh (100,000) times, sins committed in seven births are destroyed."
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "dhyana": "May one meditate upon the great Lord — Maheshvara — who is stringing a blazing divine arrow upon the bow of Shakuneya (derived from the sacred tree), together with the resplendent goddess, his body shining with magnificent form, united with the Goddess.",
+      "sanskrit": "तत्र तावत्रिजपापक्षयार्थेमीश्वरं प्रसादयितुं नमस्करोति— नमस्ते रुद्रेति । हे रुद्र प्रणतदु:खद्रावक, ते त्वमन्यवे कोधाय, नमः अस्तु। न च निरस्तसमस्तदोषनिखिलकल्याणगुणगणसमुद्रे भगवति कथं कोधप्रसक्तिरिति वाच्यम्, दुष्टनिग्रहशिष्टानुग्रहक्षमाभावे निग्राह्याविषये कोधस्यालंकारत्वेनादोषत्वात्; 'श्रुतिस्मृतिर्मेमैवाज्ञा यस्तामुल्लङ्घयर्तते । आज्ञाच्छेद्वी मम द्वेष्य: स मे वध्यश्च जायते' इति भगवतैवोक्तस्वात्। न चैवं वैषन्यनैर्घृण्यप्रसक्तिरिति वाच्यम्, तत्तत्कर्मांनुसारेण निग्रहानुग्रहौ कुर्वेतस्य तत्प्रसक्तेरिति ब्रह्ममीमांसायां प्रपञ्च: ।\n\nअत्र रुद्रेति हेतुगर्भे संबोधनम्। अत्र रुद्रशब्दो हि रुतं द्रावयतीत्यर्थे 'रुहु:खं दु:खहेतुर्वां तद्रावयित न: प्रसु:। रुद्र इत्युच्यते तस्यात्छिव: परमकारणम्' इति पौराणिकैर्व्युत्पादित: पुरोद्राद:; तथा च प्रणतदु:खत्वहेतुभूतपापद्रावकस्य तवणते सति पापनिमित्तक: क्रोध: परिहर्तुं युक्त एवेति भाव:।\n\nइत्थमेपि रुद्रपदसंबोधनासिप्रायो द्रष्टव्य:। इत्थं भगवन्तं प्रसाध तद्युघान्यपि नमस्कारेण प्रसाधयति— उतो त इति; उतो अपि चेत्यर्थे; हे रुद्र, ते तव, इषवे बाणाय, नम: अस्तु; तथा इष्वपादानभूताथ तव धन्वने धनुषे, नम: अस्तु; उत अपि च, धनुर्बांणव्याप्ताभ्यां हस्ताभ्यां नम: अस्तु।\n\nअथास्य मन्त्रस्य ऋषिश्चन्दोदेवता: प्रदर्श्यन्ते— अस्य 'नमस्ते रुद्र मन्यवे' इति मन्त्रस्य आत्रेय ऋषि:, अनुष्टुप् छन्द:, श्रीरुद्रो देवता।",
+      "english": "Now, first of all, in order to propitiate the Lord for the removal of sins accrued through three [previous] lifetimes, [the devotee] offers salutation: \"namaste rudra\" — \"Salutation to You, O Rudra.\"\n\nO Rudra — O You who drive away the suffering of those who prostrate [to You] — to Your manyave (wrath, anger), namah (salutation) be. One should not object that wrath cannot be attributed to the Lord who is the ocean of all auspicious qualities, free of all defects — for wrath directed toward the wicked is not a blemish when it serves the purpose of restraining the guilty and favoring the righteous; the Lord Himself has said: \"The Shruti and Smriti are My commandment; whoever transgresses that commandment becomes My enemy and is to be punished by Me.\" Nor should one raise the objection that this implies partiality (vaishamy a) or cruelty (nairghrunyam), since the Brahma-mimamsa (the Vedanta philosophy, i.e., the Brahmasutras) explains in detail that the Lord's bestowal of grace and punishment follows the [prior] karma of individual beings. Here the vocative \"rudra\" is significant: the word Rudra is etymologically derived by the Puranic tradition as meaning \"one who causes distress to flow away (dravayita)\" — \"He who causes suffering (ru) or the cause of suffering (rut) to flow away (dravayita) — that compassionate one is called Rudra; Shiva is His supreme cause\" — thus the word is analyzed. Accordingly, since You are the one who drives away the sins that are the cause of the suffering of the prostrated devotee, it is entirely fitting that wrath arising from [those] sins should be removed upon prostration.\n\nThus, the intent of the vocative \"rudra\" is evident. Having thus propitiated the Lord, [the devotee] propitiates [the Lord's] weapons too with salutation: \"uto ta\" — \"uto\" means \"also, moreover.\" O Rudra, to Your ishave (arrow), namah (salutation) be. Similarly, to Your dhanvane (bow) — the source from which the arrow is released — namah be. And moreover, to the two arms occupied by the bow and arrow, namah be. The sequence is: the Lord becomes angry at the sinner who transgresses the divine commandment in the form of Shruti and Smriti; for the purpose of striking that [sinner], He reaches for His arrows; fixing His gaze on the bow from which those arrows are drawn, He extends His arms to grasp the bow and arrow. In this very sequence [the salutation] is offerred here. The divine weapons are, as it were, forms of the Lord's divine power — a power without limit and infinitely varied — worthy of worship by the world, just like the divine forms of the deity used in worship. Hence salutation and propitiation directed toward them are entirely appropriate.\n\nIndeed it is heard in the Mahabharata: when Krishna and Arjuna journeyed to Kailasa to recover the knowledge of the Pashupata weapon (which had been forgotten), and having received the Lord's command went to fetch it, the weapon — the Pashupata astra — was stationed there, terrible and exceedingly fearsome, with flames shooting from the mouths of innumerable serpent-hoods. The power of Shri Krishna's recitation of the Shataraudriya chapter (i.e., Shri Rudra) caused it to become pacified and come to hand. This episode should be kept in mind here.\n\nThe seer of the mantra \"namaste rudra manyave\" is Atri's line (Atreya); the meter is Anushtup (eight-syllable verse); the deity is Shri Rudra.\n\nThe dhyana-shloka (verse for meditation) is: \"May one meditate upon the great Lord — Maheshvara — who is stringing a blazing divine arrow upon the bow of Shakuneya (derived from the sacred tree), together with the resplendent goddess, his body shining with magnificent form, united with the Goddess.\"\n\nThe siddhi (perfection) of this mantra is attained by reciting it eleven thousand times preceded by the performance of the Prajapatya Kriccha (an austere penance spanning twelve days). Through this mantra, with pradakshina (circumambulation) and prostration, one obtains the Lord's grace, the destruction of sins, and Ganapati-status (the position of the leader of hosts).\n\nThus [ends] the first mantra."
+    }
+  }
+}

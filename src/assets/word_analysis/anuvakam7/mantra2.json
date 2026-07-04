@@ -1,0 +1,191 @@
+{
+  "id": 2,
+  "samhita": "नमो॑ धृ॒ष्णवे॑ च प्रमृ॒शाय॑ च॒",
+  "pada": "नमो॑ । धृ॒ष्णवे॑ । च॒ । प्र॒-मृ॒शाय॑ । च॒ ॥",
+  "krama": "नमो॑ धृ॒ष्णवे॑ । धृ॒ष्णवे॑ च । च प्रमृ॒शाय॑ । प्रमृ॒शाय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धृ॒ष्णवे॑",
+      "word_ids": [
+        55
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रमृ॒शाय॑",
+      "word_ids": [
+        334
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धृ॒ष्णवे॑",
+      "word_ids": [
+        55
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒-मृ॒शाय॑",
+      "word_ids": [
+        334
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ धृ॒ष्णवे॑",
+      "word_ids": [
+        144,
+        55
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धृ॒ष्णवे॑ च",
+      "word_ids": [
+        55,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च प्रमृ॒शाय॑",
+      "word_ids": [
+        19,
+        334
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रमृ॒शाय॑ च",
+      "word_ids": [
+        334,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    55,
+    144,
+    334
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "सा० मा० दुन्दुभ्यां भेर्यौ भवः शब्दो दुन्दुभ्यः । आहन्यते ताड्यतेऽनेने-",
+      "english": "'Dhrishnuh'—one who does not flee in battle. 'Pramrishah'—one who examines (paramarshaka) the essential reality of the enemy's army. (2)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namo dhrishnave cha'—to him whose nature is to overpower. Or: to him who is skilled in protecting the entire universe. [Grammatical note]. Even though powerful, he is without partiality towards any particular field—'pramrishaya cha'—to the one skilled in discerning (examining) everything, the wise (pandita). [Grammatical note]. Another says: 'pramrishah' means one of distinguished character. For all indeed worship the God for their own desires, or for well-being, or for supreme liberation; the God, considering that as his own purpose, protects them. (2)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": 10,
+  "samhita": "नमो॑ ना॒द्याय॑ च वैश॒न्ताय॑ च॒",
+  "pada": "नमो॑ । ना॒द्याय॑ । च॒ । वै॒श॒न्ताय॑ । च॒ ॥",
+  "krama": "नमो॑ ना॒द्याय॑ । ना॒द्याय॑ च । च वैश॒न्ताय॑ । वैश॒न्ताय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ना॒द्याय॑",
+      "word_ids": [
+        320
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वैश॒न्ताय॑",
+      "word_ids": [
+        321
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ना॒द्याय॑",
+      "word_ids": [
+        320
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वै॒श॒न्ताय॑",
+      "word_ids": [
+        321
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ ना॒द्याय॑",
+      "word_ids": [
+        144,
+        320
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ना॒द्याय॑ च",
+      "word_ids": [
+        320,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वैश॒न्ताय॑",
+      "word_ids": [
+        19,
+        321
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वैश॒न्ताय॑ च",
+      "word_ids": [
+        321,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    320,
+    321
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah nadyaya cha'—to him in the form of river water. [Grammatical note]. 'Vaishantaya cha'—'veshanta' is a small pond; to him existing in the water of that place. 'Vaishantas' are those (ponds) made by the gods (natural), where water enters for the purpose of pleasing the deities etc. [Grammatical note]. (10)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

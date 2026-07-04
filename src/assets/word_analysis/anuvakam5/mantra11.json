@@ -1,0 +1,199 @@
+{
+  "id": 11,
+  "samhita": "नमो॒ अग्रि॑याय च प्रथ॒माय॑ च॒",
+  "pada": "नमो॒ । अग्रि॑याय । च॒ । प्र॒थ॒माय॑ । च॒ ॥",
+  "krama": "नमो॒ अग्रि॑याय । अग्रि॑याय च । च प्रथ॒माय॑ । प्रथ॒माय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अग्रि॑याय",
+      "word_ids": [
+        264
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रथ॒माय॑",
+      "word_ids": [
+        265
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अग्रि॑याय",
+      "word_ids": [
+        264
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒थ॒माय॑",
+      "word_ids": [
+        265
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॒ अग्रि॑याय",
+      "word_ids": [
+        144,
+        264
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अग्रि॑याय च",
+      "word_ids": [
+        264,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च प्रथ॒माय॑",
+      "word_ids": [
+        19,
+        265
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रथ॒माय॑ च",
+      "word_ids": [
+        265,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    264,
+    265
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Agriyah'—existing before the creation of the world. 'Prathamah'—chief in the assembly."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "'Namo agriyaya cha'—to the one existing at the beginning (agre). [Grammatical note]. 'Prathamaya cha'—to the principal, the foremost. (11)\n\nSalutation to the swift and to the agile."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "१०६                    श्रीरुद्रभाष्यम् ।\n\nन्यकृ असाधारण्येन स्तुतिनमस्कारेर्विहितः संतृध्वा, अनेन\n'भा त्वा हद्र चुकुधामानमोभिर्मोमुट्रतीवृषभमासहूती उभो-\nविरासेऽपेय शेषजेभिः' 'भिषक्तमं त्वा भिषजां शृणोमि'\n'दुष्ठुला सदभस्तुला समानाह्लानकर्मणा। न वयं चुकुध्याम\nत्वां सर्वदेवनमस्कृत' इति श्रुतिपुराणसिद्धमनिवर्देवताया-\nधारणस्तुतिनमस्कारैकविषयत्वं दशितं भवति ॥\n\n      नमो अग्रियाय च प्रथमाय च ॥\n\n      अथैकादशः—— नमो अग्रियायेति। अग्रे जागदुत्प-\nवेः पूर्वमवस्थितः अग्रियः, इदमग्रियत्वं हिरण्यगर्भस्याय-\nति, 'हिरण्यगर्भः समवर्ततागे' इति श्रुवेः; अतो वि-\nशिनष्टि— प्रथमायेति। हिरण्यगर्भोदिपि प्रथमः, तक्षापि\nकारणसूत इत्यर्थे। 'हिरण्यगर्भं जनयामास पूर्वम्' इति\nहि श्वेताश्वतरश्रुतिः। अनेन 'यदातमस्तञ्च दिवा न रात्रिर्नं\nसञ्च चासञ्चिछव एव केवलः' इत्यादिश्रुतिप्रसिद्धं अगत्का-\nरणस्वं दशितम् । यद्यपि 'नमो भवाय' इत्यनेनैव तदुक्तम्,\nतथापि जगत्प्रादिहिरण्यगर्भजनकत्वेन तदेवतारोपवाद्यते ॥\n\n      नम आश्वे चाजिराय च ॥\n\n      अथ द्वादशः:—— नम आश्वे इति। अभ्रोति व्याप्रो-",
+      "english": "106                    Śrī Rudra Bhāṣyam\n\n\"O Rudra, we shall sing of You to strengthen You with our praises; like a bull bellowing at the cattle-call, You have expanded in both directions through Your own help (ubhayī-virāse) and You have surpassed through descendants\"; \"I hear You as the most healing among healers (bhiṣaktamaṃ tvā bhiṣajāṃ śṛṇomi)\"; and \"To one whose deeds are evil and whose deeds are equal, we shall not offend You in any act — O You who are saluted by all the gods\" — thus is displayed from Śruti and Purāṇa the Lord's unique status as the sole object of hymns and salutations from all deities without exception.\n\n      Homage to Agriya and to Prathama.\n\n      Now the eleventh [mantra]: \"Namo agriyāya\" — He who stands first, prior to the arising of the world (jagadutpatti), is Agriya (the primordial one). Now this \"primordialness\" (agriyatva) belongs to Hiraṇyagarbha (the cosmic creative principle), as established by the Śruti: \"Hiraṇyagarbha was born first.\" Hence the text further specifies: \"Prathamāya\" — Hiraṇyagarbha too is first [in the manifest order], but even he is the offspring of a cause (kāraṇasūti), meaning: \"to Him who is the cause even of Hiraṇyagarbha.\" The Śvetāśvatara Śruti declares: \"He generated Hiraṇyagarbha first.\" Through this name, the Lord's status as the ultimate primordial cause (agra-kāraṇatva) is indicated, well-attested in the Śruti: \"When there was darkness, there was neither day nor night, neither being nor non-being — Śiva alone existed\" — and so forth. Although this was already implied by the mantra \"namo bhavāya,\" the present mantra emphasizes the Lord's role as the generator of Hiraṇyagarbha who himself first brings forth the world.\n\n      Homage to Āśave and to Ajira.\n\n      Now the twelfth [mantra]: \"Nama āśave\" — He who pervades (āvṛṇoti vyāpnoti, pervades) is Āśu"
+    }
+  }
+}

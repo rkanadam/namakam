@@ -1,0 +1,182 @@
+{
+  "id": 14,
+  "samhita": "नमः॑ प्र॒तर॑णाय चो॒त्तर॑णाय च॒",
+  "pada": "नमः॑ । प्र॒-त॒र॑णाय । च॒ । उ॒त्-त॒र॑णाय । च॒ ॥",
+  "krama": "नमः॑ प्र॒तर॑णाय । प्र॒तर॑णाय च । चो॒त्तर॑णाय । उ॒त्तर॑णाय च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒तर॑णाय",
+      "word_ids": [
+        356
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चो॒त्तर॑णाय",
+      "word_ids": [
+        19,
+        357
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒-त॒र॑णाय",
+      "word_ids": [
+        356
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त्-त॒र॑णाय",
+      "word_ids": [
+        357
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ प्र॒तर॑णाय",
+      "word_ids": [
+        1,
+        356
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒तर॑णाय च",
+      "word_ids": [
+        356,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चो॒त्तर॑णाय",
+      "word_ids": [
+        19,
+        357
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त्तर॑णाय च",
+      "word_ids": [
+        357,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    356,
+    357
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Prataranah'—the cause of crossing over (tarana) sins through excellent (prakrishta) means like mantra-chanting. 'Uttaranah'—the cause of crossing out of (uttarana) this worldly existence through the form of essential knowledge (tattva-jnana). (14)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah prataranaya cha'. 'Taranam' is living or crossing. Excellence is birth in higher wombs. [Grammatical note]. He is the means for crossing over Samsara. To the cause of crossing over with excellence in this world. 'Uttaranaya cha'—to the cause of crossing out of (exiting) this world. [Grammatical note]. (14)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

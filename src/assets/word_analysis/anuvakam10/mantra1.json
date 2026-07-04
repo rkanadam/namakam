@@ -1,0 +1,657 @@
+{
+  "id": 1,
+  "samhita": "द्रापे॒ अन्ध॑सस्पते॒ दरि॑द्र॒न्नील॑लोहित । ए॒षा-म्पुरु॑षाणामे॒षा-म्प॑शू॒ना-म्मा भेर्मा-ऽरो॒ मो ए॑षा॒-ङ्किञ्च॒नाम॑मत् ॥",
+  "pada": "द्रापे॒ । अन्ध॑सः । प॒ते॒ । दरि॑द्रत् । नील॑-लोहित । ए॒षाम् । पुरु॑षणााम् । ए॒षाम् । प॒शू॒नाम् । मा । भेः । मा । अ॒रः । मो इति॑ । ए॒षाम् । किञ्च॒न । आम॑मत् ॥",
+  "krama": "द्रापे॒ अन्ध॑सस्पते । अन्ध॑सस्पते॒ दरि॑द्रत् । दरि॑द्र॒न्नील॑लोहित । नील॑लोहिते॒त्येषाम् । ए॒षा-म्पुरु॑षाणाम् । पुरु॑षणाामे॒षाम् । ए॒षा-म्प॑शू॒नाम् । पशू॒ना-म्मा । मा भेः । भेर्मा । मा-ऽरः । अ॒रो॒ मो इति॑ । मो ए॑षा॒म् । ए॒षा॒-ङ्किञ्च॒न । किञ्च॒नाम॑मत् । आम॑मदि॒त्याम॑मत् ॥",
+  "samhita_tokens": [
+    {
+      "text": "द्रापे॒",
+      "word_ids": [
+        409
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ध॑सस्पते॒",
+      "word_ids": [
+        410,
+        411
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दरि॑द्र॒न्नील॑लोहित",
+      "word_ids": [
+        413
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒षा-म्पुरु॑षाणामे॒षा-म्प॑शू॒ना-म्मा",
+      "word_ids": [
+        414,
+        414,
+        163,
+        88,
+        88,
+        414
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भेर्मा-ऽरो॒",
+      "word_ids": [
+        88,
+        416,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मो",
+      "word_ids": [
+        418
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॑षा॒-ङ्किञ्च॒नाम॑मत्",
+      "word_ids": [
+        419
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "द्रापे॒",
+      "word_ids": [
+        409
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ध॑सः",
+      "word_ids": [
+        410
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒ते॒",
+      "word_ids": [
+        411
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दरि॑द्रत्",
+      "word_ids": [
+        412
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑-लोहित",
+      "word_ids": [
+        413
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒षाम्",
+      "word_ids": [
+        414
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पुरु॑षणााम्",
+      "word_ids": [
+        415
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒षाम्",
+      "word_ids": [
+        414
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒शू॒नाम्",
+      "word_ids": [
+        163
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भेः",
+      "word_ids": [
+        416
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒रः",
+      "word_ids": [
+        417
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मो इति॑",
+      "word_ids": [
+        418
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒षाम्",
+      "word_ids": [
+        414
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "किञ्च॒न",
+      "word_ids": [
+        419
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आम॑मत्",
+      "word_ids": [
+        420
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "द्रापे॒",
+      "word_ids": [
+        409
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ध॑सस्पते",
+      "word_ids": [
+        410,
+        411
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ध॑सस्पते॒",
+      "word_ids": [
+        410,
+        411
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दरि॑द्रत्",
+      "word_ids": [
+        412
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दरि॑द्र॒न्नील॑लोहित",
+      "word_ids": [
+        413
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑लोहिते॒त्येषाम्",
+      "word_ids": [
+        413
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒षा-म्पुरु॑षाणाम्",
+      "word_ids": [
+        414,
+        414,
+        414
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पुरु॑षणाामे॒षाम्",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒षा-म्प॑शू॒नाम्",
+      "word_ids": [
+        414,
+        414,
+        163,
+        414
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पशू॒ना-म्मा",
+      "word_ids": [
+        163,
+        88,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भेः",
+      "word_ids": [
+        416
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भेर्मा",
+      "word_ids": [
+        88,
+        416,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा-ऽरः",
+      "word_ids": [
+        88,
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒रो॒",
+      "word_ids": [
+        417
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मो",
+      "word_ids": [
+        418
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": [
+        418
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मो",
+      "word_ids": [
+        418
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॑षा॒म्",
+      "word_ids": [
+        414,
+        414,
+        414
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒षा॒-ङ्किञ्च॒न",
+      "word_ids": [
+        419
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "किञ्च॒नाम॑मत्",
+      "word_ids": [
+        419
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आम॑मदि॒त्याम॑मत्",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    88,
+    163,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "68 Sayanacharya—along with Bhatta Bhaskara Bhashya— [Na. Da. A.]\n\nHe states the first Rik:\n\nO driver of the vile state! O Lord of food! O Detached one! O Blue-necked and Red one! Do not terrify these our men, nor these our cattle. Let none of these perish or be diseased. || 1 ||\n\nSayanacharya Bhashya: 'Drapih' is one who causes the vile path (hell for sinners). 'Andhasas pate' is the Lord/protector of food (andhas). He protects the food of devotees. 'Daridrat' means one without possessions, detached, or alone. As the Shruti says: \"Brahman is one without a second.\" 'Nilalohitah' is blue in the neck and red elsewhere. O Rudra, addressed by these names! Do not terrify ('ma bheh') the prosperity of these our men (sons, grandsons, etc.) and these our cattle (cows, buffaloes, etc.). Let not even one thing among all these mentioned perish ('ma aras'). Let none of them be diseased ('mo amamat'). || 1 ||\n\nBhatta Bhaskara Bhashya: The Rishi of \"Drape andhasaspate\" is Pulaha. The Chhandas is Astara-pankti. The deity is Shri Rudra. After praising the Lord in His universal form, he now asks for fearlessness:\n\n'Drape': O driver of the vile state of suffering or poverty, which is the result of bad deeds. Or the driver of the pitiable state of the end of the world. 'Dra' means vile path/motion. (Grammatical derivation). Or 'Drapih' is a name for a cloak; by metaphor it refers to one having it. 'Andhasaspate': 'Andhas' is food. Lord/Master of that. 'Daridrat': One without possessions or attachments. Even being the Lord of food, He is detached. (Grammatical note on accents). 'Nilalohita': Rudra appearing from the heart of the Lord is Nilalohita; He who performed the act of begging, etc. Half blue and half red due to the male-female nature. Or because of having name and form. Others say: Blue in the neck and red elsewhere. Or 'Nila' means one whose impurities are completely removed. Thus addressing the Lord, he asks for fearlessness: 'Esham Purusharam': Our sons, etc. 'Esham Pashuram': Our cows, etc. 'Ma Bheh': Do not terrify them. 'Ma Aras': Do not let them perish or suffer. (Grammatical explanation for 'aras' and 'amamat'). Let no disease (amamat) strike them. || 1 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "दशमोऽनुवाकः ॥\n\n---*---\n\n   द्रापे अन्धसस्पते दरिद्रन्नीललोहित ।\n   एषां पुरुषाणामेषां पशूनां मा भेमो-\n   रो मो एषां किं च नाममत् ॥\n\n   इत्थं प्रथमेन प्रसाध्य द्वितीयादिनवमान्तैरनुवाकै: सर्वे-\nश्वरत्वसर्वोत्तकत्वसर्वोन्तर्यामिमत्वादिरूपेण भगवाचमस्कृत: ।\nइदानीं दशमेनानुवाकेन प्रार्थ्यते । तत्र क्रूपा द्वादश म-\nन्त्रा: । तस्थाद्य:— द्राप इति । द्राशब्द: कुत्सितवाची,\nकुत्सितां गतिमापयतीति द्रापि:, अन्धोऽदं तत्स्वामी अन्ध-\nसस्पति:, दरिद्रतु निष्किंचन:, ऊमाघेदेहृतया अर्धं नीलम्\nअर्धं लोहितम् असयेति नीललोहित:, एभि: शब्दै: संबो-\nध्यामभं प्रार्थ्यते— एषामिति । एषामस्दीयानां पुरुषाणां\nपुत्रपौत्रादीनाम् एषां पशूनां गवाश्वादीनां मा भे: एवान्मा\nभीषयेत्यर्थे: । एषां मध्ये किंचन एकमपि वस्तु मार: मा\nगच्छतु, मा विनश्यत्वित्यर्थे: । तथा मो आममतु मा व्या-\nधिप्रस्तं भवतु । अत्र मा भे: मार: मो आममतु इत्यत्र",
+      "english": "Tenth Anuvaka (Chapter Ten)\n\n---*---\n\n   Drape andhasaspate daridran nilalohita\n   esham purushanamasham pashuna ma bhe-\n   mo ro mo esham kim ca namamat\n\n   Thus, having established the foundation through the first anuvaka, the Lord was saluted through the second through ninth anuvakas by means of His qualities of being the Lord of all (sarveshvaratva), being supremely excellent (sarvottamatva), and being the inner controller of all (sarvantaryamimatva) and so forth. Now, through the tenth anuvaka, a prayer is offered. In this anuvaka there are twelve mantras in all. The first among them is: \"Drape\" etc. The word drapa is a term of censure, meaning one who leads creatures to wretched states; thus \"Andhasaspati\" means the lord of food (andhasa, which is food, and pati, lord). Daridra means one who is utterly without possessions (nishkimcana). Because half the body is dark blue and half is reddish, He is called Nilalohita (the blue-red one). Being thus addressed, the prayer is made: \"Of these our people (esham) — our sons, grandsons and the rest — and of these animals — our cows, horses and the rest — do not cause fear; such is the meaning. Let not even one single thing (kimcana ekam api vastu) of ours perish or be destroyed — such is the meaning. And may none of them be made ill (mo amamatu); may none suffer from disease.\" In the passage \"ma bheh, mara, mo amamatu,\" the vocatives —"
+    }
+  }
+}

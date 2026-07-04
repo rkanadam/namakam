@@ -1,0 +1,843 @@
+{
+  "id": 10,
+  "samhita": "मीढु॑ष्टम शि॒वत॑म शि॒वो नः॑ सु॒मना॑ भव । प॒र॒मे वृ॒क्ष आयु॑धन्नि॒धाय॒ कृत्तिं॒-वँसा॑न आच॑र॒ पिना॑क-म्बिभ्र॒दाग॑हि ॥",
+  "pada": "मी॒ढुः॒-त॒म॒ । शि॒व॒-त॒म॒ । शि॒वः । नः॒ । सु॒-मनाः॑ । भ॒व॒ । प॒र॒मे । वृ॒क्ष । आयु॑धम् । नि-धाय॑ । कृत्ति॑म् । वसा॑नः । आ । च॒र॒ । पिना॑कम् । बिभ्र॑त् । आ । ग॒हि॒ ॥",
+  "krama": "मीढु॑ष्टम शि॒वत॑म । शि॒वत॑म शि॒वः । शि॒वो नः । नः॒ सु॒मनाः॑ । सु॒मना॑ भव । भ॒व प॑र॒मे । प॒र॒मे वृ॒क्ष । वृ॒क्ष आयु॑धम् । आयु॑धन्नि॒धाय॑ । नि॒धाय॑ कृत्ति॑म् । कृत्तिं॒-वँसा॑नः । वसा॑न आ । आ च॑र । च॒र॒ पिना॑कम् । पिना॑क-म्बिभ्र॑त् । बिभ्र॑दा । आग॑हि । ग॒हीति॑ गहि ॥",
+  "samhita_tokens": [
+    {
+      "text": "मीढु॑ष्टम",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वत॑म",
+      "word_ids": [
+        421,
+        32
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वो",
+      "word_ids": [
+        32
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॑",
+      "word_ids": [
+        33,
+        34,
+        425,
+        427,
+        430
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒मना॑",
+      "word_ids": [
+        33,
+        34
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भव",
+      "word_ids": [
+        35
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र॒मे",
+      "word_ids": [
+        422
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्ष",
+      "word_ids": [
+        423
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आयु॑धन्नि॒धाय॒",
+      "word_ids": [
+        33,
+        425,
+        428,
+        428
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कृत्तिं॒-वँसा॑न",
+      "word_ids": [
+        33,
+        427
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आच॑र॒",
+      "word_ids": [
+        428,
+        429,
+        428
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पिना॑क-म्बिभ्र॒दाग॑हि",
+      "word_ids": [
+        33,
+        430,
+        432
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "मी॒ढुः॒-त॒म॒",
+      "word_ids": [
+        46
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒व॒-त॒म॒",
+      "word_ids": [
+        421
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वः",
+      "word_ids": [
+        32
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒-मनाः॑",
+      "word_ids": [
+        34
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒व॒",
+      "word_ids": [
+        35
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र॒मे",
+      "word_ids": [
+        422
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्ष",
+      "word_ids": [
+        423
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आयु॑धम्",
+      "word_ids": [
+        424
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नि-धाय॑",
+      "word_ids": [
+        425
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कृत्ति॑म्",
+      "word_ids": [
+        426
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वसा॑नः",
+      "word_ids": [
+        427
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ",
+      "word_ids": [
+        428
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒र॒",
+      "word_ids": [
+        429
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पिना॑कम्",
+      "word_ids": [
+        430
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बिभ्र॑त्",
+      "word_ids": [
+        431
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "आ",
+      "word_ids": [
+        428
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ग॒हि॒",
+      "word_ids": [
+        432
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "मीढु॑ष्टम",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वत॑म",
+      "word_ids": [
+        421,
+        32
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वत॑म",
+      "word_ids": [
+        421,
+        32
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वः",
+      "word_ids": [
+        421,
+        32
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वो",
+      "word_ids": [
+        32
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः",
+      "word_ids": [
+        33,
+        34,
+        425,
+        427,
+        430
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        34,
+        425,
+        427,
+        430
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒मनाः॑",
+      "word_ids": [
+        33,
+        34
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒मना॑",
+      "word_ids": [
+        33,
+        34
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भव",
+      "word_ids": [
+        35
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒व",
+      "word_ids": [
+        35
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॑र॒मे",
+      "word_ids": [
+        422
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒र॒मे",
+      "word_ids": [
+        422
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्ष",
+      "word_ids": [
+        423
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्ष",
+      "word_ids": [
+        423
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आयु॑धम्",
+      "word_ids": [
+        424,
+        428,
+        428
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आयु॑धन्नि॒धाय॑",
+      "word_ids": [
+        33,
+        425,
+        428,
+        428
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नि॒धाय॑",
+      "word_ids": [
+        33,
+        425
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कृत्ति॑म्",
+      "word_ids": [
+        426
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "कृत्तिं॒-वँसा॑नः",
+      "word_ids": [
+        33,
+        427
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वसा॑न",
+      "word_ids": [
+        33,
+        427
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आ",
+      "word_ids": [
+        424,
+        428,
+        428
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आ",
+      "word_ids": [
+        424,
+        428,
+        428
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॑र",
+      "word_ids": [
+        429
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒र॒",
+      "word_ids": [
+        429
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पिना॑कम्",
+      "word_ids": [
+        33,
+        430
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पिना॑क-म्बिभ्र॑त्",
+      "word_ids": [
+        33,
+        430,
+        431
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बिभ्र॑दा",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "आग॑हि",
+      "word_ids": [
+        428,
+        428,
+        432
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ग॒हीति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गहि",
+      "word_ids": [
+        432
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    32,
+    33,
+    34,
+    35,
+    46,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Pra. Am.] Rudradhyaya. 21\n\n|| He speaks the thirteenth verse ||\n\nThat weapon of yours, O most bountiful one, and that bow which was in your hand;\nWith that, which is non-injurious, protect us from all sides. (13)\n\n[Word-for-word]: Ya | te | hetih | midhuh-tama | haste | babhuva | te | dhanuh || taya | asman | vishvatah | tvam | ayakshmaya | pari | bhuj || 13 ||\n\nSayana's Commentary: O most bountiful one (midhustama), greatest shedder of desires—that weapon (heti) of yours in the form of a sword etc., and also that bow which was in your hand; with that weapon and with that kind of bow, which is 'ayakshmaya'—not causing injury or disturbance—you protect (paribhuj) us from all sides (vishvatah), guard us entirely. (13)\n\nBhatta-Bhaskara-Bhashya: Now 'Ya te hetih' and the following three are in Anushtup. The Rishi and Deity are the Lord Himself. O Midhustama—'midhvan' has been explained; the greatest shedder. That weapon (heti) belonging to you, named the bow, which exists (babhuva) in your hand. 'Heti' is derived from the root 'han' (to kill/strike). With that weapon named the bow, which is 'ayakshmaya'—not a cause of disease or injury to devotees. From all causes of fear (vishvatah), you protect (paribhuj) us entirely. Guard us at all times, in all ways, and from all sins. The root 'bhuj' has a Vedic variation. Or: protect all of us (vishvatah), including sons and grandsons. Some say: 'heti' means violence; that violence performed by you, for the sake of which the bow, the means of violence, stays in your hand—protect us from that, etc., is the same. (13)\n\n|| He speaks the fourteenth verse ||\n\nSalutation be to your weapon which is unstrung and powerful;\nAnd also salutation to your two arms and to your bow. (14)\n\n[Word-for-word]: Namah | te | astu | ayudhaya | anatataya | iti | ana-tataya | dhrishnave || ubhabhyam | uta | te | namah | bahubhyam | iti | bahu-bhyam | tava | dhanvane || 14 ||\n..."
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                   ६५\n\n    विज्यं धनु: कपर्दिनो विशल्यो बाण-\nवाꣻ उत । अनेशन्नस्येषव आशुरस्य नि-\nषङ्गिध: ॥\n\n   इदानीं कुण्ठतामाणामपि बाणानामदृशीनं प्राथ्येत्राह—\nविज्यमिति । कपर्दिन: परमेश्वरस्य, धनु: विज्यं विज्या-\nकम्, अस्त्विति शेष:; बाणवान् उत हेषुधरपि, विशल्य:\nविगतबाणोऽस्तु। हेषुधेर्बैण्शल्यत्वेऽपि अन्यत्र स्थितै: शल्यै-\nवेंमाशङ्कूचाह— अनेशन्निति । अस्य कपर्दिन: हेषव:\nअनेशन् वेढुमसामध्यरूपं विनाशं प्राप्नुवन्तु, नशेराशिषि\nछन्दिस लङ्। कि च, अस्य निषङ्गिध: खञ्जकोश:, आशु:\nहेषपमुरस्तु, खञ्जं धारयितुमेव समर्थे: न तु खण्डतार्थं खञ्जा-\nकर्षणपर्यन्तकार्यक्षम इत्यर्थ: । अत्र प्रभुश्च धन्वन इत्याचार्याय\nएको मन्त्र:; अस्य ध्यूचस्य नारद ऋषि:, अनुष्टुप्छन्द:,\nश्रीरुद्रो देवता । 'उदयद्रासकरकोटिप्रकाशमादीप्तदहनधामा-\nनम् । भीषणभुजंगभूषं ध्यायेद्विविधायुधं रुद्रम्' । अनेन\nशत्रवो नश्यन्ति । इति द्वादश: ॥\n\n    या ते हेतिर्मीढुष्टम हस्ते बभूव ते\nR. B. 5",
+      "english": "Śrī Rudra Bhāṣyam                   65\n\n---\n\n    \"Let the bow of the matted-haired one (Kapardin) be unstrung, and the quiver too be emptied of arrows. Let the arrows of his become incapable of wounding, and let his quiver be swift [but empty].\"\n\nNow, even for the arrows that have been blunted, the prayer is offered for their incapacitation: \"Vijyam iti\" — may the bow of Kapardin (the Lord with matted hair, who is the Supreme Lord), be vijya — without its bowstring; and may the arrow-holder (bāṇavān — one who bears arrows) also be viśalya — devoid of arrows. Even if the quiver holds shafts, there is the concern about arrows elsewhere, hence the [mantra] says: \"Aneśan iti\" — may the arrows of this Kapardin be incapable of wounding, having attained destruction in the form of inability to pierce (aneśan — may they fail to reach; nāśa in the optative-like usage of the Vedic [aorist]). Furthermore, may his niṣaṅghiḥ (the quiver) be āśu (swift/ready) — meaning capable only of holding the quiver but not qualified to perform the task of pulling out and discharging the arrows. Here, [the text] \"Prabhuśca dhanvana\" and so forth constitutes a single mantra for the teacher. The seer (ṛṣi) of this pair of [mantras] is Nārada, the metre is Anuṣṭup, and the deity is Śrī Rudra. [The dhyāna-śloka is:] \"One should meditate upon Rudra, blazing like ten million rising suns, his form like a flaming fire, his limbs adorned with fearsome serpents, bearing various weapons.\" Through this [mantra] enemies are destroyed. Thus [ends] the twelfth [mantra].\n\n    \"O most boon-granting one (Mīḍhuṣṭama), the weapon (heti) of yours that was in your hand,"
+    }
+  }
+}

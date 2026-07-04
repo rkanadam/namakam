@@ -1,0 +1,173 @@
+{
+  "id": 2,
+  "samhita": "नम॑स्ता॒म्राय॑ चारु॒णाय॑ च॒",
+  "pada": "नमः॑ । ता॒म्राय॑ । च॒ । अ॒रु॒णाय॑ । च॒ ॥",
+  "krama": "नम॑स्ता॒म्राय॑ । ता॒म्राय॑ च । चारु॒णाय॑ । अ॒रु॒णाय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑स्ता॒म्राय॑",
+      "word_ids": [
+        1,
+        364
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चारु॒णाय॑",
+      "word_ids": [
+        19,
+        365
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ता॒म्राय॑",
+      "word_ids": [
+        364
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒रु॒णाय॑",
+      "word_ids": [
+        365
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑स्ता॒म्राय॑",
+      "word_ids": [
+        1,
+        364
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ता॒म्राय॑ च",
+      "word_ids": [
+        364,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चारु॒णाय॑",
+      "word_ids": [
+        19,
+        365
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒रु॒णाय॑ च",
+      "word_ids": [
+        365,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    364,
+    365
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Tamrah'—the extremely red one at the time of rising in the form of the Sun. 'Arunah'—the slightly red one after rising. (2)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah tamraya charunaya cha'. These two regarding the Sun have been explained. As the Sun, the God graces the world by granting awakening etc., and directly witnesses the actions of beings. (2)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "श्रारुद्रभाष्यम् ।                    ११७\n\nश्रुतिः' इत्यादिवदुपवृद्धेणानुरोधाञ्च। न केवलं मोक्ष-\nप्रदत्वमेवोमासाहित्यप्रयुक्तं भगवतः, किं तु सर्वज्ञत्व-\nसर्वेश्वरत्वसर्वान्तर्योमित्वसर्वैकारणत्वादिरूपः सर्वोऽपि म-\nहिह्मा परशक्तिविलास एवेति 'पराक्ष शक्तिर्विविधैव\nश्रूयते स्वाभाविकी ज्ञानवलक्रिया च' इत्यादिश्रुतयः प्रथय-\nति। प्रपञ्चयन्ति चेतिहासपुराणानि, प्रवदन्ति चाभियु-\nक्ताः:—— 'शक्तिः शरीरमिथदेवतसन्तरात्मा ज्ञानं क्रिया च\nकरणासतजाल्लिमच्छा। पेश्र्थेयमायतनमावरणानि च त्वं किं\nकिं न यत्रवासि बालशठाङ्कुमौलेः' इति, 'न चेदेवं देवो\nन खलु कुशलः स्पन्दितुमपि' इति च। अत एव खलु ताद-\nक्षमहिह्मप्रयुक्कायाश्रुमायासाद्राविश्यादेव तैत्तिरीयोपनिषदि\n'अभिकापतये' इत्युक्त्वापि पुनः 'अमापतये' इति तत्पति-\nत्वेन भगवान्नमस्किर्यत इत्यास्तां तावत् ॥\n\n      नमस्ताम्राय चारुणाय च ॥\n\n      अथ आदित्यरूपेण सर्वेषामपयनाथाचेन प्रत्यक्षीभूय स-\nकलश्रेयःप्रदत्वादि परमेश्वर एवोपास्य इति द्वितीयो म-\nन्त्रः:——नमस्तांब्रायेति। उद्यकाले अभ्यन्तरफवर्णेः ताम्रः,\nतदनन्तरमीषद्रक्तः अहूणः, चकारादूर्ध्वे बहुवर्णेः। एवं-",
+      "english": "Śrī Rudra Bhāṣyam                    117\n\n\"Thus says the Śruti\" — in accord with all these supporting testimonies and consistent with those corroborations. Not only does the Lord's association with Umā account for His role as the bestower of liberation alone — but indeed all His greatness: omniscience, omnipotence (sarveśvaratva), His inner presence in all (sarvāntaryāmitva), His being the cause of everything (sarvaikāraṇatva), and so forth — all this glory is but the play of the supreme power (para-śakti-vilāsa). Thus the Śrutis proclaim: \"His supreme power is heard of as manifold and various — natural, consisting of knowledge, strength, and action\" — and so forth. The Itihāsas and Purāṇas elaborate upon this, and the learned affirm: \"Power is the body of this deity; it is the inner Self, knowledge, action, and the instrument — the cluster of desires, the abode, the coverings — all this is You, O crowned one with tender shoots [Bālaśaṭhāṅkumau, epithet for Śiva]. What is there that you are not, O dwelling place of all?\" And: \"If the deity were not thus [united with Śakti], truly He would not be capable of even a quiver.\" Therefore, since the immense glory of such supreme power of Umā is precisely the reason why the Taittirīya Upaniṣad, having used the term \"abhīkāpataye\" (to the lord of the beloved one), further employs the term \"amāpataye\" (to the husband of Amā, i.e., Umā) — whereby the Lord is saluted in His capacity as the Lord of Umā — this much for now.\n\n      Homage to Tāmra and to Aruṇa.\n\n      Now the second mantra — in which the Lord is shown to be the sole object of worship for all, being directly perceptible in the form of Āditya (the Sun), the guide and lord of all, and the bestower of all auspiciousness: \"Namo tāmrāya\" — At the time of sunrise, [the solar orb appears] copper-coloured (tāmra) in its interior; thereafter, slightly reddish (aruṇa); and from the conjunctive particle \"ca,\" it takes on many more colours above. Thus —"
+    }
+  }
+}

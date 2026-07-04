@@ -1,0 +1,195 @@
+{
+  "id": 16,
+  "samhita": "नमो॑ वास्त॒व्या॑य च वास्तु॒पाय॑ च ॥",
+  "pada": "नमो॑ । वा॒स्त॒व्या॑य । च॒ । वा॒स्तु॒-पाय॑ । च॒ ॥",
+  "krama": "नमो॑ वास्त॒व्या॑य । वास्त॒व्या॑य च । च वास्तु॒पाय॑ । वास्तु॒पाय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वास्त॒व्या॑य",
+      "word_ids": [
+        332
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वास्तु॒पाय॑",
+      "word_ids": [
+        333
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वा॒स्त॒व्या॑य",
+      "word_ids": [
+        332
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वा॒स्तु॒-पाय॑",
+      "word_ids": [
+        333
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ वास्त॒व्या॑य",
+      "word_ids": [
+        144,
+        332
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वास्त॒व्या॑य च",
+      "word_ids": [
+        332,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वास्तु॒पाय॑",
+      "word_ids": [
+        19,
+        333
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वास्तु॒पाय॑ च",
+      "word_ids": [
+        333,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    332,
+    333
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Vastu' is wealth in the form of cattle, horses, and other objects; he who exists there as those objects is 'vastavyah'. 'Vastu' is land for building a house; its protector is 'vastupah'. (16)\n\n|| Thus in the Vedartha-prakasha, the commentary on the Yajur-samhita composed by Sayanacharya-Madhava, in the fourth Kanda, fifth Prapathaka, the commentary on the Sri Rudram, ends the Seventh Anuvaka. ||"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah vastavyaya cha'. 'Vastu' is wealth like cattle, horses, etc.; to him existing as those effects. Or: to him existing in the building-site (vastu). 'Vastupaya cha'—one who protects (pa-ti) the site. [Grammatical note]. Or to the Master of the dwelling. As it is said: \"Salutation to Rudra, the Lord of the Dwelling (vastoshpati).\" (16)\n\nNow for the Purashcharana of this anuvaka: having fasted for one day and chanting eight hundred times, one becomes a perfected practitioner. By this, one desiring the control of the four castes should offer ten thousand sticks of Ashvattha, Udumbara, Vata, and Plaksha wood, soaked in curd, honey, and ghee; they will then be in his control. One desiring intelligence (medha) should offer five thousand oblations of Kapila-cow ghee; he becomes intelligent. One desiring nourishment (pushti) should offer nine thousand cakes (apupa). One desiring health...\n..."
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "सप्तमोऽनुवाकः ॥\n\n                         ———\n\n      नमो दुन्दुभ्याय चाहनन्याय च नमो\n      घृष्णवे च प्रमृशाय च नमो दूताय च\n      प्रहिताय च नमो निषङ्गिणे चेषुधिमते च\n      नमस्तीक्ष्णेषवे चायुधिने च नमः स्वायु-\n      धाय च सुधन्वने च नमः स्रुत्याय च\n      पथ्याय च नमः काश्याय च नीप्याय च\n      नमः सूद्याय च सरस्याय च नमो ना-\n      याय च वैशन्ताय च नमः कूप्याय चा-\n      वट्याय च नमो वर्ष्याय चावर्ष्याय च\n      नमो मेघ्याय च विद्युत्याय च नमः ई-\n      ध्रियायें चातप्याय च नमो बाल्याय च\n      रेघिमयाय च नमो वास्तव्याय च वा-\n      स्तुपाय च ॥",
+      "english": "Seventh Anuvāka (saptamo'nuvākaḥ)\n\n                         ———\n\n      Homage to Dundubhya and to Āhananya; homage\n      to Ghṛṣṇave and to Pramṛśa; homage to Dūta and to\n      Prahita; homage to Niṣaṅgiṇe and to Iṣudhimate;\n      homage to Tīkṣṇeṣave and to Āyudhine; homage to Svāyu-\n      dha and to Sudhanvane; homage to Srutyā and to\n      Pathyā; homage to Kāśya and to Nīpya;\n      homage to Sūdya and to Sarasya; homage to Nā-\n      dya and to Vaiśanta; homage to Kūpya and to\n      Avaṭya; homage to Varṣya and to Avarṣya;\n      homage to Meghya and to Vidyutya; homage to\n      Īdhriya and to Ātapya; homage to Vātya and to\n      Rebhya; homage to Vāstavya and to\n      Vāstupa."
+    }
+  }
+}

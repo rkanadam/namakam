@@ -1,0 +1,214 @@
+{
+  "id": 16,
+  "words": [
+    1,
+    19,
+    190,
+    201,
+    202
+  ],
+  "samhita": "नमः॑ स॒भाभ्यः॑ स॒भाप॑तिभ्यश्च वो॒ नमो॒",
+  "pada": "नमः॑ । स॒भाभ्यः॑ । स॒भा-पत॑िभ्यः । च॒ । वः॒ । नमः॑ ॥",
+  "krama": "नमः॑ स॒भाभ्यः॑ । स॒भाभ्यः॑ स॒भाप॑तिभ्यः । स॒भाप॑तिभ्यश्च । च वो॒ । वो नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒भाभ्यः॑",
+      "word_ids": [
+        201
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒भाप॑तिभ्यश्च",
+      "word_ids": [
+        202,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वो॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        1
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒भाभ्यः॑",
+      "word_ids": [
+        201
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒भा-पत॑िभ्यः",
+      "word_ids": [
+        202
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वः॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ स॒भाभ्यः॑",
+      "word_ids": [
+        1,
+        201
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒भाभ्यः॑ स॒भाप॑तिभ्यः",
+      "word_ids": [
+        201,
+        202
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒भाप॑तिभ्यश्च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वो॒",
+      "word_ids": [
+        19,
+        202
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वो नमो॒",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        190,
+        190
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | sabhabhyah | sabha-patibhyah | iti | sabha-pati-bhyah | cha | vah | namah || 16 ||\n\nBhatta-Bhaskara-Bhashya: 'Namah sabhabhyah'—to those seated in assemblies. 'Sabhapatibhyashcha vo namah'—to the Masters of the assemblies, or to the Lords of those places. [Grammatical note]. (16)\n\nSalutation to the horses and to the lords of horses, salutation to you."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Brihati",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n९२                    श्रीरुद्रभाष्यम् ।\n---\n\nउभयतो नमस्कारा:, अर्थेते शान्ततरा रुद्रा ये अन्यतो नम-\nस्कारा इति ॥\n\nनम आतन्वानेभ्यः प्रतिदघानेभ्यञ्च वो\nनमः ॥\n\nअथ द्वितीयः— नम आतन्वानेभ्य इति । धनुषि\nज्यामारोपयन्तः आतन्वानाः, आततज्ये धनुषि झरार्-\nखंदघानाः प्रतिदघानाः; ते च जगति यावन्तः तदूपेभ्यः\nवो नमः इति पूर्ववत् ॥\n\nनम आयच्छद्भ्यो विसृजञ्ज्यञ्च वो नमः ॥\n\nअथ तृतीयः— नम आयच्छत्त्व इति । ज्याकर्षणं कु-\nर्वन्तः आयच्छन्तः, आकृष्य बाणान् मुञ्चन्तः विसृजन्तः;\nशेषमत्र पूर्वेण द्रष्टव्यम् ॥\n\nनमोऽस्यद्भ्यो विधद्भ्यञ्च वो नमो\nनम आसीनेभ्यः शयानेभ्यञ्च वो नमो\nनमः स्वपद्भ्यो जाग्रद्भ्यञ्च वो नमो नम-\nस्तिष्ठद्भ्यो धावद्भ्यञ्च वो  नमो नमः स-\nमाभ्यः समापतिभ्यञ्च वो नमो नमो",
+      "english": "---\n                    Sri Rudra Bhashyam                    93\n---\n\nthose who ride horses, to the horse-lords — obeisance to you all.\n\nNow the fourth [commentary]: — \"Namo'syattva\" (Obeisance to those who shoot). \"Astana\" means the [act of] the released arrow traveling up to the target — those who do this are the \"asyantah\" (shooters); \"vedha\" means the penetration of the target by the arrow that has reached it — those who do this are the \"vidhayantah\" (piercers). The five mantras from \"namo shachinebhyah\" (obeisance to the auspicious ones) up to \"ashvapatibhyanca vo namah\" (obeisance to the horse-lords) are clear in their meaning. This third anuvaka (chapter section), which takes the form of a single mantra composed of a collection of sub-mantras in the form of salutations on both sides and having eight parts, is [the subject of the following specifications]: Its rishi (seer) is the Lord Himself; the deity is He Himself; the meter is Brihati (a Vedic metrical form). The meditation verse (dhyana) is:\n\n\"Endowed with beauty and youth like a forest goddess; adorned above like a champaka and mango tree in full bloom. Her crown formed like a peacock displaying its twenty-eight constellations; her face resembling the spotless, full autumn moon. Clothed in freshly opened lotus garments and a fine-worked hide; adorned with a garland made of arrows held in both right and left hands. With a quiver hanging down to the navel region, like a kadamba bunch from a tree; with a bow which, though merely to be looked at, is a sight to behold. With beautiful dancing hair adorned with a girl's ornaments on the crown; a mirror-like form, shining and pure like another woman. In whose hand is placed a bow, with a single pure arrow; whose shoulder [the Lord] embraces with His left arm. Smelling again and again a fragrant flower-cluster with His hand; being slowly gazed upon [by Her] with a forest-lotus branch. Surrounded by roe-deer and lovely birds with charming sounds. The world-teacher going and returning, lovely and worthy of contemplation. Such is the Supreme Sovereign of great radiance, in the form of a forest-hunter (Kirata).\" This mantra bestows the fruits of protection of one's own kingdom, conquest of enemy kingdoms, and the destruction of [dangers]. This mantra is perfected by reciting it five thousand and one times, preceded by the Prajapati [rite]. After that one becomes fit to employ it [in practice].\n\nThus ends the third anuvaka.\n\n[decorative floral ornament]"
+    }
+  }
+}

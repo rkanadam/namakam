@@ -1,0 +1,565 @@
+{
+  "anuvakam": 1,
+  "title": "प्रथमोनुवाकः",
+  "id": 13,
+  "samhita": "या ते॑ हे॒तिर्मी॑डुष्टम॒ हस्ते॑ ब॒भूव॑ ते॒ धनुः॑ । तया॒-ऽस्मान्, वि॒श्वत॒स्त्वम॑य॒क्ष्मया॒ परि॑ब्भुज ॥",
+  "pada": "या । ते॒ । हे॒तिः । मी॒ढुः॒-त॒म॒ । हस्ते॑ । ब॒भूव॑ । ते॒ । धनुः॑ । तया॑ । अ॒स्मान् । वि॒श्वतः॑ । त्वम् । अ॒य॒क्ष्मया॑ । परि॑ । भु॒ज॒ ॥",
+  "krama": "या ते॒ । ते हे॒तिः । हे॒तिर्मी॑डुष्टम । मीढु॑ष्टम॒ हस्ते॑ । हस्ते॑ ब॒भूव॑ । ब॒भूव॑ ते॒ । ते धनुः॑ । धनु॒रिति॑ धनुः॑ । तया॒-ऽस्मान् । अ॒स्मान् वि॒श्वतः॑ । वि॒श्वत॒स्त्वम् । त्वम॑य॒क्ष्मया । अ॒य॒क्ष्मया॒ परि॑ । परि॑ भुज । भु॒जेति॑ भुज ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "text": "O most bountiful one (midhustama), greatest shedder of desires—that weapon (heti) of yours in the form of a sword etc., and also that bow which was in your hand; with that weapon and with that kind of bow, which is 'ayakshmaya'—not causing injury or disturbance—you protect (paribhuj) us from all sides (vishvatah), guard us entirely. (13)\n\nBhatta-Bhaskara-Bhashya: Now 'Ya te hetih' and the following three are in Anushtup. The Rishi and Deity are the Lord Himself. O Midhustama—'midhvan' has been explained; the greatest shedder. That weapon (heti) belonging to you, named the bow, which exists (babhuva) in your hand. 'Heti' is derived from the root 'han' (to kill/strike). With that weapon named the bow, which is 'ayakshmaya'—not a cause of disease or injury to devotees. From all causes of fear (vishvatah), you protect (paribhuj) us entirely. Guard us at all times, in all ways, and from all sins. The root 'bhuj' has a Vedic variation. Or: protect all of us (vishvatah), including sons and grandsons. Some say: 'heti' means violence; that violence performed by you, for the sake of which the bow, the means of violence, stays in your hand—protect us from that, etc., is the same. (13)\n\n|| He speaks the fourteenth verse ||\n\nSalutation be to your weapon which is unstrung and powerful;\nAnd also salutation to your two arms and to your bow.",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva as detailed in standard commentaries.",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "dhyana": "Meditation on Lord Maheshvara with resplendent Goddess.",
+      "text": "Śrī Rudra Bhāṣyam                   65\n\n---\n\n    \"Let the bow of the matted-haired one (Kapardin) be unstrung, and the quiver too be emptied of arrows. Let the arrows of his become incapable of wounding, and let his quiver be swift [but empty].\"\n\nNow, even for the arrows that have been blunted, the prayer is offered for their incapacitation: \"Vijyam iti\" — may the bow of Kapardin (the Lord with matted hair, who is the Supreme Lord), be vijya — without its bowstring; and may the arrow-holder (bāṇavān — one who bears arrows) also be viśalya — devoid of arrows. Even if the quiver holds shafts, there is the concern about arrows elsewhere, hence the [mantra] says: \"Aneśan iti\" — may the arrows of this Kapardin be incapable of wounding, having attained destruction in the form of inability to pierce (aneśan — may they fail to reach; nāśa in the optative-like usage of the Vedic [aorist]). Furthermore, may his niṣaṅghiḥ (the quiver) be āśu (swift/ready) — meaning capable only of holding the quiver but not qualified to perform the task of pulling out and discharging the arrows. Here, [the text] \"Prabhuśca dhanvana\" and so forth constitutes a single mantra for the teacher. The seer (ṛṣi) of this pair of [mantras] is Nārada, the metre is Anuṣṭup, and the deity is Śrī Rudra. [The dhyāna-śloka is:] \"One should meditate upon Rudra, blazing like ten million rising suns, his form like a flaming fire, his limbs adorned with fearsome serpents, bearing various weapons.\" Through this [mantra] enemies are destroyed. Thus [ends] the twelfth [mantra].\n\n    \"O most boon-granting one (Mīḍhuṣṭama), the weapon (heti) of yours that was in your hand,",
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                   ६५\n\n    विज्यं धनु: कपर्दिनो विशल्यो बाण-\nवाꣻ उत । अनेशन्नस्येषव आशुरस्य नि-\nषङ्गिध: ॥\n\n   इदानीं कुण्ठतामाणामपि बाणानामदृशीनं प्राथ्येत्राह—\nविज्यमिति । कपर्दिन: परमेश्वरस्य, धनु: विज्यं विज्या-\nकम्, अस्त्विति शेष:; बाणवान् उत हेषुधरपि, विशल्य:\nविगतबाणोऽस्तु। हेषुधेर्बैण्शल्यत्वेऽपि अन्यत्र स्थितै: शल्यै-\nवेंमाशङ्कूचाह— अनेशन्निति । अस्य कपर्दिन: हेषव:\nअनेशन् वेढुमसामध्यरूपं विनाशं प्राप्नुवन्तु, नशेराशिषि\nछन्दिस लङ्। कि च, अस्य निषङ्गिध: खञ्जकोश:, आशु:\nहेषपमुरस्तु, खञ्जं धारयितुमेव समर्थे: न तु खण्डतार्थं खञ्जा-\nकर्षणपर्यन्तकार्यक्षम इत्यर्थ: । अत्र प्रभुश्च धन्वन इत्याचार्याय\nएको मन्त्र:; अस्य ध्यूचस्य नारद ऋषि:, अनुष्टुप्छन्द:,\nश्रीरुद्रो देवता । 'उदयद्रासकरकोटिप्रकाशमादीप्तदहनधामा-\nनम् । भीषणभुजंगभूषं ध्यायेद्विविधायुधं रुद्रम्' । अनेन\nशत्रवो नश्यन्ति । इति द्वादश: ॥\n\n    या ते हेतिर्मीढुष्टम हस्ते बभूव ते\nR. B. 5"
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "या",
+      "word_ids": [
+        44
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॑",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिर्मी॑डुष्टम॒",
+      "word_ids": [
+        45,
+        46
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॑",
+      "word_ids": [
+        20
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ब॒भूव॑",
+      "word_ids": [
+        47
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धनुः॑",
+      "word_ids": [
+        26
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तया॒-ऽस्मान्,",
+      "word_ids": [
+        48,
+        49
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वत॒स्त्वम॑य॒क्ष्मया॒",
+      "word_ids": [
+        50,
+        14,
+        51
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॑ब्भुज",
+      "word_ids": [
+        52
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "या",
+      "word_ids": [
+        44
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिः",
+      "word_ids": [
+        45
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मी॒ढुः॒-त॒म॒",
+      "word_ids": [
+        46
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॑",
+      "word_ids": [
+        20
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ब॒भूव॑",
+      "word_ids": [
+        47
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धनुः॑",
+      "word_ids": [
+        26
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तया॑",
+      "word_ids": [
+        48
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मान्",
+      "word_ids": [
+        49
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वतः॑",
+      "word_ids": [
+        50,
+        14
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वम्",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒य॒क्ष्मया॑",
+      "word_ids": [
+        51
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॑",
+      "word_ids": [
+        52
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भु॒ज॒",
+      "word_ids": []
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "या",
+      "word_ids": [
+        44
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिः",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तिर्मी॑डुष्टम",
+      "word_ids": [
+        2,
+        46
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मीढु॑ष्टम॒",
+      "word_ids": [
+        46
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॑",
+      "word_ids": [
+        45,
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॑",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ब॒भूव॑",
+      "word_ids": [
+        47
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ब॒भूव॑",
+      "word_ids": [
+        47
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धनुः॑",
+      "word_ids": [
+        26
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धनु॒रिति॑",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धनुः॑",
+      "word_ids": [
+        26
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तया॒-ऽस्मान्",
+      "word_ids": [
+        2,
+        49
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मान्",
+      "word_ids": [
+        49
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वतः॑",
+      "word_ids": [
+        48
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वत॒स्त्वम्",
+      "word_ids": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वम॑य॒क्ष्मया",
+      "word_ids": [
+        50,
+        51
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒य॒क्ष्मया॒",
+      "word_ids": [
+        51
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॑",
+      "word_ids": [
+        52
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "परि॑",
+      "word_ids": [
+        52
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भुज",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भु॒जेति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भुज",
+      "word_ids": []
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    2,
+    14,
+    20,
+    26,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ]
+}

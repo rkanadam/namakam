@@ -1,0 +1,199 @@
+{
+  "id": 9,
+  "samhita": "नमो॑ बृह॒ते च॒ वर्​षी॑यसे च॒",
+  "pada": "नमो॑ । बृ॒ह॒ते । च॒ । वर्​षी॑यसे । च॒ ॥",
+  "krama": "नमो॑ बृह॒ते । बृह॒ते च । च वर्​षी॑यसे । वर्​षी॑यसे च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बृह॒ते",
+      "word_ids": [
+        286
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वर्​षी॑यसे",
+      "word_ids": [
+        287
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बृ॒ह॒ते",
+      "word_ids": [
+        286
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वर्​षी॑यसे",
+      "word_ids": [
+        287
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ बृह॒ते",
+      "word_ids": [
+        144,
+        286
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बृह॒ते च",
+      "word_ids": [
+        286,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वर्​षी॑यसे",
+      "word_ids": [
+        19,
+        287
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वर्​षी॑यसे च",
+      "word_ids": [
+        287,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    286,
+    287
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Brihan'—large in size. 'Varshiyan'—rich in qualities."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "'Namo brihate cha'—to the one great in size. [Grammatical note]. 'Varshiyase cha'—to the one most excellent in size, or in knowledge etc. [Grammatical note]. (9)\n\nSalutation to the old and to the one who well-increases."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "१०४                    श्रीरुद्रभाष्यम् ।\n\nगवत्परिकरत्वमनुज्ञायते। तेन च 'यो देवानां प्रभवश्चोद्र-\nवश्च' 'विश्वाधिको रुद्रो महर्षिः' 'अञ्ज्ञान्यन्या देवताः'\nइत्यादिश्रुतिप्रसिद्धं विश्वाधिकत्वं प्रदशितम् ॥\n\n      नमो हृस्वाय च वामनाय च ॥\n\n      अथाष्टमः— नमो हृस्वायेति । शरीरे लघुप्रमाणो\nहृस्वः, अनेन 'सञ्चापि दहं गगनं विशोकः' इत्यादिश्रुति-\nप्रसिद्धं दहरविद्योपासलत्वं प्रदशितम् । संकुचितपादाद्यवयवो\nवामनः महागणपतिः, तद्रूपायेत्यर्थे। महागणपतेः साक्षा-\nत्परमेश्वरावतारत्वस्य मन्त्रशास्त्रपुराणादिप्रसिद्धेः। अनेन\n'गणानां त्वा गणपतिं हवामहे' इति श्रुतिप्रसिद्धो महिह्मा\nदशितः ॥\n\n      नमो बृहते च वर्षीयसे च ॥\n\n      अथ नवमः:—— नमो बृहत इति । देशकालबस्तुक्रत-\nत्रिविधपरिच्छेदरहित्यं बृहत्त्वमिति ब्रह्ममीमांसायां व्यव-\nस्थापितम्; बृहते परब्रह्मण इत्यर्थः। 'अथ कस्मादुच्यते\nपरं ब्रह्मेति यस्माद्बृहति बृंहयति तस्मादुच्यते परं ब्रह्म'\nइति अथर्वेशिरःश्रुतेः। अनेन 'ऋतं सत्यं परं ब्रह्म' 'सदब्रह्म\nज्ञानमनन्तं ब्रह्म' इत्यादिश्रुत्युक्तं परब्रह्मत्वं दशितं भवति ।",
+      "english": "104                    Śrī Rudra Bhāṣyam\n\nHis supremacy over all the gods — His status as their divine patron — is confirmed. And through this, the Lord's supremacy over the entire universe (viśvādhikatva) is indicated, as well-attested in the Śruti: \"He who is the source and the dissolution of the gods,\" \"Rudra, the great sage, is supreme over the universe\" (viśvādhiko rudro maharṣiḥ), and \"The other deities are partial aspects\" — and so forth.\n\n      Homage to Hrasva and to Vāmana.\n\n      Now the eighth [mantra]: \"Namo hrasvāya\" — He who is of small measure in bodily form is Hrasva (the small one). Through this name, the glory of upāsanā (meditative worship) through the Dahara Vidyā (the meditation on the infinite Brahman within the tiny space of the heart) is indicated, as well-attested in the Śruti: \"Even though [the ātman] is tiny, it is free of sorrow, pervading the sky.\" Vāmana is the Great Gaṇapati, whose limbs such as the feet are contracted — the meaning being: \"to Him in the form of Gaṇapati.\" This is because the Incarnation of the Supreme Lord as the Great Gaṇapati is well-attested in the Mantraśāstra (tantric scriptures), Purāṇas, and other authorities. Through this name, the glory well-attested in the Śruti — \"We call upon You, O Gaṇapati, lord of the hosts (gaṇānāṃ tvā gaṇapatiṃ havāmahe)\" — is indicated.\n\n      Homage to Bṛhat and to Varṣīyas.\n\n      Now the ninth [mantra]: \"Namo bṛhate\" — Freedom from the threefold limitation of space, time, and object is what is established in Brahma Mīmāṃsā (Vedānta) as \"bṛhattva\" (the nature of Bṛhat, the immeasurably vast); hence, the meaning is: \"to the Supreme Brahman (Parabrahman), who is Bṛhat.\" The Atharvāśiras Śruti declares: \"Why is it called the Supreme Brahman? Because It is vast (bṛhati) and makes all things vast (bṛṃhayati) — that is why It is called the Supreme Brahman.\" Through this, the status of the Lord as the Supreme Brahman is indicated, as declared in the Śrutis: \"Brahman is truth, knowledge, infinite\" and \"Sat-Brahman, knowledge, infinite is Brahman\" — and so forth."
+    }
+  }
+}

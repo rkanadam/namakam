@@ -1,0 +1,128 @@
+{
+  "id": 7,
+  "samhita": "नमो॑ वृ॒क्षेभ्यो॒ हरि॑केशेभ्यो॒",
+  "pada": "नमो॑ । वृ॒क्षेभ्यः॑ । हरि॑-केशेभ्यः ॥",
+  "krama": "नमो॑ वृ॒क्षेभ्यः॑ । वृ॒क्षेभ्यो॒ हरि॑केशेभ्यः । हरि॑केशेभ्य इति॑ हरि-केशेभ्यः ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्षेभ्यो॒",
+      "word_ids": [
+        161
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हरि॑केशेभ्यो॒",
+      "word_ids": [
+        162
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्षेभ्यः॑",
+      "word_ids": [
+        161
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हरि॑-केशेभ्यः",
+      "word_ids": [
+        162
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ वृ॒क्षेभ्यः॑",
+      "word_ids": [
+        144,
+        161
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वृ॒क्षेभ्यो॒ हरि॑केशेभ्यः",
+      "word_ids": [
+        161,
+        162
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हरि॑केशेभ्य इति॑ हरि-केशेभ्यः",
+      "word_ids": [
+        162
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    144,
+    161,
+    162
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "Trees whose hair-like leaves are green (harita) in color are 'harikesha'. Salutation be to those trees which are the tree-shaped forms of Rudra. Salutation to Rudra who is the protector of cattle (pashu). (2)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "And in the Purana: \"All from Brahma down to the stationary things are proclaimed as 'Pashu' (tethered beings). Because he is their Lord, Bhavah is remembered as Pashupati.\"\nIn the Mahabharata: \"Because he always protects the 'Pashus' and delights with them, and because he is their Overlord, he is remembered as Pashupati.\" (2)\n\nHe speaks the third Yajus:\n\n[Word-for-word]: Namah | saspinjaraya | tvishi-mate | pathinam | pataye | namah || 3 ||"
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                   ७१\n\nभाषाक्योकस्तवगोदिलोकतद्रोगैश्वर्यविशिष्टं परमेश्वररूपसुप-\nस्थापयता 'हिरण्यबाहवे' इत्यनेन स्वर्गेतद्रोगादीनीन्द्रादि-\nभ्य: प्रयच्छतस्तस्य तदधिपतित्वं युक्तिमिति प्रदर्शितं भवति ।\nप्रसिद्धं च परमेश्वरस्य शुलादिदिष्वेन्द्राद्याधिपत्यम्, यथा—\n'सर्वेसिवं ब्रह्मविष्णुरुद्रेन्द्रास्ते संप्रसूयन्ते' 'कारणं तु\nश्रेव: सर्वैश्वर्यसंपत्रः शंसु:' इति, 'भीषास्माद्प्राजेन्-\nद्रश्च' इत्याद्य: । इतिहासपुराणेषु च; यथा भारते— 'स\nर्वदात मनुभ्येभ्य: स एवाक्षिपते पुन: । शक्रादिषु च देवेषु\nतस्यैवैश्वर्यमुच्यते' इति । भागवतेऽपि 'ब्रह्मादथो यस्कृत-\nलोकपाला:' इति । शिवपुराणेषु च प्रपश्चितम् । तदेवमि-\nन्द्रादिलोकपालविशिष्टसकलदिक्पतित्वेन परमेश्वरनमस्कार:\nप्रथममन्त्रार्थे इति ॥\n\n    नमो वृक्षेभ्यो हिरिकेशेभ्य: पशूना प-\nतये नम: ॥\n\n   अथ द्वितीय:— नमो वृक्षेभ्य: इति। अत्र 'पशूतां पत-\nये'इति प्रथममन्वय:; पशुपदं चेह न गवादिमात्रपरम्, किं\nतु द्विपाश्चतुष्पात्साधारणप्राणिमात्रपरम्; 'एषामीशे पशुपति:\nपशूनां चतुष्पदायुत च द्विपदाम्' इति, एतावन्तो वै पश्वो\nद्विपादश्च चतुष्पादश्च' इत्यादिश्रुते: । तथा च सकलप्राण्य-",
+      "english": "Śrī Rudra Bhāṣyam                   73\n\n---\n\n— referring to the triple-quality (triguṇa) karma-kāṇḍa (the ritual section of the Vedas) characterised by leaves in the form of Vedic metres (chandas), as [indicated by the Vedic text]: \"The Vedas deal with the subjects of the three guṇas,\" and \"Leaves are its hymns (chandāṃsi yasya parṇāni).\" Just as in the case of a tree, leaves serve to protect it, so the Vedic metres (chandas) that are of the nature of karma-kāṇḍa serve to protect the tree of saṃsāra, since they perpetuate worldly existence by inculcating action. And these, on account of their infinite abundance surpassing the understanding of the head (śiras), are described as hair (keśa). Thus the portion of the mantra \"namo vṛkṣebhyo hirikeśebhyaḥ\" is concluded in meaning as: salutation to the Supreme Lord in his aspect as the tree of saṃsāra, intertwined with the threefold web of karmic activity. Through this, the two questions — how [creatures] have pāśutva (the condition of being paśu, bound), and how [the Lord] has patitva (the condition of being pati, lord) — are both answered: creatures are paśu by virtue of being bound by the ropes of saṃsāra (saṃsārapāśa), and the Supreme Lord is pati of those [creatures] by virtue of causing them to perform their respective functions. This has been clearly amplified by some: \"From Brahmā to the stationary beings, all are the paśus (bound livestock) of the trident-bearing Lord; they are called paśus because they are under the sway of saṃsāra. Because of his lordship over them, the Lord — indeed Śiva — is known as Paśupati (lord of the bound). Mahāśvara has bound the paśus from Brahmā to the pillar. By these bonds (pāśa), the Lord God himself causes them to perform their work. He alone is their liberator, when properly worshipped with devotion.\" Thus have similar statements from the Skānda, Śaiva and Kūrma Purāṇas been cited. Here, by the statement \"from Brahmā to the stationary\" it is explained that in the mantra \"Eṣāmīśe\" (the lord of these), the two-footed and four-footed [beings] serve as indicative of the entire manifest world, composed of conscious and inert beings."
+    }
+  }
+}

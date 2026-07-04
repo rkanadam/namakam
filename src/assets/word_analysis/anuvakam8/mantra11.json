@@ -1,0 +1,191 @@
+{
+  "id": 11,
+  "samhita": "नमः॑ शि॒वाय॑ च शि॒वत॑राय च॒",
+  "pada": "नमः॑ । शि॒वाय॑ । च॒ । शि॒व-त॑राय । च॒ ॥",
+  "krama": "नमः॑ शि॒वाय॑ । शि॒वाय॑ च । च शि॒वत॑राय । शि॒वत॑राय च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वाय॑",
+      "word_ids": [
+        350
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वत॑राय",
+      "word_ids": [
+        351
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वाय॑",
+      "word_ids": [
+        350
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒व-त॑राय",
+      "word_ids": [
+        351
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ शि॒वाय॑",
+      "word_ids": [
+        1,
+        350
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वाय॑ च",
+      "word_ids": [
+        350,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च शि॒वत॑राय",
+      "word_ids": [
+        19,
+        351
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वत॑राय च",
+      "word_ids": [
+        351,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    350,
+    351
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Shivah'—of the form of welfare (kalyana); meaning he is himself stainless. 'Shivatarah'—excessively auspicious/stainless. (11)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah shivaya cha'. Shiva is the stainless one, the one without qualities (nirguna). Salutation to the very famous Shiva who is welfare in all ways. 'Shivataraya cha'—the word 'shiva' is also used figuratively for things that cause welfare such as prosperity and liberation. For example: \"Auspicious (shiva) is the path, auspicious is the means.\" Likewise, the God is called 'Shiva' because he is the maker of welfare (shivankara). As the Atharvashikha Upanishad says: \"Shiva alone is to be meditated upon, the maker of welfare (shivankara), abandoning all else.\"\nAnd in the Mahabharata:\n\"Because he always accomplishes all goals in all actions, desiring the welfare (shiva) of men, therefore the God is remembered as Shiva.\"\nHe who is excessively auspicious is 'shivatarah' or 'shivankarah'. Salutation to him who produces welfare in various ways. (11)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

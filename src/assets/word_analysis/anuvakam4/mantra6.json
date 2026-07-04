@@ -1,0 +1,213 @@
+{
+  "id": 6,
+  "words": [
+    19,
+    144,
+    190,
+    253,
+    254
+  ],
+  "samhita": "नमो॒ विरू॑पेभ्यो वि॒श्वरू॑पेभ्यश्च वो॒ नमो॒",
+  "pada": "नमो॑ । वि-रू॑पेभ्यः । वि॒श्व-रू॑पेभ्यः । च॒ । वः॒ । नमो॒ ॥",
+  "krama": "नमो॒ विरू॑पेभ्यः । विरू॑पेभ्यो वि॒श्वरू॑पेभ्यः । वि॒श्वरू॑पेभ्यश्च । च वो॒ । वो नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विरू॑पेभ्यो",
+      "word_ids": [
+        253
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वरू॑पेभ्यश्च",
+      "word_ids": [
+        254,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वो॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-रू॑पेभ्यः",
+      "word_ids": [
+        253
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्व-रू॑पेभ्यः",
+      "word_ids": [
+        254
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वः॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॒ विरू॑पेभ्यः",
+      "word_ids": [
+        144,
+        253
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "विरू॑पेभ्यो वि॒श्वरू॑पेभ्यः",
+      "word_ids": [
+        253,
+        254
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒श्वरू॑पेभ्यश्च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च वो॒",
+      "word_ids": [
+        19,
+        254
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वो नमो॒",
+      "word_ids": [
+        19,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒ इति॑ नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": "[Word-for-word]: Namah | virupebhyah | vishvarupebhyah | iti | vishva-rupebhyah | cha | vah | namah || 6 ||\n..."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Sri Rudra",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "sanskrit": "---\n९६                    श्रीरुद्रभाष्यम् ।\n---\n\nविषयलंपटाः, तेषां पतयः गृत्सपतयः; शेषं पूर्ववत् ॥\n\nनमो व्रातेभ्यो व्रातपतिभ्यञ्च वो नमः ॥\n\nअथ चतुर्थः— नमो व्रातेभ्य इति । नानाजातीयाः\nसंघाः व्राताः, तेषां पतयः व्रातपतयः ॥\n\nनमो  गणेभ्यो  गणपतिभ्यञ्च  वो\nनमः ॥\n\nअथ पञ्चमः— नमो गणेभ्य इति । गणाः प्रमथाः,\nतेषां पतयः नन्दिकेश्वरादयः ॥\n\nनमो  विरूपेभ्यो  विश्वरूपेभ्यञ्च  वो\nनमः ॥\n\nअथ षष्ठः— नमो विरूपेभ्य इति । विरूपाः विकृत-\nरूपाः, नानारूपाः विश्वरूपाः; यद्वा, ब्रह्मणो वस्तुतोऽधि-\nकारत्वेन परमार्थतो विगतरूपाः,  'समारोप्यस्य रूपेण\nविषयो रूपवान् भवेत्' इति न्यायेन शुक्तिकायां रजतमिव\nब्रह्मणि अध्यस्तं विश्वरूपमिति विश्वरूपाः ॥\n\nनमो महद्भ्यः क्षुल्लकेभ्यञ्च वो नमः ॥\n\nअथ सप्तमः— नमो महह्वञ्च इति । अणिमाद्यैश्वर्यो-",
+      "english": "---\n96                    Sri Rudra Bhashyam\n---\n\n[Note: Page 98 of the source continues from the eighth commentary of the fourth anuvaka, describing various groups among the attendants of the Lord.]\n\nThose who are addicted to sense pleasures (vishaya-lampata); the \"gritsapatayah\" are their lords — the rest as before.\n\n[Commentary on Mantras 8 onward — continued:]\n\nAmong those [listed]: the chariot-drivers (sarathi) are the kshattrih; those who hold back and control the chariot are the sangrahitarah; and between these chariot-controller types there is a sub-distinction; the \"karmarah\" are iron-smiths (lohakara); the \"punjishtha\" are those who collect piles of sand-grains (valuka); \"nishadah\" means forest-hunters; those who carry loops and nets bound to dogs are the shvan (dog-handlers).\n\n[Continuing the fourth anuvaka commentary:]\n\nThe groups listed — from those with chariots (rathibhyah) to dog-lords (shvapatibhyah) — represent the various classes of beings in the manifest world, all of whom are saluted as embodiments of the Lord. The scope of these salutations covers beings from the most militarily powerful (those with chariots and armies) down to the most humble and socially marginal (hunters, dog-keepers, and even dogs themselves). This comprehensive enumeration establishes the Lord's all-pervading presence across every stratum of existence, reinforcing the central teaching that the Supreme Rudra is the inner self (antaratman) of all beings without exception.\n\nThe Shruti (Vedic scripture) declares: \"Verily this whole world is Rudra — to Rudra who rules this [world] we offer obeisance.\" The salutation of every class of being, from warriors to craftsmen to hunters, embodies this non-dual understanding: the Lord is not merely the sovereign lord over these beings from a position of externality, but is the very self abiding within each form, whether noble or humble, whether powerful or weak.\n\nThus the fourth anuvaka, in its comprehensive salutation of all forms of being — from divine armies to earthly craftsmen and hunters — celebrates the totality of the Lord's immanence in creation."
+    }
+  }
+}

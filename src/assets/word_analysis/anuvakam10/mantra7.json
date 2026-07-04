@@ -1,0 +1,1178 @@
+{
+  "id": 7,
+  "samhita": "आ॒रात्ते॑ गो॒घ्न उ॒त पू॑रुष॒घ्ने क्ष॑यद्वी॑राय सु॒म्नम॒स्मे ते॑ अस्तु । रक्षा॑ च नो॒ अधि॑ च देव ब्रू॒ह्यथा॑ च न॒-श्शर्म॑ यच्छ द्वि॒बर्​हाः᳚ ॥",
+  "pada": "आ॒रात् । ते॒ । गो॒-घ्ने । उ॒त । पू॒रु॒ष॒-घ्ने । क्ष॒यत्-वी॑राय । सु॒म्नम् । अ॒स्मे इति॑ । ते॒ । अ॒स्तु॒ । रक्ष॑ । च॒ । नः॒ । अधि॑ । च॒ । दे॒व॒ । ब्रू॒हि॒ । अथ॑ । च॒ । नः॒ । शर्म॑ । य॒च्छ॒ । द्वि॒-बर्​हाः᳚ ॥",
+  "krama": "आ॒रात्ते॒ । ते गो॒घ्ने । गो॒घ्न उ॒त । उ॒त पू॑रुष॒घ्ने । पू॑रुष॒घ्ने क्ष॑यद्वी॑राय । क्ष॑यद्वी॑राय सु॒म्नम् । सु॒म्नम॒स्मे इति॑ । अ॒स्मे ते॒ । ते अ॑स्तु । अ॒स्तु॒ रक्ष॑ । रक्ष॑ च । च नः । नः॒ अधि॑ । अधि॑ च । च दे॒व॒ । दे॒व ब्रू॒हि । ब्रू॒ह्यथ॑ । अथ॑ च । च नः । नः॒ शर्म॑ । शर्म॑ यच्छ । यच्छ॑ द्वि॒बर्​हाः᳚ । द्वि॒बर्​हा॒ इति॑ द्वि-बर्​हाः᳚ ॥",
+  "samhita_tokens": [
+    {
+      "text": "आ॒रात्ते॑",
+      "word_ids": [
+        492,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गो॒घ्न",
+      "word_ids": [
+        493,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पू॑रुष॒घ्ने",
+      "word_ids": [
+        494,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॑यद्वी॑राय",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒म्नम॒स्मे",
+      "word_ids": [
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॑",
+      "word_ids": [
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्तु",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रक्षा॑",
+      "word_ids": [
+        497
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो॒",
+      "word_ids": [
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "देव",
+      "word_ids": [
+        498
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ब्रू॒ह्यथा॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "न॒-श्शर्म॑",
+      "word_ids": [
+        33,
+        33,
+        501
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यच्छ",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वि॒बर्​हाः᳚",
+      "word_ids": [
+        503
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "आ॒रात्",
+      "word_ids": [
+        492
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गो॒-घ्ने",
+      "word_ids": [
+        493
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पू॒रु॒ष॒-घ्ने",
+      "word_ids": [
+        494
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॒यत्-वी॑राय",
+      "word_ids": [
+        451
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒म्नम्",
+      "word_ids": [
+        495
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मे इति॑",
+      "word_ids": [
+        496
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रक्ष॑",
+      "word_ids": [
+        497
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दे॒व॒",
+      "word_ids": [
+        498
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ब्रू॒हि॒",
+      "word_ids": [
+        499
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अथ॑",
+      "word_ids": [
+        500
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शर्म॑",
+      "word_ids": [
+        501
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "य॒च्छ॒",
+      "word_ids": [
+        502
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वि॒-बर्​हाः᳚",
+      "word_ids": [
+        503
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "आ॒रात्ते॒",
+      "word_ids": [
+        492,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गो॒घ्ने",
+      "word_ids": [
+        493,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गो॒घ्न",
+      "word_ids": [
+        493,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
+      "word_ids": [
+        6
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पू॑रुष॒घ्ने",
+      "word_ids": [
+        494,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पू॑रुष॒घ्ने",
+      "word_ids": [
+        494,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॑यद्वी॑राय",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॑यद्वी॑राय",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒म्नम्",
+      "word_ids": [
+        495,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒म्नम॒स्मे",
+      "word_ids": [
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": [
+        496
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मे",
+      "word_ids": [
+        496
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॑स्तु",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रक्ष॑",
+      "word_ids": [
+        497
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रक्ष॑",
+      "word_ids": [
+        497
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः",
+      "word_ids": [
+        493,
+        494,
+        495,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        493,
+        494,
+        495,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अधि॑",
+      "word_ids": [
+        103
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दे॒व॒",
+      "word_ids": [
+        498
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दे॒व",
+      "word_ids": [
+        498
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ब्रू॒हि",
+      "word_ids": [
+        499
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ब्रू॒ह्यथ॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अथ॑",
+      "word_ids": [
+        500
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः",
+      "word_ids": [
+        493,
+        494,
+        495,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        493,
+        494,
+        495,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शर्म॑",
+      "word_ids": [
+        501
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शर्म॑",
+      "word_ids": [
+        501
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यच्छ",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यच्छ॑",
+      "word_ids": [
+        19,
+        19,
+        19,
+        502
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वि॒बर्​हाः᳚",
+      "word_ids": [
+        503
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वि॒बर्​हा॒",
+      "word_ids": [
+        503
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": [
+        496
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वि-बर्​हाः᳚",
+      "word_ids": [
+        503
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    2,
+    6,
+    8,
+    19,
+    33,
+    103,
+    451,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "98 Sayanacharya—along with Bhatta Bhaskara Bhashya— [Na. Da. A.]\n\n(Purashcharana for Mantra 6 continued): Perform the pacification ritual (Shanti) in months with favorable stars (Saumya Nakshatra) for things like horses etc. Sacrifice 10,000 Ashvattha and Apamarga sticks smeared with curd, honey, and ghee. One whose life is ebbing away gets his life restored. In gambling or disputes, one who chants this mantra is never defeated. Fast for three nights and chant continuously. Then, eating only Charu, sacrifice 10,000 Bilva fruits smeared with honey; one obtains 1,000 gold pieces. Sacrifice 10,000 lilies (kumuda) smeared with curd, honey, and ghee; one obtains a daughter. Living on Charu for a year, sacrifice 8,000 or 108 offerings of cow-ghee daily in kindled fire; one is freed from all great sins. Enchant sandalwood powder with this mantra and wear it on the forehead; everyone becomes submissive. Sacrifice 8,000 Apamarga sticks on every birthday; one conquers untimely death. One desiring rain should worship Surya with hibiscus flowers, wearing red clothes and anointing himself with red paste on a Sunday; the Lord Sun will send great rain. One traveling a long distance should take ten pieces of sugar, enchant them 8,000 times, and throw them in the ten directions; he will be safe throughout the journey. One desiring no obstacles in work should chant the mantra 10,000 times before starting; he will complete the work without effort. One desiring a son should sacrifice 100,000 offerings of ghee; he obtains a son who continues the lineage. To defeat anyone, make their form out of sand, stand on its head, and chant 10,000 times; one will certainly be victorious. Everything else is also possible through this. The power of the mantra bears fruit for those directly perfected by the Lord's grace. Meditation:\n\n\"One should always meditate on Rudra, whose body is divided eleven-fold, brilliant like pure crystal, a treasure of light, holding a trident, and having the moon on His head.\"\n\nHe states the seventh Rik:\n\nLet your fierce form which kills cattle and men be far away. Let your auspicious/happiness-giving form be with us. O God, protect us, speak for us, and grant us peace in both worlds. || 7 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

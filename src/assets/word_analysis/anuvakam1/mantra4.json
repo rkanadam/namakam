@@ -1,0 +1,506 @@
+{
+  "anuvakam": 1,
+  "title": "प्रथमोनुवाकः",
+  "id": 4,
+  "samhita": "यामिषु॑-ङ्गिरिशन्त॒ हस्ते॒ बिभ॒र्​ष्यस्त॑वे । शि॒वा-ङ्गि॑रित्र॒ ता-ङ्कु॑रु॒ मा हिग्ं॑सीः॒ पुरु॑ष॒-ञ्जग॑त् ॥",
+  "pada": "याम् । इषु॑म् । गि॒रि॒-श॒न्त॒ । हस्ते॑ । बिभ॑र्षि । अस्त॑वे । शि॒वाम् । गि॒रि॒-त्र॒ । ताम् । कु॒रु॒ । मा । हि॒ग्ं॒सीः॒ । पुरु॑षम् । जग॑त् ॥",
+  "krama": "यामिषु॑म् । इषु॑-ङ्गिरिशन्त । गि॒रि॒शन्त॒ हस्ते॑ । हस्ते॒ बिभ॑र्षि । बिभ॒र्​ष्यस्त॑वे । अस्त॑वे॒ति अस्त॑वे । शि॒वा-ङ्गि॑रित्र । गि॒रि॒त्र॒ ताम् । ता-ङ्कु॑रु । कु॒रु॒ मा । मा हि॑ग्ं-सीः । हि॒ग्ं॒सीः पुरु॑षम् । पुरु॑ष॒-ञ्जग॑त् । जग॒दिति॑ जग॑त् ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "text": "",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Kashyapa",
+      "chandas": "Anushtup",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva as detailed in standard commentaries.",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Anushtup",
+      "devata": "Sri Rudra",
+      "dhyana": "Meditation on Lord Maheshvara with resplendent Goddess.",
+      "text": "",
+      "sanskrit": ""
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "यामिषु॑-ङ्गिरिशन्त॒",
+      "word_ids": [
+        80,
+        81,
+        77
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॒",
+      "word_ids": [
+        20
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बिभ॒र्​ष्यस्त॑वे",
+      "word_ids": [
+        82,
+        83
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा-ङ्गि॑रित्र॒",
+      "word_ids": [
+        84,
+        85,
+        86
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ता-ङ्कु॑रु॒",
+      "word_ids": [
+        87
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हिग्ं॑सीः॒",
+      "word_ids": [
+        89
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पुरु॑ष॒-ञ्जग॑त्",
+      "word_ids": [
+        90,
+        91
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "याम्",
+      "word_ids": [
+        80
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इषु॑म्",
+      "word_ids": [
+        81
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गि॒रि॒-श॒न्त॒",
+      "word_ids": [
+        77
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॑",
+      "word_ids": [
+        20
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बिभ॑र्षि",
+      "word_ids": [
+        82
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्त॑वे",
+      "word_ids": [
+        83
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वाम्",
+      "word_ids": [
+        84
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गि॒रि॒-त्र॒",
+      "word_ids": [
+        85,
+        86
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ताम्",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कु॒रु॒",
+      "word_ids": [
+        87
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हि॒ग्ं॒सीः॒",
+      "word_ids": [
+        89
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पुरु॑षम्",
+      "word_ids": [
+        90
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "जग॑त्",
+      "word_ids": [
+        91
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "यामिषु॑म्",
+      "word_ids": [
+        80,
+        81
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इषु॑-ङ्गिरिशन्त",
+      "word_ids": [
+        81,
+        77
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गि॒रि॒शन्त॒",
+      "word_ids": [
+        77
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॑",
+      "word_ids": [
+        20,
+        83
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हस्ते॒",
+      "word_ids": [
+        83,
+        86
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बिभ॑र्षि",
+      "word_ids": []
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "बिभ॒र्​ष्यस्त॑वे",
+      "word_ids": [
+        86
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्त॑वे॒ति",
+      "word_ids": [
+        86
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्त॑वे",
+      "word_ids": [
+        86
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वा-ङ्गि॑रित्र",
+      "word_ids": [
+        85,
+        86
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "गि॒रि॒त्र॒",
+      "word_ids": [
+        85,
+        86
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ताम्",
+      "word_ids": [
+        86,
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ता-ङ्कु॑रु",
+      "word_ids": [
+        87
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "कु॒रु॒",
+      "word_ids": [
+        87
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मा",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हि॑ग्ं-सीः",
+      "word_ids": [
+        89
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हि॒ग्ं॒सीः",
+      "word_ids": [
+        89
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पुरु॑षम्",
+      "word_ids": [
+        88
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पुरु॑ष॒-ञ्जग॑त्",
+      "word_ids": [
+        90,
+        91
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "जग॒दिति॑",
+      "word_ids": [
+        91
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जग॑त्",
+      "word_ids": [
+        91
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    20,
+    77,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+  ]
+}

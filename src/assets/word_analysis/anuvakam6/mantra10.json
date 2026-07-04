@@ -1,0 +1,199 @@
+{
+  "id": 10,
+  "samhita": "नमः॑ श्र॒वाय॑ च प्रतिश्र॒वाय॑ च॒",
+  "pada": "नमः॑ । श्र॒वाय॑ । च॒ । प्र॒ति॒-श्र॒वाय॑ । च॒ ॥",
+  "krama": "नमः॑ श्र॒वाय॑ । श्र॒वाय॑ च । च प्रतिश्र॒वाय॑ । प्रतिश्र॒वाय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श्र॒वाय॑",
+      "word_ids": [
+        290
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रतिश्र॒वाय॑",
+      "word_ids": [
+        291
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्र॒वाय॑",
+      "word_ids": [
+        290
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒ति॒-श्र॒वाय॑",
+      "word_ids": [
+        291
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑ श्र॒वाय॑",
+      "word_ids": [
+        1,
+        290
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श्र॒वाय॑ च",
+      "word_ids": [
+        290,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च प्रतिश्र॒वाय॑",
+      "word_ids": [
+        19,
+        291
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रतिश्र॒वाय॑ च",
+      "word_ids": [
+        291,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    290,
+    291
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Shravah'—the sound (shabda) which is heard. 'Pratishravah'—the echo (pratidhwani)."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "",
+      "english": "'Namah shravaya cha'—to him in the form of sound. It is called 'shravah' because it is heard. Or: to him who is heard everywhere, the very famous. [Grammatical note]. 'Pratishravaya cha'—to him in the form of an echo, or in the form of a reply (response). (10)\n\nSalutation to the one with a swift army and to the one with a swift chariot."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "गौरीकराम्बुजन्यस्तस्वर्णशैलशरासनम् । इषुहस्तं रथारूढं नरनारीतनुं स्मरेत् ॥",
+        "english": "One should meditate on the Lord in the form of Ardhanarishvara (half man, half woman), seated on a chariot, holding an arrow in his hand, and holding a bow (the golden Meru mountain) placed there by the lotus hands of Gauri."
+      },
+      "sanskrit": "षष्ठोऽनुवाकः ॥\n\n                         ———\n\n      नमो ज्येष्ठाय च कनिष्ठाय च नमः\n      पूर्वजाय चापरजाय च नमो मध्यमाय\n      चापगल्भाय च नमो जघन्याय च बुध्ि-\n      याय च नमः सोभ्याय च प्रतिसर्याय\n      च नमो याम्याय च क्षेमन्याय च नम-\n      उर्वर्याय च खल्याय च नमः श्रोकयाय\n      चावसान्याय च नमो वन्याय च कक्ष्याय\n      च नमः श्रवाय च प्रतिश्रवाय च नम\n      आशुषेणाय चाशुरथाय च नमः शूराय\n      चाविभिन्दते च नमो धर्मिणे च वर्रूथिने\n      च नमो बिल्मिने च कवचिने च नमः\n      श्रुताय च श्रुतसेनाय च ॥\n\n      पञ्चमे विविधमहिह्मोपेतत्वेन भगवान्नमस्कृतः, षष्ठे तु\nसर्वात्मकत्वसर्वान्तयोमित्वाभ्यां नमस्किर्यते—— नमो ज्येष्ठे-",
+      "english": "Sixth Anuvāka (ṣaṣṭho'nuvākaḥ)\n\n                         ———\n\n      Homage to Jyeṣṭha and to Kaniṣṭha; homage\n      to Pūrvaja and to Aparaja; homage to Madhyama\n      and to Apagalbha; homage to Jaghanya and to Budhnya;\n      homage to Sobhya and to Pratisarya;\n      homage to Yāmya and to Kṣemya; homage\n      to Urvaryā and to Khalya; homage to Śrokya\n      and to Avasānya; homage to Vanya and to Kakṣya;\n      homage to Śrava and to Pratiśrava; homage\n      to Āśuṣeṇa and to Āśuratha; homage to Śūra\n      and to Avabhindat; homage to Dharmiṇe and to Varūthine;\n      homage to Bilmine and to Kavacine; homage\n      to Śruta and to Śrutasena.\n\n      In the fifth anuvāka, the Lord was saluted as the possessor of diverse glories; in the sixth, He is saluted by virtue of His being the Soul of all (sarvātmakatva) and His inner presence in all things (sarvāntaryāmitva) — \"Namo jyeṣṭhā-"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "id": 1,
+  "samhita": "नम॑ इरि॒ण्या॑य च प्रप॒थ्या॑य च॒",
+  "pada": "नमः॑ । इरि॒ण्या॑य । च॒ । प्र॒-प॒थ्या॑य । च॒ ॥",
+  "krama": "नम॑ इरि॒ण्या॑य । इरि॒ण्या॑य च । च प्रप॒थ्या॑य । प्रप॒थ्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इरि॒ण्या॑य",
+      "word_ids": [
+        376
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रप॒थ्या॑य",
+      "word_ids": [
+        377
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19,
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इरि॒ण्या॑य",
+      "word_ids": [
+        376
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒-प॒थ्या॑य",
+      "word_ids": [
+        377
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इरि॒ण्या॑य",
+      "word_ids": [
+        376
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इरि॒ण्या॑य",
+      "word_ids": [
+        376
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रप॒थ्या॑य",
+      "word_ids": [
+        377
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रप॒थ्या॑य",
+      "word_ids": [
+        377
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    376,
+    377
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "76 Sayanacharya—along with Bhatta Bhaskara Bhashya— [Na. Na. A.]\n\n|| Thus ends the Eighth Anuvaka ||\n\nSayanacharya Bhashya: In the eighth Anuvaka, the Yajus with salutations on one side were mentioned. Now, in the ninth Anuvaka, some others are being mentioned. He states the nineteen Yajus present there:\n\nSalutations to the one in the barren land (Irinyaya) and to the one in the path (Prapathyaya). || 1 ||\n\nSayanacharya Bhashya: 'Irinam' is barren/salty land; He who is in that is 'Irinyah'. 'Prapathah' is a path frequented by many; He who is in that is 'Prapathyah'. || 1 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Irinyaya'. 'Irinam' is barren land; He who is in that. To 'Prapathyaya'. 'Prapathah' is a great path frequented by many; He who is in that. || 1 ||\n\nSalutations to the one in the small pebbles (Kinshilaya) and to the one in the habitable place (Kshayanaya). || 2 ||\n\nSayanacharya Bhashya: 'Kinshilah' is a gravelly region where there are small, vile stones. 'Kshayanah' is a place suitable for residence. || 2 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Kinshilaya'. Where there are small, vile stones, that gravelly region is 'kinshilah'; He who stands there. (By the rule of location, the word denotes the dweller). Or 'kinshilah' is a specific region where there is doubt whether they are small stones or crystals; He who stands there. To 'Kshayanaya'. From the root 'kshi' (to dwell). The suffix 'lyut' is used in the sense of location. 'Kshayanah' is a place suitable for residence; He who stands there. The usage is as before. Others say: All these from 'Shashpya' onwards are specific types of transmigrating beings. 'Shashpah' are those like young grass with very little strength. 'Phenah' are those like foam with very short lives. 'Sikatah' are like sand, extremely small. 'Pravahah' are those with great power and opulence. 'Irinah' are like barren land, with zero power. 'Prapathah' are those on the main path. 'Kinshilah' are those of vile character (kutsita-shila). 'Kshayanah' are those subject to decay. He exists in all of them without distinction as their benefactor. The sense is that He is the grace-giver of all. || 2 ||\n\nSalutations to the one with matted hair (Kapardine) and to the one who stands before (Pulastaye). || 3 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "नवमोऽनुवाकः ॥\n\n---*---\n\n   नम इरिण्याय च प्रपथ्याय च नम:\nकिण्शिलाय च क्षयणाय च नम: कप-\nदिने च पुलस्तये च नमो गोष्ठ्य च गृ-\nह्याय च नमस्तल्प्याय च गेह्याय च नम:\nकाठ्याय च गहृरेष्ठाय च नमो हृदय्याय\nच निवेष्प्याय च नम: पांस्रव्याय च\nरजस्याय च नम: शुष्क्याय च हरित्याय\nच नमो लोप्याय चोलप्याय च नम ऊ-\nव्र्यांच सूर्म्यांच नम: पण्याय च\nपर्णेनध्याय च ॥\n\n   अष्टमे जगतुपास्यत्वहेतुभिरन्तर्यामिमतया भगवाचमस्कृत: ।\nनवमे पुनरन्तर्यामिमतया भगवाचमस्किर्यते— नम इरिण्या-\nयेति । इरिणम् ऊषरम्, तत्र भव: इरिण्य:, प्रपथ: क्षुण्ण-\nमार्ग:, तत्र भव: प्रपथ्य:, कुत्सिता: शिला यस्मिन् स:",
+      "english": "Ninth Anuvaka (Chapter Nine)\n\n---*---\n\n   Nama irinya ya ca prapathya ya ca namah\n   kimshilaya ca kshayanaya ca namah kapa-\n   rdine ca pulastaye ca namo goshtya ca\n   grhya ya ca namastalpya ya ca gehya ya ca\n   namah kathya ya ca gahresthaya ca namo\n   hridayya ya ca niveshpya ya ca namah\n   pamsavya ya ca rajasya ya ca namah\n   shushkya ya ca haritya ya ca namo\n   lopya ya colpya ya nama u-\n   rvya ya ca surmya ya ca namah\n   pannya ya ca parneshadhya ya ca\n\n   In the eighth chapter, the Lord was saluted through the quality of His being the inner controller (antaryamin) — by citing reasons why He is worthy of universal worship. In the ninth chapter too, the Lord is saluted in His role as inner controller — by the mantra beginning \"Nama irinya ya.\" Irina means a salt desert or barren wasteland (ushara); He who abides there is Irinya. Prapatha means the well-worn path (ksunna-marga); He who abides there is Prapathya. Kimshila is the place where there are defective or jagged stones (kutsitah shilah); Kshayana is a region fit for habitation —"
+    }
+  }
+}

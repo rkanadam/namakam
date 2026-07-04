@@ -1,0 +1,259 @@
+{
+  "id": 10,
+  "samhita": "नमो॒ लोप्या॑य चोल॒प्या॑य च॒",
+  "pada": "नमो॒ । लोप्या॑य । च॒ । उ॒ल॒प्या॑य । च॒ ॥",
+  "krama": "नमो॒ लोप्या॑य । लोप्या॑य च । चोल॒प्या॑य । उ॒ल॒प्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "लोप्या॑य",
+      "word_ids": [
+        378
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चोल॒प्या॑य",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19,
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "लोप्या॑य",
+      "word_ids": [
+        378
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒ल॒प्या॑य",
+      "word_ids": [
+        379
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "लोप्या॑य",
+      "word_ids": [
+        378
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "लोप्या॑य",
+      "word_ids": [
+        378
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चोल॒प्या॑य",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒ल॒प्या॑य",
+      "word_ids": [
+        379
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    378,
+    379
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "78 Sayanacharya—along with Bhatta Bhaskara Bhashya— [Na. Na. A.]\n\nSalutations to the one in deep waters (Hridayyaya) and to the one in the dew (Niveshpyaya). || 7 ||\n\nSayanacharya Bhashya: 'Hridayyah' is He who exists in 'hrida', i.e., deep, unfathomable waters. 'Niveshpah' is dew-water (nihara-jala); He who exists in that is 'Niveshpyah'. || 7 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Hridayyaya'. To the one in the deep pool (hrida). To 'Niveshpyaya'. 'Niveshpyam' is water found in snow or frost. Salutations to the one who exists in that. || 7 ||\n\nSalutations to the one in the fine dust (Pansavyaya) and to the one in the visible dust (Rajasyaya). || 8 ||\n\nSayanacharya Bhashya: 'Pansavyah' is He who is situated in 'pansu', i.e., atoms or fine dust. 'Rajasyah' is He who is situated in 'rajas', i.e., clearly visible dust. || 8 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Pansavyaya'. To the one in 'pansu', the subtle dust particles. To 'Rajasyaya'. To the one in the opposite, i.e., coarse dust particles. Or the word 'rajas' refers to the qualities (gunas) or the worlds (loka), as in \"Yadasya pare rajasah\". || 8 ||\n\nSalutations to the one in the dry wood (Shushkyaya) and to the one in the green wood (Harityaya). || 9 ||\n\nSayanacharya Bhashya: 'Shushkyah' is He who exists in dry wood (shushka-kashta). 'Harityah' is He who exists in green, moist wood. || 9 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Shushkyaya'. 'Shushkam' is juiceless wood; to the one who is in that. To 'Harityaya'. 'Haritam' is green/moist wood; to the one who is in that. || 9 ||\n\nSalutations to the one in the hard ground (Lopyaya) and to the one in the grass (Ulapyaya). || 10 ||\n\nSayanacharya Bhashya: 'Lopa' is a hard region where grass etc. is missing; He who is in that is 'Lopyah'. 'Ulapa' refers to grasses like balvaja; He who is in that is 'Ulapyah'. || 10 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Lopyaya'. 'Lopa' is a hard region where grass is broken or destroyed; to the one who is in that. To 'Ulapyaya'. 'Ulapa' are grasses like balvaja; to the one who is in that. Or to the one in a land containing them. || 10 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "नवमोऽनुवाकः ॥\n\n---*---\n\n   नम इरिण्याय च प्रपथ्याय च नम:\nकिण्शिलाय च क्षयणाय च नम: कप-\nदिने च पुलस्तये च नमो गोष्ठ्य च गृ-\nह्याय च नमस्तल्प्याय च गेह्याय च नम:\nकाठ्याय च गहृरेष्ठाय च नमो हृदय्याय\nच निवेष्प्याय च नम: पांस्रव्याय च\nरजस्याय च नम: शुष्क्याय च हरित्याय\nच नमो लोप्याय चोलप्याय च नम ऊ-\nव्र्यांच सूर्म्यांच नम: पण्याय च\nपर्णेनध्याय च ॥\n\n   अष्टमे जगतुपास्यत्वहेतुभिरन्तर्यामिमतया भगवाचमस्कृत: ।\nनवमे पुनरन्तर्यामिमतया भगवाचमस्किर्यते— नम इरिण्या-\nयेति । इरिणम् ऊषरम्, तत्र भव: इरिण्य:, प्रपथ: क्षुण्ण-\nमार्ग:, तत्र भव: प्रपथ्य:, कुत्सिता: शिला यस्मिन् स:",
+      "english": "Ninth Anuvaka (Chapter Nine)\n\n---*---\n\n   Nama irinya ya ca prapathya ya ca namah\n   kimshilaya ca kshayanaya ca namah kapa-\n   rdine ca pulastaye ca namo goshtya ca\n   grhya ya ca namastalpya ya ca gehya ya ca\n   namah kathya ya ca gahresthaya ca namo\n   hridayya ya ca niveshpya ya ca namah\n   pamsavya ya ca rajasya ya ca namah\n   shushkya ya ca haritya ya ca namo\n   lopya ya colpya ya nama u-\n   rvya ya ca surmya ya ca namah\n   pannya ya ca parneshadhya ya ca\n\n   In the eighth chapter, the Lord was saluted through the quality of His being the inner controller (antaryamin) — by citing reasons why He is worthy of universal worship. In the ninth chapter too, the Lord is saluted in His role as inner controller — by the mantra beginning \"Nama irinya ya.\" Irina means a salt desert or barren wasteland (ushara); He who abides there is Irinya. Prapatha means the well-worn path (ksunna-marga); He who abides there is Prapathya. Kimshila is the place where there are defective or jagged stones (kutsitah shilah); Kshayana is a region fit for habitation —"
+    }
+  }
+}

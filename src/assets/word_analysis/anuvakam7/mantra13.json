@@ -1,0 +1,191 @@
+{
+  "id": 13,
+  "samhita": "नमो॑ मे॒घ्या॑य च विद्यु॒त्या॑य च॒",
+  "pada": "नमो॑ । मे॒घ्या॑य । च॒ । वि॒द्यु॒त्या॑य । च॒ ॥",
+  "krama": "नमो॑ मे॒घ्या॑य । मे॒घ्या॑य च । च विद्यु॒त्या॑य । विद्यु॒त्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मे॒घ्या॑य",
+      "word_ids": [
+        326
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विद्यु॒त्या॑य",
+      "word_ids": [
+        327
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मे॒घ्या॑य",
+      "word_ids": [
+        326
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒द्यु॒त्या॑य",
+      "word_ids": [
+        327
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ मे॒घ्या॑य",
+      "word_ids": [
+        144,
+        326
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मे॒घ्या॑य च",
+      "word_ids": [
+        326,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च विद्यु॒त्या॑य",
+      "word_ids": [
+        19,
+        327
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "विद्यु॒त्या॑य च",
+      "word_ids": [
+        327,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    326,
+    327
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "सप्तमोऽनुवाकः ॥\n\n                         ———\n\n      नमो दुन्दुभ्याय चाहनन्याय च नमो\n      घृष्णवे च प्रमृशाय च नमो दूताय च\n      प्रहिताय च नमो निषङ्गिणे चेषुधिमते च\n      नमस्तीक्ष्णेषवे चायुधिने च नमः स्वायु-\n      धाय च सुधन्वने च नमः स्रुत्याय च\n      पथ्याय च नमः काश्याय च नीप्याय च\n      नमः सूद्याय च सरस्याय च नमो ना-\n      याय च वैशन्ताय च नमः कूप्याय चा-\n      वट्याय च नमो वर्ष्याय चावर्ष्याय च\n      नमो मेघ्याय च विद्युत्याय च नमः ई-\n      ध्रियायें चातप्याय च नमो बाल्याय च\n      रेघिमयाय च नमो वास्तव्याय च वा-\n      स्तुपाय च ॥",
+      "english": "Seventh Anuvāka (saptamo'nuvākaḥ)\n\n                         ———\n\n      Homage to Dundubhya and to Āhananya; homage\n      to Ghṛṣṇave and to Pramṛśa; homage to Dūta and to\n      Prahita; homage to Niṣaṅgiṇe and to Iṣudhimate;\n      homage to Tīkṣṇeṣave and to Āyudhine; homage to Svāyu-\n      dha and to Sudhanvane; homage to Srutyā and to\n      Pathyā; homage to Kāśya and to Nīpya;\n      homage to Sūdya and to Sarasya; homage to Nā-\n      dya and to Vaiśanta; homage to Kūpya and to\n      Avaṭya; homage to Varṣya and to Avarṣya;\n      homage to Meghya and to Vidyutya; homage to\n      Īdhriya and to Ātapya; homage to Vātya and to\n      Rebhya; homage to Vāstavya and to\n      Vāstupa."
+    }
+  }
+}

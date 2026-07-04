@@ -1,0 +1,275 @@
+{
+  "anuvakam": 2,
+  "title": "द्वितीयोनुवाकः",
+  "id": 3,
+  "samhita": "नमः॑ स॒स्पिञ्ज॑राय॒ त्विषी॑मते पथी॒ना-म्पत॑ये॒ नमो॒",
+  "pada": "नमः॑ । स॒स्पिञ्ज॑राय । त्विषी॑-मते । प॒थी॒नाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नमः॑ स॒स्पिञ्ज॑राय । स॒स्पिञ्ज॑राय॒ त्विषी॑मते । त्विषी॑मते पथी॒नाम् । प॒थी॒ना-म्पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "text": "",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva's universal form (Vaishvarupya).",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on the golden-armed Lord.",
+      "text": "",
+      "sanskrit": ""
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑राय॒",
+      "word_ids": [
+        164
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त्विषी॑मते",
+      "word_ids": [
+        165
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पथी॒ना-म्पत॑ये॒",
+      "word_ids": [
+        166,
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑राय",
+      "word_ids": [
+        164
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त्विषी॑-मते",
+      "word_ids": [
+        165
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒थी॒नाम्",
+      "word_ids": [
+        166
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑राय",
+      "word_ids": [
+        164,
+        166
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒स्पिञ्ज॑राय॒",
+      "word_ids": [
+        166
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त्विषी॑मते",
+      "word_ids": [
+        165
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "त्विषी॑मते",
+      "word_ids": [
+        165
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पथी॒नाम्",
+      "word_ids": [
+        166,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प॒थी॒ना-म्पत॑ये",
+      "word_ids": [
+        148,
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    144,
+    148,
+    164,
+    165,
+    166
+  ]
+}

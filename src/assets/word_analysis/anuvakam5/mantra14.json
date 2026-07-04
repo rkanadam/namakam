@@ -1,0 +1,190 @@
+{
+  "id": 14,
+  "samhita": "नम॑ ऊ॒र्म्या॑य चावस्व॒न्या॑य च॒",
+  "pada": "नमः॑ । ऊ॒र्म्या॑य । च॒ । अ॒व॒-स्व॒न्या॑य । च॒ ॥",
+  "krama": "नम॑ ऊ॒र्म्या॑य । ऊ॒र्म्या॑य च । चावस्व॒न्या॑य । अ॒वस्व॒न्या॑य च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नम॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ऊ॒र्म्या॑य",
+      "word_ids": [
+        270
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "चावस्व॒न्या॑य",
+      "word_ids": [
+        19,
+        271
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ऊ॒र्म्या॑य",
+      "word_ids": [
+        270
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒व॒-स्व॒न्या॑य",
+      "word_ids": [
+        271
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑ ऊ॒र्म्या॑य",
+      "word_ids": [
+        1,
+        270
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ऊ॒र्म्या॑य च",
+      "word_ids": [
+        270,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "चावस्व॒न्या॑य",
+      "word_ids": [
+        19,
+        271
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒वस्व॒न्या॑य च",
+      "word_ids": [
+        271,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    19,
+    270,
+    271
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "sanskrit": "",
+      "english": "'Urmyah'—one associated with waves (urmi). 'Avasvanyah'—one residing in still water (avasvana) where noise is absent."
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "",
+      "english": "'Namah urmyaya cha'—to him who exists in waves. [Grammatical note]. 'Avasvanyaya cha'—'avasvana' is silent/still water; either where sound is diminished or from where sound has departed. 'Ava' is used in the sense of 'absent', referring to still water. To the one existing there. (14)\n\nSalutation to the one in the currents and to the one in the islands."
+    },
+    "abhinava_shankara": {
+      "rishi": "Bhagavan Shambhu",
+      "chandas": "Mahavirat",
+      "devata": "Bhagavan Shambhu",
+      "dhyana": {
+        "sanskrit": "भस्मोद्धासितसर्वाङ्गजटामण्डलमण्डितम् । ध्यायेत्रयक्षं वृषारूढं गणेश्वरयुतं हरम् ॥",
+        "english": "May one meditate on Hara, who has three eyes, is seated on a bull, accompanied by the lord of hosts (Ganesha), and whose entire body is smeared with ashes and adorned with a crown of matted hair."
+      },
+      "sanskrit": "क्षीति आश्वुः, 'अश्व व्याप्तौ' इति धातोराद्पूर्वादौणादिक\nउपत्रयः ; जगव्यापिन इत्यर्थे। तत्र हेतुः— अजिरायेति।\nगामतकुशलायेत्यर्थे। अनेन 'यो रुद्रो अग्नौ' इत्यादिश्रुति-\nप्रसिद्धं निखिलजगव्यापित्वमुक्तम् ॥\n\n      नमः शीघ्रियाय च शीभ्याय च नम\n      ऊर्म्याय चावस्खन्याय च नमः श्रोतस्याय\n                  च द्रीप्याय च ॥\n\n      अथ त्रयोदशचतुर्दशपञ्चदशाः:—— नमः शीघ्रियाय-\nचेति। शीघ्रगास्वन्तु भवः शीघ्रियः, तद्वन्तयोमीति यावत्।\nशुभे उदकप्रवाहे भवः शीभ्यः, ऊर्मिषु तरङ्गेषु भवः\nऊर्म्यः, अवस्खने ध्वनिरहिते जले भवः अवस्खन्यः, श्रो-\nतसि प्रवाहे भवः श्रोतस्यः, शीभश्रोतसोमेहत्वालपत्वाभ्यां\nभेदः ; द्रीपे भवः द्रीप्यः ; यद्यपि 'नमो नाथाय च वैश्व-\nन्ताय च' 'नमः सिकताय च प्रवाहाय च' 'नम ऊर्म्याय\nच सूर्याय च' इत्यादिन्ना शीघ्रशीभ्योर्म्यादिरूपविविधजला-\nन्तयोमित्वमप्रकरणे वक्ष्यते, तथापि 'आपो वा इद्र सर्वेम्'\nइत्यादिश्रुतिप्रसिद्धः सर्वोऽप्यपां महिह्मा तद्वन्तयो-\nमिनः परमेश्वरस्यैवेति वर्णियितुमात्रे वक्ष्यमाणमेव जलान्तयो-",
+      "english": "(pervader) — from the root \"aśva\" meaning \"to pervade,\" with the suffix u, formed as a Uṇādi derivative with the augment ā at the beginning; the meaning is: \"to Him who pervades the entire universe.\" The reason for this pervasion is then stated — \"Ajirāya\": to Him who is supremely swift in movement (gamana-kuśala), meaning: \"to the swift-mover.\" Through these two names, the Lord's pervasion of the entire universe (nikhila-jagad-vyāpitva) is indicated, well-attested in the Śruti: \"Rudra who is in fire\" — and so forth.\n\n      Homage to Śīghriya and to Śībhya; homage\n      to Ūrmya and to Avaṣṭhanya; homage to Śrotasya\n                  and to Dvīpya.\n\n      Now the thirteenth, fourteenth, and fifteenth [mantras]: \"Namaḥ śīghriyāya ca\" — He who dwells in swift-flowing waters (śīghragā) is Śīghriya; meaning: \"to Him who dwells in such rapid streams.\" He who dwells in auspicious water currents (śubhe udaka-pravāhe) is Śībhya. He who dwells in waves (ūrmiṣu taraṅgeṣu) is Ūrmya. He who dwells in still water devoid of sound (avaṣkhana — quiet water) is Avaṣkhanya. He who dwells in flowing streams (śrotasi pravāhe) is Śrotasya — Śībha and Śrotas are distinguished by their large and small scale respectively. He who dwells in islands (dvīpe) is Dvīpya.\n\n      Although in a later section [of the Rudra-Namaka] similar expressions such as \"namaḥ nāthāya ca vaiśantāya ca\" (homage to Him of shallow waters and of small pools), \"namaḥ sikatāya ca pravāhāya ca\" (homage to Him of sandy beds and flowing streams), and \"nama ūrmyāya ca sūryāya ca\" (homage to Him of waves and the sun) will describe the Lord's immanence in the various forms of swift, rippling, and wave-filled waters — nonetheless, all the glory of water, declared in the Śruti \"Waters, indeed, are everything\" (āpo vā idaṃ sarvam) — and so on — belongs entirely to the Supreme Lord who is present as the inner dweller (antaryāmin) of those waters. In order to establish this, what is going to be said later regarding the Lord's immanence in various water-forms"
+    }
+  }
+}

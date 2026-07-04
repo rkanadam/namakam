@@ -1,0 +1,233 @@
+{
+  "anuvakam": 2,
+  "title": "द्वितीयोनुवाकः",
+  "id": 8,
+  "samhita": "नम॑स्सू॒तायाह॑न्त्याय॒ वना॑ना॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमः॑ । सू॒ताय॑ । अह॑न्त्याय । वना॑नाम् । पत॑ये । नमो॒ ॥",
+  "krama": "नम॑स्सू॒ताय॑ । सू॒तायाह॑न्त्याय । अह॑न्त्याय॒ वना॑नाम् । वना॑ना॒-म्पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "text": "",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva's universal form (Vaishvarupya).",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on the golden-armed Lord.",
+      "text": "",
+      "sanskrit": ""
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "नम॑स्सू॒तायाह॑न्त्याय॒",
+      "word_ids": [
+        1,
+        179,
+        180
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वना॑ना॒-म्पत॑ये॒",
+      "word_ids": [
+        181,
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सू॒ताय॑",
+      "word_ids": [
+        179
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अह॑न्त्याय",
+      "word_ids": [
+        180
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वना॑नाम्",
+      "word_ids": [
+        181
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नम॑स्सू॒ताय॑",
+      "word_ids": [
+        1,
+        179
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "सू॒तायाह॑न्त्याय",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अह॑न्त्याय॒",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वना॑नाम्",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वना॑ना॒-म्पत॑ये",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    144,
+    148,
+    179,
+    180,
+    181
+  ]
+}

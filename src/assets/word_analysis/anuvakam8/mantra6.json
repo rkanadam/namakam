@@ -1,0 +1,191 @@
+{
+  "id": 6,
+  "samhita": "नमो॑ ह॒न्त्रे च॒ हनी॑यसे च॒",
+  "pada": "नमो॑ । ह॒न्त्रे । च॒ । हनी॑यसे । च॒ ॥",
+  "krama": "नमो॑ ह॒न्त्रे । ह॒न्त्रे च । च हनी॑यसे । हनी॑यसे च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ह॒न्त्रे",
+      "word_ids": [
+        371
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हनी॑यसे",
+      "word_ids": [
+        372
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ह॒न्त्रे",
+      "word_ids": [
+        371
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हनी॑यसे",
+      "word_ids": [
+        372
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ ह॒न्त्रे",
+      "word_ids": [
+        144,
+        371
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ह॒न्त्रे च",
+      "word_ids": [
+        371,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च हनी॑यसे",
+      "word_ids": [
+        19,
+        372
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हनी॑यसे च",
+      "word_ids": [
+        372,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    371,
+    372
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "It means he who kills an opponent without effort, whether that opponent is in front or far away. In the world also, whoever kills an opponent, he (the God) alone is the killer in that form. Therefore, the Lord said to Arjuna:\n\"These have already been slain by me; be you a mere instrument, O left-handed archer (Savyasachin).\"\n'Haniyan' is the excessive killer of all at the time of destruction (samhara). (6)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah hantre cha'—to the self of whoever indeed kills; the idea is that every killer kills through your power. 'Haniyase cha'—to the excessive killer. [Grammatical note]. One whose power exceeds all, by which you alone deserve to be the Lord of beings (Pashupati). (6)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

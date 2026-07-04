@@ -1,0 +1,191 @@
+{
+  "id": 3,
+  "samhita": "नमो॑ दू॒ताय॑ च॒ प्रहि॑ताय च॒",
+  "pada": "नमो॑ । दू॒ताय॑ । च॒ । प्र-हि॑ताय । च॒ ॥",
+  "krama": "नमो॑ दू॒ताय॑ । दू॒ताय॑ च । च प्रहि॑ताय । प्रहि॑ताय च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दू॒ताय॑",
+      "word_ids": [
+        335
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रहि॑ताय",
+      "word_ids": [
+        336
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दू॒ताय॑",
+      "word_ids": [
+        335
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र-हि॑ताय",
+      "word_ids": [
+        336
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ दू॒ताय॑",
+      "word_ids": [
+        144,
+        335
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दू॒ताय॑ च",
+      "word_ids": [
+        335,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च प्रहि॑ताय",
+      "word_ids": [
+        19,
+        336
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्रहि॑ताय च",
+      "word_ids": [
+        336,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    335,
+    336
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "सा० मा० दुन्दुभ्यां भेर्यौ भवः शब्दो दुन्दुभ्यः । आहन्यते ताड्यतेऽनेने-",
+      "english": "'Dutah'—one skilled in conveying information (news). 'Prahitah'—a person sent (preshi-tah) by his Master. (3)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "What more? He protects his devotees even by performing tasks like being a messenger. 'Namo dutaya cha'—a 'duta' is a messenger (sandesha-hara); to him who sometimes exists in that form out of love for his devotees, or to him who acts as the messenger for the gods in the form of Agni (fire). As is heard: \"We choose Agni as the messenger,\" \"Agni was the messenger of the gods,\" \"You are the messenger, the seer, the sentient.\" 'Prahitaya cha'—to the one who is sent. Out of love for his devotees alone, he sometimes takes that form as well. Or: with reference to Agni, as the sacrificer is sent (prahita) towards the gods (through him). [Grammatical note]. Or: 'prahitah' means one who is extremely beneficial (prakrishtena hitah). (3)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Atreya",
+      "chandas": "Mahāvirāṭ",
+      "devata": "Śambhu",
+      "sanskrit": "सप्तमोऽनुवाकः ॥\n\n                         ———\n\n      नमो दुन्दुभ्याय चाहनन्याय च नमो\n      घृष्णवे च प्रमृशाय च नमो दूताय च\n      प्रहिताय च नमो निषङ्गिणे चेषुधिमते च\n      नमस्तीक्ष्णेषवे चायुधिने च नमः स्वायु-\n      धाय च सुधन्वने च नमः स्रुत्याय च\n      पथ्याय च नमः काश्याय च नीप्याय च\n      नमः सूद्याय च सरस्याय च नमो ना-\n      याय च वैशन्ताय च नमः कूप्याय चा-\n      वट्याय च नमो वर्ष्याय चावर्ष्याय च\n      नमो मेघ्याय च विद्युत्याय च नमः ई-\n      ध्रियायें चातप्याय च नमो बाल्याय च\n      रेघिमयाय च नमो वास्तव्याय च वा-\n      स्तुपाय च ॥",
+      "english": "Seventh Anuvāka (saptamo'nuvākaḥ)\n\n                         ———\n\n      Homage to Dundubhya and to Āhananya; homage\n      to Ghṛṣṇave and to Pramṛśa; homage to Dūta and to\n      Prahita; homage to Niṣaṅgiṇe and to Iṣudhimate;\n      homage to Tīkṣṇeṣave and to Āyudhine; homage to Svāyu-\n      dha and to Sudhanvane; homage to Srutyā and to\n      Pathyā; homage to Kāśya and to Nīpya;\n      homage to Sūdya and to Sarasya; homage to Nā-\n      dya and to Vaiśanta; homage to Kūpya and to\n      Avaṭya; homage to Varṣya and to Avarṣya;\n      homage to Meghya and to Vidyutya; homage to\n      Īdhriya and to Ātapya; homage to Vātya and to\n      Rebhya; homage to Vāstavya and to\n      Vāstupa."
+    }
+  }
+}

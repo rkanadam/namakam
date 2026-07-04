@@ -1,0 +1,263 @@
+{
+  "id": 2,
+  "samhita": "नील॑ग्रीवा-श्शिति॒कण्ठाः॑ श॒र्वा अ॒धः क्ष॑माच॒राः ।",
+  "pada": "नील॑-ग्रीवाः । शि॒ति-कण्ठाः॑ । श॒र्वाः । अ॒धः । क्ष॒मा॒-च॒राः ॥",
+  "krama": "नील॑ग्रीवा-श्शिति॒कण्ठाः॑ । शिति॒कण्ठाः॑ श॒र्वाः । श॒र्वा अ॒धः । अ॒धः क्ष॑माच॒राः । क्ष॒मा॒च॒रा इति॑ क्षमा-च॒राः ॥",
+  "samhita_tokens": [
+    {
+      "text": "नील॑ग्रीवा-श्शिति॒कण्ठाः॑",
+      "word_ids": [
+        549,
+        550
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒र्वा",
+      "word_ids": [
+        551
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒धः",
+      "word_ids": [
+        552
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॑माच॒राः",
+      "word_ids": [
+        553
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नील॑-ग्रीवाः",
+      "word_ids": [
+        549
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒ति-कण्ठाः॑",
+      "word_ids": [
+        550
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒र्वाः",
+      "word_ids": [
+        551
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒धः",
+      "word_ids": [
+        552
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॒मा॒-च॒राः",
+      "word_ids": [
+        553
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नील॑ग्रीवा-श्शिति॒कण्ठाः॑",
+      "word_ids": [
+        549,
+        550
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शिति॒कण्ठाः॑",
+      "word_ids": [
+        550
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒र्वाः",
+      "word_ids": [
+        551
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒र्वा",
+      "word_ids": [
+        551
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒धः",
+      "word_ids": [
+        552
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒धः",
+      "word_ids": [
+        552
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॑माच॒राः",
+      "word_ids": [
+        553
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्ष॒मा॒च॒रा",
+      "word_ids": [
+        553
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "क्षमा-च॒राः",
+      "word_ids": [
+        553
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    549,
+    550,
+    551,
+    552,
+    553
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "16  Sayanacharya—Bhatta-Bhaskara-Bhashya-Sahita— [Na. Pra. Am.]\n\n...or he who bears (bibharti) the universe through the granting of knowledge etc., is 'babhruh'. 'Sumangalah'—endowed with all auspiciousness because he is the cause of it. In the Bahuvrihi compound, the accent is on the final syllable of the last member. Such is this Aditya (Sun). The meaning is: Rudra who is of the form of such a Sun. And those Rudras of similar nature to Rudra, with similar appearance and glory, created by the God and always his attendants—who are spread in the directions around this earth. They exist in the thousands (sahasrashah), becoming groups of thousands. (Their purpose is) to grant the fruits according to the merits and sins of the worlds. Some say: the Rudras in the form of rays of this Sun-formed Rudra, who exist all around the earth—of this Rudra and these attendants of Rudra, we remove (av-imahe) their 'heda'—anger or disrespect. (We do this) with hymns and salutations—this is the implied remainder. Yaska says 'hedah' means anger. Both are taken here: we remove the disrespect toward us arising from the violation of injunctions and the anger arising from the performance of prohibited acts. The root 'ii' (to go) alone is a verb for 'requesting'. As seen in \"We always pray (imahe) for a portion,\" etc. The 'shap' suffix is dropped in the Veda. Combined with 'ava' (av-imahe), it means to remove. Or, we pray in such a way that it (the anger) becomes diminished (avachinam). (7)\n\n|| He speaks the eighth verse ||\n\nThat one who moves along, blue-throated and specially red;\nAnd him the cowherds saw, and the water-carrying women saw;\nAnd him all beings saw—he, being seen, makes us happy. (8)\n\n[Word-for-word]: Asau | yah | ava-sarpati | iti | ava-sarpati | nila-grivah | iti | nila-grivah | vi-lohitah | iti | vi-lohitah || uta | enam | gopah | iti | go-pah | adrishan | adrishan | udaharyah | iti | ud-haryah || uta | enam | vishva | bhutani | sah | drishtah | mridayati | nah || 8 ||\n\nSayana's Commentary: That Rudra who is blue-throated (nilagriva)—possessing a neck of blue color due to the holding of the Kalakuta poison—he indeed, being 'vilohita' (specially red) as he resides in the solar disc...\n..."
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "श्रीरुद्रभाष्यम् ।                   ५९\n\n---\n\nएवंभूत आदित्यात्मा भगवान्चन्द्र:, ये च अन्ये रुद्रा आ-\nदित्येन वहैकीभूता:, इमामू अभित: अस्या भूमे: परित:,\nदिक्षु श्रिता: परमेश्वरनियोगेन जनानां पुण्यपापानुरूपतया-\nलुमहे निम्रहं च कर्तुं प्राच्यादिदिक्षु स्थिता:, ते च सहस्रश:\nअनेकसहस्रसंख्याका: 'सहस्राणि सहस्रश:' इत्यमे वक्ष्य-\nमाणा:, एषामू आदित्यरूपाणां रुद्राणाम्, हेड: विहिंसतांक-\nरणिनिषिद्धसेवानिमित्तकोपम्, अवेमहे स्तुतिनमस्कारादि-\nभि: अपनयाम:, ते अस्माकं प्रसन्ना भवन्त्वर्थ: । इति\nसप्तम: ॥\n\n    असौ योऽवसर्पति नीलग्रीवो विलो-\nहित: । उतैनं गोपा अदृशन्नदृशन्नुदहा-\nर्य: । उतैनं विश्वा भूतानि स दृष्टो मृड्-\nयति न: ॥\n\n   एवं सप्तमेन प्रसाध अष्टमेनेष्टसिद्धि प्राथ्येते— असौ\nयोऽवसर्पति इति। य: नीलग्रीव: 'त्रिलोचनं नीलकण्ठम्'\nइत्यादिश्रुतिप्रसिद्ध:, स एव असौ विलोहित: विशेषेण\nलोहित: सन्, अवसर्पति प्रवर्तते, किमर्थं प्रवर्तते ? तत्राह\n— उतैनमू इति । एनमू आदित्यरूपं परमेश्वरम्, गोपा",
+      "english": "Śrī Rudra Bhāṣyam                   59\n\n---\n\nThe Blessed Lord, who is of the nature of Āditya (the Sun), and the Moon — and the other Rudras who have become unified with the Sun — these, stationed in all the directions around this earth in accordance with the Lord's command and in consonance with the accumulated merit and demerit of all beings, in order to grant favour and to restrain — these, positioned in the eastern and other directions, numbered in many thousands (as will be stated in the [later mantra] \"sahasrāṇi sahasraśaḥ\") — we appease the heḍa (fury arising from transgression of what is prohibited and from improper conduct) of these Rudras, who are of the form of Āditya, through praise, salutation and other devotional acts. May they be pleased with us — such is the meaning. Thus [ends] the seventh [mantra].\n\n    \"That one who moves downward, blue-necked and deep red — the cowherds saw him, and the women who carry water saw him; and all living beings saw him; he, being seen, grants us happiness.\"\n\nThus having propitiated [the Lord] through the seventh [mantra], now through the eighth, the fulfilment of one's desired object is prayed for: \"Asau yo'vasarpati\" — He who is known in the Vedic texts such as \"trilochanaṃ nīlakaṇṭham\" (the three-eyed, the blue-throated one) — that very one is Asau (this one), who, being \"Vilohita\" (intensely red), moves downward (avasarpati, i.e., proceeds in motion). For what purpose does he move? That is explained next: \"Uta enam\" — this Lord Supreme, of the form of Āditya, the cowherds —"
+    }
+  }
+}

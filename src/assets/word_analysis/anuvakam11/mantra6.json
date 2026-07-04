@@ -1,0 +1,320 @@
+{
+  "id": 6,
+  "samhita": "ये अन्ने॑षु वि॒विध्य॑न्ति॒ पात्रे॑षु॒ पिब॑तो॒ जनान्॑ ।",
+  "pada": "ये । अन्ने॑षु । वि-विध्य॑न्ति । पात्रे॑षु । पिब॑तः । जनान् ॥",
+  "krama": "ये अन्ने॑षु । अन्ने॑षु वि॒विध्य॑न्ति । वि॒विध्य॑न्ति॒ पात्रे॑षु । पात्रे॑षु॒ पिब॑तः । पिब॑तो॒ जनान् । जना॒निति॑ जनान् ॥",
+  "samhita_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ने॑षु",
+      "word_ids": [
+        562
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒विध्य॑न्ति॒",
+      "word_ids": [
+        563
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पात्रे॑षु॒",
+      "word_ids": [
+        564
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पिब॑तो॒",
+      "word_ids": [
+        565
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जनान्॑",
+      "word_ids": [
+        566
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ने॑षु",
+      "word_ids": [
+        562
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-विध्य॑न्ति",
+      "word_ids": [
+        563
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पात्रे॑षु",
+      "word_ids": [
+        564
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पिब॑तः",
+      "word_ids": [
+        565
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "जनान्",
+      "word_ids": [
+        566
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ने॑षु",
+      "word_ids": [
+        562
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्ने॑षु",
+      "word_ids": [
+        562
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒विध्य॑न्ति",
+      "word_ids": [
+        563
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒विध्य॑न्ति॒",
+      "word_ids": [
+        563
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पात्रे॑षु",
+      "word_ids": [
+        564
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पात्रे॑षु॒",
+      "word_ids": [
+        564
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पिब॑तः",
+      "word_ids": [
+        565
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पिब॑तो॒",
+      "word_ids": [
+        565
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जनान्",
+      "word_ids": [
+        566
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जना॒निति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "जनान्",
+      "word_ids": [
+        566
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    117,
+    562,
+    563,
+    564,
+    565,
+    566
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. E. A.] Rudradhyaya | 113\n\nThose who are the lords (adhipatayah) of spirits (bhutanam), some shaven-headed (vishikhasah), some with matted hair (kapardinah). || 6 ||\n\nSayanacharya Bhashya: The word 'bhuta' refers to classes of followers who remain invisible and cause trouble to humans. The Rudras who are the lords of them—some are shaven-headed (vishikhasah), others have matted hair (kapardinah). || 6 ||\n\nBhatta Bhaskara Bhashya: The sixth mantra. Those Rudras who are the lords of the five great elements or of the groups of followers; who are the causes of activity and withdrawal, and who reside in the seasons. 'Vishikhasah' means without hair (shikha) or with various types of hair or forms. 'Kapardinah' means those wearing crowns of matted hair. (Grammatical notes). || 6 ||\n\nHe states the seventh Rik:\n\nThose who strike people through the food and through the vessels while they drink... || 7 ||\n\nSayanacharya Bhashya: Those Rudras who, residing secretly in the food (anneshu) being eaten, strike (vividhyanti) people especially by causing imbalance of humors etc. Similarly, residing secretly in the vessels (patreshu) in liquids like milk or water while they are being drunk, they strike people. || 7 ||\n\nBhatta Bhaskara Bhashya: The seventh. Those Rudras who, residing in the food being eaten like cooked rice etc., strike people. They torment sinful men in various ways according to their sins through diseases etc. caused by imbalance of humors. Residing in the vessels of liquids like milk etc., they strike those who drink (pibatah). 'Drinking' is an illustration. Those residing in food strike the eaters, and those in vessels strike the drinkers. Or those who reside in vessels and cups. (The rest is as before). || 7 ||\n\nFor these three, the Purashcharana and everything else is as before.\n\nHe states the eighth Rik:\n\nThose who are the protectors of the paths, the providers of food, the fighters... || 8 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "---\n१५४                    श्रीरुद्रभाष्यम् ।\n---\n\n    ये भूतानामधिपतयो विशिखासः क\nपर्दिनः ।\n\n    अथ षष्ठः— ये भूतानामिति । भूतानां बाळमहादि-\nभूतगणानाम् अधिपतयः ये रुद्राः, तेषु केचित् विशिखासः\nशिखारहिताः, केषणु कपर्दिनः जटाबन्धोपेतावः; तेषा-\nमिति ॥\n\n    ये अन्नेषु विविध्यन्ति पात्रेषु पिबतो\nजनान् ॥\n\n    अथ सप्तमः— ये अन्नेष्विति । अन्नेषु अद्नीयेषु अ-\nक्षुषु मूढत्वेन तिछन्तो ये रुद्राः विविध्यन्ति अन्नवैषम्या-\nदिना विविधव्याहुतपादनेन जनान् बाधन्ते, तथा पात्रेषु\nपावळ्येषु नीरक्षीरादिषु गूढत्वेन तिछन्तो ये रुद्राः पिबतः\nजनान् विध्यन्ति; तेषामिति पूर्ववत् । अत्र ये 'वृक्षेषु' इत्या-\nरम्य एतदृन्तम् ऋक्तयमेको मन्त्रः । ऋष्यादिकं सर्वे पूर्वे-\nबत् ।\n\n    ये पथां पथिरक्षय ऐलवृदा यव्युघः ॥\n\n    अथाष्टमः— ये पथामिति । अत्र पथिशब्देन लौकि-\nकवैदिकमार्गे उच्यते, पथिरक्षय इति समस्तस्यापि राक्षि-\nपदस्य पथाभित्यनेनाप्यन्वयः—पथां रक्षयः पथिरक्षय इति,",
+      "english": "---\n154                    Sri Rudra Bhashyam\n---\n\n    ye tīrthāni pracaranti sṛkāvanto ni-\n    ṣaṅgiṇaḥ ||\n\n    Those Rudras who roam the sacred fords (tīrthāni) —\n    bearing fangs (sṛkāvantaḥ) and swords (niṣaṅgiṇaḥ) —\n\nNow the ninth mantra — beginning \"ye tīrthāni\" (those at the sacred fords). Those who bear fangs (sṛkāvantaḥ, equipped with sṛkvaṇīs — this being a Vedic lengthening of the vowel for Chandas) and who are sword-bearers (niṣaṅgiṇaḥ, carrying swords) — those Rudras who roam about the sacred fords such as the Gaṅgā and others — some to grant the fruit of the pilgrimage (tīrtha-phala) to certain devotees, and to withhold it from others — for them [the formula applies].\n\nFrom \"ye pathām\" to \"ye tīrthāni\" — these two verses form a single mantra. The seer of this mantra is Devañca. The meter is Anuṣṭubh. The deity is Rudra. This mantra is primarily for granting the fruit of successful undertakings (subhna-phala). Mantra-siddhi is attained by reciting five thousand times, preceded by performance of the Kṛcchra (purificatory observance).\n\nAll of the preceding — beginning with \"sahasrāṇi sahasraśaḥ\" — are stated under a single [heading], with all particulars gathered together.\n\n    ya etāvantaśca sūryāṃsaśca diśo\n    rudrā vitasthire | teṣāṃ sahasrayojane 'va\n    dhanvāni tanmasi ||\n\n    As many Rudras as these, and as many as the rays of the sun,\n    who have spread in all directions (diśo vitasthire) —\n    their bows we unstring at a distance of a thousand yojanas.\n\nNow the tenth mantra — beginning \"ya etāvantaḥ\" (as many as these). \"Beginning with 'sahasrāṇi sahasraśaḥ'\" — as many Rudras as have been mentioned up to this point — these many (etāvantaḥ, this number), and beyond them, even more numerous than the rays of the sun (sūryāṃsaḥ, like the countless rays of the sun) — those who are innumerable (beyond count) and presently existing — those Rudras who have spread out and pervaded all the ten directions (diśo vitasthire, stationed in every direction) — for them: \"teṣāṃ sahasra-yojane ava dhanvāni tanmasi\" (their bows we unstring at a distance of a thousand yojanas). The seer and other particulars here are as before."
+    }
+  }
+}

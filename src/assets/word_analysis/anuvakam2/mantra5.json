@@ -1,0 +1,253 @@
+{
+  "anuvakam": 2,
+  "title": "द्वितीयोनुवाकः",
+  "id": 5,
+  "samhita": "नमो॒ हरि॑केशायोपवी॒तिने॑ पु॒ष्टाना॒-म्पत॑ये॒ नमो॒",
+  "pada": "नमो॒ । हरि॑-केशाय । उ॒प॒वी॒तिने᳚ । पु॒ष्टाना᳚म् । पत॑ये । नमो॒ ॥",
+  "krama": "नमो॒ हरि॑केशाय । हरि॑केशायोपवी॒तिने॑ । उ॒प॒वी॒तिने॑ पु॒ष्टाना᳚म् । पु॒ष्टाना॒-म्पत॑ये । पत॑ये॒ नमो॒ । नमो॒ इति॑ नमो॒ ॥",
+  "commentaries": {
+    "sayana": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "text": "'Harikeshaya'—one whose hair is blue (black), free from greying. 'Upavitine'—to Rudra who wears the sacred thread (yajnopavita) for the sake of auspiciousness. 'Pushtanam pataye'—salutation to the Master of men who are full of complete qualities. (5)\n\nBhatta-Bhaskara-Bhashya: 'Namo harikeshaya'—salutation to the one with blue hair, who is ever young. 'Upavitine'—to the wearer of the sacred thread; it means for the sake of auspicious conduct. 'Pushtanam pataye namah'—to the Master of those who are full of complete qualities. Or: 'pushtayah' refers to nourishment. There are ten types of nourishment: nourishment of speech, of knowledge, of the body and senses, of house and field, of wealth and grain, of progeny, of cattle, of the village, of Dharma, and of occult powers like Anima etc. Salutation to the protector of those. (5)\n\nHe speaks the sixth Yajus:\nSalutation to the weapon of existence, salutation to the lord of the worlds.",
+      "sanskrit": ""
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on Shiva's universal form (Vaishvarupya).",
+      "text": "",
+      "sanskrit": ""
+    },
+    "abhinava_shankara": {
+      "rishi": "Manduka",
+      "chandas": "Maha-Gayatri",
+      "devata": "Rudra",
+      "dhyana": "Meditation on the golden-armed Lord.",
+      "text": "",
+      "sanskrit": ""
+    }
+  },
+  "samhita_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हरि॑केशायोपवी॒तिने॑",
+      "word_ids": [
+        170,
+        171
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पु॒ष्टाना॒-म्पत॑ये॒",
+      "word_ids": [
+        172,
+        148
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हरि॑-केशाय",
+      "word_ids": [
+        170
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒प॒वी॒तिने᳚",
+      "word_ids": [
+        171
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पु॒ष्टाना᳚म्",
+      "word_ids": [
+        172
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये",
+      "word_ids": [
+        148
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हरि॑केशाय",
+      "word_ids": [
+        170
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हरि॑केशायोपवी॒तिने॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒प॒वी॒तिने॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पु॒ष्टाना᳚म्",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पु॒ष्टाना॒-म्पत॑ये",
+      "word_ids": [
+        144,
+        171
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पत॑ये॒",
+      "word_ids": [
+        171
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॒",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    144,
+    148,
+    170,
+    171,
+    172
+  ]
+}

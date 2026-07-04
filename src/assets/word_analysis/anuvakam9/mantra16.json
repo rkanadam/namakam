@@ -1,0 +1,228 @@
+{
+  "id": 16,
+  "samhita": "नमो॑ विक्षीण॒केभ्यो॒ नमो॑ विचिन्व॒त्केभ्यो॒",
+  "pada": "नमो॑ । वि॒-क्षी॒ण॒केभ्यः॑ । नमो॑ । वि॒-चि॒न्व॒त्केभ्यः॑ ॥",
+  "krama": "नमो॑ विक्षीण॒केभ्यः॑ । विक्षीण॒केभ्यो॒ नमो॑ । नमो॑ विचिन्व॒त्केभ्यः॑ । विचिन्व॒त्केभ्य॒ इति॑ वि-चिन्वत्-केभ्यः ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विक्षीण॒केभ्यो॒",
+      "word_ids": [
+        391
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विचिन्व॒त्केभ्यो॒",
+      "word_ids": [
+        392
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒-क्षी॒ण॒केभ्यः॑",
+      "word_ids": [
+        391
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि॒-चि॒न्व॒त्केभ्यः॑",
+      "word_ids": [
+        392
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विक्षीण॒केभ्यः॑",
+      "word_ids": [
+        391
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विक्षीण॒केभ्यो॒",
+      "word_ids": [
+        391
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144,
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विचिन्व॒त्केभ्यः॑",
+      "word_ids": [
+        392
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विचिन्व॒त्केभ्य॒",
+      "word_ids": [
+        392
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-चिन्वत्-केभ्यः",
+      "word_ids": [
+        392
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    144,
+    391,
+    392
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Na. A.] Rudradhyaya | 83\n\nSalutations to the non-decaying ones (Vikshinakebhyah). || 16 ||\n\nSayanacharya Bhashya: 'Vikshinakah' is the opposite of 'kshina' (decayed). It means those who are never subject to decay. || 16 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Vikshinakebhyah'. To those who cause various types of destruction ('kshina') to non-devotees through diseases, thieves, hell, etc. 'Kshinu' means violence/destruction. Those who destroy in various ways are 'Vikshinakah'. (Grammatical derivation with Vedic lengthening). Others say: 'Kshiyu' means violence; from that, 'Vikshinakah' refers to those who destroy diverse beings. The Vajasaneyins read this as 'Vikshinakebhyah'. || 16 ||\n\nSalutations to those who distinguish (Vichinvatkebhyah). || 17 ||\n\nSayanacharya Bhashya: 'Vichinvatkah' are those who distinguish or provide the required objects. || 17 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Vichinvatkebhyah'. To those who distinguish between the virtuous and the sinful among beings in order to reward or punish them. || 17 ||\n\nSalutations to those who kill with certainty (Anihritebhyah). || 18 ||\n\nSayanacharya Bhashya: 'Anihritah' are those by whom sins have been completely destroyed/removed. || 18 ||\n\nBhatta Bhaskara Bhashya: Salutations to 'Anihritebhyah'. 'Hatam' means violence. 'A' indicates limit, 'ni' indicates certainty. Those who kill within limits or with certainty are 'Anihritah'. They do not act unjustly, nor do they ignore offenders. Or: Those who kill within the limit and with certainty. Others say: This refers to those who have been separated ('ni-gamita') from other deities. It means those who have been kept separate from other gods because of the fierce nature of their shared sacrifice. There is another mantra: \"O Rudra, do not be angry...\". The Brahmana says: \"One repels Rudra in his own direction.\" || 18 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "१३०                    श्रीरुद्रभाष्यम् ।\n\n---\n\nतायुध: अपगुरमाण:, तान्व्रहरन् अभिघ्नन्, पापानुषारेण\nकांश्चित् ईषत्खेद्यन् आत्तिखद्दन्, कांश्चिद्प्रकर्षेण खेद्-\nयन् प्रखिखद्दन्, तदूपायेत्यर्थे: । सोऽयम् 'नम: सोमाय'\nइत्यादिभिरन्यतो नमस्कारूपैरेकविंशतध्युरात्मकावान्तर-\nमन्त्रसमुदाय एको मन्त्र: । अस्य भगवानेव ऋषि: ।\nअनुष्टुप्छन्द: । स एव देवता । रूपयौवनेत्याद्यस्तृतीयानु-\nवाकोक्ता ध्यानश्लोका: । सांख्ययेश्वर्येशिवपदादिफलप्रदो-\nऽयं मन्त्र: । कृच्छ्रद्वयानुष्ठानपूर्वकं पञ्चशतजपादस्य मन्त्रस्य\nसिद्धि: ॥\n\n           नमो व: किरिकेभ्यो देवानां हृदये-\n           भ्यो नमो विक्षीणकेभ्यो नमो विचिन्व-\n           त्केभ्यो नम आनिहृतेभ्यो नम आमीव-\n           त्केभ्य: ॥\n\n   नमो व: किरिकेभ्य इति पञ्चमन्त्रैगुंप्ररूपेण जगाभिग्रा-\nहकरूपा रुद्रगणा नमस्किर्धन्ते । गुप्तत्वं च देवानां हृदयेभ्य\nइति विशेषणद्वयेनावगम्यते । देवानामेव हृदये वर्तन्ते, न वयं\nजानीम इत्यर्थे: । एतश्च किरिकादीनां पञ्चातनामपि विशे-\nषणम् । किरन्ति स्वेच्छया नाशयन्तीति किरिकाः । वि-",
+      "english": "130                    Sri Rudra Bhashyam\n\n---\n\nHe who stands with weapon raised in a threatening posture (apaguramana) — striking those sinners (abhighnan) — afflicts some lightly in accordance with their sins (attikhaddan) — and others severely (prakhikhaddan) — such is the meaning intended. This entire group — from \"Namah somaya\" onward, the collection of twenty-one inner mantras in the form of salutations constituting a different type of Yajus (prose Vedic text) — forms one single mantra. Its Rishi is the Lord Himself. The meter is Anushtup. The deity too is the Lord. The meditation verses are those declared in the third anuvaka, beginning with \"rupa, yavvana\" etc. This mantra yields as its fruit — the state of equality with the Sages and Lords of creation, the Shiva state and direct experience. Mastery of this mantra is achieved through five hundred repetitions (japa), preceded by the performance of two krichhra penances.\n\n           Namo vah kirikebhyo devanam hridaye-\n           bhyo namo vikshina kebhyo namo vicinva-\n           tkebhyo nama anihritebhyo nama amiva-\n           tkebhyah\n\n           (Salutation to you, O destroyers, who dwell in the hearts of the\n           gods; salutation to those who diminish all things; salutation to\n           those who examine; salutation to those who have been charged\n           with punishment; salutation to those who spread disease)\n\nWith five mantras beginning \"Namo vah kirikebhyah,\" the Rudraganas (Rudra's attendant hosts) who serve as the world's regulators are saluted in the form of a group (gana). Their hiddenness is understood from the two qualifications \"to those in the hearts of the gods\" — meaning, they dwell only in the hearts of the gods, and we (ordinary people) do not know them. This qualification applies to all five categories: the Karikas and the rest. Those who destroy whatever they wish are called Karikas (the destroyers)."
+    }
+  }
+}

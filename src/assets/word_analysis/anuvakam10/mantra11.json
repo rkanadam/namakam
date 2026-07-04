@@ -1,0 +1,645 @@
+{
+  "id": 11,
+  "samhita": "विकि॑रिद॒ विलो॑हित॒ नम॑स्ते अस्तु भगवः । यास्ते॑ स॒हस्रग्ं॑ हे॒तयो॒न्यम॒स्मन्निव॑पन्तु॒ ताः ॥",
+  "pada": "वि-कि॑रिद । वि-लो॑हित । नमः॑ । ते॒ । अ॒स्तु॒ । भ॒ग॒वः॒ । याः । ते॒ । स॒हस्र॑म् । हे॒तयः॑ । अ॒न्यम् । अ॒स्मत् । नि । व॒प॒न्त्ु॒ । ताः ॥",
+  "krama": "विकि॑रिद॒ विलो॑हित । विलो॑हित॒ नमः॑ । नम॑स्ते । ते अ॑स्तु । अ॒स्तु॒ भगवः । भ॒ग॒वो याः । यास्ते॒ । ते स॒हस्र॑म् । स॒हस्रग्ं॑ हे॒तयः॑ । हे॒तयो॒न्यम् । अ॒न्यम॒स्मत् । अ॒स्मन्निव॑पन्तु । निव॑पन्तु॒ ताः । ता इति॑ ताः ॥",
+  "samhita_tokens": [
+    {
+      "text": "विकि॑रिद॒",
+      "word_ids": [
+        433
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विलो॑हित॒",
+      "word_ids": [
+        434
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑स्ते",
+      "word_ids": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अस्तु",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भगवः",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यास्ते॑",
+      "word_ids": [
+        2,
+        18,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒हस्रग्ं॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तयो॒न्यम॒स्मन्निव॑पन्तु॒",
+      "word_ids": [
+        436,
+        64
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ताः",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "वि-कि॑रिद",
+      "word_ids": [
+        433
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वि-लो॑हित",
+      "word_ids": [
+        434
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒ग॒वः॒",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "याः",
+      "word_ids": [
+        18
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते॒",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒हस्र॑म्",
+      "word_ids": [
+        435
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तयः॑",
+      "word_ids": [
+        436
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒न्यम्",
+      "word_ids": [
+        437
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मत्",
+      "word_ids": [
+        63
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नि",
+      "word_ids": [
+        64
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒प॒न्त्ु॒",
+      "word_ids": [
+        438
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ताः",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "विकि॑रिद॒",
+      "word_ids": [
+        433
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विलो॑हित",
+      "word_ids": [
+        434
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विलो॑हित॒",
+      "word_ids": [
+        434
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॑स्ते",
+      "word_ids": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॑स्तु",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्तु॒",
+      "word_ids": [
+        8
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भगवः",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒ग॒वो",
+      "word_ids": [
+        24
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "याः",
+      "word_ids": [
+        18
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यास्ते॒",
+      "word_ids": [
+        2,
+        18,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒हस्र॑म्",
+      "word_ids": [
+        435
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒हस्रग्ं॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तयः॑",
+      "word_ids": [
+        436
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हे॒तयो॒न्यम्",
+      "word_ids": [
+        436
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒न्यम॒स्मत्",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मन्निव॑पन्तु",
+      "word_ids": [
+        64
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निव॑पन्तु॒",
+      "word_ids": [
+        64
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ताः",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ता",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ताः",
+      "word_ids": [
+        23
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    2,
+    8,
+    18,
+    23,
+    24,
+    63,
+    64,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Da. A.] Rudradhyaya | 99\n\n[Purashcharana for these two (Riks 3 and 4)]: Having performed a Kricchra penance, one should chant the mantra 9,000 times to complete the Purashcharana. On a New Moon day, having lit the fire at a crossroads, sacrifice 10,000 offerings of thick curd (dadhi-sara); there will be peace for cattle etc. For the peace of royal mounts, having touched water, chant the mantra 10,000 times and sprinkle the stable with that water; there will be peace for the mounts. Or mix that water with whatever is to be used for the mounts. To pacify animals, sacrifice 10,000 sesame seeds mixed with ghee. For the peace of others, sacrifice 10,000 Durva grasses. Meditation:\n\n\"Meditate on Soma (the Moon), sitting on a divine throne, being praised by great sages, with a pleased face, wearing a crescent moon.\"\n\nHe states the fifth Rik:\n\nDo not kill our elders, nor our children, nor our young men, nor the unborn. Do not kill our father, nor our mother. O Rudra, do not harm our dear bodies. || 5 ||\n\nSayanacharya Bhashya: O Rudra, do not harm ('ma ririshah') our elderly men (sthavira). And also do not harm our infants (arbhaka). Furthermore, do not harm our young men capable of procreation (ukshantam). And do not harm our unborn/fetal men (ukshitam). Do not kill ('ma vadhih') our father. And also do not kill our mother. Do not harm our dear bodies. || 5 ||\n\nBhatta Bhaskara Bhashya: The Rishi of \"Ma no mahantam\" is Devarata. Chhandas is Jagati. The deity is Rudra in the form of Nandishvara.\n\n\"Ma no mahantam\": O Rudra, do not kill our elder, like a grandfather etc., or an elderly son, or a son worthy of grace having qualities of knowledge and age. Do not kill through diseases etc. And do not kill our infant child. Do not kill our young man capable of procreation, who continues the lineage. And do not kill the unborn (ukshitam), who is even more pitiable in the womb. Father and mother are most venerable; do not kill them. And do not harm our dear bodies, because of their very dearness. Do not afflict them with diseases. The plural is used for wife, sons, etc. Do not harm our dear bodies. || 5 ||"
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "",
+      "english": ""
+    }
+  }
+}

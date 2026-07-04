@@ -1,0 +1,1955 @@
+{
+  "id": 10,
+  "samhita": "नमो॑ रु॒द्रेभ्यो॒ ये पृ॑थि॒व्यां ये-ऽन्तरि॑क्षे ये दि॒वि येषा॒मन्नं॒-वातो॑ व॒र्षमिष॑व॒स्तेभ्यो॒ दश॒ प्राची॒र्दश॑ दक्षि॒णा दश॑ प्र॒तीची॒र्दशॊदी॑ची॒र्दशो॒र्ध्वास्तेभ्यो॒ नम॒स्ते नो॑ मृडयन्तु॒ ते य-न्द्वि॒ष्मो यश्च॑ नो द्वेष्टि॒ तं-वो॑ ज॒म्भे द॑धामि ॥",
+  "pada": "नमः॑ । रु॒द्रेभ्यः॑ । ये । पृ॒थि॒व्याम् । ये । अ॒न्तरि॑क्षे । ये । दि॒वि । येषाम् । अन्नम् । वातः॑ । व॒र्षम् । इष॑वः । तेभ्यः॑ । दश॑ । प्राचीः॑ । दश॑ । द॒क्षि॒णाः । दश॑ । प्र॒तीचीः॑ । दश॑ । उदी॑चीः । दश॑ । ऊ॒र्ध्वाः । तेभ्यः॑ । नमः॑ । ते । नः॒ । मृ॒ड॒य॒न्तु॒ । ते । यम् । द्वि॒ष्मः । यः । च॒ । नः॒ । द्वेष्टि॑ । तम् । वः॒ । ज॒म्भे । द॒धा॒मि॒ ॥",
+  "krama": "नमो॑ रु॒द्रेभ्यः॑ । रु॒द्रेभ्यो॒ ये । ये पृ॑थि॒व्याम् । पृ॒थि॒व्यां ये । ये-ऽन्तरि॑क्षे । अ॒न्तरि॑क्षे ये । ये दि॒वि । दि॒वि येषाम् । येषा॒मन्नम् । अन्नं॒-वातः॑ । वातो॑ व॒र्षम् । व॒र्षमिष॑वः । इष॑व॒स्तेभ्यः॑ । तेभ्यो॒ दश॑ । दश॒ प्राचीः॑ । प्राची॒र्दश॑ । दश॑ दक्षि॒णाः । द॒क्षि॒णा दश॑ । दश॑ प्र॒तीचीः॑ । प्र॒तीची॒र्दश॑ । दशॊदी॑चीः । उदी॑ची॒र्दश॑ । दशो॒र्ध्वाः । ऊ॒र्ध्वास्तेभ्यः॑ । तेभ्यो॒ नमः॑ । नम॒स्ते । ते नः । नः॒ मृ॒ड॒य॒न्तु॒ । मृ॒ड॒य॒न्तु॒ ते । ते यम् । य-न्द्वि॒ष्मः । द्वि॒ष्मो यः । यश्च॑ । च नः । नः॒ द्वेष्टि॑ । द्वेष्टि॒ तम् । तं-वो॑ । वः॒ ज॒म्भे । ज॒म्भे द॑धामि । द॒धा॒मीति॑ दधामि ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        1,
+        1,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रेभ्यो॒",
+      "word_ids": [
+        529,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पृ॑थि॒व्यां",
+      "word_ids": [
+        530,
+        60,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये-ऽन्तरि॑क्षे",
+      "word_ids": [
+        117,
+        117,
+        117,
+        33,
+        60,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दि॒वि",
+      "word_ids": [
+        531,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "येषा॒मन्नं॒-वातो॑",
+      "word_ids": [
+        117,
+        117,
+        117,
+        534,
+        33,
+        60,
+        33,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒र्षमिष॑व॒स्तेभ्यो॒",
+      "word_ids": [
+        142,
+        142,
+        2,
+        2,
+        60,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॒",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्राची॒र्दश॑",
+      "word_ids": [
+        536,
+        537,
+        536,
+        536,
+        536,
+        536,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दक्षि॒णा",
+      "word_ids": [
+        538
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒तीची॒र्दशॊदी॑ची॒र्दशो॒र्ध्वास्तेभ्यो॒",
+      "word_ids": [
+        142,
+        536,
+        536,
+        536,
+        539,
+        536,
+        536,
+        142,
+        2,
+        2,
+        60,
+        19,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॒स्ते",
+      "word_ids": [
+        1,
+        1,
+        2,
+        33,
+        2,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो॑",
+      "word_ids": [
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृडयन्तु॒",
+      "word_ids": [
+        33,
+        542,
+        60,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        142,
+        142,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "य-न्द्वि॒ष्मो",
+      "word_ids": [
+        33,
+        544,
+        60,
+        33,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यश्च॑",
+      "word_ids": [
+        60,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नो",
+      "word_ids": [
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वेष्टि॒",
+      "word_ids": [
+        545,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तं-वो॑",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ज॒म्भे",
+      "word_ids": [
+        547
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द॑धामि",
+      "word_ids": [
+        548
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रेभ्यः॑",
+      "word_ids": [
+        529
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "पृ॒थि॒व्याम्",
+      "word_ids": [
+        530
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒न्तरि॑क्षे",
+      "word_ids": [
+        527
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दि॒वि",
+      "word_ids": [
+        531
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "येषाम्",
+      "word_ids": [
+        532
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्नम्",
+      "word_ids": [
+        533
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वातः॑",
+      "word_ids": [
+        534
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒र्षम्",
+      "word_ids": [
+        535
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑वः",
+      "word_ids": [
+        21
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तेभ्यः॑",
+      "word_ids": [
+        142
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्राचीः॑",
+      "word_ids": [
+        537
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "द॒क्षि॒णाः",
+      "word_ids": [
+        538
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒तीचीः॑",
+      "word_ids": [
+        539
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "उदी॑चीः",
+      "word_ids": [
+        540
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ऊ॒र्ध्वाः",
+      "word_ids": [
+        541
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तेभ्यः॑",
+      "word_ids": [
+        142
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒य॒न्तु॒",
+      "word_ids": [
+        542
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        2
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "यम्",
+      "word_ids": [
+        543
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वि॒ष्मः",
+      "word_ids": [
+        544
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "यः",
+      "word_ids": [
+        60
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वेष्टि॑",
+      "word_ids": [
+        545
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "तम्",
+      "word_ids": [
+        546
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "वः॒",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "ज॒म्भे",
+      "word_ids": [
+        547
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "द॒धा॒मि॒",
+      "word_ids": [
+        548
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        1,
+        1,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रेभ्यः॑",
+      "word_ids": [
+        529,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "रु॒द्रेभ्यो॒",
+      "word_ids": [
+        529,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पृ॑थि॒व्याम्",
+      "word_ids": [
+        530,
+        60,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पृ॒थि॒व्यां",
+      "word_ids": [
+        530,
+        60,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये-ऽन्तरि॑क्षे",
+      "word_ids": [
+        117,
+        117,
+        117,
+        33,
+        60,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒न्तरि॑क्षे",
+      "word_ids": [
+        527,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ये",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दि॒वि",
+      "word_ids": [
+        531,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दि॒वि",
+      "word_ids": [
+        531,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "येषाम्",
+      "word_ids": [
+        117,
+        117,
+        117,
+        532,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "येषा॒मन्नम्",
+      "word_ids": [
+        1,
+        117,
+        117,
+        117,
+        1,
+        33,
+        60,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अन्नं॒-वातः॑",
+      "word_ids": [
+        534,
+        33,
+        33,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वातो॑",
+      "word_ids": [
+        534,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒र्षम्",
+      "word_ids": [
+        535,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "व॒र्षमिष॑वः",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इष॑व॒स्तेभ्यः॑",
+      "word_ids": [
+        21,
+        142,
+        142,
+        2,
+        2,
+        60,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तेभ्यो॒",
+      "word_ids": [
+        142,
+        142,
+        2,
+        2,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॒",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्राचीः॑",
+      "word_ids": [
+        537,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्राची॒र्दश॑",
+      "word_ids": [
+        536,
+        537,
+        536,
+        536,
+        536,
+        536,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दक्षि॒णाः",
+      "word_ids": [
+        538
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द॒क्षि॒णा",
+      "word_ids": [
+        538
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दश॑",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒तीचीः॑",
+      "word_ids": [
+        539,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "प्र॒तीची॒र्दश॑",
+      "word_ids": [
+        536,
+        536,
+        536,
+        539,
+        536,
+        536,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दशॊदी॑चीः",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उदी॑ची॒र्दश॑",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        540,
+        536,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दशो॒र्ध्वाः",
+      "word_ids": [
+        536,
+        536,
+        536,
+        536,
+        536,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ऊ॒र्ध्वास्तेभ्यः॑",
+      "word_ids": [
+        142,
+        541,
+        142,
+        2,
+        2,
+        60,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तेभ्यो॒",
+      "word_ids": [
+        142,
+        142,
+        2,
+        2,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नमः॑",
+      "word_ids": [
+        1,
+        533,
+        1,
+        33,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नम॒स्ते",
+      "word_ids": [
+        1,
+        1,
+        2,
+        33,
+        2,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        142,
+        142,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः",
+      "word_ids": [
+        1,
+        527,
+        533,
+        1,
+        33,
+        542,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        1,
+        527,
+        533,
+        1,
+        33,
+        542,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒य॒न्तु॒",
+      "word_ids": [
+        33,
+        542,
+        60,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मृ॒ड॒य॒न्तु॒",
+      "word_ids": [
+        33,
+        542,
+        60,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        142,
+        142,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ते",
+      "word_ids": [
+        142,
+        142,
+        2,
+        2
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यम्",
+      "word_ids": [
+        543,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "य-न्द्वि॒ष्मः",
+      "word_ids": [
+        33,
+        544,
+        60,
+        33,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वि॒ष्मो",
+      "word_ids": [
+        544,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यः",
+      "word_ids": [
+        529,
+        117,
+        530,
+        117,
+        117,
+        532,
+        142,
+        142,
+        542,
+        543,
+        60
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "यश्च॑",
+      "word_ids": [
+        60,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        537,
+        539,
+        540,
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः",
+      "word_ids": [
+        1,
+        527,
+        533,
+        1,
+        33,
+        542,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        1,
+        527,
+        533,
+        1,
+        33,
+        542,
+        33
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वेष्टि॑",
+      "word_ids": [
+        545,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द्वेष्टि॒",
+      "word_ids": [
+        545,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तम्",
+      "word_ids": [
+        546
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तं-वो॑",
+      "word_ids": [
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वः॒",
+      "word_ids": [
+        530,
+        531,
+        534,
+        535,
+        21,
+        541,
+        544,
+        545,
+        190
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ज॒म्भे",
+      "word_ids": [
+        547
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ज॒म्भे",
+      "word_ids": [
+        547
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द॑धामि",
+      "word_ids": [
+        548
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "द॒धा॒मीति॑",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दधामि",
+      "word_ids": [
+        548
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    1,
+    2,
+    19,
+    21,
+    33,
+    60,
+    117,
+    142,
+    190,
+    527,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548
+  ],
+  "commentaries": {
+    "sayana": {
+      "sanskrit": "",
+      "english": "[Na. Dvi. Am.] Rudradhyaya. 31\n\n...the word 'jagat' is formed thus. [Grammatical note]. The collective meaning is: he who makes beings weary in worldly existence (Samsara) and also protects the weary. Some say: having described the five Brahmans separately with the first five mantras (1-5), the sixth mantra describes the God who is the destroyer of Samsara and the Lord of cattle (beings). (6)\n\nHe speaks the seventh Yajus:\nSalutation to Rudra who protects with a drawn bow, salutation to the lord of fields. (7)\n\n[Word-for-word]: Namah | rudraya | atatavine | iti | ata-tavine | kshetranam | pataye | namah || 7 ||\n\nSayana's Commentary: 'Atatavi' is he who protects (avati) with an 'atata'—a drawn bow. Salutation be to that Rudra. Salutation be to Rudra who is the protector of fields (kshetra). (7)\n\nBhatta-Bhaskara-Bhashya: 'Namo rudraya'—explained already. 'Atatavine'—he who protects the worlds with an 'atata'—a bow on which the string is fixed; or he who holds such a bow. [Grammatical note on the word 'atatavine']. 'Kshetranam pataye namah'—to the protector or Master of the 'kshetras' (bodies). For instance:\n\"The Lord, O Arjuna, resides in the heart-region of all beings, making all beings revolve by his power (maya) as if mounted on a machine.\"\nOr: to the Master of holy places (punya-kshetra) like Avimukta (Kashi) etc. Or: to him in the form of the protector of holy fields. The idea is: salutation to the cutter and promoter of Samsara. (7)\n\nHe speaks the eighth Yajus:\nSalutation to the charioteer, to the one who cannot be harmed, salutation to the lord of forests. (8)\n\n[Word-for-word]: Namah | sutaya | ahantyaya | vananam | pataye | namah || 8 ||\n\nSayana's Commentary: 'Sutah' is the charioteer (sarathi). 'Ahantyaya'—to him who is incapable of being killed (ahantya) by enemies. Salutation be to such a Rudra. Salutation be to Rudra who is the protector of forests (vana). (8)\n\nBhatta-Bhaskara-Bhashya: 'Namah sutaya'. 'Sutah' is the charioteer, the controller; by being the controller of the chariot of the world-machine. Or: 'Sutah' is the narrator of the Puranas, in his position at the beginning of the Yugas. Or...\n..."
+    },
+    "bhatta_bhaskara": {
+      "sanskrit": "",
+      "english": ""
+    },
+    "abhinava_shankara": {
+      "sanskrit": "८०                    श्रीरुद्रभाष्यम् ।\n\n    नमो भवस्य हेत्यै जगतां पतये नम: ॥\n\n   इत्थं पञ्चभिर्मन्त्रैदिंगादिकतिपयवस्त्वाधिपत्यप्रदर्शनपूर्व-\nकमीश्वरो नमस्कृत:; इदानीं प्रतिवस्त्वाघिपत्यवचनपूर्वक-\nनमस्कारस्याशक्यतया जगत्पतित्वेन तं नमस्कर्तुं षष्ठो मन्त्र:\nभयुक:— नमो भवस्येति । भव: संसार:, तस्य च्छेद्ने\nहेति: आयुघम्, संसारवृत्तस्य च्छेत्तेत्यर्थ: । स्थावरजङ्गमानां\nलोकानां स्वामी जगतां पति:, तस्मै नम: । यद्यपि\n'पशूनां पतये नम:' इत्यनैव ब्रह्मादिस्थावरान्तसकलजग-\nत्पतित्वमुक्तकम्, तथापि संसारपाशबन्धहेतुत्वेन तदुक्तकम्;\nअत्र संसारमोचकत्वेनेति भेद:, उभयोरपि ब्रह्मघर्मत्वात् ॥\n\n    नमो रुद्रायाततावितने क्षेत्राणां पतये\nनम: ॥\n\n   अथ उक्तमेव जगत्पतित्वसुपलपादयितुं श्रमाबधि घाव-\nन्न्यायेन पुनरपि तत्तद्वस्त्वाघिपत्येन भगवन्तं नमस्कर्तुमारभे\nसप्तमादिभि:— नमो रुद्रायेति । रुद्र: संसारदु:खद्रावक:,\nअत एव आत्वज्येन धनुषा अवति रक्षतीति आततावितने;\nक्षेत्राणि शरीराणि, 'इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते'\nइति स्मृते:, तेषां स्वामी क्षेत्राणां पति:, तस्मै नम: इत्य-\nर्थ: । लोके हि देशाधिपतिकलत्रपद्रेभ्यो देशवासिनो रक्षित,",
+      "english": "80                    Śrī Rudra Bhāṣyam\n\n---\n\n    \"Salutation to the weapon (heti) of Bhava (Śiva the cause of existence); salutation to the Lord of the worlds (jagatāṃ pataye namaḥ).\"\n\nThus through five mantras, the Lord has been saluted with demonstrations of his lordship over certain specific things such as the directions and so forth. Now, since it is impossible to salute him individually in respect of his sovereignty over each and every thing, the sixth mantra is employed to salute him as the \"Lord of the worlds\" (jagatpati): \"Namo bhavasya iti\" — Bhava means saṃsāra (the cycle of existence); the heti (weapon) which cuts it — meaning he is the one who severs the stream of worldly existence (saṃsāravṛtta). He is the lord (pati) of all the worlds (jagatāṃ), both moving and unmoving. To him may there be salutation. Although the lordship over the entire world, from Brahmā to the stationary, was already stated by [the mantra] \"Paśūnāṃ pataye namaḥ\" — [the difference is that] there, it was stated in the sense of his being the cause of the bondage of saṃsāra; here, the distinction is that he is the liberator from saṃsāra. Both aspects, however, are attributes of Brahman.\n\n    \"Salutation to Rudra (the one who dispels affliction), to the one who stretches the bow (ātatāvitane), to the lord of the fields (kṣetrāṇāṃ pataye namaḥ).\"\n\nNow, to further support what has already been said about his lordship over the world, and in order to salute the Blessed Lord again through [the demonstration of] his sovereignty over various particular things — in the manner of a persistent supplicant walking again and again — the commentary begins the seventh [mantra] and those following: \"Namo Rudrāya iti\" — Rudra is he who dispels (drāvaka) the suffering of saṃsāra; hence, because he protects (avati, i.e., rakṣati) with the stretched (ātatena) bow, he is Ātatāvitin. Kṣetrāṇi means bodies (śarīrāṇi), as the Smṛti says: \"This body, O son of Kuntī, is called the kṣetra (the field)\" — he who is the lord of these bodies is kṣetrāṇāṃ patiḥ, to him may there be salutation. Just as in ordinary life the inhabitants of a land are protected by the overlord of that land —"
+    }
+  }
+}

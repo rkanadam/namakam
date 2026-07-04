@@ -1,0 +1,191 @@
+{
+  "id": 5,
+  "samhita": "नमो॑ अग्रेव॒धाय॑ च दूरेव॒धाय॑ च॒",
+  "pada": "नमो॑ । अ॒ग्रे॒-व॒धाय॑ । च॒ । दू॒रे॒-व॒धाय॑ । च॒ ॥",
+  "krama": "नमो॑ अग्रेव॒धाय॑ । अग्रेव॒धाय॑ च । च दूरेव॒धाय॑ । दूरेव॒धाय॑ च । च इति॑ च ॥",
+  "samhita_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अग्रेव॒धाय॑",
+      "word_ids": [
+        369
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "दूरेव॒धाय॑",
+      "word_ids": [
+        370
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    }
+  ],
+  "pada_tokens": [
+    {
+      "text": "नमो॑",
+      "word_ids": [
+        144
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒ग्रे॒-व॒धाय॑",
+      "word_ids": [
+        369
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दू॒रे॒-व॒धाय॑",
+      "word_ids": [
+        370
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च॒",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "नमो॑ अग्रेव॒धाय॑",
+      "word_ids": [
+        144,
+        369
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अग्रेव॒धाय॑ च",
+      "word_ids": [
+        369,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च दूरेव॒धाय॑",
+      "word_ids": [
+        19,
+        370
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "दूरेव॒धाय॑ च",
+      "word_ids": [
+        370,
+        19
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "च इति॑ च",
+      "word_ids": [
+        19
+      ]
+    },
+    {
+      "text": " ॥",
+      "word_ids": []
+    }
+  ],
+  "words": [
+    19,
+    144,
+    369,
+    370
+  ],
+  "commentaries": {
+    "sayana": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Agrevadhah'—one whose killing (vadha) occurs in front (agre). Similarly, 'durevadhah' is one whose killing occurs from a distance. (5)"
+    },
+    "bhatta_bhaskara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "",
+      "english": "'Namah agrevadhaya cha'—one who, standing in front (facing), kills. [Grammatical note]. Or: one who kills those desiring to kill, even before they act. 'Durevadhaya cha'—to the one who kills those even at a distance; to the one who kills the wicked even across a long span of time. (5)"
+    },
+    "abhinava_shankara": {
+      "rishi": "Nārada",
+      "chandas": "Anuṣṭup",
+      "devata": "Śambhu",
+      "sanskrit": "१२०                    श्रीरुद्रभाष्यम् ।\n\n---\n\nस्माद्रात: पबते' इति श्रुते: । तथा च महानुभाषादिन्द्रा-\nग्न्यादीन्प्रत्यपि भयंकरत्वेन तनियन्तुभेगवत: सर्वोत्तमत्व-\nमिति भाव: ॥\n\n           नमो अग्रेवधाय च दूरेवधाय च ॥\n\n   अथ सकलजथहेतुत्वात्सर्वैरेव तद्धिभिर्भगवानेव सेव्य\nइति दर्शयितुं पञ्चम:— नमो अग्रेवधायेति । युद्धरणं\nप्रविष्टस्य स्वभक्तस्य अग्रे स्थित्वा तदीयशत्रूणां वधं कुर्वन्\nअग्रेवध:, युद्धारम्भात् पूर्वमेव दूरस्थितानामपि स्वभक्तिवरो-\nधिनां बलतेजोभङ्कं कुर्वन् दूरेवध:; तत्र अग्रेवधत्वं ता-\nवद्रोणपर्वणि अर्जुनेनोक्तम्— 'संग्रामे शात्रवानीकं शरो-\nषैविस्तृद्रहम् । भगतो लक्ष्ये थान्तं पुरुषं पावकप्रभम् ।।\nज्वलन्तं शूलमुचन्य यां दिश्छं प्रतिपद्यते । तस्यां दिशि\nविशीर्थन्ते शत्रवो मे महामते ।। ततो दग्घानरीन्सर्वोन्पृष-\nवोऽतुदहाम्यहम् । तेन भग्नानिरंगणाम्भद्रग्मान्मन्यते जन:'\nइति । आश्रमेणिकेषे वायमर्थोऽनूदित:— 'वत: प्रभातां\nरजनीमर्जुनस्यामत: प्रभु: । जघान सैन्यं शूलेन प्रत्यघ्नं स-\nव्यसाचिन: ।। कस्तां सेनां महाराज मनसापि प्रघर्षयेत् ।\nद्रोणकर्णेकृपैर्गुप्तां महेष्वासै: प्रहारिभि: । कृते देवान्मधे-\nष्वासाहद्धुरूपान्महेश्वरात्' इति । दूरेवधत्वं तु मोक्षधर्मे",
+      "english": "120                    Sri Rudra Bhashyam\n\n---\n\n\"from whom Vata (wind) blows out of fear\" — so the Shruti says. Thus, by being terrifying even toward the great Indra, Agni and others, the Lord controls and governs them all, and this establishes His supremacy — such is the meaning.\n\n           Namo agrevadha ya ca durevadha ya ca\n           (Salutation to Him who strikes the enemy who stands before and to Him who strikes the enemy who stands afar)\n\nNow, to show that the Supreme Lord alone — being the cause of victory in all battles — is worthy of service by all who seek protection — this is the fifth mantra: \"Namo agrevadhaya\" etc. Agrevadha is He who, having entered the field of battle, stands in front of His own devotee and slays the devotee's enemies before him. Durevadhah is He who, even before battle has commenced, breaks the strength and valor of those who obstruct His devotee's path, even when they are stationed far away. The quality of being Agrevadha (one who strikes from the front) was stated by Arjuna in the Drona Parva (of the Mahabharata): \"In the battle, while scattering the enemy forces with showers of arrows, I beheld before me a blazing Person, resplendent as fire, hurling a blazing spear. In whatever direction He proceeded, the enemies were shattered in that direction, O great-minded one. After He had burned all the enemies, I then pursued and slew them. The people thought that the army, routed and fleeing, was conquered by me.\" This same meaning is narrated in the Ashramanik section: \"From the preceding night of Arjuna's prowess onward, the Lord smote the army with His trident, striking against what faced Arjuna. O great king, who could challenge that army, even in thought — guarded as it was by Drona, Karna, and Kripa with their mighty bows, and by Maheshvara Himself?\" The quality of Durevadhah (one who strikes from afar) was declared by Krishna to Arjuna in the Mokshadharma (section of the Mahabharata):"
+    }
+  }
+}
