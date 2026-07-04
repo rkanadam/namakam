@@ -110,27 +110,25 @@ export interface WordIndex {
   [wordId: string]: MantraRef[];
 }
 
+interface CombinedData {
+  correlated: CorrelatedData;
+  dictionary: Dictionary;
+  wordIndex: WordIndex;
+  mantras: { [key: string]: MantraWordAnalysis };
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class NamakamService {
-  private correlatedData$: Observable<CorrelatedData> | null = null;
-  private dictionary$: Observable<Dictionary> | null = null;
-  private wordIndex$: Observable<WordIndex> | null = null;
+  private data$: Observable<CombinedData>;
 
-  constructor(private http: HttpClient) {}
-
-  private getCorrelatedData(): Observable<CorrelatedData> {
-    if (!this.correlatedData$) {
-      this.correlatedData$ = this.http.get<CorrelatedData>(
-        'assets/correlated_namakam.json'
-      ).pipe(shareReplay(1));
-    }
-    return this.correlatedData$;
+  constructor(private http: HttpClient) {
+    this.data$ = this.http.get<CombinedData>('assets/data.json').pipe(shareReplay(1));
   }
 
   getAnuvakas(): Observable<CorrelatedAnuvakam[]> {
-    return this.getCorrelatedData().pipe(map(d => d.anuvakas));
+    return this.data$.pipe(map(d => d.correlated.anuvakas));
   }
 
   getAnuvakam(id: number): Observable<CorrelatedAnuvakam | undefined> {
@@ -144,34 +142,22 @@ export class NamakamService {
   }
 
   getIntroduction(): Observable<Preface> {
-    return this.getCorrelatedData().pipe(map(d => d.introduction));
+    return this.data$.pipe(map(d => d.correlated.introduction));
   }
 
   getConclusion(): Observable<Preface> {
-    return this.getCorrelatedData().pipe(map(d => d.conclusion));
+    return this.data$.pipe(map(d => d.correlated.conclusion));
   }
 
   getMantraWordAnalysis(anuvakamId: number, mantraId: number): Observable<MantraWordAnalysis> {
-    return this.http.get<MantraWordAnalysis>(
-      `assets/word_analysis/anuvakam${anuvakamId}/mantra${mantraId}.json`
-    );
+    return this.data$.pipe(map(d => d.mantras[`${anuvakamId}_${mantraId}`]));
   }
 
   getDictionary(): Observable<Dictionary> {
-    if (!this.dictionary$) {
-      this.dictionary$ = this.http.get<Dictionary>(
-        'assets/word_analysis/global_dictionary.json'
-      ).pipe(shareReplay(1));
-    }
-    return this.dictionary$;
+    return this.data$.pipe(map(d => d.dictionary));
   }
 
   getWordIndex(): Observable<WordIndex> {
-    if (!this.wordIndex$) {
-      this.wordIndex$ = this.http.get<WordIndex>(
-        'assets/word_analysis/word_index.json'
-      ).pipe(shareReplay(1));
-    }
-    return this.wordIndex$;
+    return this.data$.pipe(map(d => d.wordIndex));
   }
 }
