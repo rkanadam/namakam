@@ -8,6 +8,18 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  <script>
+    // Handle GitHub Pages 404 redirect
+    (function() {
+      var q = new URLSearchParams(window.location.search);
+      var p = q.get('p');
+      if (p) {
+        q.delete('p');
+        var rest = q.toString();
+        window.history.replaceState(null, '', p + (rest ? '?' + rest : ''));
+      }
+    })();
+  </script>
   <app-root></app-root>
 </body>
 </html>
