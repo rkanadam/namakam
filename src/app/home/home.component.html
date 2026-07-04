@@ -1,0 +1,41 @@
+<div class="home">
+  <a routerLink="/introduction" class="preface-link">
+    <div class="preface-card">
+      <span class="preface-icon">प्र</span>
+      <div>
+        <h3>प्रस्तावना — Introduction</h3>
+        <p>Introductory commentaries from Rudradhyāya and Rudrabhāṣya</p>
+      </div>
+    </div>
+  </a>
+
+  <div class="anuvakam-grid">
+    <a *ngFor="let anuvakam of anuvakas"
+       [routerLink]="['/anuvakam', anuvakam.id]"
+       class="anuvakam-card">
+      <div class="anuvakam-number">{{ anuvakam.id }}</div>
+      <h3 class="anuvakam-title">{{ anuvakam.title }}</h3>
+      <p class="anuvakam-count">{{ anuvakam.mantras.length }} mantras</p>
+    </a>
+  </div>
+
+  <a routerLink="/conclusion" class="preface-link">
+    <div class="preface-card">
+      <span class="preface-icon">उ</span>
+      <div>
+        <h3>उपसंहारः — Conclusion</h3>
+        <p>Concluding commentaries from Rudradhyāya and Rudrabhāṣya</p>
+      </div>
+    </div>
+  </a>
+
+  <a routerLink="/word-index" class="preface-link">
+    <div class="preface-card">
+      <span class="preface-icon">श</span>
+      <div>
+        <h3>शब्दसूची — Word Index</h3>
+        <p>Master index of 578 words with meanings, grammar, and mantra references</p>
+      </div>
+    </div>
+  </a>
+</div>

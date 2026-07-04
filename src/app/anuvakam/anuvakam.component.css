@@ -1,0 +1,123 @@
+.anuvakam-view {
+  padding: 20px;
+}
+
+.back-link {
+  font-size: 0.95em;
+  color: #8b4513;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+  color: #6b2f0e;
+}
+
+.anuvakam-header {
+  background: #8b4513;
+  color: #fff;
+  padding: 18px 24px;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 0;
+}
+
+.anuvakam-header h2 {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 4px 0;
+}
+
+.anuvakam-header p {
+  font-size: 0.9em;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.lang-toggle {
+  display: flex;
+  gap: 0;
+  padding: 12px 20px;
+  background: #f5e8d5;
+  border-left: 1px solid #d4a96a;
+  border-right: 1px solid #d4a96a;
+  border-bottom: 1px solid #e8d5be;
+}
+
+.lang-btn {
+  padding: 6px 20px;
+  border: 1px solid #d4a96a;
+  background: #fff;
+  color: #5a3010;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background 0.15s;
+}
+
+.lang-btn:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.lang-btn:last-child {
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.lang-btn.active {
+  background: #8b4513;
+  color: #fff;
+  border-color: #8b4513;
+}
+
+.mantra-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d4a96a;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+}
+
+.mantra-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 16px 20px;
+  background: #fff;
+  border-bottom: 1px solid #f0e0c8;
+  text-decoration: none;
+  transition: background 0.15s;
+  cursor: pointer;
+}
+
+.mantra-card:last-child {
+  border-bottom: none;
+}
+
+.mantra-card:hover {
+  background: #fff8f0;
+}
+
+.mantra-number {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #8b4513;
+  min-width: 32px;
+  padding-top: 2px;
+}
+
+.mantra-text {
+  font-size: 0.95em;
+  color: #333;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.mantra-text.sanskrit-mode {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.05em;
+  line-height: 1.8;
+}

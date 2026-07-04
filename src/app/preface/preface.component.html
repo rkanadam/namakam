@@ -1,0 +1,30 @@
+<div class="preface-view">
+  <a routerLink="/" class="back-link">← Back to Anuvakas</a>
+
+  <div class="preface-header">
+    <h2>{{ title }}</h2>
+  </div>
+
+  <div class="section" *ngIf="data">
+    <!-- Source tabs -->
+    <div class="tabs">
+      <button class="tab-btn" [class.active]="activeSource === 'rudradhyaya'"
+              (click)="activeSource = 'rudradhyaya'">Rudradhyāya</button>
+      <button class="tab-btn" [class.active]="activeSource === 'rudrabhashya'"
+              (click)="activeSource = 'rudrabhashya'">Rudrabhāṣya</button>
+    </div>
+
+    <!-- Language toggle -->
+    <div class="lang-toggle">
+      <button class="lang-btn" [class.active]="activeLanguage === 'english'"
+              (click)="activeLanguage = 'english'">English</button>
+      <button class="lang-btn" [class.active]="activeLanguage === 'sanskrit'"
+              (click)="activeLanguage = 'sanskrit'">Sanskrit</button>
+    </div>
+
+    <!-- Content -->
+    <div class="preface-content" [class.sanskrit-mode]="activeLanguage === 'sanskrit'">
+      <pre class="preface-text">{{ currentText }}</pre>
+    </div>
+  </div>
+</div>

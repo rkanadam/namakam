@@ -1,0 +1,172 @@
+.word-index-view {
+  padding: 20px;
+}
+
+.back-link {
+  font-size: 0.95em;
+  color: #8b4513;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+  color: #6b2f0e;
+}
+
+.index-header {
+  background: #8b4513;
+  color: #fff;
+  padding: 18px 24px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.index-header h2 {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 4px 0;
+}
+
+.index-header p {
+  font-size: 0.9em;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 16px;
+  font-size: 1em;
+  border: 2px solid #d4a96a;
+  border-radius: 6px;
+  background: #fff;
+  color: #333;
+  outline: none;
+  font-family: 'Siddhanta', sans-serif;
+}
+
+.search-input:focus {
+  border-color: #8b4513;
+  box-shadow: 0 0 0 3px rgba(139,69,19,0.15);
+}
+
+.search-input::placeholder {
+  color: #bca88a;
+}
+
+.result-count {
+  font-size: 0.9em;
+  color: #8b6040;
+  white-space: nowrap;
+}
+
+.word-list {
+  border: 1px solid #d4a96a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.word-entry {
+  padding: 16px 20px;
+  background: #fff;
+  border-bottom: 1px solid #f0e0c8;
+}
+
+.word-entry:last-child {
+  border-bottom: none;
+}
+
+.word-entry:hover {
+  background: #fffaf5;
+}
+
+.word-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.word-sanskrit {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #6b2f0e;
+}
+
+.word-pada {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1em;
+  color: #8b6040;
+}
+
+.word-english {
+  font-size: 0.9em;
+  color: #555;
+  flex: 1;
+}
+
+.word-details {
+  margin-bottom: 6px;
+}
+
+.detail-row {
+  font-size: 0.85em;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #8b4513;
+  margin-right: 4px;
+}
+
+.mantra-refs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.refs-label {
+  font-size: 0.8em;
+  color: #999;
+  margin-right: 2px;
+}
+
+.ref-link {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.8em;
+  background: #f5e8d5;
+  color: #6b2f0e;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid #e8d5be;
+  transition: background 0.15s;
+}
+
+.ref-link:hover {
+  background: #e8d5be;
+  color: #3a1a05;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: #999;
+  font-size: 1.1em;
+  font-style: italic;
+}

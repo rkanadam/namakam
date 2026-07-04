@@ -1,0 +1,27 @@
+<div class="anuvakam-view" *ngIf="anuvakam">
+  <a routerLink="/" class="back-link">← Back to Anuvakas</a>
+
+  <div class="anuvakam-header">
+    <h2>{{ anuvakam.title }}</h2>
+    <p>Anuvakam {{ anuvakam.id }} — {{ anuvakam.mantras.length }} mantras</p>
+  </div>
+
+  <div class="lang-toggle">
+    <button class="lang-btn" [class.active]="activeLanguage === 'sanskrit'"
+            (click)="activeLanguage = 'sanskrit'">Sanskrit</button>
+    <button class="lang-btn" [class.active]="activeLanguage === 'english'"
+            (click)="activeLanguage = 'english'">English</button>
+  </div>
+
+  <div class="mantra-list">
+    <a *ngFor="let mantra of anuvakam.mantras"
+       [routerLink]="['/anuvakam', anuvakam.id, 'mantra', mantra.id]"
+       class="mantra-card">
+      <div class="mantra-number">{{ mantra.id }}</div>
+      <div class="mantra-text" [class.sanskrit-mode]="activeLanguage === 'sanskrit'">
+        <ng-container *ngIf="activeLanguage === 'sanskrit'">{{ mantra.sanskrit.samhita }}</ng-container>
+        <ng-container *ngIf="activeLanguage === 'english'">{{ getTranslation(mantra) }}</ng-container>
+      </div>
+    </a>
+  </div>
+</div>

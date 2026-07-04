@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { AnuvakamDisplayComponent } from './anuvakam-display/anuvakam-display.component';
+import { RouterOutlet, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [AnuvakamDisplayComponent],
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

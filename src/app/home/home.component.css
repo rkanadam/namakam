@@ -1,0 +1,102 @@
+.home {
+  padding: 20px;
+}
+
+.preface-link {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.preface-link:last-child {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.preface-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff8f0;
+  border: 1px solid #d4a96a;
+  border-radius: 8px;
+  padding: 16px 20px;
+  transition: background 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.preface-card:hover {
+  background: #f5e8d5;
+  box-shadow: 0 2px 8px rgba(139, 69, 19, 0.15);
+}
+
+.preface-icon {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.8em;
+  color: #8b4513;
+  background: #f5e8d5;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.preface-card h3 {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.15em;
+  color: #6b2f0e;
+  margin: 0 0 4px 0;
+}
+
+.preface-card p {
+  font-size: 0.9em;
+  color: #8b6040;
+  margin: 0;
+}
+
+.anuvakam-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.anuvakam-card {
+  text-decoration: none;
+  display: block;
+  background: #fff;
+  border: 1px solid #d4a96a;
+  border-radius: 8px;
+  padding: 20px;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  cursor: pointer;
+}
+
+.anuvakam-card:hover {
+  background: #fff8f0;
+  box-shadow: 0 2px 12px rgba(139, 69, 19, 0.15);
+  transform: translateY(-2px);
+}
+
+.anuvakam-number {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #8b4513;
+  margin-bottom: 4px;
+}
+
+.anuvakam-title {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.2em;
+  color: #6b2f0e;
+  margin: 0 0 8px 0;
+}
+
+.anuvakam-count {
+  font-size: 0.9em;
+  color: #8b6040;
+  margin: 0;
+}

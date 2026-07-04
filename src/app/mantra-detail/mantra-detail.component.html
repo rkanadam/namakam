@@ -1,0 +1,211 @@
+<div class="mantra-view">
+  <a [routerLink]="['/anuvakam', anuvakamId]" class="back-link">← Back to Anuvakam {{ anuvakamId }}</a>
+
+  <!-- Header -->
+  <div class="mantra-header">
+    <h2>Anuvakam {{ anuvakamId }} — Mantra {{ mantraId }}</h2>
+    <div class="mantra-meta" *ngIf="wordAnalysis?.commentaries?.sayana as s">
+      <span *ngIf="s.rishi"><strong>Rishi:</strong> {{ s.rishi }}</span>
+      <span *ngIf="s.chandas"><strong>Chandas:</strong> {{ s.chandas }}</span>
+      <span *ngIf="s.devata"><strong>Devata:</strong> {{ s.devata }}</span>
+    </div>
+  </div>
+
+  <!-- Patha Tabs -->
+  <div class="section">
+    <div class="tabs">
+      <button class="tab-btn" [class.active]="activePathaTab === 'samhita'"
+              (click)="activePathaTab = 'samhita'">संहिता</button>
+      <button class="tab-btn" [class.active]="activePathaTab === 'pada'"
+              (click)="activePathaTab = 'pada'">पद</button>
+      <button class="tab-btn" [class.active]="activePathaTab === 'krama'"
+              (click)="activePathaTab = 'krama'">क्रम</button>
+    </div>
+
+    <div class="patha-content">
+      <!-- Tokenized text -->
+      <div class="token-line" *ngIf="currentTokens.length > 0">
+        <ng-container *ngFor="let token of currentTokens">
+          <span
+            [class.clickable]="isClickable(token)"
+            [class.selected]="isTokenSelected(token)"
+            [class.sibling-highlight]="isSiblingHighlighted(token)"
+            (click)="onTokenClick(token)"
+            (mouseenter)="onTokenMouseEnter($event, token)"
+            (mouseleave)="onTokenMouseLeave()">{{ token.text }}</span>
+        </ng-container>
+      </div>
+      <!-- Fallback plain text -->
+      <div class="plain-text" *ngIf="currentTokens.length === 0 && correlatedMantra">
+        <span *ngIf="activePathaTab === 'samhita'">{{ correlatedMantra.sanskrit.samhita }}</span>
+        <span *ngIf="activePathaTab === 'pada'">{{ correlatedMantra.sanskrit.pada }}</span>
+        <span *ngIf="activePathaTab === 'krama'">{{ correlatedMantra.sanskrit.krama }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky hover tooltip -->
+  <div class="word-tooltip" *ngIf="tooltipVisible && hoveredWord"
+       [class.above]="tooltipPosition === 'above'"
+       [class.below]="tooltipPosition === 'below'"
+       [style.left.px]="tooltipX" [style.top.px]="tooltipY"
+       (mouseenter)="onTooltipMouseEnter()"
+       (mouseleave)="onTooltipMouseLeave()">
+    <div class="tooltip-header">
+      <span class="tooltip-word">{{ hoveredWord.clean_form }}</span>
+      <span class="tooltip-pada" *ngIf="hoveredWord.pada_form !== hoveredWord.clean_form">{{ hoveredWord.pada_form }}</span>
+    </div>
+
+    <div class="tooltip-section" *ngIf="hoveredWord.meanings.english">
+      <div class="tooltip-label">English</div>
+      <div>{{ hoveredWord.meanings.english }}</div>
+    </div>
+    <div class="tooltip-section" *ngIf="hoveredWord.meanings.nirukta">
+      <div class="tooltip-label">Nirukta</div>
+      <div>{{ hoveredWord.meanings.nirukta }}</div>
+    </div>
+    <div class="tooltip-section" *ngIf="hoveredWord.meanings.vedantic">
+      <div class="tooltip-label">Vedantic</div>
+      <div>{{ hoveredWord.meanings.vedantic }}</div>
+    </div>
+
+    <div class="tooltip-section" *ngIf="hoveredWord.grammatical_references?.case_ending || hoveredWord.grammatical_references?.panini?.length">
+      <div class="tooltip-label">Grammar</div>
+      <div *ngIf="hoveredWord.grammatical_references.case_ending">{{ hoveredWord.grammatical_references.case_ending }}</div>
+      <div *ngFor="let ref of hoveredWord.grammatical_references.panini" class="tooltip-ref">{{ ref }}</div>
+    </div>
+
+    <div class="tooltip-section" *ngIf="hoveredWord.lexicographical_references as lex">
+      <div *ngIf="lex.nighantu" class="tooltip-lex"><span class="tooltip-label">Nighantu:</span> {{ lex.nighantu }}</div>
+      <div *ngIf="lex.amara_kosha" class="tooltip-lex"><span class="tooltip-label">Amara Kosha:</span> {{ lex.amara_kosha }}</div>
+      <div *ngIf="lex.abhidhana_ratnamala" class="tooltip-lex"><span class="tooltip-label">Abhidhāna Ratnamālā:</span> {{ lex.abhidhana_ratnamala }}</div>
+    </div>
+  </div>
+
+  <!-- Word Analysis Panel (on click) -->
+  <div class="word-panel" *ngIf="selectedWord">
+    <div class="word-panel-header">
+      <h3>{{ selectedWord.clean_form }} <span class="pada-form">{{ selectedWord.pada_form }}</span></h3>
+      <button class="close-btn" (click)="closeWordPanel()">×</button>
+    </div>
+
+    <div class="word-panel-body">
+      <div class="word-section">
+        <h4>Meanings</h4>
+        <div class="meaning-item" *ngIf="selectedWord.meanings.english">
+          <strong>English:</strong>
+          <span>{{ selectedWord.meanings.english }}</span>
+        </div>
+        <div class="meaning-item" *ngIf="selectedWord.meanings.nirukta">
+          <strong>Nirukta:</strong>
+          <span>{{ selectedWord.meanings.nirukta }}</span>
+        </div>
+        <div class="meaning-item" *ngIf="selectedWord.meanings.vedantic">
+          <strong>Vedantic:</strong>
+          <span>{{ selectedWord.meanings.vedantic }}</span>
+        </div>
+      </div>
+
+      <div class="word-section" *ngIf="selectedWord.grammatical_references">
+        <h4>Grammar</h4>
+        <div class="meaning-item" *ngIf="selectedWord.grammatical_references.case_ending">
+          <strong>Form:</strong>
+          <span>{{ selectedWord.grammatical_references.case_ending }}</span>
+        </div>
+        <div *ngIf="selectedWord.grammatical_references.panini?.length">
+          <strong>Panini References:</strong>
+          <ul class="ref-list">
+            <li *ngFor="let ref of selectedWord.grammatical_references.panini">{{ ref }}</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="word-section" *ngIf="selectedWord.lexicographical_references as lex">
+        <h4>Lexicographical References</h4>
+        <div class="meaning-item" *ngIf="lex.nighantu">
+          <strong>Nighantu:</strong>
+          <span>{{ lex.nighantu }}</span>
+        </div>
+        <div class="meaning-item" *ngIf="lex.amara_kosha">
+          <strong>Amara Kosha:</strong>
+          <span>{{ lex.amara_kosha }}</span>
+        </div>
+        <div class="meaning-item" *ngIf="lex.abhidhana_ratnamala">
+          <strong>Abhidhana Ratnamala:</strong>
+          <span>{{ lex.abhidhana_ratnamala }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Commentaries -->
+  <div class="section" *ngIf="commentaryData">
+    <h3 class="section-title">भाष्यानि — Commentaries</h3>
+    <div class="tabs">
+      <button class="tab-btn"
+              [class.active]="activeCommentaryTab === 'sayana'"
+              [class.disabled]="!hasCommentaryContent('sayana')"
+              (click)="activeCommentaryTab = 'sayana'">Sāyaṇa</button>
+      <button class="tab-btn"
+              [class.active]="activeCommentaryTab === 'bhatta_bhaskara'"
+              [class.disabled]="!hasCommentaryContent('bhatta_bhaskara')"
+              (click)="activeCommentaryTab = 'bhatta_bhaskara'">Bhaṭṭa Bhāskara</button>
+      <button class="tab-btn"
+              [class.active]="activeCommentaryTab === 'abhinava_shankara'"
+              [class.disabled]="!hasCommentaryContent('abhinava_shankara')"
+              (click)="activeCommentaryTab = 'abhinava_shankara'">Abhinava Śaṅkara</button>
+    </div>
+
+    <div class="commentary-content" *ngIf="currentCommentary">
+      <div class="commentary-meta" *ngIf="currentCommentary.rishi || currentCommentary.chandas || currentCommentary.devata">
+        <span *ngIf="currentCommentary.rishi">Rishi: {{ currentCommentary.rishi }}</span>
+        <span *ngIf="currentCommentary.chandas">Chandas: {{ currentCommentary.chandas }}</span>
+        <span *ngIf="currentCommentary.devata">Devata: {{ currentCommentary.devata }}</span>
+      </div>
+
+      <div *ngIf="currentCommentary.dhyana" class="dhyana">
+        <strong>Dhyana:</strong> {{ currentCommentary.dhyana }}
+      </div>
+
+      <!-- Language toggle for commentary -->
+      <div class="lang-toggle">
+        <button class="lang-btn" [class.active]="activeCommentaryLang === 'sanskrit'"
+                (click)="activeCommentaryLang = 'sanskrit'">Sanskrit</button>
+        <button class="lang-btn" [class.active]="activeCommentaryLang === 'english'"
+                (click)="activeCommentaryLang = 'english'">English</button>
+      </div>
+
+      <div *ngIf="activeCommentaryLang === 'sanskrit' && currentCommentary.sanskrit" class="commentary-text">
+        <pre class="sanskrit-block">{{ currentCommentary.sanskrit }}</pre>
+      </div>
+
+      <div *ngIf="activeCommentaryLang === 'english' && currentCommentary.text" class="commentary-text">
+        <div class="english-block">{{ currentCommentary.text }}</div>
+      </div>
+
+      <div *ngIf="activeCommentaryLang === 'sanskrit' && !currentCommentary.sanskrit" class="no-content">
+        Sanskrit text not available for this commentary.
+      </div>
+      <div *ngIf="activeCommentaryLang === 'english' && !currentCommentary.text" class="no-content">
+        English translation not available for this commentary.
+      </div>
+    </div>
+  </div>
+
+  <!-- Correlated translations fallback -->
+  <div class="section" *ngIf="!commentaryData && correlatedMantra?.translations as t">
+    <h3 class="section-title">Translations</h3>
+    <div class="commentary-content" *ngIf="t.sayana">
+      <h4>Sāyaṇa</h4>
+      <div class="english-block">{{ t.sayana }}</div>
+    </div>
+    <div class="commentary-content" *ngIf="t.bhatta_bhaskara">
+      <h4>Bhaṭṭa Bhāskara</h4>
+      <div class="english-block">{{ t.bhatta_bhaskara }}</div>
+    </div>
+    <div class="commentary-content" *ngIf="t.abhinava_shankara">
+      <h4>Abhinava Śaṅkara</h4>
+      <div class="english-block">{{ t.abhinava_shankara }}</div>
+    </div>
+  </div>
+</div>
