@@ -1,0 +1,23 @@
+Devanagari (accurate svara markings):
+
+९७ | च॒ वो॒ व॒श्च॒ च॒ वो॒ न॒मो॒ नमो॑ व॒श्च॒ च॒ वो॒ न॒म॒ :
+९८ | वो॒ न॒मो॒ नमो॑ वो॒ वो॒ न॒मो॒ न॒म॒ :
+९९ | न॒मो॒ न॒म॒ :
+१०० | नम॒ इषु॒कृद्भ्य॑ इषु॒कृद्भ्यो॒ न॒मो॒ नम॒ इषु॒कृद्भ्यो॒ धन्व॒कृद्भ्यो॒ धन्व॒कृद्भ्य॑ इषु॒कृद्भ्यो॒ न॒मो॒ नम॒ इषु॒कृद्भ्यो॒ धन्व॒कृद्भ्य॒ :
+१०१ | इषु॒कृद्भ्यो॒ धन्व॒कृद्भ्यो॒ धन्व॒कृद्भ्य॑ इषु॒कृद्भ्य॑ इषु॒कृद्भ्यो॒ धन्व॒कृद्भ्यश्च॒ च॒ धन्व॒कृद्भ्य॑ इषु॒कृद्भ्य॑ इषु॒कृद्भ्यो॒ धन्व॒कृद्भ्यश्च
+१०२ | इषु॒कृद्भ्य इ॒ति॒ इषु॒ = कृत् = भ्य॒ :
+१०३ | धन्व॒कृद्भ्यश्च॒ च॒ धन्व॒कृद्भ्यो॒ धन्व॒कृद्भ्यश्च॒ वो॒ व॒श्च॒ धन्व॒कृद्भ्यो॒ धन्व॒कृद्भ्यश्च॒ वः॒ :
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+97 | ca̱ vo̱ va̱śca̱ ca̱ vo̱ na̱mo̱ namó va̱śca̱ ca̱ vo̱ na̱ma̱ḥ
+98 | vo̱ na̱mo̱ namó vo̱ vo̱ na̱mo̱ na̱ma̱ḥ
+99 | na̱mo̱ na̱ma̱ḥ
+100 | na̱ma iṣu̱kṛdbhyá iṣu̱kṛdbhyo̱ na̱mo̱ na̱ma iṣu̱kṛdbhyo̱ dhanva̱kṛdbhyo̱ dhanva̱kṛdbhyá iṣu̱kṛdbhyo̱ na̱mo̱ na̱ma iṣu̱kṛdbhyo̱ dhanva̱kṛdbhya̱ḥ
+101 | iṣu̱kṛdbhyo̱ dhanva̱kṛdbhyo̱ dhanva̱kṛdbhyá iṣu̱kṛdbhyá iṣu̱kṛdbhyo̱ dhanva̱kṛdbhyas-ca̱ ca̱ dhanva̱kṛdbhyá iṣu̱kṛdbhyá iṣu̱kṛdbhyo̱ dhanva̱kṛdbhyas-ca
+102 | iṣu̱kṛdbhya i̱ti̱ iṣu̱ = kṛt = bhya̱ḥ
+103 | dhanva̱kṛdbhyas-ca̱ ca̱ dhanva̱kṛdbhyo̱ dhanva̱kṛdbhyas-ca̱ vo̱ va̱śca̱ dhanva̱kṛdbhyo̱ dhanva̱kṛdbhyas-ca̱ va̱ḥ
+
+150

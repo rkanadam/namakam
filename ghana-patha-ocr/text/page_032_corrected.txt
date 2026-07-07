@@ -1,0 +1,12 @@
+xxx
+root of 2, which is accurate up to five decimal places. He also looked at the problems of squaring a circle, dividing a segment into seven equal parts, and a solution to the general linear equation.
+
+In Jain cosmology, space and time were considered limitless similar to the Veda Upanishat's view. anuyōga dvara sūtrā explains about the Infinite numbers, law of indices and uses it to develop the notion of logarithms. Terms like ardhāced, trigāced, caturāced are used to denote log base 2, log base 3 and log base 4, respectively. Jain mathematicians recognized five different types of infinities: 1. infinite in one direction, 2. in two directions, 3. in area, 4. infinite everywhere and 5. perpetually infinite. Permutations and combinations are explained in the bhagavati sūtrā and in Sathananga sūtrā.
+
+Buddhist mathematics was classified either as gaṇanā (Simple Mathematics) or saṅkhyāna (Higher Mathematics) and classifying the numbers as: saṅkhyeyā (countable), asaṅkhyeyā (uncountable) and anantā (infinite).
+
+Philosophical formulations concerning śūnyā - i.e., emptiness facilitated by introducing the concept of zero. While the zero (bindu) in the place-value numeral system appears much earlier, algebraic definitions of the zero and its relationship to mathematical functions appear in the mathematical treatises of brahmaguptā during 7th Century.
+
+In the Western world, the cumbersome roman numeral system posed as a major obstacle, and in China the pictorial script posed as a hindrance. But in India, almost everything was in vouge including decimal numbers.
+
+It was best stated by French mathematician, Laplace: "The ingenious method of expressing every possible number using a

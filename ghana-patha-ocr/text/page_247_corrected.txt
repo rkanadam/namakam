@@ -1,0 +1,27 @@
+Devanagari (accurate svara markings):
+
+६७ | आ॒शवे॑ च॒ चा॒शव॑ आ॒शवे॑ चा॒जि॒राय॑ अ॒जि॒राय॑ चा॒शव॑ आ॒शवे॑ चा॒जि॒राय॑
+६८ | चा॒जि॒राया॑ जि॒राय॑ च॒ चा॒जि॒राय॑ च॒ चा॒जि॒राय॑ च॒ चा॒जि॒राय॑ च॒
+६९ | अ॒जि॒राय॑ च॒ चा॒जि॒राया॑ जि॒राय॑ च॒ न॒मो॒ नम॑श्चा॒जि॒राया॑ जि॒राय॑ च॒ न॒म॒ :
+७० | च॒ न॒मो॒ नम॑श्च॒ च॒ नम॑ श्शी॒ध्रि॒या॑य शी॒ध्रि॒या॑य नम॑श्च॒ च॒ नम॑ श्शी॒ध्रि॒या॑य
+७१ | नम॑ श्शी॒ध्रि॒या॑य शी॒ध्रि॒या॑य न॒मो॒ नम॑ श्शी॒ध्रि॒या॑य च॒ च॒ शी॒ध्रि॒या॑य न॒मो॒ नम॑ श्शी॒ध्रि॒या॑य च॒
+७२ | शी॒ध्रि॒या॑य च॒ च॒ शी॒ध्रि॒या॑य शी॒ध्रि॒या॑य च॒ शी॒भ्याय॑ शी॒भ्याय॑ च॒ शी॒ध्रि॒या॑य शी॒ध्रि॒या॑य च॒ शी॒भ्याय॑
+७३ | च॒ शी॒भ्याय॑ शी॒भ्याय॑ च॒ च॒ शी॒भ्याय॑ च॒ च॒ शी॒भ्याय॑ च॒ च॒ शी॒भ्याय॑ च॒
+७४ | शी॒भ्याय॑ च॒ च॒ शी॒भ्याय॑ शी॒भ्याय॑ च॒ न॒मो॒ नम॑श्च॒ शी॒भ्याय॑ शी॒भ्याय॑ च॒ न॒म॒ :
+७५ | च॒ न॒मो॒ नम॑श्च॒ च॒ नम॑ ऊ॒र्म्या॑य यो॒र्म्या॑य नम॑श्च॒ च॒ नम॑ ऊ॒र्म्या॑य
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+67 | ā̱śavé ca̱ cā̱śavá ā̱śavé cā̱ji̱rā́ya a̱ji̱rā́ya cā̱śavá ā̱śavé cā̱ji̱rā́ya
+68 | cā̱ji̱rāyā́ ji̱rā́ya ca̱ cā̱ji̱rā́ya ca̱ cā̱ji̱rā́ya ca̱ cā̱ji̱rā́ya ca̱
+69 | a̱ji̱rā́ya ca̱ cā̱ji̱rāyā́ ji̱rā́ya ca̱ na̱mo̱ na̱máś-cā̱ji̱rāyā́ ji̱rā́ya ca̱ na̱ma̱ḥ
+70 | ca̱ na̱mo̱ na̱máś-ca̱ ca̱ na̱má śśī̱dhri̱yā́ya śī̱dhri̱yā́ya na̱máś-ca̱ ca̱ na̱má śśī̱dhri̱yā́ya
+71 | na̱má śśī̱dhri̱yā́ya śī̱dhri̱yā́ya na̱mo̱ na̱má śśī̱dhri̱yā́ya ca̱ ca̱ śī̱dhri̱yā́ya na̱mo̱ na̱má śśī̱dhri̱yā́ya ca̱
+72 | śī̱dhri̱yā́ya ca̱ ca̱ śī̱dhri̱yā́ya śī̱dhri̱yā́ya ca̱ śī̱bhyā́ya śī̱bhyā́ya ca̱ śī̱dhri̱yā́ya śī̱dhri̱yā́ya ca̱ śī̱bhyā́ya
+73 | ca̱ śī̱bhyā́ya śī̱bhyā́ya ca̱ ca̱ śī̱bhyā́ya ca̱ ca̱ śī̱bhyā́ya ca̱ ca̱ śī̱bhyā́ya ca̱
+74 | śī̱bhyā́ya ca̱ ca̱ śī̱bhyā́ya śī̱bhyā́ya ca̱ na̱mo̱ na̱máś-ca̱ śī̱bhyā́ya śī̱bhyā́ya ca̱ na̱ma̱ḥ
+75 | ca̱ na̱mo̱ na̱máś-ca̱ ca̱ na̱má ū̱rmyā́ya yo̱rmyā́ya na̱máś-ca̱ ca̱ na̱má ū̱rmyā́ya
+
+162

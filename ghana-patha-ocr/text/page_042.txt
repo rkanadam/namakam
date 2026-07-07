@@ -1,0 +1,39 @@
+xl
+honored as Ghana pāṭhī. In Ghana Pāṭhā the combination will
+be: 1-2-2-1-1-2-3-3-2-1-1-2-3; 2-3-3-2-2-3-4-4-3-2-2-3-4,
+3-4-4-3-3-4-5-5-4-3-3-4-5 and so on till last padā ends in that
+sentence. Hence, jaṭā + 3rd Padā + Inverse of 3 Padās + 3
+Padās in Straight way = Ghana Pāṭhā. It is to be noted, there
+are 13 padās, which have to be recited together with proper
+sandhi (junction) In Ghana Pāṭhā, there will be 12 sandhies.
+When the Padā itself is a Veṣṭanā, then, as soon as it leaves
+from its turn, we have to recite the Veṣṭanā. For the last padā
+in a sentence also, we have to recite the Veṣṭanā, whether it is
+a Padā Veṣṭanā or not. If we express this in Mathematical
+series:
+
+Mathematical Sequence, Series for Ghana Pāṭhā:
+
+Sentence (S) = P₁, P₂, P₃, ....... P(n-2), P(n-1), Pn
+Ghana Turn (T) number (T₁ to n-2)
+
+Turn 1 (T₁) = P₁, P₂, P₂, P₁, P₁, P₂, P₃, P₃, P₂, P₁, P₁, P₂, P₃ ;
+Turn 2 (T₂) = P₂, P₃, P₃, P₂, P₂, P₃, P₄, P₄, P₃, P₂, P₂, P₃, P₄ ;
+
+............
+
+............
+
+Turn n-2 (Tn-2) = P(n-2), P(n-1), P(n-1), P(n-2), P(n-2), P(n-1), Pn, Pn,
+P(n-1), P(n-2), P(n-2), P(n-1), Pn ;
+Turn n-1 (Tn-1) = P(n-1), Pn, Pn, P(n-1), P(n-1), Pn **
+
+Hence General Combination for Ghana Pāṭhā is:
+Turn n-2 (Tn-2) = P(n-2), P(n-1), P(n-1), P(n-2), P(n-2), P(n-1), Pn, Pn,
+P(n-), P(n-2), P(n-2), P(n-1), Pn ;
+
+where, n > 2, and Max No. of Turn < n-1 (without any
+Veṣṭanā)
+      Pn = nᵗʰ Padā in a Sentence
+      Tn = Turn of Ghana Pāṭhā
+      n = Number of Padā in a Sentence

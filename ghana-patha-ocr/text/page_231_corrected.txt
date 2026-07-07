@@ -1,0 +1,23 @@
+Devanagari (accurate svara markings):
+
+८३ | रथका॒रेभ्यश्च॒ च॒ रथका॒रेभ्यो॒ रथका॒रेभ्यश्च॒ वो॒ व॒श्च॒ रथका॒रेभ्यो॒ रथका॒रेभ्यश्च॒ वः॒ :
+८४ | रथका॒रेभ्य इ॒ति॒ रथ॒ = का॒रेभ्यः॒ :
+८५ | च॒ वो॒ व॒श्च॒ च॒ वो॒ न॒मो॒ नमो॑ व॒श्च॒ च॒ वो॒ न॒म॒ :
+८६ | वो॒ न॒मो॒ नमो॑ वो॒ वो॒ न॒मो॒ न॒म॒ :
+८७ | न॒मो॒ न॒म॒ :
+८८ | नम॒ : कु॒ला॒लेभ्य॒ : कु॒ला॒लेभ्यो न॒मो॒ नम॒ : कु॒ला॒लेभ्य॒ : क॒म॒र्रि॑भ्य॒ : क॒म॒र्रि॑भ्य॒ : कु॒ला॒लेभ्यो न॒मो॒ नम॒ : कु॒ला॒लेभ्य॒ : क॒म॒र्रि॑भ्य॒ :
+८९ | कु॒ला॒लेभ्य॒ : क॒म॒र्रि॑भ्य॒ : क॒म॒र्रि॑भ्य॒ : कु॒ला॒लेभ्य॒ : कु॒ला॒लेभ्य॒ : क॒म॒र्रि॑भ्यश्च॒ च॒ क॒म॒र्रि॑भ्य॒ : कु॒ला॒लेभ्य॒ : कु॒ला॒लेभ्य॒ : क॒म॒र्रि॑भ्यश्च
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+83 | rathakā̱rebhyas-ca̱ ca̱ rathakā̱rebhyo̱ rathakā̱rebhyas-ca̱ vo̱ va̱śca̱ rathakā̱rebhyo̱ rathakā̱rebhyas-ca̱ va̱ḥ
+84 | rathakā̱rebhya i̱ti̱ ratha̱ = kārebhya̱ḥ
+85 | ca̱ vo̱ va̱śca̱ ca̱ vo̱ na̱mo̱ namó va̱śca̱ ca̱ vo̱ na̱ma̱ḥ
+86 | vo̱ na̱mo̱ namó vo̱ vo̱ na̱mo̱ na̱ma̱ḥ
+87 | na̱mo̱ na̱ma̱ḥ
+88 | na̱ma̱ḥ ku̱lā̱lebhya̱ḥ ku̱lā̱lebhyo na̱mo̱ na̱ma̱ḥ ku̱lā̱lebhya̱ḥ ka̱ma̱rríbhya̱ḥ ka̱ma̱rríbhya̱ḥ ku̱lā̱lebhyo na̱mo̱ na̱ma̱ḥ ku̱lā̱lebhya̱ḥ ka̱ma̱rríbhya̱ḥ
+89 | ku̱lā̱lebhya̱ḥ ka̱ma̱rríbhya̱ḥ ka̱ma̱rríbhya̱ḥ ku̱lā̱lebhya̱ḥ ku̱lā̱lebhya̱ḥ ka̱ma̱rríbhyas-ca̱ ca̱ ka̱ma̱rríbhya̱ḥ ku̱lā̱lebhya̱ḥ ku̱lā̱lebhya̱ḥ ka̱ma̱rríbhyas-ca
+
+148

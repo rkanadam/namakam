@@ -1,0 +1,25 @@
+Devanagari (accurate svara markings):
+
+१८ | उ॒ग्राय॑ च॒ चो॒ग्रा यो॒ग्राय॑ च॒ भी॒माय॑ भी॒माय॑ चो॒ग्रा यो॒ग्राय॑ च॒ भी॒माय॑
+१९ | च॒ भी॒माय॑ भी॒माय॑ च॒ च॒ भी॒माय॑ च॒ च॒ भी॒माय॑ च॒ च॒ भी॒माय॑ च॒
+२० | भी॒माय॑ च॒ च॒ भी॒माय॑ भी॒माय॑ च॒ न॒मो नम॑श्च॒ भी॒माय॑ भी॒माय॑ च॒ नमः॑ :
+२१ | च॒ न॒मो नम॑श्च॒ च॒ न॒मो॑ - अ॒ग्रे॒व॒धाया॑ग्रे॒ व॒धाय॑ नम॑श्च॒ च॒ न॒मो॑ - अ॒ग्रे॒व॒धाय॑
+२२ | न॒मो॑ - अ॒ग्रे॒व॒धाया॑ग्रे॒ व॒धाय॑ न॒मो न॒मो॑ - अ॒ग्रे॒व॒धाय॑ च॒ चा॒ग्रे॒ व॒धाय॑ न॒मो न॒मो॑ - अ॒ग्रे॒व॒धाय॑ च॒
+२३ | अ॒ग्रे॒व॒धाय॑ च॒ चा॒ग्रे॒ व॒धाया॑ग्रे॒ व॒धाय॑ च॒ दू॒रे॒व॒धाय॑ दू॒रे॒व॒धाय॑ चा॒ग्रे॒ व॒धाया॑ग्रे॒ व॒धाय॑ च॒ दू॒रे॒व॒धाय॑
+२४ | अ॒ग्रे॒व॒धाये॑त्य॒ग्रे = व॒धाय॑
+२५ | च॒ दू॒रे॒व॒धाय॑ दू॒रे॒व॒धाय॑ च॒ च॒ दू॒रे॒व॒धाय॑ च॒ च॒ दू॒रे॒व॒धाय॑ च॒ च॒ दू॒रे॒व॒धाय॑ च॒
+२६ | दू॒रे॒व॒धाय॑ च॒ च॒ दू॒रे॒व॒धाय॑ दू॒रे॒व॒धाय॑ च॒ न॒मो नम॑श्च॒ दू॒रे॒व॒धाय॑ दू॒रे॒व॒धाय॑ च॒ नमः॑ :
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+18 | u̱grā́ya ca̱ co̱grā yo̱grā́ya ca̱ bhī̱mā́ya bhī̱mā́ya co̱grā yo̱grā́ya ca̱ bhī̱mā́ya
+19 | ca̱ bhī̱mā́ya bhī̱mā́ya ca̱ ca̱ bhī̱mā́ya ca̱ ca̱ bhī̱mā́ya ca̱ ca̱ bhī̱mā́ya ca̱
+20 | bhī̱mā́ya ca̱ ca̱ bhī̱mā́ya bhī̱mā́ya ca̱ na̱mo namáśca̱ bhī̱mā́ya bhī̱mā́ya ca̱ na̱máḥ
+21 | ca̱ na̱mo namáśca̱ ca̱ na̱mó - a̱gre̱va̱dhā́yā gre̱ va̱dhā́ya na̱ma̱śca̱ ca̱ na̱mó - a̱gre̱va̱dhā́ya
+22 | na̱mó - a̱gre̱va̱dhā́yā gre̱ va̱dhā́ya na̱mo na̱mó - a̱gre̱va̱dhā́ya ca̱ cā̱gre̱ va̱dhā́ya na̱mo na̱mó - a̱gre̱va̱dhā́ya ca̱
+23 | a̱gre̱va̱dhā́ya ca̱ cā̱gre̱ va̱dhā́yā gre̱ va̱dhā́ya ca̱ dū̱re̱va̱dhā́ya dū̱re̱va̱dhā́ya cā̱gre̱ va̱dhā́yā gre̱ va̱dhā́ya ca̱ dū̱re̱va̱dhā́ya
+24 | a̱gre̱va̱dhā́yetya̱gre = va̱dhā́ya
+25 | ca̱ dū̱re̱va̱dhā́ya dū̱re̱va̱dhā́ya ca̱ ca̱ dū̱re̱va̱dhā́ya ca̱ ca̱ dū̱re̱va̱dhā́ya ca̱ ca̱ dū̱re̱va̱dhā́ya ca̱
+26 | dū̱re̱va̱dhā́ya ca̱ ca̱ dū̱re̱va̱dhā́ya dū̱re̱va̱dhā́ya ca̱ na̱mo namáśca̱ dū̱re̱va̱dhā́ya dū̱re̱va̱dhā́ya ca̱ na̱máḥ

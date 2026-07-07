@@ -1,0 +1,20 @@
+xxviii
+with the paramanu (this is related to the time taken to sense an impression). Consistent with this view is the concept that people are, like the real solar system, subject to fluctuations, perturbations, and inequalities. The periods are based on the numbers 27, 108, 360 and 21600.
+
+Breath: 21600 breaths per full day (24 hours) 10800 = solar(day), 10800 = lunar(night) hence, 1 breath = 4 seconds (86400 seconds per day /21600 breaths per day = 4 seconds per breath)
+
+Time: 1 nāzhigai equals to 24 minutes = 1440 seconds = 360 breaths. 1 solar year = 360 days = 8640 hours. 60 nāzhigai = 1 day.
+
+In a horoscope, the placement of Planets, Yoga, Kendra or Square, Trine or Triangle and other issues are derived on this basis, could be established from the following table:
+
+Proportion | Arc sectors | Degrees-Minutes | Aspect/Division
+-----------|-------------|-----------------|-----------------
+21600/108  | 200         | 3d 20m          | Navamsha
+21600/27   | 800         | 13d 20m         | Nakshatra
+21600/12   | 1200        | 30d             | Raasi
+21600/4    | 5400        | 90d             | Square/ Kendram
+21600/3    | 7200        | 120d            | Triangle/ Trikonam
+21600/2    | 10800       | 180d            | Opposition
+21600/1    | 21600       | 360d            | Conjunction
+
+Further, Books written 1. by Sri varāhamihirā like 'bṛhad jātakam, parāsarahōrā śāstram, daivajña vallabhā', 2. by

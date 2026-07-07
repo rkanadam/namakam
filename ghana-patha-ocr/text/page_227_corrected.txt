@@ -1,0 +1,23 @@
+Devanagari (accurate svara markings):
+
+५५ | च॒ वो॒ व॒श्च॒ च॒ वो॒ न॒मो॒ नमो॑ व॒श्च॒ च॒ वो॒ न॒म॒ :
+५६ | वो॒ न॒मो॒ नमो॑ वो॒ वो॒ न॒मो॒ न॒म॒ :
+५७ | न॒मो॒ न॒म॒ :
+५८ | न॒मो॒ र॒थे॑भ्यो॒ र॒थे॑भ्यो॒ न॒मो॒ न॒मो॒ र॒थे॑भ्यो॒ र॒थ॒प॒ति॒भ्यो॒ र॒थ॒प॒ति॒भ्यो॒ र॒थे॑भ्यो॒ न॒मो॒ न॒मो॒ र॒थे॑भ्यो॒ र॒थ॒प॒ति॒भ्यः॒ :
+५९ | र॒थे॑भ्यो॒ र॒थ॒प॒ति॒भ्यो॒ र॒थ॒प॒ति॒भ्यो॒ र॒थे॑भ्यो॒ र॒थे॑भ्यो॒ र॒थ॒प॒ति॒भ्यश्च॒ च॒ र॒थ॒प॒ति॒भ्यो॒ र॒थे॑भ्यो॒ र॒थे॑भ्यो॒ र॒थ॒प॒ति॒भ्यश्च
+६० | र॒थ॒प॒ति॒भ्यश्च॒ च॒ र॒थ॒प॒ति॒भ्यो॒ र॒थ॒प॒ति॒भ्यश्च॒ वो॒ व॒श्च॒ र॒थ॒प॒ति॒भ्यो॒ र॒थ॒प॒ति॒भ्यश्च॒ वः॒ :
+६१ | र॒थ॒प॒ति॒भ्य इ॒ति॒ र॒थ॒प॒ति॒ = भ्य॒ :
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+55 | ca̱ vo̱ va̱śca̱ ca̱ vo̱ na̱mo̱ namó va̱śca̱ ca̱ vo̱ na̱ma̱ḥ
+56 | vo̱ na̱mo̱ namó vo̱ vo̱ na̱mo̱ na̱ma̱ḥ
+57 | na̱mo̱ na̱ma̱ḥ
+58 | na̱mo̱ ra̱thébhyo̱ ra̱thébhyo̱ na̱mo̱ na̱mo̱ ra̱thébhyo̱ ra̱tha̱pa̱ti̱bhyo̱ ra̱tha̱pa̱ti̱bhyo̱ ra̱thébhyo̱ na̱mo̱ na̱mo̱ ra̱thébhyo̱ ra̱tha̱pa̱ti̱bhya̱ḥ
+59 | ra̱thébhyo̱ ra̱tha̱pa̱ti̱bhyo̱ ra̱tha̱pa̱ti̱bhyo̱ ra̱thébhyo̱ ra̱thébhyo̱ ra̱tha̱pa̱ti̱bhyas-ca̱ ca̱ ra̱tha̱pa̱ti̱bhyo̱ ra̱thébhyo̱ ra̱thébhyo̱ ra̱tha̱pa̱ti̱bhyas-ca
+60 | ra̱tha̱pa̱ti̱bhyas-ca̱ ca̱ ra̱tha̱pa̱ti̱bhyo̱ ra̱tha̱pa̱ti̱bhyas-ca̱ vo̱ va̱śca̱ ra̱tha̱pa̱ti̱bhyo̱ ra̱tha̱pa̱ti̱bhyas-ca̱ va̱ḥ
+61 | ra̱tha̱pa̱ti̱bhya i̱ti̱ ra̱tha̱pa̱ti̱ = bhya̱ḥ
+
+144

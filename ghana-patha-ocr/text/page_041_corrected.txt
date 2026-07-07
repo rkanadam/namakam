@@ -1,0 +1,35 @@
+xxxix
+Jaṭā Pāṭhā: In jaṭā Pāṭhā, the first two words are first recited
+together and then the words are recited in a reverse order and
+then again in the original order. Hence, Krama + Inverse of
+Krama + Krama = jaṭā. The order will be 1-2-2-1-1-2, 2-3-3-2-
+2-3, 3-4-4-3-3-4, 4-5-5-4-4-5 and so on. It is to be noted, that
+all six padās have to be recited together with proper sandhi
+(junction). In jaṭā Pāṭhā, there will be 5 Sandhis (join). When
+the Padā itself is a Veṣṭanā, then, as soon as it leaves from its
+turn, we have to recite the Veṣṭanā. For the last padā in a
+sentence also, we have to recite the Veṣṭanā, whether it is a
+Padā Veṣṭanā or not. If we express this in Mathematical series:
+
+Mathematical Sequence, Series for jaṭā Pāṭhā:
+
+Sentence (S) = P₁, P₂, P₃, ....... P(n-2), P(n-1), Pn
+Jata Turn (T) number (T₁ to n-1)
+Turn 1 (T₁) = P₁, P₂, P₂, P₁, P₁, P₂ ;
+Turn 2 (T₂) = P₂, P₃, P₃, P₂, P₂, P₃ ;
+............
+............
+Turn n-2 (Tn-2) = P(n-2), P(n-1), P(n-1), P(n-2), P(n-2), P(n-1);
+Turn n-1(Tn-1) = P(n-1), Pn, Pn, P(n-1), P(n-1), Pn ; **
+
+Hence General Combination for jaṭā Pāṭhā is:
+Turn n-1(Tn-1) = P(n-1), Pn, Pn, P(n-1), P(n-1), Pn ;
+
+where, n > 1, and Max No. of Turn < n (without any Veṣṭanā)
+      Pn = nth Padā in a Sentence
+      Tn = Turn of jaṭā Pāṭhā
+      n = Number of Padā in a Sentence
+
+Ghana pāṭhā: This is one of the most popular form of
+recitations and requires years of learning and practice by the
+student. A scholar proficient in recitation in this format is

@@ -1,0 +1,17 @@
+xxvi
+365.2596 days. Between bhāskarāccāryā's ancient measurement 1500 years ago and the modern measurement the difference is only 0.00085 days. (Only 0.0002%)
+
+In a chatur yugās (mahā yugā) the revolutions of the Sun are 4,320,000, the Moon 57,753,336, the Earth eastward 1,582,237,500, Saturn 146,564, Jupiter 364,224, Mars 2,296,824 etc. This is an extremely accurate ratio (1,582,237,500 / 57,753,336 = 27.3964693572) of Moon revolution about the Earth from the following table:
+
+ASTRONOMIC AUTHORITY | Aryabhata (from Clarke and Kay) | Sūrya Siddānta
+---------------------|--------------------------------|---------------
+Years in Yuga        | 4,320,000                      | 4,320,000
+Rotations            | 1,582,237,500                  | 1,582,237,828
+Days                 | 1,577,917,500                  | 1,577,917,828
+Lunar Orbits         | 57,753,336*                    | 57,753,336
+Synodic Months       | 53,433,336                     | 53,433,336
+Mercury              | 17,937,920                     | 17,937,060
+Venus                | 7,022,388                      | 7,022,376
+Mars                 | 2,296,824                      | 2,296,832
+Jupiter              | 364,224                        | 364,220
+Saturn               | 146,564                        | 146,568

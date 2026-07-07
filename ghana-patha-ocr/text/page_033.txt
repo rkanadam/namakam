@@ -1,0 +1,36 @@
+xxxi
+set of ten symbols (each symbol having a place value and an
+absolute value) emerged in India. The idea seems so simple
+nowadays that its significance and profound importance is no
+longer appreciated. Its simplicity lies in the way it facilitated
+calculation and placed arithmetic foremost amongst useful
+inventions."
+
+brahmagupta describe the negative numbers as debts and
+positive numbers as fortunes points to link between trade and
+mathematical study. Astronomical knowledge - particularly 1.
+about the tides and the stars was considered very important by
+trading communities who crossed oceans or deserts at night
+and 2. accurate calendars and a better understanding of climate
+and rainfall patterns for timely sowing and choice of crops.
+
+Virtually every Indian state produced great mathematicians
+who wrote commentaries on the works of other mathematicians
+(who may have lived and worked in a different part of India
+many centuries earlier). Sanskrit served as the common
+medium of scientific communication.
+
+One of the greatest scientists of the guptā period - āryabhaṭṭā
+(born in 476 AD, Kusumpura, Bihar) correctly posited the axial
+rotation of the earth, and inferred correctly that the orbits of the
+planets were ellipses. He also correctly deduced that the moon
+and the planets shined by reflected sunlight and provided a
+valid explanation for the solar and lunar eclipses which was
+appreciated by bhāskarā I (born Saurashtra, 6th Century, and
+the follower of the Asmaka school of science, Nizamabad,
+Andhra). While developing a precise mapping of the lunar
+eclipse, āryabhaṭṭā was obliged to introduce the concept of
+infinitesimals - i.e., tatkālika gati to designate the
+infinitesimal, or near instantaneous motion of the moon, and
+express it in the form of a basic differential equation.
+āryabhaṭṭā's equations were elaborated on by mañjulā (10th

@@ -1,7 +1,20 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, shareReplay, map } from 'rxjs';
+import { Observable, shareReplay, map, firstValueFrom } from 'rxjs';
 
+import anuvakam1 from '../anuvakam1.json';
+import anuvakam2 from '../anuvakam2.json';
+import anuvakam3 from '../anuvakam3.json';
+import anuvakam4 from '../anuvakam4.json';
+import anuvakam5 from '../anuvakam5.json';
+import anuvakam6 from '../anuvakam6.json';
+import anuvakam7 from '../anuvakam7.json';
+import anuvakam8 from '../anuvakam8.json';
+import anuvakam9 from '../anuvakam9.json';
+import anuvakam10 from '../anuvakam10.json';
+import anuvakam11 from '../anuvakam11.json';
+
+// Original type exports for routing components
 export interface PrefaceSection {
   sanskrit: string;
   english: string;
@@ -117,16 +130,36 @@ interface CombinedData {
   mantras: { [key: string]: MantraWordAnalysis };
 }
 
+// New types for AnuvakamDisplayComponent
+export interface Mantra {
+  id: number;
+  samhita: string;
+  pada: string;
+  krama: string;
+}
+
+export interface Anuvakam {
+  anuvakam: number;
+  title: string;
+  mantras: Mantra[];
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class NamakamService {
   private data$: Observable<CombinedData>;
+  
+  private anuvakams: Anuvakam[] = [
+    anuvakam1, anuvakam2, anuvakam3, anuvakam4, anuvakam5,
+    anuvakam6, anuvakam7, anuvakam8, anuvakam9, anuvakam10, anuvakam11
+  ] as Anuvakam[];
 
   constructor(private http: HttpClient) {
     this.data$ = this.http.get<CombinedData>('assets/data.json').pipe(shareReplay(1));
   }
 
+  // Original methods for other routed components
   getAnuvakas(): Observable<CorrelatedAnuvakam[]> {
     return this.data$.pipe(map(d => d.correlated.anuvakas));
   }
@@ -159,5 +192,22 @@ export class NamakamService {
 
   getWordIndex(): Observable<WordIndex> {
     return this.data$.pipe(map(d => d.wordIndex));
+  }
+
+  // New methods for AnuvakamDisplayComponent
+  getAnuvakams(): Anuvakam[] {
+    return this.anuvakams;
+  }
+
+  getCorrelatedData(): Promise<any> {
+    return firstValueFrom(this.http.get('assets/correlated_namakam.json'));
+  }
+
+  getGlobalDictionary(): Promise<any> {
+    return firstValueFrom(this.http.get('assets/word_analysis/global_dictionary.json'));
+  }
+
+  getMantraDetails(anuvakamNum: number, mantraId: number): Promise<any> {
+    return firstValueFrom(this.http.get(`assets/word_analysis/anuvakam${anuvakamNum}/mantra${mantraId}.json`));
   }
 }

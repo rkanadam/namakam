@@ -1,0 +1,29 @@
+Devanagari (accurate svara markings):
+
+निषङ्गिणे᳚ । निषङ्गिणे॑ च॒ । निषङ्गिण॒ इ॒ति॑ नि = सङ्गिने᳚ । चेषुधिमते᳚ । इषुधिमते॑ च॒ । इषुधिम॒त
+इ॒ती॑षुधि = म॒ते᳚ । च॒ न॒मः॑ । न॒मः॑ स्तीक्ष्णे॒षवे॑ । तीक्ष्णे॒षवे॑ च॒ । तीक्ष्णे॒षव॒ इ॒ति॑ तीक्ष्ण॒ = इ॒षवे॑ ।
+चा॒ यु॒धिने॑ । आ॒यु॒धिने॑ च॒ । च॒ न॒मः॑ । न॒मः॑ स्वायु॑धाय॑ । स्वायु॑धाय॑ च॒ । स्वायु॑धaye॒ति॑ सु॑ =
+आ॒यु॒धाय॑ । च॒ सु॒धन्व॑ने । सु॒धन्व॑ने च॒ । सु॒धन्व॑न॒ इ॒ति॑ सु॒ = धन्व॑ने । च॒ न॒मः॑ ।। न॒मः॑ स्रु॒त्या॑य ।
+स्रु॒त्या॑य च॒ । च॒ प॒थ्या॑य । प॒थ्या॑य च॒ । च॒ न॒मः॑ ।। न॒मः॑ का॒ट्या॑य । का॒ट्या॑य च॒ । च॒ नी॒प्या॑य ।
+नी॒प्या॑य च॒ । च॒ न॒मः॑ । न॒म॒ स्सू॒द्या॑य । सू॒द्या॑य च॒ । च॒ स॒र॒स्या॑य । स॒र॒स्या॑य च॒ । च॒ न॒मः॑ । नमो॒
+ना॒द्या॑य । ना॒द्या॑य च॒ । च॒ वै॒श॒न्ता॑य । वै॒श॒न्ता॑य च॒ । च॒ न॒मः॑ । न॒मः॑ कू॒प्या॑य । कू॒प्या॑य च॒ ।
+चा॒ व॒ट्या॑य । अ॒व॒ट्या॑य च॒ । च॒ न॒मः॑ ।। नमो॒ व॒र्ष्या॑य । व॒र्ष्या॑य च॒ । चा॒ व॒र्ष्या॑य । अ॒व॒र्ष्या॑य च॒ ।
+च॒ न॒मः॑ ।। नमो॒ मे॒घ्या॑य । मे॒घ्या॑य च॒ । च॒ वि॒द्यु॒त्या॑य । वि॒द्यु॒त्या॑य च॒ । वि॒द्यु॒त्या॑ye॒ति॑ वि॒ = द्यु॒त्या॑य ।
+च॒ न॒मः॑ । न॒म॒ ई᳚ध्रिया॑य । ई᳚ध्रिया॑य च॒ । चा॒ त॒प्या॑य । आ॒त॒प्या॑य च॒ । आ॒त॒प्या॑yeत्या᳚ = त॒प्या॑य ।
+
+52
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+niṣaṅgiṇe᳚ | niṣaṅgiṇé ca̱ | niṣaṅgiṇa̱ i̱ti\u0301 ni = saṅginé᳚ | ceṣudhimaté᳚ | iṣudhimaté ca̱ | iṣudhima̱ta
+i̱tī\u0301ṣudhi = ma̱té᳚ | ca̱ na̱máḥ | na̱máḥ stīkṣṇe̱ṣavé | stīkṣṇe̱ṣavé ca̱ | stīkṣṇe̱ṣava̱ i̱ti\u0301 tīkṣṇa̱ = i̱ṣavé |
+cā̱ yu̱dhiné | ā̱yu̱dhiné ca̱ | ca̱ na̱máḥ | na̱máḥ svāyúdhāyá | svāyúdhāyá ca̱ | svāyúdhāye̱ti\u0301 sú =
+ā̱yu̱dhāyá | ca̱ su̱dhanváne | su̱dhanváne ca̱ | su̱dhanvána̱ i̱ti\u0301 su̱ = dhanváne | ca̱ na̱máḥ || na̱máḥ sru̱tyā́ya |
+sru̱tyā́ya ca̱ | ca̱ pa̱thyā́ya | pa̱thyā́ya ca̱ | ca̱ na̱máḥ || na̱máḥ kā̱ṭyā́ya | kā̱ṭyā́ya ca̱ | ca̱ nī̱pyā́ya |
+nī̱pyā́ya ca̱ | ca̱ na̱máḥ | na̱ma̱ ssū̱dyā́ya | sū̱dyā́ya ca̱ | ca̱ sa̱ra̱syā́ya | sa̱ra̱syā́ya ca̱ | ca̱ na̱máḥ | namo̱
+nā̱dyā́ya | nā̱dyā́ya ca̱ | ca̱ vai̱śa̱ntā·ya̱ | vai̱śa̱ntā·ya̱ ca̱ | ca̱ na̱máḥ | na̱máḥ kū̱pyā́ya | kū̱pyā́ya ca̱ |
+cā̱ va̱ṭyā́ya | a̱va̱ṭyā·ya̱ ca̱ | ca̱ na̱máḥ || namo̱ va̱rṣyā́ya | va̱rṣyā́ya ca̱ | cā̱ va̱rṣyā·ya̱ | a̱va̱rṣyā·ya̱ ca̱ |
+ca̱ na̱máḥ || namo̱ me̱ghyā́ya | me̱ghyā́ya ca̱ | ca̱ vi̱dyu̱tyā́ya | vi̱dyu̱tyā́ya ca̱ | vi̱dyu̱tyā́ye̱ti\u0301 vi̱ = dyu̱tyā́ya |
+ca̱ na̱máḥ | na̱ma̱ ī᳚dhriyā́ya | ī᳚dhriyā́ya ca̱ | cā̱ ta̱pyā́ya | ā̱ta̱pyā́ya ca̱ | ā̱ta̱pyā́yetyā᳚ = ta̱pyā́ya |

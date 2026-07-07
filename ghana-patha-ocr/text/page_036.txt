@@ -1,0 +1,31 @@
+xxxiv
+
+Stars              Star's Deity          Planet    Planet's Deity             Stones
+Aswini             Aswini                Ketu      Ganesha                   Lapis Lazuli
+Bharani            Yama                  Venus     Lakshmi, Indra            Diamond
+Kritika            Agni                  Sun       Shiva                     Carbuncle
+Rohini             Prajapati             Moon      Paarvati                  Pearl
+Miragasirsa        Soma                  Mars      Subramanya                Coral
+Arudra             Rudra                 Rahu      Durga, Kali               Sardonyx
+Punarvasu          Adhiti                Jupiter   DakshinaMoorti, Brahma    Topaz
+Pushyami           Brahaspati            Saturn    Sasta, Yama               Sapphire
+Aslasha            Snake(Sarpa)          Mercury   Vishnu                    Emerald
+Magha              Forefathers(Pitru's)  Ketu      Ganesha                   Lapis Lazuli
+Poorvaphalguni     Aryama                Venus     Lakshmi, Indra            Diamond
+Uthara             Bhaga                 Sun       Shiva                     Carbuncle
+Hastha             Savita                Moon      Paarvati                  Pearl
+Chithira           Indra                 Mars      Subramanya                Coral
+Swathi             Vayu                  Rahu      Durga, Kali               Sardonyx
+Viśākā             Indra, Agni           Jupiter   DakshinaMoorti, Brahma    Topaz
+Anuradha           Mitra                 Saturn    Sasta, Yama               Sapphire
+Jyestha            Indra                 Mercury   Vishnu                    Emerald
+Moola              Forefathers(Pitru's)  Ketu      Ganesha                   Lapis Lazuli
+Poorva Shada       Varuna                Venus     Lakshmi, Indra            Diamond
+Uthra Shada        Vishvedeva            Sun       Shiva                     Carbuncle
+Abhijit *          Brahma
+Sravana            Vishnu                Moon      Paarvati                  Pearl
+Dhanishya          Vasu                  Mars      Subramanya                Coral
+Satha Bishak       Indra                 Rahu      Durga, Kali               Sardonyx
+Poorva Bradra      One Foot Goat         Jupiter   DakshinaMoorti, Brahma    Topaz
+Utra Shada         Adiseshan             Saturn    Sasta, Yama               Sapphire
+Revati             Poosha                Mercury   Vishnu                    Emerald

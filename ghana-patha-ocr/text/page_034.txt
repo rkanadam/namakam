@@ -1,0 +1,36 @@
+xxxii
+Century) and bhāskarāccāryā (12th Century) who derived the
+differential of the sine function.
+
+Mathematics played a vital role in āryabhaṭṭā's revolutionary
+understanding of the solar system. His calculations on pi, (or
+22/7) the circumference of the earth (62832 miles) and the
+length of the solar year were remarkable. In making such
+calculations, he had to solve several mathematical problems
+that had not been addressed before including problems in
+algebra (bīj ganitā) and trigonometry (trikonamiti).
+
+bhāskarā I expanded on the trigonometric equations and pi (or
+22/7) provided by āryabhaṭṭā and contributed 1. the important
+formula for calculating the sine function 2. work on
+indeterminate equations and 3. quadrilaterals with all the four
+sides unequal and none of the opposite sides parallel.
+
+Another important astronomer/mathematician was
+varāhamihirā (6th Century, Ujjaini) who compiled previously
+written texts on astronomy and made important additions to
+āryabhaṭṭā's trigonometric formula. His works on permutations
+and combinations complemented what had been previously
+achieved by Jain mathematicians and provided a method of
+calculation of nCr that closely resembles the much more recent
+Pascal's Triangle.
+
+Developments also took place in applied mathematics such as
+in creation of trigonometric tables and measurement units.
+Yativṛsabha's (6th Century) work tiloyapannatti gives various
+units for measuring distances and time and also describes the
+system of infinite time measures.
+
+In the 9th Century, mahāvīrāccāryā (Mysore) wrote ganita
+sāra saṅ grahā, where he described the currently used method
+of calculating the Least Common Multiple (LCM) of given

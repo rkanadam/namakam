@@ -1,0 +1,23 @@
+Devanagari (accurate svara markings):
+
+१११ | श्व॒निभ्यश्च॒ च॒ श्व॒निभ्य॒ : श्व॒निभ्यश्च॒ वो॒ व॒श्च॒ श्व॒निभ्य॒ : श्व॒निभ्यश्च॒ व॒ :
+११२ | श्व॒निभ्य इ॒ति॒ श्व॒नि॒ = भ्य॒ :
+११३ | च॒ वो॒ व॒श्च॒ च॒ वो॒ न॒मो॒ नमो॑ व॒श्च॒ च॒ वो॒ न॒म॒ :
+११४ | वो॒ न॒मो॒ नमो॑ वो॒ वो॒ न॒मो॒ न॒म॒ :
+११५ | न॒मो॒ न॒म॒ :
+११६ | नम॒ : श्वभ्य॒ : श्वभ्यो॒ न॒मो॒ नम॒ : श्वभ्य॒ : श्व॒प॒ति॒भ्य॒ : श्व॒प॒ति॒भ्य॒ : श्वभ्यो॒ न॒मो॒ नम॒ : श्वभ्य॒ : श्व॒प॑ति॒भ्य॒ :
+११७ | श्वभ्य॒ : श्व॒प॒ति॒भ्य॒ : श्व॒प॒ति॒भ्य॒ : श्वभ्य॒ : श्वभ्य॒ : श्व॒प॒ति॒भ्यश्च॒ च॒ श्व॒प॒ति॒भ्य॒ : श्वभ्य॒ : श्वभ्य॒ : श्व॒प॑ति॒भ्यश्च
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+111 | śva̱nibhyas-ca̱ ca̱ śva̱nibhya̱ḥ śva̱nibhyas-ca̱ vo̱ va̱śca̱ śva̱nibhya̱ḥ śva̱nibhyas-ca̱ va̱ḥ
+112 | śva̱nibhya i̱ti̱ śva̱ni̱ = bhya̱ḥ
+113 | ca̱ vo̱ va̱śca̱ ca̱ vo̱ na̱mo̱ namó va̱śca̱ ca̱ vo̱ na̱ma̱ḥ
+114 | vo̱ na̱mo̱ namó vo̱ vo̱ na̱mo̱ na̱ma̱ḥ
+115 | na̱mo̱ na̱ma̱ḥ
+116 | na̱ma̱ḥ śvabhya̱ḥ śvabhyo̱ na̱mo̱ na̱ma̱ḥ śvabhya̱ḥ śva̱pa̱ti̱bhya̱ḥ śva̱pa̱ti̱bhya̱ḥ śvabhyo̱ na̱mo̱ na̱ma̱ḥ śvabhya̱ḥ śva̱pátibhya̱ḥ
+117 | śvabhya̱ḥ śva̱pa̱ti̱bhya̱ḥ śva̱pa̱ti̱bhya̱ḥ śvabhya̱ḥ śvabhya̱ḥ śva̱pa̱ti̱bhyas-ca̱ ca̱ śva̱pa̱ti̱bhya̱ḥ śvabhya̱ḥ śvabhya̱ḥ śva̱pátibhyas-ca
+
+152

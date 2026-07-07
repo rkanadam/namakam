@@ -1,58 +1,344 @@
-<nav class="toc">
-  <h2 class="toc-heading">अनुवाकसूची</h2>
-  <ol class="toc-list">
-    <li *ngFor="let anuvakam of anuvakams">
-      <a (click)="scrollToAnuvakam(anuvakam.anuvakam)" href="javascript:void(0)" class="toc-link">
-        {{ anuvakam.title }}
-      </a>
-    </li>
-  </ol>
-</nav>
-
-<div *ngFor="let anuvakam of anuvakams" [id]="'anuvakam-' + anuvakam.anuvakam" class="anuvakam-section">
-  <h2 class="anuvakam-title">{{ anuvakam.title }}</h2>
-
-  <div class="tabs">
-    <button
-      class="tab-btn"
-      [class.active]="activeTab[anuvakam.anuvakam] === 'samhita'"
-      (click)="setActiveTab(anuvakam.anuvakam, 'samhita')">
-      संहिता
-    </button>
-    <button
-      class="tab-btn"
-      [class.active]="activeTab[anuvakam.anuvakam] === 'pada'"
-      (click)="setActiveTab(anuvakam.anuvakam, 'pada')">
-      पद
-    </button>
-    <button
-      class="tab-btn"
-      [class.active]="activeTab[anuvakam.anuvakam] === 'krama'"
-      (click)="setActiveTab(anuvakam.anuvakam, 'krama')">
-      क्रम
-    </button>
-  </div>
-
-  <div class="tab-content">
-    <div *ngIf="activeTab[anuvakam.anuvakam] === 'samhita'" class="mantras">
-      <div *ngFor="let mantra of anuvakam.mantras" class="mantra">
-        <span class="mantra-id">{{ mantra.id }}.</span>
-        <span class="mantra-text">{{ mantra.samhita }}</span>
-      </div>
+<div class="layout-container">
+  <!-- Left Navigation Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2 class="sidebar-logo">श्रीरुद्रप्रश्‍नः</h2>
+      <p class="sidebar-sublogo">Namakam Study Suite</p>
     </div>
+    
+    <nav class="nav-menu">
+      <button 
+        class="nav-btn" 
+        [class.active]="activeView === 'intro'" 
+        (click)="selectIntro()">
+        <span class="nav-icon">📖</span>
+        <span class="nav-text">भूमिका (Introduction)</span>
+      </button>
 
-    <div *ngIf="activeTab[anuvakam.anuvakam] === 'pada'" class="mantras">
-      <div *ngFor="let mantra of anuvakam.mantras" class="mantra">
-        <span class="mantra-id">{{ mantra.id }}.</span>
-        <span class="mantra-text">{{ mantra.pada }}</span>
+      <div class="nav-section-title">अनुवाकाः (The 11 Anuvakas)</div>
+      <div class="anuvaka-list">
+        <button 
+          *ngFor="let anuvakam of anuvakams"
+          class="nav-btn sub-btn" 
+          [class.active]="activeView === 'anuvakam' && selectedAnuvakam?.anuvakam === anuvakam.anuvakam" 
+          (click)="selectAnuvakam(anuvakam)">
+          <span class="anuvaka-num">{{ anuvakam.anuvakam }}</span>
+          <span class="anuvaka-title-nav">{{ anuvakam.title }}</span>
+        </button>
       </div>
-    </div>
 
-    <div *ngIf="activeTab[anuvakam.anuvakam] === 'krama'" class="mantras">
-      <div *ngFor="let mantra of anuvakam.mantras" class="mantra">
-        <span class="mantra-id">{{ mantra.id }}.</span>
-        <span class="mantra-text">{{ mantra.krama }}</span>
+      <button 
+        class="nav-btn" 
+        [class.active]="activeView === 'conclusion'" 
+        (click)="selectConclusion()">
+        <span class="nav-icon">📜</span>
+        <span class="nav-text">फलश्रुतिः (Conclusion)</span>
+      </button>
+    </nav>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    
+    <!-- 1. PREFIX COMMENTARIES (INTRODUCTION) -->
+    <section *ngIf="activeView === 'intro'" class="content-section card fade-in">
+      <div class="section-header">
+        <h2 class="section-title">उपोद्घातः (Preface Commentaries)</h2>
+        <p class="section-desc">Introductory dissertations from the commentators explaining the significance, lineage, and ritual contexts of the hymn.</p>
       </div>
-    </div>
-  </div>
+
+      <div class="tabs-container">
+        <!-- Commentator tabs -->
+        <div class="view-tabs">
+          <button 
+            class="tab-btn" 
+            [class.active]="activeIntroTab === 'rudradhyaya'" 
+            (click)="activeIntroTab = 'rudradhyaya'">
+            सायणाचार्य & भट्टभास्कर (Rudradhyaya)
+          </button>
+          <button 
+            class="tab-btn" 
+            [class.active]="activeIntroTab === 'rudrabhashya'" 
+            (click)="activeIntroTab = 'rudrabhashya'">
+            अभिनवशंकर (Rudrabhashya)
+          </button>
+        </div>
+
+        <!-- Language toggle -->
+        <div class="lang-selector">
+          <button [class.active]="introLang === 'english'" (click)="introLang = 'english'">English</button>
+          <button [class.active]="introLang === 'sanskrit'" (click)="introLang = 'sanskrit'">संस्कृतम्</button>
+        </div>
+      </div>
+
+      <div class="commentary-body markdown-style" *ngIf="correlatedData">
+        <div *ngIf="activeIntroTab === 'rudradhyaya'">
+          <div *ngIf="introLang === 'english'" class="text-block">
+            <p *ngFor="let p of correlatedData.introduction?.rudradhyaya?.english?.split('\n\n')">{{ p }}</p>
+          </div>
+          <div *ngIf="introLang === 'sanskrit'" class="text-block sanskrit-font">
+            <p *ngFor="let p of correlatedData.introduction?.rudradhyaya?.sanskrit?.split('\n\n')">{{ p }}</p>
+          </div>
+        </div>
+
+        <div *ngIf="activeIntroTab === 'rudrabhashya'">
+          <div *ngIf="introLang === 'english'" class="text-block">
+            <p *ngFor="let p of correlatedData.introduction?.rudrabhashya?.english?.split('\n\n')">{{ p }}</p>
+          </div>
+          <div *ngIf="introLang === 'sanskrit'" class="text-block sanskrit-font">
+            <p *ngFor="let p of correlatedData.introduction?.rudrabhashya?.sanskrit?.split('\n\n')">{{ p }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. POSTFIX COMMENTARIES (CONCLUSION) -->
+    <section *ngIf="activeView === 'conclusion'" class="content-section card fade-in">
+      <div class="section-header">
+        <h2 class="section-title">फलश्रुतिः (Concluding Commentaries)</h2>
+        <p class="section-desc">Concluding remarks, applications, and Phala-shruti (fruits of recitation) explained by the commentators.</p>
+      </div>
+
+      <div class="tabs-container">
+        <!-- Commentator tabs -->
+        <div class="view-tabs">
+          <button 
+            class="tab-btn" 
+            [class.active]="activeConclusionTab === 'rudradhyaya'" 
+            (click)="activeConclusionTab = 'rudradhyaya'">
+            सायणाचार्य & भट्टभास्कर (Rudradhyaya)
+          </button>
+          <button 
+            class="tab-btn" 
+            [class.active]="activeConclusionTab === 'rudrabhashya'" 
+            (click)="activeConclusionTab = 'rudrabhashya'">
+            अभिनवशंकर (Rudrabhashya)
+          </button>
+        </div>
+
+        <!-- Language toggle -->
+        <div class="lang-selector">
+          <button [class.active]="conclusionLang === 'english'" (click)="conclusionLang = 'english'">English</button>
+          <button [class.active]="conclusionLang === 'sanskrit'" (click)="conclusionLang = 'sanskrit'">संस्कृतम्</button>
+        </div>
+      </div>
+
+      <div class="commentary-body markdown-style" *ngIf="correlatedData">
+        <div *ngIf="activeConclusionTab === 'rudradhyaya'">
+          <div *ngIf="conclusionLang === 'english'" class="text-block">
+            <p *ngFor="let p of correlatedData.conclusion?.rudradhyaya?.english?.split('\n\n')">{{ p }}</p>
+          </div>
+          <div *ngIf="conclusionLang === 'sanskrit'" class="text-block sanskrit-font">
+            <p *ngFor="let p of correlatedData.conclusion?.rudradhyaya?.sanskrit?.split('\n\n')">{{ p }}</p>
+          </div>
+        </div>
+
+        <div *ngIf="activeConclusionTab === 'rudrabhashya'">
+          <div *ngIf="conclusionLang === 'english'" class="text-block">
+            <p *ngFor="let p of correlatedData.conclusion?.rudrabhashya?.english?.split('\n\n')">{{ p }}</p>
+          </div>
+          <div *ngIf="conclusionLang === 'sanskrit'" class="text-block sanskrit-font">
+            <p *ngFor="let p of correlatedData.conclusion?.rudrabhashya?.sanskrit?.split('\n\n')">{{ p }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ANUVAKAM VIEW -->
+    <section *ngIf="activeView === 'anuvakam' && selectedAnuvakam" class="content-section fade-in">
+      <div class="anuvaka-header card">
+        <span class="anuvaka-badge">ANUVAKA {{ selectedAnuvakam.anuvakam }}</span>
+        <h2 class="anuvaka-heading">{{ selectedAnuvakam.title }}</h2>
+        <p class="anuvaka-meta">Contains {{ selectedAnuvakam.mantras.length }} mantras. Select a mantra to load the word-by-word etymological database and commentaries.</p>
+      </div>
+
+      <!-- Mantras list -->
+      <div class="mantra-navigator">
+        <h3 class="nav-title">मन्त्राः (Mantras)</h3>
+        <div class="mantra-grid">
+          <button 
+            *ngFor="let mantra of selectedAnuvakam.mantras"
+            class="mantra-card-btn"
+            [class.selected]="selectedMantra?.id === mantra.id"
+            (click)="selectMantra(mantra)">
+            <span class="mantra-num">Mantra {{ mantra.id }}</span>
+            <p class="mantra-preview sanskrit-font">{{ mantra.samhita | slice:0:60 }}...</p>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mantra details panel -->
+      <div class="mantra-details-panel card fade-in" *ngIf="selectedMantra">
+        <div class="panel-header" *ngIf="loadingMantra">
+          <div class="spinner"></div>
+          <span>Loading linguistic analysis and commentaries...</span>
+        </div>
+
+        <div *ngIf="!loadingMantra && selectedMantraDetails">
+          <div class="panel-meta-title">Mantra {{ selectedMantraDetails.id }} Detailed Study</div>
+
+          <!-- Token Tabs (Samhita / Pada / Krama) -->
+          <div class="tabs-container">
+            <div class="view-tabs">
+              <button 
+                class="tab-btn" 
+                [class.active]="activeMantraTab === 'samhita'" 
+                (click)="activeMantraTab = 'samhita'">
+                संहिता (Saṃhitā)
+              </button>
+              <button 
+                class="tab-btn" 
+                [class.active]="activeMantraTab === 'pada'" 
+                (click)="activeMantraTab = 'pada'">
+                पदपाठः (Padapāṭha)
+              </button>
+              <button 
+                class="tab-btn" 
+                [class.active]="activeMantraTab === 'krama'" 
+                (click)="activeMantraTab = 'krama'">
+                क्रमपाठः (Kramapāṭha)
+              </button>
+            </div>
+          </div>
+
+          <!-- Interactive Tokenized Mantra Display -->
+          <div class="token-container sanskrit-font">
+            <span 
+              *ngFor="let token of activeTokens"
+              class="token-span"
+              [class.hoverable]="token.word_ids && token.word_ids.length > 0"
+              (mouseenter)="onTokenHover(token.word_ids)"
+              (mouseleave)="onTokenLeave()">
+              {{ token.text }}
+            </span>
+          </div>
+
+          <p class="dictionary-tip">💡 Hover on any word in the mantra to inspect its case endings, root, Pāṇinian rules, Nirukta etymologies, and lexical synonyms.</p>
+
+          <!-- Interactive Dictionary Lookup Card -->
+          <div class="dictionary-box" *ngIf="hoveredWords.length > 0">
+            <div class="dict-card fade-in" *ngFor="let word of hoveredWords">
+              <div class="dict-header">
+                <span class="dict-pada sanskrit-font">{{ word.pada_form }}</span>
+                <span class="dict-clean">({{ word.clean_form }})</span>
+                <span class="dict-case">{{ word.grammatical_references?.case_ending }}</span>
+              </div>
+              
+              <div class="dict-grid">
+                <div class="dict-field">
+                  <span class="field-label">English Meaning</span>
+                  <div class="field-val">{{ word.meanings?.english }}</div>
+                </div>
+
+                <div class="dict-field">
+                  <span class="field-label">Pāṇinian Grammar & Roots</span>
+                  <div class="field-val">
+                    <div *ngIf="getPaniniRules(word.grammatical_references?.panini).length > 0">
+                      <p class="rule-line" *ngFor="let rule of getPaniniRules(word.grammatical_references?.panini)">• {{ rule }}</p>
+                    </div>
+                    <div *ngIf="getPaniniRules(word.grammatical_references?.panini).length === 0">
+                      {{ word.grammatical_references?.panini }}
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dict-field" *ngIf="word.meanings?.nirukta">
+                  <span class="field-label">Nirukta (Etymology)</span>
+                  <div class="field-val italic-val">{{ word.meanings.nirukta }}</div>
+                </div>
+
+                <div class="dict-field" *ngIf="word.meanings?.vedantic">
+                  <span class="field-label">Vedantic Significance</span>
+                  <div class="field-val">{{ word.meanings.vedantic }}</div>
+                </div>
+              </div>
+
+              <!-- Lexicographical references accordion -->
+              <details class="lex-details">
+                <summary>Lexicographical Synonyms (Kośas)</summary>
+                <div class="lex-content">
+                  <p *ngIf="word.lexicographical_references?.nighantu">
+                    <strong>Nighaṇṭu:</strong> {{ word.lexicographical_references.nighantu }}
+                  </p>
+                  <p *ngIf="word.lexicographical_references?.amara_kosha">
+                    <strong>Amarakośa:</strong> {{ word.lexicographical_references.amara_kosha }}
+                  </p>
+                  <p *ngIf="word.lexicographical_references?.abhidhana_ratnamala">
+                    <strong>Abhidhānaratnamālā:</strong> {{ word.lexicographical_references.abhidhana_ratnamala }}
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+
+          <!-- Commentary Sections -->
+          <div class="commentary-drawer">
+            <h3 class="comm-title">भाष्यम् (Commentaries)</h3>
+            
+            <div class="tabs-container">
+              <div class="view-tabs">
+                <button 
+                  *ngIf="selectedMantraDetails.commentaries?.sayana?.english || selectedMantraDetails.commentaries?.sayana?.sanskrit"
+                  class="tab-btn" 
+                  [class.active]="activeCommentator === 'sayana'" 
+                  (click)="activeCommentator = 'sayana'">
+                  सायणाचार्यः (Sāyaṇa)
+                </button>
+                <button 
+                  *ngIf="selectedMantraDetails.commentaries?.bhatta_bhaskara?.english || selectedMantraDetails.commentaries?.bhatta_bhaskara?.sanskrit"
+                  class="tab-btn" 
+                  [class.active]="activeCommentator === 'bhatta_bhaskara'" 
+                  (click)="activeCommentator = 'bhatta_bhaskara'">
+                  भट्टभास्करः (Bhaṭṭa Bhāskara)
+                </button>
+                <button 
+                  *ngIf="selectedMantraDetails.commentaries?.abhinava_shankara?.english || selectedMantraDetails.commentaries?.abhinava_shankara?.sanskrit"
+                  class="tab-btn" 
+                  [class.active]="activeCommentator === 'abhinava_shankara'" 
+                  (click)="activeCommentator = 'abhinava_shankara'">
+                  अभिनवशङ्कराचार्यः (Abhinava Śaṅkara)
+                </button>
+              </div>
+
+              <!-- Commentary language toggle -->
+              <div class="lang-selector">
+                <button [class.active]="commentaryLang === 'english'" (click)="commentaryLang = 'english'">English</button>
+                <button [class.active]="commentaryLang === 'sanskrit'" (click)="commentaryLang = 'sanskrit'">संस्कृतम्</button>
+              </div>
+            </div>
+
+            <!-- Commentary Text Content -->
+            <div class="comm-card" *ngIf="selectedMantraDetails.commentaries[activeCommentator] as comm">
+              <!-- Rishi / Devata / Dhyana metadata -->
+              <div class="comm-meta-grid" *ngIf="comm.rishi || comm.chandas || comm.devata">
+                <div class="meta-item" *ngIf="comm.rishi"><strong>Rishi (ऋषिः):</strong> {{ comm.rishi }}</div>
+                <div class="meta-item" *ngIf="comm.chandas"><strong>Chhandas (छन्दः):</strong> {{ comm.chandas }}</div>
+                <div class="meta-item" *ngIf="comm.devata"><strong>Devata (देवता):</strong> {{ comm.devata }}</div>
+              </div>
+
+              <!-- Dhyana block -->
+              <div class="dhyana-block" *ngIf="comm.dhyana">
+                <span class="dhyana-label">ध्यानम् (Meditation)</span>
+                <p class="sanskrit-font">{{ comm.dhyana }}</p>
+              </div>
+
+              <!-- Main text bhashya -->
+              <div class="comm-text-body">
+                <div *ngIf="commentaryLang === 'english'" class="text-block">
+                  <p *ngFor="let p of comm.english?.split('\n\n')">{{ p }}</p>
+                  <p *ngIf="!comm.english" class="no-data">English translation not available.</p>
+                </div>
+                <div *ngIf="commentaryLang === 'sanskrit'" class="text-block sanskrit-font">
+                  <p *ngFor="let p of comm.sanskrit?.split('\n\n')">{{ p }}</p>
+                  <p *ngIf="!comm.sanskrit" class="no-data">सङ्कृतभाष्यं नोपलभ्यते। (Sanskrit text not available.)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
 </div>

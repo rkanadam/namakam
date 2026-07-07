@@ -1,0 +1,42 @@
+xxxviii
+padā Pāṭhā: To recite the Veda mantras, word by word,
+instead of joining the words. This gives the student of the
+Vedas, the knowledge of each word in a sentence.
+
+Krama Pāṭhā: In Krama Pāṭhā, the first word of the mantra is
+added to the second, the second to the third, the third to the
+fourth and so on, until the whole sentence of the mantras is
+completed. The order of words will be 1-2 ; 2-3 ; 3-4 ; 4-5 and
+so on. This helps the students to understand changes occurring
+in swara in such a combination. The person who is well versed
+in reciting the Krama Pāṭhā is known as "Krama Vit" (like
+Vedā vit) When the Padā itself is a Veṣṭanā, then, as soon as it
+leaves from its turn, we have to recite the Veṣṭanā. For the last
+padā in a sentence also, we have to recite the Veṣṭanā, whether
+it is a Padā Veṣṭanā or not. If we express this in Mathematical
+series:
+
+Mathematical Sequence, Series for Krama Pāṭhā :
+
+Sentence (S) = P₁, P₂, P₃, ....... P(n-2), P(n-1), Pn
+Krama Turn (T) number (T₁ to n-1)
+
+Turn 1 (T₁) = P₁, P₂ ;
+
+Turn 2 (T₂) = P₂, P₃ ;
+
+............
+
+............
+
+Turn n-2 (Tn-2) = P(n-2), P(n-1) ;
+
+Turn n-1(Tn-1) = P(n-1), Pn ;
+
+Hence General Combination for Krama Pāṭhā is:
+Turn n-1 (Tn-1) = P(n-1), Pn ;
+
+where, n > 1, and Max No. of Turn < n (without any Veṣṭanā)
+      Pn = nᵗʰ Padā in a Sentence
+      Tn = Turn of Krama Pāṭhā
+      n = Number of Padā in a Sentence

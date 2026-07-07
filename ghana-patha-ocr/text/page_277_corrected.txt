@@ -1,0 +1,25 @@
+Devanagari (accurate svara markings):
+
+५१ | म॒य॒स्क॒राय॑ च॒ च॒ म॒य॒स्क॒राय॑ म॒य॒स्क॒राय॑ च॒ न॒मो नम॑श्च॒ म॒य॒स्क॒राय॑ म॒य॒स्क॒राय॑ च॒ नमः॑ :
+५२ | म॒य॒स्क॒रायेति॑ म॒यः = क॒राय॑
+५३ | च॒ न॒मो नम॑श्च॒ च॒ नम॑ श्शिवाय॑ शिवाय॑ नम॑श्च॒ च॒ नम॑ श्शिवाय॑
+५४ | नम॑ श्शिवाय॑ शिवाय॑ न॒मो नम॑ श्शिवाय॑ च॒ च॒ शिवाय॑ न॒मो नम॑ श्शिवाय॑ च॒
+५५ | शिवाय॑ च॒ च॒ शिवाय॑ शिवाय॑ च॒ शि॒व॒त॒राय॑ शि॒व॒त॒राय॑ च॒ शिवाय॑ शिवाय॑ च॒ शि॒व॒त॒राय॑
+५६ | च॒ शि॒व॒त॒राय॑ शि॒व॒त॒राय॑ च॒ च॒ शि॒व॒त॒राय॑ च॒ च॒ शि॒व॒त॒राय॑ च॒ च॒ शि॒व॒त॒राय॑ च॒
+५७ | शि॒व॒त॒राय॑ च॒ च॒ शि॒व॒त॒राय॑ शि॒व॒त॒राय॑ च॒ न॒मो नम॑श्च॒ शि॒व॒त॒राय॑ शि॒व॒त॒राय॑ च॒ नमः॑ :
+५८ | शि॒व॒त॒रायेति॑ शि॒व = त॒राय॑
+५९ | च॒ न॒मो नम॑श्च॒ च॒ नम॑ स्ती॒त्थ्या॑य ती॒त्थ्या॑य नम॑श्च॒ च॒ नम॑ स्ती॒त्थ्या॑य
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+51 | ma̱ya̱ska̱rā́ya ca̱ ca̱ ma̱ya̱ska̱rā́ya ma̱ya̱ska̱rā́ya ca̱ na̱mo namáśca̱ ma̱ya̱ska̱rā́ya ma̱ya̱ska̱rā́ya ca̱ na̱máḥ
+52 | ma̱ya̱ska̱rāyetí ma̱ya̱ḥ = ka̱rā́ya
+53 | ca̱ na̱mo namáśca̱ ca̱ namá śśivā́ya śivā́ya namáśca̱ ca̱ namá śśivā́ya
+54 | namá śśivā́ya śivā́ya na̱mo namá śśivā́ya ca̱ ca̱ śivā́ya na̱mo namá śśivā́ya ca̱
+55 | śivā́ya ca̱ ca̱ śivā́ya śivā́ya ca̱ śi̱va̱ta̱rā́ya śi̱va̱ta̱rā́ya ca̱ śivā́ya śivā́ya ca̱ śi̱va̱ta̱rā́ya
+56 | ca̱ śi̱va̱ta̱rā́ya śi̱va̱ta̱rā́ya ca̱ ca̱ śi̱va̱ta̱rā́ya ca̱ ca̱ śi̱va̱ta̱rā́ya ca̱ ca̱ śi̱va̱ta̱rā́ya ca̱
+57 | śi̱va̱ta̱rā́ya ca̱ ca̱ śi̱va̱ta̱rā́ya śi̱va̱ta̱rā́ya ca̱ na̱mo namáśca̱ śi̱va̱ta̱rā́ya śi̱va̱ta̱rā́ya ca̱ na̱máḥ
+58 | śi̱va̱ta̱rāyetí śi̱va = ta̱rā́ya
+59 | ca̱ na̱mo namáśca̱ ca̱ namá stī̱tthyā́ya tī̱tthyā́ya namáśca̱ ca̱ namá stī̱tthyā́ya

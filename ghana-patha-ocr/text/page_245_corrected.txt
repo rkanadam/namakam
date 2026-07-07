@@ -1,0 +1,27 @@
+Devanagari (accurate svara markings):
+
+४९ | च॒ न॒मो॒ नम॑श्च॒ च॒ न॒मो॑ बृ॒ह॒ते बृ॒ह॒ते नम॑श्च॒ च॒ न॒मो॑ बृ॒ह॒ते
+५० | न॒मो॑ बृ॒ह॒ते बृ॒ह॒ते न॒मो॒ न॒मो॑ बृ॒ह॒ते च॒ च॒ बृ॒ह॒ते न॒मो॒ न॒मो॑ बृ॒ह॒ते च॒
+५१ | बृ॒ह॒ते च॒ च॒ बृ॒ह॒ते बृ॒ह॒ते च॒ व॒र्षी॒य॒से व॒र्षी॒य॒से च॒ बृ॒ह॒ते बृ॒ह॒ते च॒ व॒र्षी॒य॒से
+५२ | च॒ व॒र्षी॒य॒से व॒र्षी॒य॒से च॒ च॒ व॒र्षी॒य॒से च॒ च॒ व॒र्षी॒य॒से च॒ च॒ व॒र्षी॒य॒से च॒
+५३ | व॒र्षी॒य॒से च॒ च॒ व॒र्षी॒य॒से व॒र्षी॒य॒से च॒ न॒मो॒ नम॑श्च॒ व॒र्षी॒य॒से व॒र्षी॒य॒से च॒ न॒म॒ :
+५४ | च॒ न॒मो॒ नम॑श्च॒ च॒ न॒मो॑ वृ॒द्धाय॑ वृ॒द्धाय॑ नम॑श्च॒ च॒ न॒मो॑ वृ॒द्धाय॑
+५५ | न॒मो॑ वृ॒द्धाय॑ वृ॒द्धाय॑ न॒मो॒ न॒मो॑ वृ॒द्धाय॑ च॒ च॒ वृ॒द्धाय॑ न॒मो॒ न॒मो॑ वृ॒द्धाय॑ च॒
+५६ | वृ॒द्धाय॑ च॒ च॒ वृ॒द्धाय॑ वृ॒द्धाय॑ च॒ सँवृ॒द्ध्वने॑ सँवृ॒द्ध्वने॑ च॒ वृ॒द्धाय॑ वृ॒द्धाय॑ च॒ सँवृ॒द्ध्वने॑
+५७ | च॒ सँवृ॒द्ध्वने॑ सँवृ॒द्ध्वने॑ च॒ च॒ सँवृ॒द्ध्वने॑ च॒ च॒ सँवृ॒द्ध्वने॑ च॒ च॒ सँवृ॒द्ध्वने॑ च॒
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+49 | ca̱ na̱mo̱ na̱máś-ca̱ ca̱ na̱mó bṛ̱ha̱te bṛ̱ha̱te na̱máś-ca̱ ca̱ na̱mó bṛ̱ha̱te
+50 | na̱mó bṛ̱ha̱te bṛ̱ha̱te na̱mo̱ na̱mó bṛ̱ha̱te ca̱ ca̱ bṛ̱ha̱te na̱mo̱ na̱mó bṛ̱ha̱te ca̱
+51 | bṛ̱ha̱te ca̱ ca̱ bṛ̱ha̱te bṛ̱ha̱te ca̱ va̱rṣī̱ya̱se va̱rṣī̱ya̱se ca̱ bṛ̱ha̱te bṛ̱ha̱te ca̱ va̱rṣī̱ya̱se
+52 | ca̱ va̱rṣī̱ya̱se va̱rṣī̱ya̱se ca̱ ca̱ va̱rṣī̱ya̱se ca̱ ca̱ va̱rṣī̱ya̱se ca̱ ca̱ va̱rṣī̱ya̱se ca̱
+53 | va̱rṣī̱ya̱se ca̱ ca̱ va̱rṣī̱ya̱se va̱rṣī̱ya̱se ca̱ na̱mo̱ na̱máś-ca̱ va̱rṣī̱ya̱se va̱rṣī̱ya̱se ca̱ na̱ma̱ḥ
+54 | ca̱ na̱mo̱ na̱máś-ca̱ ca̱ na̱mó vṛ̱ddhā́ya vṛ̱ddhā́ya na̱máś-ca̱ ca̱ na̱mó vṛ̱ddhā́ya
+55 | na̱mó vṛ̱ddhā́ya vṛ̱ddhā́ya na̱mo̱ na̱mó vṛ̱ddhā́ya ca̱ ca̱ vṛ̱ddhā́ya na̱mo̱ na̱mó vṛ̱ddhā́ya ca̱
+56 | vṛ̱ddhā́ya ca̱ ca̱ vṛ̱ddhā́ya vṛ̱ddhā́ya ca̱ sa̐vṛ̱ddhvané sa̐vṛ̱ddhvané ca̱ vṛ̱ddhā́ya vṛ̱ddhā́ya ca̱ sa̐vṛ̱ddhvané
+57 | ca̱ sa̐vṛ̱ddhvané sa̐vṛ̱ddhvané ca̱ ca̱ sa̐vṛ̱ddhvané ca̱ ca̱ sa̐vṛ̱ddhvané ca̱ ca̱ sa̐vṛ̱ddhvané ca̱
+
+160

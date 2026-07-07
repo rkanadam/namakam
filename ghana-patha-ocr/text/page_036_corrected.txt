@@ -1,0 +1,31 @@
+xxxiv
+
+Stars              Star's Deity          Planet    Planet's Deity             Stones
+Aswini             Aswini                Ketu      Ganesha                   Lapis Lazuli
+Bharani            Yama                  Venus     Lakshmi, Indra            Diamond
+Kritika            Agni                  Sun       Shiva                     Carbuncle
+Rohini             Prajapati             Moon      Paarvati                  Pearl
+Mr̥gaśīrṣa          Soma                  Mars      Subramanya                Coral
+Ārdrā              Rudra                 Rahu      Durga, Kali               Sardonyx
+Punarvasu          Aditi                 Jupiter   DakshinaMoorti, Brahma    Topaz
+Puṣya              Bṛhaspati             Saturn    Sasta, Yama               Sapphire
+Āśleṣā             Sarpa                 Mercury   Vishnu                    Emerald
+Maghā              Pitṛs                 Ketu      Ganesha                   Lapis Lazuli
+Pūrvaphalgunī      Aryamā                Venus     Lakshmi, Indra            Diamond
+Uttaraphalgunī     Bhaga                 Sun       Shiva                     Carbuncle
+Hasta              Savitā                Moon      Paarvati                  Pearl
+Citrā              Indra                 Mars      Subramanya                Coral
+Svātī              Vāyu                  Rahu      Durga, Kali               Sardonyx
+Viśākhā            Indra, Agni           Jupiter   DakshinaMoorti, Brahma    Topaz
+Anurādhā           Mitra                 Saturn    Sasta, Yama               Sapphire
+Jyeṣṭhā            Indra                 Mercury   Vishnu                    Emerald
+Mūla               Pitṛs                 Ketu      Ganesha                   Lapis Lazuli
+Pūrvāṣāḍhā         Varuṇa                Venus     Lakshmi, Indra            Diamond
+Uttarāṣāḍhā        Viśvedevā             Sun       Shiva                     Carbuncle
+Abhijit *          Brahma
+Śravaṇa            Vishnu                Moon      Paarvati                  Pearl
+Dhaniṣṭhā          Vasu                  Mars      Subramanya                Coral
+Śatabhiṣaj         Indra                 Rahu      Durga, Kali               Sardonyx
+Pūrvabhādra        Ajaikapāt             Jupiter   DakshinaMoorti, Brahma    Topaz
+Uttarabhādra       Ahirbudhnya           Saturn    Sasta, Yama               Sapphire
+Revatī             Pūṣā                  Mercury   Vishnu                    Emerald

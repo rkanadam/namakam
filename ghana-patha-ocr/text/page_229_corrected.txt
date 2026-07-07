@@ -1,0 +1,23 @@
+Devanagari (accurate svara markings):
+
+६९ | च॒ वो॒ व॒श्च॒ च॒ वो॒ न॒मो॒ नमो॑ व॒श्च॒ च॒ वो॒ न॒म॒ :
+७० | वो॒ न॒मो॒ नमो॑ वो॒ वो॒ न॒मो॒ न॒म॒ :
+७१ | न॒मो॒ न॒म॒ :
+७२ | नम॒ : - क्षत्तृ॑भ्य॒ : - क्षत्तृ॑भ्यो न॒मो॒ नम॒ : - क्षत्तृ॑भ्य स्सङ्ग्रही॒तृभ्य॑ स्सङ्ग्रही॒तृभ्य॑ : - क्षत्तृ॑भ्यो न॒मो॒ नम॒ : - क्षत्तृ॑भ्य स्सङ्ग्रही॒तृभ्य॑ :
+७३ | क्षत्तृ॑भ्य स्सङ्ग्रही॒तृभ्य॑ स्सङ्ग्रही॒तृभ्य॑ : - क्षत्तृ॑भ्य॒ : - क्षत्तृ॑भ्य स्सङ्ग्रही॒तृभ्य॑श्च॒ च॒ सङ्ग्रही॒तृभ्य॑ : - क्षत्तृ॑भ्य॒ : - क्षत्तृ॑भ्य स्सङ्ग्रही॒तृभ्य॑श्च
+७४ | क्षत्तृ॑भ्य इ॒ति॒ क्षत्तृ॑ = भ्य॒ :
+७५ | सङ्ग्रही॒तृभ्य॑श्च॒ च॒ सङ्ग्रही॒तृभ्य॒ स्सङ्ग्रही॒तृभ्य॑श्च॒ वो॒ व॒श्च॒ सङ्ग्रही॒तृभ्य॒ स्सङ्ग्रही॒तृभ्य॑श्च॒ वः॒ :
+
+---
+
+IAST (udātta marked with ´, anudātta with ̱ ):
+
+69 | ca̱ vo̱ va̱śca̱ ca̱ vo̱ na̱mo̱ namó va̱śca̱ ca̱ vo̱ na̱ma̱ḥ
+70 | vo̱ na̱mo̱ namó vo̱ vo̱ na̱mo̱ na̱ma̱ḥ
+71 | na̱mo̱ na̱ma̱ḥ
+72 | na̱ma̱ḥ - kṣattṛ́bhya̱ḥ - kṣattṛ́bhyo na̱mo̱ na̱ma̱ḥ - kṣattṛ́bhya ssaṅgrahī̱tṛbhyá ssaṅgrahī̱tṛbhyáḥ - kṣattṛ́bhyo na̱mo̱ na̱ma̱ḥ - kṣattṛ́bhya ssaṅgrahī̱tṛbhyáḥ
+73 | kṣattṛ́bhya ssaṅgrahī̱tṛbhyá ssaṅgrahī̱tṛbhyáḥ - kṣattṛ́bhya̱ḥ - kṣattṛ́bhya ssaṅgrahī̱tṛbhyas-ca̱ ca̱ saṅgrahī̱tṛbhyáḥ - kṣattṛ́bhya̱ḥ - kṣattṛ́bhya ssaṅgrahī̱tṛbhyas-ca
+74 | kṣattṛ́bhya i̱ti̱ kṣattṛ́ = bhya̱ḥ
+75 | saṅgrahī̱tṛbhyas-ca̱ ca̱ saṅgrahī̱tṛbhya̱ḥ ssaṅgrahī̱tṛbhyas-ca̱ vo̱ va̱śca̱ saṅgrahī̱tṛbhya̱ḥ ssaṅgrahī̱tṛbhyas-ca̱ va̱ḥ
+
+146

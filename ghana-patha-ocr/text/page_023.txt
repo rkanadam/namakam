@@ -1,0 +1,34 @@
+xxi
+
+Sl No.  Name of Chandas      No.of letters
+1       gāyatrī              24
+2       uṣṇik                28
+3       anuṣṭup              32
+4       bṛhatī                36
+5       paṅkti               40
+6       triṣṭup              44
+7       jagatī                48
+8       ati jagatī            52
+9       śakvarī              56
+10      ati śakvarī          60
+11      aṣṭi                 64
+12      atyaṣṭi              68
+13      dhṛti                72
+14      ati dhṛti             76
+15      kṛti                 80
+16      prakṛti              84
+17      ākṛti                88
+18      vikṛti               92
+19      saṅkṛti              96
+20      abhikṛti             100
+21      utkṛti               104
+
+Each mantra is dedicated to a Devata/Deity, has a specific
+chandas and has a ṛiṣi who brought it to the world. That is the
+reason why we touch our head as we recite the name of the ṛiṣi
+(symbolically placing his feet on our head), touch the nose
+when we recite the chandas (the guardian for the mantra is
+meter and so there is no life of the mantra without it; in the
+same way, there is no life without breath); touch our heart
+when reciting the name of the devata (to meditate upon the
+deity in our heart). Pingalācharya provides the grammar for
