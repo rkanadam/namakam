@@ -85,12 +85,12 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Use Universal Combining Diacritical Marks (Script Inherited)
-      // to prevent font shapers from breaking Indic conjuncts (e.g. namaste -> naste)
+      // Spacing Modifier Letters for Svara Accents in Indic Scripts
+      // Prevents browser OpenType font engines from collapsing base consonants (e.g. namaste -> naste)
       if (code === 0x0951) {
-        result += '\u030D'; // Udatta: Combining Vertical Line Above
+        result += '\u02C8'; // Udatta: Spacing Modifier Letter Vertical Line
       } else if (code === 0x0952) {
-        result += '\u0331'; // Anudatta: Combining Macron Below
+        result += '\u02CD'; // Anudatta: Spacing Modifier Letter Low Macron
       } else if (code >= 0x1CD0 && code <= 0x1CF9) {
         result += text[i];
       } else if (code >= 0x0901 && code <= 0x0963) {
@@ -186,9 +186,9 @@ export class ScriptTransliterationService {
         continue;
       }
       if (code === 0x0951) {
-        result += '\u030D'; // Udatta: Combining Vertical Line Above
+        result += '\u02C8'; // Spacing Modifier Letter Vertical Line (Udatta)
       } else if (code === 0x0952) {
-        result += '\u0331'; // Anudatta: Combining Macron Below
+        result += '\u02CD'; // Spacing Modifier Letter Low Macron (Anudatta)
       } else if (code >= 0x1CD0 && code <= 0x1CF9) {
         result += char;
       } else if (tamilMap[char]) {
