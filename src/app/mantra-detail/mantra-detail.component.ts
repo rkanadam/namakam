@@ -138,6 +138,18 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     }
   }
 
+  isSidebarCollapsed(): boolean {
+    return this.namakamService.isSidebarCollapsed();
+  }
+
+  toggleSidebar(): void {
+    this.namakamService.toggleSidebarCollapsed();
+  }
+
+  getMantraPrefix(text: string): string {
+    return this.namakamService.getMantraPrefix(text);
+  }
+
   selectIntro(): void {
     this.router.navigate(['/introduction']);
   }

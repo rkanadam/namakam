@@ -157,11 +157,32 @@ export class NamakamService {
     anuvakam6, anuvakam7, anuvakam8, anuvakam9, anuvakam10, anuvakam11
   ] as Anuvakam[];
 
+  private sidebarCollapsed = localStorage.getItem('namakam_sidebar_collapsed') === 'true';
+
   constructor(
     private http: HttpClient,
     private editorService: SanskritEditorService
   ) {
     this.data$ = this.http.get<CombinedData>('assets/data.json').pipe(shareReplay(1));
+  }
+
+  isSidebarCollapsed(): boolean {
+    return this.sidebarCollapsed;
+  }
+
+  toggleSidebarCollapsed(): boolean {
+    this.sidebarCollapsed = !this.sidebarCollapsed;
+    localStorage.setItem('namakam_sidebar_collapsed', String(this.sidebarCollapsed));
+    return this.sidebarCollapsed;
+  }
+
+  getMantraPrefix(samhitaText: string): string {
+    if (!samhitaText) return '';
+    const cleaned = samhitaText.trim().replace(/[॥।=]/g, '').trim();
+    const words = cleaned.split(/\s+/).filter(Boolean);
+    if (words.length === 0) return '';
+    const prefix = words.slice(0, 3).join(' ');
+    return prefix.length > 28 ? prefix.substring(0, 28) + '…' : prefix + '…';
   }
 
   // Original methods for other routed components

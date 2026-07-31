@@ -56,6 +56,18 @@ export class WordIndexComponent implements OnInit {
     this.expandedAnuvakams[id] = !this.isAnuvakamExpanded(id);
   }
 
+  isSidebarCollapsed(): boolean {
+    return this.namakamService.isSidebarCollapsed();
+  }
+
+  toggleSidebar(): void {
+    this.namakamService.toggleSidebarCollapsed();
+  }
+
+  getMantraPrefix(text: string): string {
+    return this.namakamService.getMantraPrefix(text);
+  }
+
   selectIntro(): void {
     this.router.navigate(['/introduction']);
   }

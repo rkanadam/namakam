@@ -1,15 +1,25 @@
-<div class="layout-container">
+<div class="layout-container" [class.sidebar-collapsed]="isSidebarCollapsed()">
   <!-- Left Navigation Sidebar -->
   <aside class="sidebar">
-    <div class="sidebar-header">
-      <h2 class="sidebar-logo">श्रीरुद्रप्रश्‍नः</h2>
-      <p class="sidebar-sublogo">Namakam Study Suite</p>
+    <div class="sidebar-header-row">
+      <div class="sidebar-brand">
+        <h2 class="sidebar-logo">श्रीरुद्रप्रश्‍नः</h2>
+        <p class="sidebar-sublogo">Namakam Study Suite</p>
+      </div>
+      <button 
+        type="button" 
+        class="sidebar-toggle-btn" 
+        (click)="toggleSidebar()" 
+        [title]="isSidebarCollapsed() ? 'Expand sidebar' : 'Collapse sidebar'">
+        {{ isSidebarCollapsed() ? '❯' : '❮' }}
+      </button>
     </div>
     
     <nav class="nav-menu">
       <button 
         class="nav-btn" 
-        (click)="selectIntro()">
+        (click)="selectIntro()"
+        title="भूमिका (Introduction)">
         <span class="nav-icon">📖</span>
         <span class="nav-text">भूमिका (Introduction)</span>
       </button>
@@ -20,7 +30,8 @@
           <div class="anuvaka-header-row">
             <button 
               class="nav-btn sub-btn anuvaka-main-btn" 
-              (click)="selectAnuvakam(anv.anuvakam)">
+              (click)="selectAnuvakam(anv.anuvakam)"
+              [title]="anv.title">
               <span class="anuvaka-num">{{ anv.anuvakam }}</span>
               <span class="anuvaka-title-nav">{{ anv.title }}</span>
             </button>
@@ -39,9 +50,13 @@
             <button 
               *ngFor="let m of anv.mantras"
               class="sidebar-mantra-btn"
-              (click)="selectMantraFromSidebar(anv.anuvakam, m.id)">
+              (click)="selectMantraFromSidebar(anv.anuvakam, m.id)"
+              [title]="getMantraPrefix(m.samhita)">
               <span class="s-dot">•</span>
-              <span class="s-mantra-label">Mantra {{ m.id }}</span>
+              <span class="s-mantra-label">
+                <span class="s-mantra-num">M{{ m.id }}</span>
+                <span class="s-mantra-prefix" *ngIf="m.samhita"> — {{ getMantraPrefix(m.samhita) }}</span>
+              </span>
             </button>
           </div>
         </div>

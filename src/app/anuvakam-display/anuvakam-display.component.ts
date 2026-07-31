@@ -94,6 +94,19 @@ export class AnuvakamDisplayComponent implements OnInit {
     }
   }
 
+  // Sidebar Collapse State
+  isSidebarCollapsed(): boolean {
+    return this.namakamService.isSidebarCollapsed();
+  }
+
+  toggleSidebar(): void {
+    this.namakamService.toggleSidebarCollapsed();
+  }
+
+  getMantraPrefix(text: string): string {
+    return this.namakamService.getMantraPrefix(text);
+  }
+
   // Sidebar Mantra Expansion State
   expandedAnuvakams: { [key: number]: boolean } = {};
 
