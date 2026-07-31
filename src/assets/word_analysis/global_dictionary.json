@@ -1732,8 +1732,8 @@
   },
   "79": {
     "id": 79,
-    "pada_form": "च॒क॒शी॒हि॒",
-    "clean_form": "चकशीहि",
+    "pada_form": "चा॒क॒शी॒हि॒",
+    "clean_form": "चाकशीहि",
     "meanings": {
       "english": "Shine upon us; look upon us with radiance; appear before us benevolently; gaze upon us",
       "nirukta": "The intensive (yaṅanta) of √kāś intensifies the basic meaning 'to shine' into 'to shine forth brilliantly / to gaze intently'. With abhi-prefix: 'abhicākashīhi' — 'shine upon us, turn your radiant gaze toward us'. Sāyaṇa glosses: 'asmān prati prakāśasva dṛśyasva vā' — 'shine toward us or become visible to us'.",
@@ -1741,8 +1741,8 @@
     },
     "grammatical_references": {
       "panini": [
-        "P 3.1.22 — yaṅ-pratyaya for intensive (frequentative): काश् → चाकाश्/चकाश् (with reduplication per P 6.1.9)",
-        "P 3.4.87 — imperative hi: चकाश् + हि → चकशीहि"
+        "P 3.1.22 — yaṅ-pratyaya for intensive (frequentative): काश् → चाकाश् (with reduplication per P 6.1.9)",
+        "P 3.4.87 — imperative hi: चाकाश् + हि → चाकशीहि"
       ],
       "case_ending": "2nd singular imperative intensive (yaṅanta loṭ) — 'shine forth! look upon us!'"
     },
