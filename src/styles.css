@@ -17,8 +17,59 @@ body {
   color: #222;
 }
 
-.sanskrit-font {
-  font-family: 'Siddhanta', 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Devanagari MT', sans-serif !important;
+/* Language / Script Specific Font System */
+body[data-lang="sanskrit"] .sanskrit-font,
+body[data-lang="hindi"] .sanskrit-font,
+body[data-lang="sanskrit"] .token-span,
+body[data-lang="hindi"] .token-span,
+body[data-lang="sanskrit"] .dict-pada,
+body[data-lang="hindi"] .dict-pada {
+  font-family: 'Siddhanta', 'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Devanagari MT', sans-serif !important;
+}
+
+/* Telugu */
+body[data-lang="telugu"] .sanskrit-font,
+body[data-lang="telugu"] .token-span,
+body[data-lang="telugu"] .dict-pada,
+body[data-lang="telugu"] .word-sanskrit,
+body[data-lang="telugu"] .word-pada {
+  font-family: 'Noto Serif Telugu', 'Noto Sans Telugu', 'Mandali', 'Gautami', 'Vani', sans-serif !important;
+}
+
+/* Kannada */
+body[data-lang="kannada"] .sanskrit-font,
+body[data-lang="kannada"] .token-span,
+body[data-lang="kannada"] .dict-pada,
+body[data-lang="kannada"] .word-sanskrit,
+body[data-lang="kannada"] .word-pada {
+  font-family: 'Noto Serif Kannada', 'Noto Sans Kannada', 'Tunga', 'Kedage', sans-serif !important;
+}
+
+/* Malayalam */
+body[data-lang="malayalam"] .sanskrit-font,
+body[data-lang="malayalam"] .token-span,
+body[data-lang="malayalam"] .dict-pada,
+body[data-lang="malayalam"] .word-sanskrit,
+body[data-lang="malayalam"] .word-pada {
+  font-family: 'Noto Serif Malayalam', 'Noto Sans Malayalam', 'Kartika', sans-serif !important;
+}
+
+/* Tamil */
+body[data-lang="tamil"] .sanskrit-font,
+body[data-lang="tamil"] .token-span,
+body[data-lang="tamil"] .dict-pada,
+body[data-lang="tamil"] .word-sanskrit,
+body[data-lang="tamil"] .word-pada {
+  font-family: 'Noto Serif Tamil', 'Noto Sans Tamil', 'Latha', sans-serif !important;
+}
+
+/* English IAST */
+body[data-lang="english"] .sanskrit-font,
+body[data-lang="english"] .token-span,
+body[data-lang="english"] .dict-pada,
+body[data-lang="english"] .word-sanskrit,
+body[data-lang="english"] .word-pada {
+  font-family: 'Gentium Plus', 'Noto Serif', Georgia, serif !important;
 }
 
 /* Top Quick Navigation Bar */

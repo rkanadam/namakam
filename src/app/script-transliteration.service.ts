@@ -27,6 +27,10 @@ export class ScriptTransliterationService {
 
   currentLanguage$: Observable<string> = this.currentLangSubject.asObservable();
 
+  constructor() {
+    this.updateBodyDataLang(this.currentLanguage);
+  }
+
   get currentLanguage(): string {
     return this.currentLangSubject.value;
   }
@@ -36,6 +40,13 @@ export class ScriptTransliterationService {
     if (valid) {
       this.currentLangSubject.next(code);
       localStorage.setItem('namakam_selected_lang', code);
+      this.updateBodyDataLang(code);
+    }
+  }
+
+  private updateBodyDataLang(code: string): void {
+    if (typeof document !== 'undefined' && document.body) {
+      document.body.setAttribute('data-lang', code);
     }
   }
 
@@ -68,6 +79,12 @@ export class ScriptTransliterationService {
     for (let i = 0; i < text.length; i++) {
       const code = text.charCodeAt(i);
 
+      // Preserve Danda | and || (0x0964, 0x0965)
+      if (code === 0x0964 || code === 0x0965) {
+        result += text[i];
+        continue;
+      }
+
       // Use Universal Combining Diacritical Marks (Script Inherited)
       // to prevent font shapers from breaking Indic conjuncts (e.g. namaste -> naste)
       if (code === 0x0951) {
@@ -76,7 +93,7 @@ export class ScriptTransliterationService {
         result += '\u0331'; // Anudatta: Combining Macron Below
       } else if (code >= 0x1CD0 && code <= 0x1CF9) {
         result += text[i];
-      } else if (code >= 0x0900 && code <= 0x097F) {
+      } else if (code >= 0x0901 && code <= 0x0963) {
         result += String.fromCharCode(code + offset);
       } else {
         result += text[i];
@@ -163,6 +180,11 @@ export class ScriptTransliterationService {
     for (let i = 0; i < text.length; i++) {
       const char = text[i];
       const code = char.charCodeAt(0);
+
+      if (code === 0x0964 || code === 0x0965) {
+        result += text[i];
+        continue;
+      }
       if (code === 0x0951) {
         result += '\u030D'; // Udatta: Combining Vertical Line Above
       } else if (code === 0x0952) {
