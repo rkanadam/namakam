@@ -298,7 +298,7 @@ export class NamakamService {
   private rebuildTokens(originalTokens: Token[], newText: string): Token[] {
     if (!newText) return [];
     if (!originalTokens || originalTokens.length === 0) {
-      const parts = newText.split(/(\s+|[=।॥])/g).filter(p => p.length > 0);
+      const parts = newText.split(/(\s+|[=()।॥])/g).filter(p => p.length > 0);
       return parts.map(p => ({ text: p, word_ids: [] }));
     }
 
@@ -306,7 +306,7 @@ export class NamakamService {
 
     const normalizeForMatching = (t: string) => {
       return cleanSanskrit(t)
-        .replace(/(इति|इ॒ति|इ॑ति|-|=|\s|ऽ|॥|।)/g, '')
+        .replace(/(इति|इ॒ति|इ॑ति|इत्य|इ॒त्य|इ॑त्य|-|=|\s|ऽ|॥|\||\(|\))/g, '')
         .replace(/म्$/, 'म')
         .replace(/ः$/, '')
         .trim();
@@ -315,20 +315,20 @@ export class NamakamService {
     // Extract original non-empty, non-punctuation word tokens
     const originalWords = originalTokens.filter(t => {
       const clean = cleanSanskrit(t.text);
-      return clean.length > 0 && !/^[=।॥\s]+$/.test(clean);
+      return clean.length > 0 && !/^[=()।॥\s]+$/.test(clean);
     });
 
     // Split newText into words, whitespace, and punctuation
-    const newParts = newText.split(/(\s+|[=।॥])/g).filter(p => p.length > 0);
+    const newParts = newText.split(/(\s+|[=()।॥])/g).filter(p => p.length > 0);
 
     let wordIdx = 0;
 
-    return newParts.map(part => {
+    return newParts.map((part, pIdx) => {
       const cleanPart = cleanSanskrit(part);
       const normPart = normalizeForMatching(part);
 
       // If whitespace or punctuation, no word_ids
-      if (!cleanPart || /^[=।॥\s]+$/.test(part)) {
+      if (!cleanPart || /^[=()।॥\s]+$/.test(part)) {
         return {
           text: part,
           word_ids: []
@@ -340,15 +340,27 @@ export class NamakamService {
       if (wordIdx < originalWords.length) {
         let bestMatchIdx = -1;
 
-        // 1. Check exact or normalized match at current wordIdx
-        const currNorm = normalizeForMatching(originalWords[wordIdx].text);
-        if (normPart && currNorm && (normPart === currNorm || normPart.startsWith(currNorm) || currNorm.startsWith(normPart))) {
-          bestMatchIdx = wordIdx;
-        } else {
-          // 2. Search window around wordIdx
-          for (let w = Math.max(0, wordIdx - 2); w <= Math.min(originalWords.length - 1, wordIdx + 4); w++) {
+        // Search window starting from current wordIdx
+        for (let w = wordIdx; w <= Math.min(originalWords.length - 1, wordIdx + 4); w++) {
+          const candNorm = normalizeForMatching(originalWords[w].text);
+          if (!candNorm || !normPart) continue;
+
+          if (
+            normPart === candNorm ||
+            normPart.includes(candNorm) ||
+            candNorm.includes(normPart) ||
+            (normPart.length >= 3 && candNorm.length >= 3 && (normPart.startsWith(candNorm.slice(0, 3)) || candNorm.startsWith(normPart.slice(0, 3))))
+          ) {
+            bestMatchIdx = w;
+            break;
+          }
+        }
+
+        // Fallback: search backwards slightly if needed
+        if (bestMatchIdx === -1 && wordIdx > 0) {
+          for (let w = wordIdx - 1; w >= Math.max(0, wordIdx - 2); w--) {
             const candNorm = normalizeForMatching(originalWords[w].text);
-            if (normPart && candNorm && (normPart === candNorm || normPart.startsWith(candNorm) || candNorm.startsWith(normPart))) {
+            if (candNorm && (normPart === candNorm || normPart.includes(candNorm) || candNorm.includes(normPart))) {
               bestMatchIdx = w;
               break;
             }
@@ -357,13 +369,27 @@ export class NamakamService {
 
         if (bestMatchIdx !== -1) {
           assignedIds = [...(originalWords[bestMatchIdx].word_ids || [])];
-          if (bestMatchIdx >= wordIdx) {
-            wordIdx = bestMatchIdx + 1;
+          
+          // Check if the next part in newParts matches the next word in originalWords
+          const nextPart = newParts.slice(pIdx + 1).find(p => {
+            const c = cleanSanskrit(p);
+            return c.length > 0 && !/^[=()।॥\s]+$/.test(p);
+          });
+
+          if (nextPart && bestMatchIdx + 1 < originalWords.length) {
+            const nextNorm = normalizeForMatching(nextPart);
+            const nextCandNorm = normalizeForMatching(originalWords[bestMatchIdx + 1].text);
+            if (nextNorm && nextCandNorm && (nextNorm === nextCandNorm || nextNorm.includes(nextCandNorm) || nextCandNorm.includes(nextNorm))) {
+              wordIdx = bestMatchIdx + 1;
+            } else {
+              wordIdx = bestMatchIdx;
+            }
+          } else {
+            wordIdx = bestMatchIdx;
           }
         } else {
           // Fallback: assign current wordIdx ids
           assignedIds = [...(originalWords[wordIdx].word_ids || [])];
-          wordIdx++;
         }
       }
 

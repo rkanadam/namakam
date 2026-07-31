@@ -69,19 +69,72 @@ describe('NamakamService Token Rebuilding', () => {
 
     const rebuilt = (service as any).rebuildTokens(originalMantra2PadaTokens, newPadaText);
 
-    // Verify "शि॒वत॒मेति॑" gets word_ids [67] (shivatama)
     const shivatameti = rebuilt.find((t: any) => t.text.includes("शि॒वत॒मेति"));
     expect(shivatameti).toBeDefined();
     expect(shivatameti.word_ids).toEqual([67]);
 
-    // Verify "शि॒वम" gets word_ids [68] (shivam)
     const shivam = rebuilt.find((t: any) => t.text.trim() === "शि॒वम");
     expect(shivam).toBeDefined();
     expect(shivam.word_ids).toEqual([68]);
 
-    // Verify "ते॒" gets word_ids [2] (te)
     const teTokens = rebuilt.filter((t: any) => t.text.trim() === "ते॒");
     expect(teTokens.length).toBeGreaterThan(0);
     expect(teTokens[0].word_ids).toEqual([2]);
+  });
+
+  it('should correctly align Mantra 3 Padapatha iti expansions like "apapakashini", "tanuva", "girishanta"', () => {
+    const originalMantra3PadaTokens = [
+      { text: "या", word_ids: [44] },
+      { text: " । ", word_ids: [] },
+      { text: "ते॒", word_ids: [2] },
+      { text: " । ", word_ids: [] },
+      { text: "रु॒द्र॒", word_ids: [3] },
+      { text: " । ", word_ids: [] },
+      { text: "शि॒वा", word_ids: [69] },
+      { text: " । ", word_ids: [] },
+      { text: "त॒नूः", word_ids: [72] },
+      { text: " । ", word_ids: [] },
+      { text: "अ॒घो॒रा", word_ids: [73] },
+      { text: " । ", word_ids: [] },
+      { text: "अ॒पा॑प-काशिनी", word_ids: [74] },
+      { text: " । ", word_ids: [] },
+      { text: "तया॑", word_ids: [48] },
+      { text: " । ", word_ids: [] },
+      { text: "नः॒", word_ids: [33] },
+      { text: " । ", word_ids: [] },
+      { text: "त॒नुवा॑", word_ids: [75] },
+      { text: " । ", word_ids: [] },
+      { text: "शन्तः॑-मया", word_ids: [76] },
+      { text: " । ", word_ids: [] },
+      { text: "गिरि॑-शन्त", word_ids: [77] },
+      { text: " । ", word_ids: [] },
+      { text: "अ॒भि", word_ids: [78] },
+      { text: " । ", word_ids: [] },
+      { text: "चा॒क॒शी॒हि॒", word_ids: [79] }
+    ];
+
+    const newPadaText = "या । ते॒ । रु॒द्र॒ । शि॒वा । त॒नूः । अघो॑रा । अपा॑पकाशि॒ नीत्य पा॑प = का॒शि॒नी॒ । तया᳚ । नः॒ । त॒नुवा॑॑ । शन्त॑म॒येति॒ शम त॒म॒या॒ । गिरि॑श॒न्तेति॒ गिरि॑ = श॒न्त॒ । अ॒भिति॑ (अ॒भि) । चा॒क॒शी॒हि॒";
+
+    const rebuilt = (service as any).rebuildTokens(originalMantra3PadaTokens, newPadaText);
+
+    // Verify "taya" gets word_ids [48]
+    const tayaToken = rebuilt.find((t: any) => t.text.trim() === "तया᳚");
+    expect(tayaToken).toBeDefined();
+    expect(tayaToken.word_ids).toEqual([48]);
+
+    // Verify "nah" gets word_ids [33]
+    const nahToken = rebuilt.find((t: any) => t.text.trim() === "नः॒");
+    expect(nahToken).toBeDefined();
+    expect(nahToken.word_ids).toEqual([33]);
+
+    // Verify "tanuva" gets word_ids [75]
+    const tanuvaToken = rebuilt.find((t: any) => t.text.trim().startsWith("त॒नुवा"));
+    expect(tanuvaToken).toBeDefined();
+    expect(tanuvaToken.word_ids).toEqual([75]);
+
+    // Verify "chakashihi" gets word_ids [79]
+    const chakashihiToken = rebuilt.find((t: any) => t.text.trim() === "चा॒क॒शी॒हि॒");
+    expect(chakashihiToken).toBeDefined();
+    expect(chakashihiToken.word_ids).toEqual([79]);
   });
 });
