@@ -3,7 +3,7 @@
   "title": "प्रथमोनुवाकः",
   "id": 12,
   "samhita": "विज्य॒-न्धनुः॑ कप॒र्दिनो॒ विश॑ल्यो॒ बाण॑वाग्ं उ॒त । अने॑शन्न॒स्येष॑व आ॒भुर॑स्य निष॒ङ्गथिः॑ ॥",
-  "pada": "वि-ज्य॑म् । धनुः॑ । क॒प॒र्दिनः॑ । वि-श॑ल्यः । बाण॑-वान् । उ॒त । अ॒ने॒श॒न् । अ॒स्य॒ । इष॑वः । आ॒भुः । अ॒स्य॒ । नि॒ष॒ङ्ग॒-इथिः॑ ॥",
+  "pada": "विज्य॒मिति॒ वि = ज्य॒म्॒ । धनुः॑ । क॒प॒र्दिनः॑ । विश॑ल्य॒ इ॒ति॒ वि = श॒ल्य॒: । बाण॑वा॒निति॒ बाण॑ = वा॒न॒ । उ॒त । अने॑शन्न् । अ॒स्य॒ । इष॑वः । आ॒भुः । अ॒स्य॒ । नि॒ष॒ङ्ग॒थिः॑ ॥",
   "krama": "विज्य॒-न्धनुः॑ । धनुः॑ कप॒र्दिनः । क॒प॒र्दिनो॒ विश॑ल्यः । विश॑ल्यो॒ बाण॑वान् । बाण॑वाग्ं उ॒त । उ॒ताने॑शन् । अ॒ने॒शन्न॒स्य । अ॒स्येष॑वः । इष॑व आ॒भुः । आ॒भुर॑स्य । अ॒स्य नि॑ष॒ङ्गथिः । नि॒ष॒ङ्गथि॒रिति॑ निषङ्ग-इथिः ॥",
   "commentaries": {
     "sayana": {
@@ -34,7 +34,6 @@
     {
       "text": "विज्य॒-न्धनुः॑",
       "word_ids": [
-        36,
         26
       ]
     },
@@ -64,9 +63,7 @@
     },
     {
       "text": "बाण॑वाग्ं",
-      "word_ids": [
-        39
-      ]
+      "word_ids": []
     },
     {
       "text": " ",
@@ -86,8 +83,7 @@
       "text": "अने॑शन्न॒स्येष॑व",
       "word_ids": [
         40,
-        41,
-        21
+        117
       ]
     },
     {
@@ -97,8 +93,7 @@
     {
       "text": "आ॒भुर॑स्य",
       "word_ids": [
-        42,
-        41
+        42
       ]
     },
     {
@@ -108,7 +103,7 @@
     {
       "text": "निष॒ङ्गथिः॑",
       "word_ids": [
-        43
+        585
       ]
     },
     {
@@ -118,13 +113,83 @@
   ],
   "pada_tokens": [
     {
-      "text": "वि-ज्य॑म्",
+      "text": "विज्य॒मिति॒",
       "word_ids": [
-        36
+        36,
+        543
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि",
+      "word_ids": [
+        36,
+        38,
+        50,
+        127,
+        132,
+        165,
+        168,
+        177,
+        192,
+        194,
+        216,
+        226,
+        228,
+        253,
+        254,
+        281,
+        327,
+        391,
+        392,
+        433,
+        434,
+        445,
+        455,
+        457,
+        466,
+        491,
+        503,
+        531,
+        544,
+        558,
+        561,
+        563,
+        578
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ज्य॒म्॒",
+      "word_ids": [
+        36,
+        543
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -134,7 +199,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -144,27 +217,154 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "वि-श॑ल्यः",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विश॑ल्य॒",
       "word_ids": [
         38
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "बाण॑-वान्",
+      "text": "इ॒ति॒",
+      "word_ids": [
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि",
+      "word_ids": [
+        36,
+        38,
+        50,
+        127,
+        132,
+        165,
+        168,
+        177,
+        192,
+        194,
+        216,
+        226,
+        228,
+        253,
+        254,
+        281,
+        327,
+        391,
+        392,
+        433,
+        434,
+        445,
+        455,
+        457,
+        466,
+        491,
+        503,
+        531,
+        544,
+        558,
+        561,
+        563,
+        578
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒ल्य॒:",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बाण॑वा॒निति॒",
+      "word_ids": [
+        64
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बाण॑",
       "word_ids": [
         39
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वा॒न॒",
+      "word_ids": [
+        39,
+        110,
+        140,
+        188,
+        389,
+        443,
+        507,
+        514
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -174,17 +374,33 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "अ॒ने॒श॒न्",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अने॑शन्न्",
       "word_ids": [
         40
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -194,7 +410,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -204,7 +428,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -214,7 +446,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -224,17 +464,29 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "नि॒ष॒ङ्ग॒-इथिः॑",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नि॒ष॒ङ्ग॒थिः॑",
       "word_ids": [
-        43
+        585
       ]
     },
     {
-      "text": " ॥",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
       "word_ids": []
     }
   ],
@@ -242,7 +494,6 @@
     {
       "text": "विज्य॒-न्धनुः॑",
       "word_ids": [
-        36,
         26
       ]
     },
@@ -303,8 +554,7 @@
     {
       "text": "बाण॑वान्",
       "word_ids": [
-        38,
-        40
+        39
       ]
     },
     {
@@ -333,7 +583,7 @@
       "text": "उ॒ताने॑शन्",
       "word_ids": [
         6,
-        40
+        23
       ]
     },
     {
@@ -343,8 +593,7 @@
     {
       "text": "अ॒ने॒शन्न॒स्य",
       "word_ids": [
-        40,
-        41
+        40
       ]
     },
     {
@@ -355,7 +604,7 @@
       "text": "अ॒स्येष॑वः",
       "word_ids": [
         41,
-        21
+        117
       ]
     },
     {
@@ -385,8 +634,7 @@
     {
       "text": "आ॒भुर॑स्य",
       "word_ids": [
-        42,
-        41
+        42
       ]
     },
     {
@@ -406,7 +654,7 @@
     {
       "text": "नि॑ष॒ङ्गथिः",
       "word_ids": [
-        43
+        585
       ]
     },
     {
@@ -416,7 +664,8 @@
     {
       "text": "नि॒ष॒ङ्गथि॒रिति॑",
       "word_ids": [
-        43
+        64,
+        585
       ]
     },
     {
@@ -426,7 +675,8 @@
     {
       "text": "निषङ्ग-इथिः",
       "word_ids": [
-        43
+        43,
+        585
       ]
     },
     {
@@ -435,16 +685,243 @@
     }
   ],
   "words": [
-    6,
-    21,
-    26,
-    36,
-    37,
-    38,
-    39,
-    40,
-    41,
-    42,
-    43
+    {
+      "id": 36,
+      "pada_form": "वि-ज्य॑म्",
+      "clean_form": "विज्यम्",
+      "meanings": {
+        "english": "Bowstring; string of the bow; that which overpowers",
+        "nirukta": "√jyā — 'jyāyate balam dadāti' (that which gives force/power). The bowstring is what propels the arrow — it is the source of the bow's destructive power. Also connected to 'jyāyas' (superior/overpowering).",
+        "vedantic": "Releasing the bowstring (jyā) renders the bow inoperative. In Muṇḍaka Upaniṣad terms, if the bow (Oṃkāra) is for launching the arrow (jīva) at Brahman, then releasing the string suggests the cessation of the outward-projecting force — the return to stillness."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 7.1.18 — ā-stem feminine: acc. sg. ज्याम्"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — grouped with āyudha-related terms.",
+        "amara_kosha": "Amarakośa 2.8.85 — ज्या listed as bowstring: 'jyā guṇaḥ' — jyā and guṇa are synonyms for bowstring (notable: guṇa = quality/string — a rich double meaning).",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 26,
+      "pada_form": "धनुः॑",
+      "clean_form": "धनुः",
+      "meanings": {
+        "english": "Bow; the arc-shaped weapon",
+        "nirukta": "Yāska connects dhanvan to √dhan (to produce sound) — the bow is characterized by its resonant twang when released. Also related to √dhanv (to curve/run) — its arc shape. Nirukta 9.11 notes the relationship between the bow's curve and the concept of all-pervading reach.",
+        "vedantic": "Muṇḍaka Upaniṣad (2.2.4): 'dhanur gṛhītvā aupaniṣadaṃ mahāstram' — 'Taking up the great weapon, the bow of the Upaniṣads' — the bow is Oṃkāra (Praṇava). It is both the vehicle of destruction and liberation. In Śrī Rudram context, saluting the bow acknowledges the instrument through which divine will operates."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√धन् + वनिप् (Uṇādi 4.113) → धन्वन् — vanip-pratyaya forms the n-stem noun",
+          "P 7.1.75 — an-anta (n-stem) declension paradigm: nom. धनुः (with P 8.2.7 n → anusvāra → ḥ), dat. धन्वने",
+          "P 6.4.8 — sarvanāmasthāna rules for the alternation between dhanvan-/dhanus- stems",
+          "P 8.2.7 — conversion of final n to visarjanīya in nom. sg.: dhanvans → dhanuḥ"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names). The Naighaṇṭuka tradition pairs it with iṣu as the primary weapon-set.",
+        "amara_kosha": "Amarakośa 2.8.85 (Kṣatriya-varga, Āyudha) — 'dhanuḥ koḍaṇḍam' — dhanus and koḍaṇḍa are synonyms for bow. Also 'cāpaḥ śarāsanam' as further synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 37,
+      "pada_form": "क॒प॒र्दिनः॑",
+      "clean_form": "कपर्दिनः",
+      "meanings": {
+        "english": "The matted-haired one; one who wears braided locks; the one with twisted locks (like a cowrie shell)",
+        "nirukta": "From kaparda — 'kapardaḥ keśa-bandhaḥ' (bound/twisted hair). 'Kapardo'sya asti iti kapardī' — one who possesses kaparda. The matted/twisted locks are a signature characteristic of Rudra-Śiva, representing asceticism (tapas).",
+        "vedantic": "The matted hair (jaṭā) of Rudra symbolizes tapas (austerity) and the containment of cosmic energy. Śiva as kapardin is the supreme ascetic whose very hair holds the Gaṅgā (divine knowledge). In mantra 12: 'vijyaṃ dhanuḥ kapardinaḥ' — 'stringless be the bow of the matted-haired one'."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 5.2.109 — ini-pratyaya (possessive): kaparda + in → kapardin (possessing kaparda)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "Amarakośa 1.1.29 — कपर्दी / कपालमाली listed among Śiva's epithets. Kaparda also means cowrie shell — Amarakośa 2.10.30.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 38,
+      "pada_form": "वि-श॑ल्यः",
+      "clean_form": "विशल्यः",
+      "meanings": {
+        "english": "Without arrowheads; freed from barbs; pointless (rendered harmless); with arrows extracted",
+        "nirukta": "Vi (privative) + śalya (arrowhead). The arrows are described as having their barbs removed — rendered completely harmless. 'Vigatāni śalyāni yasya saḥ' — one whose arrows have lost their points.",
+        "vedantic": "In mantra 12: 'viśalyo bāṇavān' — 'may his arrows be without points'. The prayer doesn't ask for the arrows to disappear — they remain, but are harmless. This is the Vedāntic insight that the world (jagat) need not be destroyed, only its harmful aspect removed."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 2.2.6 — vi-prefix in privative sense: vi + śalya → viśalya (without śalya)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 39,
+      "pada_form": "बाण॑-वान्",
+      "clean_form": "बाणवान्",
+      "meanings": {
+        "english": "Arrow; reed-shaft; missile",
+        "nirukta": "From √baṇ — 'baṇati śabdam karoti' (that which makes a sound) — the whistling arrow. Or from vaṇa (reed) — arrows were traditionally made from reeds.",
+        "vedantic": "In mantra 12: 'viśalyo bāṇavān' — Rudra still possesses (vān) arrows (bāṇa) but they are without points (viśalya). The prayer preserves Rudra's identity as warrior while neutralizing the threat."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 5.2.94 — matup-pratyaya: bāṇa + vat → bāṇavat, nom. bāṇavān (possessing arrows)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni alongside iṣu and śara.",
+        "amara_kosha": "Amarakośa 2.8.86 — बाणः listed as arrow-synonym: 'iṣuḥ śaraḥ bāṇaḥ'.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 6,
+      "pada_form": "उ॒त",
+      "clean_form": "उत",
+      "meanings": {
+        "english": "And; also; moreover; as well as; further",
+        "nirukta": "Vedic indeclinable conjunction (avyaya) expressing conjunction, addition, or emphasis. 'Uta' = 'api ca' (and also).",
+        "vedantic": "Connects various divine aspects and attributes, showing that all manifest forms are manifestations of the one Supreme Lord."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
+        ],
+        "case_ending": "Avyaya (indeclinable conjunction)"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
+        "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
+        "abhidhana_ratnamala": "Listed under conjunctions."
+      }
+    },
+    {
+      "id": 40,
+      "pada_form": "अ॒ने॒श॒न्",
+      "clean_form": "अनेशन्",
+      "meanings": {
+        "english": "They became powerless; they lost their ability; they became harmless; they could not reach [us]",
+        "nirukta": "Negated verb: a + √īś (to be powerful/able). 'Aneśan' = 'they became unable/powerless'. Sāyaṇa: 'na prabhavanti' (they do not have power). Applied to Rudra's arrows — they became incapable of harm.",
+        "vedantic": "In mantra 12: 'aneśan asya iṣavaḥ' — 'his arrows became powerless'. The prayer envisions a state where Rudra's weapons retain their form but lose their capacity to harm — transformation without destruction."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.3.175 — negated verbal form: a + neś/nīś + an"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 41,
+      "pada_form": "अ॒स्य॒",
+      "clean_form": "अस्य",
+      "meanings": {
+        "english": "This; this here; this very (proximate demonstrative pointing to something nearby)",
+        "nirukta": "Idam points to what is immediate and present, contrasted with adas (remote). In mantra 7: 'imāṃ rudrāḥ' — 'these Rudras here [in all directions]'.",
+        "vedantic": "The proximate 'idam' (this) vs remote 'adas' (that) establishes a spatial theology — Rudra is both 'asau' (that one yonder — the transcendent sun) and manifest 'here' (imāṃ — in all directions through the Rudras). This is the saguṇa-nirguṇa polarity."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — idam classified as sarvanāman",
+          "P 7.2.108-109 — special suppletion forms: idam → imam/imām",
+          "P 7.2.85 — enad-ādeśa: idam → enam/enām (anaphoric replacement)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 21,
+      "pada_form": "इष॑वः",
+      "clean_form": "इषवः",
+      "meanings": {
+        "english": "Around; fully; completely; on all sides; away from",
+        "nirukta": "Nirukta 1.3 — pari adds the sense of 'surrounding, encompassing, going around'. In mantra 15: 'pari te dhanvano hetiḥ asmān vṛṇaktu viśvataḥ' — 'may the weapon of your bow go around us [miss us] from all sides'.",
+        "vedantic": "Pari (around/away) in the protective context means 'let the weapon go around us, avoiding us'. The prayer creates a shield of divine grace that the weapon itself respects."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.4.58 — pari classified as an upasarga",
+          "P 1.4.59 — modifies verbal meaning to add 'around/completely'"
+        ],
+        "case_ending": "preverb (upasarga) / indeclinable"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.29 — listed among upasargas.",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 42,
+      "pada_form": "आ॒भुः",
+      "clean_form": "आभुः",
+      "meanings": {
+        "english": "To become; to be; to arise; to exist; to happen",
+        "nirukta": "Nirukta 2.1 — Yāska establishes √bhū as the root of all becoming. 'Bhavati' denotes coming-into-being, while 'babhūva' (perfect) indicates accomplished/established existence. The Nirukta treats bhū as the most productive root in the language.",
+        "vedantic": "In Vedānta, √bhū represents the principle of manifestation — Brahman becoming the world. 'Babhūva te dhanuḥ' — 'your bow has become [auspicious]' — represents the transformation of the terrible into the benign through prayer."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.115 — liṭ lakāra (perfect): भू → ब + भू + व → बभूव (with reduplication per P 6.1.8)",
+          "P 3.4.87 — loṭ lakāra (imperative): भू + हि → भव (with guṇa per P 7.3.84)",
+          "P 3.2.107 — past participle: भू + क्त → भूत",
+          "P 3.3.18 — verbal noun formation: भू + क्तिन् → भूतिः (prosperity)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 1.1 — √bhū listed among the most fundamental sattā-vācaka dhātus (existence-denoting roots).",
+        "amara_kosha": "Amarakośa 3.3.213 — भूतम् (past participle) listed meaning 'prāpta' (obtained) and 'jāta' (born). भूतानि as 'beings' appears in Amarakośa 1.1.7.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 585,
+      "pada_form": "नि॒ष॒ङ्ग॒-इथिः॑",
+      "clean_form": "निषङ्गथिः",
+      "meanings": {
+        "english": "The quiver attached / tied onto the back",
+        "nirukta": "From ni + sañj (niṣaṅga) + ithac pratyaya → niṣaṅgathiḥ (quiver for carrying arrows on the back).",
+        "vedantic": "Refers to Rudras quiver remaining in its place without being drawn, symbolizing peace."
+      },
+      "grammatical_references": {
+        "panini": "Niṣaṅga + ithac suffix (Uṇādi) → niṣaṅgathiḥ.",
+        "case_ending": "Nominative Singular, Masculine"
+      },
+      "lexicographical_references": {
+        "nighantu": "Quiver / weapon synonyms.",
+        "amara_kosha": "Quiver synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    }
   ]
 }

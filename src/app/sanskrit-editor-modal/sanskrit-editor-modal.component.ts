@@ -47,7 +47,8 @@ export class SanskritEditorModalComponent implements OnInit {
     { symbol: '।', name: 'दण्डः (Single Danda)', char: ' ।', shortcut: 'Alt+7' },
     { symbol: '॥', name: 'द्विदण्डः (Double Danda)', char: ' ॥', shortcut: 'Alt+8' },
     { symbol: 'ᳵ', name: 'जिह्वामूलीयः (Jihvamuliya)', char: '\u1CF5', shortcut: 'Alt+9' },
-    { symbol: 'ᳶ', name: 'उपध्मानीयः (Upadhmaniya)', char: '\u1CF6', shortcut: 'Alt+0' }
+    { symbol: 'ᳶ', name: 'उपध्मानीयः (Upadhmaniya)', char: '\u1CF6', shortcut: 'Alt+0' },
+    { symbol: ' ् ', name: 'विरामः / हलन्तः (Virama - Consonant Suppressor)', char: '\u094D', shortcut: 'Halant' }
   ];
 
   constructor(

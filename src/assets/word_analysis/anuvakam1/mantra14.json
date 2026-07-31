@@ -3,7 +3,7 @@
   "title": "प्रथमोनुवाकः",
   "id": 14,
   "samhita": "नम॑स्ते अ॒स्त्वायु॑धा॒याना॑तताय धृ॒ष्णवे᳚ । उ॒भाभ्या॑मु॒त ते॒ नमो॑ बा॒हुभ्या॒-न्तव॒ धन्व॑ने ॥",
-  "pada": "नमः॑ । ते॒ । अ॒स्तु॒ । आयु॑धाय । अना॑तताय । धृ॒ष्णवे᳚ । उ॒भाभ्या᳚म् । उ॒त । ते॒ । नमः॑ । बा॒हुभ्या᳚म् । तव॑ । धन्व॑ने ॥",
+  "pada": "नमः॑ । ते॒ । अ॒स्तु॒ । आयु॑धाय । अना॑तता॒येत्यना᳚ = त॒ता॒य॒ । धृ॒ष्णवे᳚ । उ॒भाभ्या᳚म । उ॒त । ते॒ । नमः॑ । बा॒हुभ्या॒मिति॑ बा॒हु = भ्या॒म्॒ । तव॑ । धन्व॑ने ॥",
   "krama": "नम॑स्ते । ते अ॑स्तु । अ॒स्तु॒ आयु॑धाय । आयु॑धाय॒ अना॑तताय । अना॑तताय धृ॒ष्णवे᳚ । धृ॒ष्णव॒ इति॑ धृ॒ष्णवे᳚ । उ॒भाभ्या॑मु॒त । उ॒त ते॒ । ते नमः॑ । नमः॑ बा॒हुभ्या᳚म् । बा॒हुभ्या॒-न्तव॑ । तव॒ धन्व॑ने । धन्व॑न॒ इति॑ धन्व॑ने ॥",
   "commentaries": {
     "sayana": {
@@ -45,9 +45,10 @@
     {
       "text": "अ॒स्त्वायु॑धा॒याना॑तताय",
       "word_ids": [
-        8,
-        53,
-        54
+        18,
+        23,
+        44,
+        94
       ]
     },
     {
@@ -67,8 +68,10 @@
     {
       "text": "उ॒भाभ्या॑मु॒त",
       "word_ids": [
+        18,
+        44,
         56,
-        6
+        80
       ]
     },
     {
@@ -88,7 +91,7 @@
     {
       "text": "नमो॑",
       "word_ids": [
-        1
+        144
       ]
     },
     {
@@ -98,7 +101,8 @@
     {
       "text": "बा॒हुभ्या॒-न्तव॒",
       "word_ids": [
-        10,
+        18,
+        44,
         57
       ]
     },
@@ -125,7 +129,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -135,7 +147,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -145,7 +165,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -155,17 +183,52 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "अना॑तताय",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अना॑तता॒येत्यना᳚",
+      "word_ids": [
+        54,
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त॒ता॒य॒",
       "word_ids": [
         54
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -175,17 +238,33 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "उ॒भाभ्या᳚म्",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒भाभ्या᳚म",
       "word_ids": [
         56
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -195,7 +274,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -205,7 +292,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -215,17 +310,62 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "बा॒हुभ्या᳚म्",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बा॒हुभ्या॒मिति॑",
+      "word_ids": [
+        10,
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "बा॒हु",
       "word_ids": [
         10
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ्या॒म्॒",
+      "word_ids": [
+        10
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -235,7 +375,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -245,7 +393,11 @@
       ]
     },
     {
-      "text": " ॥",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
       "word_ids": []
     }
   ],
@@ -274,7 +426,7 @@
     {
       "text": "अ॑स्तु",
       "word_ids": [
-        2
+        8
       ]
     },
     {
@@ -284,7 +436,7 @@
     {
       "text": "अ॒स्तु॒",
       "word_ids": [
-        2
+        8
       ]
     },
     {
@@ -304,7 +456,46 @@
     {
       "text": "आयु॑धाय॒",
       "word_ids": [
-        53,
+        53
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अना॑तताय",
+      "word_ids": [
+        54
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "अना॑तताय",
+      "word_ids": [
+        54
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धृ॒ष्णवे᳚",
+      "word_ids": [
+        55
+      ]
+    },
+    {
+      "text": " । ",
+      "word_ids": []
+    },
+    {
+      "text": "धृ॒ष्णव॒",
+      "word_ids": [
         55
       ]
     },
@@ -313,47 +504,10 @@
       "word_ids": []
     },
     {
-      "text": "अना॑तताय",
-      "word_ids": [
-        54,
-        6,
-        2
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "अना॑तताय",
-      "word_ids": [
-        6,
-        2
-      ]
-    },
-    {
-      "text": " ",
-      "word_ids": []
-    },
-    {
-      "text": "धृ॒ष्णवे᳚",
-      "word_ids": []
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "धृ॒ष्णव॒",
-      "word_ids": []
-    },
-    {
-      "text": " ",
-      "word_ids": []
-    },
-    {
       "text": "इति॑",
-      "word_ids": []
+      "word_ids": [
+        588
+      ]
     },
     {
       "text": " ",
@@ -361,7 +515,9 @@
     },
     {
       "text": "धृ॒ष्णवे᳚",
-      "word_ids": []
+      "word_ids": [
+        55
+      ]
     },
     {
       "text": " । ",
@@ -370,7 +526,10 @@
     {
       "text": "उ॒भाभ्या॑मु॒त",
       "word_ids": [
-        6
+        18,
+        44,
+        56,
+        80
       ]
     },
     {
@@ -390,7 +549,7 @@
     {
       "text": "ते॒",
       "word_ids": [
-        6
+        2
       ]
     },
     {
@@ -400,7 +559,7 @@
     {
       "text": "ते",
       "word_ids": [
-        6
+        2
       ]
     },
     {
@@ -440,7 +599,8 @@
     {
       "text": "बा॒हुभ्या॒-न्तव॑",
       "word_ids": [
-        1,
+        18,
+        44,
         57
       ]
     },
@@ -471,7 +631,7 @@
     {
       "text": "धन्व॑न॒",
       "word_ids": [
-        9
+        13
       ]
     },
     {
@@ -480,7 +640,9 @@
     },
     {
       "text": "इति॑",
-      "word_ids": []
+      "word_ids": [
+        588
+      ]
     },
     {
       "text": " ",
@@ -498,16 +660,248 @@
     }
   ],
   "words": [
-    1,
-    2,
-    6,
-    8,
-    9,
-    10,
-    53,
-    54,
-    55,
-    56,
-    57
+    {
+      "id": 1,
+      "pada_form": "नमः॑",
+      "clean_form": "नमः",
+      "meanings": {
+        "english": "Salutation; obeisance; reverential bowing; surrender; homage",
+        "nirukta": "Yāska (Nirukta 3.16 and 10.3) derives from √nam — 'namati praṇamati' (one bows down, prostrates). The visarga form namaḥ indicates the completed act of submission. Some nairuktikas parse as 'na + maḥ' — 'not mine', indicating relinquishment of ego, though Yāska himself favors the verbal derivation.",
+        "vedantic": "In Advaita, 'namaḥ' is parsed as 'na mama' (not mine) — a surrender of kartṛtva and bhoktṛtva (doership and enjoyership). Śaṅkara in his bhāṣya treats namaḥ as complete effacement of ahaṅkāra before the Supreme. In Śaiva Siddhānta, it represents prapatti (total surrender) to Rudra-Śiva. The Śvetāśvatara Upaniṣad (4.22) uses 'namaḥ' in the same spirit when addressing Rudra."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√नम् + असुन् (Uṇādi 4.188) → नमस् — the asun-pratyaya forms the abstract noun",
+          "P 8.3.34 — visarjanīya (ḥ) at pada-end before pause (avasāna)",
+          "P 8.3.15 — visarjanīya rules for s → ḥ in sentence-final position"
+        ],
+        "case_ending": "nominative/accusative singular, neuter"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.18 — listed among karmavācaka words (action-denoting terms). Naighaṇṭuka-kāṇḍa groups it with acts of reverence and worship.",
+        "amara_kosha": "Amarakośa 3.3.213 — नमः listed as an avyaya (indeclinable) meaning 'praṇāma' (prostration). Amara classifies it among common liturgical expressions.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 2,
+      "pada_form": "ते॒",
+      "clean_form": "ते",
+      "meanings": {
+        "english": "To you; your; of you; for you",
+        "nirukta": "Nirukta 1.4 discusses pronoun forms. The enclitic 'te' is the natural conversational form of address in Vedic, more intimate than the full 'tubhyam' — it implies direct, personal communion with the deity.",
+        "vedantic": "Here 'te' addresses Rudra as the Supreme Being directly. The repeated use throughout Śrī Rudram establishes the devotee's continuous awareness of the divine 'You' — the eternal subject who is never an object."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — enclitic (anudātta) form",
+          "P 8.1.28 — replacement of tubhyam/tava"
+        ],
+        "case_ending": "Dative / Genitive Singular (Caturthī / Ṣaṣṭhī Vibhakti, Ekavacana)"
+      },
+      "lexicographical_references": {
+        "nighantu": "Pronoun section.",
+        "amara_kosha": "Pronoun class.",
+        "abhidhana_ratnamala": "Listed under pronouns."
+      }
+    },
+    {
+      "id": 8,
+      "pada_form": "अ॒स्तु॒",
+      "clean_form": "अस्तु",
+      "meanings": {
+        "english": "Bow; the arc-shaped weapon",
+        "nirukta": "Yāska connects dhanvan to √dhan (to produce sound) — the bow is characterized by its resonant twang when released. Also related to √dhanv (to curve/run) — its arc shape. Nirukta 9.11 notes the relationship between the bow's curve and the concept of all-pervading reach.",
+        "vedantic": "Muṇḍaka Upaniṣad (2.2.4): 'dhanur gṛhītvā aupaniṣadaṃ mahāstram' — 'Taking up the great weapon, the bow of the Upaniṣads' — the bow is Oṃkāra (Praṇava). It is both the vehicle of destruction and liberation. In Śrī Rudram context, saluting the bow acknowledges the instrument through which divine will operates."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√धन् + वनिप् (Uṇādi 4.113) → धन्वन् — vanip-pratyaya forms the n-stem noun",
+          "P 7.1.75 — an-anta (n-stem) declension paradigm: nom. धनुः (with P 8.2.7 n → anusvāra → ḥ), dat. धन्वने",
+          "P 6.4.8 — sarvanāmasthāna rules for the alternation between dhanvan-/dhanus- stems",
+          "P 8.2.7 — conversion of final n to visarjanīya in nom. sg.: dhanvans → dhanuḥ"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names). The Naighaṇṭuka tradition pairs it with iṣu as the primary weapon-set.",
+        "amara_kosha": "Amarakośa 2.8.85 (Kṣatriya-varga, Āyudha) — 'dhanuḥ koḍaṇḍam' — dhanus and koḍaṇḍa are synonyms for bow. Also 'cāpaḥ śarāsanam' as further synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 53,
+      "pada_form": "आयु॑धाय",
+      "clean_form": "आयुधाय",
+      "meanings": {
+        "english": "Weapon; armament; instrument of war; the means of fighting",
+        "nirukta": "From ā + √yudh — 'āyudhyate yena tat āyudham' (that by which one fights). The generic term for any weapon.",
+        "vedantic": "In mantra 14: 'namaḥ te astu āyudhāya' — salutation to the weapon itself. The weapon is honored as a manifestation of divine power. In Vedāntic terms, even the instrument of fear is worthy of worship because it belongs to Brahman."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.3.122 — ghañ-pratyaya: ā + yudh + a → āyudha (instrument of fighting)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — listed as the generic term for weapon (āyudha-nāmāni: the weapon-names section is named after this word).",
+        "amara_kosha": "Amarakośa 2.8.81 — आयुधम् as the primary entry: 'āyudhaṃ praharaṇam śastram' — āyudha, praharaṇa, and śastra are weapon-synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 54,
+      "pada_form": "अना॑तताय",
+      "clean_form": "अनातताय",
+      "meanings": {
+        "english": "Unstrung; not stretched; relaxed; at rest (said of a bow not drawn)",
+        "nirukta": "Negative past participle: an + ātata (strung/stretched). 'Na ātataṃ yasya tat anātatam' — that which is not strung. In mantra 14: 'āyudhāya anātatāya' — 'to the weapon that is unstrung/at rest'. The prayer salutes the weapon in its peaceful state.",
+        "vedantic": "Saluting the unstrung weapon is saluting Rudra in his peaceful aspect — the warrior at rest. The compound 'anātata' represents the cessation of the threat — the bow exists but is not drawn, the power exists but is not exercised destructively."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 6.2.155 — nañ-compound: an + ātata → anātata (not stretched/strung)",
+          "P 3.2.102 — ātata: ā + √tan + kta → ātata (stretched/strung)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 55,
+      "pada_form": "धृ॒ष्णवे᳚",
+      "clean_form": "धृष्णवे",
+      "meanings": {
+        "english": "Bold; daring; courageous; audacious; the one who dares",
+        "nirukta": "From √dhṛṣ — 'dhṛṣṇoti sāhase vartate' (one who acts with daring/boldness). The ṇu-suffix forms agent adjectives. Sāyaṇa: 'dhīra' (brave) and 'pratāpī' (one of splendor).",
+        "vedantic": "In mantra 14: 'dhṛṣṇave namaḥ' — salutation to the bold/daring one. This acknowledges Rudra's fearless nature. In Vedānta, boldness (dhārṣṭya) in the divine context is the supreme confidence of Brahman — the fearless one (abhayaṅkara)."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.140 — ṇu-pratyaya (Uṇādi): dhṛṣ + ṇu → dhṛṣṇu"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 56,
+      "pada_form": "उ॒भाभ्या᳚म्",
+      "clean_form": "उभाभ्याम्",
+      "meanings": {
+        "english": "Both; the two (always dual)",
+        "nirukta": "Ubha denotes 'both together' — always used in dual. In mantra 14: 'ubhābhyām uta te namaḥ' — 'to both [arms], and to you, salutation'. In mantra 10: 'ubhayoḥ ārtniyoḥ' — 'from both bow-tips'.",
+        "vedantic": "The dual 'both' emphasizes the completeness of the salutation — both arms, both ends of the bow. Nothing is left unacknowledged."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — ubha classified as sarvanāman",
+          "P 7.1.55 — ubha used only in dual forms"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 6,
+      "pada_form": "उ॒त",
+      "clean_form": "उत",
+      "meanings": {
+        "english": "And; also; moreover; as well as; further",
+        "nirukta": "Vedic indeclinable conjunction (avyaya) expressing conjunction, addition, or emphasis. 'Uta' = 'api ca' (and also).",
+        "vedantic": "Connects various divine aspects and attributes, showing that all manifest forms are manifestations of the one Supreme Lord."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
+        ],
+        "case_ending": "Avyaya (indeclinable conjunction)"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
+        "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
+        "abhidhana_ratnamala": "Listed under conjunctions."
+      }
+    },
+    {
+      "id": 10,
+      "pada_form": "बा॒हुभ्या᳚म्",
+      "clean_form": "बाहुभ्याम्",
+      "meanings": {
+        "english": "And; also; moreover; as well as; further",
+        "nirukta": "Nirukta 1.9 — Yāska classifies uta among the upamārthīya and samuccayārthīya particles. In doubled form 'utota' (uta+uta), it emphasizes cumulative addition — 'and further also'. The Nirukta notes that nipātas modify the meaning of adjacent words without independent denotation.",
+        "vedantic": "The repeated 'uta' extends the salutation to every aspect of Rudra — not just to Rudra himself but also to his instruments. This reveals the Vedic insight that the divine pervades every aspect, even the weapons that cause fear."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.37 — classified as a nipāta (particle), which by P 1.1.38 are sarvadā anudāttāḥ (always anudātta) except when specifically accented by Vedic usage",
+          "P 2.2.29 — uta as a samuccaya (cumulative conjunction) in dvandva-like constructions"
+        ],
+        "case_ending": "indeclinable conjunction"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.29 — listed among samuccayārthaka avyayas (conjunctive particles). The Nighantu tradition recognizes its use in both additive and emphatic senses.",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 57,
+      "pada_form": "तव॑",
+      "clean_form": "तव",
+      "meanings": {
+        "english": "Your; of you; belonging to you",
+        "nirukta": "The full genitive form 'tava' is used when emphasis or sentence-initial position requires the stressed pronoun form, as opposed to the enclitic 'te'.",
+        "vedantic": "Same referent as 'te' — addresses Rudra directly. The full form 'tava' carries greater emphasis — 'yours specifically, O Rudra'."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — unlike 'te', 'tava' is the full (pragṛhya) genitive form that can begin a sentence",
+          "P 7.2.97 — genitive singular formation of yuṣmad-śabda"
+        ],
+        "case_ending": "genitive singular — 'your, of you' (full/non-enclitic form, unlike 'te')"
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 9,
+      "pada_form": "धन्व॑ने",
+      "clean_form": "धन्वने",
+      "meanings": {
+        "english": "Arm; forearm; the upper limb from shoulder to hand",
+        "nirukta": "Yāska connects bāhu to √baṃh — 'baṃhate vardhate iti bāhuḥ' (that which grows strong / extends). The dual form refers specifically to Rudra's two arms as distinct instruments of power.",
+        "vedantic": "The two arms represent Rudra's dual function — protection (abhaya) and discipline (daṇḍa). Saluting the arms separately from the weapons shows the Vedic seer's comprehensive vision — every limb of the divine merits reverence. The dual form hints at the pairs of opposites (dvandva) that Rudra transcends."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√बंह् + उ (Uṇādi 1.22) → बाहु — u-pratyaya with vṛddhi of root vowel",
+          "P 7.1.73 — u-kārānta (u-stem) declension: dual dat./instr. बाहुभ्याम्",
+          "P 7.3.113 — dual case ending -bhyām applies directly to u-stem"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.4 — listed among aṅga-nāmāni (body-part names) in the Naighaṇṭuka-kāṇḍa.",
+        "amara_kosha": "Amarakośa 2.6.73 (Manuṣya-varga, Aṅga) — बाहुः listed among arm-names: 'bāhur dorbhujau' — bāhu, dos, and bhuja are synonyms for arm.",
+        "abhidhana_ratnamala": ""
+      }
+    }
   ]
 }

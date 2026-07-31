@@ -18,6 +18,12 @@ describe('ItransService', () => {
     expect(service.toDevanagari('rudra')).toEqual('रुद्र');
     expect(service.toDevanagari('manyave')).toEqual('मन्यवे');
     expect(service.toDevanagari('namaH')).toEqual('नमः');
+    expect(service.toDevanagari('kRRita')).toEqual('कृत');
+    expect(service.toDevanagari('saMskRta')).toEqual('संस्कृत');
+    expect(service.toDevanagari('ksha')).toEqual('क्ष');
+    expect(service.toDevanagari('kSha')).toEqual('क्ष');
+    expect(service.toDevanagari('xa')).toEqual('क्ष');
+    expect(service.toDevanagari('kShama')).toEqual('क्षम');
   });
 
   it('should preserve Vedic swara accents during transliteration', () => {

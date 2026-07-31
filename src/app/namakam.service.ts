@@ -253,9 +253,10 @@ export class NamakamService {
   }
 
   async getCorrelatedData(): Promise<any> {
-    const data = await firstValueFrom(this.http.get<any>('assets/correlated_namakam.json'));
-    if (data?.anuvakas) {
-      for (const a of data.anuvakas) {
+    const data = await firstValueFrom(this.data$);
+    if (data?.correlated?.anuvakas) {
+      const copy = JSON.parse(JSON.stringify(data.correlated));
+      for (const a of copy.anuvakas) {
         for (const m of a.mantras) {
           const edit = this.editorService.getMantraEdit(a.id, m.id);
           if (edit) {
@@ -265,34 +266,62 @@ export class NamakamService {
           }
         }
       }
+      return copy;
     }
-    return data;
+    return null;
   }
 
   getGlobalDictionary(): Promise<any> {
-    return firstValueFrom(this.http.get('assets/word_analysis/global_dictionary.json'));
+    return firstValueFrom(this.data$.pipe(map(d => d.dictionary)));
   }
 
   async getMantraDetails(anuvakamNum: number, mantraId: number): Promise<any> {
-    const details = await firstValueFrom(this.http.get<any>(`assets/word_analysis/anuvakam${anuvakamNum}/mantra${mantraId}.json`));
+    const data = await firstValueFrom(this.data$);
+    const key = `${anuvakamNum}_${mantraId}`;
+    const details = data?.mantras ? data.mantras[key] : null;
     if (details) {
+      const copy = JSON.parse(JSON.stringify(details));
       const edit = this.editorService.getMantraEdit(anuvakamNum, mantraId);
       if (edit) {
         if (edit.samhita !== undefined) {
-          details.samhita = edit.samhita;
-          details.samhita_tokens = this.rebuildTokens(details.samhita_tokens, edit.samhita);
+          copy.samhita = edit.samhita;
+          copy.samhita_tokens = this.rebuildTokens(copy.samhita_tokens, edit.samhita);
         }
         if (edit.pada !== undefined) {
-          details.pada = edit.pada;
-          details.pada_tokens = this.rebuildTokens(details.pada_tokens, edit.pada);
+          copy.pada = edit.pada;
+          copy.pada_tokens = this.rebuildTokens(copy.pada_tokens, edit.pada);
         }
         if (edit.krama !== undefined) {
-          details.krama = edit.krama;
-          details.krama_tokens = this.rebuildTokens(details.krama_tokens, edit.krama);
+          copy.krama = edit.krama;
+          copy.krama_tokens = this.rebuildTokens(copy.krama_tokens, edit.krama);
         }
       }
+      return copy;
     }
-    return details;
+    // Fallback HTTP request
+    try {
+      const httpDetails = await firstValueFrom(this.http.get<any>(`assets/word_analysis/anuvakam${anuvakamNum}/mantra${mantraId}.json`));
+      if (httpDetails) {
+        const edit = this.editorService.getMantraEdit(anuvakamNum, mantraId);
+        if (edit) {
+          if (edit.samhita !== undefined) {
+            httpDetails.samhita = edit.samhita;
+            httpDetails.samhita_tokens = this.rebuildTokens(httpDetails.samhita_tokens, edit.samhita);
+          }
+          if (edit.pada !== undefined) {
+            httpDetails.pada = edit.pada;
+            httpDetails.pada_tokens = this.rebuildTokens(httpDetails.pada_tokens, edit.pada);
+          }
+          if (edit.krama !== undefined) {
+            httpDetails.krama = edit.krama;
+            httpDetails.krama_tokens = this.rebuildTokens(httpDetails.krama_tokens, edit.krama);
+          }
+        }
+      }
+      return httpDetails;
+    } catch {
+      return null;
+    }
   }
 
   private rebuildTokens(originalTokens: Token[], newText: string): Token[] {

@@ -3,7 +3,7 @@
   "title": "प्रथमोनुवाकः",
   "id": 11,
   "samhita": "अ॒व॒तत्य॒ धनु॒स्त्वग्ं सह॑स्राक्ष॒ शते॑षुधे । नि॒शीर्य॑ श॒ल्याना॒-म्मुखा॑ शि॒वो नः॑ सु॒मना॑ भव ॥",
-  "pada": "अ॒व॒-तत्य॑ । धनुः॑ । त्वम् । स॒ह॒स्र॒-अ॒क्ष॒ । शते॑-इषुधे । नि-शीर्य॑ । श॒ल्याना॑म् । मुखा॑ । शि॒वः । नः॒ । सु॒-मनाः॑ । भ॒व॒ ॥",
+  "pada": "अ॒व॒-तत्येत्य॑व = तत्य॑ । धनुः॑ । त्वम । सह॑स्रा॒क्षेति॒ सह॑स्र = अ॒क्ष॒ । शते॑षुध॒ इ॒ति॒ शत॑ = इ॒शु॒धे॒ । निशीर्येति॑ नि = शीर्य॑ । श॒ल्याना᳚म । मुखा᳚ । शि॒वः । नः॒ । सु॒मना॒ इति॑ सु = मना᳚: । भ॒व॒ ॥",
   "krama": "अ॒व॒तत्य॒ धनुः॑ । धनु॒स्त्वम् । त्वग्ं सह॑स्राक्ष । सह॑स्राक्ष॒ शते॑षुधे । शते॑षुध॒ इति॑ शते-इषुधे । नि॒शीर्य॑ श॒ल्याना॑म् । श॒ल्याना॒-म्मुखा॑ । मुखा॑ शि॒वः । शि॒वो नः । नः॒ सु॒मनाः॑ । सु॒मना॑ भव । भ॒वेति॑ भव ॥",
   "commentaries": {
     "sayana": {
@@ -44,8 +44,7 @@
     {
       "text": "धनु॒स्त्वग्ं",
       "word_ids": [
-        26,
-        14
+        26
       ]
     },
     {
@@ -55,7 +54,7 @@
     {
       "text": "सह॑स्राक्ष॒",
       "word_ids": [
-        27
+        583
       ]
     },
     {
@@ -65,7 +64,7 @@
     {
       "text": "शते॑षुधे",
       "word_ids": [
-        28
+        584
       ]
     },
     {
@@ -75,8 +74,7 @@
     {
       "text": "नि॒शीर्य॑",
       "word_ids": [
-        29,
-        30
+        29
       ]
     },
     {
@@ -86,7 +84,7 @@
     {
       "text": "श॒ल्याना॒-म्मुखा॑",
       "word_ids": [
-        31
+        30
       ]
     },
     {
@@ -106,7 +104,8 @@
     {
       "text": "नः॑",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
@@ -136,13 +135,396 @@
   ],
   "pada_tokens": [
     {
-      "text": "अ॒व॒-तत्य॑",
+      "text": "अ॒व॒-तत्येत्य॑व",
+      "word_ids": [
+        25,
+        117,
+        124,
+        471
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "तत्य॑",
+      "word_ids": [
+        25,
+        471
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धनुः॑",
+      "word_ids": [
+        26
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "त्वम",
+      "word_ids": [
+        14
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सह॑स्रा॒क्षेति॒",
+      "word_ids": [
+        583
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सह॑स्र",
+      "word_ids": [
+        27,
+        123,
+        138,
+        435,
+        439,
+        442,
+        583
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒क्ष॒",
+      "word_ids": [
+        27,
+        138
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शते॑षुध॒",
+      "word_ids": [
+        584
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इ॒ति॒",
+      "word_ids": [
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शत॑",
+      "word_ids": [
+        584
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इ॒शु॒धे॒",
+      "word_ids": [
+        584
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "निशीर्येति॑",
+      "word_ids": [
+        29,
+        64,
+        117
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नि",
+      "word_ids": [
+        64,
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शीर्य॑",
+      "word_ids": [
+        29
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "श॒ल्याना᳚म",
+      "word_ids": [
+        30
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मुखा᳚",
+      "word_ids": [
+        31
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "शि॒वः",
+      "word_ids": [
+        32
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नः॒",
+      "word_ids": [
+        33,
+        509
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु॒मना॒",
+      "word_ids": [
+        34
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इति॑",
+      "word_ids": [
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सु",
+      "word_ids": [
+        34,
+        116,
+        339,
+        340,
+        495
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "मना᳚:",
+      "word_ids": [
+        34
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "भ॒व॒",
+      "word_ids": [
+        35
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
+      "word_ids": []
+    }
+  ],
+  "krama_tokens": [
+    {
+      "text": "अ॒व॒तत्य॒",
       "word_ids": [
         25
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
@@ -156,133 +538,10 @@
       "word_ids": []
     },
     {
-      "text": "त्वम्",
-      "word_ids": [
-        14
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "स॒ह॒स्र॒-अ॒क्ष॒",
-      "word_ids": [
-        27
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "शते॑-इषुधे",
-      "word_ids": [
-        28
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "नि-शीर्य॑",
-      "word_ids": [
-        29,
-        30
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "श॒ल्याना॑म्",
-      "word_ids": [
-        31
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "मुखा॑",
-      "word_ids": []
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "शि॒वः",
-      "word_ids": [
-        32
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "नः॒",
-      "word_ids": [
-        33
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "सु॒-मनाः॑",
-      "word_ids": [
-        34
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
-      "text": "भ॒व॒",
-      "word_ids": [
-        35
-      ]
-    },
-    {
-      "text": " ॥",
-      "word_ids": []
-    }
-  ],
-  "krama_tokens": [
-    {
-      "text": "अ॒व॒तत्य॒",
-      "word_ids": [
-        25,
-        14
-      ]
-    },
-    {
-      "text": " ",
-      "word_ids": []
-    },
-    {
-      "text": "धनुः॑",
-      "word_ids": [
-        26,
-        29
-      ]
-    },
-    {
-      "text": " । ",
-      "word_ids": []
-    },
-    {
       "text": "धनु॒स्त्वम्",
       "word_ids": [
-        29,
-        31
+        14,
+        26
       ]
     },
     {
@@ -300,7 +559,7 @@
     {
       "text": "सह॑स्राक्ष",
       "word_ids": [
-        34
+        583
       ]
     },
     {
@@ -310,7 +569,7 @@
     {
       "text": "सह॑स्राक्ष॒",
       "word_ids": [
-        34
+        583
       ]
     },
     {
@@ -319,7 +578,9 @@
     },
     {
       "text": "शते॑षुधे",
-      "word_ids": []
+      "word_ids": [
+        584
+      ]
     },
     {
       "text": " । ",
@@ -327,7 +588,9 @@
     },
     {
       "text": "शते॑षुध॒",
-      "word_ids": []
+      "word_ids": [
+        584
+      ]
     },
     {
       "text": " ",
@@ -335,7 +598,9 @@
     },
     {
       "text": "इति॑",
-      "word_ids": []
+      "word_ids": [
+        588
+      ]
     },
     {
       "text": " ",
@@ -343,7 +608,10 @@
     },
     {
       "text": "शते-इषुधे",
-      "word_ids": []
+      "word_ids": [
+        28,
+        584
+      ]
     },
     {
       "text": " । ",
@@ -352,7 +620,7 @@
     {
       "text": "नि॒शीर्य॑",
       "word_ids": [
-        33
+        29
       ]
     },
     {
@@ -362,8 +630,7 @@
     {
       "text": "श॒ल्याना॑म्",
       "word_ids": [
-        32,
-        33
+        30
       ]
     },
     {
@@ -373,8 +640,7 @@
     {
       "text": "श॒ल्याना॒-म्मुखा॑",
       "word_ids": [
-        32,
-        33
+        30
       ]
     },
     {
@@ -383,7 +649,9 @@
     },
     {
       "text": "मुखा॑",
-      "word_ids": []
+      "word_ids": [
+        31
+      ]
     },
     {
       "text": " ",
@@ -412,7 +680,8 @@
     {
       "text": "नः",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
@@ -422,7 +691,8 @@
     {
       "text": "नः॒",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
@@ -432,7 +702,7 @@
     {
       "text": "सु॒मनाः॑",
       "word_ids": [
-        33
+        34
       ]
     },
     {
@@ -442,7 +712,7 @@
     {
       "text": "सु॒मना॑",
       "word_ids": [
-        33
+        34
       ]
     },
     {
@@ -481,17 +751,265 @@
     }
   ],
   "words": [
-    14,
-    25,
-    26,
-    27,
-    28,
-    29,
-    30,
-    31,
-    32,
-    33,
-    34,
-    35
+    {
+      "id": 25,
+      "pada_form": "अ॒व॒-तत्य॑",
+      "clean_form": "अवतत्य",
+      "meanings": {
+        "english": "Having unstrung; having loosened; having taken down (the bowstring)",
+        "nirukta": "Compound verb: ava (down) + √tan (to stretch). 'Avatatya dhanuḥ' — 'having unstrung the bow'. The absolutive indicates a prior action — 'after unstringing the bow, [then] be gracious'.",
+        "vedantic": "The sequence of disarmament continues in mantra 11 — first unstring the bow (avatatya dhanuḥ), then blunt the arrow-tips (niśīrya śalyānāṃ mukhā), then be benevolent (śivo naḥ sumanā bhava). Each step removes a layer of threat."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.4.21 — lyap-pratyaya for absolutive with prefix: अव + तन् + ल्यप् → अवतत्य"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 26,
+      "pada_form": "धनुः॑",
+      "clean_form": "धनुः",
+      "meanings": {
+        "english": "Bow; the arc-shaped weapon",
+        "nirukta": "Yāska connects dhanvan to √dhan (to produce sound) — the bow is characterized by its resonant twang when released. Also related to √dhanv (to curve/run) — its arc shape. Nirukta 9.11 notes the relationship between the bow's curve and the concept of all-pervading reach.",
+        "vedantic": "Muṇḍaka Upaniṣad (2.2.4): 'dhanur gṛhītvā aupaniṣadaṃ mahāstram' — 'Taking up the great weapon, the bow of the Upaniṣads' — the bow is Oṃkāra (Praṇava). It is both the vehicle of destruction and liberation. In Śrī Rudram context, saluting the bow acknowledges the instrument through which divine will operates."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√धन् + वनिप् (Uṇādi 4.113) → धन्वन् — vanip-pratyaya forms the n-stem noun",
+          "P 7.1.75 — an-anta (n-stem) declension paradigm: nom. धनुः (with P 8.2.7 n → anusvāra → ḥ), dat. धन्वने",
+          "P 6.4.8 — sarvanāmasthāna rules for the alternation between dhanvan-/dhanus- stems",
+          "P 8.2.7 — conversion of final n to visarjanīya in nom. sg.: dhanvans → dhanuḥ"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names). The Naighaṇṭuka tradition pairs it with iṣu as the primary weapon-set.",
+        "amara_kosha": "Amarakośa 2.8.85 (Kṣatriya-varga, Āyudha) — 'dhanuḥ koḍaṇḍam' — dhanus and koḍaṇḍa are synonyms for bow. Also 'cāpaḥ śarāsanam' as further synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 14,
+      "pada_form": "त्वम्",
+      "clean_form": "त्वम्",
+      "meanings": {
+        "english": "Both; the two (always dual)",
+        "nirukta": "Ubha denotes 'both together' — always used in dual. In mantra 14: 'ubhābhyām uta te namaḥ' — 'to both [arms], and to you, salutation'. In mantra 10: 'ubhayoḥ ārtniyoḥ' — 'from both bow-tips'.",
+        "vedantic": "The dual 'both' emphasizes the completeness of the salutation — both arms, both ends of the bow. Nothing is left unacknowledged."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — ubha classified as sarvanāman",
+          "P 7.1.55 — ubha used only in dual forms"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 583,
+      "pada_form": "स॒ह॒स्र॒-अ॒क्ष",
+      "clean_form": "सहस्राक्ष",
+      "meanings": {
+        "english": "O thousand-eyed one! (having innumerable eyes/glances)",
+        "nirukta": "Sahasra (thousand) + akṣa (eyes) in vocative singular address.",
+        "vedantic": "Invoking Shiva as omnipresent and all-seeing, whose eyes behold all actions in the universe."
+      },
+      "grammatical_references": {
+        "panini": "Bahuvrīhi compound: sahasram akṣīṇi yasya saḥ → sahasrākṣa (vocative singular).",
+        "case_ending": "Vocative Singular, Masculine"
+      },
+      "lexicographical_references": {
+        "nighantu": "Names of deities.",
+        "amara_kosha": "Epithets of Shiva.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 584,
+      "pada_form": "शते॑-इषुधे",
+      "clean_form": "शतेषुधे",
+      "meanings": {
+        "english": "O possessor of hundreds of quivers!",
+        "nirukta": "Śata (hundreds of) + iṣudhi (quivers of arrows) in vocative singular.",
+        "vedantic": "Praising the infinite capacity of Rudras powers and arsenal, asking Him to pacify them all."
+      },
+      "grammatical_references": {
+        "panini": "Bahuvrīhi compound: śatam iṣudhayaḥ yasya saḥ → śateṣudhe (vocative singular).",
+        "case_ending": "Vocative Singular, Masculine"
+      },
+      "lexicographical_references": {
+        "nighantu": "Names of deities.",
+        "amara_kosha": "Epithets of Rudra.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 29,
+      "pada_form": "नि-शीर्य॑",
+      "clean_form": "निशीर्य",
+      "meanings": {
+        "english": "Having blunted; having shattered; having broken off; having crushed down",
+        "nirukta": "Compound verb: ni (down) + √śṝ (to crush/break). 'Niśīrya śalyānāṃ mukhā' — 'having blunted the points of the arrows'. The absolutive describes rendering the arrows harmless by breaking their tips.",
+        "vedantic": "The systematic disarmament prayer: unstring the bow (avatatya), blunt the arrow-tips (niśīrya mukhā), then be benevolent. This represents the Vedic devotee's practical theology — not just asking for mercy in the abstract but specifying exactly how the threat should be neutralized."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.4.21 — lyap: नि + शॄ + ल्यप् → निशीर्य"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 30,
+      "pada_form": "श॒ल्याना॑म्",
+      "clean_form": "शल्यानाम्",
+      "meanings": {
+        "english": "Arrowhead; arrow-point; barb; thorn; the sharp wounding part",
+        "nirukta": "From √śal — 'śalati gatim prāpnoti iti śalyam' (that which moves/penetrates). The wounding point of the arrow — what actually causes harm.",
+        "vedantic": "Asking for the śalyas (arrowheads) to be blunted goes beyond merely unstringing the bow — even if the arrows were somehow launched, they would be harmless. The prayer layers redundant protections, reflecting complete dependence on divine mercy."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√शल् + य (Uṇādi) → शल्य"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "Amarakośa 2.8.86 — शल्यम् listed meaning 'bāṇāgra' (arrow-tip). Also used in Ayurveda: śalya-tantra = surgery (the science of extracting foreign objects from the body).",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 31,
+      "pada_form": "मुखा॑",
+      "clean_form": "मुखा",
+      "meanings": {
+        "english": "Face; mouth; tip; point; opening; front part",
+        "nirukta": "From √mukh — 'mukhayati āsyam iti mukham' (that which faces/opens). In the context of arrows: mukha = the tip/point. 'Śalyānāṃ mukhā' = 'the points/faces of the arrowheads'.",
+        "vedantic": "Mukha as 'point/tip' of the arrow — the part that pierces. Blunting the mukha renders the weapon non-lethal. In broader Vedāntic usage, mukha (face/opening) represents the point of contact between the divine and the manifest — Rudra's face turned toward us should be śiva."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 7.1.20 — neut. nom. pl.: mukha + ani → mukhāni (but Vedic mukhā)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.4 — listed among aṅga-nāmāni (body-part names) and also among agra-vācaka (tip/front-denoting) words.",
+        "amara_kosha": "Amarakośa 2.6.86 — मुखम् listed among face/front terms: 'mukham āsyam ānanam vadanam'.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 32,
+      "pada_form": "शि॒वः",
+      "clean_form": "शिवः",
+      "meanings": {
+        "english": "Auspicious; benign; gracious; kind; peaceful; propitious; the one who brings well-being",
+        "nirukta": "Yāska derives śiva from √śī — 'śete sukham yasmin sa śivaḥ' (in whom/which one rests in comfort). Also parsed as 'śam + iva' — 'like peace itself'. The Nirukta tradition emphasizes that śiva is fundamentally a quality-word (guṇa-vācaka) before becoming a proper name — it describes the benign aspect of the same deity whose terrible form is 'Rudra'.",
+        "vedantic": "The transition from 'Rudra' to 'Śiva' is the central theological movement of the Śrī Rudram — the terrible is asked to become auspicious. In Advaita, Śiva represents the nirguṇa Brahman beyond attributes, whose nature is inherently śānta (peaceful). Rudra's weapons becoming 'śiva' symbolizes the transformation of worldly suffering into spiritual awakening."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 5.3.55 — tamac-pratyaya for superlative: शिव + तम → शिवतम (most auspicious), fem. शिवतमा",
+          "P 4.1.4 — fem. ā-ending for adjectives: śiva → śivā",
+          "P 2.4.62 — as a proper name (Śiva), retains form in compounds"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.19 — listed among kalyāṇa-vācaka words (auspiciousness-denoting terms). Also in Nighantu 5.3 among deity-epithets.",
+        "amara_kosha": "Amarakośa 1.1.29 — शिवः listed as one of the 27 names of the deity: 'śambhurīśaḥ paśupatiḥ śivaḥ'. Also Amarakośa 3.3.97 — śiva as an adjective meaning maṅgala (auspicious): 'śivaḥ śaṅkare cāpi kalyāṇe ca'.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 33,
+      "pada_form": "नः॒",
+      "clean_form": "नः",
+      "meanings": {
+        "english": "Us; to us; our; from us (first person plural)",
+        "nirukta": "The first person plural establishes the communal nature of Vedic prayer — the ṛṣi speaks not for himself alone but for the community.",
+        "vedantic": "The shift from 'te' (you) to 'naḥ' (us) establishes the devotee-deity relationship. In Advaita, the apparent duality of 'you' and 'us' is ultimately resolved in the identity of Ātman and Brahman."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — नः is the enclitic form, governed by same pragraha rules as ते",
+          "P 7.2.97 — accusative plural: अस्मान्",
+          "P 7.2.86 — ablative: अस्मत्"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 34,
+      "pada_form": "सु॒-मनाः॑",
+      "clean_form": "सुमनाः",
+      "meanings": {
+        "english": "Of good mind; well-disposed; cheerful; benevolent; happy-minded",
+        "nirukta": "Compound: su (good/auspicious) + manas (mind). One whose mind (manas) is good (su) — cheerful, benevolent, well-intentioned.",
+        "vedantic": "In mantras 5 and 11: the world and Rudra himself are asked to be sumanās — of good mind/disposition. This pairs with ayakṣma — health of body and mind together. In Vedānta, sumanas is the state of a mind free from kleśas (afflictions) — the prerequisite for self-knowledge."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: su + manas → sumanas (one whose mind is good)",
+          "P 7.1.75 — s-stem declension: nom. sg. sumanāḥ"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.19 — su- prefix words listed among kalyāṇa-vācaka terms.",
+        "amara_kosha": "Amarakośa 3.1.5 — सुमनस् as adjective meaning 'prasanna-citta' (clear/cheerful-minded). Also Amarakośa 2.4.75 — सुमनस् as noun meaning 'puṣpa' (flower) — flowers are 'of good mind/disposition' because they give pleasure.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 35,
+      "pada_form": "भ॒व॒",
+      "clean_form": "भव",
+      "meanings": {
+        "english": "To become; to be; to arise; to exist; to happen",
+        "nirukta": "Nirukta 2.1 — Yāska establishes √bhū as the root of all becoming. 'Bhavati' denotes coming-into-being, while 'babhūva' (perfect) indicates accomplished/established existence. The Nirukta treats bhū as the most productive root in the language.",
+        "vedantic": "In Vedānta, √bhū represents the principle of manifestation — Brahman becoming the world. 'Babhūva te dhanuḥ' — 'your bow has become [auspicious]' — represents the transformation of the terrible into the benign through prayer."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.115 — liṭ lakāra (perfect): भू → ब + भू + व → बभूव (with reduplication per P 6.1.8)",
+          "P 3.4.87 — loṭ lakāra (imperative): भू + हि → भव (with guṇa per P 7.3.84)",
+          "P 3.2.107 — past participle: भू + क्त → भूत",
+          "P 3.3.18 — verbal noun formation: भू + क्तिन् → भूतिः (prosperity)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 1.1 — √bhū listed among the most fundamental sattā-vācaka dhātus (existence-denoting roots).",
+        "amara_kosha": "Amarakośa 3.3.213 — भूतम् (past participle) listed meaning 'prāpta' (obtained) and 'jāta' (born). भूतानि as 'beings' appears in Amarakośa 1.1.7.",
+        "abhidhana_ratnamala": ""
+      }
+    }
   ]
 }

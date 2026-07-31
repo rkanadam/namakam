@@ -77,7 +77,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -87,7 +95,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -97,7 +113,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -107,7 +131,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -117,7 +149,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -127,7 +167,11 @@
       ]
     },
     {
-      "text": " ॥",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
       "word_ids": []
     }
   ],
@@ -274,7 +318,9 @@
     },
     {
       "text": "जना॒निति॑",
-      "word_ids": []
+      "word_ids": [
+        64
+      ]
     },
     {
       "text": " ",

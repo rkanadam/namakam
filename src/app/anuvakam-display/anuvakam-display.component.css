@@ -132,3 +132,157 @@
   color: #222;
   line-height: 1.9;
 }
+
+/* Sidebar Mantra Nested Tree List */
+.anuvaka-sidebar-group {
+  margin-bottom: 4px;
+}
+
+.anuvaka-header-row {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.anuvaka-main-btn {
+  flex: 1;
+}
+
+.toggle-expand-btn {
+  background: transparent;
+  border: none;
+  color: #8b6040;
+  font-size: 0.85em;
+  width: 28px;
+  height: 34px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.toggle-expand-btn:hover {
+  background: #edd9b8;
+  color: #5c2c09;
+}
+
+.sidebar-mantras-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 28px;
+  margin-top: 2px;
+  margin-bottom: 6px;
+  border-left: 2px solid #e0c89a;
+}
+
+.sidebar-mantra-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  font-size: 0.82em;
+  color: #6b4c33;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.sidebar-mantra-btn:hover {
+  background: #f3e5d0;
+  color: #4a2406;
+}
+
+.sidebar-mantra-btn.active {
+  background: #8b4513;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.s-dot {
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+/* Top & Bottom Next / Prev Mantra Navigation Bar */
+.mantra-step-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fcf7ef;
+  border: 1px solid #e8d3b2;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.mantra-step-nav-bar.bottom-nav-bar {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.step-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #8b4513;
+  color: #ffffff;
+  border: 1px solid #73380e;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.step-nav-btn:hover:not([disabled]) {
+  background: #6b2f0e;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.step-nav-btn[disabled] {
+  background: #e2d7c7;
+  color: #a0907d;
+  border-color: #d0c2b0;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.7;
+}
+
+.nav-arrow {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.mantra-nav-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.nav-center-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #8b4513;
+  background: #f3e5d0;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.nav-center-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #4a2406;
+}

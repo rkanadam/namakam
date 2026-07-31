@@ -3,7 +3,7 @@
   "title": "प्रथमोनुवाकः",
   "id": 9,
   "samhita": "नमो॑ अस्तु॒ नील॑ग्रीवाय सहस्रा॒क्षाय॑ मी॒ढुषे᳚ । अथो॒ ये अ॑स्य॒ सत्वा॑नो॒-ऽह-न्तेभ्यो॑-ऽकर॒न्नमः॑ ॥",
-  "pada": "नमः॑ । अ॒स्तु॒ । नील॑-ग्रीवाय । स॒ह॒स्र॒-अ॒क्षाय॑ । मी॒ढुषे᳚ । अथो॒ इति॑ । ये । अ॒स्य॒ । सत्वा॑नः । अ॒हम् । तेभ्यः॑ । अ॒क॒र॒म् । नमः॑ ॥",
+  "pada": "नमः॑ । अ॒स्तु॒ । नील॑ग्रीवा॒येति॒ नील॑ = ग्री॒वा॒य॒ । स॒ह॒स्रा॒क्षायेति॑ सहस्र = अ॒क्षाय॑ । मी॒ढुषे᳚ । अथो॒ इत्यथो᳚ । ये । अ॒स्य॒ । सत्वा॑नः । अ॒हम् । तेभ्यः॑ । अ॒क॒र॒म् । नमः॑ ॥",
   "krama": "नमो॑ अस्तु । अ॒स्तु॒ नील॑ग्रीवाय । नील॑ग्रीवाय सहस्रा॒क्षाय॑ । स॒ह॒स्रा॒क्षाय॑ मी॒ढुषे᳚ । मी॒ढुष॒ इति॑ मी॒ढुषे᳚ । अथो॒ ये । ये अ॑स्य । अ॒स्य सत्वा॑नः । सत्वा॑नो॒-ऽहम् । अ॒हन्-तेभ्यः॑ । तेभ्यो॑-ऽकरम् । अ॒क॒र॒न्नमः॑ । नम॒ इति॑ नमः॑ ॥",
   "commentaries": {
     "sayana": {
@@ -34,7 +34,7 @@
     {
       "text": "नमो॑",
       "word_ids": [
-        1
+        144
       ]
     },
     {
@@ -64,7 +64,7 @@
     {
       "text": "सहस्रा॒क्षाय॑",
       "word_ids": [
-        138
+        583
       ]
     },
     {
@@ -84,7 +84,8 @@
     {
       "text": "अथो॒",
       "word_ids": [
-        59
+        59,
+        500
       ]
     },
     {
@@ -114,11 +115,11 @@
     {
       "text": "सत्वा॑नो॒-ऽह-न्तेभ्यो॑-ऽकर॒न्नमः॑",
       "word_ids": [
+        1,
+        2,
+        94,
         140,
-        141,
-        142,
-        143,
-        1
+        142
       ]
     },
     {
@@ -134,7 +135,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -144,27 +153,120 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "नील॑-ग्रीवाय",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीवा॒येति॒",
+      "word_ids": [
+        117,
+        126,
+        137,
+        549
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑",
+      "word_ids": [
+        126,
+        137,
+        413,
+        549
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ग्री॒वा॒य॒",
       "word_ids": [
         137
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "स॒ह॒स्र॒-अ॒क्षाय॑",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "स॒ह॒स्रा॒क्षायेति॑",
+      "word_ids": [
+        117,
+        583
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सहस्र",
+      "word_ids": [
+        27,
+        123,
+        138,
+        435,
+        439,
+        442,
+        583
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒क्षाय॑",
       "word_ids": [
         138
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -174,13 +276,22 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
       "text": "अथो॒",
       "word_ids": [
-        59
+        59,
+        500
       ]
     },
     {
@@ -188,11 +299,22 @@
       "word_ids": []
     },
     {
-      "text": "इति॑",
+      "text": "इत्यथो᳚",
+      "word_ids": [
+        100,
+        588
+      ]
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": " । ",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -202,7 +324,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -212,7 +342,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -222,7 +360,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -232,7 +378,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -242,7 +396,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -252,7 +414,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -262,7 +432,11 @@
       ]
     },
     {
-      "text": " ॥",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
       "word_ids": []
     }
   ],
@@ -270,7 +444,7 @@
     {
       "text": "नमो॑",
       "word_ids": [
-        1
+        144
       ]
     },
     {
@@ -300,7 +474,7 @@
     {
       "text": "नील॑ग्रीवाय",
       "word_ids": [
-        1
+        137
       ]
     },
     {
@@ -310,7 +484,7 @@
     {
       "text": "नील॑ग्रीवाय",
       "word_ids": [
-        1
+        137
       ]
     },
     {
@@ -320,8 +494,7 @@
     {
       "text": "सहस्रा॒क्षाय॑",
       "word_ids": [
-        8,
-        138
+        583
       ]
     },
     {
@@ -331,8 +504,7 @@
     {
       "text": "स॒ह॒स्रा॒क्षाय॑",
       "word_ids": [
-        138,
-        117
+        583
       ]
     },
     {
@@ -341,7 +513,9 @@
     },
     {
       "text": "मी॒ढुषे᳚",
-      "word_ids": []
+      "word_ids": [
+        139
+      ]
     },
     {
       "text": " । ",
@@ -349,7 +523,9 @@
     },
     {
       "text": "मी॒ढुष॒",
-      "word_ids": []
+      "word_ids": [
+        139
+      ]
     },
     {
       "text": " ",
@@ -357,7 +533,9 @@
     },
     {
       "text": "इति॑",
-      "word_ids": []
+      "word_ids": [
+        588
+      ]
     },
     {
       "text": " ",
@@ -365,7 +543,9 @@
     },
     {
       "text": "मी॒ढुषे᳚",
-      "word_ids": []
+      "word_ids": [
+        139
+      ]
     },
     {
       "text": " । ",
@@ -374,7 +554,8 @@
     {
       "text": "अथो॒",
       "word_ids": [
-        59
+        59,
+        500
       ]
     },
     {
@@ -404,7 +585,7 @@
     {
       "text": "अ॑स्य",
       "word_ids": [
-        117
+        41
       ]
     },
     {
@@ -414,7 +595,7 @@
     {
       "text": "अ॒स्य",
       "word_ids": [
-        117
+        41
       ]
     },
     {
@@ -424,7 +605,7 @@
     {
       "text": "सत्वा॑नः",
       "word_ids": [
-        41
+        140
       ]
     },
     {
@@ -434,8 +615,8 @@
     {
       "text": "सत्वा॑नो॒-ऽहम्",
       "word_ids": [
-        41,
-        141
+        94,
+        140
       ]
     },
     {
@@ -445,7 +626,7 @@
     {
       "text": "अ॒हन्-तेभ्यः॑",
       "word_ids": [
-        141,
+        2,
         142
       ]
     },
@@ -456,8 +637,8 @@
     {
       "text": "तेभ्यो॑-ऽकरम्",
       "word_ids": [
-        142,
-        143
+        2,
+        142
       ]
     },
     {
@@ -467,7 +648,6 @@
     {
       "text": "अ॒क॒र॒न्नमः॑",
       "word_ids": [
-        143,
         1
       ]
     },
@@ -487,7 +667,9 @@
     },
     {
       "text": "इति॑",
-      "word_ids": []
+      "word_ids": [
+        588
+      ]
     },
     {
       "text": " ",
@@ -505,17 +687,272 @@
     }
   ],
   "words": [
-    1,
-    8,
-    41,
-    59,
-    117,
-    137,
-    138,
-    139,
-    140,
-    141,
-    142,
-    143
+    {
+      "id": 1,
+      "pada_form": "नमः॑",
+      "clean_form": "नमः",
+      "meanings": {
+        "english": "Salutation; obeisance; reverential bowing; surrender; homage",
+        "nirukta": "Yāska (Nirukta 3.16 and 10.3) derives from √nam — 'namati praṇamati' (one bows down, prostrates). The visarga form namaḥ indicates the completed act of submission. Some nairuktikas parse as 'na + maḥ' — 'not mine', indicating relinquishment of ego, though Yāska himself favors the verbal derivation.",
+        "vedantic": "In Advaita, 'namaḥ' is parsed as 'na mama' (not mine) — a surrender of kartṛtva and bhoktṛtva (doership and enjoyership). Śaṅkara in his bhāṣya treats namaḥ as complete effacement of ahaṅkāra before the Supreme. In Śaiva Siddhānta, it represents prapatti (total surrender) to Rudra-Śiva. The Śvetāśvatara Upaniṣad (4.22) uses 'namaḥ' in the same spirit when addressing Rudra."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√नम् + असुन् (Uṇādi 4.188) → नमस् — the asun-pratyaya forms the abstract noun",
+          "P 8.3.34 — visarjanīya (ḥ) at pada-end before pause (avasāna)",
+          "P 8.3.15 — visarjanīya rules for s → ḥ in sentence-final position"
+        ],
+        "case_ending": "nominative/accusative singular, neuter"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.18 — listed among karmavācaka words (action-denoting terms). Naighaṇṭuka-kāṇḍa groups it with acts of reverence and worship.",
+        "amara_kosha": "Amarakośa 3.3.213 — नमः listed as an avyaya (indeclinable) meaning 'praṇāma' (prostration). Amara classifies it among common liturgical expressions.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 8,
+      "pada_form": "अ॒स्तु॒",
+      "clean_form": "अस्तु",
+      "meanings": {
+        "english": "Bow; the arc-shaped weapon",
+        "nirukta": "Yāska connects dhanvan to √dhan (to produce sound) — the bow is characterized by its resonant twang when released. Also related to √dhanv (to curve/run) — its arc shape. Nirukta 9.11 notes the relationship between the bow's curve and the concept of all-pervading reach.",
+        "vedantic": "Muṇḍaka Upaniṣad (2.2.4): 'dhanur gṛhītvā aupaniṣadaṃ mahāstram' — 'Taking up the great weapon, the bow of the Upaniṣads' — the bow is Oṃkāra (Praṇava). It is both the vehicle of destruction and liberation. In Śrī Rudram context, saluting the bow acknowledges the instrument through which divine will operates."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√धन् + वनिप् (Uṇādi 4.113) → धन्वन् — vanip-pratyaya forms the n-stem noun",
+          "P 7.1.75 — an-anta (n-stem) declension paradigm: nom. धनुः (with P 8.2.7 n → anusvāra → ḥ), dat. धन्वने",
+          "P 6.4.8 — sarvanāmasthāna rules for the alternation between dhanvan-/dhanus- stems",
+          "P 8.2.7 — conversion of final n to visarjanīya in nom. sg.: dhanvans → dhanuḥ"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names). The Naighaṇṭuka tradition pairs it with iṣu as the primary weapon-set.",
+        "amara_kosha": "Amarakośa 2.8.85 (Kṣatriya-varga, Āyudha) — 'dhanuḥ koḍaṇḍam' — dhanus and koḍaṇḍa are synonyms for bow. Also 'cāpaḥ śarāsanam' as further synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 137,
+      "pada_form": "नील॑-ग्रीवाय",
+      "clean_form": "नीलग्रीवाय",
+      "meanings": {
+        "english": "Blue-necked; blue-throated (epithet of Śiva/Rudra referring to his swallowing of the hālāhala poison)",
+        "nirukta": "Bahuvrīhi: 'nīlā grīvā yasya saḥ' — one whose throat is blue/dark. The blue neck is explained by the Purāṇic narrative of Śiva swallowing the hālāhala (cosmic poison) during samudra-manthana (churning of the ocean) — his throat turned blue from holding the poison.",
+        "vedantic": "The blue neck symbolizes Rudra's capacity to absorb the world's poison (suffering/evil) without being destroyed by it. In Vedānta, this represents the jñānī (knower of Brahman) who remains untouched by the world's afflictions even while present within it — like a lotus in water."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: nīla + grīvā → nīlagrīva (one whose neck is blue)",
+          "P 2.2.35 — the compound takes masculine gender matching the person described, not the final member"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Component: Nighantu 2.4 — grīvā listed among aṅga-nāmāni (body-part names). Nīla among varṇa-vācaka (color-denoting) words.",
+        "amara_kosha": "Amarakośa 1.1.29 — नीलकण्ठः (nīlakaṇṭha — blue-throated) listed as one of Śiva's names. Grīvā/Kaṇṭha are synonyms: Amarakośa 2.6.92 — 'grīvā kaṇṭhaḥ' — neck synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 138,
+      "pada_form": "स॒ह॒स्र॒-अ॒क्षाय॑",
+      "clean_form": "सहस्रअक्षाय",
+      "meanings": {
+        "english": "Thousand-eyed; omniscient; all-seeing; one who sees everything",
+        "nirukta": "Bahuvrīhi: 'sahasram akṣāṇi yasya saḥ' — one who has a thousand eyes. 'Thousand' is Vedic idiom for 'countless/infinite'. The compound signifies omniscience — the ability to see all things simultaneously.",
+        "vedantic": "The thousand eyes represent sarva-jñatva (omniscience) — one of the essential attributes of Brahman (Brahma Sūtra 1.1.2). In the Puruṣa Sūkta (RV 10.90.1): 'sahasrākṣaḥ sahasrapāt' — the cosmic Puruṣa has a thousand eyes and a thousand feet. Rudra as sahasrākṣa is identified with this cosmic Puruṣa."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: sahasra + akṣa → sahasrākṣa (one who has a thousand eyes)",
+          "P 6.1.87 — savarna-dīrgha sandhi: a + a → ā: sahasra + akṣa → sahasrākṣa"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Components: Nighantu 2.4 — akṣi/akṣa listed among netra-vācaka (eye-denoting) words.",
+        "amara_kosha": "Amarakośa 1.1.42 — सहस्राक्षः listed as an epithet of Indra. In Śiva context, it indicates the omniscience shared by all supreme deities.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 139,
+      "pada_form": "मी॒ढुषे᳚",
+      "clean_form": "मीढुषे",
+      "meanings": {
+        "english": "The bountiful one; the generous giver; one who rains down gifts; the munificent",
+        "nirukta": "From √mih — originally 'to rain/sprinkle'. Extended meaning: 'to shower gifts'. 'Mīḍhvān = dātā' — one who gives bountifully. The perfect participle form suggests one who has abundantly given — an established giver. Sāyaṇa: 'kāmānāṃ varṣitā' — one who rains desired things.",
+        "vedantic": "Rudra as mīḍhuṣa transforms from the terrifying to the bountiful — the same deity who wields arrows also showers blessings. In mantra 13, the superlative 'mīḍhuṣṭama' (O most bountiful) is the climactic address — the peak of praising Rudra's generosity."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.107 — kvasu-pratyaya (perfect participle): मिह् + क्वसु → मीढ्वस् (with cerebral ḍh per P 8.2.32)",
+          "P 5.3.55 — superlative: mīḍhuṣ + tama → mīḍhuṣṭama (most bountiful)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Related: Nighantu 2.7 — words for dāna (giving/generosity).",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 59,
+      "pada_form": "अथो॒ इति॑",
+      "clean_form": "अथोइति",
+      "meanings": {
+        "english": "And moreover; and further; and also; furthermore",
+        "nirukta": "Compound particle: atha (now/then/moreover) + u (emphatic). Introduces an additional thought — 'and furthermore'. In mantra 9: 'atho ye asya satvānaḥ' — 'and moreover, those who are his attendants'.",
+        "vedantic": "Atho transitions from praising Rudra directly to acknowledging his retinue (gaṇas/attendants). This expansion from the one to the many is a hallmark of Vedic theology."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 6.1.96 — sandhi: atha + u → atho (a + u → o)"
+        ],
+        "case_ending": "indeclinable conjunction (sandhi of atha + u)"
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 117,
+      "pada_form": "ये",
+      "clean_form": "ये",
+      "meanings": {
+        "english": "Who; which; what; that which (relative pronoun forming correlative clauses)",
+        "nirukta": "Yāska classifies yad among relative-correlative constructions fundamental to Vedic syntax. The relative clause structure 'yā te iṣuḥ ... tayā naḥ mṛḍaya' (which arrow of yours ... by that, be gracious to us) is a defining pattern of Vedic prayer — naming the fearsome and asking for its transformation.",
+        "vedantic": "The relative pronoun 'yā/yad' in Vedic prayer introduces the item of fear which the devotee then asks the deity to make auspicious. This rhetorical structure embodies surrender — not denying the terrible but asking it to become gracious."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — yad is classified as a sarvanāman (pronoun)",
+          "P 7.2.102-105 — declension paradigm for yad-śabda across genders",
+          "P 8.1.36 — ya-forms can be accent-bearing or enclitic depending on position"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 41,
+      "pada_form": "अ॒स्य॒",
+      "clean_form": "अस्य",
+      "meanings": {
+        "english": "This; this here; this very (proximate demonstrative pointing to something nearby)",
+        "nirukta": "Idam points to what is immediate and present, contrasted with adas (remote). In mantra 7: 'imāṃ rudrāḥ' — 'these Rudras here [in all directions]'.",
+        "vedantic": "The proximate 'idam' (this) vs remote 'adas' (that) establishes a spatial theology — Rudra is both 'asau' (that one yonder — the transcendent sun) and manifest 'here' (imāṃ — in all directions through the Rudras). This is the saguṇa-nirguṇa polarity."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — idam classified as sarvanāman",
+          "P 7.2.108-109 — special suppletion forms: idam → imam/imām",
+          "P 7.2.85 — enad-ādeśa: idam → enam/enām (anaphoric replacement)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 140,
+      "pada_form": "सत्वा॑नः",
+      "clean_form": "सत्वानः",
+      "meanings": {
+        "english": "Attendants; warriors; companions; strong beings; Rudra's retinue (gaṇas)",
+        "nirukta": "From sat (being/warrior) + van (possessive). 'Sattvaṃ balam yasya' — one who possesses strength/being. Sāyaṇa glosses: 'anucarāḥ' (attendants, followers). Refers to Rudra's gaṇas — the host of beings that accompany the Lord.",
+        "vedantic": "In mantra 9: 'ye asya satvānaḥ' — 'those who are his attendants'. The devotee offers salutation not just to Rudra but to his entire retinue. In Śaiva theology, the gaṇas (attendants) represent the various forces and beings that serve the cosmic will of Śiva-Rudra."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.130 — vanip-pratyaya: sat + van → satvan (one who possesses being/strength)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 141,
+      "pada_form": "अ॒हम्",
+      "clean_form": "अहम्",
+      "meanings": {
+        "english": "I (first person singular nominative)",
+        "nirukta": "The emphatic first-person pronoun. In mantra 9: 'ahaṃ tebhyo'karaṃ namaḥ' — 'I made salutation to them'. The shift from plural 'we' (naḥ) to singular 'I' (aham) is significant — the individual devotee personally commits to honoring Rudra's attendants.",
+        "vedantic": "In Vedānta, 'aham' is analyzed extensively — it is the locus of ahaṅkāra (ego) but also of the Ātman. 'Aham brahmāsmi' (Bṛhadāraṇyaka 1.4.10). Here the devotee uses 'aham' in the act of surrender — the 'I' that bows is simultaneously transcended by the act of bowing."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 7.2.86 — nominative singular suppletion: asmad → aham"
+        ],
+        "case_ending": "nominative singular — 'I'"
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 142,
+      "pada_form": "तेभ्यः॑",
+      "clean_form": "तेभ्यः",
+      "meanings": {
+        "english": "That; by that; him/her/it (demonstrative/correlative pronoun)",
+        "nirukta": "Functions as the correlative partner to yad (relative pronoun). The construction 'yā te iṣuḥ ... tayā naḥ mṛḍaya' uses yā...tayā as relative-correlative pair.",
+        "vedantic": "In Vedāntic usage, 'tad' famously refers to Brahman — 'tat tvam asi' (Chāndogya 6.8.7). The correlative use here points to the identity between the terrible and the auspicious."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — tad classified as sarvanāman",
+          "P 7.2.102 — declension paradigm for tad-śabda",
+          "P 7.1.25 — suppletion: nom. sg. masc. becomes saḥ (not tadaḥ)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 143,
+      "pada_form": "अ॒क॒र॒म्",
+      "clean_form": "अकरम्",
+      "meanings": {
+        "english": "Make; do; render; perform",
+        "nirukta": "The most fundamental action-verb. In mantra 4: 'śivāṃ giritra tāṃ kuru' — 'O mountain-protector, make that [arrow] auspicious'. The imperative 'kuru' is a direct petition.",
+        "vedantic": "The prayer 'tāṃ kuru śivām' asks Rudra to transform his arrow's nature — this is the Vedic understanding that the divine can alter the fundamental character of reality through will. In Vedāntic terms, it is asking the cosmic agent to exercise his freedom (svātantrya) benevolently."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.4.87 — loṭ (imperative): कृ + हि → कुरु (with special stem per P 6.1.59)",
+          "P 3.2.111 — laṅ (imperfect): अ + कृ + अम् → अकरम्"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    }
   ]
 }

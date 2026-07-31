@@ -3,7 +3,7 @@
   "title": "प्रथमोनुवाकः",
   "id": 8,
   "samhita": "अ॒सौ यो॑-ऽव॒सर्प॑ति॒ नील॑ग्रीवो॒ विलो॑हितः । उ॒तैन॑-ङ्गो॒पा अ॑दृश॒न्नदृ॑शन्नुदहा॒र्यः॑ । उ॒तैनं॒-विँश्वा॑ भू॒तानि॒ स दृ॒ष्टो मृ॑डयाति नः ॥",
-  "pada": "अ॒सौ । यः । अ॒व॒-सर्प॑ति । नील॑-ग्रीवः । वि-लो॑हितः । उ॒त । ए॒नम् । गो॒पाः । अ॒दृ॒श॒न् । अ॒दृ॒श॒न् । उ॒द॒-हा॒र्यः॑ । उ॒त । ए॒नम् । विश्वा॑ । भू॒तानि॑ । सः । दृ॒ष्टः । मृ॒ड॒या॒ति॒ । नः॒ ॥",
+  "pada": "अ॒सौ । यः । अ॒व॒-सर्प॒तीत्य॑व = सर्प॑ति । नील॑ग्रीव॒ इ॒ति॒ नील॑ = ग्री॒व॒: । विलो॑हित॒ इ॒ति॒ वि = लो॒हि॒त॒: । उ॒त । ए॒न॒म॒ । गो॒पा इति॑ गो = पा: । अ॒दृ॒श॒न । अ॒दृ॑श॒न्न । उ॒द॒हा॒र्य॑ इत्यु॑द = हा॒र्य॑: । उ॒त । ए॒न॒म्॒ । विश्वा᳚ । भू॒तानि॑ । सः । दृ॒ष्टः । मृ॒ड॒या॒ति॒ । नः॒ ॥",
   "krama": "अ॒सौ यः । यो अ॑सौ । यो-ऽव॒सर्प॑ति । अ॒व॒सर्प॑ति॒ नील॑ग्रीवः । नील॑ग्रीवो विलो॑हितः । विलो॑हित॒ इत्यु॑ वि-लोहितः । उ॒तैन॑म् । ए॒नङ्गो॒पाः । गो॒पा अ॑दृशन् । अ॒दृ॒श॒न्नदृ॑शन् । अ॒दृ॒श॒न्नु॑दहा॒र्यः॑ । उ॒द॒हा॒र्य इति॑ उद-हार्यः । उ॒तैन॑म् । ए॒नन्-विँश्वा॑ । विश्वा॑ भू॒तानि॑ । भू॒तानि॒ सः । स दृ॒ष्टः । दृ॒ष्टो मृ॑डयाति । मृ॒ड॒या॒ति नः । न॒ इति॑ नः ॥",
   "commentaries": {
     "sayana": {
@@ -34,7 +34,7 @@
     {
       "text": "अ॒सौ",
       "word_ids": [
-        112
+        579
       ]
     },
     {
@@ -43,10 +43,7 @@
     },
     {
       "text": "यो॑-ऽव॒सर्प॑ति॒",
-      "word_ids": [
-        60,
-        125
-      ]
+      "word_ids": []
     },
     {
       "text": " ",
@@ -55,8 +52,7 @@
     {
       "text": "नील॑ग्रीवो॒",
       "word_ids": [
-        126,
-        127
+        126
       ]
     },
     {
@@ -66,7 +62,8 @@
     {
       "text": "विलो॑हितः",
       "word_ids": [
-        6
+        127,
+        434
       ]
     },
     {
@@ -76,7 +73,7 @@
     {
       "text": "उ॒तैन॑-ङ्गो॒पा",
       "word_ids": [
-        128,
+        6,
         129
       ]
     },
@@ -87,9 +84,7 @@
     {
       "text": "अ॑दृश॒न्नदृ॑शन्नुदहा॒र्यः॑",
       "word_ids": [
-        130,
-        130,
-        131
+        130
       ]
     },
     {
@@ -100,7 +95,6 @@
       "text": "उ॒तैनं॒-विँश्वा॑",
       "word_ids": [
         6,
-        128,
         132
       ]
     },
@@ -151,7 +145,8 @@
     {
       "text": "नः",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
@@ -163,11 +158,19 @@
     {
       "text": "अ॒सौ",
       "word_ids": [
-        112
+        579
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -177,96 +180,369 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "अ॒व॒-सर्प॑ति",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒व॒-सर्प॒तीत्य॑व",
+      "word_ids": [
+        124
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "सर्प॑ति",
       "word_ids": [
         125
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "नील॑-ग्रीवः",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑ग्रीव॒",
       "word_ids": [
-        126,
-        127
+        126
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "वि-लो॑हितः",
+      "text": "इ॒ति॒",
+      "word_ids": [
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नील॑",
+      "word_ids": [
+        126,
+        137,
+        413,
+        549
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ग्री॒व॒:",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विलो॑हित॒",
+      "word_ids": [
+        127,
+        434
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इ॒ति॒",
+      "word_ids": [
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "वि",
+      "word_ids": [
+        36,
+        38,
+        50,
+        127,
+        132,
+        165,
+        168,
+        177,
+        192,
+        194,
+        216,
+        226,
+        228,
+        253,
+        254,
+        281,
+        327,
+        391,
+        392,
+        433,
+        434,
+        445,
+        455,
+        457,
+        466,
+        491,
+        503,
+        531,
+        544,
+        558,
+        561,
+        563,
+        578
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "लो॒हि॒त॒:",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒त",
       "word_ids": [
         6
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "उ॒त",
+      "text": "।",
       "word_ids": []
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "ए॒नम्",
+      "text": "ए॒न॒म॒",
       "word_ids": [
         128
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "गो॒पाः",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गो॒पा",
       "word_ids": [
         129
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "अ॒दृ॒श॒न्",
+      "text": "इति॑",
+      "word_ids": [
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "गो",
+      "word_ids": [
+        129,
+        398,
+        487,
+        493
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "पा:",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒दृ॒श॒न",
       "word_ids": [
         130
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "अ॒दृ॒श॒न्",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒दृ॑श॒न्न",
       "word_ids": [
         130
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "उ॒द॒-हा॒र्यः॑",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "उ॒द॒हा॒र्य॑",
       "word_ids": [
         131
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इत्यु॑द",
+      "word_ids": [
+        100,
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "हा॒र्य॑:",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -276,27 +552,51 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "ए॒नम्",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "ए॒न॒म्॒",
       "word_ids": [
         128
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "विश्वा॑",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "विश्वा᳚",
       "word_ids": [
         132
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -306,7 +606,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -316,7 +624,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -326,7 +642,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -336,17 +660,30 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
       "text": "नः॒",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
-      "text": " ॥",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "॥",
       "word_ids": []
     }
   ],
@@ -354,7 +691,7 @@
     {
       "text": "अ॒सौ",
       "word_ids": [
-        112
+        579
       ]
     },
     {
@@ -374,7 +711,10 @@
     {
       "text": "यो",
       "word_ids": [
-        60
+        15,
+        16,
+        442,
+        518
       ]
     },
     {
@@ -384,7 +724,7 @@
     {
       "text": "अ॑सौ",
       "word_ids": [
-        112
+        579
       ]
     },
     {
@@ -393,9 +733,7 @@
     },
     {
       "text": "यो-ऽव॒सर्प॑ति",
-      "word_ids": [
-        112
-      ]
+      "word_ids": []
     },
     {
       "text": " । ",
@@ -404,7 +742,7 @@
     {
       "text": "अ॒व॒सर्प॑ति॒",
       "word_ids": [
-        112
+        125
       ]
     },
     {
@@ -414,7 +752,7 @@
     {
       "text": "नील॑ग्रीवः",
       "word_ids": [
-        125
+        126
       ]
     },
     {
@@ -424,7 +762,7 @@
     {
       "text": "नील॑ग्रीवो",
       "word_ids": [
-        125
+        126
       ]
     },
     {
@@ -434,8 +772,8 @@
     {
       "text": "विलो॑हितः",
       "word_ids": [
-        125,
-        6
+        127,
+        434
       ]
     },
     {
@@ -446,7 +784,7 @@
       "text": "विलो॑हित॒",
       "word_ids": [
         127,
-        6
+        434
       ]
     },
     {
@@ -456,7 +794,8 @@
     {
       "text": "इत्यु॑",
       "word_ids": [
-        6
+        100,
+        588
       ]
     },
     {
@@ -467,7 +806,7 @@
       "text": "वि-लोहितः",
       "word_ids": [
         127,
-        6
+        434
       ]
     },
     {
@@ -477,8 +816,8 @@
     {
       "text": "उ॒तैन॑म्",
       "word_ids": [
-        6,
-        128
+        1,
+        6
       ]
     },
     {
@@ -488,7 +827,6 @@
     {
       "text": "ए॒नङ्गो॒पाः",
       "word_ids": [
-        128,
         129
       ]
     },
@@ -509,7 +847,7 @@
     {
       "text": "अ॑दृशन्",
       "word_ids": [
-        128
+        130
       ]
     },
     {
@@ -519,7 +857,6 @@
     {
       "text": "अ॒दृ॒श॒न्नदृ॑शन्",
       "word_ids": [
-        128,
         130
       ]
     },
@@ -530,7 +867,6 @@
     {
       "text": "अ॒दृ॒श॒न्नु॑दहा॒र्यः॑",
       "word_ids": [
-        130,
         130
       ]
     },
@@ -541,7 +877,7 @@
     {
       "text": "उ॒द॒हा॒र्य",
       "word_ids": [
-        130
+        131
       ]
     },
     {
@@ -550,7 +886,9 @@
     },
     {
       "text": "इति॑",
-      "word_ids": []
+      "word_ids": [
+        588
+      ]
     },
     {
       "text": " ",
@@ -559,7 +897,7 @@
     {
       "text": "उद-हार्यः",
       "word_ids": [
-        130
+        131
       ]
     },
     {
@@ -569,6 +907,7 @@
     {
       "text": "उ॒तैन॑म्",
       "word_ids": [
+        1,
         6
       ]
     },
@@ -579,7 +918,6 @@
     {
       "text": "ए॒नन्-विँश्वा॑",
       "word_ids": [
-        128,
         132
       ]
     },
@@ -600,7 +938,7 @@
     {
       "text": "भू॒तानि॑",
       "word_ids": [
-        128
+        133
       ]
     },
     {
@@ -610,8 +948,7 @@
     {
       "text": "भू॒तानि॒",
       "word_ids": [
-        6,
-        128
+        133
       ]
     },
     {
@@ -681,7 +1018,8 @@
     {
       "text": "नः",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
@@ -691,7 +1029,8 @@
     {
       "text": "न॒",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
@@ -700,7 +1039,9 @@
     },
     {
       "text": "इति॑",
-      "word_ids": []
+      "word_ids": [
+        588
+      ]
     },
     {
       "text": " ",
@@ -709,7 +1050,8 @@
     {
       "text": "नः",
       "word_ids": [
-        33
+        33,
+        509
       ]
     },
     {
@@ -718,21 +1060,355 @@
     }
   ],
   "words": [
-    6,
-    33,
-    60,
-    112,
-    125,
-    126,
-    127,
-    128,
-    129,
-    130,
-    131,
-    132,
-    133,
-    134,
-    135,
-    136
+    {
+      "id": 579,
+      "pada_form": "अ॒सौ",
+      "clean_form": "असौ",
+      "meanings": {
+        "english": "That one yonder; the manifest one in the solar disc",
+        "nirukta": "Demonstrative pronoun pointing to the sun in the sky. Sāyaṇa: 'asau' = 'ādityamaṇdLathso yaḥ' (he who dwells in the solar orb).",
+        "vedantic": "Refers to Lord Shiva in the visible, radiant form of Aditya (the Sun). Worship of the Sun is worship of the Supreme Brahman manifest."
+      },
+      "grammatical_references": {
+        "panini": [
+          "Pronoun adas in nominative singular masculine: अदस् + सु → असौ (P 7.2.107 / P 7.2.109)"
+        ],
+        "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
+      },
+      "lexicographical_references": {
+        "nighantu": "Listed among demonstrative pronouns.",
+        "amara_kosha": "Amarakośa 3.1.8 — pronoun section.",
+        "abhidhana_ratnamala": "Listed under pronouns."
+      }
+    },
+    {
+      "id": 60,
+      "pada_form": "यः",
+      "clean_form": "यः",
+      "meanings": {
+        "english": "Who; which; what; that which (relative pronoun forming correlative clauses)",
+        "nirukta": "Yāska classifies yad among relative-correlative constructions fundamental to Vedic syntax. The relative clause structure 'yā te iṣuḥ ... tayā naḥ mṛḍaya' (which arrow of yours ... by that, be gracious to us) is a defining pattern of Vedic prayer — naming the fearsome and asking for its transformation.",
+        "vedantic": "The relative pronoun 'yā/yad' in Vedic prayer introduces the item of fear which the devotee then asks the deity to make auspicious. This rhetorical structure embodies surrender — not denying the terrible but asking it to become gracious."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — yad is classified as a sarvanāman (pronoun)",
+          "P 7.2.102-105 — declension paradigm for yad-śabda across genders",
+          "P 8.1.36 — ya-forms can be accent-bearing or enclitic depending on position"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 125,
+      "pada_form": "अ॒व॒-सर्प॑ति",
+      "clean_form": "अवसर्पति",
+      "meanings": {
+        "english": "He descends; he glides down; he moves downward (said of the sun setting or moving through the sky)",
+        "nirukta": "Compound verb: ava (downward) + √sṛp (to creep/glide). Describes the sun's movement across the sky — gliding/traveling downward. Sāyaṇa: 'avagatim prāpnoti' — 'attains downward movement'.",
+        "vedantic": "In mantra 8: 'asau yo'vasarpati' — 'that one yonder who descends/traverses' — describes Rudra as the sun moving through the sky. The descending sun is identified with Rudra — even in 'going down' the divine maintains sovereignty. In Vedānta, this descent parallels the avaroha (descent) of Brahman into manifestation."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.4.78 — laṭ: अव + सृप् + ति → अवसर्पति (with guṇa per P 7.3.84)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 126,
+      "pada_form": "नील॑-ग्रीवः",
+      "clean_form": "नीलग्रीवः",
+      "meanings": {
+        "english": "Blue-necked; blue-throated (epithet of Śiva/Rudra referring to his swallowing of the hālāhala poison)",
+        "nirukta": "Bahuvrīhi: 'nīlā grīvā yasya saḥ' — one whose throat is blue/dark. The blue neck is explained by the Purāṇic narrative of Śiva swallowing the hālāhala (cosmic poison) during samudra-manthana (churning of the ocean) — his throat turned blue from holding the poison.",
+        "vedantic": "The blue neck symbolizes Rudra's capacity to absorb the world's poison (suffering/evil) without being destroyed by it. In Vedānta, this represents the jñānī (knower of Brahman) who remains untouched by the world's afflictions even while present within it — like a lotus in water."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 2.2.24 — bahuvrīhi: nīla + grīvā → nīlagrīva (one whose neck is blue)",
+          "P 2.2.35 — the compound takes masculine gender matching the person described, not the final member"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Component: Nighantu 2.4 — grīvā listed among aṅga-nāmāni (body-part names). Nīla among varṇa-vācaka (color-denoting) words.",
+        "amara_kosha": "Amarakośa 1.1.29 — नीलकण्ठः (nīlakaṇṭha — blue-throated) listed as one of Śiva's names. Grīvā/Kaṇṭha are synonyms: Amarakośa 2.6.92 — 'grīvā kaṇṭhaḥ' — neck synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 127,
+      "pada_form": "वि-लो॑हितः",
+      "clean_form": "विलोहितः",
+      "meanings": {
+        "english": "Intensely red; very red; blood-red; crimson",
+        "nirukta": "Vi- intensifies lohita (red): 'viśeṣeṇa lohitaḥ' — specially/intensely red. Describes the deep crimson of the setting sun or of Rudra's form. Lohita from √ruh/loh — related to 'rudhira' (blood).",
+        "vedantic": "Vi-lohita (intensely red) describes Rudra-as-sun in full crimson glory. The vivid redness contrasts with the nīla (blue) of the neck — the deity encompasses the full spectrum. In Vedāntic symbolism, red represents rajas (activity/passion), blue represents sattva (purity) — Rudra transcends both while manifesting through both."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 2.2.18 — vi as an intensifying prefix with adjectives"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 1.5 — lohita listed among rakta-vācaka (red-denoting) words.",
+        "amara_kosha": "Amarakośa 1.5.13 — लोहितः listed as a color: 'lohitaḥ raktaḥ' — red synonyms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 6,
+      "pada_form": "उ॒त",
+      "clean_form": "उत",
+      "meanings": {
+        "english": "And; also; moreover; as well as; further",
+        "nirukta": "Vedic indeclinable conjunction (avyaya) expressing conjunction, addition, or emphasis. 'Uta' = 'api ca' (and also).",
+        "vedantic": "Connects various divine aspects and attributes, showing that all manifest forms are manifestations of the one Supreme Lord."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
+        ],
+        "case_ending": "Avyaya (indeclinable conjunction)"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
+        "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
+        "abhidhana_ratnamala": "Listed under conjunctions."
+      }
+    },
+    {
+      "id": 128,
+      "pada_form": "ए॒नम्",
+      "clean_form": "एनम्",
+      "meanings": {
+        "english": "This; this here; this very (proximate demonstrative pointing to something nearby)",
+        "nirukta": "Idam points to what is immediate and present, contrasted with adas (remote). In mantra 7: 'imāṃ rudrāḥ' — 'these Rudras here [in all directions]'.",
+        "vedantic": "The proximate 'idam' (this) vs remote 'adas' (that) establishes a spatial theology — Rudra is both 'asau' (that one yonder — the transcendent sun) and manifest 'here' (imāṃ — in all directions through the Rudras). This is the saguṇa-nirguṇa polarity."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — idam classified as sarvanāman",
+          "P 7.2.108-109 — special suppletion forms: idam → imam/imām",
+          "P 7.2.85 — enad-ādeśa: idam → enam/enām (anaphoric replacement)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 129,
+      "pada_form": "गो॒पाः",
+      "clean_form": "गोपाः",
+      "meanings": {
+        "english": "Cowherd; cattle-keeper; guardian; one who tends and protects",
+        "nirukta": "Compound: go (cattle/earth/rays) + pa (from √pā, to protect). 'Gāḥ pālayati iti gopaḥ' — one who protects cattle. In Vedic usage, gopāḥ can mean 'protectors' in general.",
+        "vedantic": "In mantra 8: 'gopā adṛśan' — 'the cowherds saw [him]'. The cowherds represent ordinary people who perceive the divine in nature (the sun). This democratizes the vision — Rudra reveals himself not just to sages but to common herders. In Vaiṣṇava-Śaiva synthesis, the gopa theme connects to Kṛṣṇa-Gopāla."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.4 — upapada compound: go + √pā + ka → gopa (protector of cows)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Related: Nighantu 1.1 — go listed among pṛthivī-vācaka and dhana-vācaka words. Gopa as compound.",
+        "amara_kosha": "Amarakośa 2.9.56 — गोपालः listed as synonym: 'gopālaḥ gopaḥ' — cowherd terms.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 130,
+      "pada_form": "अ॒दृ॒श॒न्",
+      "clean_form": "अदृशन्",
+      "meanings": {
+        "english": "To see; to behold; to perceive; to have the vision of",
+        "nirukta": "√dṛś — 'paśyati darśayati' (to see, to show). In mantra 8: 'adṛśan' (they saw) is repeated — first by cowherds, then by water-bearers. The past participle 'dṛṣṭaḥ' means 'having been seen/perceived'.",
+        "vedantic": "In mantra 8: 'sa dṛṣṭo mṛḍayāti naḥ' — 'he, having been seen, shows mercy to us'. The act of seeing (darśana) Rudra is itself salvific — his being perceived triggers his grace. This is the Vedāntic principle that the divine reveals itself (sākṣātkāra) and that revelation itself is liberating. Cf. Brahma Sūtra 1.1.2: 'janmādy asya yataḥ' — Brahman is known by its effects."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.111 — laṅ (imperfect): अ + दृश् + अन् → अदृशन् (Vedic form without guṇa)",
+          "P 3.2.102 — past participle: दृश् + क्त → दृष्ट (with ṣ per P 8.2.36)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "Amarakośa 3.1.36 — √दृश् listed meaning 'paśyati' (to see). दृष्टिः (vision) in Amarakośa 2.6.54.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 131,
+      "pada_form": "उ॒द॒-हा॒र्यः॑",
+      "clean_form": "उदहार्यः",
+      "meanings": {
+        "english": "Water-carriers; those who draw/carry water; water-bearers",
+        "nirukta": "From udaka (water) + √hṛ (to carry). 'Udakam harantīti udahāryaḥ' — those who carry water. Sāyaṇa identifies them as women going to fetch water from rivers — ordinary people encountering the divine in daily life.",
+        "vedantic": "The water-carriers, like the cowherds, represent the common people who see Rudra (the sun) in their daily activities. The divine is not hidden from the ordinary — Rudra reveals himself to all, not just to the ritually initiated."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.1.118 — ṇyat-pratyaya: udaka + √hṛ + ya → udahārya (one who should carry water / water-carrier)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 132,
+      "pada_form": "विश्वा॑",
+      "clean_form": "विश्वा",
+      "meanings": {
+        "english": "All; entire; universal; every; the whole; from all sides (as viśvataḥ)",
+        "nirukta": "From √viś — 'viśati prāpnoti sarvam iti viśvam' (that which enters/pervades everything). Viśva denotes totality in an all-pervading sense.",
+        "vedantic": "In mantra 8: 'viśvā bhūtāni' — 'all beings'. The entire manifest creation sees Rudra-as-sun. Viśvataḥ (from all sides) in mantras 13 and 15 emphasizes comprehensive protection — Rudra's grace covers all directions."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — viśva classified as sarvanāman",
+          "P 5.3.7 — tasil-pratyaya: viśva + tas → viśvatas (from all sides)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.1 — listed among words denoting 'sarva' (totality/completeness).",
+        "amara_kosha": "Amarakośa 3.1.1 — विश्वम् listed as synonym of sarva: 'sarvaḥ viśvaḥ'.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 133,
+      "pada_form": "भू॒तानि॑",
+      "clean_form": "भूतानि",
+      "meanings": {
+        "english": "Beings; creatures; living entities; elements; that which has come into existence",
+        "nirukta": "From √bhū — 'bhūtam = jātam prāptam' (that which has been born/come into being). Encompasses all living creatures.",
+        "vedantic": "In Vedānta, 'bhūta' refers to both living beings and the five elements (pañca-mahābhūta) from which the world is composed. 'Viśvā bhūtāni' — all beings/entities without exception perceive Rudra."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.102 — kta-pratyaya: भू + त → भूत",
+          "P 7.1.20 — neut. nom. pl.: bhūtāni"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Related: Nighantu 1.1 — bhūta related terms among prāṇi-vācaka (living-being-denoting) words.",
+        "amara_kosha": "Amarakośa 1.1.7 — bhūtam listed in dual sense: (1) prāṇī (living being), (2) mahābhūta (the five great elements: earth, water, fire, air, ether).",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 134,
+      "pada_form": "सः",
+      "clean_form": "सः",
+      "meanings": {
+        "english": "That; by that; him/her/it (demonstrative/correlative pronoun)",
+        "nirukta": "Functions as the correlative partner to yad (relative pronoun). The construction 'yā te iṣuḥ ... tayā naḥ mṛḍaya' uses yā...tayā as relative-correlative pair.",
+        "vedantic": "In Vedāntic usage, 'tad' famously refers to Brahman — 'tat tvam asi' (Chāndogya 6.8.7). The correlative use here points to the identity between the terrible and the auspicious."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — tad classified as sarvanāman",
+          "P 7.2.102 — declension paradigm for tad-śabda",
+          "P 7.1.25 — suppletion: nom. sg. masc. becomes saḥ (not tadaḥ)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 135,
+      "pada_form": "दृ॒ष्टः",
+      "clean_form": "दृष्टः",
+      "meanings": {
+        "english": "To see; to behold; to perceive; to have the vision of",
+        "nirukta": "√dṛś — 'paśyati darśayati' (to see, to show). In mantra 8: 'adṛśan' (they saw) is repeated — first by cowherds, then by water-bearers. The past participle 'dṛṣṭaḥ' means 'having been seen/perceived'.",
+        "vedantic": "In mantra 8: 'sa dṛṣṭo mṛḍayāti naḥ' — 'he, having been seen, shows mercy to us'. The act of seeing (darśana) Rudra is itself salvific — his being perceived triggers his grace. This is the Vedāntic principle that the divine reveals itself (sākṣātkāra) and that revelation itself is liberating. Cf. Brahma Sūtra 1.1.2: 'janmādy asya yataḥ' — Brahman is known by its effects."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.111 — laṅ (imperfect): अ + दृश् + अन् → अदृशन् (Vedic form without guṇa)",
+          "P 3.2.102 — past participle: दृश् + क्त → दृष्ट (with ṣ per P 8.2.36)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "Amarakośa 3.1.36 — √दृश् listed meaning 'paśyati' (to see). दृष्टिः (vision) in Amarakośa 2.6.54.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 136,
+      "pada_form": "मृ॒ड॒या॒ति॒",
+      "clean_form": "मृडयाति",
+      "meanings": {
+        "english": "Be gracious; show mercy; have compassion; make happy; delight us",
+        "nirukta": "Yāska connects mṛḍ to the idea of 'softening' — 'mṛdnāti duḥkham' (grinds away suffering). Related to mṛdu (soft, gentle). The causative form mṛḍaya means 'cause to be happy/gentle' — a direct plea for Rudra to exercise his gracious nature.",
+        "vedantic": "Mṛḍaya is the central prayer of Śrī Rudram — asking Rudra to be gracious. In the Śaiva tradition, mṛḍa is itself an epithet of Śiva (Mṛḍa = the gracious one). The plea transforms the hymn from a litany of fearsome attributes into a loving petition."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.1.26 — causative (ṇic) formation: मृड् + णिच् → मृडय (with guṇa)",
+          "P 3.4.87 — loṭ (imperative): मृडय + हि → मृडय (hi dropped after aya per Vedic usage)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.13 — listed among sukha-vācaka (happiness-denoting) roots.",
+        "amara_kosha": "Amarakośa 3.1.32 — मृडयति listed as a kriyā (verb) meaning 'sukhayati' (to make happy).",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 33,
+      "pada_form": "नः॒",
+      "clean_form": "नः",
+      "meanings": {
+        "english": "Us; to us; our; from us (first person plural)",
+        "nirukta": "The first person plural establishes the communal nature of Vedic prayer — the ṛṣi speaks not for himself alone but for the community.",
+        "vedantic": "The shift from 'te' (you) to 'naḥ' (us) establishes the devotee-deity relationship. In Advaita, the apparent duality of 'you' and 'us' is ultimately resolved in the identity of Ātman and Brahman."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — नः is the enclitic form, governed by same pragraha rules as ते",
+          "P 7.2.97 — accusative plural: अस्मान्",
+          "P 7.2.86 — ablative: अस्मत्"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    }
   ]
 }

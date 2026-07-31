@@ -1,6 +1,6 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { forkJoin } from 'rxjs';
 import {
   NamakamService,
@@ -8,7 +8,9 @@ import {
   Dictionary,
   DictionaryEntry,
   Token,
-  CorrelatedMantra
+  CorrelatedMantra,
+  Anuvakam,
+  Mantra
 } from '../namakam.service';
 
 import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-editor-modal.component';
@@ -24,6 +26,9 @@ import { SanskritEditorService } from '../sanskrit-editor.service';
 export class MantraDetailComponent implements OnInit, OnDestroy {
   anuvakamId = 0;
   mantraId = 0;
+  anuvakams: Anuvakam[] = [];
+  expandedAnuvakams: { [key: number]: boolean } = {};
+
   wordAnalysis: MantraWordAnalysis | null = null;
   correlatedMantra: CorrelatedMantra | undefined;
   dictionary: Dictionary = {};
@@ -44,14 +49,109 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
 
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private namakamService: NamakamService,
     private editorService: SanskritEditorService
   ) {}
 
   ngOnInit(): void {
-    this.anuvakamId = Number(this.route.snapshot.paramMap.get('anuvakamId'));
-    this.mantraId = Number(this.route.snapshot.paramMap.get('mantraId'));
-    this.loadData();
+    this.anuvakams = this.namakamService.getAnuvakams();
+    this.route.paramMap.subscribe(params => {
+      this.anuvakamId = Number(params.get('anuvakamId'));
+      this.mantraId = Number(params.get('mantraId'));
+      this.expandedAnuvakams[this.anuvakamId] = true;
+      this.loadData();
+    });
+  }
+
+  isAnuvakamExpanded(id: number): boolean {
+    if (this.expandedAnuvakams[id] === undefined) {
+      return this.anuvakamId === id;
+    }
+    return !!this.expandedAnuvakams[id];
+  }
+
+  toggleAnuvakamExpand(id: number, event?: Event): void {
+    if (event) event.stopPropagation();
+    this.expandedAnuvakams[id] = !this.isAnuvakamExpanded(id);
+  }
+
+  getPrevMantraInfo(): { anuvakamId: number; mantraId: number } | null {
+    if (!this.anuvakams.length) return null;
+    const currentAnv = this.anuvakams.find(a => a.anuvakam === this.anuvakamId);
+    if (!currentAnv) return null;
+    const currentMantraIdx = currentAnv.mantras.findIndex(m => m.id === this.mantraId);
+    if (currentMantraIdx > 0) {
+      return {
+        anuvakamId: this.anuvakamId,
+        mantraId: currentAnv.mantras[currentMantraIdx - 1].id
+      };
+    }
+    const currentAnvIdx = this.anuvakams.findIndex(a => a.anuvakam === this.anuvakamId);
+    if (currentAnvIdx > 0) {
+      const prevAnv = this.anuvakams[currentAnvIdx - 1];
+      if (prevAnv.mantras && prevAnv.mantras.length > 0) {
+        return {
+          anuvakamId: prevAnv.anuvakam,
+          mantraId: prevAnv.mantras[prevAnv.mantras.length - 1].id
+        };
+      }
+    }
+    return null;
+  }
+
+  getNextMantraInfo(): { anuvakamId: number; mantraId: number } | null {
+    if (!this.anuvakams.length) return null;
+    const currentAnv = this.anuvakams.find(a => a.anuvakam === this.anuvakamId);
+    if (!currentAnv) return null;
+    const currentMantraIdx = currentAnv.mantras.findIndex(m => m.id === this.mantraId);
+    if (currentMantraIdx >= 0 && currentMantraIdx < currentAnv.mantras.length - 1) {
+      return {
+        anuvakamId: this.anuvakamId,
+        mantraId: currentAnv.mantras[currentMantraIdx + 1].id
+      };
+    }
+    const currentAnvIdx = this.anuvakams.findIndex(a => a.anuvakam === this.anuvakamId);
+    if (currentAnvIdx >= 0 && currentAnvIdx < this.anuvakams.length - 1) {
+      const nextAnv = this.anuvakams[currentAnvIdx + 1];
+      if (nextAnv.mantras && nextAnv.mantras.length > 0) {
+        return {
+          anuvakamId: nextAnv.anuvakam,
+          mantraId: nextAnv.mantras[0].id
+        };
+      }
+    }
+    return null;
+  }
+
+  goToPreviousMantra(): void {
+    const prev = this.getPrevMantraInfo();
+    if (prev) {
+      this.router.navigate(['/anuvakam', prev.anuvakamId, 'mantra', prev.mantraId]);
+    }
+  }
+
+  goToNextMantra(): void {
+    const next = this.getNextMantraInfo();
+    if (next) {
+      this.router.navigate(['/anuvakam', next.anuvakamId, 'mantra', next.mantraId]);
+    }
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent): void {
+    if (this.showEditorModal) return;
+    const activeEl = document.activeElement;
+    if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA' || activeEl.getAttribute('contenteditable') === 'true')) {
+      return;
+    }
+    if (event.key === 'ArrowLeft' && this.getPrevMantraInfo()) {
+      event.preventDefault();
+      this.goToPreviousMantra();
+    } else if (event.key === 'ArrowRight' && this.getNextMantraInfo()) {
+      event.preventDefault();
+      this.goToNextMantra();
+    }
   }
 
   loadData(): void {

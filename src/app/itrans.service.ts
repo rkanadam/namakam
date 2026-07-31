@@ -90,6 +90,7 @@ export class ItransService {
 
     if (sub3 === 'chh') return { dev: 'छ', len: 3 };
     if (sub3 === 'RRi') return { dev: 'ऋ', len: 3 };
+    if (sub3 === 'ksh' || sub3 === 'kSh') return { dev: 'क्ष', len: 3 };
 
     if (sub2 === 'kh') return { dev: 'ख', len: 2 };
     if (sub2 === 'gh') return { dev: 'घ', len: 2 };
@@ -108,6 +109,7 @@ export class ItransService {
     if (sub2 === 'GY') return { dev: 'ज्ञ', len: 2 };
 
     const c1 = sub1;
+    if (c1 === 'x') return { dev: 'क्ष', len: 1 };
     if (c1 === 'k') return { dev: 'क', len: 1 };
     if (c1 === 'g') return { dev: 'ग', len: 1 };
     if (c1 === 'c') return { dev: 'च', len: 1 };
@@ -132,12 +134,16 @@ export class ItransService {
   }
 
   private matchVowelMatra(text: string, i: number): { matra: string; len: number } | null {
+    const sub3 = text.substr(i, 3);
+    if (sub3 === 'RRi' || sub3 === 'RRI') return { matra: 'ृ', len: 3 };
+
     const sub2 = text.substr(i, 2);
     if (sub2 === 'aa') return { matra: 'ा', len: 2 };
     if (sub2 === 'ii') return { matra: 'ी', len: 2 };
     if (sub2 === 'uu') return { matra: 'ू', len: 2 };
     if (sub2 === 'ai') return { matra: 'ै', len: 2 };
     if (sub2 === 'au') return { matra: 'ौ', len: 2 };
+    if (sub2 === 'Ri') return { matra: 'ृ', len: 2 };
 
     const c1 = text[i];
     if (c1 === 'A') return { matra: 'ा', len: 1 };
@@ -153,12 +159,16 @@ export class ItransService {
   }
 
   private matchIndependentVowel(text: string, i: number): { dev: string; len: number } | null {
+    const sub3 = text.substr(i, 3);
+    if (sub3 === 'RRi' || sub3 === 'RRI') return { dev: 'ऋ', len: 3 };
+
     const sub2 = text.substr(i, 2);
     if (sub2 === 'aa') return { dev: 'आ', len: 2 };
     if (sub2 === 'ii') return { dev: 'ई', len: 2 };
     if (sub2 === 'uu') return { dev: 'ऊ', len: 2 };
     if (sub2 === 'ai') return { dev: 'ऐ', len: 2 };
     if (sub2 === 'au') return { dev: 'औ', len: 2 };
+    if (sub2 === 'Ri') return { dev: 'ऋ', len: 2 };
 
     const c1 = text[i];
     if (c1 === 'a') return { dev: 'अ', len: 1 };

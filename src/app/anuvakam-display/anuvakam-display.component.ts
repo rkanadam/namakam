@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NamakamService, Anuvakam, Mantra } from '../namakam.service';
 import { SanskritEditorService } from '../sanskrit-editor.service';
@@ -94,6 +94,21 @@ export class AnuvakamDisplayComponent implements OnInit {
     }
   }
 
+  // Sidebar Mantra Expansion State
+  expandedAnuvakams: { [key: number]: boolean } = {};
+
+  isAnuvakamExpanded(anuvakamId: number): boolean {
+    if (this.expandedAnuvakams[anuvakamId] === undefined) {
+      return this.selectedAnuvakam?.anuvakam === anuvakamId;
+    }
+    return !!this.expandedAnuvakams[anuvakamId];
+  }
+
+  toggleAnuvakamExpand(anuvakamId: number, event?: Event): void {
+    if (event) event.stopPropagation();
+    this.expandedAnuvakams[anuvakamId] = !this.isAnuvakamExpanded(anuvakamId);
+  }
+
   selectIntro(): void {
     this.activeView = 'intro';
     this.selectedAnuvakam = null;
@@ -111,8 +126,102 @@ export class AnuvakamDisplayComponent implements OnInit {
   selectAnuvakam(anuvakam: Anuvakam): void {
     this.activeView = 'anuvakam';
     this.selectedAnuvakam = anuvakam;
+    this.expandedAnuvakams[anuvakam.anuvakam] = true;
     this.selectedMantra = null;
     this.selectedMantraDetails = null;
+  }
+
+  selectMantraFromSidebar(anuvakam: Anuvakam, mantra: Mantra): void {
+    this.activeView = 'anuvakam';
+    this.selectedAnuvakam = anuvakam;
+    this.expandedAnuvakams[anuvakam.anuvakam] = true;
+    this.selectMantra(mantra);
+  }
+
+  getPrevMantraInfo(): { anuvakam: Anuvakam; mantra: Mantra } | null {
+    if (!this.selectedAnuvakam || !this.selectedMantra) return null;
+    const currentMantraIdx = this.selectedAnuvakam.mantras.findIndex(m => m.id === this.selectedMantra.id);
+    if (currentMantraIdx > 0) {
+      return {
+        anuvakam: this.selectedAnuvakam,
+        mantra: this.selectedAnuvakam.mantras[currentMantraIdx - 1]
+      };
+    }
+    const currentAnvIdx = this.anuvakams.findIndex(a => a.anuvakam === this.selectedAnuvakam?.anuvakam);
+    if (currentAnvIdx > 0) {
+      const prevAnv = this.anuvakams[currentAnvIdx - 1];
+      if (prevAnv.mantras && prevAnv.mantras.length > 0) {
+        return {
+          anuvakam: prevAnv,
+          mantra: prevAnv.mantras[prevAnv.mantras.length - 1]
+        };
+      }
+    }
+    return null;
+  }
+
+  getNextMantraInfo(): { anuvakam: Anuvakam; mantra: Mantra } | null {
+    if (!this.selectedAnuvakam || !this.selectedMantra) return null;
+    const currentMantraIdx = this.selectedAnuvakam.mantras.findIndex(m => m.id === this.selectedMantra.id);
+    if (currentMantraIdx >= 0 && currentMantraIdx < this.selectedAnuvakam.mantras.length - 1) {
+      return {
+        anuvakam: this.selectedAnuvakam,
+        mantra: this.selectedAnuvakam.mantras[currentMantraIdx + 1]
+      };
+    }
+    const currentAnvIdx = this.anuvakams.findIndex(a => a.anuvakam === this.selectedAnuvakam?.anuvakam);
+    if (currentAnvIdx >= 0 && currentAnvIdx < this.anuvakams.length - 1) {
+      const nextAnv = this.anuvakams[currentAnvIdx + 1];
+      if (nextAnv.mantras && nextAnv.mantras.length > 0) {
+        return {
+          anuvakam: nextAnv,
+          mantra: nextAnv.mantras[0]
+        };
+      }
+    }
+    return null;
+  }
+
+  goToPreviousMantra(): void {
+    const prev = this.getPrevMantraInfo();
+    if (prev) {
+      this.activeView = 'anuvakam';
+      this.selectedAnuvakam = prev.anuvakam;
+      this.expandedAnuvakams[prev.anuvakam.anuvakam] = true;
+      this.selectMantra(prev.mantra);
+    }
+  }
+
+  goToNextMantra(): void {
+    const next = this.getNextMantraInfo();
+    if (next) {
+      this.activeView = 'anuvakam';
+      this.selectedAnuvakam = next.anuvakam;
+      this.expandedAnuvakams[next.anuvakam.anuvakam] = true;
+      this.selectMantra(next.mantra);
+    }
+  }
+
+  @HostListener('window:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent): void {
+    if (this.showEditorModal) return;
+    const activeEl = document.activeElement;
+    if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA' || activeEl.getAttribute('contenteditable') === 'true')) {
+      return;
+    }
+    if (this.activeView === 'anuvakam' && this.selectedMantra) {
+      if (event.key === 'ArrowLeft') {
+        if (this.getPrevMantraInfo()) {
+          event.preventDefault();
+          this.goToPreviousMantra();
+        }
+      } else if (event.key === 'ArrowRight') {
+        if (this.getNextMantraInfo()) {
+          event.preventDefault();
+          this.goToNextMantra();
+        }
+      }
+    }
   }
 
   async selectMantra(mantra: Mantra): Promise<void> {

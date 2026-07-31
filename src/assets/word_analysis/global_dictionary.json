@@ -274,16 +274,15 @@
     "pada_form": "धन्व॑नः",
     "clean_form": "धन्वनः",
     "meanings": {
-      "english": "You (nominative); you (accusative, as tvā)",
-      "nirukta": "The full nominative form 'tvam' is emphatic — 'you yourself'. In mantra 5: 'tvā giriśācchā vadāmasi' — 'we speak to you, O Giriśa, towards [you]'.",
-      "vedantic": "The pronoun 'tvam' in 'tat tvam asi' (Chāndogya 6.8.7) is the jīvātman. Here it addresses Rudra directly, establishing the intimate I-Thou relationship of devotion."
+      "english": "Of the bow; belonging to the bow; from the bow",
+      "nirukta": "Genitive singular of dhanvan (bow): dhanvanaḥ = dhanuṣaḥ.",
+      "vedantic": "Refers to the weapon of Rudra, whose bowstring and arrows are released to shower peace."
     },
     "grammatical_references": {
       "panini": [
-        "P 8.1.22 — त्वा is the enclitic accusative form",
-        "P 7.2.97 — nominative singular tvam"
+        "P 7.1.84 — dhanvan in genitive singular: dhanvanaḥ"
       ],
-      "case_ending": ""
+      "case_ending": "Genitive Singular"
     },
     "lexicographical_references": {
       "nighantu": "",
@@ -472,21 +471,20 @@
     "pada_form": "परा॑",
     "clean_form": "परा",
     "meanings": {
-      "english": "That; by that; him/her/it (demonstrative/correlative pronoun)",
-      "nirukta": "Functions as the correlative partner to yad (relative pronoun). The construction 'yā te iṣuḥ ... tayā naḥ mṛḍaya' uses yā...tayā as relative-correlative pair.",
-      "vedantic": "In Vedāntic usage, 'tad' famously refers to Brahman — 'tat tvam asi' (Chāndogya 6.8.7). The correlative use here points to the identity between the terrible and the auspicious."
+      "english": "Far away; away; cast off; remote; disperse",
+      "nirukta": "Vedic verbal prefix (Upasarga) / preposition denoting distance, removal, or casting away: parā = dūre / apākṛtya. In mantra 10: parā tā bhagavo vapa — O Blessed Lord, cast those arrows far away.",
+      "vedantic": "The prayer to cast the weapons far away (parā... vapa) signifies the divine disarming of terror and the granting of absolute peace to the devotee."
     },
     "grammatical_references": {
       "panini": [
-        "P 1.1.27 — tad classified as sarvanāman",
-        "P 7.2.102 — declension paradigm for tad-śabda",
-        "P 7.1.25 — suppletion: nom. sg. masc. becomes saḥ (not tadaḥ)"
+        "P 1.4.58 — Prādayaḥ (upasargāḥ / avyayāḥ)",
+        "P 1.4.59 — Upasargāḥ kriyāyogai: parā as verbal prefix to √vap"
       ],
-      "case_ending": ""
+      "case_ending": "Upasarga / Avyaya (Vedic verbal prefix)"
     },
     "lexicographical_references": {
-      "nighantu": "",
-      "amara_kosha": "",
+      "nighantu": "Nighaṇṭu 3.22 — avyaya section.",
+      "amara_kosha": "Amarakośa 3.4.12 — parā as an indeclinable prefix.",
       "abhidhana_ratnamala": ""
     }
   },
@@ -1415,17 +1413,15 @@
     "pada_form": "धे॒हि॒",
     "clean_form": "धेहि",
     "meanings": {
-      "english": "That; by that; him/her/it (demonstrative/correlative pronoun)",
-      "nirukta": "Functions as the correlative partner to yad (relative pronoun). The construction 'yā te iṣuḥ ... tayā naḥ mṛḍaya' uses yā...tayā as relative-correlative pair.",
-      "vedantic": "In Vedāntic usage, 'tad' famously refers to Brahman — 'tat tvam asi' (Chāndogya 6.8.7). The correlative use here points to the identity between the terrible and the auspicious."
+      "english": "Place; deposit; set down; lay aside; bestow",
+      "nirukta": "Imperative 2nd person singular from √dhā (to place/put/lay): dhehi = nidhehi / sthāpaya.",
+      "vedantic": "Asking the Lord to lay down His quiver far away, transforming potential destruction into absolute safety."
     },
     "grammatical_references": {
       "panini": [
-        "P 1.1.27 — tad classified as sarvanāman",
-        "P 7.2.102 — declension paradigm for tad-śabda",
-        "P 7.1.25 — suppletion: nom. sg. masc. becomes saḥ (not tadaḥ)"
+        "P 6.4.119 — dhā + hi → dhehi (lot 2nd sg)"
       ],
-      "case_ending": ""
+      "case_ending": "Imperative 2nd Person Singular (Loṭ-lakāra)"
     },
     "lexicographical_references": {
       "nighantu": "",
@@ -3181,9 +3177,9 @@
     "pada_form": "हिर॑ण्य-बाहवे",
     "clean_form": "हिरण्यबाहवे",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the golden-armed one; to the Lord with arms of shining gold",
+      "nirukta": "Bahuvrīhi compound: hiraṇyamayau bāhū yasya saḥ — one whose arms are made of or resplendent like gold (representing divine effulgence).",
+      "vedantic": "Gold symbolizes pure, unalterable truth (Satya) and divine light (Tejas). Golden arms signify the Lord active grace that is luminous and immutable."
     },
     "grammatical_references": {
       "panini": "",
@@ -3348,9 +3344,9 @@
     "pada_form": "वा॒रि॒व॒स्-कृ॒ताय॑",
     "clean_form": "वारिवस्कृताय",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the creator of room, relief, and broad freedom; to the bestower of spiritual space and comfort",
+      "nirukta": "From vārivas (room/width/comfort) + kṛt (maker/creator). Sāyaṇa: paricaryā-kartre / sukha-kartre — one who creates comfort and relief from distress.",
+      "vedantic": "Vārivas represents spatial and spiritual liberation — releasing the jīva from the constriction of worldly limitation (saṃsāra)."
     },
     "grammatical_references": {
       "panini": "",
@@ -3409,9 +3405,9 @@
     "pada_form": "आ॒-क्र॒न्दय॑ते",
     "clean_form": "आक्रन्दयते",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the Lord who causes the enemies of righteousness to roar in distress or flee in fear",
+      "nirukta": "Causative from ā + √krand (to cry out / roar): ākrandayati śatrūn — who causes adversaries to cry out or shout.",
+      "vedantic": "Symbolizes the destructive force of divine law against egoism, delusion, and inner vices."
     },
     "grammatical_references": {
       "panini": "",
@@ -3449,9 +3445,9 @@
     "pada_form": "कृ॒त्स्न॒-वी॒ताय॑",
     "clean_form": "कृत्स्नवीताय",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the one who completely pervades the universe; to the all-encompassing, fully clad Lord",
+      "nirukta": "From kṛtsna (entire/all) + vīta (enveloped/pervaded). Sāyaṇa: kṛtsnenātmanā vyāptāya — pervaded in every aspect.",
+      "vedantic": "Refers to the omnipresence of Brahman — enveloping all dimensions of creation within Himself."
     },
     "grammatical_references": {
       "panini": "",
@@ -3531,9 +3527,9 @@
     "pada_form": "हरि॑-केशेभ्यः",
     "clean_form": "हरिकेशेभ्यः",
     "meanings": {
-      "english": "",
-      "nirukta": "Bahuvrīhi compound: 'haritaḥ keśāḥ (parṇāni) yeṣāṃ te' (those whose hair/leaves are green).",
-      "vedantic": "The green leaves represent the life-giving, protective rituals (karma-kāṇḍa) of the Vedas that keep the tree of saṃsāra alive."
+      "english": "To the Lords with golden/yellowish hair or rays of light",
+      "nirukta": "Bahuvrīhi: harayaḥ keśā yeṣām te — those whose hair consists of golden rays of sunlight or divine energy.",
+      "vedantic": "The golden hair symbolizes the rays of divine wisdom radiating throughout the cosmos."
     },
     "grammatical_references": {
       "panini": "",
@@ -3592,9 +3588,9 @@
     "pada_form": "त्विषी॑-मते",
     "clean_form": "त्विषीमते",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the brilliant, resplendent, and fiery Lord possessing intense illumination",
+      "nirukta": "Possessive adjective from tviṣi (splendor/brilliance/light) + matup suffix — tviṣimān = tejasvī (one endowed with supreme light).",
+      "vedantic": "Points to Brahman as the self-luminous reality (svayaṃ-jyotiḥ) by whose light all creation shines."
     },
     "grammatical_references": {
       "panini": "",
@@ -3653,9 +3649,9 @@
     "pada_form": "वि॒-व्या॒धिने᳚",
     "clean_form": "विव्याधिने",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the piercer; to the one who deeply pierces or strikes through darkness and ignorance",
+      "nirukta": "Agent noun from vi + √vyadh (to pierce/strike): vi-vyādhī = viśeṣeṇa vyadhana-śīlaḥ — one whose nature is to strike/pierce.",
+      "vedantic": "The piercing aspect of Rudra breaks open the hard shell of ignorance (avidyā) to liberate the soul."
     },
     "grammatical_references": {
       "panini": "",
@@ -3693,9 +3689,9 @@
     "pada_form": "हरि॑-केशाय",
     "clean_form": "हरिकेशाय",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the golden-haired Lord; to the one with radiant locks of sunlight",
+      "nirukta": "Bahuvrīhi: harayaḥ keśā yasya saḥ — one with greenish-gold hair/rays (an epithet of the sun and Śiva).",
+      "vedantic": "Refers to the solar form of Rudra, whose golden rays illuminate and sustain all realms."
     },
     "grammatical_references": {
       "panini": "",
@@ -5489,9 +5485,9 @@
     "pada_form": "सम्-वृध्वने",
     "clean_form": "सम्वृध्वने",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the one who prospers and causes overall growth and spiritual thriving",
+      "nirukta": "From sam + √vṛdh (to grow/prosper) — saṃvardhayitā (one who fosters growth and prosperity).",
+      "vedantic": "Rudra fosters spiritual maturation (sādhanā-vṛddhi) in the aspirant until complete liberation is attained."
     },
     "grammatical_references": {
       "panini": "",
@@ -5850,9 +5846,9 @@
     "pada_form": "मीढुः-तमाय",
     "clean_form": "मीढुःतमाय",
     "meanings": {
-      "english": "",
-      "nirukta": "",
-      "vedantic": ""
+      "english": "To the most bountiful one; to the most generous giver of blessings; to the supreme granter of desires",
+      "nirukta": "Superlative of mīḍhuṣ (bountiful) with -tama suffix: mīḍhuṣṭamaḥ = atiśayena kāmānāṃ varṣitā — the supreme bestower who showers grace abundantly.",
+      "vedantic": "Rudra as mīḍhuṣṭama represents Brahman as the ultimate source of all grace and fulfillment, showering unceasing blessings upon all seekers."
     },
     "grammatical_references": {
       "panini": "",
@@ -11544,6 +11540,122 @@
       "nighantu": "Nighaṇṭu 3.14 — prayer/request verbs (yācñā-karman).",
       "amara_kosha": "Amarakośa 3.1.35 — request verbs.",
       "abhidhana_ratnamala": "Listed under prayer verbs."
+    }
+  },
+  "582": {
+    "id": 582,
+    "pada_form": "व॒प॒",
+    "clean_form": "वप",
+    "meanings": {
+      "english": "Cast away; scatter; throw down; disarm",
+      "nirukta": "From √vap (to scatter / sow / cast off). In parā tā bhagavo vapa: O Lord, cast far away those arrows of yours.",
+      "vedantic": "Surrender to the Lord asking Him to disarm His terrifying weapons and turn them away from the devotee."
+    },
+    "grammatical_references": {
+      "panini": "Root √vap + Lot (imperative) 2nd person singular active → vapa.",
+      "case_ending": "Imperative Verb (Lot-Lakāra, 2nd Person Singular, Parasmaipada)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Disarming / scattering verbs.",
+      "amara_kosha": "Verb class.",
+      "abhidhana_ratnamala": ""
+    }
+  },
+  "583": {
+    "id": 583,
+    "pada_form": "स॒ह॒स्र॒-अ॒क्ष",
+    "clean_form": "सहस्राक्ष",
+    "meanings": {
+      "english": "O thousand-eyed one! (having innumerable eyes/glances)",
+      "nirukta": "Sahasra (thousand) + akṣa (eyes) in vocative singular address.",
+      "vedantic": "Invoking Shiva as omnipresent and all-seeing, whose eyes behold all actions in the universe."
+    },
+    "grammatical_references": {
+      "panini": "Bahuvrīhi compound: sahasram akṣīṇi yasya saḥ → sahasrākṣa (vocative singular).",
+      "case_ending": "Vocative Singular, Masculine"
+    },
+    "lexicographical_references": {
+      "nighantu": "Names of deities.",
+      "amara_kosha": "Epithets of Shiva.",
+      "abhidhana_ratnamala": ""
+    }
+  },
+  "584": {
+    "id": 584,
+    "pada_form": "शते॑-इषुधे",
+    "clean_form": "शतेषुधे",
+    "meanings": {
+      "english": "O possessor of hundreds of quivers!",
+      "nirukta": "Śata (hundreds of) + iṣudhi (quivers of arrows) in vocative singular.",
+      "vedantic": "Praising the infinite capacity of Rudras powers and arsenal, asking Him to pacify them all."
+    },
+    "grammatical_references": {
+      "panini": "Bahuvrīhi compound: śatam iṣudhayaḥ yasya saḥ → śateṣudhe (vocative singular).",
+      "case_ending": "Vocative Singular, Masculine"
+    },
+    "lexicographical_references": {
+      "nighantu": "Names of deities.",
+      "amara_kosha": "Epithets of Rudra.",
+      "abhidhana_ratnamala": ""
+    }
+  },
+  "585": {
+    "id": 585,
+    "pada_form": "नि॒ष॒ङ्ग॒-इथिः॑",
+    "clean_form": "निषङ्गथिः",
+    "meanings": {
+      "english": "The quiver attached / tied onto the back",
+      "nirukta": "From ni + sañj (niṣaṅga) + ithac pratyaya → niṣaṅgathiḥ (quiver for carrying arrows on the back).",
+      "vedantic": "Refers to Rudras quiver remaining in its place without being drawn, symbolizing peace."
+    },
+    "grammatical_references": {
+      "panini": "Niṣaṅga + ithac suffix (Uṇādi) → niṣaṅgathiḥ.",
+      "case_ending": "Nominative Singular, Masculine"
+    },
+    "lexicographical_references": {
+      "nighantu": "Quiver / weapon synonyms.",
+      "amara_kosha": "Quiver synonyms.",
+      "abhidhana_ratnamala": ""
+    }
+  },
+  "586": {
+    "id": 586,
+    "pada_form": "भु॒ज॒",
+    "clean_form": "भुज",
+    "meanings": {
+      "english": "Protect; save; preserve",
+      "nirukta": "From √bhuj (to protect / preserve / enjoy). Pari-bhuja: protect us completely from all sides.",
+      "vedantic": "The core prayer asking Lord Shiva to encompass and protect the seeker on all sides."
+    },
+    "grammatical_references": {
+      "panini": "Root √bhuj + Lot (imperative) 2nd person singular active → bhuja.",
+      "case_ending": "Imperative Verb (Lot-Lakāra, 2nd Person Singular, Parasmaipada)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Protection verbs (pālana-karman).",
+      "amara_kosha": "Verb class.",
+      "abhidhana_ratnamala": ""
+    }
+  },
+  "588": {
+    "id": 588,
+    "pada_form": "इति॑",
+    "clean_form": "इति",
+    "meanings": {
+      "english": "Indeclinable particle; thus; so; Vedic Padapatha Veshṭana pause marker",
+      "nirukta": "Indicates the end of a padapatha word or compound unstringing (veshṭana). Sāyaṇa: iti = evam (thus/so).",
+      "vedantic": "In Vedic recitation, iti marks the definitive separation of compound words into their essential roots."
+    },
+    "grammatical_references": {
+      "panini": [
+        "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
+      ],
+      "case_ending": "Avyaya (indeclinable particle)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Nighaṇṭu 3.22 — avyaya section.",
+      "amara_kosha": "Amarakośa 3.4.14 — iti is listed under avyayas.",
+      "abhidhana_ratnamala": ""
     }
   }
 }

@@ -3,7 +3,7 @@
   "title": "प्रथमोनुवाकः",
   "id": 15,
   "samhita": "परि॑ ते॒ धन्व॑नो हे॒तिर॒स्मान् वृ॑णक्तु वि॒श्वतः॑ । अथो॒ य इ॑षु॒धिस्तवा॒रे अ॒स्मन्निधे॑हि॒ तम् ॥",
-  "pada": "परि॑ । ते॒ । धन्व॑नः । हे॒तिः । अ॒स्मान् । वृ॒ण॒क्तु॒ । वि॒श्वतः॑ । अथो॒ इति॑ । यः । इ॒षु॒-धिः । तव॑ । आ॒रे । अ॒स्मत् । नि । धे॒हि॒ । तम् ॥",
+  "pada": "परिति॑ (परि॑) । ते॒ । धन्व॑नः । हे॒तिः । अ॒स्मान । वृ॒ण॒क्तु॒ । वि॒श्वतः॑ । अथो॒ इत्यथो᳚ । यः । इ॒षु॒धीरिती॑षु = धि: । तव॑ । आ॒रे । अ॒स्मत । नीति॑ (नि) । धे॒हि॒ । तम् ॥",
   "krama": "परि॑ ते॒ । ते धन्व॑नः । धन्व॑नो हे॒तिः । हे॒तिर॒स्मान् । अ॒स्मान् वृ॑णक्तु । वृ॒ण॒क्तु वि॒श्वतः॑ । वि॒श्वत॒ इत्यवि॑श्वतः । अथो॒ यः । य इ॑षु॒धिः । इ॒षु॒धिस्तव॑ । तव॒ आरे । आ॒रे अ॒स्मत् । अ॒स्मन्नि । नि धे॑हि । धे॒हि तम् । तमिति॑ तम् ॥",
   "commentaries": {
     "sayana": {
@@ -65,7 +65,7 @@
       "text": "हे॒तिर॒स्मान्",
       "word_ids": [
         45,
-        49
+        88
       ]
     },
     {
@@ -95,7 +95,8 @@
     {
       "text": "अथो॒",
       "word_ids": [
-        59
+        59,
+        500
       ]
     },
     {
@@ -115,9 +116,9 @@
     {
       "text": "इ॑षु॒धिस्तवा॒रे",
       "word_ids": [
-        61,
         57,
-        62
+        61,
+        66
       ]
     },
     {
@@ -127,7 +128,6 @@
     {
       "text": "अ॒स्मन्निधे॑हि॒",
       "word_ids": [
-        63,
         64,
         65
       ]
@@ -138,7 +138,9 @@
     },
     {
       "text": "तम्",
-      "word_ids": []
+      "word_ids": [
+        546
+      ]
     },
     {
       "text": " ॥",
@@ -147,13 +149,32 @@
   ],
   "pada_tokens": [
     {
-      "text": "परि॑",
+      "text": "परिति॑",
+      "word_ids": [
+        52,
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "(परि॑)",
       "word_ids": [
         52
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -163,7 +184,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -173,7 +202,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -183,17 +220,33 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "अ॒स्मान्",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मान",
       "word_ids": [
         49
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -203,7 +256,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -213,7 +274,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -227,11 +296,22 @@
       "word_ids": []
     },
     {
-      "text": "इति॑",
+      "text": "इत्यथो᳚",
+      "word_ids": [
+        59,
+        588
+      ]
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": " । ",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -241,17 +321,52 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "इ॒षु॒-धिः",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "इ॒षु॒धीरिती॑षु",
+      "word_ids": [
+        61,
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "=",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "धि:",
       "word_ids": [
         61
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -261,7 +376,15 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -271,27 +394,62 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "अ॒स्मत्",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "अ॒स्मत",
       "word_ids": [
         63
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": "नि",
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "नीति॑",
+      "word_ids": [
+        64,
+        588
+      ]
+    },
+    {
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "(नि)",
       "word_ids": [
         64
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
@@ -301,15 +459,29 @@
       ]
     },
     {
-      "text": " । ",
+      "text": " ",
+      "word_ids": []
+    },
+    {
+      "text": "।",
+      "word_ids": []
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
       "text": "तम्",
+      "word_ids": [
+        546
+      ]
+    },
+    {
+      "text": " ",
       "word_ids": []
     },
     {
-      "text": " ॥",
+      "text": "॥",
       "word_ids": []
     }
   ],
@@ -357,8 +529,7 @@
     {
       "text": "धन्व॑नो",
       "word_ids": [
-        13,
-        58
+        13
       ]
     },
     {
@@ -367,7 +538,9 @@
     },
     {
       "text": "हे॒तिः",
-      "word_ids": []
+      "word_ids": [
+        45
+      ]
     },
     {
       "text": " । ",
@@ -376,7 +549,8 @@
     {
       "text": "हे॒तिर॒स्मान्",
       "word_ids": [
-        49
+        45,
+        88
       ]
     },
     {
@@ -416,7 +590,6 @@
     {
       "text": "वि॒श्वतः॑",
       "word_ids": [
-        58,
         50
       ]
     },
@@ -427,7 +600,6 @@
     {
       "text": "वि॒श्वत॒",
       "word_ids": [
-        58,
         50
       ]
     },
@@ -438,8 +610,9 @@
     {
       "text": "इत्यवि॑श्वतः",
       "word_ids": [
-        58,
-        50
+        50,
+        100,
+        588
       ]
     },
     {
@@ -449,7 +622,8 @@
     {
       "text": "अथो॒",
       "word_ids": [
-        59
+        59,
+        500
       ]
     },
     {
@@ -489,8 +663,9 @@
     {
       "text": "इ॒षु॒धिस्तव॑",
       "word_ids": [
+        57,
         61,
-        57
+        66
       ]
     },
     {
@@ -530,7 +705,7 @@
     {
       "text": "अ॒स्मत्",
       "word_ids": [
-        57
+        63
       ]
     },
     {
@@ -540,7 +715,6 @@
     {
       "text": "अ॒स्मन्नि",
       "word_ids": [
-        63,
         64
       ]
     },
@@ -580,7 +754,9 @@
     },
     {
       "text": "तम्",
-      "word_ids": []
+      "word_ids": [
+        546
+      ]
     },
     {
       "text": " । ",
@@ -588,7 +764,9 @@
     },
     {
       "text": "तमिति॑",
-      "word_ids": []
+      "word_ids": [
+        546
+      ]
     },
     {
       "text": " ",
@@ -596,7 +774,9 @@
     },
     {
       "text": "तम्",
-      "word_ids": []
+      "word_ids": [
+        546
+      ]
     },
     {
       "text": " ॥",
@@ -604,20 +784,351 @@
     }
   ],
   "words": [
-    2,
-    13,
-    45,
-    49,
-    50,
-    52,
-    57,
-    58,
-    59,
-    60,
-    61,
-    62,
-    63,
-    64,
-    65
+    {
+      "id": 52,
+      "pada_form": "परि॑",
+      "clean_form": "परि",
+      "meanings": {
+        "english": "Protect all around; embrace; shelter on every side; wrap around protectively",
+        "nirukta": "Compound verb: pari (all around) + √bhuj (to protect/bend). 'Pari-bhuja' = 'shelter us on all sides'. Sāyaṇa: 'sarvataḥ pālaya' (protect from every direction). In mantra 13: 'ayakṣmayā pari bhuja' — 'with [your] disease-free [grace], protect us all around'.",
+        "vedantic": "The final plea in mantra 13 asks for complete, all-encompassing protection (pari = all around). The adverb viśvataḥ (from all sides) reinforces this. Rudra's protection is not partial but total — the devotee is wrapped in divine grace from every direction."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.4.87 — loṭ: परि + भुज् + हि → परिभुज"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 2,
+      "pada_form": "ते॒",
+      "clean_form": "ते",
+      "meanings": {
+        "english": "To you; your; of you; for you",
+        "nirukta": "Nirukta 1.4 discusses pronoun forms. The enclitic 'te' is the natural conversational form of address in Vedic, more intimate than the full 'tubhyam' — it implies direct, personal communion with the deity.",
+        "vedantic": "Here 'te' addresses Rudra as the Supreme Being directly. The repeated use throughout Śrī Rudram establishes the devotee's continuous awareness of the divine 'You' — the eternal subject who is never an object."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — enclitic (anudātta) form",
+          "P 8.1.28 — replacement of tubhyam/tava"
+        ],
+        "case_ending": "Dative / Genitive Singular (Caturthī / Ṣaṣṭhī Vibhakti, Ekavacana)"
+      },
+      "lexicographical_references": {
+        "nighantu": "Pronoun section.",
+        "amara_kosha": "Pronoun class.",
+        "abhidhana_ratnamala": "Listed under pronouns."
+      }
+    },
+    {
+      "id": 13,
+      "pada_form": "धन्व॑नः",
+      "clean_form": "धन्वनः",
+      "meanings": {
+        "english": "You (nominative); you (accusative, as tvā)",
+        "nirukta": "The full nominative form 'tvam' is emphatic — 'you yourself'. In mantra 5: 'tvā giriśācchā vadāmasi' — 'we speak to you, O Giriśa, towards [you]'.",
+        "vedantic": "The pronoun 'tvam' in 'tat tvam asi' (Chāndogya 6.8.7) is the jīvātman. Here it addresses Rudra directly, establishing the intimate I-Thou relationship of devotion."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — त्वा is the enclitic accusative form",
+          "P 7.2.97 — nominative singular tvam"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 45,
+      "pada_form": "हे॒तिः",
+      "clean_form": "हेतिः",
+      "meanings": {
+        "english": "Missile; weapon; stroke; flame; any instrument of striking",
+        "nirukta": "From √hi — 'hiyate preṣyate iti hetiḥ' (that which is impelled/sent forth). A more general term than iṣu — covers any weapon or missile. In mantra 13: 'yā te hetiḥ' — 'which weapon of yours'.",
+        "vedantic": "In mantras 13 and 15, heti refers to Rudra's general weaponry — broader than the specific bow-and-arrow. 'Pari te dhanvano hetiḥ asmān vṛṇaktu viśvataḥ' — 'may the weapon of your bow avoid us from all sides'."
+      },
+      "grammatical_references": {
+        "panini": [
+          "√हि + क्तिन् (P 3.3.94) → हेति (with guṇa: i → e)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names). Also used for 'flame/fire-weapon' in other Vedic contexts.",
+        "amara_kosha": "Amarakośa 2.8.82 — हेतिः listed meaning 'āyudha' (weapon) in general sense.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 49,
+      "pada_form": "अ॒स्मान्",
+      "clean_form": "अस्मान्",
+      "meanings": {
+        "english": "Us; to us; our; from us (first person plural)",
+        "nirukta": "The first person plural establishes the communal nature of Vedic prayer — the ṛṣi speaks not for himself alone but for the community.",
+        "vedantic": "The shift from 'te' (you) to 'naḥ' (us) establishes the devotee-deity relationship. In Advaita, the apparent duality of 'you' and 'us' is ultimately resolved in the identity of Ātman and Brahman."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — नः is the enclitic form, governed by same pragraha rules as ते",
+          "P 7.2.97 — accusative plural: अस्मान्",
+          "P 7.2.86 — ablative: अस्मत्"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 58,
+      "pada_form": "वृ॒ण॒क्तु॒",
+      "clean_form": "वृणक्तु",
+      "meanings": {
+        "english": "May it avoid; may it turn aside from; may it keep away; may it exclude",
+        "nirukta": "√vṛj — 'varjayati tyajati pariharati' (to avoid, to abandon, to go around). 'Asmān vṛṇaktu' — 'may it avoid us'. The imperative is addressed to the weapon itself — 'may the weapon turn aside from us'.",
+        "vedantic": "In mantra 15: the prayer asks the weapon itself to exercise avoidance — personifying the heti (weapon) as an agent capable of choice. In Vedānta, all instruments of the divine partake of consciousness — even the weapon responds to prayer."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.4.86 — loṭ 3rd sg.: वृज् + तु → वृणक्तु (with nasal infix per P 7.1.58 for tudādi)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 50,
+      "pada_form": "वि॒श्वतः॑",
+      "clean_form": "विश्वतः",
+      "meanings": {
+        "english": "All; entire; universal; every; the whole; from all sides (as viśvataḥ)",
+        "nirukta": "From √viś — 'viśati prāpnoti sarvam iti viśvam' (that which enters/pervades everything). Viśva denotes totality in an all-pervading sense.",
+        "vedantic": "In mantra 8: 'viśvā bhūtāni' — 'all beings'. The entire manifest creation sees Rudra-as-sun. Viśvataḥ (from all sides) in mantras 13 and 15 emphasizes comprehensive protection — Rudra's grace covers all directions."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — viśva classified as sarvanāman",
+          "P 5.3.7 — tasil-pratyaya: viśva + tas → viśvatas (from all sides)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.1 — listed among words denoting 'sarva' (totality/completeness).",
+        "amara_kosha": "Amarakośa 3.1.1 — विश्वम् listed as synonym of sarva: 'sarvaḥ viśvaḥ'.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 59,
+      "pada_form": "अथो॒ इति॑",
+      "clean_form": "अथोइति",
+      "meanings": {
+        "english": "And moreover; and further; and also; furthermore",
+        "nirukta": "Compound particle: atha (now/then/moreover) + u (emphatic). Introduces an additional thought — 'and furthermore'. In mantra 9: 'atho ye asya satvānaḥ' — 'and moreover, those who are his attendants'.",
+        "vedantic": "Atho transitions from praising Rudra directly to acknowledging his retinue (gaṇas/attendants). This expansion from the one to the many is a hallmark of Vedic theology."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 6.1.96 — sandhi: atha + u → atho (a + u → o)"
+        ],
+        "case_ending": "indeclinable conjunction (sandhi of atha + u)"
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 60,
+      "pada_form": "यः",
+      "clean_form": "यः",
+      "meanings": {
+        "english": "Who; which; what; that which (relative pronoun forming correlative clauses)",
+        "nirukta": "Yāska classifies yad among relative-correlative constructions fundamental to Vedic syntax. The relative clause structure 'yā te iṣuḥ ... tayā naḥ mṛḍaya' (which arrow of yours ... by that, be gracious to us) is a defining pattern of Vedic prayer — naming the fearsome and asking for its transformation.",
+        "vedantic": "The relative pronoun 'yā/yad' in Vedic prayer introduces the item of fear which the devotee then asks the deity to make auspicious. This rhetorical structure embodies surrender — not denying the terrible but asking it to become gracious."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — yad is classified as a sarvanāman (pronoun)",
+          "P 7.2.102-105 — declension paradigm for yad-śabda across genders",
+          "P 8.1.36 — ya-forms can be accent-bearing or enclitic depending on position"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 61,
+      "pada_form": "इ॒षु॒-धिः",
+      "clean_form": "इषुधिः",
+      "meanings": {
+        "english": "Quiver; arrow-holder; the receptacle for arrows",
+        "nirukta": "From iṣu (arrow) + √dhā (to hold/contain). 'Iṣūn dadhāti yaḥ saḥ' — that which holds arrows. Synonym of niṣaṅga and tūṇīra.",
+        "vedantic": "In mantra 15: 'yo iṣudhiḥ tava āre asmat ni dhehi tam' — 'that quiver of yours, place it far from us'. The prayer asks for the entire arsenal to be placed at a distance — physical separation as metaphor for safety."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.2.68 — upapada compound with √dhā: iṣu + dhi → iṣudhi"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "Related to Nighantu 2.20 — āyudha terms.",
+        "amara_kosha": "Amarakośa 2.8.86 — इषुधिः listed as quiver-synonym: 'tūṇīraḥ iṣudhiḥ niṣaṅgaḥ'.",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 57,
+      "pada_form": "तव॑",
+      "clean_form": "तव",
+      "meanings": {
+        "english": "Your; of you; belonging to you",
+        "nirukta": "The full genitive form 'tava' is used when emphasis or sentence-initial position requires the stressed pronoun form, as opposed to the enclitic 'te'.",
+        "vedantic": "Same referent as 'te' — addresses Rudra directly. The full form 'tava' carries greater emphasis — 'yours specifically, O Rudra'."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — unlike 'te', 'tava' is the full (pragṛhya) genitive form that can begin a sentence",
+          "P 7.2.97 — genitive singular formation of yuṣmad-śabda"
+        ],
+        "case_ending": "genitive singular — 'your, of you' (full/non-enclitic form, unlike 'te')"
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 62,
+      "pada_form": "आ॒रे",
+      "clean_form": "आरे",
+      "meanings": {
+        "english": "Far away; at a distance; remote from",
+        "nirukta": "Nirukta 4.2 — āre is a Vedic adverb meaning 'at a distance from'. With ablative: 'āre asmat' — 'far from us'. Rare in classical Sanskrit, characteristic of Vedic.",
+        "vedantic": "The spatial imagery — placing the quiver far away — represents creating distance between the devotee and the source of harm. In Vedānta, this distance is the spiritual distance between the jīva and the binding effects of karma."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 5.3.38 — āre as an archaic adverb of distance (Vedic usage)"
+        ],
+        "case_ending": "indeclinable adverb"
+      },
+      "lexicographical_references": {
+        "nighantu": "Nighantu 3.28 — listed among dūra-vācaka (distance-denoting) words.",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 63,
+      "pada_form": "अ॒स्मत्",
+      "clean_form": "अस्मत्",
+      "meanings": {
+        "english": "Us; to us; our; from us (first person plural)",
+        "nirukta": "The first person plural establishes the communal nature of Vedic prayer — the ṛṣi speaks not for himself alone but for the community.",
+        "vedantic": "The shift from 'te' (you) to 'naḥ' (us) establishes the devotee-deity relationship. In Advaita, the apparent duality of 'you' and 'us' is ultimately resolved in the identity of Ātman and Brahman."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 8.1.22 — नः is the enclitic form, governed by same pragraha rules as ते",
+          "P 7.2.97 — accusative plural: अस्मान्",
+          "P 7.2.86 — ablative: अस्मत्"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 64,
+      "pada_form": "नि",
+      "clean_form": "नि",
+      "meanings": {
+        "english": "Place down; set aside; deposit; lay down (the quiver)",
+        "nirukta": "Compound verb: ni (down) + √dhā (to place). 'Āre asmat nidhehi tam' — 'place it [the quiver] down far from us'. The imperative asks Rudra to physically set down his arsenal at a distance.",
+        "vedantic": "The final mantra (15) ends with this plea — 'place your quiver far from us'. The entire first anuvāka traces an arc from salutation (namaḥ) through acknowledgment of Rudra's terrible power to the concluding prayer for disarmament and distance. In Vedānta, 'nidhehi' (place down) suggests Rudra placing aside his cosmic function of destruction for the devotee's sake."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 3.4.87 — loṭ: नि + धा + हि → निधेहि (with guṇa per P 7.3.84)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 65,
+      "pada_form": "धे॒हि॒",
+      "clean_form": "धेहि",
+      "meanings": {
+        "english": "That; by that; him/her/it (demonstrative/correlative pronoun)",
+        "nirukta": "Functions as the correlative partner to yad (relative pronoun). The construction 'yā te iṣuḥ ... tayā naḥ mṛḍaya' uses yā...tayā as relative-correlative pair.",
+        "vedantic": "In Vedāntic usage, 'tad' famously refers to Brahman — 'tat tvam asi' (Chāndogya 6.8.7). The correlative use here points to the identity between the terrible and the auspicious."
+      },
+      "grammatical_references": {
+        "panini": [
+          "P 1.1.27 — tad classified as sarvanāman",
+          "P 7.2.102 — declension paradigm for tad-śabda",
+          "P 7.1.25 — suppletion: nom. sg. masc. becomes saḥ (not tadaḥ)"
+        ],
+        "case_ending": ""
+      },
+      "lexicographical_references": {
+        "nighantu": "",
+        "amara_kosha": "",
+        "abhidhana_ratnamala": ""
+      }
+    },
+    {
+      "id": 546,
+      "pada_form": "तम्",
+      "clean_form": "तम्",
+      "meanings": {
+        "english": "That / By that.",
+        "nirukta": "Demonstrative pronoun base.",
+        "vedantic": "Refers to the transcendent reality that is experienced as the substrate of all."
+      },
+      "grammatical_references": {
+        "panini": "Pronoun 'tad'. Instrumental 'tayā', accusative 'tat'.",
+        "case_ending": "Pronoun."
+      },
+      "lexicographical_references": {
+        "nighantu": "Not listed.",
+        "amara_kosha": "Pronoun.",
+        "abhidhana_ratnamala": "Not listed."
+      }
+    }
   ]
 }

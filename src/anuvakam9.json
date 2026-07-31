@@ -6,103 +6,4790 @@
       "id": 1,
       "samhita": "नम॑ इरि॒ण्या॑य च प्रप॒थ्या॑य च॒",
       "pada": "नमः॑ । इरि॒ण्या॑य । च॒ । प्र॒-प॒थ्या॑य । च॒ ॥",
-      "krama": "नम॑ इरि॒ण्या॑य । इरि॒ण्या॑य च । च प्रप॒थ्या॑य । प्रप॒थ्या॑य च । च इति॑ च ॥"
+      "krama": "नम॑ इरि॒ण्या॑य । इरि॒ण्या॑य च । च प्रप॒थ्या॑य । प्रप॒थ्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इरि॒ण्या॑य",
+          "word_ids": [
+            376
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्रप॒थ्या॑य",
+          "word_ids": [
+            377
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इरि॒ण्या॑य",
+          "word_ids": [
+            376
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्र॒-प॒थ्या॑य",
+          "word_ids": [
+            377
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इरि॒ण्या॑य",
+          "word_ids": [
+            376
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इरि॒ण्या॑य",
+          "word_ids": [
+            376
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्रप॒थ्या॑य",
+          "word_ids": [
+            377
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्रप॒थ्या॑य",
+          "word_ids": [
+            377
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 2,
       "samhita": "नमः॑ किग्ंशि॒लाय॑ च॒ क्षय॑णाय च॒",
       "pada": "नमः॑ । कि॒म्-शि॒लाय॑ । च॒ । क्षय॑णाय । च॒ ॥",
-      "krama": "नमः॑ किग्ंशि॒लाय॑ । किग्ंशि॒लाय॑ च । च क्षय॑णाय । क्षय॑णाय च । च इति॑ च ॥"
+      "krama": "नमः॑ किग्ंशि॒लाय॑ । किग्ंशि॒लाय॑ च । च क्षय॑णाय । क्षय॑णाय च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "किग्ंशि॒लाय॑",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "क्षय॑णाय",
+          "word_ids": [
+            396
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "कि॒म्-शि॒लाय॑",
+          "word_ids": [
+            395
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "क्षय॑णाय",
+          "word_ids": [
+            396
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "किग्ंशि॒लाय॑",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "किग्ंशि॒लाय॑",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "क्षय॑णाय",
+          "word_ids": [
+            396
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "क्षय॑णाय",
+          "word_ids": [
+            396
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 3,
       "samhita": "नमः॑ कप॒र्दिने॑ च पुल॒स्तये॑ च॒",
       "pada": "नमः॑ । क॒प॒र्दिने᳚ । च॒ । पु॒ल॒स्तये॑ । च॒ ॥",
-      "krama": "नमः॑ कप॒र्दिने॑ । कप॒र्दिने॑ च । च पुल॒स्तये॑ । पुल॒स्तये॑ च । च इति॑ च ॥"
+      "krama": "नमः॑ कप॒र्दिने॑ । कप॒र्दिने॑ च । च पुल॒स्तये॑ । पुल॒स्तये॑ च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "कप॒र्दिने॑",
+          "word_ids": [
+            277
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पुल॒स्तये॑",
+          "word_ids": [
+            397
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "क॒प॒र्दिने᳚",
+          "word_ids": [
+            37,
+            277
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पु॒ल॒स्तये॑",
+          "word_ids": [
+            397
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "कप॒र्दिने॑",
+          "word_ids": [
+            277
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "कप॒र्दिने॑",
+          "word_ids": [
+            277
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पुल॒स्तये॑",
+          "word_ids": [
+            397
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पुल॒स्तये॑",
+          "word_ids": [
+            397
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 4,
       "samhita": "नमो॒ गोष्ठ्या॑य च॒ गृह्या॑य च॒",
       "pada": "नमो॒ । गोष्ठ्या॑य । च॒ । गृह्या॑य । च॒ ॥",
-      "krama": "नमो॒ गोष्ठ्या॑य । गोष्ठ्या॑य च । च गृह्या॑य । गृह्या॑य च । च इति॑ च ॥"
+      "krama": "नमो॒ गोष्ठ्या॑य । गोष्ठ्या॑य च । च गृह्या॑य । गृह्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमो॒",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गोष्ठ्या॑य",
+          "word_ids": [
+            398
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गृह्या॑य",
+          "word_ids": [
+            399
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमो॒",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गोष्ठ्या॑य",
+          "word_ids": [
+            398
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गृह्या॑य",
+          "word_ids": [
+            399
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमो॒",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गोष्ठ्या॑य",
+          "word_ids": [
+            398
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गोष्ठ्या॑य",
+          "word_ids": [
+            398
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गृह्या॑य",
+          "word_ids": [
+            399
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गृह्या॑य",
+          "word_ids": [
+            399
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 5,
       "samhita": "नम॒स्तल्प्या॑य च॒ गेह्या॑य च॒",
       "pada": "नमः॑ । तल्प्या॑य । च॒ । गेह्या॑य । च॒ ॥",
-      "krama": "नम॒स्तल्प्या॑य । तल्प्या॑य च । च गेह्या॑य । गेह्या॑य च । च इति॑ च ॥"
+      "krama": "नम॒स्तल्प्या॑य । तल्प्या॑य च । च गेह्या॑य । गेह्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नम॒स्तल्प्या॑य",
+          "word_ids": [
+            1,
+            18,
+            44,
+            400
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गेह्या॑य",
+          "word_ids": [
+            401
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "तल्प्या॑य",
+          "word_ids": [
+            400
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गेह्या॑य",
+          "word_ids": [
+            401
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नम॒स्तल्प्या॑य",
+          "word_ids": [
+            1,
+            18,
+            44,
+            400
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "तल्प्या॑य",
+          "word_ids": [
+            400
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गेह्या॑य",
+          "word_ids": [
+            401
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गेह्या॑य",
+          "word_ids": [
+            401
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 6,
       "samhita": "नमः॑ का॒ट्या॑य च गह्वरे॒ष्ठाय॑ च॒",
       "pada": "नमः॑ । का॒ट्या॑य । च॒ । ग॒ह्व॒रे॒-ष्ठाय॑ । च॒ ॥",
-      "krama": "नमः॑ का॒ट्या॑य । का॒ट्या॑य च । च गह्वरे॒ष्ठाय॑ । गह्वरे॒ष्ठाय॑ च । च इति॑ च ॥"
+      "krama": "नमः॑ का॒ट्या॑य । का॒ट्या॑य च । च गह्वरे॒ष्ठाय॑ । गह्वरे॒ष्ठाय॑ च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "का॒ट्या॑य",
+          "word_ids": [
+            343
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गह्वरे॒ष्ठाय॑",
+          "word_ids": [
+            402
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "का॒ट्या॑य",
+          "word_ids": [
+            343
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ग॒ह्व॒रे॒-ष्ठाय॑",
+          "word_ids": [
+            402
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "का॒ट्या॑य",
+          "word_ids": [
+            343
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "का॒ट्या॑य",
+          "word_ids": [
+            343
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गह्वरे॒ष्ठाय॑",
+          "word_ids": [
+            402
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "गह्वरे॒ष्ठाय॑",
+          "word_ids": [
+            402
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 7,
       "samhita": "नमो᳚ ह्रद॒य्या॑य च निवे॒ष्प्या॑य च॒",
       "pada": "नमो᳚ । ह्र॒द॒य्या॑य । च॒ । नि॒-वे॒ष्प्या॑य । च॒ ॥",
-      "krama": "नमो᳚ ह्रद॒य्या॑य । ह्रद॒य्या॑य च । च निवे॒ष्प्या॑य । निवे॒ष्प्या॑य च । च इति॑ च ॥"
+      "krama": "नमो᳚ ह्रद॒य्या॑य । ह्रद॒य्या॑य च । च निवे॒ष्प्या॑य । निवे॒ष्प्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमो᳚",
+          "word_ids": [
+            1,
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ह्रद॒य्या॑य",
+          "word_ids": [
+            403
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "निवे॒ष्प्या॑य",
+          "word_ids": [
+            404
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमो᳚",
+          "word_ids": [
+            1,
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ह्र॒द॒य्या॑य",
+          "word_ids": [
+            403
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नि॒-वे॒ष्प्या॑य",
+          "word_ids": [
+            404
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमो᳚",
+          "word_ids": [
+            1,
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ह्रद॒य्या॑य",
+          "word_ids": [
+            403
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ह्रद॒य्या॑य",
+          "word_ids": [
+            403
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "निवे॒ष्प्या॑य",
+          "word_ids": [
+            404
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "निवे॒ष्प्या॑य",
+          "word_ids": [
+            404
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 8,
       "samhita": "नमः॑ पाग्ं स॒व्या॑य च रज॒स्या॑य च॒",
       "pada": "नमः॑ । पां॒स॒व्या॑य । च॒ । र॒ज॒स्या॑य । च॒ ॥",
-      "krama": "नमः॑ पाग्ं स॒व्या॑य । पाग्ं स॒व्या॑य च । च रज॒स्या॑य । रज॒स्या॑य च । च इति॑ च ॥"
+      "krama": "नमः॑ पाग्ं स॒व्या॑य । पाग्ं स॒व्या॑य च । च रज॒स्या॑य । रज॒स्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पाग्ं",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "स॒व्या॑य",
+          "word_ids": [
+            18,
+            44,
+            405
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "रज॒स्या॑य",
+          "word_ids": [
+            406
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पां॒स॒व्या॑य",
+          "word_ids": [
+            405
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "र॒ज॒स्या॑य",
+          "word_ids": [
+            406
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पाग्ं",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "स॒व्या॑य",
+          "word_ids": [
+            18,
+            44,
+            405
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पाग्ं",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "स॒व्या॑य",
+          "word_ids": [
+            18,
+            44,
+            405
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "रज॒स्या॑य",
+          "word_ids": [
+            406
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "रज॒स्या॑य",
+          "word_ids": [
+            406
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 9,
       "samhita": "नम॒-श्शुष्क्या॑य च हरि॒त्या॑य च॒",
       "pada": "नमः॑ । शुष्क्या॑य । च॒ । ह॒रि॒त्या॑य । च॒ ॥",
-      "krama": "नम॒-श्शुष्क्या॑य । शुष्क्या॑य च । च हरि॒त्या॑य । हरि॒त्या॑य च । च इति॑ च ॥"
+      "krama": "नम॒-श्शुष्क्या॑य । शुष्क्या॑य च । च हरि॒त्या॑य । हरि॒त्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नम॒-श्शुष्क्या॑य",
+          "word_ids": [
+            1,
+            18,
+            44,
+            407
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हरि॒त्या॑य",
+          "word_ids": [
+            408
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "शुष्क्या॑य",
+          "word_ids": [
+            407
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ह॒रि॒त्या॑य",
+          "word_ids": [
+            408
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नम॒-श्शुष्क्या॑य",
+          "word_ids": [
+            1,
+            18,
+            44,
+            407
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "शुष्क्या॑य",
+          "word_ids": [
+            407
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हरि॒त्या॑य",
+          "word_ids": [
+            408
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हरि॒त्या॑य",
+          "word_ids": [
+            408
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 10,
       "samhita": "नमो॒ लोप्या॑य चोल॒प्या॑य च॒",
       "pada": "नमो॒ । लोप्या॑य । च॒ । उ॒ल॒प्या॑य । च॒ ॥",
-      "krama": "नमो॒ लोप्या॑य । लोप्या॑य च । चोल॒प्या॑य । उ॒ल॒प्या॑य च । च इति॑ च ॥"
+      "krama": "नमो॒ लोप्या॑य । लोप्या॑य च । चोल॒प्या॑य । उ॒ल॒प्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमो॒",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "लोप्या॑य",
+          "word_ids": [
+            378
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "चोल॒प्या॑य",
+          "word_ids": [
+            18,
+            44
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमो॒",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "लोप्या॑य",
+          "word_ids": [
+            378
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "उ॒ल॒प्या॑य",
+          "word_ids": [
+            379
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमो॒",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "लोप्या॑य",
+          "word_ids": [
+            378
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "लोप्या॑य",
+          "word_ids": [
+            378
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "चोल॒प्या॑य",
+          "word_ids": [
+            18,
+            44
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "उ॒ल॒प्या॑य",
+          "word_ids": [
+            379
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 11,
       "samhita": "नम॑ ऊ॒र्व्या॑य च सू॒र्म्या॑य च॒",
       "pada": "नमः॑ । ऊ॒र्व्या॑य । च॒ । सू॒र्म्या॑य । च॒ ॥",
-      "krama": "नम॑ ऊ॒र्व्या॑य । ऊ॒र्व्या॑य च । च सू॒र्म्या॑य । सू॒र्म्या॑य च । च इति॑ च ॥"
+      "krama": "नम॑ ऊ॒र्व्या॑य । ऊ॒र्व्या॑य च । च सू॒र्म्या॑य । सू॒र्म्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ऊ॒र्व्या॑य",
+          "word_ids": [
+            380
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "सू॒र्म्या॑य",
+          "word_ids": [
+            381
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ऊ॒र्व्या॑य",
+          "word_ids": [
+            380
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "सू॒र्म्या॑य",
+          "word_ids": [
+            381
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ऊ॒र्व्या॑य",
+          "word_ids": [
+            380
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ऊ॒र्व्या॑य",
+          "word_ids": [
+            380
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "सू॒र्म्या॑य",
+          "word_ids": [
+            381
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "सू॒र्म्या॑य",
+          "word_ids": [
+            381
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 12,
       "samhita": "नमः॑ प॒र्ण्या॑य च पर्णश॒द्या॑य च॒",
       "pada": "नमः॑ । प॒र्ण्या॑य । च॒ । प॒र्ण॒-श॒द्या॑य । च॒ ॥",
-      "krama": "नमः॑ प॒र्ण्या॑य । प॒र्ण्या॑य च । च पर्णश॒द्या॑य । पर्णश॒द्या॑य च । च इति॑ च ॥"
+      "krama": "नमः॑ प॒र्ण्या॑य । प॒र्ण्या॑य च । च पर्णश॒द्या॑य । पर्णश॒द्या॑य च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प॒र्ण्या॑य",
+          "word_ids": [
+            382
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पर्णश॒द्या॑य",
+          "word_ids": [
+            383
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प॒र्ण्या॑य",
+          "word_ids": [
+            382
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प॒र्ण॒-श॒द्या॑य",
+          "word_ids": [
+            383
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प॒र्ण्या॑य",
+          "word_ids": [
+            382
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प॒र्ण्या॑य",
+          "word_ids": [
+            382
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पर्णश॒द्या॑य",
+          "word_ids": [
+            383
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "पर्णश॒द्या॑य",
+          "word_ids": [
+            383
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 13,
       "samhita": "नमो॑-ऽपगु॒रमा॑णाय चाभिघ्न॒ते च॒",
       "pada": "नमो॑ । अ॒प॒-गु॒रमा॑णाय । च॒ । अ॒भि-घ्न॒ते । च॒ ॥",
-      "krama": "नमो॑-ऽपगु॒रमा॑णाय । अ॒पगु॒रमा॑णाय च । चाभिघ्न॒ते । अ॒भिघ्न॒ते च । च इति॑ च ॥"
+      "krama": "नमो॑-ऽपगु॒रमा॑णाय । अ॒पगु॒रमा॑णाय च । चाभिघ्न॒ते । अ॒भिघ्न॒ते च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमो॑-ऽपगु॒रमा॑णाय",
+          "word_ids": [
+            1,
+            88,
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "चाभिघ्न॒ते",
+          "word_ids": [
+            2
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "अ॒प॒-गु॒रमा॑णाय",
+          "word_ids": [
+            384
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "अ॒भि-घ्न॒ते",
+          "word_ids": [
+            385
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमो॑-ऽपगु॒रमा॑णाय",
+          "word_ids": [
+            1,
+            88,
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "अ॒पगु॒रमा॑णाय",
+          "word_ids": [
+            384
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "चाभिघ्न॒ते",
+          "word_ids": [
+            2
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "अ॒भिघ्न॒ते",
+          "word_ids": [
+            385
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 14,
       "samhita": "नम॑ आख्खिद॒ते च॑ प्रख्खिद॒ते च॒",
       "pada": "नमः॑ । आ-ख्खि॒द॒ते । च॒ । प्र-ख्खि॒द॒ते । च॒ ॥",
-      "krama": "नम॑ आख्खिद॒ते । आख्खिद॒ते च । च प्रख्खिद॒ते । प्रख्खिद॒ते च । च इति॑ च ॥"
+      "krama": "नम॑ आख्खिद॒ते । आख्खिद॒ते च । च प्रख्खिद॒ते । प्रख्खिद॒ते च । च इति॑ च ॥",
+      "samhita_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आख्खिद॒ते",
+          "word_ids": [
+            386
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॑",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्रख्खिद॒ते",
+          "word_ids": [
+            387
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आ-ख्खि॒द॒ते",
+          "word_ids": [
+            386
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्र-ख्खि॒द॒ते",
+          "word_ids": [
+            387
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च॒",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आख्खिद॒ते",
+          "word_ids": [
+            386
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आख्खिद॒ते",
+          "word_ids": [
+            386
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्रख्खिद॒ते",
+          "word_ids": [
+            387
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "प्रख्खिद॒ते",
+          "word_ids": [
+            387
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "च",
+          "word_ids": [
+            19
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 15,
       "samhita": "नमो॑ वः किरि॒केभ्यो॑ दे॒वाना॒ग्॒म्॒ हृद॑येभ्यो॒",
       "pada": "नमो॑ । वः॒ । कि॒रि॒केभ्यः॑ । दे॒वाना᳚म् । हृद॑येभ्यः ॥",
-      "krama": "नमो॑ वः । वो॑ किरि॒केभ्यः॑ । किरि॒केभ्यो॑ दे॒वाना᳚म् । दे॒वानां॒ हृद॑येभ्यः । हृद॑येभ्य॒ इति॑ हृद॑येभ्यः ॥"
+      "krama": "नमो॑ वः । वो॑ किरि॒केभ्यः॑ । किरि॒केभ्यो॑ दे॒वाना᳚म् । दे॒वानां॒ हृद॑येभ्यः । हृद॑येभ्य॒ इति॑ हृद॑येभ्यः ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "वः",
+          "word_ids": [
+            190
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "किरि॒केभ्यो॑",
+          "word_ids": [
+            388
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "दे॒वाना॒ग्॒म्॒",
+          "word_ids": [
+            498
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हृद॑येभ्यो॒",
+          "word_ids": [
+            117,
+            390
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "वः॒",
+          "word_ids": [
+            190
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "कि॒रि॒केभ्यः॑",
+          "word_ids": [
+            388
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "दे॒वाना᳚म्",
+          "word_ids": [
+            389
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हृद॑येभ्यः",
+          "word_ids": [
+            390
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "वः",
+          "word_ids": [
+            190
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "वो॑",
+          "word_ids": [
+            104
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "किरि॒केभ्यः॑",
+          "word_ids": [
+            388
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "किरि॒केभ्यो॑",
+          "word_ids": [
+            388
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "दे॒वाना᳚म्",
+          "word_ids": [
+            389
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "दे॒वानां॒",
+          "word_ids": [
+            389,
+            498
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हृद॑येभ्यः",
+          "word_ids": [
+            390
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हृद॑येभ्य॒",
+          "word_ids": [
+            390
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "हृद॑येभ्यः",
+          "word_ids": [
+            390
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 16,
       "samhita": "नमो॑ विक्षीण॒केभ्यो॒ नमो॑ विचिन्व॒त्केभ्यो॒",
       "pada": "नमो॑ । वि॒-क्षी॒ण॒केभ्यः॑ । नमो॑ । वि॒-चि॒न्व॒त्केभ्यः॑ ॥",
-      "krama": "नमो॑ विक्षीण॒केभ्यः॑ । विक्षीण॒केभ्यो॒ नमो॑ । नमो॑ विचिन्व॒त्केभ्यः॑ । विचिन्व॒त्केभ्य॒ इति॑ वि-चिन्वत्-केभ्यः ॥"
+      "krama": "नमो॑ विक्षीण॒केभ्यः॑ । विक्षीण॒केभ्यो॒ नमो॑ । नमो॑ विचिन्व॒त्केभ्यः॑ । विचिन्व॒त्केभ्य॒ इति॑ वि-चिन्वत्-केभ्यः ॥",
+      "samhita_tokens": [
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "विक्षीण॒केभ्यो॒",
+          "word_ids": [
+            391
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "विचिन्व॒त्केभ्यो॒",
+          "word_ids": [
+            392
+          ]
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "वि॒-क्षी॒ण॒केभ्यः॑",
+          "word_ids": [
+            391
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "वि॒-चि॒न्व॒त्केभ्यः॑",
+          "word_ids": [
+            392
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "विक्षीण॒केभ्यः॑",
+          "word_ids": [
+            391
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "विक्षीण॒केभ्यो॒",
+          "word_ids": [
+            391
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नमो॑",
+          "word_ids": [
+            144
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "विचिन्व॒त्केभ्यः॑",
+          "word_ids": [
+            392
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "विचिन्व॒त्केभ्य॒",
+          "word_ids": [
+            392
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "वि-चिन्वत्-केभ्यः",
+          "word_ids": [
+            392
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     },
     {
       "id": 17,
       "samhita": "नम॑ आनिर् ह॒तेभ्यो॒ नम॑ आमीव॒त्केभ्यः॑ ॥",
       "pada": "नमः॑ । आ-नि॒र्-ह॒तेभ्यः॑ । नमः॑ । आ-मी॒व॒त्केभ्यः॑ ॥",
-      "krama": "नम॑ आनिर्ह॒तेभ्यः॑ । आनिर्ह॒तेभ्यो॒ नमः॑ । नम॑ आमीव॒त्केभ्यः॑ । आमीव॒त्केभ्य॒ इति॑ आ-मीवत्-केभ्यः ॥"
+      "krama": "नम॑ आनिर्ह॒तेभ्यः॑ । आनिर्ह॒तेभ्यो॒ नमः॑ । नम॑ आमीव॒त्केभ्यः॑ । आमीव॒त्केभ्य॒ इति॑ आ-मीवत्-केभ्यः ॥",
+      "samhita_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आनिर्",
+          "word_ids": [
+            64,
+            393
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "ह॒तेभ्यो॒",
+          "word_ids": [
+            2,
+            142
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आमीव॒त्केभ्यः॑",
+          "word_ids": [
+            394
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "pada_tokens": [
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आ-नि॒र्-ह॒तेभ्यः॑",
+          "word_ids": [
+            393
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आ-मी॒व॒त्केभ्यः॑",
+          "word_ids": [
+            394
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ],
+      "krama_tokens": [
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आनिर्ह॒तेभ्यः॑",
+          "word_ids": [
+            393
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आनिर्ह॒तेभ्यो॒",
+          "word_ids": [
+            2,
+            64,
+            142,
+            393
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नमः॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "नम॑",
+          "word_ids": [
+            1
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आमीव॒त्केभ्यः॑",
+          "word_ids": [
+            394
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "।",
+          "word_ids": []
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आमीव॒त्केभ्य॒",
+          "word_ids": [
+            394
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "इति॑",
+          "word_ids": [
+            588
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "आ-मीवत्-केभ्यः",
+          "word_ids": [
+            394
+          ]
+        },
+        {
+          "text": " ",
+          "word_ids": []
+        },
+        {
+          "text": "॥",
+          "word_ids": []
+        }
+      ]
     }
   ]
 }
