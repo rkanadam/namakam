@@ -2035,7 +2035,7 @@
         "P 4.1.4 — fem. ā-ending for adjectives: śiva → śivā",
         "P 2.4.62 — as a proper name (Śiva), retains form in compounds"
       ],
-      "case_ending": ""
+      "case_ending": "Instrumental Singular (Tṛtīyā Vibhakti, Ekavacana)"
     },
     "lexicographical_references": {
       "nighantu": "Nighantu 3.19 — listed among kalyāṇa-vācaka words (auspiciousness-denoting terms). Also in Nighantu 5.3 among deity-epithets.",
@@ -2048,21 +2048,21 @@
     "pada_form": "वच॑सा",
     "clean_form": "वचसा",
     "meanings": {
-      "english": "Speech; word; voice; utterance; what is spoken",
-      "nirukta": "Derived from √vac — 'ucyate iti vacaḥ' (that which is spoken). In mantra 5: 'śivena vacasā' — 'with auspicious speech'. The instrumental case indicates the medium through which the devotees approach Rudra.",
-      "vedantic": "In Vedic theology, speech (vāc) is a divine power — Vāk Devī. 'Śivena vacasā' means approaching the divine with words that are themselves transformed into auspiciousness. The power of mantra lies in the word itself being a carrier of the sacred."
+      "english": "With speech / with words of praise / with voice",
+      "nirukta": "Derived from √vac (वचँ परिभाषणे, Adādi-gaṇa, 2.0057) with suffix 'asun' (असुन्). 'Ucyate iti vacaḥ' (that which is spoken). In instrumental case: 'shivena vachasā' = 'with auspicious, peaceful words of praise'.",
+      "vedantic": "In Vedic spirituality, speech (Vāc) is sacred energy. Approaching the Divine with 'shivena vachasā' signifies transforming speech into an instrument of devotion and purification, turning uttered words into a carrier of divine grace."
     },
     "grammatical_references": {
       "panini": [
         "√वच् + असुन् (Uṇādi 4.188) → वचस्",
         "P 7.1.75 — s-stem (asanta) declension: instr. sg. वचसा"
       ],
-      "case_ending": ""
+      "case_ending": "Instrumental Singular (Tṛtīyā Vibhakti, Ekavacana)"
     },
     "lexicographical_references": {
-      "nighantu": "Nighantu 1.11 — listed among vāk-vācaka (speech-denoting) words: vacas, vāk, gir, uktha.",
-      "amara_kosha": "Amarakośa 1.6.1 — वचः listed in the Vāk-varga (speech section): 'vacaḥ vāṇī vāk gīḥ' — speech synonyms.",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Listed in Nighaṇṭu 1.11 among speech synonyms (vāk-nāmāni: vacas, vāk, gir, uktha).",
+      "amara_kosha": "Listed in Amarakośa Vāgvarga (1.6.1): 'vacaḥ vāṇī vāk gīḥ' as synonyms for speech.",
+      "abhidhana_ratnamala": "Listed in Sāmānya-kāṇḍa under speech synonyms."
     }
   },
   "94": {
@@ -2079,7 +2079,7 @@
         "P 8.1.22 — त्वा is the enclitic accusative form",
         "P 7.2.97 — nominative singular tvam"
       ],
-      "case_ending": ""
+      "case_ending": "Accusative Singular (Dvitīyā Vibhakti, Ekavacana)"
     },
     "lexicographical_references": {
       "nighantu": "",
@@ -2144,7 +2144,7 @@
       "panini": [
         "P 3.4.78 — laṭ (present tense), uttama puruṣa (1st person), bahu-vacana (plural): वद् + मस् → वदामसि"
       ],
-      "case_ending": ""
+      "case_ending": "Verb (Tiṅanta), 1st Person Plural, Present Tense (Laṭ-Lakāra)"
     },
     "lexicographical_references": {
       "nighantu": "",
@@ -2187,7 +2187,7 @@
         "P 1.1.27 — sarva is classified as a sarvanāman (pronoun), hence takes pronominal declension",
         "P 7.1.14 — sarva declines like a pronoun, not a regular adjective"
       ],
-      "case_ending": ""
+      "case_ending": "Nominative / Accusative Singular (Prathamā / Dvitīyā Vibhakti, Neuter)"
     },
     "lexicographical_references": {
       "nighantu": "Nighantu 3.1 — listed among words denoting totality/completeness.",
@@ -2231,7 +2231,7 @@
         "P 6.2.155 — nañ-tatpuruṣa: a + yakṣma → ayakṣma",
         "P 2.2.6 — negative compound formation"
       ],
-      "case_ending": ""
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Neuter)"
     },
     "lexicographical_references": {
       "nighantu": "Nighantu 2.9 — yakṣma listed among roga-vācaka (disease-denoting) words. Ayakṣma is its negation.",
@@ -2255,7 +2255,7 @@
         "P 7.1.35 — the tu-ending for 3rd person imperative",
         "P 3.4.113 — liṅ lakāra (optative): अस् + ईत् → स्यात् / असत् (Vedic conditional)"
       ],
-      "case_ending": ""
+      "case_ending": "Verb (Tiṅanta), 3rd Person Singular, Subjunctive Mood (Leṭ-Lakāra)"
     },
     "lexicographical_references": {
       "nighantu": "",
