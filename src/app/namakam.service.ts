@@ -410,8 +410,8 @@ export class NamakamService {
             wordIdx = bestMatchIdx;
           }
         } else {
-          // Fallback: assign current wordIdx ids
-          assignedIds = [...(originalWords[wordIdx].word_ids || [])];
+          // Fallback: assign empty array if no match found
+          assignedIds = [];
         }
       }
 
