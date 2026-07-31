@@ -1,4 +1,73 @@
-<div class="mantra-view">
+<div class="layout-container">
+  <!-- Left Navigation Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2 class="sidebar-logo">श्रीरुद्रप्रश्‍नः</h2>
+      <p class="sidebar-sublogo">Namakam Study Suite</p>
+    </div>
+    
+    <nav class="nav-menu">
+      <button 
+        class="nav-btn" 
+        (click)="selectIntro()">
+        <span class="nav-icon">📖</span>
+        <span class="nav-text">भूमिका (Introduction)</span>
+      </button>
+
+      <div class="nav-section-title">अनुवाकाः & मन्त्राः (Anuvakas & Mantras)</div>
+      <div class="anuvaka-list">
+        <div *ngFor="let anv of anuvakams" class="anuvaka-sidebar-group">
+          <div class="anuvaka-header-row">
+            <button 
+              class="nav-btn sub-btn anuvaka-main-btn" 
+              [class.active]="anuvakamId === anv.anuvakam" 
+              (click)="selectAnuvakam(anv.anuvakam)">
+              <span class="anuvaka-num">{{ anv.anuvakam }}</span>
+              <span class="anuvaka-title-nav">{{ anv.title }}</span>
+            </button>
+            <button 
+              type="button"
+              class="toggle-expand-btn"
+              [class.expanded]="isAnuvakamExpanded(anv.anuvakam)"
+              (click)="toggleAnuvakamExpand(anv.anuvakam, $event)"
+              [title]="isAnuvakamExpanded(anv.anuvakam) ? 'Collapse mantras' : 'Expand mantras'">
+              {{ isAnuvakamExpanded(anv.anuvakam) ? '▾' : '▸' }}
+            </button>
+          </div>
+
+          <!-- Sidebar Mantras List -->
+          <div class="sidebar-mantras-container" *ngIf="isAnuvakamExpanded(anv.anuvakam)">
+            <button 
+              *ngFor="let m of anv.mantras"
+              class="sidebar-mantra-btn"
+              [class.active]="mantraId === m.id && anuvakamId === anv.anuvakam"
+              (click)="selectMantraFromSidebar(anv.anuvakam, m.id)">
+              <span class="s-dot">•</span>
+              <span class="s-mantra-label">Mantra {{ m.id }}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <button 
+        class="nav-btn" 
+        (click)="selectConclusion()">
+        <span class="nav-icon">📜</span>
+        <span class="nav-text">फलश्रुतिः (Conclusion)</span>
+      </button>
+
+      <button 
+        class="nav-btn" 
+        (click)="selectWordIndex()">
+        <span class="nav-icon">🔍</span>
+        <span class="nav-text">पदसूची (Word Index)</span>
+      </button>
+    </nav>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <div class="mantra-view">
   <div class="nav-breadcrumbs">
     <a [routerLink]="['/anuvakam', anuvakamId]" class="back-link">← Back to Anuvakam {{ anuvakamId }}</a>
   </div>
@@ -295,4 +364,6 @@
     (saved)="onEditorSaved()"
     (cancelled)="closeEditor()">
   </app-sanskrit-editor-modal>
+    </div>
+  </main>
 </div>

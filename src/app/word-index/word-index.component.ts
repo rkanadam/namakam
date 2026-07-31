@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { forkJoin } from 'rxjs';
-import { NamakamService, Dictionary, DictionaryEntry, WordIndex, MantraRef } from '../namakam.service';
+import { NamakamService, Dictionary, DictionaryEntry, WordIndex, MantraRef, Anuvakam } from '../namakam.service';
 
 interface WordEntry {
   entry: DictionaryEntry;
@@ -22,9 +22,16 @@ export class WordIndexComponent implements OnInit {
   searchTerm = '';
   totalRefs = 0;
 
-  constructor(private namakamService: NamakamService) {}
+  anuvakams: Anuvakam[] = [];
+  expandedAnuvakams: { [key: number]: boolean } = {};
+
+  constructor(
+    private namakamService: NamakamService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
+    this.anuvakams = this.namakamService.getAnuvakams();
     forkJoin({
       dictionary: this.namakamService.getDictionary(),
       wordIndex: this.namakamService.getWordIndex()
@@ -38,6 +45,35 @@ export class WordIndexComponent implements OnInit {
       this.totalRefs = this.allWords.reduce((sum, w) => sum + w.refs.length, 0);
       this.filteredWords = this.allWords;
     });
+  }
+
+  isAnuvakamExpanded(id: number): boolean {
+    return !!this.expandedAnuvakams[id];
+  }
+
+  toggleAnuvakamExpand(id: number, event?: Event): void {
+    if (event) event.stopPropagation();
+    this.expandedAnuvakams[id] = !this.isAnuvakamExpanded(id);
+  }
+
+  selectIntro(): void {
+    this.router.navigate(['/introduction']);
+  }
+
+  selectConclusion(): void {
+    this.router.navigate(['/conclusion']);
+  }
+
+  selectWordIndex(): void {
+    this.router.navigate(['/word-index']);
+  }
+
+  selectAnuvakam(anuvakamId: number): void {
+    this.router.navigate(['/anuvakam', anuvakamId]);
+  }
+
+  selectMantraFromSidebar(anuvakamId: number, mantraId: number): void {
+    this.router.navigate(['/anuvakam', anuvakamId, 'mantra', mantraId]);
   }
 
   onSearch(event: Event): void {

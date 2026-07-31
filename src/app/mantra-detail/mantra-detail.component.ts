@@ -138,6 +138,26 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     }
   }
 
+  selectIntro(): void {
+    this.router.navigate(['/introduction']);
+  }
+
+  selectConclusion(): void {
+    this.router.navigate(['/conclusion']);
+  }
+
+  selectWordIndex(): void {
+    this.router.navigate(['/word-index']);
+  }
+
+  selectAnuvakam(anuvakamId: number): void {
+    this.router.navigate(['/anuvakam', anuvakamId]);
+  }
+
+  selectMantraFromSidebar(anuvakamId: number, mantraId: number): void {
+    this.router.navigate(['/anuvakam', anuvakamId, 'mantra', mantraId]);
+  }
+
   @HostListener('window:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent): void {
     if (this.showEditorModal) return;

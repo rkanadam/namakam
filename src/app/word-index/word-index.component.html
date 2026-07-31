@@ -1,48 +1,117 @@
-<div class="word-index-view">
-  <a routerLink="/" class="back-link">← Back to Anuvakas</a>
+<div class="layout-container">
+  <!-- Left Navigation Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2 class="sidebar-logo">श्रीरुद्रप्रश्‍नः</h2>
+      <p class="sidebar-sublogo">Namakam Study Suite</p>
+    </div>
+    
+    <nav class="nav-menu">
+      <button 
+        class="nav-btn" 
+        (click)="selectIntro()">
+        <span class="nav-icon">📖</span>
+        <span class="nav-text">भूमिका (Introduction)</span>
+      </button>
 
-  <div class="index-header">
-    <h2>शब्दसूची — Word Index</h2>
-    <p>{{ allWords.length }} words across {{ totalRefs }} mantra references</p>
-  </div>
+      <div class="nav-section-title">अनुवाकाः & मन्त्राः (Anuvakas & Mantras)</div>
+      <div class="anuvaka-list">
+        <div *ngFor="let anv of anuvakams" class="anuvaka-sidebar-group">
+          <div class="anuvaka-header-row">
+            <button 
+              class="nav-btn sub-btn anuvaka-main-btn" 
+              (click)="selectAnuvakam(anv.anuvakam)">
+              <span class="anuvaka-num">{{ anv.anuvakam }}</span>
+              <span class="anuvaka-title-nav">{{ anv.title }}</span>
+            </button>
+            <button 
+              type="button"
+              class="toggle-expand-btn"
+              [class.expanded]="isAnuvakamExpanded(anv.anuvakam)"
+              (click)="toggleAnuvakamExpand(anv.anuvakam, $event)"
+              [title]="isAnuvakamExpanded(anv.anuvakam) ? 'Collapse mantras' : 'Expand mantras'">
+              {{ isAnuvakamExpanded(anv.anuvakam) ? '▾' : '▸' }}
+            </button>
+          </div>
 
-  <div class="search-bar">
-    <input type="text"
-           placeholder="Search by Sanskrit word or English meaning…"
-           (input)="onSearch($event)"
-           class="search-input">
-    <span class="result-count" *ngIf="searchTerm">{{ filteredWords.length }} results</span>
-  </div>
-
-  <div class="word-list">
-    <div class="word-entry" *ngFor="let w of filteredWords">
-      <div class="word-head">
-        <span class="word-sanskrit">{{ w.entry.clean_form }}</span>
-        <span class="word-pada" *ngIf="w.entry.pada_form !== w.entry.clean_form">{{ w.entry.pada_form }}</span>
-        <span class="word-english">{{ w.entry.meanings.english }}</span>
+          <!-- Sidebar Mantras List -->
+          <div class="sidebar-mantras-container" *ngIf="isAnuvakamExpanded(anv.anuvakam)">
+            <button 
+              *ngFor="let m of anv.mantras"
+              class="sidebar-mantra-btn"
+              (click)="selectMantraFromSidebar(anv.anuvakam, m.id)">
+              <span class="s-dot">•</span>
+              <span class="s-mantra-label">Mantra {{ m.id }}</span>
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div class="word-details">
-        <div class="detail-row" *ngIf="w.entry.grammatical_references?.case_ending">
-          <span class="detail-label">Grammar:</span>
-          <span>{{ w.entry.grammatical_references.case_ending }}</span>
-        </div>
-        <div class="detail-row" *ngIf="w.entry.meanings.nirukta">
-          <span class="detail-label">Nirukta:</span>
-          <span>{{ w.entry.meanings.nirukta }}</span>
+      <button 
+        class="nav-btn" 
+        (click)="selectConclusion()">
+        <span class="nav-icon">📜</span>
+        <span class="nav-text">फलश्रुतिः (Conclusion)</span>
+      </button>
+
+      <button 
+        class="nav-btn active" 
+        (click)="selectWordIndex()">
+        <span class="nav-icon">🔍</span>
+        <span class="nav-text">पदसूची (Word Index)</span>
+      </button>
+    </nav>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <div class="word-index-view">
+      <a routerLink="/" class="back-link">← Back to Anuvakas</a>
+
+      <div class="index-header">
+        <h2>शब्दसूची — Word Index</h2>
+        <p>{{ allWords.length }} words across {{ totalRefs }} mantra references</p>
+      </div>
+
+      <div class="search-bar">
+        <input type="text"
+               placeholder="Search by Sanskrit word or English meaning…"
+               (input)="onSearch($event)"
+               class="search-input">
+        <span class="result-count" *ngIf="searchTerm">{{ filteredWords.length }} results</span>
+      </div>
+
+      <div class="word-list">
+        <div class="word-entry" *ngFor="let w of filteredWords">
+          <div class="word-head">
+            <span class="word-sanskrit">{{ w.entry.clean_form }}</span>
+            <span class="word-pada" *ngIf="w.entry.pada_form !== w.entry.clean_form">{{ w.entry.pada_form }}</span>
+            <span class="word-english">{{ w.entry.meanings.english }}</span>
+          </div>
+
+          <div class="word-details">
+            <div class="detail-row" *ngIf="w.entry.grammatical_references?.case_ending">
+              <span class="detail-label">Grammar:</span>
+              <span>{{ w.entry.grammatical_references.case_ending }}</span>
+            </div>
+            <div class="detail-row" *ngIf="w.entry.meanings.nirukta">
+              <span class="detail-label">Nirukta:</span>
+              <span>{{ w.entry.meanings.nirukta }}</span>
+            </div>
+          </div>
+
+          <div class="mantra-refs">
+            <span class="refs-label">Found in:</span>
+            <a *ngFor="let r of w.refs"
+               [routerLink]="['/anuvakam', r.anuvakam, 'mantra', r.mantra]"
+               class="ref-link">{{ r.anuvakam }}.{{ r.mantra }}</a>
+          </div>
         </div>
       </div>
 
-      <div class="mantra-refs">
-        <span class="refs-label">Found in:</span>
-        <a *ngFor="let r of w.refs"
-           [routerLink]="['/anuvakam', r.anuvakam, 'mantra', r.mantra]"
-           class="ref-link">{{ r.anuvakam }}.{{ r.mantra }}</a>
+      <div class="no-results" *ngIf="filteredWords.length === 0 && searchTerm">
+        No words found matching "{{ searchTerm }}"
       </div>
     </div>
-  </div>
-
-  <div class="no-results" *ngIf="filteredWords.length === 0 && searchTerm">
-    No words found matching "{{ searchTerm }}"
-  </div>
+  </main>
 </div>

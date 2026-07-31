@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, RouterLink } from '@angular/router';
-import { NamakamService, Preface } from '../namakam.service';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import { NamakamService, Preface, Anuvakam } from '../namakam.service';
 
 @Component({
   selector: 'app-preface',
@@ -16,17 +16,51 @@ export class PrefaceComponent implements OnInit {
   activeSource: 'rudradhyaya' | 'rudrabhashya' = 'rudradhyaya';
   activeLanguage: 'sanskrit' | 'english' = 'english';
 
+  anuvakams: Anuvakam[] = [];
+  expandedAnuvakams: { [key: number]: boolean } = {};
+
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private namakamService: NamakamService
   ) {}
 
   ngOnInit(): void {
+    this.anuvakams = this.namakamService.getAnuvakams();
     this.type = this.route.snapshot.data['type'] || 'introduction';
     const source$ = this.type === 'introduction'
       ? this.namakamService.getIntroduction()
       : this.namakamService.getConclusion();
     source$.subscribe(d => this.data = d);
+  }
+
+  isAnuvakamExpanded(id: number): boolean {
+    return !!this.expandedAnuvakams[id];
+  }
+
+  toggleAnuvakamExpand(id: number, event?: Event): void {
+    if (event) event.stopPropagation();
+    this.expandedAnuvakams[id] = !this.isAnuvakamExpanded(id);
+  }
+
+  selectIntro(): void {
+    this.router.navigate(['/introduction']);
+  }
+
+  selectConclusion(): void {
+    this.router.navigate(['/conclusion']);
+  }
+
+  selectWordIndex(): void {
+    this.router.navigate(['/word-index']);
+  }
+
+  selectAnuvakam(anuvakamId: number): void {
+    this.router.navigate(['/anuvakam', anuvakamId]);
+  }
+
+  selectMantraFromSidebar(anuvakamId: number, mantraId: number): void {
+    this.router.navigate(['/anuvakam', anuvakamId, 'mantra', mantraId]);
   }
 
   get title(): string {
