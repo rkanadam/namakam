@@ -2268,21 +2268,21 @@
     "pada_form": "अधि॑",
     "clean_form": "अधि",
     "meanings": {
-      "english": "He spoke forth; he declared/advocated; the intercessor; the one who speaks on behalf of",
-      "nirukta": "Compound verb: adhi (over/on behalf of) + √vac (to speak). Adhivaktā = one who speaks on behalf of others, an advocate/patron. Sāyaṇa: 'adhikṛtya vaktā' — one who speaks with authority. In mantra 6, Rudra is 'prathamaḥ daivyaḥ bhiṣak adhivaktā' — the first divine physician and advocate.",
-      "vedantic": "Rudra as adhivaktā is the divine advocate who intercedes on behalf of the suffering. As the first (prathama) divine physician (daivyo bhiṣak), he is the primal healer — establishing that healing is a divine function, not merely human."
+      "english": "Over; above; on behalf of; concerning (prefix)",
+      "nirukta": "Vedic upasarga/gati meaning above, over, or on behalf of. In 'adhi-avochat', adhi modifies avocat to mean 'speaking on behalf of / championing'.",
+      "vedantic": "Indicates the Lord's stance of taking the side of His devotees, championing their cause over all afflictions."
     },
     "grammatical_references": {
       "panini": [
-        "P 3.2.1 — agent noun formation: अधि + √वच् + तृच् → अधिवक्तृ, nom. अधिवक्ता",
-        "P 3.2.111 — luṅ (aorist): अ + अधि + वच् + त् → अध्यवोचत् (with vriddhi per P 7.2.3)"
+        "P 1.4.80 — Upasargas/gatis with verbs",
+        "P 1.4.93 — adhi as karmapravacanīya"
       ],
-      "case_ending": ""
+      "case_ending": "Avyaya (indeclinable prefix / upasarga)"
     },
     "lexicographical_references": {
-      "nighantu": "",
-      "amara_kosha": "",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 3.29 — listed among gati-vācaka avyayas.",
+      "amara_kosha": "Amarakośa 3.4.1 — listed among upasargas.",
+      "abhidhana_ratnamala": "Listed under avyayas."
     }
   },
   "104": {
@@ -2290,21 +2290,21 @@
     "pada_form": "अ॒वो॒च॒त्",
     "clean_form": "अवोचत्",
     "meanings": {
-      "english": "He spoke forth; he declared/advocated; the intercessor; the one who speaks on behalf of",
-      "nirukta": "Compound verb: adhi (over/on behalf of) + √vac (to speak). Adhivaktā = one who speaks on behalf of others, an advocate/patron. Sāyaṇa: 'adhikṛtya vaktā' — one who speaks with authority. In mantra 6, Rudra is 'prathamaḥ daivyaḥ bhiṣak adhivaktā' — the first divine physician and advocate.",
-      "vedantic": "Rudra as adhivaktā is the divine advocate who intercedes on behalf of the suffering. As the first (prathama) divine physician (daivyo bhiṣak), he is the primal healer — establishing that healing is a divine function, not merely human."
+      "english": "May He speak; He spoke; let Him declare",
+      "nirukta": "Derived from √vac (वचँ परिभाषणे, Adādi-gaṇa, 2.0057) in aorist mood (luṅ), used in Vedic text with optative/imperative force (chandasi luṅ): 'may He speak / declare'.",
+      "vedantic": "Expresses the devotee's earnest prayer that Lord Shiva intercede and declare His divine protection over the devotee."
     },
     "grammatical_references": {
       "panini": [
-        "P 3.2.1 — agent noun formation: अधि + √वच् + तृच् → अधिवक्तृ, nom. अधिवक्ता",
-        "P 3.2.111 — luṅ (aorist): अ + अधि + वच् + त् → अध्यवोचत् (with vriddhi per P 7.2.3)"
+        "√वच् in aorist (luṅ-lakāra, 3rd person singular): अ + वच् + च् + अत् → अवोचत् (P 3.1.52 / P 7.4.2)",
+        "P 3.4.6 — Vedic aorist used in optative/imperative sense"
       ],
-      "case_ending": ""
+      "case_ending": "Verb (Tiṅanta), 3rd Person Singular, Aorist Mood (Luṅ-Lakāra)"
     },
     "lexicographical_references": {
-      "nighantu": "",
-      "amara_kosha": "",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 3.14 — verbal forms of speech.",
+      "amara_kosha": "Amarakośa 3.1.33 — √vac meaning to speak.",
+      "abhidhana_ratnamala": "Listed under speech verbs."
     }
   },
   "105": {
@@ -2312,21 +2312,21 @@
     "pada_form": "अ॒धि॒-व॒क्ता",
     "clean_form": "अधिवक्ता",
     "meanings": {
-      "english": "First; foremost; primordial; chief; the original",
-      "nirukta": "From √prath (to extend/spread) — 'prathate iti prathamaḥ' (that which extends first, the foremost). Establishes temporal and hierarchical priority.",
-      "vedantic": "In mantra 6: Rudra is 'prathamaḥ daivyo bhiṣak' — the first/primordial divine physician. This establishes Rudra-Śiva as the origin of healing — all medicine traces back to the divine healer. In the Śaiva tradition, Śiva is the Ādi-vaidya (primordial doctor) who cures the disease of saṃsāra."
+      "english": "Advocate; champion; intercessor; one who speaks on behalf of devotees",
+      "nirukta": "Compound of adhi + vaktā (from √vac + tṛc). 'Bhaktebhyo 'dhivacana-svabhāvaḥ' — He whose nature is to champion the cause of His devotees.",
+      "vedantic": "Rudra is the supreme advocate of the devotee. When subordinate deities or karma attempt to punish the seeker, the Lord steps forward and declares: 'This one is mine!'"
     },
     "grammatical_references": {
       "panini": [
-        "P 5.2.51 — thamac-pratyaya for ordinal: pra + thama → prathama",
-        "P 2.2.11 — ordinals in compounds"
+        "Prefix adhi + √वच् + तृच् suffix (P 3.1.133) → अधिवक्तृ",
+        "P 7.1.94 — nominative singular: अधिवक्ता"
       ],
-      "case_ending": ""
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "",
-      "amara_kosha": "Amarakośa 3.3.167 — प्रथमः listed meaning 'ādi' (beginning, first): 'prathamaḥ ādyaḥ pūrvaḥ'.",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 3.15 — listed among leaders and advocates.",
+      "amara_kosha": "Amarakośa 2.8.4 — under advocates and counselors.",
+      "abhidhana_ratnamala": "Listed under advocates."
     }
   },
   "106": {
@@ -2334,20 +2334,21 @@
     "pada_form": "प्र॒थ॒मः",
     "clean_form": "प्रथमः",
     "meanings": {
-      "english": "Divine; celestial; belonging to the gods; of divine origin",
-      "nirukta": "From deva — 'devānām ayam iti daivyaḥ' (belonging to the devas). The vṛddhi suffix (-ya with āi) indicates derivation/belonging.",
-      "vedantic": "Qualifies bhiṣak (physician) — the healing is not worldly but divine in nature. This is not human medicine but cosmic restoration."
+      "english": "First; foremost; chief; supreme",
+      "nirukta": "Derived from √prath (प्रथँ प्रख्याने, Bhvādi-gaṇa, 1.0863) with 'amac' suffix. 'Prathate iti prathamaḥ' — He who expands / is foremost.",
+      "vedantic": "He is the primordial, supreme deity among all gods ('yo devānāṃ prathamaḥ'). Since the advocate is the supreme Lord, no subordinate deity (Yama, etc.) can override His protection."
     },
     "grammatical_references": {
       "panini": [
-        "P 4.2.48 — yat-pratyaya with vṛddhi: देव → दैव → दैव्य (relating to/belonging to the devas)"
+        "√प्रथ् + अमच् (Uṇādi 5.48) → प्रथम",
+        "P 1.1.33 — prathama takes pronominal endings optionally"
       ],
-      "case_ending": ""
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "Related: Nighantu 5.1-5 (Daivata-kāṇḍa) — extensive listing of deva-names, establishing the category 'daivya'.",
-      "amara_kosha": "Amarakośa 3.3.127 — दैव्यः listed meaning 'devata-sambandhi' (relating to deity).",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 3.1 — listed among words for chief/first.",
+      "amara_kosha": "Amarakośa 3.1.58 — 'prathamaḥ mukhyaḥ ādiḥ'.",
+      "abhidhana_ratnamala": "Listed under chief/first."
     }
   },
   "107": {
@@ -2355,21 +2356,21 @@
     "pada_form": "दैव्यः॑",
     "clean_form": "दैव्यः",
     "meanings": {
-      "english": "Physician; healer; doctor; one who cures",
-      "nirukta": "From √bhiṣ — 'bhiṣajyati cikitsati iti bhiṣak' (one who heals/treats). Yāska connects it to the concept of restoring wholeness.",
-      "vedantic": "Rudra as the primordial physician heals not just bodily disease but spiritual affliction. The Śvetāśvatara Upaniṣad presents Rudra-Śiva as the ultimate healer of the disease of transmigration (bhava-roga). The Ayurvedic tradition traces its origin to Lord Śiva through Dhanvantari."
+      "english": "Divine; celestial; dwelling among gods; indwelling controller of all gods",
+      "nirukta": "Derived from deva + ya (ñya/yat suffix). 'Deveṣu bhavaḥ daivyaḥ' — existing among the gods as their indwelling inner controller (devāntaryāmī).",
+      "vedantic": "Implies that Rudra is the Antaryamin (Inner Ruler) of all gods. Because He rules from within all deities, worship of Rudra grants protection against all cosmic forces."
     },
     "grammatical_references": {
       "panini": [
-        "√भिष् + अच् (P 3.1.134) → भिषज्",
-        "P 8.2.36 — final j → k in pause: bhiṣaj → bhiṣak"
+        "देव + ष्यञ् / यत् (P 4.4.102 / P 4.3.120) → दैव्य",
+        "Nominative singular masculine: दैव्यः"
       ],
-      "case_ending": ""
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "Nighantu 3.13 — listed among cikitsaka-vācaka (healer-denoting) words.",
-      "amara_kosha": "Amarakośa 2.9.1 — भिषक् listed as synonym of vaidya: 'bhiṣak vaidyaḥ cikitsakaḥ' — physician synonyms.",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 5.5 — devatā-nāmāni.",
+      "amara_kosha": "Amarakośa 1.1.5 — celestial/divine synonyms.",
+      "abhidhana_ratnamala": "Listed under divine terms."
     }
   },
   "108": {
@@ -2377,65 +2378,64 @@
     "pada_form": "भि॒षक्",
     "clean_form": "भिषक्",
     "meanings": {
-      "english": "Serpent; snake; a class of serpent-demons; also metaphorically: diseases, afflictions",
-      "nirukta": "Nirukta 4.23 — 'ahīn sambhajayati' — related to supernatural serpent-beings. In Vedic, 'ahi' can mean both literal serpents and metaphorical forces of obstruction (cf. Vṛtra as the arch-ahi in Ṛgveda).",
-      "vedantic": "In mantra 6, Rudra destroys 'ahīn' (serpent-demons) — representing forces of evil and disease. In Vedāntic symbolism, the serpent represents saṃsāra's coiling bondage — Rudra as divine physician destroys these binding forces."
+      "english": "Physician; healer; healer of all afflictions and samsara",
+      "nirukta": "Derived from √bhiṣaj (भेषज/चिकित्सा). Yāska / Shankara parse bhiṣak as 'bhayaṃ syati/nāśayati iti' (one who destroys fear), or the healer of the disease of worldly existence.",
+      "vedantic": "Rudra is the supreme physician ('bhiṣaktamaṃ tvā bhiṣajāṃ śṛṇomi'). He cures the illness of ego, heat of suffering, and samsara. Like a surgeon who operates out of compassion to heal, the Lord purifies through corrective trials."
     },
     "grammatical_references": {
       "panini": [
-        "P 7.1.73 — i-stem declension: acc. pl. अहीन् (i → ī before n-ending)"
+        "Root √भिषज् + क्विप् suffix (P 3.2.177) → भिषज्",
+        "P 8.2.30 / P 8.4.56 — final j → k at pada end: भिषक्"
       ],
-      "case_ending": ""
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "Nighantu 1.9 — listed among sarpa-vācaka (serpent-denoting) words: ahi, sarpa, nāga.",
-      "amara_kosha": "Amarakośa 1.8.6 — अहिः listed among sarpa-names: 'sarpaḥ pṛdākuḥ bhujagaḥ bhujaṅgaḥ ahiḥ' — serpent synonyms.",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 3.15 — healer synonyms.",
+      "amara_kosha": "Amarakośa 2.6.52 — 'bhiṣak vaidyo cikitsakaḥ'.",
+      "abhidhana_ratnamala": "Listed under physicians."
     }
   },
   "109": {
     "id": 109,
     "pada_form": "अही॑न्",
-    "clean_form": "अहीन्",
+    "clean_form": "अहीन",
     "meanings": {
-      "english": "And; also; both; as well as",
-      "nirukta": "Nirukta 1.4 — ca is the primary samuccaya (additive) particle. Unlike 'uta' which has emphatic force, 'ca' is neutral conjunction.",
-      "vedantic": "In Vedic syntax, ca typically follows the word it connects (postpositive). In mantra 6: 'ahīṃśca sarvān jambhayan sarvāṃśca yātudhānyaḥ' — 'destroying both all serpent-demons and all sorcerers'."
+      "english": "Serpents; snakes; harm-causing creatures; visible assailants (thieves, tigers, etc.)",
+      "nirukta": "Derived from √aṅg / √aṅh (to glide/move crookedly). 'Ahati/aṅgati iti ahiḥ' — serpents, tigers, and all direct, visible assailants.",
+      "vedantic": "Represents visible external dangers (snakes, wild beasts, robbers). The Lord destroys all such harms for His devotees."
     },
     "grammatical_references": {
       "panini": [
-        "P 1.1.37 — classified as nipāta",
-        "P 2.2.29 — ca as coordinator in dvandva compounds and serial constructions",
-        "P 8.1.63 — ca is always enclitic (anudātta)"
+        "Root √अङ्घ् / √अंह् + इ-प्रत्यय (Uṇādi 4.138) → अहि",
+        "P 6.1.103 — accusative plural masculine: अहीन्"
       ],
-      "case_ending": "indeclinable conjunction (always follows the word it connects)"
+      "case_ending": "Accusative Plural (Dvitīyā Vibhakti, Bahuvacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "Nighantu 3.29 — listed among samuccayārthaka nipātas (conjunctive particles).",
-      "amara_kosha": "",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 1.14 — listed among serpent synonyms (sarpa-nāmāni).",
+      "amara_kosha": "Amarakośa 1.8.4 — 'sarpaḥ pṛdākur ahiḥ'.",
+      "abhidhana_ratnamala": "Listed under serpents."
     }
   },
   "110": {
     "id": 110,
     "pada_form": "सर्वा᳚न्",
-    "clean_form": "सर्वान्",
+    "clean_form": "सर्वान",
     "meanings": {
-      "english": "Crushing; destroying; snapping with jaws; devouring",
-      "nirukta": "√jambh — 'jambhayati nāśayati' (to crush, to destroy with teeth/jaws). The causative form intensifies — 'causing destruction'. Related to jambha (jaw/tooth). Sāyaṇa glosses: 'nāśayan' (destroying).",
-      "vedantic": "Rudra as the divine physician 'crushes' diseases and sorceries. The verb jambhayan (present participle) indicates ongoing action — Rudra continuously destroys evil forces, not just once but perpetually."
+      "english": "All; every; entire; without exception",
+      "nirukta": "Sarvanāman expressing totality. Indicates complete destruction of all harms without leaving any residual danger.",
+      "vedantic": "Emphasizes that divine protection is comprehensive — all evil forces, both visible and invisible, are eliminated."
     },
     "grammatical_references": {
       "panini": [
-        "P 3.1.26 — causative (ṇic): जम्भ् + णिच् → जम्भय",
-        "P 3.2.124 — present participle (śatṛ): जम्भय + शतृ → जम्भयन्"
+        "Pronoun stem सर्व + accusative plural masculine ending (शस्): सर्व + शस् → सर्वान् (P 6.1.103)"
       ],
-      "case_ending": ""
+      "case_ending": "Accusative Plural (Dvitīyā Vibhakti, Bahuvacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "",
-      "amara_kosha": "",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 3.1 — totality synonyms.",
+      "amara_kosha": "Amarakośa 3.1.1 — 'sarvaḥ viśvaḥ'.",
+      "abhidhana_ratnamala": "Listed under all."
     }
   },
   "111": {
@@ -2443,44 +2443,43 @@
     "pada_form": "ज॒म्भय॑न्",
     "clean_form": "जम्भयन्",
     "meanings": {
-      "english": "All; every; entire; whole; complete",
-      "nirukta": "Nirukta treats sarva as expressing comprehensive inclusion — nothing is left out.",
-      "vedantic": "In mantra 5: 'sarvam ij jagat' — 'the entire world indeed'. The use of sarva with the emphatic particle it/id underscores that the prayer encompasses all of creation without exception."
+      "english": "Destroying; crushing; annihilating; snapping with jaws",
+      "nirukta": "Causative present participle of √jambh (जभिँ नाशने, Bhvādi-gaṇa, 1.0958). 'Jambhanaṃ nāśanam' — crushing or annihilating completely.",
+      "vedantic": "The active process of divine grace crushing the forces of darkness, ego, and negative impressions (vasanas)."
     },
     "grammatical_references": {
       "panini": [
-        "P 1.1.27 — sarva is classified as a sarvanāman (pronoun), hence takes pronominal declension",
-        "P 7.1.14 — sarva declines like a pronoun, not a regular adjective"
+        "Root √जम्भ् (causative jambhaya) + शतृ suffix → जम्भयत्",
+        "P 7.1.70 — nominative singular masculine: जम्भयन्"
       ],
-      "case_ending": ""
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine Participle)"
     },
     "lexicographical_references": {
-      "nighantu": "Nighantu 3.1 — listed among words denoting totality/completeness.",
-      "amara_kosha": "Amarakośa 3.1.1 — सर्वः listed as a sarvanāman: 'sarvaḥ viśvaḥ ubhau' — sarva, viśva, and ubha are words for 'all'.",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 2.19 — destruction synonyms (vadha-nāmāni).",
+      "amara_kosha": "Amarakośa 3.1.42 — crushing/killing synonyms.",
+      "abhidhana_ratnamala": "Listed under crushing/destroying."
     }
   },
   "112": {
     "id": 112,
-    "pada_form": "अ॒सौ",
-    "clean_form": "असौ",
+    "pada_form": "या॒तु॒-धा॒न्यः॑",
+    "clean_form": "यातुधान्यः",
     "meanings": {
-      "english": "That one yonder; the one over there (pointing to something distant/visible but removed)",
-      "nirukta": "Adas is the remote demonstrative — pointing to what is visible but distant. In mantras 7-8: 'asau yaḥ' — 'that one yonder who [is coppery, ruddy...]' — pointing to the visible sun, which is identified with Rudra.",
-      "vedantic": "The remote demonstrative 'asau' in mantras 7-8 points to the sun — identifying the visible solar deity with Rudra. This is the Vedic technique of adhyātma-upāsana: using the visible (sun) as a gateway to contemplate the invisible (Brahman/Rudra). The Bṛhadāraṇyaka Upaniṣad uses similar pointing language for Brahman."
+      "english": "Sorceresses; demonic forces; invisible assailants (evil spirits, rakshasas, etc.)",
+      "nirukta": "Compound of yātu (sorcery/sorrow) + dhānī (container/race). 'Yātūni duḥkhāni dadhati iti yātudhānāḥ' — those who inflict invisible torment, evil spirits, and sorceries.",
+      "vedantic": "Represents invisible, psychological, and subtle negative forces (rakshasas, pishachas, mental afflictions). The Lord annihilates both visible (ahi) and invisible (yatudhani) obstacles."
     },
     "grammatical_references": {
       "panini": [
-        "P 1.1.27 — adas classified as sarvanāman",
-        "P 7.2.107 — special suppletion: adas → asau (nom. sg. masc.)",
-        "P 7.2.102 — remote demonstrative declension paradigm"
+        "Noun यातु + धाना + ष्यञ् / ईष् → यातुधानी",
+        "Nominative plural feminine: यातुधान्यः"
       ],
-      "case_ending": ""
+      "case_ending": "Accusative / Nominative Plural (Dvitīyā / Prathamā Vibhakti, Bahuvacana, Feminine)"
     },
     "lexicographical_references": {
-      "nighantu": "",
-      "amara_kosha": "",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 5.4 — rakṣasa-nāmāni.",
+      "amara_kosha": "Amarakośa 1.1.73 — 'yātudhānaḥ rakṣasaḥ'.",
+      "abhidhana_ratnamala": "Listed under demonic/sorcery forces."
     }
   },
   "113": {
