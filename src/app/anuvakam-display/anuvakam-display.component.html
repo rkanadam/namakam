@@ -1,89 +1,36 @@
-<div class="layout-container" [class.sidebar-collapsed]="isSidebarCollapsed()">
-  <!-- Left Navigation Sidebar -->
-  <aside class="sidebar">
-    <div class="sidebar-header-row">
-      <div class="sidebar-brand">
-        <h2 class="sidebar-logo">श्रीरुद्रप्रश्‍नः</h2>
-        <p class="sidebar-sublogo">Namakam Study Suite</p>
-      </div>
+<div class="anuvakam-display-container">
+  <!-- Top Quick Navigation Bar -->
+  <nav class="top-nav-bar">
+    <button 
+      class="nav-tab-btn" 
+      [class.active]="activeView === 'intro'" 
+      (click)="selectIntro()">
+      📖 भूमिका (Introduction)
+    </button>
+    <div class="anuvaka-nav-pills">
       <button 
-        type="button" 
-        class="sidebar-toggle-btn" 
-        (click)="toggleSidebar()" 
-        [title]="isSidebarCollapsed() ? 'Expand sidebar' : 'Collapse sidebar'">
-        {{ isSidebarCollapsed() ? '❯' : '❮' }}
+        *ngFor="let anuvakam of anuvakams"
+        class="anuvaka-pill-btn"
+        [class.active]="activeView === 'anuvakam' && selectedAnuvakam?.anuvakam === anuvakam.anuvakam"
+        (click)="selectAnuvakam(anuvakam)">
+        Anuvaka {{ anuvakam.anuvakam }}
       </button>
     </div>
-    
-    <nav class="nav-menu">
-      <button 
-        class="nav-btn" 
-        [class.active]="activeView === 'intro'" 
-        (click)="selectIntro()"
-        title="भूमिका (Introduction)">
-        <span class="nav-icon">📖</span>
-        <span class="nav-text">भूमिका (Introduction)</span>
-      </button>
-
-      <div class="nav-section-title">अनुवाकाः & मन्त्राः (Anuvakas & Mantras)</div>
-      <div class="anuvaka-list">
-        <div *ngFor="let anuvakam of anuvakams" class="anuvaka-sidebar-group">
-          <div class="anuvaka-header-row">
-            <button 
-              class="nav-btn sub-btn anuvaka-main-btn" 
-              [class.active]="activeView === 'anuvakam' && selectedAnuvakam?.anuvakam === anuvakam.anuvakam" 
-              (click)="selectAnuvakam(anuvakam)"
-              [title]="anuvakam.title">
-              <span class="anuvaka-num">{{ anuvakam.anuvakam }}</span>
-              <span class="anuvaka-title-nav">{{ anuvakam.title }}</span>
-            </button>
-            <button 
-              type="button"
-              class="toggle-expand-btn"
-              [class.expanded]="isAnuvakamExpanded(anuvakam.anuvakam)"
-              (click)="toggleAnuvakamExpand(anuvakam.anuvakam, $event)"
-              [title]="isAnuvakamExpanded(anuvakam.anuvakam) ? 'Collapse mantras' : 'Expand mantras'">
-              {{ isAnuvakamExpanded(anuvakam.anuvakam) ? '▾' : '▸' }}
-            </button>
-          </div>
-
-          <!-- Sidebar Mantras List -->
-          <div class="sidebar-mantras-container" *ngIf="isAnuvakamExpanded(anuvakam.anuvakam)">
-            <button 
-              *ngFor="let mantra of anuvakam.mantras"
-              class="sidebar-mantra-btn"
-              [class.active]="selectedMantra?.id === mantra.id && selectedAnuvakam?.anuvakam === anuvakam.anuvakam"
-              (click)="selectMantraFromSidebar(anuvakam, mantra)"
-              [title]="getMantraPrefix(mantra.samhita)">
-              <span class="s-dot">•</span>
-              <span class="s-mantra-label">
-                <span class="s-mantra-num">M{{ mantra.id }}</span>
-                <span class="s-mantra-prefix" *ngIf="mantra.samhita"> — {{ getMantraPrefix(mantra.samhita) }}</span>
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <button 
-        class="nav-btn" 
-        [class.active]="activeView === 'conclusion'" 
-        (click)="selectConclusion()">
-        <span class="nav-icon">📜</span>
-        <span class="nav-text">फलश्रुतिः (Conclusion)</span>
-      </button>
-
-      <button 
-        class="nav-btn" 
-        [routerLink]="['/word-index']">
-        <span class="nav-icon">🔍</span>
-        <span class="nav-text">पदसूची (Word Index)</span>
-      </button>
-    </nav>
-  </aside>
+    <button 
+      class="nav-tab-btn" 
+      [class.active]="activeView === 'conclusion'" 
+      (click)="selectConclusion()">
+      📜 फलश्रुतिः (Conclusion)
+    </button>
+    <button 
+      class="nav-tab-btn" 
+      [routerLink]="['/word-index']">
+      🔍 पदसूची (Word Index)
+    </button>
+  </nav>
 
   <!-- Main Content Area -->
-  <main class="main-content">
+  <main class="main-content-full">
     
     <!-- 1. PREFIX COMMENTARIES (INTRODUCTION) -->
     <section *ngIf="activeView === 'intro'" class="content-section card fade-in">
