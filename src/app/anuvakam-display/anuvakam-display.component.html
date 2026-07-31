@@ -342,15 +342,15 @@
             <div class="comm-card" *ngIf="selectedMantraDetails.commentaries[activeCommentator] as comm">
               <!-- Rishi / Devata / Dhyana metadata -->
               <div class="comm-meta-grid" *ngIf="comm.rishi || comm.chandas || comm.devata">
-                <div class="meta-item" *ngIf="comm.rishi"><strong>Rishi (ऋषिः):</strong> {{ comm.rishi }}</div>
-                <div class="meta-item" *ngIf="comm.chandas"><strong>Chhandas (छन्दः):</strong> {{ comm.chandas }}</div>
-                <div class="meta-item" *ngIf="comm.devata"><strong>Devata (देवता):</strong> {{ comm.devata }}</div>
+                <div class="meta-item" *ngIf="comm.rishi"><strong>Rishi (ऋषिः):</strong> {{ comm.rishi | transliterate }}</div>
+                <div class="meta-item" *ngIf="comm.chandas"><strong>Chhandas (छन्दः):</strong> {{ comm.chandas | transliterate }}</div>
+                <div class="meta-item" *ngIf="comm.devata"><strong>Devata (देवता):</strong> {{ comm.devata | transliterate }}</div>
               </div>
 
               <!-- Dhyana block -->
               <div class="dhyana-block" *ngIf="comm.dhyana">
                 <span class="dhyana-label">ध्यानम् (Meditation)</span>
-                <p class="sanskrit-font">{{ comm.dhyana }}</p>
+                <p class="sanskrit-font">{{ comm.dhyana | transliterate }}</p>
               </div>
 
               <!-- Main text bhashya -->
@@ -360,7 +360,7 @@
                   <p *ngIf="!comm.english" class="no-data">English translation not available.</p>
                 </div>
                 <div *ngIf="commentaryLang === 'sanskrit'" class="text-block sanskrit-font">
-                  <p *ngFor="let p of comm.sanskrit?.split('\n\n')">{{ p }}</p>
+                  <p *ngFor="let p of comm.sanskrit?.split('\n\n')">{{ p | transliterate }}</p>
                   <p *ngIf="!comm.sanskrit" class="no-data">सङ्कृतभाष्यं नोपलभ्यते। (Sanskrit text not available.)</p>
                 </div>
               </div>

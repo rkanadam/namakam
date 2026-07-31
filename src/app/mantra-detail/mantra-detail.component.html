@@ -199,13 +199,13 @@
 
     <div class="commentary-content" *ngIf="currentCommentary">
       <div class="commentary-meta" *ngIf="currentCommentary.rishi || currentCommentary.chandas || currentCommentary.devata">
-        <span *ngIf="currentCommentary.rishi">Rishi: {{ currentCommentary.rishi }}</span>
-        <span *ngIf="currentCommentary.chandas">Chandas: {{ currentCommentary.chandas }}</span>
-        <span *ngIf="currentCommentary.devata">Devata: {{ currentCommentary.devata }}</span>
+        <span *ngIf="currentCommentary.rishi">Rishi: {{ currentCommentary.rishi | transliterate }}</span>
+        <span *ngIf="currentCommentary.chandas">Chandas: {{ currentCommentary.chandas | transliterate }}</span>
+        <span *ngIf="currentCommentary.devata">Devata: {{ currentCommentary.devata | transliterate }}</span>
       </div>
 
       <div *ngIf="currentCommentary.dhyana" class="dhyana">
-        <strong>Dhyana:</strong> {{ currentCommentary.dhyana }}
+        <strong>Dhyana:</strong> {{ currentCommentary.dhyana | transliterate }}
       </div>
 
       <!-- Language toggle for commentary -->
@@ -217,7 +217,7 @@
       </div>
 
       <div *ngIf="activeCommentaryLang === 'sanskrit' && currentCommentary.sanskrit" class="commentary-text">
-        <pre class="sanskrit-block">{{ currentCommentary.sanskrit }}</pre>
+        <pre class="sanskrit-block">{{ currentCommentary.sanskrit | transliterate }}</pre>
       </div>
 
       <div *ngIf="activeCommentaryLang === 'english' && currentCommentary.text" class="commentary-text">
