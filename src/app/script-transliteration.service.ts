@@ -67,8 +67,14 @@ export class ScriptTransliterationService {
     let result = '';
     for (let i = 0; i < text.length; i++) {
       const code = text.charCodeAt(i);
-      // Preserve Vedic accents (0x0951, 0x0952, Vedic Svara extensions)
-      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
+
+      // Use Universal Combining Diacritical Marks (Script Inherited)
+      // to prevent font shapers from breaking Indic conjuncts (e.g. namaste -> naste)
+      if (code === 0x0951) {
+        result += '\u030D'; // Udatta: Combining Vertical Line Above
+      } else if (code === 0x0952) {
+        result += '\u0331'; // Anudatta: Combining Macron Below
+      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
         result += text[i];
       } else if (code >= 0x0900 && code <= 0x097F) {
         result += String.fromCharCode(code + offset);
@@ -93,7 +99,7 @@ export class ScriptTransliterationService {
       'त':'t','थ':'th','द':'d','ध':'dh','न':'n',
       'प':'p','फ':'ph','ब':'b','भ':'bh','म':'m',
       'य':'y','र':'r','ल':'l','व':'v',
-      'श':'ś','ष':'ṣ','स':'s','ह':'h'
+      'श':'ś','ष':'ṣ','स':'sa','ह':'h'
     };
     const others: { [k: string]: string } = {
       'ं':'ṁ', 'ः':'ḥ', 'ऽ':"'"
@@ -105,7 +111,7 @@ export class ScriptTransliterationService {
       const char = text[i];
       const code = char.charCodeAt(0);
 
-      // Omit/skip Devanagari Svara marks in IAST
+      // Omit Devanagari svara marks in IAST
       if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         i++;
         continue;
@@ -115,7 +121,8 @@ export class ScriptTransliterationService {
         out += vowels[char];
         i++;
       } else if (consonants[char]) {
-        const cons = consonants[char];
+        let cons = consonants[char];
+        if (char === 'स') cons = 's'; // Ensure clean s for sa
         const next = text[i + 1];
         if (next && matras[next]) {
           out += cons + matras[next];
@@ -156,7 +163,11 @@ export class ScriptTransliterationService {
     for (let i = 0; i < text.length; i++) {
       const char = text[i];
       const code = char.charCodeAt(0);
-      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
+      if (code === 0x0951) {
+        result += '\u030D'; // Udatta: Combining Vertical Line Above
+      } else if (code === 0x0952) {
+        result += '\u0331'; // Anudatta: Combining Macron Below
+      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
         result += char;
       } else if (tamilMap[char]) {
         result += tamilMap[char];
