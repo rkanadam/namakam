@@ -39,11 +39,11 @@ describe('NamakamService Token Rebuilding', () => {
     
     const teToken = rebuilt.find((t: any) => t.text.trim() === "ते॒");
     expect(teToken).toBeDefined();
-    expect(teToken.word_ids).toEqual([2]); // Word ID 2 = "te"
+    expect(teToken.word_ids).toEqual([2]);
 
     const rudraToken = rebuilt.find((t: any) => t.text.trim() === "रु॒द्र॒");
     expect(rudraToken).toBeDefined();
-    expect(rudraToken.word_ids).toEqual([3]); // Word ID 3 = "rudra"
+    expect(rudraToken.word_ids).toEqual([3]);
   });
 
   it('should correctly align Mantra 2 Padapatha compound words with iti and hyphens', () => {
@@ -117,24 +117,48 @@ describe('NamakamService Token Rebuilding', () => {
 
     const rebuilt = (service as any).rebuildTokens(originalMantra3PadaTokens, newPadaText);
 
-    // Verify "taya" gets word_ids [48]
     const tayaToken = rebuilt.find((t: any) => t.text.trim() === "तया᳚");
     expect(tayaToken).toBeDefined();
     expect(tayaToken.word_ids).toEqual([48]);
 
-    // Verify "nah" gets word_ids [33]
     const nahToken = rebuilt.find((t: any) => t.text.trim() === "नः॒");
     expect(nahToken).toBeDefined();
     expect(nahToken.word_ids).toEqual([33]);
 
-    // Verify "tanuva" gets word_ids [75]
     const tanuvaToken = rebuilt.find((t: any) => t.text.trim().startsWith("त॒नुवा"));
     expect(tanuvaToken).toBeDefined();
     expect(tanuvaToken.word_ids).toEqual([75]);
 
-    // Verify "chakashihi" gets word_ids [79]
     const chakashihiToken = rebuilt.find((t: any) => t.text.trim() === "चा॒क॒शी॒हि॒");
     expect(chakashihiToken).toBeDefined();
     expect(chakashihiToken.word_ids).toEqual([79]);
+  });
+
+  it('should correctly align Mantra 4 Padapatha words "giritra" (85) and "tam" (86)', () => {
+    const originalMantra4PadaTokens = [
+      { text: "शि॒वाम्", word_ids: [84] },
+      { text: " । ", word_ids: [] },
+      { text: "गि॒रि॒-त्र॒", word_ids: [85] },
+      { text: " । ", word_ids: [] },
+      { text: "ताम्", word_ids: [86] },
+      { text: " । ", word_ids: [] },
+      { text: "कु॒रु॒", word_ids: [87] }
+    ];
+
+    const newPadaText = "शि॒वाम । गि॒रि॒त्रेति॑ गिरि = त्र॒ । ताम । कु॒रु॒";
+
+    const rebuilt = (service as any).rebuildTokens(originalMantra4PadaTokens, newPadaText);
+
+    const giritraToken = rebuilt.find((t: any) => t.text.includes("गि॒रि॒त्रेति"));
+    expect(giritraToken).toBeDefined();
+    expect(giritraToken.word_ids).toEqual([85]);
+
+    const tamToken = rebuilt.find((t: any) => t.text.trim() === "ताम");
+    expect(tamToken).toBeDefined();
+    expect(tamToken.word_ids).toEqual([86]);
+
+    const kuruToken = rebuilt.find((t: any) => t.text.trim() === "कु॒रु॒");
+    expect(kuruToken).toBeDefined();
+    expect(kuruToken.word_ids).toEqual([87]);
   });
 });
