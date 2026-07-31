@@ -305,11 +305,29 @@ export class NamakamService {
     const cleanSanskrit = (t: string) => (t || '').replace(/[\u0951\u0952\u1CD0-\u1CFF]/g, '').trim();
 
     const normalizeForMatching = (t: string) => {
-      return cleanSanskrit(t)
-        .replace(/(इति|इ॒ति|इ॑ति|इत्य|इ॒त्य|इ॑त्य|-|=|\s|ऽ|॥|\||\(|\))/g, '')
+      let clean = cleanSanskrit(t);
+      // Strip Padapatha iti suffixes (like नीत्य, नीति, इति, इत्य, इते)
+      clean = clean.replace(/(नीत्य|नीति|इति|इ॒ति|इ॑ति|इत्य|इ॒त्य|इ॑त्य|-|=|\s|ऽ|॥|\||\(|\))/g, '');
+      return clean
+        .replace(/[ाीूेैोौ]/g, '') // Normalize vowel length matras for robust matching
         .replace(/म्$/, 'म')
         .replace(/ः$/, '')
         .trim();
+    };
+
+    const levenshtein = (a: string, b: string): number => {
+      if (!a || !b) return Math.max((a || '').length, (b || '').length);
+      const m: number[][] = [];
+      for (let i = 0; i <= b.length; i++) m[i] = [i];
+      for (let j = 0; j <= a.length; j++) m[0][j] = j;
+      for (let i = 1; i <= b.length; i++) {
+        for (let j = 1; j <= a.length; j++) {
+          m[i][j] = b.charAt(i - 1) === a.charAt(j - 1)
+            ? m[i - 1][j - 1]
+            : Math.min(m[i - 1][j - 1] + 1, m[i][j - 1] + 1, m[i - 1][j] + 1);
+        }
+      }
+      return m[b.length][a.length];
     };
 
     // Extract original non-empty, non-punctuation word tokens
@@ -340,7 +358,7 @@ export class NamakamService {
       if (wordIdx < originalWords.length) {
         let bestMatchIdx = -1;
 
-        // Search window starting from current wordIdx
+        // 1. Search window starting from current wordIdx
         for (let w = wordIdx; w <= Math.min(originalWords.length - 1, wordIdx + 4); w++) {
           const candNorm = normalizeForMatching(originalWords[w].text);
           if (!candNorm || !normPart) continue;
@@ -349,18 +367,19 @@ export class NamakamService {
             normPart === candNorm ||
             normPart.includes(candNorm) ||
             candNorm.includes(normPart) ||
-            (normPart.length >= 3 && candNorm.length >= 3 && (normPart.startsWith(candNorm.slice(0, 3)) || candNorm.startsWith(normPart.slice(0, 3))))
+            (normPart.length >= 2 && candNorm.length >= 2 && (normPart.startsWith(candNorm.slice(0, 2)) || candNorm.startsWith(normPart.slice(0, 2)))) ||
+            levenshtein(normPart, candNorm) <= 2
           ) {
             bestMatchIdx = w;
             break;
           }
         }
 
-        // Fallback: search backwards slightly if needed
+        // 2. Fallback: search window around wordIdx
         if (bestMatchIdx === -1 && wordIdx > 0) {
-          for (let w = wordIdx - 1; w >= Math.max(0, wordIdx - 2); w--) {
+          for (let w = Math.max(0, wordIdx - 2); w <= Math.min(originalWords.length - 1, wordIdx + 4); w++) {
             const candNorm = normalizeForMatching(originalWords[w].text);
-            if (candNorm && (normPart === candNorm || normPart.includes(candNorm) || candNorm.includes(normPart))) {
+            if (candNorm && (normPart === candNorm || normPart.includes(candNorm) || candNorm.includes(normPart) || levenshtein(normPart, candNorm) <= 2)) {
               bestMatchIdx = w;
               break;
             }
@@ -379,7 +398,10 @@ export class NamakamService {
           if (nextPart && bestMatchIdx + 1 < originalWords.length) {
             const nextNorm = normalizeForMatching(nextPart);
             const nextCandNorm = normalizeForMatching(originalWords[bestMatchIdx + 1].text);
-            if (nextNorm && nextCandNorm && (nextNorm === nextCandNorm || nextNorm.includes(nextCandNorm) || nextCandNorm.includes(nextNorm))) {
+            if (
+              nextNorm && nextCandNorm &&
+              (nextNorm === nextCandNorm || nextNorm.includes(nextCandNorm) || nextCandNorm.includes(nextNorm) || levenshtein(nextNorm, nextCandNorm) <= 2)
+            ) {
               wordIdx = bestMatchIdx + 1;
             } else {
               wordIdx = bestMatchIdx;
