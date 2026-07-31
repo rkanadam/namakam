@@ -20,10 +20,29 @@
   </div>
 
   <header class="page-header">
-    <a routerLink="/" class="header-link">
-      <h1 class="page-title">श्री रुद्रप्रश्नः – नमकप्रश्नः</h1>
-      <p class="page-subtitle">Sri Rudra Prashna – Namakam</p>
-    </a>
+    <div class="header-container">
+      <a routerLink="/" class="header-link">
+        <h1 class="page-title">श्री रुद्रप्रश्नः – नमकप्रश्नः</h1>
+        <p class="page-subtitle">Sri Rudra Prashna – Namakam</p>
+      </a>
+
+      <!-- Language / Script Selector Dropdown -->
+      <div class="lang-selector-control">
+        <label for="app-lang-select" class="lang-select-label">
+          <span class="lang-icon">🌐</span> Script / भाषा:
+        </label>
+        <select 
+          id="app-lang-select" 
+          class="lang-select-dropdown" 
+          [value]="selectedLanguage" 
+          (change)="onLanguageChange($event)"
+          title="Select Indic Script / Language Transliteration">
+          <option *ngFor="let lang of languages" [value]="lang.code">
+            {{ lang.label }}
+          </option>
+        </select>
+      </div>
+    </div>
   </header>
   <router-outlet></router-outlet>
 </main>

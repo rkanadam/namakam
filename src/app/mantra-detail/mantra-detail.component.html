@@ -73,14 +73,14 @@
             [class.sibling-highlight]="isSiblingHighlighted(token)"
             (click)="onTokenClick(token)"
             (mouseenter)="onTokenMouseEnter($event, token)"
-            (mouseleave)="onTokenMouseLeave()">{{ token.text }}</span>
+            (mouseleave)="onTokenMouseLeave()">{{ token.text | transliterate }}</span>
         </ng-container>
       </div>
       <!-- Fallback plain text -->
       <div class="plain-text" *ngIf="currentTokens.length === 0 && correlatedMantra">
-        <span *ngIf="activePathaTab === 'samhita'">{{ correlatedMantra.sanskrit.samhita }}</span>
-        <span *ngIf="activePathaTab === 'pada'">{{ correlatedMantra.sanskrit.pada }}</span>
-        <span *ngIf="activePathaTab === 'krama'">{{ correlatedMantra.sanskrit.krama }}</span>
+        <span *ngIf="activePathaTab === 'samhita'">{{ correlatedMantra.sanskrit.samhita | transliterate }}</span>
+        <span *ngIf="activePathaTab === 'pada'">{{ correlatedMantra.sanskrit.pada | transliterate }}</span>
+        <span *ngIf="activePathaTab === 'krama'">{{ correlatedMantra.sanskrit.krama | transliterate }}</span>
       </div>
     </div>
   </div>
@@ -93,8 +93,8 @@
        (mouseenter)="onTooltipMouseEnter()"
        (mouseleave)="onTooltipMouseLeave()">
     <div class="tooltip-header">
-      <span class="tooltip-word">{{ hoveredWord.clean_form }}</span>
-      <span class="tooltip-pada" *ngIf="hoveredWord.pada_form !== hoveredWord.clean_form">{{ hoveredWord.pada_form }}</span>
+      <span class="tooltip-word">{{ hoveredWord.clean_form | transliterate }}</span>
+      <span class="tooltip-pada" *ngIf="hoveredWord.pada_form !== hoveredWord.clean_form">{{ hoveredWord.pada_form | transliterate }}</span>
     </div>
 
     <div class="tooltip-section" *ngIf="hoveredWord.meanings.english">
@@ -126,7 +126,7 @@
   <!-- Word Analysis Panel (on click) -->
   <div class="word-panel" *ngIf="selectedWord">
     <div class="word-panel-header">
-      <h3>{{ selectedWord.clean_form }} <span class="pada-form">{{ selectedWord.pada_form }}</span></h3>
+      <h3>{{ selectedWord.clean_form | transliterate }} <span class="pada-form">{{ selectedWord.pada_form | transliterate }}</span></h3>
       <button class="close-btn" (click)="closeWordPanel()">×</button>
     </div>
 

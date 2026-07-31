@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet, RouterLink } from '@angular/router';
 import { SanskritEditorService } from './sanskrit-editor.service';
+import { ScriptTransliterationService, LanguageOption } from './script-transliteration.service';
 
 @Component({
   selector: 'app-root',
@@ -13,10 +14,26 @@ import { SanskritEditorService } from './sanskrit-editor.service';
 export class AppComponent {
   title = 'namakam';
 
-  constructor(private editorService: SanskritEditorService) {}
+  constructor(
+    private editorService: SanskritEditorService,
+    private transliterationService: ScriptTransliterationService
+  ) {}
 
   get isEditorEnabled(): boolean {
     return this.editorService.isEditorEnabled();
+  }
+
+  get languages(): LanguageOption[] {
+    return this.transliterationService.languages;
+  }
+
+  get selectedLanguage(): string {
+    return this.transliterationService.currentLanguage;
+  }
+
+  onLanguageChange(event: Event): void {
+    const select = event.target as HTMLSelectElement;
+    this.transliterationService.setLanguage(select.value);
   }
 
   exportEdits(): void {

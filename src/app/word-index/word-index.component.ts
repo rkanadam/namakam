@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
 import { forkJoin } from 'rxjs';
 import { NamakamService, Dictionary, DictionaryEntry, WordIndex, MantraRef, Anuvakam } from '../namakam.service';
+import { ScriptTransliteratePipe } from '../script-transliterate.pipe';
 
 interface WordEntry {
   entry: DictionaryEntry;
@@ -12,7 +13,7 @@ interface WordEntry {
 @Component({
   selector: 'app-word-index',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, ScriptTransliteratePipe],
   templateUrl: './word-index.component.html',
   styleUrls: ['./word-index.component.css']
 })

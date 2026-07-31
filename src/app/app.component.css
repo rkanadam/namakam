@@ -75,22 +75,29 @@
 }
 
 .page-header {
-  text-align: center;
-  padding: 30px 20px 10px;
+  padding: 20px 20px 14px;
   border-bottom: 2px solid #d4a96a;
   margin-bottom: 10px;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 .header-link {
   text-decoration: none;
-  display: block;
+  text-align: left;
 }
 
 .page-title {
   font-family: 'Siddhanta', sans-serif;
   font-size: 2em;
   color: #6b2f0e;
-  margin: 0 0 6px 0;
+  margin: 0 0 4px 0;
 }
 
 .page-subtitle {
@@ -98,4 +105,44 @@
   font-size: 1.1em;
   color: #8b6040;
   margin: 0;
+}
+
+.lang-selector-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fcf7ef;
+  border: 1px solid #d4a96a;
+  padding: 6px 14px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.lang-select-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #6b2f0e;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lang-select-dropdown {
+  background: #ffffff;
+  color: #4a2406;
+  border: 1px solid #c8a36d;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.15s ease;
+}
+
+.lang-select-dropdown:hover,
+.lang-select-dropdown:focus {
+  border-color: #8b4513;
+  box-shadow: 0 0 0 2px rgba(139, 69, 19, 0.15);
 }

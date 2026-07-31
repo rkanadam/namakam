@@ -1,8 +1,10 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { NamakamService, Anuvakam, Mantra } from '../namakam.service';
 import { SanskritEditorService } from '../sanskrit-editor.service';
 import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-editor-modal.component';
+import { ScriptTransliteratePipe } from '../script-transliterate.pipe';
 
 interface WordDetails {
   id: number;
@@ -16,7 +18,7 @@ interface WordDetails {
 @Component({
   selector: 'app-anuvakam-display',
   standalone: true,
-  imports: [CommonModule, SanskritEditorModalComponent],
+  imports: [CommonModule, SanskritEditorModalComponent, ScriptTransliteratePipe, RouterLink],
   templateUrl: './anuvakam-display.component.html',
   styleUrls: ['./anuvakam-display.component.css']
 })

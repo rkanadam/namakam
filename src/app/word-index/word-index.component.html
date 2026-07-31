@@ -17,8 +17,8 @@
   <div class="word-list">
     <div class="word-entry" *ngFor="let w of filteredWords">
       <div class="word-head">
-        <span class="word-sanskrit">{{ w.entry.clean_form }}</span>
-        <span class="word-pada" *ngIf="w.entry.pada_form !== w.entry.clean_form">{{ w.entry.pada_form }}</span>
+        <span class="word-sanskrit">{{ w.entry.clean_form | transliterate }}</span>
+        <span class="word-pada" *ngIf="w.entry.pada_form !== w.entry.clean_form">{{ w.entry.pada_form | transliterate }}</span>
         <span class="word-english">{{ w.entry.meanings.english }}</span>
       </div>
 

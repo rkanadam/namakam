@@ -154,7 +154,7 @@
             [class.selected]="selectedMantra?.id === mantra.id"
             (click)="selectMantra(mantra)">
             <span class="mantra-num">Mantra {{ mantra.id }}</span>
-            <p class="mantra-preview sanskrit-font">{{ mantra.samhita | slice:0:60 }}...</p>
+            <p class="mantra-preview sanskrit-font">{{ (mantra.samhita | transliterate) | slice:0:60 }}...</p>
           </button>
         </div>
       </div>
@@ -240,7 +240,7 @@
               [class.hoverable]="token.word_ids && token.word_ids.length > 0"
               (mouseenter)="onTokenHover(token.word_ids)"
               (mouseleave)="onTokenLeave()">
-              {{ token.text }}
+              {{ token.text | transliterate }}
             </span>
           </div>
 
@@ -250,8 +250,8 @@
           <div class="dictionary-box" *ngIf="hoveredWords.length > 0">
             <div class="dict-card fade-in" *ngFor="let word of hoveredWords">
               <div class="dict-header">
-                <span class="dict-pada sanskrit-font">{{ word.pada_form }}</span>
-                <span class="dict-clean">({{ word.clean_form }})</span>
+                <span class="dict-pada sanskrit-font">{{ word.pada_form | transliterate }}</span>
+                <span class="dict-clean">({{ word.clean_form | transliterate }})</span>
                 <span class="dict-case">{{ word.grammatical_references?.case_ending }}</span>
               </div>
               

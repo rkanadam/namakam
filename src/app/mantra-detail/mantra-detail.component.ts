@@ -15,11 +15,12 @@ import {
 
 import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-editor-modal.component';
 import { SanskritEditorService } from '../sanskrit-editor.service';
+import { ScriptTransliteratePipe } from '../script-transliterate.pipe';
 
 @Component({
   selector: 'app-mantra-detail',
   standalone: true,
-  imports: [CommonModule, RouterLink, SanskritEditorModalComponent],
+  imports: [CommonModule, RouterLink, SanskritEditorModalComponent, ScriptTransliteratePipe],
   templateUrl: './mantra-detail.component.html',
   styleUrls: ['./mantra-detail.component.css']
 })
