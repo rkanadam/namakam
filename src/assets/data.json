@@ -3400,20 +3400,19 @@
       "meanings": {
         "english": "To you; your; of you; for you",
         "nirukta": "Nirukta 1.4 discusses pronoun forms. The enclitic 'te' is the natural conversational form of address in Vedic, more intimate than the full 'tubhyam' — it implies direct, personal communion with the deity.",
-        "vedantic": "Here 'te' addresses Rudra as the Supreme Being directly. The repeated use throughout Śrī Rudram establishes the devotee's continuous awareness of the divine 'You' — the eternal subject who is never an object. In Vedāntic reading, 'te' points to the Ātman-Brahman that is the true 'You' of all beings (cf. 'tat tvam asi')."
+        "vedantic": "Here 'te' addresses Rudra as the Supreme Being directly. The repeated use throughout Śrī Rudram establishes the devotee's continuous awareness of the divine 'You' — the eternal subject who is never an object."
       },
       "grammatical_references": {
         "panini": [
-          "P 8.1.22 — te, me, etc. are treated as enclitic (anudātta) forms that cannot begin a sentence (pragraha rules)",
-          "P 8.1.28 — te is an ādeśa (replacement) of tubhyam/tava in non-initial positions",
-          "P 7.2.97 — the dative singular replacement for yuṣmad-śabda"
+          "P 8.1.22 — enclitic (anudātta) form",
+          "P 8.1.28 — replacement of tubhyam/tava"
         ],
-        "case_ending": "enclitic dative singular 'tubhyam' or genitive singular 'tava'"
+        "case_ending": "Dative / Genitive Singular (Caturthī / Ṣaṣṭhī Vibhakti, Ekavacana)"
       },
       "lexicographical_references": {
-        "nighantu": "Not separately listed; pronouns are treated as structural words (nipāta-varga) in the Nighantu tradition.",
-        "amara_kosha": "",
-        "abhidhana_ratnamala": ""
+        "nighantu": "Pronoun section.",
+        "amara_kosha": "Pronoun class.",
+        "abhidhana_ratnamala": "Listed under pronouns."
       }
     },
     "3": {
@@ -3485,24 +3484,23 @@
     },
     "6": {
       "id": 6,
-      "pada_form": "इषुः",
-      "clean_form": "इषु",
+      "pada_form": "उ॒त",
+      "clean_form": "उत",
       "meanings": {
-        "english": "Arrow; missile; shaft; projectile",
-        "nirukta": "Yāska derives iṣu from √iṣ — 'iṣyate kṣipyate iti iṣuḥ' (that which is sent forth / hurled). The root √iṣ carries the dual sense of 'impelling/seeking' and 'desiring'.",
-        "vedantic": "The arrow symbolizes Rudra's targeted grace or punishment — it never misses. In Muṇḍaka Upaniṣad 2.2.4: 'śaraṃ hy upāsā-niśitaṃ sandhayīta'."
+        "english": "And; also; moreover; as well as; further",
+        "nirukta": "Vedic indeclinable conjunction (avyaya) expressing conjunction, addition, or emphasis. 'Uta' = 'api ca' (and also).",
+        "vedantic": "Connects various divine aspects and attributes, showing that all manifest forms are manifestations of the one Supreme Lord."
       },
       "grammatical_references": {
         "panini": [
-          "√इष् + उ (Uṇādi 1.1) → इषु",
-          "P 7.1.73 — u-stem declension: nom. इषुः, dat. इषवे"
+          "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
         ],
-        "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
+        "case_ending": "Avyaya (indeclinable conjunction)"
       },
       "lexicographical_references": {
-        "nighantu": "Nighaṇṭu 2.20 — āyudha-nāmāni.",
-        "amara_kosha": "Amarakośa 2.8.86 — iṣuḥ śaraś ca bāṇaś ca.",
-        "abhidhana_ratnamala": "Listed under weapons."
+        "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
+        "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
+        "abhidhana_ratnamala": "Listed under conjunctions."
       }
     },
     "7": {
@@ -3776,24 +3774,23 @@
     },
     "19": {
       "id": 19,
-      "pada_form": "ते॒",
-      "clean_form": "ते",
+      "pada_form": "च॒",
+      "clean_form": "च",
       "meanings": {
-        "english": "To you; your; of you; for you",
-        "nirukta": "Enclitic pronoun form of yuṣmad in dative/genitive singular. Natural conversational form of intimate address.",
-        "vedantic": "Addresses Rudra directly as the eternal Subject, the inner Ātman."
+        "english": "And; also; as well as; both",
+        "nirukta": "Vedic conjunction (avyaya) expressing conjunction, addition, or mutual connection.",
+        "vedantic": "Connects all listed manifestations of Rudra, emphasizing that divine reality encompasses all created forms."
       },
       "grammatical_references": {
         "panini": [
-          "P 8.1.22 — enclitic (anudātta) form",
-          "P 8.1.28 — replacement of tubhyam/tava"
+          "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
         ],
-        "case_ending": "Dative / Genitive Singular (Caturthī / Ṣaṣṭhī Vibhakti, Ekavacana)"
+        "case_ending": "Avyaya (indeclinable conjunction)"
       },
       "lexicographical_references": {
-        "nighantu": "Pronoun section.",
-        "amara_kosha": "Pronoun class.",
-        "abhidhana_ratnamala": "Listed under pronouns."
+        "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
+        "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
+        "abhidhana_ratnamala": "Listed under conjunctions."
       }
     },
     "20": {
@@ -14863,7 +14860,7 @@
       "clean_form": "असौ",
       "meanings": {
         "english": "That one yonder; the manifest one in the solar disc",
-        "nirukta": "Demonstrative pronoun pointing to the sun in the sky. Sāyaṇa: 'asau' = 'ādityamaṇḍalastho yaḥ' (he who dwells in the solar orb).",
+        "nirukta": "Demonstrative pronoun pointing to the sun in the sky. Sāyaṇa: 'asau' = 'ādityamaṇdLathso yaḥ' (he who dwells in the solar orb).",
         "vedantic": "Refers to Lord Shiva in the visible, radiant form of Aditya (the Sun). Worship of the Sun is worship of the Supreme Brahman manifest."
       },
       "grammatical_references": {
@@ -14918,48 +14915,6 @@
         "nighantu": "Nighaṇṭu 3.14 — prayer/request verbs (yācñā-karman).",
         "amara_kosha": "Amarakośa 3.1.35 — request verbs.",
         "abhidhana_ratnamala": "Listed under prayer verbs."
-      }
-    },
-    "582": {
-      "id": 582,
-      "pada_form": "उ॒त",
-      "clean_form": "उत",
-      "meanings": {
-        "english": "And; also; moreover; as well as; further",
-        "nirukta": "Vedic indeclinable conjunction (avyaya) expressing conjunction, addition, or emphasis. 'Uta' = 'api ca' (and also).",
-        "vedantic": "Connects various divine aspects and attributes, showing that all manifest forms are manifestations of the one Supreme Lord."
-      },
-      "grammatical_references": {
-        "panini": [
-          "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
-        ],
-        "case_ending": "Avyaya (indeclinable conjunction)"
-      },
-      "lexicographical_references": {
-        "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
-        "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
-        "abhidhana_ratnamala": "Listed under conjunctions."
-      }
-    },
-    "583": {
-      "id": 583,
-      "pada_form": "च॒",
-      "clean_form": "च",
-      "meanings": {
-        "english": "And; also; as well as; both",
-        "nirukta": "Vedic conjunction (avyaya) expressing conjunction, addition, or mutual connection.",
-        "vedantic": "Connects all listed manifestations of Rudra, emphasizing that divine reality encompasses all created forms."
-      },
-      "grammatical_references": {
-        "panini": [
-          "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
-        ],
-        "case_ending": "Avyaya (indeclinable conjunction)"
-      },
-      "lexicographical_references": {
-        "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
-        "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
-        "abhidhana_ratnamala": "Listed under conjunctions."
       }
     }
   },
@@ -15094,6 +15049,10 @@
       {
         "anuvakam": 1,
         "mantra": 10
+      },
+      {
+        "anuvakam": 1,
+        "mantra": 7
       },
       {
         "anuvakam": 1,
@@ -15618,10 +15577,38 @@
         "mantra": 7
       }
     ],
-    "582": [
+    "6": [
       {
         "anuvakam": 1,
         "mantra": 7
+      },
+      {
+        "anuvakam": 1,
+        "mantra": 1
+      },
+      {
+        "anuvakam": 1,
+        "mantra": 14
+      },
+      {
+        "anuvakam": 1,
+        "mantra": 12
+      },
+      {
+        "anuvakam": 1,
+        "mantra": 8
+      },
+      {
+        "anuvakam": 10,
+        "mantra": 7
+      },
+      {
+        "anuvakam": 10,
+        "mantra": 5
+      },
+      {
+        "anuvakam": 10,
+        "mantra": 4
       }
     ],
     "115": [
@@ -15676,12 +15663,6 @@
       {
         "anuvakam": 11,
         "mantra": 8
-      }
-    ],
-    "583": [
-      {
-        "anuvakam": 1,
-        "mantra": 7
       }
     ],
     "118": [
@@ -16360,36 +16341,6 @@
       {
         "anuvakam": 1,
         "mantra": 1
-      }
-    ],
-    "6": [
-      {
-        "anuvakam": 1,
-        "mantra": 1
-      },
-      {
-        "anuvakam": 1,
-        "mantra": 14
-      },
-      {
-        "anuvakam": 1,
-        "mantra": 12
-      },
-      {
-        "anuvakam": 1,
-        "mantra": 8
-      },
-      {
-        "anuvakam": 10,
-        "mantra": 7
-      },
-      {
-        "anuvakam": 10,
-        "mantra": 5
-      },
-      {
-        "anuvakam": 10,
-        "mantra": 4
       }
     ],
     "7": [
@@ -26855,7 +26806,7 @@
         {
           "text": "उ॒त",
           "word_ids": [
-            582
+            6
           ]
         },
         {
@@ -26886,7 +26837,7 @@
         {
           "text": "चे॒माग्ं",
           "word_ids": [
-            583,
+            19,
             118
           ]
         },
@@ -27002,7 +26953,7 @@
         {
           "text": "उ॒त",
           "word_ids": [
-            582
+            6
           ]
         },
         {
@@ -27060,7 +27011,7 @@
         {
           "text": "च॒",
           "word_ids": [
-            583
+            19
           ]
         },
         {
@@ -27235,7 +27186,7 @@
           "text": "अ॒रु॒ण उ॒त",
           "word_ids": [
             114,
-            582
+            6
           ]
         },
         {
@@ -27245,7 +27196,7 @@
         {
           "text": "उ॒त ब॒भ्रुः",
           "word_ids": [
-            582,
+            6,
             115
           ]
         },
@@ -27278,7 +27229,7 @@
           "text": "ये च",
           "word_ids": [
             117,
-            583
+            19
           ]
         },
         {
@@ -27288,7 +27239,7 @@
         {
           "text": "चे॒माम्",
           "word_ids": [
-            583,
+            19,
             118
           ]
         },
@@ -27401,11 +27352,11 @@
         60,
         113,
         114,
-        582,
+        6,
         115,
         116,
         117,
-        583,
+        19,
         118,
         119,
         120,

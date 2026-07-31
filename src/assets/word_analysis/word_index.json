@@ -132,6 +132,10 @@
     },
     {
       "anuvakam": 1,
+      "mantra": 7
+    },
+    {
+      "anuvakam": 1,
       "mantra": 6
     },
     {
@@ -653,10 +657,38 @@
       "mantra": 7
     }
   ],
-  "582": [
+  "6": [
     {
       "anuvakam": 1,
       "mantra": 7
+    },
+    {
+      "anuvakam": 1,
+      "mantra": 1
+    },
+    {
+      "anuvakam": 1,
+      "mantra": 14
+    },
+    {
+      "anuvakam": 1,
+      "mantra": 12
+    },
+    {
+      "anuvakam": 1,
+      "mantra": 8
+    },
+    {
+      "anuvakam": 10,
+      "mantra": 7
+    },
+    {
+      "anuvakam": 10,
+      "mantra": 5
+    },
+    {
+      "anuvakam": 10,
+      "mantra": 4
     }
   ],
   "115": [
@@ -711,12 +743,6 @@
     {
       "anuvakam": 11,
       "mantra": 8
-    }
-  ],
-  "583": [
-    {
-      "anuvakam": 1,
-      "mantra": 7
     }
   ],
   "118": [
@@ -1395,36 +1421,6 @@
     {
       "anuvakam": 1,
       "mantra": 1
-    }
-  ],
-  "6": [
-    {
-      "anuvakam": 1,
-      "mantra": 1
-    },
-    {
-      "anuvakam": 1,
-      "mantra": 14
-    },
-    {
-      "anuvakam": 1,
-      "mantra": 12
-    },
-    {
-      "anuvakam": 1,
-      "mantra": 8
-    },
-    {
-      "anuvakam": 10,
-      "mantra": 7
-    },
-    {
-      "anuvakam": 10,
-      "mantra": 5
-    },
-    {
-      "anuvakam": 10,
-      "mantra": 4
     }
   ],
   "7": [
