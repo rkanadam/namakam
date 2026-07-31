@@ -99,13 +99,39 @@
   background: #fff8f0;
 }
 
+.card-header-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 80px;
+}
+
 .mantra-number {
   font-family: 'Siddhanta', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
   color: #8b4513;
-  min-width: 32px;
   padding-top: 2px;
+}
+
+.card-edit-btn {
+  background: #fdf6e3;
+  color: #8b4513;
+  border: 1px solid #d3b88c;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.card-edit-btn:hover {
+  background: #8b4513;
+  color: #ffffff;
+  border-color: #8b4513;
 }
 
 .mantra-text {

@@ -3,7 +3,12 @@
 
   <!-- Header -->
   <div class="mantra-header">
-    <h2>Anuvakam {{ anuvakamId }} — Mantra {{ mantraId }}</h2>
+    <div class="header-top">
+      <h2>Anuvakam {{ anuvakamId }} — Mantra {{ mantraId }}</h2>
+      <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()">
+        ✏️ Edit Sanskrit Text & Intonations
+      </button>
+    </div>
     <div class="mantra-meta" *ngIf="wordAnalysis?.commentaries?.sayana as s">
       <span *ngIf="s.rishi"><strong>Rishi:</strong> {{ s.rishi }}</span>
       <span *ngIf="s.chandas"><strong>Chandas:</strong> {{ s.chandas }}</span>
@@ -208,4 +213,16 @@
       <div class="english-block">{{ t.abhinava_shankara }}</div>
     </div>
   </div>
+
+  <!-- Sanskrit Editor Modal -->
+  <app-sanskrit-editor-modal
+    *ngIf="showEditorModal"
+    [anuvakamId]="anuvakamId"
+    [mantraId]="mantraId"
+    [initialSamhita]="correlatedMantra?.sanskrit?.samhita || wordAnalysis?.samhita || ''"
+    [initialPada]="correlatedMantra?.sanskrit?.pada || wordAnalysis?.pada || ''"
+    [initialKrama]="correlatedMantra?.sanskrit?.krama || wordAnalysis?.krama || ''"
+    (saved)="onEditorSaved()"
+    (cancelled)="closeEditor()">
+  </app-sanskrit-editor-modal>
 </div>

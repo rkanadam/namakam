@@ -10,9 +10,13 @@
 }
 
 body {
-  font-family: 'Siddhanta', sans-serif;
+  font-family: 'Siddhanta', 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Devanagari MT', sans-serif;
   background: #fdf6ee;
   margin: 0;
   padding: 0;
   color: #222;
+}
+
+.sanskrit-font {
+  font-family: 'Siddhanta', 'Noto Sans Devanagari', 'Noto Serif Devanagari', 'Devanagari MT', sans-serif !important;
 }

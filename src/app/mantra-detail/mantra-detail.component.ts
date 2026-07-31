@@ -11,10 +11,13 @@ import {
   CorrelatedMantra
 } from '../namakam.service';
 
+import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-editor-modal.component';
+import { SanskritEditorService } from '../sanskrit-editor.service';
+
 @Component({
   selector: 'app-mantra-detail',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, SanskritEditorModalComponent],
   templateUrl: './mantra-detail.component.html',
   styleUrls: ['./mantra-detail.component.css']
 })
@@ -29,6 +32,8 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
   activeCommentaryTab: 'sayana' | 'bhatta_bhaskara' | 'abhinava_shankara' = 'sayana';
   activeCommentaryLang: 'sanskrit' | 'english' = 'english';
 
+  showEditorModal = false;
+
   hoveredWord: DictionaryEntry | null = null;
   hoveredWordIds: Set<number> = new Set();
   tooltipX = 0;
@@ -39,13 +44,17 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
 
   constructor(
     private route: ActivatedRoute,
-    private namakamService: NamakamService
+    private namakamService: NamakamService,
+    private editorService: SanskritEditorService
   ) {}
 
   ngOnInit(): void {
     this.anuvakamId = Number(this.route.snapshot.paramMap.get('anuvakamId'));
     this.mantraId = Number(this.route.snapshot.paramMap.get('mantraId'));
+    this.loadData();
+  }
 
+  loadData(): void {
     this.namakamService.getMantra(this.anuvakamId, this.mantraId)
       .subscribe(m => this.correlatedMantra = m);
 
@@ -56,6 +65,23 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
       this.wordAnalysis = wordAnalysis;
       this.dictionary = dictionary;
     });
+  }
+
+  get isEditorEnabled(): boolean {
+    return this.editorService.isEditorEnabled();
+  }
+
+  openEditor(): void {
+    this.showEditorModal = true;
+  }
+
+  closeEditor(): void {
+    this.showEditorModal = false;
+  }
+
+  onEditorSaved(): void {
+    this.showEditorModal = false;
+    this.loadData();
   }
 
   ngOnDestroy(): void {

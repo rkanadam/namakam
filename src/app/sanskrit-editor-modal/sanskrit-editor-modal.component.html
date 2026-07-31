@@ -1,0 +1,111 @@
+<div class="modal-backdrop" (click)="close()">
+  <div class="modal-card" (click)="$event.stopPropagation()">
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <div class="header-title-area">
+        <span class="editor-badge">EDIT MODE</span>
+        <h3>Edit Sanskrit Text & Intonations</h3>
+        <p class="subtitle">Anuvakam {{ anuvakamId }} — Mantra {{ mantraId }}</p>
+      </div>
+      <button class="close-icon-btn" (click)="close()" title="Close Editor">×</button>
+    </div>
+
+    <!-- Patha Selector Tabs -->
+    <div class="patha-tabs">
+      <button 
+        class="tab-btn" 
+        [class.active]="activeTab === 'samhita'" 
+        (click)="activeTab = 'samhita'">
+        संहितापाठः (Samhitapatha)
+      </button>
+      <button 
+        class="tab-btn" 
+        [class.active]="activeTab === 'pada'" 
+        (click)="activeTab = 'pada'">
+        पदपाठः (Padapatha)
+      </button>
+      <button 
+        class="tab-btn" 
+        [class.active]="activeTab === 'krama'" 
+        (click)="activeTab = 'krama'">
+        क्रमपाठः (Kramapatha)
+      </button>
+    </div>
+
+    <!-- Swara / Intonation Palette -->
+    <div class="swara-palette">
+      <div class="palette-header">
+        <span class="palette-label">Vedic Accents & Symbols (Click or press shortcut):</span>
+        <span class="shortcut-tip">💡 Tip: Hold <strong>Alt</strong> + <strong>1-8</strong> (or <strong>Ctrl</strong> + <strong>1-8</strong>) while typing</span>
+      </div>
+      <div class="symbol-grid">
+        <button 
+          *ngFor="let sym of swaraSymbols"
+          type="button" 
+          class="symbol-btn sanskrit-font"
+          [title]="sym.name + ' (' + sym.shortcut + ')'"
+          (click)="insertSymbol(sym.char)">
+          <span class="sym-char">{{ sym.symbol }}</span>
+          <span class="shortcut-badge">{{ sym.shortcut }}</span>
+        </button>
+        <button 
+          type="button" 
+          class="symbol-btn convert-btn"
+          title="Convert English QWERTY phonetic text (e.g. namaste rudra) to Devanagari Sanskrit"
+          (click)="convertPhoneticToDevanagari()">
+          🔤 Convert QWERTY → Devanagari
+        </button>
+        <button 
+          type="button" 
+          class="symbol-btn strip-btn"
+          title="Remove all Vedic accent marks from current text"
+          (click)="stripAccents()">
+          🧹 Clear Accents
+        </button>
+      </div>
+    </div>
+
+    <!-- Editor Field & Live Preview -->
+    <div class="editor-body">
+      <div class="field-group">
+        <label class="field-label">
+          Sanskrit Text Input (Devanagari with Intonation Marks):
+        </label>
+        <textarea
+          #editorTextarea
+          class="editor-textarea sanskrit-font"
+          rows="4"
+          [(ngModel)]="activeText"
+          (keydown)="onTextareaKeydown($event)"
+          placeholder="Type or insert Devanagari text with Vedic intonations...">
+        </textarea>
+      </div>
+
+      <!-- Live Preview -->
+      <div class="preview-box">
+        <span class="preview-label">Live Sanskrit Rendering Preview:</span>
+        <div class="preview-content sanskrit-font">
+          {{ activeText || 'No text entered...' }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Footer Actions -->
+    <div class="modal-footer">
+      <div class="left-actions">
+        <button 
+          *ngIf="hasCustomEdits"
+          type="button" 
+          class="btn btn-reset" 
+          (click)="resetToDefault()">
+          ↺ Reset to Original
+        </button>
+      </div>
+
+      <div class="right-actions">
+        <button type="button" class="btn btn-cancel" (click)="close()">Cancel</button>
+        <button type="button" class="btn btn-save" (click)="save()">💾 Save Corrections</button>
+      </div>
+    </div>
+  </div>
+</div>

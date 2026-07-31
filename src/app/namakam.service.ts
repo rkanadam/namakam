@@ -144,6 +144,8 @@ export interface Anuvakam {
   mantras: Mantra[];
 }
 
+import { SanskritEditorService } from './sanskrit-editor.service';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -155,13 +157,31 @@ export class NamakamService {
     anuvakam6, anuvakam7, anuvakam8, anuvakam9, anuvakam10, anuvakam11
   ] as Anuvakam[];
 
-  constructor(private http: HttpClient) {
+  constructor(
+    private http: HttpClient,
+    private editorService: SanskritEditorService
+  ) {
     this.data$ = this.http.get<CombinedData>('assets/data.json').pipe(shareReplay(1));
   }
 
   // Original methods for other routed components
   getAnuvakas(): Observable<CorrelatedAnuvakam[]> {
-    return this.data$.pipe(map(d => d.correlated.anuvakas));
+    return this.data$.pipe(
+      map(d => {
+        const anuvakas = JSON.parse(JSON.stringify(d.correlated.anuvakas)) as CorrelatedAnuvakam[];
+        for (const a of anuvakas) {
+          for (const m of a.mantras) {
+            const edit = this.editorService.getMantraEdit(a.id, m.id);
+            if (edit) {
+              if (edit.samhita !== undefined) m.sanskrit.samhita = edit.samhita;
+              if (edit.pada !== undefined) m.sanskrit.pada = edit.pada;
+              if (edit.krama !== undefined) m.sanskrit.krama = edit.krama;
+            }
+          }
+        }
+        return anuvakas;
+      })
+    );
   }
 
   getAnuvakam(id: number): Observable<CorrelatedAnuvakam | undefined> {
@@ -183,7 +203,29 @@ export class NamakamService {
   }
 
   getMantraWordAnalysis(anuvakamId: number, mantraId: number): Observable<MantraWordAnalysis> {
-    return this.data$.pipe(map(d => d.mantras[`${anuvakamId}_${mantraId}`]));
+    return this.data$.pipe(
+      map(d => {
+        const item = d.mantras[`${anuvakamId}_${mantraId}`];
+        if (!item) return item;
+        const copy = JSON.parse(JSON.stringify(item)) as MantraWordAnalysis;
+        const edit = this.editorService.getMantraEdit(anuvakamId, mantraId);
+        if (edit) {
+          if (edit.samhita !== undefined) {
+            copy.samhita = edit.samhita;
+            copy.samhita_tokens = this.rebuildTokens(copy.samhita_tokens, edit.samhita);
+          }
+          if (edit.pada !== undefined) {
+            copy.pada = edit.pada;
+            copy.pada_tokens = this.rebuildTokens(copy.pada_tokens, edit.pada);
+          }
+          if (edit.krama !== undefined) {
+            copy.krama = edit.krama;
+            copy.krama_tokens = this.rebuildTokens(copy.krama_tokens, edit.krama);
+          }
+        }
+        return copy;
+      })
+    );
   }
 
   getDictionary(): Observable<Dictionary> {
@@ -194,20 +236,141 @@ export class NamakamService {
     return this.data$.pipe(map(d => d.wordIndex));
   }
 
-  // New methods for AnuvakamDisplayComponent
+  // Methods for AnuvakamDisplayComponent & general views
   getAnuvakams(): Anuvakam[] {
-    return this.anuvakams;
+    const copy = JSON.parse(JSON.stringify(this.anuvakams)) as Anuvakam[];
+    for (const a of copy) {
+      for (const m of a.mantras) {
+        const edit = this.editorService.getMantraEdit(a.anuvakam, m.id);
+        if (edit) {
+          if (edit.samhita !== undefined) m.samhita = edit.samhita;
+          if (edit.pada !== undefined) m.pada = edit.pada;
+          if (edit.krama !== undefined) m.krama = edit.krama;
+        }
+      }
+    }
+    return copy;
   }
 
-  getCorrelatedData(): Promise<any> {
-    return firstValueFrom(this.http.get('assets/correlated_namakam.json'));
+  async getCorrelatedData(): Promise<any> {
+    const data = await firstValueFrom(this.http.get<any>('assets/correlated_namakam.json'));
+    if (data?.anuvakas) {
+      for (const a of data.anuvakas) {
+        for (const m of a.mantras) {
+          const edit = this.editorService.getMantraEdit(a.id, m.id);
+          if (edit) {
+            if (edit.samhita !== undefined) m.sanskrit.samhita = edit.samhita;
+            if (edit.pada !== undefined) m.sanskrit.pada = edit.pada;
+            if (edit.krama !== undefined) m.sanskrit.krama = edit.krama;
+          }
+        }
+      }
+    }
+    return data;
   }
 
   getGlobalDictionary(): Promise<any> {
     return firstValueFrom(this.http.get('assets/word_analysis/global_dictionary.json'));
   }
 
-  getMantraDetails(anuvakamNum: number, mantraId: number): Promise<any> {
-    return firstValueFrom(this.http.get(`assets/word_analysis/anuvakam${anuvakamNum}/mantra${mantraId}.json`));
+  async getMantraDetails(anuvakamNum: number, mantraId: number): Promise<any> {
+    const details = await firstValueFrom(this.http.get<any>(`assets/word_analysis/anuvakam${anuvakamNum}/mantra${mantraId}.json`));
+    if (details) {
+      const edit = this.editorService.getMantraEdit(anuvakamNum, mantraId);
+      if (edit) {
+        if (edit.samhita !== undefined) {
+          details.samhita = edit.samhita;
+          details.samhita_tokens = this.rebuildTokens(details.samhita_tokens, edit.samhita);
+        }
+        if (edit.pada !== undefined) {
+          details.pada = edit.pada;
+          details.pada_tokens = this.rebuildTokens(details.pada_tokens, edit.pada);
+        }
+        if (edit.krama !== undefined) {
+          details.krama = edit.krama;
+          details.krama_tokens = this.rebuildTokens(details.krama_tokens, edit.krama);
+        }
+      }
+    }
+    return details;
+  }
+
+  private rebuildTokens(originalTokens: Token[], newText: string): Token[] {
+    if (!newText) return [];
+    if (!originalTokens || originalTokens.length === 0) {
+      const parts = newText.split(/(\s+|[=।॥])/g).filter(p => p.length > 0);
+      return parts.map(p => ({ text: p, word_ids: [] }));
+    }
+
+    const cleanSanskrit = (t: string) => (t || '').replace(/[\u0951\u0952\u1CD0-\u1CFF]/g, '').trim();
+
+    const normalizeForMatching = (t: string) => {
+      return cleanSanskrit(t)
+        .replace(/(इति|इ॒ति|इ॑ति|-|=|\s|ऽ|॥|।)/g, '')
+        .replace(/म्$/, 'म')
+        .replace(/ः$/, '')
+        .trim();
+    };
+
+    // Extract original non-empty, non-punctuation word tokens
+    const originalWords = originalTokens.filter(t => {
+      const clean = cleanSanskrit(t.text);
+      return clean.length > 0 && !/^[=।॥\s]+$/.test(clean);
+    });
+
+    // Split newText into words, whitespace, and punctuation
+    const newParts = newText.split(/(\s+|[=।॥])/g).filter(p => p.length > 0);
+
+    let wordIdx = 0;
+
+    return newParts.map(part => {
+      const cleanPart = cleanSanskrit(part);
+      const normPart = normalizeForMatching(part);
+
+      // If whitespace or punctuation, no word_ids
+      if (!cleanPart || /^[=।॥\s]+$/.test(part)) {
+        return {
+          text: part,
+          word_ids: []
+        };
+      }
+
+      let assignedIds: number[] = [];
+
+      if (wordIdx < originalWords.length) {
+        let bestMatchIdx = -1;
+
+        // 1. Check exact or normalized match at current wordIdx
+        const currNorm = normalizeForMatching(originalWords[wordIdx].text);
+        if (normPart && currNorm && (normPart === currNorm || normPart.startsWith(currNorm) || currNorm.startsWith(normPart))) {
+          bestMatchIdx = wordIdx;
+        } else {
+          // 2. Search window around wordIdx
+          for (let w = Math.max(0, wordIdx - 2); w <= Math.min(originalWords.length - 1, wordIdx + 4); w++) {
+            const candNorm = normalizeForMatching(originalWords[w].text);
+            if (normPart && candNorm && (normPart === candNorm || normPart.startsWith(candNorm) || candNorm.startsWith(normPart))) {
+              bestMatchIdx = w;
+              break;
+            }
+          }
+        }
+
+        if (bestMatchIdx !== -1) {
+          assignedIds = [...(originalWords[bestMatchIdx].word_ids || [])];
+          if (bestMatchIdx >= wordIdx) {
+            wordIdx = bestMatchIdx + 1;
+          }
+        } else {
+          // Fallback: assign current wordIdx ids
+          assignedIds = [...(originalWords[wordIdx].word_ids || [])];
+          wordIdx++;
+        }
+      }
+
+      return {
+        text: part,
+        word_ids: assignedIds
+      };
+    });
   }
 }

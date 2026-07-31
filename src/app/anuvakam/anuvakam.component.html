@@ -2,8 +2,10 @@
   <a routerLink="/" class="back-link">← Back to Anuvakas</a>
 
   <div class="anuvakam-header">
-    <h2>{{ anuvakam.title }}</h2>
-    <p>Anuvakam {{ anuvakam.id }} — {{ anuvakam.mantras.length }} mantras</p>
+    <div class="header-content">
+      <h2>{{ anuvakam.title }}</h2>
+      <p>Anuvakam {{ anuvakam.id }} — {{ anuvakam.mantras.length }} mantras</p>
+    </div>
   </div>
 
   <div class="lang-toggle">
@@ -17,11 +19,33 @@
     <a *ngFor="let mantra of anuvakam.mantras"
        [routerLink]="['/anuvakam', anuvakam.id, 'mantra', mantra.id]"
        class="mantra-card">
-      <div class="mantra-number">{{ mantra.id }}</div>
+      <div class="card-header-row">
+        <div class="mantra-number">Mantra {{ mantra.id }}</div>
+        <button 
+          *ngIf="isEditorEnabled" 
+          type="button"
+          class="card-edit-btn" 
+          (click)="openEditor(mantra, $event)" 
+          title="Edit Sanskrit Text & Intonations">
+          ✏️ Edit Text
+        </button>
+      </div>
       <div class="mantra-text" [class.sanskrit-mode]="activeLanguage === 'sanskrit'">
         <ng-container *ngIf="activeLanguage === 'sanskrit'">{{ mantra.sanskrit.samhita }}</ng-container>
         <ng-container *ngIf="activeLanguage === 'english'">{{ getTranslation(mantra) }}</ng-container>
       </div>
     </a>
   </div>
+
+  <!-- Sanskrit Editor Modal -->
+  <app-sanskrit-editor-modal
+    *ngIf="editingMantra"
+    [anuvakamId]="anuvakam.id"
+    [mantraId]="editingMantra.id"
+    [initialSamhita]="editingMantra.sanskrit?.samhita || ''"
+    [initialPada]="editingMantra.sanskrit?.pada || ''"
+    [initialKrama]="editingMantra.sanskrit?.krama || ''"
+    (saved)="onEditorSaved()"
+    (cancelled)="closeEditor()">
+  </app-sanskrit-editor-modal>
 </div>

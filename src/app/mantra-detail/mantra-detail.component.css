@@ -24,10 +24,39 @@
   margin-bottom: 20px;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
 .mantra-header h2 {
   font-family: 'Siddhanta', sans-serif;
   font-size: 1.4em;
-  margin: 0 0 8px 0;
+  margin: 0;
+}
+
+.btn-edit-text {
+  background: #fdf6e3;
+  color: #8b4513;
+  border: 1px solid #d3b88c;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.85em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-edit-text:hover {
+  background: #ffffff;
+  color: #5c2c09;
+  border-color: #8b4513;
+  transform: translateY(-1px);
 }
 
 .mantra-meta {

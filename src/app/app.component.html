@@ -1,4 +1,24 @@
 <main class="main">
+  <!-- Editor Status Banner (Visible only when env is set) -->
+  <div class="editor-status-bar" *ngIf="isEditorEnabled">
+    <div class="status-info">
+      <span class="status-dot"></span>
+      <span class="status-text"><strong>Sanskrit Editor Active</strong> (ENV ENABLE_EDITOR=true)</span>
+    </div>
+    <div class="status-actions">
+      <button type="button" class="bar-btn" (click)="exportEdits()" title="Export all custom edits as JSON">
+        📥 Export Corrections
+      </button>
+      <label class="bar-btn file-label" title="Import custom corrections from JSON file">
+        📤 Import Corrections
+        <input type="file" accept=".json" (change)="importEdits($event)" style="display: none;">
+      </label>
+      <button type="button" class="bar-btn btn-danger" (click)="clearAllEdits()" title="Reset all custom edits">
+        🧹 Reset All
+      </button>
+    </div>
+  </div>
+
   <header class="page-header">
     <a routerLink="/" class="header-link">
       <h1 class="page-title">श्री रुद्रप्रश्नः – नमकप्रश्नः</h1>

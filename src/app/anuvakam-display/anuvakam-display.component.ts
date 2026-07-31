@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NamakamService, Anuvakam, Mantra } from '../namakam.service';
+import { SanskritEditorService } from '../sanskrit-editor.service';
+import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-editor-modal.component';
 
 interface WordDetails {
   id: number;
@@ -14,7 +16,7 @@ interface WordDetails {
 @Component({
   selector: 'app-anuvakam-display',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, SanskritEditorModalComponent],
   templateUrl: './anuvakam-display.component.html',
   styleUrls: ['./anuvakam-display.component.css']
 })
@@ -39,12 +41,18 @@ export class AnuvakamDisplayComponent implements OnInit {
   commentaryLang: 'sanskrit' | 'english' = 'english';
   loadingMantra: boolean = false;
 
+  // Editor Modal State
+  showEditorModal: boolean = false;
+
   // Dictionary Hover State
   globalDictionary: { [key: string]: WordDetails } = {};
   hoveredWords: WordDetails[] = [];
   dictionaryLoaded: boolean = false;
 
-  constructor(private namakamService: NamakamService) {}
+  constructor(
+    private namakamService: NamakamService,
+    private editorService: SanskritEditorService
+  ) {}
 
   async ngOnInit(): Promise<void> {
     // Load basic list
@@ -63,6 +71,26 @@ export class AnuvakamDisplayComponent implements OnInit {
       this.dictionaryLoaded = true;
     } catch (e) {
       console.error("Error loading global dictionary:", e);
+    }
+  }
+
+  get isEditorEnabled(): boolean {
+    return this.editorService.isEditorEnabled();
+  }
+
+  openEditor(): void {
+    this.showEditorModal = true;
+  }
+
+  closeEditor(): void {
+    this.showEditorModal = false;
+  }
+
+  onEditorSaved(): void {
+    this.showEditorModal = false;
+    this.anuvakams = this.namakamService.getAnuvakams();
+    if (this.selectedMantra) {
+      this.selectMantra(this.selectedMantra);
     }
   }
 
