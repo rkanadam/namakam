@@ -114,25 +114,24 @@
   },
   "6": {
     "id": 6,
-    "pada_form": "उ॒त",
-    "clean_form": "उत",
+    "pada_form": "इषुः",
+    "clean_form": "इषु",
     "meanings": {
       "english": "Arrow; missile; shaft; projectile",
-      "nirukta": "Yāska derives iṣu from √iṣ — 'iṣyate kṣipyate iti iṣuḥ' (that which is sent forth / hurled). The root √iṣ carries the dual sense of 'impelling/seeking' and 'desiring' — an arrow is that which is directed with intention toward its target. Nirukta 9.11 discusses arrow-related vocabulary.",
-      "vedantic": "The arrow symbolizes Rudra's targeted grace or punishment — it never misses. In the Muṇḍaka Upaniṣad (2.2.4): 'śaram hy upāsā-niśitam sandhayīta' — the arrow (jīvātman) is sharpened by meditation and aimed at Brahman. Saluting the arrow acknowledges that even what strikes us is an instrument of divine purpose."
+      "nirukta": "Yāska derives iṣu from √iṣ — 'iṣyate kṣipyate iti iṣuḥ' (that which is sent forth / hurled). The root √iṣ carries the dual sense of 'impelling/seeking' and 'desiring'.",
+      "vedantic": "The arrow symbolizes Rudra's targeted grace or punishment — it never misses. In Muṇḍaka Upaniṣad 2.2.4: 'śaraṃ hy upāsā-niśitaṃ sandhayīta'."
     },
     "grammatical_references": {
       "panini": [
-        "√इष् + उ (Uṇādi 1.1) → इषु — the u-pratyaya forms the substantive noun",
-        "P 7.1.73 — declension follows u-kārānta (u-stem) paradigm: nom. इषुः, dat. इषवे, acc. इषुम्, nom.pl. इषवः",
-        "P 6.1.77 — sandhi rule for iṣu + e → iṣave"
+        "√इष् + उ (Uṇādi 1.1) → इषु",
+        "P 7.1.73 — u-stem declension: nom. इषुः, dat. इषवे"
       ],
-      "case_ending": "appears as इषवे (iṣave, dat. sg.), इषुः (iṣuḥ, nom. sg.), इषुम् (iṣum, acc. sg.), इषवः (iṣavaḥ, nom. pl.) across mantras"
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "Nighantu 2.20 — listed among āyudha-nāmāni (weapon names) alongside śara, bāṇa, sāyaka.",
-      "amara_kosha": "Amarakośa 2.8.86 (Kṣatriya-varga, Āyudha) — इषुः listed as a synonym of arrow: 'iṣuḥ śaraś ca bāṇaś ca' — iṣu, śara, and bāṇa are synonyms for arrow.",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 2.20 — āyudha-nāmāni.",
+      "amara_kosha": "Amarakośa 2.8.86 — iṣuḥ śaraś ca bāṇaś ca.",
+      "abhidhana_ratnamala": "Listed under weapons."
     }
   },
   "7": {
@@ -406,25 +405,24 @@
   },
   "19": {
     "id": 19,
-    "pada_form": "च॒",
-    "clean_form": "च",
+    "pada_form": "ते॒",
+    "clean_form": "ते",
     "meanings": {
       "english": "To you; your; of you; for you",
-      "nirukta": "Nirukta 1.4 discusses pronoun forms. The enclitic 'te' is the natural conversational form of address in Vedic, more intimate than the full 'tubhyam' — it implies direct, personal communion with the deity.",
-      "vedantic": "Here 'te' addresses Rudra as the Supreme Being directly. The repeated use throughout Śrī Rudram establishes the devotee's continuous awareness of the divine 'You' — the eternal subject who is never an object. In Vedāntic reading, 'te' points to the Ātman-Brahman that is the true 'You' of all beings (cf. 'tat tvam asi')."
+      "nirukta": "Enclitic pronoun form of yuṣmad in dative/genitive singular. Natural conversational form of intimate address.",
+      "vedantic": "Addresses Rudra directly as the eternal Subject, the inner Ātman."
     },
     "grammatical_references": {
       "panini": [
-        "P 8.1.22 — te, me, etc. are treated as enclitic (anudātta) forms that cannot begin a sentence (pragraha rules)",
-        "P 8.1.28 — te is an ādeśa (replacement) of tubhyam/tava in non-initial positions",
-        "P 7.2.97 — the dative singular replacement for yuṣmad-śabda"
+        "P 8.1.22 — enclitic (anudātta) form",
+        "P 8.1.28 — replacement of tubhyam/tava"
       ],
-      "case_ending": "enclitic dative singular 'tubhyam' or genitive singular 'tava'"
+      "case_ending": "Dative / Genitive Singular (Caturthī / Ṣaṣṭhī Vibhakti, Ekavacana)"
     },
     "lexicographical_references": {
-      "nighantu": "Not separately listed; pronouns are treated as structural words (nipāta-varga) in the Nighantu tradition.",
-      "amara_kosha": "",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Pronoun section.",
+      "amara_kosha": "Pronoun class.",
+      "abhidhana_ratnamala": "Listed under pronouns."
     }
   },
   "20": {
@@ -2726,21 +2724,21 @@
     "pada_form": "अव॑",
     "clean_form": "अव",
     "meanings": {
-      "english": "We propitiate away their anger; we pray to avert their wrath; we seek to pacify their hostility",
-      "nirukta": "Heḍas from √hīḍ — 'hīḍyate kopayate' (to be angry with). 'Ava... īmahe' = 'we pray downward/away'. The compound construction means 'we pray to propitiate their anger away from us'.",
-      "vedantic": "The prayer to avert the Rudras' heḍas (wrath) is a plea for the transformation of divine anger into grace. In Vedānta, this 'wrath' is the karmic consequence of ignorance — propitiating it is seeking liberation from the fruits of past actions."
+      "english": "Down; away; off (verbal prefix indicating deprecation/appeasement in ava-īmahe)",
+      "nirukta": "Vedic upasarga/gati meaning down or away. In 'ava... īmahe', ava modifies īmahe to mean 'we pray to ward off / appease'.",
+      "vedantic": "Signifies turning away or averting the fierce aspect of divine energy into peace and protection."
     },
     "grammatical_references": {
       "panini": [
-        "P 3.4.78 — laṭ ātmanepada 1st pl.: √ईम् + महिन् → ईमहे",
-        "हेडस्: √हीड् + असुन् (Uṇādi 4.188) → हेडस् (wrath)"
+        "P 1.4.80 — Upasargas/gatis with verbs",
+        "Tmesis in Vedic (chandasi) where prefix ava is separated from verb īmahe"
       ],
-      "case_ending": ""
+      "case_ending": "Avyaya (upasarga / verbal prefix)"
     },
     "lexicographical_references": {
-      "nighantu": "Nighantu 3.12 — heḍas listed among krodha-vācaka (anger-denoting) words.",
-      "amara_kosha": "",
-      "abhidhana_ratnamala": ""
+      "nighantu": "Nighaṇṭu 3.29 — listed among upasargas.",
+      "amara_kosha": "Amarakośa 3.4.1 — listed among prefixes.",
+      "abhidhana_ratnamala": "Listed under avyayas."
     }
   },
   "125": {
@@ -8353,21 +8351,23 @@
   },
   "414": {
     "id": 414,
-    "pada_form": "ए॒षाम्",
+    "pada_form": "ए॒षा॒म्",
     "clean_form": "एषाम्",
     "meanings": {
-      "english": "These / This.",
-      "nirukta": "Pronominal base pointing to immediate experience.",
-      "vedantic": "The manifest universe which is experienced directly by the senses."
+      "english": "Of these (Rudras in the directions)",
+      "nirukta": "Genitive plural masculine of demonstrative pronoun etad (etad → eṣām).",
+      "vedantic": "Refers to all the thousands of Rudra-manifestations pervading the quarters of space."
     },
     "grammatical_references": {
-      "panini": "Pronoun 'idam'. Genitive plural form is 'eṣām' / 'eṣām-puruṣāṇām'.",
-      "case_ending": "Genitive Plural / Locative Singular / Accusative."
+      "panini": [
+        "Pronoun stem एतद् + आम → एषाम् (P 7.1.52 / P 8.3.59)"
+      ],
+      "case_ending": "Genitive Plural (Ṣaṣṭhī Vibhakti, Bahuvacana, Masculine)"
     },
     "lexicographical_references": {
-      "nighantu": "Not listed.",
-      "amara_kosha": "Pronoun class.",
-      "abhidhana_ratnamala": "Excluded."
+      "nighantu": "Listed among demonstrative pronouns.",
+      "amara_kosha": "Amarakośa 3.1.8 — pronoun section.",
+      "abhidhana_ratnamala": "Listed under pronouns."
     }
   },
   "415": {
@@ -11484,6 +11484,111 @@
       "nighantu": "Pervading synonyms.",
       "amara_kosha": "Verb class.",
       "abhidhana_ratnamala": "Not listed."
+    }
+  },
+  "579": {
+    "id": 579,
+    "pada_form": "अ॒सौ",
+    "clean_form": "असौ",
+    "meanings": {
+      "english": "That one yonder; the manifest one in the solar disc",
+      "nirukta": "Demonstrative pronoun pointing to the sun in the sky. Sāyaṇa: 'asau' = 'ādityamaṇḍalastho yaḥ' (he who dwells in the solar orb).",
+      "vedantic": "Refers to Lord Shiva in the visible, radiant form of Aditya (the Sun). Worship of the Sun is worship of the Supreme Brahman manifest."
+    },
+    "grammatical_references": {
+      "panini": [
+        "Pronoun adas in nominative singular masculine: अदस् + सु → असौ (P 7.2.107 / P 7.2.109)"
+      ],
+      "case_ending": "Nominative Singular (Prathamā Vibhakti, Ekavacana, Masculine)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Listed among demonstrative pronouns.",
+      "amara_kosha": "Amarakośa 3.1.8 — pronoun section.",
+      "abhidhana_ratnamala": "Listed under pronouns."
+    }
+  },
+  "580": {
+    "id": 580,
+    "pada_form": "हेडः॑",
+    "clean_form": "हेडः",
+    "meanings": {
+      "english": "Anger; wrath; fury; sharpness of rays/displeasure",
+      "nirukta": "Derived from √hīḍ (hīḍāyām, Bhvādi-gaṇa). 'Hīḍas krodhaḥ' — wrath or sharp displeasure.",
+      "vedantic": "The wrath of Rudra symbolizes the natural, unyielding laws of karma and cosmic heat. Propitiating it transmutes intense power into grace."
+    },
+    "grammatical_references": {
+      "panini": [
+        "√हीड् + असुन् (Uṇādi 4.188) → हेडस् → हेडः"
+      ],
+      "case_ending": "Accusative Singular (Dvitīyā Vibhakti, Ekavacana, Neuter)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Nighaṇṭu 3.12 — heḍas listed among krodha-vācaka (anger-denoting) words.",
+      "amara_kosha": "Amarakośa 1.7.27 — anger synonyms.",
+      "abhidhana_ratnamala": "Listed under anger synonyms."
+    }
+  },
+  "581": {
+    "id": 581,
+    "pada_form": "ई॒म॒हे॒",
+    "clean_form": "ईमहे",
+    "meanings": {
+      "english": "We pray to avert; we appease; we pacify; we deprecate",
+      "nirukta": "From √īm / √ī (to request / seek / deprecate). 'Ava-īmahe' = 'we pray to ward off / appease'.",
+      "vedantic": "The humble prayer of the devotee surrendering to the divine will to pacify all worldly and spiritual afflictions."
+    },
+    "grammatical_references": {
+      "panini": [
+        "Root √ईम् + ātmanepada 1st plural (mahiṅ) → ईमहे (P 3.4.78)"
+      ],
+      "case_ending": "Verb (Tiṅanta), 1st Person Plural, Present Tense (Laṭ-Lakāra, Ātmanepada)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Nighaṇṭu 3.14 — prayer/request verbs (yācñā-karman).",
+      "amara_kosha": "Amarakośa 3.1.35 — request verbs.",
+      "abhidhana_ratnamala": "Listed under prayer verbs."
+    }
+  },
+  "582": {
+    "id": 582,
+    "pada_form": "उ॒त",
+    "clean_form": "उत",
+    "meanings": {
+      "english": "And; also; moreover; as well as; further",
+      "nirukta": "Vedic indeclinable conjunction (avyaya) expressing conjunction, addition, or emphasis. 'Uta' = 'api ca' (and also).",
+      "vedantic": "Connects various divine aspects and attributes, showing that all manifest forms are manifestations of the one Supreme Lord."
+    },
+    "grammatical_references": {
+      "panini": [
+        "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
+      ],
+      "case_ending": "Avyaya (indeclinable conjunction)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
+      "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
+      "abhidhana_ratnamala": "Listed under conjunctions."
+    }
+  },
+  "583": {
+    "id": 583,
+    "pada_form": "च॒",
+    "clean_form": "च",
+    "meanings": {
+      "english": "And; also; as well as; both",
+      "nirukta": "Vedic conjunction (avyaya) expressing conjunction, addition, or mutual connection.",
+      "vedantic": "Connects all listed manifestations of Rudra, emphasizing that divine reality encompasses all created forms."
+    },
+    "grammatical_references": {
+      "panini": [
+        "P 1.4.57 — Ca-ādayo 'sattve (nipāta / avyaya)"
+      ],
+      "case_ending": "Avyaya (indeclinable conjunction)"
+    },
+    "lexicographical_references": {
+      "nighantu": "Nighaṇṭu 3.22 — samuccayārthaka avyaya.",
+      "amara_kosha": "Amarakośa 3.4.11 — listed under avyayas.",
+      "abhidhana_ratnamala": "Listed under conjunctions."
     }
   }
 }
