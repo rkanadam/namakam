@@ -5,6 +5,7 @@ import { NamakamService, Anuvakam, Mantra } from '../namakam.service';
 import { SanskritEditorService } from '../sanskrit-editor.service';
 import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-editor-modal.component';
 import { ScriptTransliteratePipe } from '../script-transliterate.pipe';
+import { ScriptTransliterationService } from '../script-transliteration.service';
 
 interface WordDetails {
   id: number;
@@ -53,8 +54,18 @@ export class AnuvakamDisplayComponent implements OnInit {
 
   constructor(
     private namakamService: NamakamService,
-    private editorService: SanskritEditorService
+    private editorService: SanskritEditorService,
+    private transliterationService: ScriptTransliterationService
   ) {}
+
+  get selectedLanguage(): string {
+    return this.transliterationService.currentLanguage;
+  }
+
+  onLanguageChange(event: Event): void {
+    const select = event.target as HTMLSelectElement;
+    this.transliterationService.setLanguage(select.value);
+  }
 
   async ngOnInit(): Promise<void> {
     // Load basic list

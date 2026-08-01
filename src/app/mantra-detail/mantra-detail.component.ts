@@ -16,6 +16,7 @@ import {
 import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-editor-modal.component';
 import { SanskritEditorService } from '../sanskrit-editor.service';
 import { ScriptTransliteratePipe } from '../script-transliterate.pipe';
+import { ScriptTransliterationService } from '../script-transliteration.service';
 
 @Component({
   selector: 'app-mantra-detail',
@@ -52,8 +53,18 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     private route: ActivatedRoute,
     private router: Router,
     private namakamService: NamakamService,
-    private editorService: SanskritEditorService
+    private editorService: SanskritEditorService,
+    private transliterationService: ScriptTransliterationService
   ) {}
+
+  get selectedLanguage(): string {
+    return this.transliterationService.currentLanguage;
+  }
+
+  onLanguageChange(event: Event): void {
+    const select = event.target as HTMLSelectElement;
+    this.transliterationService.setLanguage(select.value);
+  }
 
   ngOnInit(): void {
     this.anuvakams = this.namakamService.getAnuvakams();

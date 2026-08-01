@@ -52,13 +52,31 @@
     </div>
   </div>
 
-  <!-- Patha Tabs -->
+  <!-- Patha Tabs & Script Selector Dropdown -->
   <div class="section">
-    <div class="tabs">
-      <button class="tab-btn" [class.active]="activePathaTab === 'samhita'"
-              (click)="activePathaTab = 'samhita'">संहिता</button>
-      <button class="tab-btn" [class.active]="activePathaTab === 'pada'"
-              (click)="activePathaTab = 'pada'">पद</button>
+    <div class="tabs-container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
+      <div class="tabs">
+        <button class="tab-btn" [class.active]="activePathaTab === 'samhita'"
+                (click)="activePathaTab = 'samhita'">संहिता</button>
+        <button class="tab-btn" [class.active]="activePathaTab === 'pada'"
+                (click)="activePathaTab = 'pada'">पद</button>
+      </div>
+
+      <!-- Script / Language Selector Dropdown -->
+      <div class="script-dropdown-control">
+        <label class="script-select-label" title="Choose script for mantra text">🌐 Script / भाषा:</label>
+        <select 
+          class="script-select-dropdown" 
+          [value]="selectedLanguage" 
+          (change)="onLanguageChange($event)"
+          title="Select Script / Language">
+          <option value="sanskrit">संस्कृतम् (Sanskrit)</option>
+          <option value="english">English (IAST)</option>
+          <option value="telugu">తెలుగు (Telugu)</option>
+          <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+          <option value="tamil">தமிழ் (Tamil)</option>
+        </select>
+      </div>
     </div>
 
     <div class="patha-content">

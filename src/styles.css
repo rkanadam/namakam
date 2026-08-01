@@ -181,3 +181,44 @@ body[data-lang="english"] .word-pada {
   background: #f5e8d5;
   color: #6b2f0e;
 }
+
+/* Right-aligned Script / Language Dropdown Control */
+.script-dropdown-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fcf7ef;
+  border: 1px solid #d4a96a;
+  padding: 5px 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.script-select-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6b2f0e;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.script-select-dropdown {
+  background: #ffffff;
+  color: #4a2406;
+  border: 1px solid #c8a36d;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: 'Siddhanta', 'Gentium Plus', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.15s ease;
+}
+
+.script-select-dropdown:hover,
+.script-select-dropdown:focus {
+  border-color: #8b4513;
+  box-shadow: 0 0 0 2px rgba(139, 69, 19, 0.15);
+}
