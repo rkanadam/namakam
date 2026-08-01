@@ -22,31 +22,31 @@ body[data-lang="sanskrit"],
 body[data-lang="sanskrit"] *,
 body[data-lang="hindi"],
 body[data-lang="hindi"] * {
-  font-family: 'Vagisha', 'VagishaGr', 'Siddhanta', 'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Devanagari MT', serif !important;
+  font-family: 'Vagisha', 'VagishaGr', 'Siddhanta', 'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Charis SIL', serif !important;
 }
 
 /* Telugu */
 body[data-lang="telugu"],
 body[data-lang="telugu"] * {
-  font-family: 'Mandali', 'Goda', 'GodaGr', 'Noto Serif Telugu', 'Noto Sans Telugu', 'Gautami', 'Vani', serif !important;
+  font-family: 'Mandali', 'Goda', 'GodaGr', 'Noto Serif Telugu', 'Noto Sans Telugu', 'Charis SIL', 'Gentium Plus', serif !important;
 }
 
 /* Kannada */
 body[data-lang="kannada"],
 body[data-lang="kannada"] * {
-  font-family: 'Noto Serif Kannada', 'Noto Sans Kannada', 'Tunga', 'Kedage', serif !important;
+  font-family: 'Noto Serif Kannada', 'Noto Sans Kannada', 'Tunga', 'Charis SIL', 'Gentium Plus', serif !important;
 }
 
 /* Malayalam */
 body[data-lang="malayalam"],
 body[data-lang="malayalam"] * {
-  font-family: 'Noto Serif Malayalam', 'Noto Sans Malayalam', 'Kartika', serif !important;
+  font-family: 'Noto Serif Malayalam', 'Noto Sans Malayalam', 'Charis SIL', 'Gentium Plus', serif !important;
 }
 
 /* Tamil */
 body[data-lang="tamil"],
 body[data-lang="tamil"] * {
-  font-family: 'Noto Serif Tamil', 'Noto Sans Tamil', 'Latha', serif !important;
+  font-family: 'Noto Serif Tamil', 'Noto Sans Tamil', 'Charis SIL', 'Gentium Plus', serif !important;
 }
 
 /* English IAST */
