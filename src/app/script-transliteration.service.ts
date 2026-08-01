@@ -89,15 +89,8 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Use Combining Diacritical Marks (\u030D for Udatta, \u0331 for Anudatta, \u030E for Svarita) for Indic transliteration
-      // Prevents OS font rendering engines (CoreText/WebKit) from triggering Kohinoor/Siddhanta Devanagari fallback
-      if (code === 0x0951) {
-        result += '\u030D';
-      } else if (code === 0x0952) {
-        result += '\u0331';
-      } else if (code === 0x1CDA) {
-        result += '\u030E';
-      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
+      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Indic scripts
+      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += text[i];
       } else if (code >= 0x0901 && code <= 0x0963) {
         result += String.fromCharCode(code + offset);

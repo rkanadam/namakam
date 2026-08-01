@@ -28,7 +28,7 @@ body[data-lang="hindi"] * {
 /* Telugu */
 body[data-lang="telugu"],
 body[data-lang="telugu"] * {
-  font-family: 'Mandali', 'Goda', 'GodaGr', 'Noto Serif Telugu', 'Noto Sans Telugu', 'Charis SIL', 'Gentium Plus', serif !important;
+  font-family: 'Noto Serif Telugu', 'Noto Sans Telugu', 'Mandali', 'Goda', 'GodaGr', 'Charis SIL', serif !important;
 }
 
 /* Kannada */
