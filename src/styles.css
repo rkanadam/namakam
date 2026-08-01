@@ -69,7 +69,7 @@ body[data-lang="english"] .token-span,
 body[data-lang="english"] .dict-pada,
 body[data-lang="english"] .word-sanskrit,
 body[data-lang="english"] .word-pada {
-  font-family: 'Gentium Plus', 'Noto Serif', Georgia, serif !important;
+  font-family: 'Charis SIL', 'Cardo', 'Gentium Plus', 'Noto Serif', Georgia, serif !important;
 }
 
 /* Top Quick Navigation Bar */

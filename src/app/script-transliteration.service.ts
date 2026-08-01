@@ -128,14 +128,14 @@ export class ScriptTransliterationService {
       const char = text[i];
       const code = char.charCodeAt(0);
 
-      // Vedic Svara Intonations (Udatta and Anudatta)
+      // Vedic Svara Intonations (Combining Marks for elegant IAST typography)
       if (code === 0x0951) {
-        out += '\u02C8'; // Udatta: Spacing Modifier Letter Vertical Line
+        out += '\u030D'; // Udatta: Combining Vertical Line Above (e.g. a̍)
         i++;
         continue;
       }
       if (code === 0x0952) {
-        out += '\u02CD'; // Anudatta: Spacing Modifier Letter Low Macron
+        out += '\u0331'; // Anudatta: Combining Macron Below (e.g. a̱)
         i++;
         continue;
       }
