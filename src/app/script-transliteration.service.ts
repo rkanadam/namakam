@@ -115,10 +115,10 @@ export class ScriptTransliterationService {
       'त':'t','थ':'th','द':'d','ध':'dh','न':'n',
       'प':'p','फ':'ph','ब':'b','भ':'bh','म':'m',
       'य':'y','र':'r','ल':'l','व':'v',
-      'श':'ś','ष':'ṣ','स':'sa','ह':'h'
+      'श':'ś','ष':'ṣ','स':'s','ह':'h'
     };
     const others: { [k: string]: string } = {
-      'ं':'ṁ', 'ः':'ḥ', 'ऽ':"'"
+      'ँ':'m̐', 'ं':'ṁ', 'ः':'ḥ', 'ऽ':"'"
     };
 
     let out = '';
@@ -138,13 +138,17 @@ export class ScriptTransliterationService {
         i++;
         continue;
       }
+      if (code === 0x1CDA) {
+        out += '\u030E'; // Svarita: Combining Double Vertical Line Above
+        i++;
+        continue;
+      }
 
       if (vowels[char]) {
         out += vowels[char];
         i++;
       } else if (consonants[char]) {
         let cons = consonants[char];
-        if (char === 'स') cons = 's'; // Ensure clean s for sa
         const next = text[i + 1];
         if (next && matras[next]) {
           out += cons + matras[next];

@@ -17,41 +17,76 @@ body {
   color: #222;
 }
 
-/* Language / Script Specific Font System (Applies Globally to Body and All Children) */
-body[data-lang="sanskrit"],
-body[data-lang="sanskrit"] *,
-body[data-lang="hindi"],
-body[data-lang="hindi"] * {
+/* Language / Script Specific Font System (Scoped to Mantra and Script Text Elements) */
+body[data-lang="sanskrit"] .sanskrit-font,
+body[data-lang="sanskrit"] .token-span,
+body[data-lang="sanskrit"] .dict-pada,
+body[data-lang="sanskrit"] .word-sanskrit,
+body[data-lang="sanskrit"] .word-pada,
+body[data-lang="sanskrit"] .mantra-text,
+body[data-lang="sanskrit"] .token-line,
+body[data-lang="hindi"] .sanskrit-font,
+body[data-lang="hindi"] .token-span,
+body[data-lang="hindi"] .dict-pada,
+body[data-lang="hindi"] .word-sanskrit,
+body[data-lang="hindi"] .word-pada,
+body[data-lang="hindi"] .mantra-text,
+body[data-lang="hindi"] .token-line {
   font-family: 'Vagisha', 'VagishaGr', 'Siddhanta', 'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Charis SIL', serif !important;
 }
 
 /* Telugu */
-body[data-lang="telugu"],
-body[data-lang="telugu"] * {
+body[data-lang="telugu"] .sanskrit-font,
+body[data-lang="telugu"] .token-span,
+body[data-lang="telugu"] .dict-pada,
+body[data-lang="telugu"] .word-sanskrit,
+body[data-lang="telugu"] .word-pada,
+body[data-lang="telugu"] .mantra-text,
+body[data-lang="telugu"] .token-line {
   font-family: 'Noto Serif Telugu', 'Noto Sans Telugu', 'Mandali', 'Goda', 'GodaGr', 'Charis SIL', serif !important;
 }
 
 /* Kannada */
-body[data-lang="kannada"],
-body[data-lang="kannada"] * {
-  font-family: 'Noto Serif Kannada', 'Noto Sans Kannada', 'Tunga', 'Charis SIL', 'Gentium Plus', serif !important;
+body[data-lang="kannada"] .sanskrit-font,
+body[data-lang="kannada"] .token-span,
+body[data-lang="kannada"] .dict-pada,
+body[data-lang="kannada"] .word-sanskrit,
+body[data-lang="kannada"] .word-pada,
+body[data-lang="kannada"] .mantra-text,
+body[data-lang="kannada"] .token-line {
+  font-family: 'Noto Serif Kannada', 'Noto Sans Kannada', 'Tunga', 'Charis SIL', serif !important;
 }
 
 /* Malayalam */
-body[data-lang="malayalam"],
-body[data-lang="malayalam"] * {
-  font-family: 'Noto Serif Malayalam', 'Noto Sans Malayalam', 'Charis SIL', 'Gentium Plus', serif !important;
+body[data-lang="malayalam"] .sanskrit-font,
+body[data-lang="malayalam"] .token-span,
+body[data-lang="malayalam"] .dict-pada,
+body[data-lang="malayalam"] .word-sanskrit,
+body[data-lang="malayalam"] .word-pada,
+body[data-lang="malayalam"] .mantra-text,
+body[data-lang="malayalam"] .token-line {
+  font-family: 'Noto Serif Malayalam', 'Noto Sans Malayalam', 'Charis SIL', serif !important;
 }
 
 /* Tamil */
-body[data-lang="tamil"],
-body[data-lang="tamil"] * {
-  font-family: 'Noto Serif Tamil', 'Noto Sans Tamil', 'Charis SIL', 'Gentium Plus', serif !important;
+body[data-lang="tamil"] .sanskrit-font,
+body[data-lang="tamil"] .token-span,
+body[data-lang="tamil"] .dict-pada,
+body[data-lang="tamil"] .word-sanskrit,
+body[data-lang="tamil"] .word-pada,
+body[data-lang="tamil"] .mantra-text,
+body[data-lang="tamil"] .token-line {
+  font-family: 'Noto Serif Tamil', 'Noto Sans Tamil', 'Charis SIL', serif !important;
 }
 
 /* English IAST */
-body[data-lang="english"],
-body[data-lang="english"] * {
+body[data-lang="english"] .sanskrit-font,
+body[data-lang="english"] .token-span,
+body[data-lang="english"] .dict-pada,
+body[data-lang="english"] .word-sanskrit,
+body[data-lang="english"] .word-pada,
+body[data-lang="english"] .mantra-text,
+body[data-lang="english"] .token-line {
   font-family: 'Charis SIL', 'Cardo', 'Gentium Plus', 'Noto Serif', Georgia, serif !important;
 }
 
