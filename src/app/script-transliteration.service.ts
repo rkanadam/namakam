@@ -79,16 +79,25 @@ export class ScriptTransliterationService {
     for (let i = 0; i < text.length; i++) {
       const code = text.charCodeAt(i);
 
-      // Preserve Danda | and || (0x0964, 0x0965)
-      if (code === 0x0964 || code === 0x0965) {
-        result += text[i];
+      // Handle Dandas (0x0964, 0x0965) for non-Devanagari scripts
+      if (code === 0x0964) {
+        result += ' | ';
+        continue;
+      }
+      if (code === 0x0965) {
+        result += ' || ';
         continue;
       }
 
-      // Spacing Modifier Letters for Svara Accents in Indic Scripts
-      // Prevents browser OpenType font engines from collapsing base consonants (e.g. namaste -> naste)
-      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Indic scripts
-      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
+      // Use Combining Diacritical Marks (\u030D for Udatta, \u0331 for Anudatta, \u030E for Svarita) for Indic transliteration
+      // Prevents OS font rendering engines (CoreText/WebKit) from triggering Kohinoor/Siddhanta Devanagari fallback
+      if (code === 0x0951) {
+        result += '\u030D';
+      } else if (code === 0x0952) {
+        result += '\u0331';
+      } else if (code === 0x1CDA) {
+        result += '\u030E';
+      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
         result += text[i];
       } else if (code >= 0x0901 && code <= 0x0963) {
         result += String.fromCharCode(code + offset);
@@ -184,12 +193,22 @@ export class ScriptTransliterationService {
       const char = text[i];
       const code = char.charCodeAt(0);
 
-      if (code === 0x0964 || code === 0x0965) {
-        result += text[i];
+      if (code === 0x0964) {
+        result += ' | ';
         continue;
       }
-      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Tamil script
-      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
+      if (code === 0x0965) {
+        result += ' || ';
+        continue;
+      }
+      // Preserve inline Vedic svara marks using combining diacritical marks
+      if (code === 0x0951) {
+        result += '\u030D';
+      } else if (code === 0x0952) {
+        result += '\u0331';
+      } else if (code === 0x1CDA) {
+        result += '\u030E';
+      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
         result += char;
       } else if (tamilMap[char]) {
         result += tamilMap[char];
