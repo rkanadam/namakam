@@ -188,11 +188,8 @@ export class ScriptTransliterationService {
         result += text[i];
         continue;
       }
-      if (code === 0x0951) {
-        result += '\u02C8'; // Spacing Modifier Letter Vertical Line (Udatta)
-      } else if (code === 0x0952) {
-        result += '\u02CD'; // Spacing Modifier Letter Low Macron (Anudatta)
-      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
+      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Tamil script
+      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += char;
       } else if (tamilMap[char]) {
         result += tamilMap[char];
