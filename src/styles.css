@@ -24,7 +24,7 @@ body[data-lang="sanskrit"] .token-span,
 body[data-lang="hindi"] .token-span,
 body[data-lang="sanskrit"] .dict-pada,
 body[data-lang="hindi"] .dict-pada {
-  font-family: 'Siddhanta', 'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Devanagari MT', sans-serif !important;
+  font-family: 'Vagisha', 'VagishaGr', 'Siddhanta', 'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Devanagari MT', serif !important;
 }
 
 /* Telugu */
@@ -33,7 +33,7 @@ body[data-lang="telugu"] .token-span,
 body[data-lang="telugu"] .dict-pada,
 body[data-lang="telugu"] .word-sanskrit,
 body[data-lang="telugu"] .word-pada {
-  font-family: 'Noto Serif Telugu', 'Noto Sans Telugu', 'Mandali', 'Gautami', 'Vani', sans-serif !important;
+  font-family: 'Goda', 'GodaGr', 'Noto Serif Telugu', 'Noto Sans Telugu', 'Mandali', 'Gautami', 'Vani', serif !important;
 }
 
 /* Kannada */
@@ -42,7 +42,7 @@ body[data-lang="kannada"] .token-span,
 body[data-lang="kannada"] .dict-pada,
 body[data-lang="kannada"] .word-sanskrit,
 body[data-lang="kannada"] .word-pada {
-  font-family: 'Noto Serif Kannada', 'Noto Sans Kannada', 'Tunga', 'Kedage', sans-serif !important;
+  font-family: 'Noto Serif Kannada', 'Noto Sans Kannada', 'Tunga', 'Kedage', serif !important;
 }
 
 /* Malayalam */
@@ -236,11 +236,12 @@ body[data-lang="english"] .word-pada {
 }
 
 .nav-app-title {
-  font-family: 'Siddhanta', sans-serif;
-  font-size: 1.15rem;
+  font-family: 'Vagisha', 'VagishaGr', 'Siddhanta', 'Noto Serif Devanagari', serif;
+  font-size: 1.65rem;
   font-weight: 700;
   color: #6b2f0e;
   white-space: nowrap;
+  letter-spacing: 0.3px;
   transition: color 0.15s ease;
 }
 
