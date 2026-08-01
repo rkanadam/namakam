@@ -25,6 +25,26 @@
         <h1 class="page-title">श्री रुद्रप्रश्नः – नमकप्रश्नः</h1>
         <p class="page-subtitle">Sri Rudra Prashna – Namakam</p>
       </a>
+
+      <!-- Script / Transliteration Toggle (Sanskrit vs English IAST) -->
+      <div class="script-toggle-group">
+        <button 
+          type="button"
+          class="script-toggle-btn"
+          [class.active]="selectedLanguage === 'sanskrit'"
+          (click)="setLanguage('sanskrit')"
+          title="Display text in Devanagari script">
+          🕉️ संस्कृतम्
+        </button>
+        <button 
+          type="button"
+          class="script-toggle-btn"
+          [class.active]="selectedLanguage === 'english'"
+          (click)="setLanguage('english')"
+          title="Display text in English IAST transliteration">
+          🇬🇧 English (IAST)
+        </button>
+      </div>
     </div>
   </header>
   <router-outlet></router-outlet>

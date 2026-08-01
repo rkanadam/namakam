@@ -107,42 +107,37 @@
   margin: 0;
 }
 
-.lang-selector-control {
+/* Script Toggle Pills (Sanskrit vs English IAST) */
+.script-toggle-group {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   background: #fcf7ef;
   border: 1px solid #d4a96a;
-  padding: 6px 14px;
-  border-radius: 8px;
+  padding: 3px;
+  border-radius: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-.lang-select-label {
+.script-toggle-btn {
+  background: transparent;
+  color: #6b2f0e;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-family: 'Siddhanta', 'Gentium Plus', sans-serif;
   font-size: 0.88rem;
   font-weight: 600;
-  color: #6b2f0e;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.lang-select-dropdown {
-  background: #ffffff;
-  color: #4a2406;
-  border: 1px solid #c8a36d;
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-family: 'Siddhanta', sans-serif;
-  font-size: 0.95rem;
-  font-weight: 600;
   cursor: pointer;
-  outline: none;
   transition: all 0.15s ease;
 }
 
-.lang-select-dropdown:hover,
-.lang-select-dropdown:focus {
-  border-color: #8b4513;
-  box-shadow: 0 0 0 2px rgba(139, 69, 19, 0.15);
+.script-toggle-btn:hover {
+  color: #2c1201;
+  background: #f3e5d0;
+}
+
+.script-toggle-btn.active {
+  background: #8b4513;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }

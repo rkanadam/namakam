@@ -31,6 +31,10 @@ export class AppComponent {
     return this.transliterationService.currentLanguage;
   }
 
+  setLanguage(code: string): void {
+    this.transliterationService.setLanguage(code);
+  }
+
   onLanguageChange(event: Event): void {
     const select = event.target as HTMLSelectElement;
     this.transliterationService.setLanguage(select.value);
