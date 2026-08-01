@@ -89,13 +89,7 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Map Deergha Svarita (0x1CDA) to double svara stroke \u0951\u0951 directly attached to base letter
-      if (code === 0x1CDA) {
-        result += '\u0951\u0951';
-        continue;
-      }
-
-      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Indic scripts
+      // Preserve inline Vedic svara marks (Udatta 0x0951, Anudatta 0x0952, Deergha Svarita 0x1CDA) for Indic scripts
       if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += text[i];
       } else if (code >= 0x0901 && code <= 0x0963) {
@@ -216,13 +210,7 @@ export class ScriptTransliterationService {
         result += ' || ';
         continue;
       }
-      // Map Deergha Svarita (0x1CDA) to double svara stroke \u0951\u0951 directly attached to base letter
-      if (code === 0x1CDA) {
-        result += '\u0951\u0951';
-        continue;
-      }
-
-      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Tamil script
+      // Preserve inline Vedic svara marks (Udatta 0x0951, Anudatta 0x0952, Deergha Svarita 0x1CDA) for Tamil script
       if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += char;
       } else if (tamilMap[char]) {
