@@ -33,7 +33,7 @@ body[data-lang="telugu"] .token-span,
 body[data-lang="telugu"] .dict-pada,
 body[data-lang="telugu"] .word-sanskrit,
 body[data-lang="telugu"] .word-pada {
-  font-family: 'Goda', 'GodaGr', 'Noto Serif Telugu', 'Noto Sans Telugu', 'Mandali', 'Gautami', 'Vani', serif !important;
+  font-family: 'Mandali', 'Goda', 'GodaGr', 'Noto Serif Telugu', 'Noto Sans Telugu', 'Gautami', 'Vani', serif !important;
 }
 
 /* Kannada */
