@@ -139,19 +139,19 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Vedic Svara Intonations (Standard Latin-1 Academic IAST combining accents for 100% font/browser compatibility)
+      // Vedic Svara Intonations for Noto Sans (Udatta \u030D straight line above, Anudatta \u0331 horizontal line below, Deergha Svarita \u030E double line above)
       if (code === 0x0951) {
-        out += '\u0301'; // Udatta: Combining Acute Accent (e.g. á)
+        out += '\u030D'; // Udatta: Straight Vertical Line Above (e.g. a̍)
         i++;
         continue;
       }
       if (code === 0x0952) {
-        out += '\u0331'; // Anudatta: Combining Macron Below (e.g. a̱)
+        out += '\u0331'; // Anudatta: Straight Horizontal Line Below (e.g. a̱)
         i++;
         continue;
       }
       if (code === 0x1CDA) {
-        out += '\u0300'; // Svarita: Combining Grave Accent (e.g. à)
+        out += '\u030E'; // Deergha Svarita: Double Vertical Line Above (e.g. a̎)
         i++;
         continue;
       }
