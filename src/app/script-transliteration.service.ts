@@ -194,14 +194,8 @@ export class ScriptTransliterationService {
         result += ' || ';
         continue;
       }
-      // Preserve inline Vedic svara marks using combining diacritical marks
-      if (code === 0x0951) {
-        result += '\u030D';
-      } else if (code === 0x0952) {
-        result += '\u0331';
-      } else if (code === 0x1CDA) {
-        result += '\u030E';
-      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
+      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Tamil script
+      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += char;
       } else if (tamilMap[char]) {
         result += tamilMap[char];
