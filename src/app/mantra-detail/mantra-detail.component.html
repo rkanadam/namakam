@@ -1,56 +1,43 @@
 <div class="mantra-view">
-  <div class="nav-breadcrumbs">
-    <a [routerLink]="['/anuvakam', anuvakamId]" class="back-link">← Back to Anuvakam {{ anuvakamId }}</a>
-  </div>
-
-  <!-- Step Navigation Bar (Top) -->
+  <!-- Compressed Single Navigation Bar -->
   <div class="mantra-step-nav-bar">
-    <button 
-      type="button"
-      class="step-nav-btn prev-btn" 
-      [disabled]="!getPrevMantraInfo()"
-      (click)="goToPreviousMantra()"
-      [title]="getPrevMantraInfo() ? 'Previous Mantra (Left Arrow)' : 'First Mantra'">
-      <span class="nav-arrow">←</span>
-      <span class="nav-btn-text" *ngIf="getPrevMantraInfo() as prev">
-        Prev (Anuvaka {{ prev.anuvakamId }}, Mantra {{ prev.mantraId }})
+    <a [routerLink]="['/anuvakam', anuvakamId]" class="step-nav-btn back-btn" title="Back to Anuvakam {{ anuvakamId }}">
+      ← Anuvaka {{ anuvakamId }}
+    </a>
+
+    <div class="step-nav-center-group">
+      <button 
+        type="button"
+        class="step-nav-btn prev-btn" 
+        [disabled]="!getPrevMantraInfo()"
+        (click)="goToPreviousMantra()"
+        title="Previous Mantra">
+        ← Prev
+      </button>
+
+      <span class="nav-center-title">
+        Mantra {{ mantraId }}
       </span>
-      <span class="nav-btn-text" *ngIf="!getPrevMantraInfo()">Start</span>
-    </button>
 
-    <div class="mantra-nav-center">
-      <span class="nav-center-badge">Anuvaka {{ anuvakamId }}</span>
-      <span class="nav-center-title">Mantra {{ mantraId }}</span>
-    </div>
-
-    <button 
-      type="button"
-      class="step-nav-btn next-btn" 
-      [disabled]="!getNextMantraInfo()"
-      (click)="goToNextMantra()"
-      [title]="getNextMantraInfo() ? 'Next Mantra (Right Arrow)' : 'Last Mantra'">
-      <span class="nav-btn-text" *ngIf="getNextMantraInfo() as next">
-        Next (Anuvaka {{ next.anuvakamId }}, Mantra {{ next.mantraId }})
-      </span>
-      <span class="nav-btn-text" *ngIf="!getNextMantraInfo()">End</span>
-      <span class="nav-arrow">→</span>
-    </button>
-  </div>
-
-  <!-- Header -->
-  <div class="mantra-header">
-    <div class="header-top">
-      <h2>Anuvakam {{ anuvakamId }} — Mantra {{ mantraId }}</h2>
-      <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()">
-        ✏️ Edit Sanskrit Text & Intonations
+      <button 
+        type="button"
+        class="step-nav-btn next-btn" 
+        [disabled]="!getNextMantraInfo()"
+        (click)="goToNextMantra()"
+        title="Next Mantra">
+        Next →
       </button>
     </div>
+
+    <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
+      ✏️ Edit
+    </button>
+  </div>
     <div class="mantra-meta" *ngIf="wordAnalysis?.commentaries?.sayana as s">
       <span *ngIf="s.rishi"><strong>Rishi:</strong> {{ s.rishi }}</span>
       <span *ngIf="s.chandas"><strong>Chandas:</strong> {{ s.chandas }}</span>
       <span *ngIf="s.devata"><strong>Devata:</strong> {{ s.devata }}</span>
     </div>
-  </div>
 
   <!-- Patha Tabs & Script Selector Dropdown -->
   <div class="section">

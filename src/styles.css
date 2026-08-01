@@ -220,3 +220,10 @@ body[data-lang="english"] .word-pada {
   background: #f3e5d0 !important;
   color: #2c1201 !important;
 }
+
+/* Compressed Single Navigation Bar Grouping */
+.step-nav-center-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
