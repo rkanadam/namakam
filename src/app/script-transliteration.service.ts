@@ -103,10 +103,10 @@ export class ScriptTransliterationService {
 
   private toIAST(text: string): string {
     const vowels: { [k: string]: string } = {
-      'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ए':'e','ऐ':'ai','ओ':'o','औ':'au'
+      'अ':'a','आ':'ā','इ':'i','ई':'ī','उ':'u','ऊ':'ū','ऋ':'ṛ','ॠ':'ṝ','ए':'e','ऐ':'ai','ओ':'o','औ':'au','ऎ':'e','ऒ':'o'
     };
     const matras: { [k: string]: string } = {
-      'ा':'ā','ि':'i','ी':'ī','ु':'u','ू':'ū','ृ':'ṛ','ॄ':'ṝ','े':'e','ै':'ai','ो':'o','ौ':'au'
+      'ा':'ā','ि':'i','ी':'ī','ु':'u','ू':'ū','ृ':'ṛ','ॄ':'ṝ','े':'e','ै':'ai','ो':'o','ौ':'au','ॆ':'e','ॊ':'o'
     };
     const consonants: { [k: string]: string } = {
       'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ṅ',
@@ -127,7 +127,19 @@ export class ScriptTransliterationService {
       const char = text[i];
       const code = char.charCodeAt(0);
 
-      // Vedic Svara Intonations (Straight vertical line above \u030D, horizontal line below \u0331, double vertical line \u030E)
+      // Dandas (0x0964, 0x0965) -> Latin pipe separators to avoid Latin font missing glyph fallback
+      if (code === 0x0964) {
+        out += ' | ';
+        i++;
+        continue;
+      }
+      if (code === 0x0965) {
+        out += ' || ';
+        i++;
+        continue;
+      }
+
+      // Vedic Svara Intonations (Straight vertical line above \u030D, horizontal line below \u0331, double vertical line \u030D\u030D)
       if (code === 0x0951) {
         out += '\u030D'; // Udatta: Straight Vertical Line Above (e.g. a̍)
         i++;
