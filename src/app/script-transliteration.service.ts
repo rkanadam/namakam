@@ -89,9 +89,9 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Map Deergha Svarita (0x1CDA) to double vertical svara stroke (\u0951\u0951) for 100% font compatibility without blocks
+      // Map Deergha Svarita (0x1CDA) to double combining vertical line (\u030D\u030D) to force distinct double line on top
       if (code === 0x1CDA) {
-        result += '\u0951\u0951';
+        result += '\u030D\u030D';
         continue;
       }
 
@@ -216,9 +216,9 @@ export class ScriptTransliterationService {
         result += ' || ';
         continue;
       }
-      // Map Deergha Svarita (0x1CDA) to double vertical svara stroke (\u0951\u0951) for 100% font compatibility without blocks
+      // Map Deergha Svarita (0x1CDA) to double combining vertical line (\u030D\u030D) to force distinct double line on top
       if (code === 0x1CDA) {
-        result += '\u0951\u0951';
+        result += '\u030D\u030D';
         continue;
       }
 
