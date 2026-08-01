@@ -87,11 +87,8 @@ export class ScriptTransliterationService {
 
       // Spacing Modifier Letters for Svara Accents in Indic Scripts
       // Prevents browser OpenType font engines from collapsing base consonants (e.g. namaste -> naste)
-      if (code === 0x0951) {
-        result += '\u02C8'; // Udatta: Spacing Modifier Letter Vertical Line
-      } else if (code === 0x0952) {
-        result += '\u02CD'; // Anudatta: Spacing Modifier Letter Low Macron
-      } else if (code >= 0x1CD0 && code <= 0x1CF9) {
+      // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Indic scripts
+      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += text[i];
       } else if (code >= 0x0901 && code <= 0x0963) {
         result += String.fromCharCode(code + offset);
