@@ -89,9 +89,9 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Map Deergha Svarita (0x1CDA) to \u0951\u200B\u0951 (double vertical svara stroke with ZWS to force distinct double line on top)
+      // Map Deergha Svarita (0x1CDA) to double svara stroke \u0951\u0951 directly attached to base letter
       if (code === 0x1CDA) {
-        result += '\u0951\u200B\u0951';
+        result += '\u0951\u0951';
         continue;
       }
 
@@ -216,9 +216,9 @@ export class ScriptTransliterationService {
         result += ' || ';
         continue;
       }
-      // Map Deergha Svarita (0x1CDA) to \u0951\u200B\u0951 (double vertical svara stroke with ZWS to force distinct double line on top)
+      // Map Deergha Svarita (0x1CDA) to double svara stroke \u0951\u0951 directly attached to base letter
       if (code === 0x1CDA) {
-        result += '\u0951\u200B\u0951';
+        result += '\u0951\u0951';
         continue;
       }
 
