@@ -139,7 +139,7 @@ export class ScriptTransliterationService {
         continue;
       }
       if (code === 0x1CDA) {
-        out += '\u030E'; // Svarita: Straight Double Vertical Line Above (e.g. a̎)
+        out += '\u030D\u030D'; // Svarita: Double Straight Vertical Line Above (e.g. a̍̍)
         i++;
         continue;
       }
