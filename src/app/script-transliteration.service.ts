@@ -89,6 +89,12 @@ export class ScriptTransliterationService {
         continue;
       }
 
+      // Map Deergha Svarita (0x1CDA) to double vertical line svara marks (\u0951\u0951) for Indic fonts lacking 0x1CDA
+      if (code === 0x1CDA) {
+        result += '\u0951\u0951';
+        continue;
+      }
+
       // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Indic scripts
       if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += text[i];
@@ -210,6 +216,12 @@ export class ScriptTransliterationService {
         result += ' || ';
         continue;
       }
+      // Map Deergha Svarita (0x1CDA) to double vertical line svara marks (\u0951\u0951) for Tamil fonts lacking 0x1CDA
+      if (code === 0x1CDA) {
+        result += '\u0951\u0951';
+        continue;
+      }
+
       // Preserve inline Vedic svara marks (Udatta 0x0951 and Anudatta 0x0952) for Tamil script
       if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
         result += char;
