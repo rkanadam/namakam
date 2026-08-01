@@ -128,8 +128,14 @@ export class ScriptTransliterationService {
       const char = text[i];
       const code = char.charCodeAt(0);
 
-      // Omit Devanagari svara marks in IAST
-      if (code === 0x0951 || code === 0x0952 || (code >= 0x1CD0 && code <= 0x1CF9)) {
+      // Vedic Svara Intonations (Udatta and Anudatta)
+      if (code === 0x0951) {
+        out += '\u02C8'; // Udatta: Spacing Modifier Letter Vertical Line
+        i++;
+        continue;
+      }
+      if (code === 0x0952) {
+        out += '\u02CD'; // Anudatta: Spacing Modifier Letter Low Macron
         i++;
         continue;
       }
