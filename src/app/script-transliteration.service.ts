@@ -139,19 +139,19 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Vedic Svara Intonations (Straight vertical line above \u030D, horizontal line below \u0331, double vertical line \u030D\u030D)
+      // Vedic Svara Intonations (Standard Latin-1 Academic IAST combining accents for 100% font/browser compatibility)
       if (code === 0x0951) {
-        out += '\u030D'; // Udatta: Straight Vertical Line Above (e.g. a̍)
+        out += '\u0301'; // Udatta: Combining Acute Accent (e.g. á)
         i++;
         continue;
       }
       if (code === 0x0952) {
-        out += '\u0331'; // Anudatta: Straight Horizontal Line Below (e.g. a̱)
+        out += '\u0331'; // Anudatta: Combining Macron Below (e.g. a̱)
         i++;
         continue;
       }
       if (code === 0x1CDA) {
-        out += '\u030D\u030D'; // Svarita: Double Straight Vertical Line Above (e.g. a̍̍)
+        out += '\u0300'; // Svarita: Combining Grave Accent (e.g. à)
         i++;
         continue;
       }
