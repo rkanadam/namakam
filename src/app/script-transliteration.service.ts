@@ -89,9 +89,9 @@ export class ScriptTransliterationService {
         continue;
       }
 
-      // Map Deergha Svarita (0x1CDA) to double combining vertical line (\u030D\u030D) to force distinct double line on top
+      // Map Deergha Svarita (0x1CDA) to \u0951\u200B\u0951 (double vertical svara stroke with ZWS to force distinct double line on top)
       if (code === 0x1CDA) {
-        result += '\u030D\u030D';
+        result += '\u0951\u200B\u0951';
         continue;
       }
 
@@ -157,7 +157,7 @@ export class ScriptTransliterationService {
         continue;
       }
       if (code === 0x1CDA) {
-        out += '\u030E'; // Deergha Svarita: Double Vertical Line Above (e.g. a̎)
+        out += '\u030B'; // Deergha Svarita: Combining Double Acute Accent (e.g. a̋) for 100% font compatibility double line
         i++;
         continue;
       }
@@ -216,9 +216,9 @@ export class ScriptTransliterationService {
         result += ' || ';
         continue;
       }
-      // Map Deergha Svarita (0x1CDA) to double combining vertical line (\u030D\u030D) to force distinct double line on top
+      // Map Deergha Svarita (0x1CDA) to \u0951\u200B\u0951 (double vertical svara stroke with ZWS to force distinct double line on top)
       if (code === 0x1CDA) {
-        result += '\u030D\u030D';
+        result += '\u0951\u200B\u0951';
         continue;
       }
 
