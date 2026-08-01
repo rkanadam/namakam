@@ -1,6 +1,9 @@
 <div class="anuvakam-display-container">
   <!-- Top Quick Navigation Bar -->
   <nav class="top-nav-bar">
+    <a routerLink="/" class="nav-app-title-link" title="Namakam Home">
+      <span class="nav-app-title">श्री रुद्रप्रश्नः – नमकप्रश्नः</span>
+    </a>
     <button 
       class="nav-tab-btn" 
       [class.active]="activeView === 'intro'" 
@@ -164,11 +167,7 @@
         <div class="panel-header" *ngIf="loadingMantra">
           <div class="spinner"></div>
           <span>Loading linguistic analysis and commentaries...</span>
-        </div>
-
         <div *ngIf="!loadingMantra && selectedMantraDetails">
-          <!-- Next / Prev Mantra Top Navigation Bar -->
-          <div class="mantra-step-nav-bar">
           <!-- Compressed Single Navigation Bar -->
           <div class="mantra-step-nav-bar">
             <button 
@@ -178,6 +177,10 @@
               title="Return to Anuvaka Overview">
               ← Anuvaka {{ selectedAnuvakam?.anuvakam }}
             </button>
+
+            <a routerLink="/" class="nav-app-title-link" title="Namakam Home">
+              <span class="nav-app-title">श्री रुद्रप्रश्नः – नमकप्रश्नः</span>
+            </a>
 
             <div class="step-nav-center-group">
               <button 

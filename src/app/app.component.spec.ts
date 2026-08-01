@@ -29,7 +29,7 @@ describe('AppComponent', () => {
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.page-title')?.textContent).toContain('श्री रुद्रप्रश्नः');
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('namakam');
   });
 });

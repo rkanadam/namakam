@@ -227,3 +227,23 @@ body[data-lang="english"] .word-pada {
   align-items: center;
   gap: 10px;
 }
+
+/* Overall App Title in Top Nav Bars */
+.nav-app-title-link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-app-title {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #6b2f0e;
+  white-space: nowrap;
+  transition: color 0.15s ease;
+}
+
+.nav-app-title-link:hover .nav-app-title {
+  color: #8b4513;
+}
