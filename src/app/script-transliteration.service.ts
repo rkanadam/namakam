@@ -127,9 +127,9 @@ export class ScriptTransliterationService {
       const char = text[i];
       const code = char.charCodeAt(0);
 
-      // Vedic Svara Intonations (Combining Marks for elegant IAST typography)
+      // Vedic Svara Intonations (Academic IAST standard combining accents)
       if (code === 0x0951) {
-        out += '\u030D'; // Udatta: Combining Vertical Line Above (e.g. a̍)
+        out += '\u0301'; // Udatta: Combining Acute Accent (e.g. á)
         i++;
         continue;
       }
@@ -139,7 +139,7 @@ export class ScriptTransliterationService {
         continue;
       }
       if (code === 0x1CDA) {
-        out += '\u030E'; // Svarita: Combining Double Vertical Line Above
+        out += '\u0300'; // Svarita: Combining Grave Accent (e.g. à)
         i++;
         continue;
       }
