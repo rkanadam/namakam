@@ -127,19 +127,19 @@ export class ScriptTransliterationService {
       const char = text[i];
       const code = char.charCodeAt(0);
 
-      // Vedic Svara Intonations (Academic IAST standard combining accents)
+      // Vedic Svara Intonations (Straight vertical line above \u030D, horizontal line below \u0331, double vertical line \u030E)
       if (code === 0x0951) {
-        out += '\u0301'; // Udatta: Combining Acute Accent (e.g. á)
+        out += '\u030D'; // Udatta: Straight Vertical Line Above (e.g. a̍)
         i++;
         continue;
       }
       if (code === 0x0952) {
-        out += '\u0331'; // Anudatta: Combining Macron Below (e.g. a̱)
+        out += '\u0331'; // Anudatta: Straight Horizontal Line Below (e.g. a̱)
         i++;
         continue;
       }
       if (code === 0x1CDA) {
-        out += '\u0300'; // Svarita: Combining Grave Accent (e.g. à)
+        out += '\u030E'; // Svarita: Straight Double Vertical Line Above (e.g. a̎)
         i++;
         continue;
       }

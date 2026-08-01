@@ -87,7 +87,7 @@ body[data-lang="english"] .word-sanskrit,
 body[data-lang="english"] .word-pada,
 body[data-lang="english"] .mantra-text,
 body[data-lang="english"] .token-line {
-  font-family: 'Charis SIL', 'Cardo', 'Gentium Plus', 'Noto Serif', Georgia, serif !important;
+  font-family: 'Gentium Plus', 'Charis SIL', 'Cardo', 'Noto Serif', Georgia, serif !important;
 }
 
 /* Top Quick Navigation Bar */
