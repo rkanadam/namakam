@@ -455,3 +455,50 @@ body[data-lang="english"] .token-line {
 .yt-play-icon {
   font-size: 1.1rem;
 }
+
+/* Compact Audio & YouTube Buttons Next to Script Selector */
+.btn-audio-compact {
+  background: #8b4513;
+  color: #ffffff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.btn-audio-compact:hover {
+  background: #6f340b;
+}
+
+.btn-audio-compact.playing {
+  background: #2e7d32;
+}
+
+.btn-yt-compact {
+  background: #cc0000;
+  color: #ffffff !important;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.btn-yt-compact:hover {
+  background: #ff0000;
+}

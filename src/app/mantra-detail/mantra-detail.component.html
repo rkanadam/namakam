@@ -33,29 +33,9 @@
       </button>
     </div>
 
-    <div style="display: flex; gap: 8px; align-items: center;">
-      <button 
-        type="button"
-        class="btn-audio-main"
-        [class.playing]="isPlayingAudio"
-        (click)="toggleMantraAudio($event)"
-        title="Play Mantra Audio">
-        {{ isPlayingAudio ? '⏸ Pause Audio' : '🔊 Play Audio' }}
-      </button>
-
-      <a 
-        [href]="getYoutubeUrl()" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        class="btn-youtube-main"
-        title="Open YouTube Recitation in New Tab">
-        ▶ YouTube ↗
-      </a>
-
-      <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
-        ✏️ Edit
-      </button>
-    </div>
+    <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
+      ✏️ Edit
+    </button>
   </div>
     <div class="mantra-meta" *ngIf="wordAnalysis?.commentaries?.sayana as s">
       <span *ngIf="s.rishi"><strong>Rishi:</strong> {{ s.rishi }}</span>
@@ -63,36 +43,7 @@
       <span *ngIf="s.devata"><strong>Devata:</strong> {{ s.devata }}</span>
     </div>
 
-  <!-- Dedicated Audio & YouTube Media Banner -->
-  <div class="mantra-media-card">
-    <div class="media-card-left">
-      <button 
-        type="button" 
-        class="btn-audio-hero" 
-        [class.playing]="isPlayingAudio"
-        (click)="toggleMantraAudio($event)">
-        <span class="audio-icon">{{ isPlayingAudio ? '⏸' : '🔊' }}</span>
-        <div class="audio-text-group">
-          <span class="audio-title">{{ isPlayingAudio ? 'PAUSE MANTRA AUDIO' : 'PLAY MANTRA AUDIO' }}</span>
-          <span class="audio-subtitle">Challakere Brothers Recitation</span>
-        </div>
-      </button>
-    </div>
-
-    <div class="media-card-right">
-      <a 
-        [href]="getYoutubeUrl()" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        class="btn-youtube-hero"
-        title="Open YouTube Chanting Video at exact timestamp in new window">
-        <span class="yt-play-icon">▶</span>
-        <span>Watch on YouTube ↗</span>
-      </a>
-    </div>
-  </div>
-
-  <!-- Patha Tabs & Script Selector Dropdown -->
+  <!-- Patha Tabs & Script Selector Dropdown + Compact Audio & YouTube Buttons -->
   <div class="section">
     <div class="tabs-container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
       <div class="tabs">
@@ -102,19 +53,42 @@
                 (click)="activePathaTab = 'pada'">पद</button>
       </div>
 
-      <!-- Script / Language Selector Dropdown -->
-      <div class="script-dropdown-control">
-        <select 
-          class="script-select-dropdown" 
-          [value]="selectedLanguage" 
-          (change)="onLanguageChange($event)"
-          title="Select Script / Language">
-          <option value="sanskrit">संस्कृतम् (Sanskrit)</option>
-          <option value="english">English (IAST)</option>
-          <option value="telugu">తెలుగు (Telugu)</option>
-          <option value="kannada">ಕನ್ನಡ (Kannada)</option>
-          <option value="tamil">தமிழ் (Tamil)</option>
-        </select>
+      <!-- Compact Audio Button & YouTube Link next to Script Selector to the left -->
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <button 
+          type="button" 
+          class="btn-audio-compact" 
+          [class.playing]="isPlayingAudio"
+          (click)="toggleMantraAudio($event)"
+          title="Play Mantra Audio">
+          {{ isPlayingAudio ? '⏸ Pause' : '🔊 Play Audio' }}
+        </button>
+
+        <a 
+          [href]="getYoutubeUrl()" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="btn-yt-compact"
+          title="Open YouTube Recitation in New Tab">
+          ▶ YouTube ↗
+        </a>
+
+        <!-- Script / Language Selector Dropdown -->
+        <div class="script-dropdown-control">
+          <select 
+            class="script-select-dropdown" 
+            [value]="selectedLanguage" 
+            (change)="onLanguageChange($event)"
+            title="Select Script / Language">
+            <option value="sanskrit">संस्कृतम् (Sanskrit)</option>
+            <option value="english">English (IAST)</option>
+            <option value="telugu">తెలుగు (Telugu)</option>
+            <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+            <option value="tamil">தமிழ் (Tamil)</option>
+            <option value="malayalam">മലയാളം (Malayalam)</option>
+            <option value="hindi">हिन्दी (Hindi)</option>
+          </select>
+        </div>
       </div>
     </div>
 

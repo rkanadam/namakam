@@ -228,61 +228,12 @@
               </button>
             </div>
 
-            <div style="display: flex; gap: 8px; align-items: center;">
-              <button 
-                type="button"
-                class="btn-audio-main"
-                [class.playing]="playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id)"
-                (click)="toggleMantraAudio(selectedAnuvakam.anuvakam, selectedMantraDetails.id, $event)"
-                title="Play Mantra Audio">
-                {{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id) ? '⏸ Pause Audio' : '🔊 Play Audio' }}
-              </button>
-
-              <a 
-                [href]="getYoutubeUrl(selectedAnuvakam.anuvakam, selectedMantraDetails.id)" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="btn-youtube-main"
-                title="Open YouTube Recitation in New Tab">
-                ▶ YouTube ↗
-              </a>
-
-              <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
-                ✏️ Edit
-              </button>
-            </div>
+            <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
+              ✏️ Edit
+            </button>
           </div>
 
-          <!-- Dedicated Audio & YouTube Media Banner -->
-          <div class="mantra-media-card">
-            <div class="media-card-left">
-              <button 
-                type="button" 
-                class="btn-audio-hero" 
-                [class.playing]="playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id)"
-                (click)="toggleMantraAudio(selectedAnuvakam.anuvakam, selectedMantraDetails.id, $event)">
-                <span class="audio-icon">{{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id) ? '⏸' : '🔊' }}</span>
-                <div class="audio-text-group">
-                  <span class="audio-title">{{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id) ? 'PAUSE MANTRA AUDIO' : 'PLAY MANTRA AUDIO' }}</span>
-                  <span class="audio-subtitle">Challakere Brothers Recitation</span>
-                </div>
-              </button>
-            </div>
-
-            <div class="media-card-right">
-              <a 
-                [href]="getYoutubeUrl(selectedAnuvakam.anuvakam, selectedMantraDetails.id)" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="btn-youtube-hero"
-                title="Open YouTube Chanting Video at exact timestamp in new window">
-                <span class="yt-play-icon">▶</span>
-                <span>Watch on YouTube ↗</span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Token Tabs (Samhita / Pada) & Script Selector Dropdown -->
+          <!-- Token Tabs (Samhita / Pada) & Script Selector Dropdown + Compact Audio & YouTube Buttons -->
           <div class="tabs-container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
             <div class="view-tabs">
               <button 
@@ -299,15 +250,44 @@
               </button>
             </div>
 
-            <!-- Script / Language Selector Dropdown -->
-            <div class="script-dropdown-control">
-              <select 
-                class="script-select-dropdown" 
-                [value]="selectedLanguage" 
-                (change)="onLanguageChange($event)"
-                title="Select Script / Language">
-                <option value="sanskrit">संस्कृतम् (Sanskrit)</option>
-                <option value="english">English (IAST)</option>
+            <!-- Compact Audio Button & YouTube Link next to Script Selector to the left -->
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <button 
+                type="button" 
+                class="btn-audio-compact" 
+                [class.playing]="playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id)"
+                (click)="toggleMantraAudio(selectedAnuvakam.anuvakam, selectedMantraDetails.id, $event)"
+                title="Play Mantra Audio">
+                {{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id) ? '⏸ Pause' : '🔊 Play Audio' }}
+              </button>
+
+              <a 
+                [href]="getYoutubeUrl(selectedAnuvakam.anuvakam, selectedMantraDetails.id)" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-yt-compact"
+                title="Open YouTube Recitation in New Tab">
+                ▶ YouTube ↗
+              </a>
+
+              <!-- Script / Language Selector Dropdown -->
+              <div class="script-dropdown-control">
+                <select 
+                  class="script-select-dropdown" 
+                  [value]="selectedLanguage" 
+                  (change)="onLanguageChange($event)"
+                  title="Select Script / Language">
+                  <option value="sanskrit">संस्कृतम् (Sanskrit)</option>
+                  <option value="english">English (IAST)</option>
+                  <option value="telugu">తెలుగు (Telugu)</option>
+                  <option value="kannada">ಕನ್ನಡ (Kannada)</option>
+                  <option value="tamil">தமிழ் (Tamil)</option>
+                  <option value="malayalam">മലയാളം (Malayalam)</option>
+                  <option value="hindi">हिन्दी (Hindi)</option>
+                </select>
+              </div>
+            </div>
+          </div>
                 <option value="telugu">తెలుగు (Telugu)</option>
                 <option value="kannada">ಕನ್ನಡ (Kannada)</option>
                 <option value="tamil">தமிழ் (Tamil)</option>
