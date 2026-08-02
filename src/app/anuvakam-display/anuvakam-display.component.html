@@ -253,6 +253,35 @@
             </div>
           </div>
 
+          <!-- Dedicated Audio & YouTube Media Banner -->
+          <div class="mantra-media-card">
+            <div class="media-card-left">
+              <button 
+                type="button" 
+                class="btn-audio-hero" 
+                [class.playing]="playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id)"
+                (click)="toggleMantraAudio(selectedAnuvakam.anuvakam, selectedMantraDetails.id, $event)">
+                <span class="audio-icon">{{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id) ? '⏸' : '🔊' }}</span>
+                <div class="audio-text-group">
+                  <span class="audio-title">{{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id) ? 'PAUSE MANTRA AUDIO' : 'PLAY MANTRA AUDIO' }}</span>
+                  <span class="audio-subtitle">Challakere Brothers Recitation</span>
+                </div>
+              </button>
+            </div>
+
+            <div class="media-card-right">
+              <a 
+                [href]="getYoutubeUrl(selectedAnuvakam.anuvakam, selectedMantraDetails.id)" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-youtube-hero"
+                title="Open YouTube Chanting Video at exact timestamp in new window">
+                <span class="yt-play-icon">▶</span>
+                <span>Watch on YouTube ↗</span>
+              </a>
+            </div>
+          </div>
+
           <!-- Token Tabs (Samhita / Pada) & Script Selector Dropdown -->
           <div class="tabs-container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
             <div class="view-tabs">

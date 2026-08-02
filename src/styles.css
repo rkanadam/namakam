@@ -359,3 +359,99 @@ body[data-lang="english"] .token-line {
   color: #ffffff;
   border-color: #73380e;
 }
+
+/* Mantra Media Hero Banner */
+.mantra-media-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #fffcf5 0%, #f7ebd7 100%);
+  border: 1px solid #e2cb9f;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin: 14px 0 18px 0;
+  box-shadow: 0 2px 6px rgba(139, 69, 19, 0.08);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.media-card-left, .media-card-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-audio-hero {
+  background: #8b4513;
+  color: #ffffff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(139, 69, 19, 0.25);
+}
+
+.btn-audio-hero:hover {
+  background: #6f340b;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(139, 69, 19, 0.35);
+}
+
+.btn-audio-hero.playing {
+  background: #2e7d32;
+  box-shadow: 0 2px 6px rgba(46, 125, 50, 0.4);
+}
+
+.audio-icon {
+  font-size: 1.4rem;
+}
+
+.audio-text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.audio-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.audio-subtitle {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.btn-youtube-hero {
+  background: #cc0000;
+  color: #ffffff !important;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(204, 0, 0, 0.25);
+}
+
+.btn-youtube-hero:hover {
+  background: #ff0000;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
+}
+
+.yt-play-icon {
+  font-size: 1.1rem;
+}
