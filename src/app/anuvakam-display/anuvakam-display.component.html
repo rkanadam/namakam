@@ -151,14 +151,35 @@
       <div class="mantra-navigator">
         <h3 class="nav-title">मन्त्राः (Mantras)</h3>
         <div class="mantra-grid">
-          <button 
+          <div 
             *ngFor="let mantra of selectedAnuvakam.mantras"
             class="mantra-card-btn"
             [class.selected]="selectedMantra?.id === mantra.id"
             (click)="selectMantra(mantra)">
-            <span class="mantra-num">Mantra {{ mantra.id }}</span>
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 4px;">
+              <span class="mantra-num">Mantra {{ mantra.id }}</span>
+              <div style="display: flex; gap: 6px; align-items: center;" (click)="$event.stopPropagation()">
+                <button 
+                  type="button" 
+                  class="btn-audio-small" 
+                  [class.playing]="playingMantraId === (selectedAnuvakam.anuvakam + '_' + mantra.id)"
+                  (click)="toggleMantraAudio(selectedAnuvakam.anuvakam, mantra.id, $event)"
+                  title="Play Mantra Audio">
+                  {{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + mantra.id) ? '⏸ Pause' : '🔊 Play' }}
+                </button>
+                <a 
+                  [href]="getYoutubeUrl(selectedAnuvakam.anuvakam, mantra.id)" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="btn-yt-small"
+                  (click)="$event.stopPropagation()"
+                  title="Open YouTube Chanting in New Tab">
+                  ▶ YT ↗
+                </a>
+              </div>
+            </div>
             <p class="mantra-preview sanskrit-font">{{ (mantra.samhita | transliterate) | slice:0:60 }}...</p>
-          </button>
+          </div>
         </div>
       </div>
 
@@ -167,6 +188,7 @@
         <div class="panel-header" *ngIf="loadingMantra">
           <div class="spinner"></div>
           <span>Loading linguistic analysis and commentaries...</span>
+        </div>
         <div *ngIf="!loadingMantra && selectedMantraDetails">
           <!-- Compressed Single Navigation Bar -->
           <div class="mantra-step-nav-bar">
@@ -206,9 +228,29 @@
               </button>
             </div>
 
-            <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
-              ✏️ Edit
-            </button>
+            <div style="display: flex; gap: 8px; align-items: center;">
+              <button 
+                type="button"
+                class="btn-audio-main"
+                [class.playing]="playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id)"
+                (click)="toggleMantraAudio(selectedAnuvakam.anuvakam, selectedMantraDetails.id, $event)"
+                title="Play Mantra Audio">
+                {{ playingMantraId === (selectedAnuvakam.anuvakam + '_' + selectedMantraDetails.id) ? '⏸ Pause Audio' : '🔊 Play Audio' }}
+              </button>
+
+              <a 
+                [href]="getYoutubeUrl(selectedAnuvakam.anuvakam, selectedMantraDetails.id)" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-youtube-main"
+                title="Open YouTube Recitation in New Tab">
+                ▶ YouTube ↗
+              </a>
+
+              <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
+                ✏️ Edit
+              </button>
+            </div>
           </div>
 
           <!-- Token Tabs (Samhita / Pada) & Script Selector Dropdown -->

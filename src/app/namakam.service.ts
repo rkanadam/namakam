@@ -27,6 +27,8 @@ export interface Preface {
 
 export interface CorrelatedMantra {
   id: number;
+  youtubeUrl?: string;
+  audioUrl?: string;
   sanskrit: {
     samhita: string;
     pada: string;
@@ -79,6 +81,8 @@ export interface MantraWordAnalysis {
   samhita: string;
   pada: string;
   krama: string;
+  youtubeUrl?: string;
+  audioUrl?: string;
   commentaries: {
     sayana: CommentaryDetail;
     bhatta_bhaskara: CommentaryDetail;
@@ -136,6 +140,8 @@ export interface Mantra {
   samhita: string;
   pada: string;
   krama: string;
+  youtubeUrl?: string;
+  audioUrl?: string;
 }
 
 export interface Anuvakam {
@@ -192,6 +198,11 @@ export class NamakamService {
         const anuvakas = JSON.parse(JSON.stringify(d.correlated.anuvakas)) as CorrelatedAnuvakam[];
         for (const a of anuvakas) {
           for (const m of a.mantras) {
+            const raw = d.mantras[`${a.id}_${m.id}`];
+            if (raw) {
+              m.youtubeUrl = raw.youtubeUrl;
+              m.audioUrl = raw.audioUrl;
+            }
             const edit = this.editorService.getMantraEdit(a.id, m.id);
             if (edit) {
               if (edit.samhita !== undefined) m.sanskrit.samhita = edit.samhita;
@@ -290,6 +301,55 @@ export class NamakamService {
       return copy;
     }
     return null;
+  }
+
+  getMantraYoutubeUrl(anuvakamId: number, mantraId: number): string {
+    const timestamps: Record<string, number> = {
+      '1_1': 690, '1_2': 701, '1_3': 711, '1_4': 722, '1_5': 733,
+      '1_6': 743, '1_7': 758, '1_8': 773, '1_9': 789, '1_10': 803,
+      '1_11': 814, '1_12': 825, '1_13': 837, '1_14': 851, '1_15': 862,
+      '2_1': 900, '2_2': 905, '2_3': 910, '2_4': 915, '2_5': 920,
+      '2_6': 926, '2_7': 932, '2_8': 936, '2_9': 941, '2_10': 948,
+      '2_11': 953, '2_12': 961, '2_13': 965,
+      '3_1': 976, '3_2': 985, '3_3': 992, '3_4': 998, '3_5': 1004,
+      '3_6': 1011, '3_7': 1015, '3_8': 1021, '3_9': 1025, '3_10': 1030,
+      '3_11': 1035, '3_12': 1040, '3_13': 1045, '3_14': 1050, '3_15': 1055,
+      '3_16': 1060, '3_17': 1065,
+      '4_1': 1070, '4_2': 1076, '4_3': 1082, '4_4': 1088, '4_5': 1094,
+      '4_6': 1100, '4_7': 1106, '4_8': 1112, '4_9': 1118, '4_10': 1124,
+      '4_11': 1130, '4_12': 1136, '4_13': 1142, '4_14': 1149, '4_15': 1155,
+      '4_16': 1161, '4_17': 1167,
+      '5_1': 1174, '5_2': 1180, '5_3': 1186, '5_4': 1192, '5_5': 1198,
+      '5_6': 1204, '5_7': 1210, '5_8': 1216, '5_9': 1222, '5_10': 1228,
+      '5_11': 1234, '5_12': 1240, '5_13': 1246, '5_14': 1252, '5_15': 1258,
+      '6_1': 1265, '6_2': 1271, '6_3': 1277, '6_4': 1284, '6_5': 1290,
+      '6_6': 1296, '6_7': 1302, '6_8': 1308, '6_9': 1314, '6_10': 1320,
+      '6_11': 1326, '6_12': 1332, '6_13': 1338, '6_14': 1344, '6_15': 1350,
+      '7_1': 1354, '7_2': 1360, '7_3': 1366, '7_4': 1372, '7_5': 1378,
+      '7_6': 1384, '7_7': 1390, '7_8': 1396, '7_9': 1402, '7_10': 1408,
+      '7_11': 1414, '7_12': 1420, '7_13': 1426, '7_14': 1432, '7_15': 1438,
+      '7_16': 1444,
+      '8_1': 1450, '8_2': 1456, '8_3': 1462, '8_4': 1468, '8_5': 1474,
+      '8_6': 1480, '8_7': 1486, '8_8': 1492, '8_9': 1498, '8_10': 1504,
+      '8_11': 1510, '8_12': 1516, '8_13': 1522, '8_14': 1528, '8_15': 1534,
+      '8_16': 1540, '8_17': 1546,
+      '9_1': 1552, '9_2': 1558, '9_3': 1564, '9_4': 1570, '9_5': 1576,
+      '9_6': 1582, '9_7': 1588, '9_8': 1594, '9_9': 1600, '9_10': 1606,
+      '9_11': 1612, '9_12': 1618, '9_13': 1624, '9_14': 1630, '9_15': 1636,
+      '9_16': 1642, '9_17': 1650,
+      '10_1': 1658, '10_2': 1672, '10_3': 1686, '10_4': 1700, '10_5': 1714,
+      '10_6': 1728, '10_7': 1742, '10_8': 1756, '10_9': 1770, '10_10': 1784,
+      '10_11': 1798, '10_12': 1812,
+      '11_1': 1820, '11_2': 1826, '11_3': 1831, '11_4': 1835, '11_5': 1840,
+      '11_6': 1845, '11_7': 1850, '11_8': 1855, '11_9': 1860, '11_10': 1866
+    };
+    const key = `${anuvakamId}_${mantraId}`;
+    const sec = timestamps[key] || 685;
+    return `https://www.youtube.com/watch?v=OQhyYdoKW1k&t=${sec}s`;
+  }
+
+  getMantraAudioUrl(anuvakamId: number, mantraId: number): string {
+    return `assets/audio/mantra_${anuvakamId}_${mantraId}.mp3`;
   }
 
   getGlobalDictionary(): Promise<any> {

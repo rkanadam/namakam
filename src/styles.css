@@ -266,3 +266,96 @@ body[data-lang="english"] .token-line {
 .nav-app-title-link:hover .nav-app-title {
   color: #8b4513;
 }
+
+/* YouTube and Audio Action Buttons */
+.btn-youtube-main {
+  background: #cc0000;
+  color: #ffffff !important;
+  border: 1px solid #aa0000;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.btn-youtube-main:hover {
+  background: #ff0000;
+  box-shadow: 0 2px 6px rgba(204, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.btn-audio-main {
+  background: #fdf6e3;
+  color: #6b2f0e;
+  border: 1px solid #d3b88c;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+.btn-audio-main:hover {
+  background: #f5e8d5;
+  color: #4a2406;
+}
+
+.btn-audio-main.playing {
+  background: #8b4513;
+  color: #ffffff;
+  border-color: #73380e;
+}
+
+.btn-yt-small {
+  background: #cc0000;
+  color: #ffffff !important;
+  border: none;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  transition: background 0.15s ease;
+}
+
+.btn-yt-small:hover {
+  background: #ff0000;
+}
+
+.btn-audio-small {
+  background: #f3e5d0;
+  color: #6b2f0e;
+  border: 1px solid #d3b88c;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-audio-small:hover {
+  background: #e8d3b2;
+}
+
+.btn-audio-small.playing {
+  background: #8b4513;
+  color: #ffffff;
+  border-color: #73380e;
+}

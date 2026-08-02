@@ -49,6 +49,9 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
   tooltipVisible = false;
   private hideTimeout: any = null;
 
+  currentPlayingAudio: HTMLAudioElement | null = null;
+  isPlayingAudio = false;
+
   constructor(
     private route: ActivatedRoute,
     private router: Router,
@@ -56,6 +59,35 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     private editorService: SanskritEditorService,
     private transliterationService: ScriptTransliterationService
   ) {}
+
+  toggleMantraAudio(event?: Event): void {
+    if (event) event.stopPropagation();
+    if (this.currentPlayingAudio) {
+      if (this.currentPlayingAudio.paused) {
+        this.currentPlayingAudio.play();
+        this.isPlayingAudio = true;
+      } else {
+        this.currentPlayingAudio.pause();
+        this.isPlayingAudio = false;
+      }
+      return;
+    }
+
+    const audioUrl = this.namakamService.getMantraAudioUrl(this.anuvakamId, this.mantraId);
+    const audio = new Audio(audioUrl);
+    this.currentPlayingAudio = audio;
+    this.isPlayingAudio = true;
+
+    audio.play().catch(err => console.error('Audio play error:', err));
+    audio.onended = () => {
+      this.isPlayingAudio = false;
+      this.currentPlayingAudio = null;
+    };
+  }
+
+  getYoutubeUrl(): string {
+    return this.namakamService.getMantraYoutubeUrl(this.anuvakamId, this.mantraId);
+  }
 
   get selectedLanguage(): string {
     return this.transliterationService.currentLanguage;

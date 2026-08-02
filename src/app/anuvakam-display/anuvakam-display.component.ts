@@ -52,11 +52,52 @@ export class AnuvakamDisplayComponent implements OnInit {
   hoveredWords: WordDetails[] = [];
   dictionaryLoaded: boolean = false;
 
+  // Audio playback & YouTube state
+  currentPlayingAudio: HTMLAudioElement | null = null;
+  playingMantraId: string | null = null;
+
   constructor(
     private namakamService: NamakamService,
     private editorService: SanskritEditorService,
     private transliterationService: ScriptTransliterationService
   ) {}
+
+  toggleMantraAudio(anuvakamId: number, mantraId: number, event?: Event): void {
+    if (event) {
+      event.stopPropagation();
+    }
+    const key = `${anuvakamId}_${mantraId}`;
+    if (this.playingMantraId === key && this.currentPlayingAudio) {
+      if (this.currentPlayingAudio.paused) {
+        this.currentPlayingAudio.play();
+      } else {
+        this.currentPlayingAudio.pause();
+      }
+      return;
+    }
+
+    if (this.currentPlayingAudio) {
+      this.currentPlayingAudio.pause();
+      this.currentPlayingAudio = null;
+    }
+
+    const audioUrl = this.namakamService.getMantraAudioUrl(anuvakamId, mantraId);
+    const audio = new Audio(audioUrl);
+    this.currentPlayingAudio = audio;
+    this.playingMantraId = key;
+
+    audio.play().catch(err => console.error('Audio play error:', err));
+    audio.onended = () => {
+      if (this.playingMantraId === key) {
+        this.playingMantraId = null;
+        this.currentPlayingAudio = null;
+      }
+    };
+  }
+
+  getYoutubeUrl(anuvakamId: number, mantraId: number): string {
+    return this.namakamService.getMantraYoutubeUrl(anuvakamId, mantraId);
+  }
 
   get selectedLanguage(): string {
     return this.transliterationService.currentLanguage;

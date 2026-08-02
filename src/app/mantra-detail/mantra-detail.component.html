@@ -33,9 +33,29 @@
       </button>
     </div>
 
-    <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
-      ✏️ Edit
-    </button>
+    <div style="display: flex; gap: 8px; align-items: center;">
+      <button 
+        type="button"
+        class="btn-audio-main"
+        [class.playing]="isPlayingAudio"
+        (click)="toggleMantraAudio($event)"
+        title="Play Mantra Audio">
+        {{ isPlayingAudio ? '⏸ Pause Audio' : '🔊 Play Audio' }}
+      </button>
+
+      <a 
+        [href]="getYoutubeUrl()" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="btn-youtube-main"
+        title="Open YouTube Recitation in New Tab">
+        ▶ YouTube ↗
+      </a>
+
+      <button *ngIf="isEditorEnabled" class="btn-edit-text" (click)="openEditor()" style="background: #fdf6e3; color: #8b4513; border: 1px solid #d3b88c; padding: 5px 10px; border-radius: 6px; font-weight: 600; cursor: pointer;">
+        ✏️ Edit
+      </button>
+    </div>
   </div>
     <div class="mantra-meta" *ngIf="wordAnalysis?.commentaries?.sayana as s">
       <span *ngIf="s.rishi"><strong>Rishi:</strong> {{ s.rishi }}</span>
