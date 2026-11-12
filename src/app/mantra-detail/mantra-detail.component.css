@@ -84,6 +84,118 @@
   padding: 12px 20px;
 }
 
+.summary-translation {
+  margin: 0;
+  padding: 20px;
+  color: #34281d;
+  background: #fffdf8;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.word-meanings {
+  border-top: 1px solid #d4a96a;
+  background: #fff;
+}
+
+.word-meanings summary {
+  padding: 14px 20px;
+  background: #f5e8d5;
+  color: #5a3010;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.word-meanings summary:hover {
+  background: #edd9b8;
+}
+
+.word-meanings summary:focus-visible {
+  outline: 2px solid #6b2f0e;
+  outline-offset: -4px;
+}
+
+.word-count {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.word-meanings-table {
+  padding: 0 20px 12px;
+}
+
+.word-meanings table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.word-meanings th,
+.word-meanings td {
+  padding: 11px 12px;
+  border-bottom: 1px solid #ecdfcc;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+}
+
+.word-meanings thead th {
+  color: #6b2f0e;
+  font-size: 0.85rem;
+}
+
+.word-meanings thead th:first-child {
+  width: 35%;
+}
+
+.word-meanings .meaning-word {
+  font-family: 'Siddhanta', sans-serif;
+  font-size: 1.15rem;
+  font-weight: normal;
+  color: #5a3010;
+}
+
+.word-meanings tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.meaning-word-button {
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  overflow-wrap: anywhere;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px dotted #b38b5b;
+  border-radius: 3px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.meaning-word-button:hover,
+.meaning-word-button.selected,
+.meaning-word-button.sibling-highlight {
+  background: #f5e8d5;
+  border-bottom-color: #8b4513;
+}
+
+.meaning-word-button:focus-visible {
+  outline: 2px solid #8b4513;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .word-meanings-table {
+    padding: 0 8px 8px;
+  }
+
+  .word-meanings th,
+  .word-meanings td {
+    padding: 10px 8px;
+  }
+}
+
 /* Tabs */
 .tabs {
   display: flex;
@@ -182,8 +294,8 @@
   border-radius: 8px;
   font-size: 0.85em;
   line-height: 1.55;
-  max-width: 420px;
-  min-width: 240px;
+  box-sizing: border-box;
+  width: min(420px, calc(100vw - 32px));
   max-height: 50vh;
   overflow-y: auto;
   pointer-events: auto;

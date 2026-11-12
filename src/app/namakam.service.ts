@@ -13,6 +13,14 @@ import anuvakam8 from '../anuvakam8.json';
 import anuvakam9 from '../anuvakam9.json';
 import anuvakam10 from '../anuvakam10.json';
 import anuvakam11 from '../anuvakam11.json';
+import mantraMeanings from '../mantra-meanings.json';
+
+export interface MantraMeaning {
+  summary: string;
+  words: { word: string; meaning: string }[];
+}
+
+const meanings: Readonly<Record<string, MantraMeaning>> = mantraMeanings;
 
 // Original type exports for routing components
 export interface PrefaceSection {
@@ -157,6 +165,10 @@ import { SanskritEditorService } from './sanskrit-editor.service';
 })
 export class NamakamService {
   private data$: Observable<CombinedData>;
+
+  getMantraMeaning(anuvakamId: number, mantraId: number): MantraMeaning | undefined {
+    return meanings[`${anuvakamId}_${mantraId}`];
+  }
   
   private anuvakams: Anuvakam[] = [
     anuvakam1, anuvakam2, anuvakam3, anuvakam4, anuvakam5,

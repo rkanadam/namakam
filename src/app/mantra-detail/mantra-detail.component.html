@@ -114,11 +114,47 @@
     </div>
   </div>
 
+  <section class="section mantra-meaning" *ngIf="mantraMeaning as meaning" aria-labelledby="summary-title">
+    <h3 id="summary-title" class="section-title">Summary translation</h3>
+    <p class="summary-translation" lang="en">{{ meaning.summary }}</p>
+
+    <details class="word-meanings" #wordMeanings
+             [open]="wordMeaningsOpen"
+             (toggle)="wordMeaningsOpen = wordMeanings.open">
+      <summary>Word meanings <span class="word-count">({{ meaning.words.length }})</span></summary>
+      <div class="word-meanings-table">
+        <table attr.aria-label="Word meanings for Anuvaka {{ anuvakamId }}, Mantra {{ mantraId }}">
+          <thead>
+            <tr><th scope="col">Word</th><th scope="col">Meaning</th></tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of meaningWords">
+              <th scope="row" class="meaning-word">
+                <button type="button" class="meaning-word-button"
+                        [class.selected]="isTokenSelected(item.token)"
+                        [class.sibling-highlight]="isSiblingHighlighted(item.token)"
+                        [attr.aria-pressed]="isTokenSelected(item.token)"
+                        [attr.aria-describedby]="tooltipVisible && isSiblingHighlighted(item.token) ? 'word-detail-tooltip' : null"
+                        (click)="onMeaningWordClick(item.token)"
+                        (mouseenter)="onTokenMouseEnter($event, item.token)"
+                        (mouseleave)="onTokenMouseLeave()"
+                        (focus)="onTokenMouseEnter($event, item.token)"
+                        (blur)="onTokenMouseLeave()">{{ item.word | transliterate }}</button>
+              </th>
+              <td lang="en">{{ item.meaning }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
   <!-- Sticky hover tooltip -->
-  <div class="word-tooltip" *ngIf="tooltipVisible && hoveredWord"
+  <div class="word-tooltip" id="word-detail-tooltip" role="tooltip" *ngIf="tooltipVisible && hoveredWord"
        [class.above]="tooltipPosition === 'above'"
        [class.below]="tooltipPosition === 'below'"
        [style.left.px]="tooltipX" [style.top.px]="tooltipY"
+       [style.max-height.px]="tooltipMaxHeight"
        (mouseenter)="onTooltipMouseEnter()"
        (mouseleave)="onTooltipMouseLeave()">
     <div class="tooltip-header">
@@ -130,6 +166,7 @@
       <div class="tooltip-label">English</div>
       <div>{{ hoveredWord.meanings.english }}</div>
     </div>
+    <p *ngIf="hoveredWord.id < 0">Only the brief meaning is available for this word; detailed dictionary analysis has not been added.</p>
     <div class="tooltip-section" *ngIf="hoveredWord.meanings.nirukta">
       <div class="tooltip-label">Nirukta</div>
       <div>{{ hoveredWord.meanings.nirukta }}</div>
@@ -153,13 +190,14 @@
   </div>
 
   <!-- Word Analysis Panel (on click) -->
-  <div class="word-panel" *ngIf="selectedWord">
+  <div class="word-panel" id="word-detail-panel" *ngIf="selectedWord">
     <div class="word-panel-header">
       <h3>{{ selectedWord.clean_form | transliterate }} <span class="pada-form">{{ selectedWord.pada_form | transliterate }}</span></h3>
-      <button class="close-btn" (click)="closeWordPanel()">×</button>
+      <button class="close-btn" aria-label="Close word details" (click)="closeWordPanel()">×</button>
     </div>
 
     <div class="word-panel-body">
+      <p *ngIf="selectedWord.id < 0">Only the brief meaning is available for this word; detailed dictionary analysis has not been added.</p>
       <div class="word-section">
         <h4>Meanings</h4>
         <div class="meaning-item" *ngIf="selectedWord.meanings.english">
@@ -176,7 +214,7 @@
         </div>
       </div>
 
-      <div class="word-section" *ngIf="selectedWord.grammatical_references">
+      <div class="word-section" *ngIf="selectedWord.grammatical_references.case_ending || selectedWord.grammatical_references.panini?.length">
         <h4>Grammar</h4>
         <div class="meaning-item" *ngIf="selectedWord.grammatical_references.case_ending">
           <strong>Form:</strong>
@@ -190,7 +228,7 @@
         </div>
       </div>
 
-      <div class="word-section" *ngIf="selectedWord.lexicographical_references as lex">
+      <div class="word-section" *ngIf="(selectedWord.lexicographical_references.nighantu || selectedWord.lexicographical_references.amara_kosha || selectedWord.lexicographical_references.abhidhana_ratnamala) && selectedWord.lexicographical_references as lex">
         <h4>Lexicographical References</h4>
         <div class="meaning-item" *ngIf="lex.nighantu">
           <strong>Nighantu:</strong>

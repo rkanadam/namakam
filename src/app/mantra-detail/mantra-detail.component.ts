@@ -4,6 +4,7 @@ import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { forkJoin } from 'rxjs';
 import {
   NamakamService,
+  MantraMeaning,
   MantraWordAnalysis,
   Dictionary,
   DictionaryEntry,
@@ -17,6 +18,7 @@ import { SanskritEditorModalComponent } from '../sanskrit-editor-modal/sanskrit-
 import { SanskritEditorService } from '../sanskrit-editor.service';
 import { ScriptTransliteratePipe } from '../script-transliterate.pipe';
 import { ScriptTransliterationService } from '../script-transliteration.service';
+import { linkMeaningWords, MeaningWordRow, normalizeWordDetails } from './word-meaning-details';
 
 @Component({
   selector: 'app-mantra-detail',
@@ -32,6 +34,9 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
   expandedAnuvakams: { [key: number]: boolean } = {};
 
   wordAnalysis: MantraWordAnalysis | null = null;
+  mantraMeaning: MantraMeaning | undefined;
+  meaningWords: MeaningWordRow[] = [];
+  wordMeaningsOpen = false;
   correlatedMantra: CorrelatedMantra | undefined;
   dictionary: Dictionary = {};
   selectedWord: DictionaryEntry | null = null;
@@ -45,9 +50,11 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
   hoveredWordIds: Set<number> = new Set();
   tooltipX = 0;
   tooltipY = 0;
+  tooltipMaxHeight = 0;
   tooltipPosition: 'above' | 'below' = 'above';
   tooltipVisible = false;
   private hideTimeout: any = null;
+  private panelScrollTimeout: ReturnType<typeof setTimeout> | null = null;
 
   currentPlayingAudio: HTMLAudioElement | null = null;
   isPlayingAudio = false;
@@ -103,6 +110,8 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     this.route.paramMap.subscribe(params => {
       this.anuvakamId = Number(params.get('anuvakamId'));
       this.mantraId = Number(params.get('mantraId'));
+      this.wordMeaningsOpen = false;
+      this.clearWordInteraction();
       this.expandedAnuvakams[this.anuvakamId] = true;
       this.loadData();
     });
@@ -217,6 +226,10 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
   @HostListener('window:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent): void {
     if (this.showEditorModal) return;
+    if (event.key === 'Escape') {
+      this.clearWordInteraction();
+      return;
+    }
     const activeEl = document.activeElement;
     if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA' || activeEl.getAttribute('contenteditable') === 'true')) {
       return;
@@ -231,6 +244,8 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
   }
 
   loadData(): void {
+    this.mantraMeaning = this.namakamService.getMantraMeaning(this.anuvakamId, this.mantraId);
+    this.linkMeaningTable({});
     this.namakamService.getMantra(this.anuvakamId, this.mantraId)
       .subscribe(m => this.correlatedMantra = m);
 
@@ -239,8 +254,14 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
       dictionary: this.namakamService.getDictionary()
     }).subscribe(({ wordAnalysis, dictionary }) => {
       this.wordAnalysis = wordAnalysis;
-      this.dictionary = dictionary;
+      this.linkMeaningTable(dictionary);
     });
+  }
+
+  private linkMeaningTable(dictionary: Dictionary): void {
+    const linked = linkMeaningWords(this.mantraMeaning?.words || [], dictionary);
+    this.meaningWords = linked.rows;
+    this.dictionary = linked.dictionary;
   }
 
   get isEditorEnabled(): boolean {
@@ -261,7 +282,7 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    if (this.hideTimeout) clearTimeout(this.hideTimeout);
+    this.clearWordInteraction();
   }
 
   get currentTokens(): Token[] {
@@ -282,7 +303,20 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     const firstId = token.word_ids[0];
     const entry = this.dictionary[String(firstId)];
     if (entry) {
-      this.selectedWord = this.selectedWord?.id === entry.id ? null : entry;
+      this.selectedWord = this.selectedWord?.id === entry.id ? null : normalizeWordDetails(entry);
+    }
+  }
+
+  onMeaningWordClick(token: Token): void {
+    this.onTokenClick(token);
+    this.hideWordTooltip();
+    if (this.panelScrollTimeout) clearTimeout(this.panelScrollTimeout);
+    if (this.selectedWord) {
+      // Wait for Angular to render the shared panel, which can be below a long table.
+      this.panelScrollTimeout = setTimeout(() => {
+        document.getElementById('word-detail-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        this.panelScrollTimeout = null;
+      });
     }
   }
 
@@ -296,7 +330,7 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     return token.word_ids.some(id => this.hoveredWordIds.has(id));
   }
 
-  onTokenMouseEnter(event: MouseEvent, token: Token): void {
+  onTokenMouseEnter(event: Event, token: Token): void {
     if (!this.isClickable(token)) return;
     if (this.hideTimeout) {
       clearTimeout(this.hideTimeout);
@@ -304,10 +338,12 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
     }
     const entry = this.dictionary[String(token.word_ids[0])];
     if (entry) {
-      this.hoveredWord = entry;
+      this.hoveredWord = normalizeWordDetails(entry);
       this.hoveredWordIds = new Set(token.word_ids);
-      const rect = (event.target as HTMLElement).getBoundingClientRect();
-      this.tooltipX = rect.left + rect.width / 2;
+      const rect = ((event.currentTarget || event.target) as HTMLElement).getBoundingClientRect();
+      const tooltipHalfWidth = Math.min(420, window.innerWidth - 32) / 2;
+      this.tooltipX = Math.max(tooltipHalfWidth + 16,
+        Math.min(rect.left + rect.width / 2, window.innerWidth - tooltipHalfWidth - 16));
       const spaceAbove = rect.top;
       const spaceBelow = window.innerHeight - rect.bottom;
       if (spaceAbove > 200 || spaceAbove > spaceBelow) {
@@ -317,6 +353,8 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
         this.tooltipPosition = 'below';
         this.tooltipY = rect.bottom;
       }
+      this.tooltipMaxHeight = Math.max(0, Math.min(window.innerHeight / 2,
+        (this.tooltipPosition === 'above' ? spaceAbove : spaceBelow) - 28));
       this.tooltipVisible = true;
     }
   }
@@ -347,6 +385,21 @@ export class MantraDetailComponent implements OnInit, OnDestroy {
 
   closeWordPanel(): void {
     this.selectedWord = null;
+  }
+
+  private clearWordInteraction(): void {
+    this.hideWordTooltip();
+    if (this.panelScrollTimeout) clearTimeout(this.panelScrollTimeout);
+    this.panelScrollTimeout = null;
+    this.selectedWord = null;
+  }
+
+  private hideWordTooltip(): void {
+    if (this.hideTimeout) clearTimeout(this.hideTimeout);
+    this.hideTimeout = null;
+    this.hoveredWord = null;
+    this.hoveredWordIds = new Set();
+    this.tooltipVisible = false;
   }
 
   get commentaryData() {

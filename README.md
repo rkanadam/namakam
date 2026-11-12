@@ -57,3 +57,20 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Mantra summaries and word meanings
+
+`src/mantra-meanings.json` stores original English summary translations and simple word glosses for all 164 current mantra routes. Keys use `anuvakamId_mantraId`; each entry has `summary` and an ordered `words` array of `{ word, meaning }`. Repeated words are listed once, sandhi is separated for reading, and meaningful compounds are retained. Sanskrit word forms follow the detail page’s script selector.
+
+The summaries interpret the Sanskrit using the repository’s Sāyaṇa and Bhaṭṭa Bhāskara commentary transcriptions in `src/assets/rudradhyaya/page-*-en.txt`. They are concise study aids, not verbatim quotations from a named translator; traditional interpretations sometimes differ. The brief definitions in the tables remain independent of the legacy dictionary IDs, some of which contain misaligned meanings. Hovering, focusing or clicking a table word opens the same existing detailed dictionary analysis used in pada patha; those source analyses are not rewritten by this feature.
+
+Keep entries aligned with the passage displayed at each existing route when editing or renumbering mantras. In particular, the current website’s `10_12` contains the earth-Rudras verse; this differs from the corrected section boundary in `src/namakam.json`.
+
+Validate coverage and key translation regressions with:
+
+```bash
+node --test scripts/mantra-meanings.test.js
+npm test -- --watch=false --browsers=ChromeHeadless
+```
+
+Table word interactions match exact Sanskrit forms, with explicit spelling and split-verb links in `src/app/mantra-detail/word-meaning-links.json`. They do not infer matches from table position. `सर्वाः` (1.6) and `योः` (10.4) have no matching detailed entry; the UI shows their brief definition with an availability note. Clicking opens and scrolls to the shared detail panel; keyboard focus opens the tooltip, Enter/Space activates the button, and Escape dismisses word details.
